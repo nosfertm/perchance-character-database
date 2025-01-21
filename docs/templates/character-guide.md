@@ -12,9 +12,13 @@ Each character folder must contain:
 {
   "name": "Character Name",
   "description": "Brief description",
-  "author": "Your GitHub username",
+  "author": "Your pseudonym",
+  "link": "Character's link for perchance ai-chat",
   "tags": ["tag1", "tag2"],
-  "rating": "sfw",
+  "rating": "sfw/nsfw",
   "generator": "ai-character-chat",
-  "version": "1.0.0"
+  "downloads": "Counter of downloads",
+  "version": "1.0.0",
+  "last-update": "2025/01/01 00:00:00",
+  "last-changes": "A brief description of what was updated in the character"
 }
