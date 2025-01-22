@@ -3,6 +3,8 @@
 This directory contains all characters contributed for the AI Character Chat generator on Perchance.org.
 
 ## Directory Structure
+- `_ShapeShifter/` - A character to browse the database and transform into the selected character directly from inside [perchance](https://perchance.org/ai-character-chat)
+- `_Template/` - An example character folder
 - `sfw/` - Safe for work characters
 - `nsfw/` - Not safe for work characters (Adult content)
 
