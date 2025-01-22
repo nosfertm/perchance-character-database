@@ -1,6 +1,6 @@
 name: 🚨 Report Content
 description: Report content that violates the rules or laws
-labels: ["illegal-content", "report"]
+labels: ["report"]
 body:
   - type: markdown
     attributes:
@@ -18,22 +18,22 @@ body:
     attributes:
       label: Select the type of content being reported
       options:
-        - "Character"
-        - "Lorebook"
-        - "Perchance Content"
-        - "Other (Please specify)"
+        - label: "Character"
+        - label: "Lorebook"
+        - label: "Perchance Content"
+        - label: "Other (Please specify)"
   - type: checkboxes
     id: illegal_reason
     attributes:
       label: Select the reason for reporting the content
       options:
-        - "Child Exploitation"
-        - "Intellectual Property Infringement"
-        - "Piracy/Unauthorized Sharing"
-        - "Fraudulent Activity"
-        - "Hacking/Unauthorized Access"
-        - "Hate Speech or Incitement to Violence"
-        - "Other (Please describe)"
+        - label: "Child Exploitation"
+        - label: "Intellectual Property Infringement"
+        - label: "Piracy/Unauthorized Sharing"
+        - label: "Fraudulent Activity"
+        - label: "Hacking/Unauthorized Access"
+        - label: "Hate Speech or Incitement to Violence"
+        - label: "Other (Please describe)"
   - type: textarea
     id: description
     attributes:
@@ -60,8 +60,9 @@ body:
     attributes:
       label: "Do you agree to the above terms?"
       options:
-        - "Yes"
+        - label: "Yes"
   - type: markdown
     attributes:
       value: |
         Thank you for reporting this issue. We will review your submission and get back to you as soon as possible.
+
