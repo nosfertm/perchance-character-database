@@ -25,6 +25,7 @@ body:
         - Lorebook
         - Perchance Content
         - Other (Please specify)
+      default: 0
     validations:
       required: true
   - type: input
@@ -77,9 +78,10 @@ body:
   - type: checkboxes
     id: submit_confirmation
     attributes:
-      label: "Confirmation"
+      label: "Acknowledgment and confirmation"
       options:
-        - label: "I confirm that the information provided is accurate to the best of my knowledge."
+        - label: "I confirm that the information I have provided is accurate to the best of my knowledge."
+        - label: "I understand that for the content to be removed, it must be in violation of a law or a rule (either internal repository rules or Perchance policies)."
     validations:
       required: true
   - type: markdown
