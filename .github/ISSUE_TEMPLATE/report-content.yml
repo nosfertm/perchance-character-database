@@ -21,7 +21,6 @@ body:
       label: "Select the type of content being reported"
       description: "Choose the type of content or select 'Other' if it doesn't fit the available options."
       options:
-        - None
         - Character
         - Lorebook
         - Perchance Content
