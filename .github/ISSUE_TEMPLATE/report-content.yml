@@ -72,7 +72,7 @@ body:
     attributes:
       label: "I confirm that the information provided is accurate to the best of my knowledge."
       options:
-        - I agree
+        - label: I agree
     validations:
       required: true
   - type: markdown
