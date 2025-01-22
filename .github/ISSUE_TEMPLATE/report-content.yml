@@ -35,9 +35,9 @@ body:
       required: false
   - type: dropdown
     id: report_reason
-    multiple: true
     attributes:
       label: Select the reason for reporting the content
+      multiple: true
       options:
         - Child Exploitation
         - Intellectual Property Infringement
