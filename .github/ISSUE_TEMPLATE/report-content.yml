@@ -1,19 +1,20 @@
 name: 🚨 Report Content
 description: Report content that violates the rules or laws
+title: "[Report] "
 labels: ["report"]
 body:
   - type: markdown
     attributes:
       value: |
         Please fill out the sections below to help us identify and review the reported illegal content.
-  - type: textarea
+  - type: input
     id: content_link
     attributes:
       label: Provide the link to the reported content
       placeholder: Enter the URL or direct reference to the content being reported
     validations:
       required: true
-  - type: checkboxes
+  - type: dropdown
     id: content_type
     attributes:
       label: Select the type of content being reported
@@ -22,6 +23,13 @@ body:
         - label: "Lorebook"
         - label: "Perchance Content"
         - label: "Other (Please specify)"
+  - type: input
+    id: other_content_type
+    attributes:
+      label: "Specify the content type"
+      placeholder: Enter a description if you selected 'Other'
+    validations:
+      required: false
   - type: checkboxes
     id: illegal_reason
     attributes:
@@ -37,8 +45,9 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: Provide a detailed description of why this content is considered illegal
-      placeholder: Explain the situation in detail, providing evidence or context
+      label: Provide a description of why this content is considered illegal
+      placeholder: |
+        Describe the issue and provide details on which laws (including country-specific laws) or rules are being violated.
     validations:
       required: true
   - type: textarea
@@ -46,21 +55,14 @@ body:
     attributes:
       label: Additional information (Optional)
       placeholder: Any other relevant information that might help in the review process
-  - type: textarea
-    id: contact_info
-    attributes:
-      label: Contact information (Optional)
-      placeholder: Provide an email or method to reach you for follow-up
-  - type: markdown
-    attributes:
-      value: |
-        By submitting this report, I confirm that the information provided is accurate to the best of my knowledge. Any false or misleading reports may result in actions against my account.
-  - type: dropdown
+  - type: checkboxes
     id: submit_confirmation
     attributes:
-      label: "Do you agree to the above terms?"
+      label: "I confirm that the information provided is accurate to the best of my knowledge."
       options:
-        - label: "Yes"
+        - label: "I agree"
+    validations:
+      required: true
   - type: markdown
     attributes:
       value: |
