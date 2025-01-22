@@ -1,46 +1,27 @@
 {
-    "categories": {
-      "genre": [
-        {
-          "id": "fantasy",
-          "description": "Fantasy-themed characters"
-        },
-        {
-          "id": "scifi",
-          "description": "Science fiction characters"
-        }
-      ],
-      "type": [
-        {
-          "id": "original",
-          "description": "Original characters"
-        },
-        {
-          "id": "fanfiction",
-          "description": "Fan-created versions of existing characters"
-        }
-      ]
-    },
+  "Rating": {
+    "description": "Content maturity level",
     "tags": {
-      "sfw": [
-        {
-          "id": "friendly",
-          "description": "Friendly characters"
-        },
-        {
-          "id": "adventure",
-          "description": "Adventure-focused characters"
-        }
-      ],
-      "nsfw": [
-        {
-          "id": "adult",
-          "description": "Adult content (18+)"
-        },
-        {
-          "id": "violence",
-          "description": "Contains violent content"
-        }
-      ]
-    }
+      "general": ["SFW", "NSFW"],  
+      "nsfw": ["SFW", "NSFW"]      
+    },
+    "required": true
+  },
+  "Genre": {
+    "description": "Story type or style",
+    "tags": {
+      "general": ["Fantasy", "Horror", "Adventure", "RPG"],
+      "nsfw": ["Erotic", "Sexual Roleplay", "Fetish"]
+    },
+    "required": true
+  },
+  "Fetishes": {
+    "description": "Adult-themed interests",
+    "tags": {
+      "general": [],
+      "nsfw": ["BDSM", "Feet", "Roleplay", "Voyeurism"]
+    },
+    "required": false,
+    "nsfw_only": true
   }
+}
