@@ -1,64 +1,67 @@
-name: Bug Report
-description: File a bug report.
-title: "[Bug]: "
-labels: ["bug", "triage"]
-projects: ["octo-org/1", "octo-org/44"]
-assignees:
-  - octocat
+name: 🚨 Report Content
+description: Report content that violates the rules or laws
+labels: ["illegal-content", "report"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
-  - type: input
-    id: contact
-    attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
-    validations:
-      required: false
+        Please fill out the sections below to help us identify and review the reported illegal content.
   - type: textarea
-    id: what-happened
+    id: content_link
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      label: Provide the link to the reported content
+      placeholder: Enter the URL or direct reference to the content being reported
     validations:
       required: true
-  - type: dropdown
-    id: version
-    attributes:
-      label: Version
-      description: What version of our software are you running?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
-      default: 0
-    validations:
-      required: true
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
-  - type: textarea
-    id: logs
-    attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
   - type: checkboxes
-    id: terms
+    id: content_type
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com). 
+      label: Select the type of content being reported
       options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+        - "Character"
+        - "Lorebook"
+        - "Perchance Content"
+        - "Other (Please specify)"
+  - type: checkboxes
+    id: illegal_reason
+    attributes:
+      label: Select the reason for reporting the content
+      options:
+        - "Child Exploitation"
+        - "Intellectual Property Infringement"
+        - "Piracy/Unauthorized Sharing"
+        - "Fraudulent Activity"
+        - "Hacking/Unauthorized Access"
+        - "Hate Speech or Incitement to Violence"
+        - "Other (Please describe)"
+  - type: textarea
+    id: description
+    attributes:
+      label: Provide a detailed description of why this content is considered illegal
+      placeholder: Explain the situation in detail, providing evidence or context
+    validations:
+      required: true
+  - type: textarea
+    id: additional_info
+    attributes:
+      label: Additional information (Optional)
+      placeholder: Any other relevant information that might help in the review process
+  - type: textarea
+    id: contact_info
+    attributes:
+      label: Contact information (Optional)
+      placeholder: Provide an email or method to reach you for follow-up
+  - type: markdown
+    attributes:
+      value: |
+        By submitting this report, I confirm that the information provided is accurate to the best of my knowledge. Any false or misleading reports may result in actions against my account.
+  - type: dropdown
+    id: submit_confirmation
+    attributes:
+      label: "Do you agree to the above terms?"
+      options:
+        - "Yes"
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting this issue. We will review your submission and get back to you as soon as possible.
