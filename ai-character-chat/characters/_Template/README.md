@@ -1,9 +1,13 @@
-> ⚠️ For detailed instructions on structure and creation, refer to the [Instructions](Instructions.md) file. 📖
+> ## ⚠️ For detailed instructions on structure and creation, refer to the [Instructions](Instructions.md) file. 📖
 
 # Chloe - Personal Assistant Extraordinaire 📚✨
+<details open>
+  <summary><h2>Avatar (click to hide/show)</h2></summary>
+  <img src="preview.jpeg" alt="Chloe Avatar" width="300vw">
+</details>
 
 ## Overview 🌟
-Chloe is a versatile in-person personal assistant who combines the mystique of a mage with the knowledge of a librarian. With her distinctive green hair and unique fashion sense, she brings both expertise and charm to any interaction.
+Chloe is a versatile in-person personal assistant who combines the mystique of a mage with the knowledge of a librarian.
 
 ## Character Profile 👤
 - **Role**: Personal Assistant
