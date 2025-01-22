@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Gallery - Perchance Character Database</title>
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/acc-characters.css">
+</head>
+<body>
+    <!-- Site Header -->
+    <header class="site-header">
+        <div class="header-content">
+            <div class="left-section">
+                <a href="index.html" class="home-button" title="Return to Home">
+                    <span class="icon">🏠</span>
+                </a>
+                <h1>Character Gallery</h1>
+            </div>
+            <div class="header-controls">
+                <button id="toggleSidebar" class="control-button" title="Toggle Filters">
+                    <span class="icon">➕</span>
+                    <span>Filters</span>
+                </button>
+                <button id="clearFilters" class="control-button" title="Clear Filters" style="display: none;">
+                    <span class="icon">🗑️</span>
+                    <span>Clear</span>
+                </button>
+                <button id="themeToggle" class="control-button" title="Toggle Theme">
+                    <span class="icon">🌓</span>
+                </button>
+                <button id="refreshGallery" class="control-button" title="Refresh Gallery">
+                    <span class="icon">↻</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Sidebar Filters -->
+        <aside id="sidebar" class="sidebar">
+            <div class="sidebar-content">
+                <h3>Filter Characters</h3>
+                <div id="categoriesContainer" class="categories-container">
+                    <!-- Categories will be populated by JavaScript -->
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Gallery Content -->
+        <main class="main-content">
+            <div id="galleryGrid" class="gallery-grid">
+                <!-- Character cards will be populated by JavaScript -->
+            </div>
+        </main>
+    </div>
+
+    <!-- Character Modal View -->
+    <div id="characterModal" class="modal">
+        <div class="modal-container">
+            <div class="modal-header">
+                <h2 id="modalCharacterName"></h2>
+                <div class="modal-actions">
+                    <button id="downloadButton" class="action-button" title="Download Character">
+                        <span class="icon">⭳</span>
+                    </button>
+                    <a id="characterLink" class="action-button" target="_blank" title="Open Character Link">
+                        <span class="icon">🔗</span>
+                    </a>
+                    <a id="githubLink" class="action-button" target="_blank" title="View on GitHub">
+                        <span class="icon">📂</span>
+                    </a>
+                    <button id="closeModal" class="action-button" title="Close">
+                        <span class="icon">✕</span>
+                    </button>
+                </div>
+            </div>
+            <div class="modal-content">
+                <div class="character-image-container">
+                    <img id="modalCharacterImage" src="" alt="">
+                </div>
+                <div class="character-info">
+                    <div class="info-section">
+                        <h3>Description</h3>
+                        <p id="characterDescription"></p>
+                    </div>
+                    <div class="info-section">
+                        <h3>Details</h3>
+                        <div id="characterDetails"></div>
+                    </div>
+                    <div class="info-section">
+                        <h3>Categories</h3>
+                        <div id="characterCategories"></div>
+                    </div>
+                    <div class="info-section" id="groupSettingsSection">
+                        <h3>Group Settings</h3>
+                        <div id="groupSettings"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Loading Indicator -->
+    <div id="loadingIndicator" class="loading-indicator">
+        <div class="spinner"></div>
+        <span>Loading...</span>
+    </div>
+
+    <!-- Toast Notifications -->
+    <div id="toastContainer" class="toast-container"></div>
+
+    <!-- Scripts -->
+    <script type="module">
+        // Import required modules
+        import CONFIG from './js/config.js';
+        import { initTheme } from './js/theme.js';
+        import { initFilters } from './js/acc-characters/filters.js';
+        import { initGallery } from './js/acc-characters/display.js';
+        import { initCarousel } from './js/acc-characters/carousel.js';
+        import { showLoading, hideLoading, showToast } from './js/utils.js';
+
+        // Initialize the application
+        async function initializeApp() {
+            try {
+                showLoading();
+                
+                // Initialize theme system
+                initTheme();
+                
+                // Initialize filters panel
+                await initFilters();
+                
+                // Initialize gallery display
+                await initGallery();
+                
+                // Initialize character modal/carousel
+                initCarousel();
+                
+                hideLoading();
+            } catch (error) {
+                console.error('Failed to initialize application:', error);
+                showToast('Failed to load gallery', 'error');
+                hideLoading();
+            }
+        }
+
+        // Start the application when DOM is ready
+        document.addEventListener('DOMContentLoaded', initializeApp);
+    </script>
+</body>
+</html>

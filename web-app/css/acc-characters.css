@@ -1,0 +1,217 @@
+/* Container Layout */
+.container {
+    display: flex;
+    margin-top: var(--header-height);
+    min-height: calc(100vh - var(--header-height));
+}
+
+/* Sidebar Styles */
+.sidebar {
+    width: var(--sidebar-width);
+    background: var(--bg-secondary);
+    border-right: 1px solid var(--border-light);
+    overflow-y: auto;
+    transition: transform 0.3s ease;
+    position: fixed;
+    top: var(--header-height);
+    bottom: 0;
+    left: -var(--sidebar-width);
+    z-index: var(--z-sidebar);
+}
+
+.sidebar.active {
+    left: 0;
+}
+
+.sidebar-content {
+    padding: var(--spacing-md);
+}
+
+/* Categories and Filters */
+.categories-container {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+}
+
+.category {
+    border-radius: var(--radius-md);
+    overflow: hidden;
+}
+
+.category-header {
+    padding: var(--spacing-md);
+    background: var(--bg-tertiary);
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.category-content {
+    padding: var(--spacing-md);
+    display: none;
+}
+
+.category-content.active {
+    display: block;
+}
+
+/* Tag Checkboxes */
+.tag-checkbox {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    margin-bottom: var(--spacing-xs);
+}
+
+/* NSFW Category Styling */
+.category.nsfw-category {
+    display: none;
+}
+
+.show-nsfw .category.nsfw-category {
+    display: block;
+}
+
+/* Gallery Grid */
+.main-content {
+    flex: 1;
+    margin-left: 0;
+    transition: margin-left 0.3s ease;
+    padding: var(--spacing-md);
+}
+
+.sidebar.active + .main-content {
+    margin-left: var(--sidebar-width);
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: var(--spacing-md);
+    padding: var(--spacing-md);
+}
+
+/* Character Cards */
+.character-card {
+    position: relative;
+    background: var(--bg-secondary);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    aspect-ratio: 2/3;
+}
+
+.character-card:hover {
+    transform: scale(1.02);
+}
+
+.character-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.character-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: var(--spacing-sm);
+    background: var(--sfw-indicator);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.character-overlay.nsfw {
+    background: var(--nsfw-indicator);
+}
+
+/* Character Modal */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--modal-overlay);
+    z-index: var(--z-modal);
+    padding: var(--spacing-md);
+}
+
+.modal.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-container {
+    background: var(--bg-main);
+    border-radius: var(--radius-lg);
+    width: var(--modal-width);
+    max-height: var(--modal-height);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-header {
+    padding: var(--spacing-md);
+    border-bottom: 1px solid var(--border-light);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-actions {
+    display: flex;
+    gap: var(--spacing-sm);
+}
+
+.modal-content {
+    display: flex;
+    gap: var(--spacing-lg);
+    padding: var(--spacing-md);
+    overflow-y: auto;
+}
+
+.character-image-container {
+    flex: 1;
+    max-width: 50%;
+}
+
+.character-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+}
+
+.info-section {
+    background: var(--bg-secondary);
+    padding: var(--spacing-md);
+    border-radius: var(--radius-md);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .sidebar.active + .main-content {
+        margin-left: 0;
+    }
+
+    .modal-content {
+        flex-direction: column;
+    }
+
+    .character-image-container {
+        max-width: 100%;
+    }
+
+    .gallery-grid {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+}
