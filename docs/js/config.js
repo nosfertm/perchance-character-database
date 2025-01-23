@@ -10,7 +10,7 @@ const CONFIG = {
     // File paths
     paths: {
         // Categories configuration file path in the repository
-        categories: '/category.json',
+        categories: '/categories.json',
         
         // Base path for character folders
         charactersBase: '/ai-character-chat/characters',
