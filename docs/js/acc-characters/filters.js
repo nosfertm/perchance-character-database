@@ -15,7 +15,10 @@ const filterState = {
 export async function initFilters() {
     try {
         // Load categories from config path
-        const response = await fetch(CONFIG.paths.categories);
+        const repoURL = `https://api.github.com/repos/${CONFIG.repo.owner}/${CONFIG.repo.name}/contents`;
+        const response = await fetch(`${repoURL}/${CONFIG.paths.categories}`);
+        console.log("response",response);
+        console.log("secretToken",secrets.GITHUB_TOKEN);
         filterState.categories = await response.json();
         
         // Initialize the filter panel
