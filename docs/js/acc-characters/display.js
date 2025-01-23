@@ -3,6 +3,7 @@ import { showToast, fetchGithubData, debug } from '../utils.js';
 
 // Debug key for logging purposes
 const debugKey = CONFIG.debug?.aacCharacters?.display ?? false;
+const debugPrefix = '[DISPLAY] ';
 
 // State management for gallery
 const galleryState = {
@@ -40,7 +41,7 @@ async function loadCharacters(forceRefresh = false) {
     galleryState.loading = true;
 
     try {
-        debug(debugKey, "Loading character data...");
+        debug(debugKey, debugPrefix+"Loading character data...");
 
         const cacheConfig = CONFIG.cache.accCharacters;
         const cacheKey = cacheConfig.key;
@@ -52,9 +53,9 @@ async function loadCharacters(forceRefresh = false) {
 
         if (!forceRefresh && cachedData && isCacheValid) {
             galleryState.characters = JSON.parse(cachedData);
-            debug(debugKey, "Using cached data for characters:", galleryState.characters);
+            debug(debugKey, debugPrefix+"Using cached data for characters:", galleryState.characters);
         } else {
-            debug(debugKey, "Fetching new data for characters...\n\nReasons for not using cache:\n1. Force refresh:", forceRefresh, "\n2. Cache validity:", isCacheValid, "\n3. Cached data:", cachedData);
+            debug(debugKey, debugPrefix+"Fetching new data for characters...\n\nReasons for not using cache:\n1. Force refresh:", forceRefresh, "\n2. Cache validity:", isCacheValid, "\n3. Cached data:", cachedData);
 
             const indexData = await fetchGithubData(
                 CONFIG.repo.owner,
@@ -64,7 +65,7 @@ async function loadCharacters(forceRefresh = false) {
                 "json"
             );
 
-            debug(debugKey, "Fetched index.json data:", indexData);
+            debug(debugKey, debugPrefix+"Fetched index.json data:", indexData);
 
             if (!Array.isArray(indexData)) {
                 throw new Error("Unexpected response format: Expected an array");
@@ -83,7 +84,7 @@ async function loadCharacters(forceRefresh = false) {
             localStorage.setItem(cacheKey, JSON.stringify(characters));
             localStorage.setItem(`${cacheKey}_timestamp`, Date.now().toString());
 
-            debug(debugKey, "Fetched and stored characters data successfully:", characters);
+            debug(debugKey, debugPrefix+"Fetched and stored characters data successfully:", characters);
         }
     } catch (error) {
         console.error("Failed to load characters:", error.message);
