@@ -1,0 +1,25 @@
+{
+  "name": "Slime Character",
+  "description": "A friendly slime that can create copies of itself",
+  "author": "username",
+  "link": "https://perchance.org/ai-character-chat-slime",
+  "shapeShifter_Pulls": 0,
+  "groupSettings": {
+    "requires": [
+      {
+        "name": "Slime Clone",
+        "link": "https://perchance.org/ai-character-chat-slime-clone",
+        "reason": "Acts as a clone during split interactions"
+      }
+    ],
+    "recommends": []
+  },
+  "features": {
+    "customCode": ["custom-codes/reaction-images/code.js"],
+    "assets": ["assets/reactions/", "assets/voices/"]
+  },
+  "categories": {
+    "rating": "sfw",
+    "genre": ["fantasy", "monster"]
+  }
+}

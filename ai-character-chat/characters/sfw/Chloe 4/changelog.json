@@ -1,0 +1,31 @@
+{
+    "currentVersion": "1.2.0",
+    "created": "2025-01-01T10:00:00Z",
+    "lastUpdated": "2025-01-21T15:30:00Z",
+    "history": [
+      {
+        "version": "1.2.0",
+        "date": "2025-01-21T15:30:00Z",
+        "type": "feature",
+        "changes": [
+          "Added eleven-labs voice integration",
+          "Updated reaction images"
+        ]
+      },
+      {
+        "version": "1.1.0",
+        "date": "2025-01-10T12:00:00Z",
+        "type": "enhancement",
+        "changes": [
+          "Improved clone interaction prompts",
+          "Added more personality traits"
+        ]
+      },
+      {
+        "version": "1.0.0",
+        "date": "2025-01-01T10:00:00Z",
+        "type": "initial",
+        "changes": ["Initial release"]
+      }
+    ]
+  }
