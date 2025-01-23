@@ -107,14 +107,21 @@
     transition: transform 0.2s ease;
     aspect-ratio: 2/3;
 } */
-.character-card {
-    aspect-ratio: 2/3; /* Portrait orientation */
+/* .character-card {
+    aspect-ratio: 2/3; 
     position: relative;
     overflow: hidden;
     border-radius: var(--radius-md);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
+} */
+.character-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
+
 
 .character-card:hover {
     transform: scale(1.05);
@@ -163,10 +170,10 @@
     background-color: rgba(255, 0, 0, 0.7); /* Red with transparency for NSFW */
 }
 
-.card-actions {
+/* .card-actions {
     display: flex;
     gap: var(--spacing-sm);
-}
+} */
 
 .card-button {
     background: rgba(255, 255, 255, 0.2);
@@ -183,6 +190,57 @@
 
 .card-button:hover {
     background: rgba(255, 255, 255, 0.4);
+}
+
+.card-image-container {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 3/4; /* Portrait mode */
+}
+
+.card-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.card-actions {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.card-actions button {
+    background: rgba(255,255,255,0.7);
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.card-footer {
+    text-align: center;
+    padding: 5px;
+    background: rgba(0,0,0,0.6);
+    color: white;
 }
 
 /* Character Modal */
