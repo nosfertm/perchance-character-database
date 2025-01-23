@@ -145,17 +145,6 @@
     object-fit: cover;
 }
 
-/* .character-overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding: var(--spacing-sm);
-    background: var(--sfw-indicator);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-} */
 .character-overlay {
     position: absolute;
     bottom: 0;
@@ -165,15 +154,14 @@
     justify-content: space-between;
     align-items: center;
     padding: var(--spacing-sm);
-    background-color: rgba(0, 0, 255, 0.7); /* Blue with transparency for SFW */
+    background-color: rgba(48, 105, 197, 0.48); /* Blue with transparency for SFW */
     color: white;
 }
-
-/* .character-overlay.nsfw {
-    background: var(--nsfw-indicator);
-} */
+.character-overlay.sfw {
+    background-color: rgba(48, 105, 197, 0.5); /* Blue with transparency for SFW */
+}
 .character-overlay.nsfw {
-    background-color: rgba(255, 0, 0, 0.7); /* Red with transparency for NSFW */
+    background-color: rgba(255, 0, 0, 0.5); /* Red with transparency for NSFW */
 }
 
 /* .card-actions {
