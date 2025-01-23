@@ -86,22 +86,11 @@
     margin-left: var(--sidebar-width);
 }
 
-/* .gallery-grid {
+.gallery-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: var(--spacing-md);
     padding: var(--spacing-md);
-} */
-/* .gallery-grid {
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); Adjusted for portrait mode 
-    gap: var(--spacing-lg);  Increased spacing 
-} */
-
-.gallery-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: var(--spacing);
-    padding: var(--spacing);
 }
 
 /* Character Cards */
@@ -210,7 +199,7 @@
 /* .card-image-container {
     position: relative;
     width: 10%;
-    aspect-ratio: 3/4; /* Portrait mode */
+    aspect-ratio: 3/4; 
 } */
 .card-image-container {
     position: relative;
@@ -346,8 +335,4 @@
     .character-image-container {
         max-width: 100%;
     }
-
-    /* .gallery-grid {
-        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    } */
 }
