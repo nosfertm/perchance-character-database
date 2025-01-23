@@ -37,15 +37,12 @@ async function loadCharacters() {
     
     try {
         // Get SFW characters
-        const repoURL = `https://api.github.com/repos/${CONFIG.repo.owner}/${CONFIG.repo.name}/contents`;
-        const sfwPath = `${repoURL}/${CONFIG.paths.charactersBase}/${CONFIG.paths.characterTypes.sfw}`;
-        const sfwCharacters = await loadCharactersFromGitHub(sfwPath, 'sfw');
-        console.log("sfwCharacters",sfwCharacters);
-
+        const sfwPath = `${CONFIG.paths.charactersBase}/${CONFIG.paths.characterTypes.sfw}`;
+        const sfwCharacters = await loadCharactersFromPath(sfwPath, 'sfw');
+        
         // Get NSFW characters
-        const nsfwPath = `${repoURL}/${CONFIG.paths.charactersBase}/${CONFIG.paths.characterTypes.nsfw}`;
-        const nsfwCharacters = await loadCharactersFromGitHub(nsfwPath, 'nsfw');
-        console.log("nsfwCharacters",nsfwCharacters);
+        const nsfwPath = `${CONFIG.paths.charactersBase}/${CONFIG.paths.characterTypes.nsfw}`;
+        const nsfwCharacters = await loadCharactersFromPath(nsfwPath, 'nsfw');
         
         galleryState.characters = [...sfwCharacters, ...nsfwCharacters];
         
@@ -56,83 +53,6 @@ async function loadCharacters() {
         galleryState.loading = false;
     }
 }
-
-// /**
-//  * Load character data from repository
-//  * @returns {Promise<void>}
-//  */
-// async function loadCharacters() {
-//     galleryState.loading = true;
-    
-//     try {
-//         // Get SFW characters
-//         const sfwPath = `${CONFIG.paths.charactersBase}/${CONFIG.paths.characterTypes.sfw}`;
-//         const sfwCharacters = await loadCharactersFromPath(sfwPath, 'sfw');
-        
-//         // Get NSFW characters
-//         const nsfwPath = `${CONFIG.paths.charactersBase}/${CONFIG.paths.characterTypes.nsfw}`;
-//         const nsfwCharacters = await loadCharactersFromPath(nsfwPath, 'nsfw');
-        
-//         galleryState.characters = [...sfwCharacters, ...nsfwCharacters];
-        
-//     } catch (error) {
-//         console.error('Failed to load characters:', error);
-//         showToast('Error loading characters', 'error');
-//     } finally {
-//         galleryState.loading = false;
-//     }
-// }
-
-/**
- * Load characters from a GitHub repository
- * @param {string} repoURL - GitHub API repository URL
- * @param {string} type - Type of characters (sfw/nsfw)
- * @returns {Promise<Array>} Array of character data
- */
-async function loadCharactersFromGitHub(repoURL, type) {
-    try {
-        // Fetch character directories from the repository via GitHub API
-        const response = await fetch(repoURL);
-        if (!response.ok) throw new Error(`Failed to fetch data: ${response.status}`);
-        
-        const items = await response.json();
-        
-        // Filter only directories (ignore files)
-        const directories = items.filter(item => item.type === "dir");
-
-        const characters = await Promise.all(
-            directories.map(async (dir) => {
-                const manifestResponse = await fetch(`${dir.url}/manifest.json`);
-                const manifest = manifestResponse.ok ? await manifestResponse.json() : {};
-
-                // Fetch preview image (jpg, jpeg, png)
-                const imageFormats = ['jpg', 'jpeg', 'png'];
-                let previewImage = null;
-
-                for (const format of imageFormats) {
-                    const imageResponse = await fetch(`${dir.url}/preview.${format}`);
-                    if (imageResponse.ok) {
-                        previewImage = `${dir.download_url}/preview.${format}`;
-                        break;
-                    }
-                }
-
-                return {
-                    ...manifest,
-                    path: dir.path,
-                    preview: previewImage || 'default-preview.png', // Default image if not found
-                    type: type
-                };
-            })
-        );
-
-        return characters;
-    } catch (error) {
-        console.error(`Failed to load ${type} characters:`, error);
-        return [];
-    }
-}
-
 
 /**
  * Load characters from a specific path
@@ -165,6 +85,86 @@ async function loadCharactersFromPath(path, type) {
         return [];
     }
 }
+
+// /**
+//  * Load character data from repository
+//  * @returns {Promise<void>}
+//  */
+// async function loadCharacters() {
+//     galleryState.loading = true;
+    
+//     try {
+//         // Get SFW characters
+//         const repoURL = `https://api.github.com/repos/${CONFIG.repo.owner}/${CONFIG.repo.name}/contents`;
+//         const sfwPath = `${repoURL}/${CONFIG.paths.charactersBase}/${CONFIG.paths.characterTypes.sfw}`;
+//         const sfwCharacters = await loadCharactersFromGitHub(sfwPath, 'sfw');
+//         console.log("sfwCharacters",sfwCharacters);
+
+//         // Get NSFW characters
+//         const nsfwPath = `${repoURL}/${CONFIG.paths.charactersBase}/${CONFIG.paths.characterTypes.nsfw}`;
+//         const nsfwCharacters = await loadCharactersFromGitHub(nsfwPath, 'nsfw');
+//         console.log("nsfwCharacters",nsfwCharacters);
+        
+//         galleryState.characters = [...sfwCharacters, ...nsfwCharacters];
+        
+//     } catch (error) {
+//         console.error('Failed to load characters:', error);
+//         showToast('Error loading characters', 'error');
+//     } finally {
+//         galleryState.loading = false;
+//     }
+// }
+
+// /**
+//  * Load characters from a GitHub repository
+//  * @param {string} repoURL - GitHub API repository URL
+//  * @param {string} type - Type of characters (sfw/nsfw)
+//  * @returns {Promise<Array>} Array of character data
+//  */
+// async function loadCharactersFromGitHub(repoURL, type) {
+//     try {
+//         // Fetch character directories from the repository via GitHub API
+//         const response = await fetch(repoURL);
+//         if (!response.ok) throw new Error(`Failed to fetch data: ${response.status}`);
+        
+//         const items = await response.json();
+        
+//         // Filter only directories (ignore files)
+//         const directories = items.filter(item => item.type === "dir");
+
+//         const characters = await Promise.all(
+//             directories.map(async (dir) => {
+//                 const manifestResponse = await fetch(`${dir.url}/manifest.json`);
+//                 const manifest = manifestResponse.ok ? await manifestResponse.json() : {};
+
+//                 // Fetch preview image (jpg, jpeg, png)
+//                 const imageFormats = ['jpg', 'jpeg', 'png'];
+//                 let previewImage = null;
+
+//                 for (const format of imageFormats) {
+//                     const imageResponse = await fetch(`${dir.url}/preview.${format}`);
+//                     if (imageResponse.ok) {
+//                         previewImage = `${dir.download_url}/preview.${format}`;
+//                         break;
+//                     }
+//                 }
+
+//                 return {
+//                     ...manifest,
+//                     path: dir.path,
+//                     preview: previewImage || 'default-preview.png', // Default image if not found
+//                     type: type
+//                 };
+//             })
+//         );
+
+//         return characters;
+//     } catch (error) {
+//         console.error(`Failed to load ${type} characters:`, error);
+//         return [];
+//     }
+// }
+
 
 /**
  * Set up gallery event listeners

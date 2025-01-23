@@ -17,8 +17,8 @@ export async function initFilters() {
         // Load categories from config path
         const repoURL = `https://api.github.com/repos/${CONFIG.repo.owner}/${CONFIG.repo.name}/contents`;
         const response = await fetch(`${repoURL}/${CONFIG.paths.categories}`);
-        console.log("response",response);
         filterState.categories = await response.json();
+        console.log("filterState.categories",filterState.categories);
         
         // Initialize the filter panel
         renderFilterPanel();
