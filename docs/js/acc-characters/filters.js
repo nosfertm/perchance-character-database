@@ -1,5 +1,5 @@
 import CONFIG from '../config.js';
-import { showToast } from '../utils.js';
+import { showToast, fetchGithubData } from '../utils.js';
 
 // State management for filters
 const filterState = {
@@ -16,40 +16,41 @@ export async function initFilters() {
     try {
         // Log 1 - Início da execução da função
         console.log("1 - Initializing filter system...");
-
-        // Load categories from config path
-        const repoURL = `https://api.github.com/repos/${CONFIG.repo.owner}/${CONFIG.repo.name}/contents`;
-        console.log("2 - Fetching categories from URL:", `${repoURL}/${CONFIG.paths.categories}`);
-
-        const response = await fetch(`${repoURL}/${CONFIG.paths.categories}`);
-
-        // Log 2 - Resposta da API
-        console.log("3 - GitHub API response:", response);
-
-        // Parse response
-        filterState.categories = await response.json();
-
-        // Log 3 - Dados obtidos da resposta
-        console.log("4 - Categories data:", filterState.categories);
         
-        // Check if the data is structured as expected
-        if (!filterState.categories || typeof filterState.categories !== 'object') {
+        // Usar fetchGithubData para buscar e processar categorias
+        // Passando o branch como 'sketch' e outputFormat como 'json'
+        const categories = await fetchGithubData(
+            CONFIG.repo.owner, 
+            CONFIG.repo.name, 
+            CONFIG.paths.categories, 
+            CONFIG.repo.branch, // Usando o branch 'sketch'
+            "json"    // Queremos os dados em formato JSON
+        );
+        
+        // Log 3 - Dados obtidos da resposta
+        console.log("4 - Categories data:", categories);
+
+        // Verifica se os dados têm a estrutura correta
+        if (!categories || typeof categories !== 'object') {
             throw new Error('Invalid structure for categories data');
         }
         
-        // Initialize the filter panel
+        // Atualize o estado das categorias no filterState
+        filterState.categories = categories;
+        
+        // Inicializa o painel de filtros
         renderFilterPanel();
 
         // Log 4 - Inicializando painel de filtros
         console.log("5 - Rendering filter panel");
 
-        // Set up event listeners
+        // Configura os eventos dos filtros
         setupFilterEvents();
 
         // Log 5 - Configurando eventos
         console.log("6 - Setting up filter events");
 
-        // Initialize filter state
+        // Inicializa o estado do filtro
         initializeDefaultFilters();
         
         // Log 6 - Finalização da inicialização
@@ -60,6 +61,60 @@ export async function initFilters() {
         showToast('Failed to load filters', 'error');
     }
 }
+
+
+// /**
+//  * Initialize the filter system
+//  * @returns {Promise<void>}
+//  */
+// export async function initFilters() {
+//     try {
+//         // Log 1 - Início da execução da função
+//         console.log("1 - Initializing filter system...");
+
+//         // Load categories from config path
+//         const repoURL = `https://api.github.com/repos/${CONFIG.repo.owner}/${CONFIG.repo.name}/contents`;
+//         console.log("2 - Fetching categories from URL:", `${repoURL}/${CONFIG.paths.categories}`);
+
+//         const response = await fetch(`${repoURL}/${CONFIG.paths.categories}`);
+
+//         // Log 2 - Resposta da API
+//         console.log("3 - GitHub API response:", response);
+
+//         // Parse response
+//         filterState.categories = await response.json();
+
+//         // Log 3 - Dados obtidos da resposta
+//         console.log("4 - Categories data:", filterState.categories);
+        
+//         // Check if the data is structured as expected
+//         if (!filterState.categories || typeof filterState.categories !== 'object') {
+//             throw new Error('Invalid structure for categories data');
+//         }
+        
+//         // Initialize the filter panel
+//         renderFilterPanel();
+
+//         // Log 4 - Inicializando painel de filtros
+//         console.log("5 - Rendering filter panel");
+
+//         // Set up event listeners
+//         setupFilterEvents();
+
+//         // Log 5 - Configurando eventos
+//         console.log("6 - Setting up filter events");
+
+//         // Initialize filter state
+//         initializeDefaultFilters();
+        
+//         // Log 6 - Finalização da inicialização
+//         console.log("7 - Filters initialized successfully");
+
+//     } catch (error) {
+//         console.error('Failed to initialize filters:', error);
+//         showToast('Failed to load filters', 'error');
+//     }
+// }
 
 /**
  * Render the filter panel with all categories
