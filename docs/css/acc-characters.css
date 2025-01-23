@@ -17,10 +17,12 @@
     bottom: 0;
     left: -var(--sidebar-width);
     z-index: var(--z-sidebar);
+    display: none;
 }
 
 .sidebar.active {
     left: 0;
+    display: block;
 }
 
 .sidebar-content {
@@ -253,6 +255,8 @@
     padding: 5px;
     background: rgba(0,0,0,0.6);
     color: white;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 
 /* Character Modal */
