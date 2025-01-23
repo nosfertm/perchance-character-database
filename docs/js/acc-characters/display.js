@@ -24,6 +24,12 @@ async function initGallery() {
         // Load initial character data
         await loadCharacters();
         
+        // Initial filtering with default SFW setting
+        filterCharacters(
+            { Rating: ['SFW'] },  // Default to showing only SFW characters
+            false  // NSFW disabled by default
+        );
+        
         // Render the gallery
         renderGallery();
     } catch (error) {
@@ -165,48 +171,52 @@ function renderGallery() {
  */
 export function createCharacterCard(character) {
     const card = document.createElement('div');
-    card.className = `character-card ${character.manifest.categories.rating}`;
+    card.classList.add('character-card');
+    
+    // Determine color based on rating
+    const ratingColor = character.type === 'sfw' ? 'rgba(0, 0, 255, 0.5)' : 'rgba(255, 0, 0, 0.5)';
     
     // Truncate character name
-    const name = truncateString(character.manifest.name, CONFIG.ui.truncateNameLength);
-    
-    // Determine if download and link buttons should be shown
-    const hasDownloadLink = character.downloadLink && character.downloadLink.trim() !== '';
-    const hasShareLink = character.manifest.shareLink && character.manifest.shareLink.trim() !== '';
+    const truncatedName = character.name.length > 15 
+        ? character.name.substring(0, 15) + '...' 
+        : character.name;
     
     card.innerHTML = `
         <div class="card-image-container">
-            <img src="${character.manifest.characterAvatar}" alt="${character.manifest.name}" loading="lazy">
-            <div class="character-overlay ${character.manifest.categories.rating}">
-                <span class="character-name">${name}</span>
-                <div class="card-actions">
-                    ${hasDownloadLink ? `
-                        <button class="card-button download-button" title="Download Character">⭳</button>
-                    ` : ''}
-                    ${hasShareLink ? `
-                        <button class="card-button link-button" title="Open Character Link">🔗</button>
-                    ` : ''}
-                </div>
+            <img src="${character.characterAvatar}" alt="${character.name}">
+            <div class="card-overlay" style="background-color: ${ratingColor}"></div>
+            <div class="card-actions">
+                ${character.downloadLink ? `
+                    <button class="download-btn" data-download-link="${character.downloadLink}">
+                        ⭳
+                    </button>
+                ` : ''}
+                ${character.shareLink ? `
+                    <button class="link-btn" data-share-link="${character.shareLink}">
+                        🔗
+                    </button>
+                ` : ''}
             </div>
+        </div>
+        <div class="card-footer">
+            ${truncatedName}
         </div>
     `;
     
     // Add event listeners for download and link buttons
-    if (hasDownloadLink) {
-        card.querySelector('.download-button').addEventListener('click', (e) => {
-            e.stopPropagation();
-            downloadCharacter(character);
+    const downloadBtn = card.querySelector('.download-btn');
+    if (downloadBtn) {
+        downloadBtn.addEventListener('click', () => downloadCharacter(character));
+    }
+    
+    const linkBtn = card.querySelector('.link-btn');
+    if (linkBtn) {
+        linkBtn.addEventListener('click', () => {
+            window.open(linkBtn.dataset.shareLink, '_blank');
         });
     }
     
-    if (hasShareLink) {
-        card.querySelector('.link-button').addEventListener('click', (e) => {
-            e.stopPropagation();
-            window.open(character.manifest.shareLink, '_blank');
-        });
-    }
-    
-    // Existing character selection event
+    // Add click event to open character details
     card.addEventListener('click', () => {
         const event = new CustomEvent('showCharacter', { 
             detail: { character } 
