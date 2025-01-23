@@ -12,7 +12,7 @@ const galleryState = {
  * Initialize the gallery display
  * @returns {Promise<void>}
  */
-export async function initGallery() {
+async function initGallery() {
     try {
         // Set up event listeners
         setupGalleryEvents();
