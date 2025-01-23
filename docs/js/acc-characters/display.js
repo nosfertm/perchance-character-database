@@ -162,38 +162,51 @@ function renderGallery() {
  * @param {Object} character - Character data
  * @returns {HTMLElement} The character card element
  */
-function createCharacterCard(character) {
+export function createCharacterCard(character) {
     const card = document.createElement('div');
-    card.className = `character-card ${character.type}`;
+    card.className = `character-card ${character.manifest.categories.rating}`;
     
-    const name = truncateString(character.name, 20);
+    // Truncate character name
+    const name = truncateString(character.manifest.name, CONFIG.ui.truncateNameLength);
+    
+    // Determine if download and link buttons should be shown
+    const hasDownloadLink = character.downloadLink && character.downloadLink.trim() !== '';
+    const hasShareLink = character.manifest.shareLink && character.manifest.shareLink.trim() !== '';
     
     card.innerHTML = `
         <div class="card-image-container">
-            <img src="${character.path}/preview.jpg" alt="${character.name}" loading="lazy">
-            <div class="card-overlay ${character.type}">
+            <img src="${character.manifest.characterAvatar}" alt="${character.manifest.name}" loading="lazy">
+            <div class="character-overlay ${character.manifest.categories.rating}">
                 <span class="character-name">${name}</span>
                 <div class="card-actions">
-                    <button class="card-button download-button" title="Download Character">⭳</button>
-                    <button class="card-button link-button" title="Open Character Link">🔗</button>
+                    ${hasDownloadLink ? `
+                        <button class="card-button download-button" title="Download Character">⭳</button>
+                    ` : ''}
+                    ${hasShareLink ? `
+                        <button class="card-button link-button" title="Open Character Link">🔗</button>
+                    ` : ''}
                 </div>
             </div>
         </div>
     `;
     
-    // Add event listeners
-    card.querySelector('.download-button').addEventListener('click', (e) => {
-        e.stopPropagation();
-        downloadCharacter(character);
-    });
+    // Add event listeners for download and link buttons
+    if (hasDownloadLink) {
+        card.querySelector('.download-button').addEventListener('click', (e) => {
+            e.stopPropagation();
+            downloadCharacter(character);
+        });
+    }
     
-    card.querySelector('.link-button').addEventListener('click', (e) => {
-        e.stopPropagation();
-        window.open(character.link, '_blank');
-    });
+    if (hasShareLink) {
+        card.querySelector('.link-button').addEventListener('click', (e) => {
+            e.stopPropagation();
+            window.open(character.manifest.shareLink, '_blank');
+        });
+    }
     
+    // Existing character selection event
     card.addEventListener('click', () => {
-        // Dispatch event for carousel/modal
         const event = new CustomEvent('showCharacter', { 
             detail: { character } 
         });
@@ -207,16 +220,20 @@ function createCharacterCard(character) {
  * Download character files
  * @param {Object} character - Character data
  */
-async function downloadCharacter(character) {
+export async function downloadCharacter(character) {
     try {
-        const response = await fetch(`${character.path}/character.zip`);
+        if (!character.downloadLink) {
+            showToast('No download link available', 'warning');
+            return;
+        }
+        
+        const response = await fetch(character.downloadLink);
         const blob = await response.blob();
         
-        // Create download link
         const url = window.URL.createObjectURL(blob);
         const a = document.createElement('a');
         a.href = url;
-        a.download = `${character.name}.zip`;
+        a.download = `${character.manifest.name}.zip`;
         document.body.appendChild(a);
         a.click();
         document.body.removeChild(a);

@@ -19,25 +19,56 @@ export function initCarousel() {
  * Show character details in the carousel modal
  * @param {Object} character - Character data
  */
-async function showCharacterDetails(character) {
-    currentCharacter = character;
-    showLoading();
-
+export async function showCharacterDetails(character) {
     try {
-        const manifest = await loadManifest(character.path);
-
-        document.getElementById('modalCharacterName').textContent = manifest.name;
-        document.getElementById('modalCharacterImage').src = `${character.path}/preview.jpg`;
-        document.getElementById('characterDescription').textContent = manifest.description;
-        document.getElementById('characterDetails').innerHTML = generateDetailsHTML(manifest);
+        showLoading();
         
-        document.getElementById('characterLink').href = manifest.link;
-        document.getElementById('githubLink').href = `${CONFIG.repoBase}/${character.path}`;
+        // Update modal content
+        document.getElementById('modalCharacterName').textContent = character.manifest.name;
+        document.getElementById('modalCharacterImage').src = character.manifest.characterAvatar;
+        document.getElementById('characterDescription').textContent = character.manifest.description;
         
-        setupDownloadButton(character);
+        // Character details
+        const detailsHtml = `
+            <p><strong>Author:</strong> ${character.manifest.author}</p>
+            <p><strong>ShapeShifter Pulls:</strong> ${character.manifest.shapeShifter_Pulls || 0}</p>
+            <p><strong>Categories:</strong> ${Object.entries(character.manifest.categories)
+                .map(([key, value]) => `${key}: ${value}`).join(', ')}</p>
+        `;
+        document.getElementById('characterDetails').innerHTML = detailsHtml;
+        
+        // Action buttons
+        const downloadButton = document.getElementById('downloadButton');
+        const characterLinkButton = document.getElementById('characterLink');
+        const githubLinkButton = document.getElementById('githubLink');
+        
+        // Download button
+        if (character.downloadLink) {
+            downloadButton.style.display = 'block';
+            downloadButton.onclick = () => downloadCharacter(character);
+        } else {
+            downloadButton.style.display = 'none';
+        }
+        
+        // Character link
+        if (character.manifest.shareLink) {
+            characterLinkButton.href = character.manifest.shareLink;
+            characterLinkButton.style.display = 'block';
+        } else {
+            characterLinkButton.style.display = 'none';
+        }
+        
+        // GitHub link
+        const githubBaseUrl = `https://github.com/${CONFIG.repo.owner}/${CONFIG.repo.name}/tree/${CONFIG.repo.branch}`;
+        const characterPath = character.path.replace(`https://github.com/${CONFIG.repo.owner}/${CONFIG.repo.name}/blob/${CONFIG.repo.branch}/`, '');
+        
+        githubLinkButton.href = `${githubBaseUrl}/${characterPath}`;
+        
+        // Show modal
         document.getElementById('characterModal').style.display = 'flex';
+        
     } catch (error) {
-        console.error('Failed to load character manifest:', error);
+        console.error('Failed to load character details:', error);
         showToast('Failed to load character details', 'error');
     } finally {
         hideLoading();
@@ -107,4 +138,30 @@ function setupDownloadButton(character) {
             hideLoading();
         }
     };
+}
+
+export async function downloadCharacter(character) {
+    try {
+        if (!character.downloadLink) {
+            showToast('No download link available', 'warning');
+            return;
+        }
+        
+        const response = await fetch(character.downloadLink);
+        const blob = await response.blob();
+        
+        const url = window.URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `${character.manifest.name}.zip`;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        window.URL.revokeObjectURL(url);
+        
+        showToast('Character downloaded successfully');
+    } catch (error) {
+        console.error('Failed to download character:', error);
+        showToast('Failed to download character', 'error');
+    }
 }

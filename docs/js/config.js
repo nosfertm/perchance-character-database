@@ -37,12 +37,19 @@ const CONFIG = {
     // Debug settings for logging
     debug: {
         aacCharacters: { 
-            "filters": true,   // Enable log for 'filters'
-            "display": false   // Enable log for 'display'
+            "filters": true,    // Enable log for 'filters'
+            "display": false,   // Enable log for 'display'
+            "gallery": true     // Enable log for 'gallery'
         },
         lorebooks: false
     },
     
+    // UI Configuration
+    ui: {
+        galleryMode: 'portrait', // Configuration for gallery display mode
+        truncateNameLength: 15  // Maximum character name length in gallery
+    },
+
     // Site navigation
     navigation: {
         home: '/index.html',

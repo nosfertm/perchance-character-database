@@ -86,15 +86,19 @@
     margin-left: var(--sidebar-width);
 }
 
-.gallery-grid {
+/* .gallery-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: var(--spacing-md);
     padding: var(--spacing-md);
+} */
+.gallery-grid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adjusted for portrait mode */
+    gap: var(--spacing-lg); /* Increased spacing */
 }
 
 /* Character Cards */
-.character-card {
+/* .character-card {
     position: relative;
     background: var(--bg-secondary);
     border-radius: var(--radius-md);
@@ -102,10 +106,24 @@
     cursor: pointer;
     transition: transform 0.2s ease;
     aspect-ratio: 2/3;
+} */
+.character-card {
+    aspect-ratio: 2/3; /* Portrait orientation */
+    position: relative;
+    overflow: hidden;
+    border-radius: var(--radius-md);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
 }
 
 .character-card:hover {
-    transform: scale(1.02);
+    transform: scale(1.05);
+}
+
+.character-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .character-image {
@@ -114,7 +132,7 @@
     object-fit: cover;
 }
 
-.character-overlay {
+/* .character-overlay {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -124,10 +142,47 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+} */
+.character-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--spacing-sm);
+    background-color: rgba(0, 0, 255, 0.7); /* Blue with transparency for SFW */
+    color: white;
 }
 
-.character-overlay.nsfw {
+/* .character-overlay.nsfw {
     background: var(--nsfw-indicator);
+} */
+.character-overlay.nsfw {
+    background-color: rgba(255, 0, 0, 0.7); /* Red with transparency for NSFW */
+}
+
+.card-actions {
+    display: flex;
+    gap: var(--spacing-sm);
+}
+
+.card-button {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.card-button:hover {
+    background: rgba(255, 255, 255, 0.4);
 }
 
 /* Character Modal */
