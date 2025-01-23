@@ -2,9 +2,9 @@
 const CONFIG = {
     // Repository information
     repo: {
-        owner: 'your-username',
+        owner: 'nosfertm',
         name: 'perchance-character-database',
-        branch: 'main'
+        branch: 'sketch'
     },
     
     // File paths
