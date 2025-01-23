@@ -58,7 +58,19 @@ async function loadCharacters(forceRefresh = false) {
             // Fetch new data from GitHub
             console.log("Fetching new data for characters...\n\nReasons for not using cache:\n1. Force refresh:",forceRefresh,"\n2. Cache validity:",isCacheValid,"\n3. Cached data:",cachedData);
             const response = await fetch(indexPath);
+            
+            if (!response.ok) {
+                throw new Error(`Failed to fetch: ${response.status} ${response.statusText}`);
+            }
+            
             const indexData = await response.json();
+
+            console.log("Fetched index.json data:", indexData);
+
+            if (!Array.isArray(indexData)) {
+                throw new Error("Unexpected response format: Expected an array");
+            }
+            
 
             // Transform data to match the original output format
             const characters = indexData.map((item) => ({

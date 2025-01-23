@@ -10,12 +10,12 @@ const CONFIG = {
     // File paths organized by feature/page
     paths: {
         accCharacters: {
-            index: '/ai-character-chat/characters/index.json'
+            index: 'ai-character-chat/characters/index.json'
         },
         lorebooks: {
-            index: '/ai-character-chat/lorebooks/index.json'
+            index: 'ai-character-chat/lorebooks/index.json'
         },
-        categories: '/categories.json',
+        categories: 'categories.json',
         types: {
             sfw: 'sfw',
             nsfw: 'nsfw'
