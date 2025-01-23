@@ -36,11 +36,11 @@ const CONFIG = {
 
     // Debug settings for logging
     debug: {
-        "aac-characters": { 
+        aacCharacters: { 
             "filters": true,   // Enable log for 'filters'
             "display": false   // Enable log for 'display'
         },
-        "lorebooks": false
+        lorebooks: false
     },
     
     // Site navigation

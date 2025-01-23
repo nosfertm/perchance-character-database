@@ -1,6 +1,8 @@
 import CONFIG from '../config.js';
 import { showToast, fetchGithubData } from '../utils.js';
-const debugKey = 'acc-characters.display';
+
+// Debug key for logging purposes
+const debugKey = CONFIG.debug?.aacCharacters?.display ?? false;
 
 // State management for gallery
 const galleryState = {
