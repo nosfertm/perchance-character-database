@@ -1,5 +1,5 @@
 import CONFIG from '../config.js';
-import { showToast, fetchGithubData } from '../utils.js';
+import { showToast, fetchGithubData, debug } from '../utils.js';
 
 // Debug key for logging purposes
 const debugKey = CONFIG.debug?.aacCharacters?.display ?? false;
