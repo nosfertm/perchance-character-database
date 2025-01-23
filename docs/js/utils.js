@@ -52,7 +52,7 @@ export function truncateString(str, length) {
  * @param {string} outputFormat - Desired output format: "json" (default) or "base64".
  * @returns {Promise<any>} - Decoded file content.
  */
-async function fetchGithubData(owner, repo, path, branch = "main", outputFormat = "json") {
+export async function fetchGithubData(owner, repo, path, branch = "main", outputFormat = "json") {
     try {
         console.log(`Fetching file from GitHub: ${owner}/${repo}/${path} (branch: ${branch})`);
         
