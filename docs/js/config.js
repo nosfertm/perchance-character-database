@@ -38,7 +38,7 @@ const CONFIG = {
     debug: {
         aacCharacters: { 
             "filters": true,    // Enable log for 'filters'
-            "display": false,   // Enable log for 'display'
+            "display": true,    // Enable log for 'display'
             "gallery": true     // Enable log for 'gallery'
         },
         lorebooks: false
