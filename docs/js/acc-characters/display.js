@@ -1,6 +1,5 @@
 import CONFIG from '../config.js';
 import { showToast } from '../utils.js';
-import { Octokit } from "https://esm.sh/octokit";
 
 // State management for gallery
 const galleryState = {

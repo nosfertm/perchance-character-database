@@ -1,3 +1,5 @@
+import { Octokit } from "https://esm.sh/octokit";
+
 /**
  * Show loading indicator
  */
