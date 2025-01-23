@@ -33,6 +33,15 @@ const CONFIG = {
             key: 'lorebooks_cache'
         }
     },
+
+    // Debug settings for logging
+    debug: {
+        "aac-characters": { 
+            "filters": true,   // Enable log for 'filters'
+            "display": false   // Enable log for 'display'
+        },
+        "lorebooks": false
+    },
     
     // Site navigation
     navigation: {

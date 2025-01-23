@@ -42,6 +42,21 @@ export function truncateString(str, length) {
     return str.length > length ? str.substring(0, length) + '...' : str;
 }
 
+// utils.js
+/**
+ * Emit a console log based on the debug configuration key.
+ * @param {string} key - The key to check in CONFIG.debug.
+ * @param {string} message - The log message to display.
+ * @param {...any} additionalParams - Any additional parameters to log.
+ */
+export function debug(key, message, ...additionalParams) {
+    // Check if key is true on CONFIG.debug
+    if (CONFIG.debug[key]) {
+        console.log(message, ...additionalParams);
+    }
+}
+
+
 /**
  * Fetch data from GitHub repository with optional content processing.
  * 

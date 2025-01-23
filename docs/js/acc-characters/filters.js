@@ -1,5 +1,6 @@
 import CONFIG from '../config.js';
-import { showToast, fetchGithubData } from '../utils.js';
+import { showToast, fetchGithubData, debug } from '../utils.js';
+const debugKey = 'acc-characters.filters';
 
 // State management for filters
 const filterState = {
@@ -15,7 +16,7 @@ const filterState = {
 export async function initFilters() {
     try {
         // Log 1 - Início da execução da função
-        console.log("1 - Initializing filter system...");
+        debug(debugKey, "1 - Initializing filter system...");
         
         // Usar fetchGithubData para buscar e processar categorias
         // Passando o branch como 'sketch' e outputFormat como 'json'
@@ -28,7 +29,7 @@ export async function initFilters() {
         );
         
         // Log 3 - Dados obtidos da resposta
-        console.log("4 - Categories data:", categories);
+        debug(debugKey, "4 - Categories data:", categories);
 
         // Verifica se os dados têm a estrutura correta
         if (!categories || typeof categories !== 'object') {
@@ -42,19 +43,19 @@ export async function initFilters() {
         renderFilterPanel();
 
         // Log 4 - Inicializando painel de filtros
-        console.log("5 - Rendering filter panel");
+        debug(debugKey, "5 - Rendering filter panel");
 
         // Configura os eventos dos filtros
         setupFilterEvents();
 
         // Log 5 - Configurando eventos
-        console.log("6 - Setting up filter events");
+        debug(debugKey, "6 - Setting up filter events");
 
         // Inicializa o estado do filtro
         initializeDefaultFilters();
         
         // Log 6 - Finalização da inicialização
-        console.log("7 - Filters initialized successfully");
+        debug(debugKey, "7 - Filters initialized successfully");
 
     } catch (error) {
         console.error('Failed to initialize filters:', error);
