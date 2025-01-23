@@ -67,7 +67,7 @@ async function fetchGithubData(owner, repo, path, branch = "main", outputFormat 
             console.log("Returning raw Base64 content.");
             return response.data.content;  // Return as Base64
         } else if (outputFormat === "json") {
-            const decodedContent = Buffer.from(response.data.content, "base64").toString("utf-8");
+            const decodedContent = atob(response.data.content);
             console.log(`Decoded content length: ${decodedContent.length} characters`);
 
             const jsonData = JSON.parse(decodedContent);

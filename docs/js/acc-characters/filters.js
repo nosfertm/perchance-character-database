@@ -14,20 +14,47 @@ const filterState = {
  */
 export async function initFilters() {
     try {
+        // Log 1 - Início da execução da função
+        console.log("1 - Initializing filter system...");
+
         // Load categories from config path
         const repoURL = `https://api.github.com/repos/${CONFIG.repo.owner}/${CONFIG.repo.name}/contents`;
+        console.log("2 - Fetching categories from URL:", `${repoURL}/${CONFIG.paths.categories}`);
+
         const response = await fetch(`${repoURL}/${CONFIG.paths.categories}`);
+
+        // Log 2 - Resposta da API
+        console.log("3 - GitHub API response:", response);
+
+        // Parse response
         filterState.categories = await response.json();
-        console.log("filterState.categories",filterState.categories);
+
+        // Log 3 - Dados obtidos da resposta
+        console.log("4 - Categories data:", filterState.categories);
+        
+        // Check if the data is structured as expected
+        if (!filterState.categories || typeof filterState.categories !== 'object') {
+            throw new Error('Invalid structure for categories data');
+        }
         
         // Initialize the filter panel
         renderFilterPanel();
-        
+
+        // Log 4 - Inicializando painel de filtros
+        console.log("5 - Rendering filter panel");
+
         // Set up event listeners
         setupFilterEvents();
-        
+
+        // Log 5 - Configurando eventos
+        console.log("6 - Setting up filter events");
+
         // Initialize filter state
         initializeDefaultFilters();
+        
+        // Log 6 - Finalização da inicialização
+        console.log("7 - Filters initialized successfully");
+
     } catch (error) {
         console.error('Failed to initialize filters:', error);
         showToast('Failed to load filters', 'error');
@@ -38,13 +65,27 @@ export async function initFilters() {
  * Render the filter panel with all categories
  */
 function renderFilterPanel() {
+    // Log 7 - Início do processo de renderização do painel
+    console.log("8 - Rendering filter panel...");
+
     const container = document.getElementById('categoriesContainer');
     container.innerHTML = ''; // Clear existing content
     
-    Object.entries(filterState.categories).forEach(([categoryName, categoryData]) => {
+    Object.entries(filterState.categories).forEach(([categoryName, categoryData], index) => {
+        // Log 8 - Verificando cada categoria
+        console.log(`9 - Processing category ${index + 1}:`, categoryName, categoryData);
+
+        // Check if the category has tags, nsfw_only, etc.
+        if (!categoryData.tags) {
+            console.warn(`Warning: No tags found for category ${categoryName}`);
+        }
+
         // Create category section
         const categorySection = createCategorySection(categoryName, categoryData);
-        
+
+        // Log 9 - Categoria criada
+        console.log(`10 - Category section created for ${categoryName}:`, categorySection);
+
         // Check if this is an NSFW-only category
         if (categoryData.nsfw_only) {
             categorySection.classList.add('nsfw-category');
@@ -62,6 +103,9 @@ function renderFilterPanel() {
  * @returns {HTMLElement} The category section element
  */
 function createCategorySection(categoryName, categoryData) {
+    // Log 10 - Início de criação da seção de categoria
+    console.log("11 - Creating category section for", categoryName);
+
     const section = document.createElement('div');
     section.className = 'category-section';
     
@@ -76,12 +120,18 @@ function createCategorySection(categoryName, categoryData) {
     // Create content container
     const content = document.createElement('div');
     content.className = 'category-content';
-    
+
+    // Log 11 - Verificando e processando as tags da categoria
+    console.log(`12 - Processing tags for category ${categoryName}`, categoryData.tags);
+
     // Add tags based on current NSFW state
     const tagsToShow = filterState.nsfwEnabled ? 
-        [...(categoryData.tags.general || []), ...(categoryData.tags.nsfw || [])] :
-        (categoryData.tags.general || []);
+        [...(categoryData.tags?.general || []), ...(categoryData.tags?.nsfw || [])] :
+        (categoryData.tags?.general || []);
     
+    // Log 12 - Tags a serem exibidas
+    console.log(`13 - Tags to show for ${categoryName}:`, tagsToShow);
+
     tagsToShow.forEach(tag => {
         const tagContainer = createTagCheckbox(categoryName, tag);
         content.appendChild(tagContainer);
@@ -91,7 +141,7 @@ function createCategorySection(categoryName, categoryData) {
     if (categoryName !== 'Rating') {
         content.style.display = 'none';
     }
-    
+
     section.appendChild(header);
     section.appendChild(content);
     
@@ -104,6 +154,104 @@ function createCategorySection(categoryName, categoryData) {
     
     return section;
 }
+
+
+// /**
+//  * Initialize the filter system
+//  * @returns {Promise<void>}
+//  */
+// export async function initFilters() {
+//     try {
+//         // Load categories from config path
+//         const repoURL = `https://api.github.com/repos/${CONFIG.repo.owner}/${CONFIG.repo.name}/contents`;
+//         const response = await fetch(`${repoURL}/${CONFIG.paths.categories}`);
+//         filterState.categories = await response.json();
+//         console.log("filterState.categories",filterState.categories);
+        
+//         // Initialize the filter panel
+//         renderFilterPanel();
+        
+//         // Set up event listeners
+//         setupFilterEvents();
+        
+//         // Initialize filter state
+//         initializeDefaultFilters();
+//     } catch (error) {
+//         console.error('Failed to initialize filters:', error);
+//         showToast('Failed to load filters', 'error');
+//     }
+// }
+
+// /**
+//  * Render the filter panel with all categories
+//  */
+// function renderFilterPanel() {
+//     const container = document.getElementById('categoriesContainer');
+//     container.innerHTML = ''; // Clear existing content
+    
+//     Object.entries(filterState.categories).forEach(([categoryName, categoryData]) => {
+//         // Create category section
+//         const categorySection = createCategorySection(categoryName, categoryData);
+        
+//         // Check if this is an NSFW-only category
+//         if (categoryData.nsfw_only) {
+//             categorySection.classList.add('nsfw-category');
+//             categorySection.style.display = filterState.nsfwEnabled ? 'block' : 'none';
+//         }
+        
+//         container.appendChild(categorySection);
+//     });
+// }
+
+// /**
+//  * Create a collapsible category section with checkboxes
+//  * @param {string} categoryName - Name of the category
+//  * @param {Object} categoryData - Category configuration data
+//  * @returns {HTMLElement} The category section element
+//  */
+// function createCategorySection(categoryName, categoryData) {
+//     const section = document.createElement('div');
+//     section.className = 'category-section';
+    
+//     // Create header with toggle
+//     const header = document.createElement('div');
+//     header.className = 'category-header';
+//     header.innerHTML = `
+//         <span>${categoryName}</span>
+//         <span class="toggle-icon">▼</span>
+//     `;
+    
+//     // Create content container
+//     const content = document.createElement('div');
+//     content.className = 'category-content';
+    
+//     // Add tags based on current NSFW state
+//     const tagsToShow = filterState.nsfwEnabled ? 
+//         [...(categoryData.tags.general || []), ...(categoryData.tags.nsfw || [])] :
+//         (categoryData.tags.general || []);
+    
+//     tagsToShow.forEach(tag => {
+//         const tagContainer = createTagCheckbox(categoryName, tag);
+//         content.appendChild(tagContainer);
+//     });
+    
+//     // Collapse all categories except Rating by default
+//     if (categoryName !== 'Rating') {
+//         content.style.display = 'none';
+//     }
+    
+//     section.appendChild(header);
+//     section.appendChild(content);
+    
+//     // Add toggle event
+//     header.addEventListener('click', () => {
+//         const isCollapsed = content.style.display === 'none';
+//         content.style.display = isCollapsed ? 'block' : 'none';
+//         header.querySelector('.toggle-icon').textContent = isCollapsed ? '▼' : '▲';
+//     });
+    
+//     return section;
+// }
 
 /**
  * Create a checkbox for a tag
