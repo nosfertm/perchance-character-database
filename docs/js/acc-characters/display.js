@@ -1,5 +1,5 @@
 import CONFIG from '../config.js';
-import { showToast } from '../utils.js';
+import { showToast, fetchGithubData } from '../utils.js';
 
 // State management for gallery
 const galleryState = {
