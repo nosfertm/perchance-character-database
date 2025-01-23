@@ -7,18 +7,30 @@ const CONFIG = {
         branch: 'sketch'
     },
     
-    // File paths
+    // File paths organized by feature/page
     paths: {
-        // Categories configuration file path in the repository
+        accCharacters: {
+            index: '/ai-character-chat/characters/index.json'
+        },
+        lorebooks: {
+            index: '/ai-character-chat/lorebooks/index.json'
+        },
         categories: '/categories.json',
-        
-        // Base path for character folders
-        charactersBase: '/ai-character-chat/characters',
-        
-        // Character type folders
-        characterTypes: {
+        types: {
             sfw: 'sfw',
             nsfw: 'nsfw'
+        }
+    },
+
+    // Cache settings organized by feature/page
+    cache: {
+        accCharacters: {
+            duration: 60,  // Time to maintain cache in minutes (1 hour)
+            key: 'acc_characters_cache'
+        },
+        lorebooks: {
+            duration: 120,  // Cache duration for lorebooks in minutes (2 hours)
+            key: 'lorebooks_cache'
         }
     },
     

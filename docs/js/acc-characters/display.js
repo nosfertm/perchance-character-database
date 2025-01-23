@@ -29,23 +29,50 @@ async function initGallery() {
 }
 
 /**
- * Load character data from repository
+ * Load character data from repository (optimized version)
+ * @param {boolean} forceRefresh - If true, forces data fetch regardless of cache expiration
  * @returns {Promise<void>}
  */
-async function loadCharacters() {
+async function loadCharacters(forceRefresh = false) {
     galleryState.loading = true;
-    
+
     try {
-        // Get SFW characters
-        const sfwPath = `${CONFIG.paths.charactersBase}/${CONFIG.paths.characterTypes.sfw}`;
-        const sfwCharacters = await loadCharactersFromPath(sfwPath, 'sfw');
+        const repoURL = `https://api.github.com/repos/${CONFIG.repo.owner}/${CONFIG.repo.name}/contents`;
+        const indexPath = `${repoURL}/${CONFIG.paths.accCharacters.index}`;
+        console.log("Building index path for fetching:",indexPath);
         
-        // Get NSFW characters
-        const nsfwPath = `${CONFIG.paths.charactersBase}/${CONFIG.paths.characterTypes.nsfw}`;
-        const nsfwCharacters = await loadCharactersFromPath(nsfwPath, 'nsfw');
-        
-        galleryState.characters = [...sfwCharacters, ...nsfwCharacters];
-        
+        // Retrieve cache settings from config
+        const cacheConfig = CONFIG.cache.accCharacters;
+        const cacheKey = cacheConfig.key;
+        const cacheDuration = cacheConfig.duration * 60 * 1000 || 3600; // Convert minutes to milliseconds. If not set, default to 1 hour
+
+        const cachedData = localStorage.getItem(cacheKey);
+        const lastFetchTime = localStorage.getItem(`${cacheKey}_timestamp`);
+
+        const isCacheValid = lastFetchTime && (Date.now() - lastFetchTime < cacheDuration);
+
+        if (!forceRefresh && cachedData && isCacheValid) {
+            galleryState.characters = JSON.parse(cachedData);
+            console.log("Using cached data for characters:",galleryState.characters);
+        } else {
+            // Fetch new data from GitHub
+            console.log("Fetching new data for characters...\n\nReasons for not using cache:\n1. Force refresh:",forceRefresh,"\n2. Cache validity:",isCacheValid,"\n3. Cached data:",cachedData);
+            const response = await fetch(indexPath);
+            const indexData = await response.json();
+
+            // Transform data to match the original output format
+            const characters = indexData.map((item) => ({
+                ...item.manifest,
+                path: `${repoURL}/${item.path}`,
+                type: item.manifest.categories.rating
+            }));
+
+            // Store data in state and cache
+            galleryState.characters = characters;
+            localStorage.setItem(cacheKey, JSON.stringify(characters));
+            localStorage.setItem(`${cacheKey}_timestamp`, Date.now().toString());
+            console.log("Fetched and stored characters data successfully:",characters);
+        }
     } catch (error) {
         console.error('Failed to load characters:', error);
         showToast('Error loading characters', 'error');
@@ -54,37 +81,67 @@ async function loadCharacters() {
     }
 }
 
-/**
- * Load characters from a specific path
- * @param {string} path - Path to character directory
- * @param {string} type - Type of characters (sfw/nsfw)
- * @returns {Promise<Array>} Array of character data
- */
-async function loadCharactersFromPath(path, type) {
-    // This would need to be adapted based on your repository structure
-    // and how you're accessing the files (e.g., API, direct access, etc.)
-    try {
-        const response = await fetch(`${path}/index.json`);
-        const directories = await response.json();
+
+
+
+// /**
+//  * Load character data from repository
+//  * @returns {Promise<void>}
+//  */
+// async function loadCharacters() {
+//     galleryState.loading = true;
+    
+//     try {
+//         // Get SFW characters
+//         const repoURL = `https://api.github.com/repos/${CONFIG.repo.owner}/${CONFIG.repo.name}/contents`;
+//         const sfwPath = `${repoURL}/${CONFIG.paths.charactersBase}/${CONFIG.paths.characterTypes.sfw}`;
+//         const sfwCharacters = await loadCharactersFromPath(sfwPath, 'sfw');
         
-        const characters = await Promise.all(
-            directories.map(async (dir) => {
-                const manifestResponse = await fetch(`${path}/${dir}/manifest.json`);
-                const manifest = await manifestResponse.json();
-                return {
-                    ...manifest,
-                    path: `${path}/${dir}`,
-                    type: type
-                };
-            })
-        );
+//         // Get NSFW characters
+//         const nsfwPath = `${repoURL}/${CONFIG.paths.charactersBase}/${CONFIG.paths.characterTypes.nsfw}`;
+//         const nsfwCharacters = await loadCharactersFromPath(nsfwPath, 'nsfw');
         
-        return characters;
-    } catch (error) {
-        console.error(`Failed to load ${type} characters:`, error);
-        return [];
-    }
-}
+//         galleryState.characters = [...sfwCharacters, ...nsfwCharacters];
+        
+//     } catch (error) {
+//         console.error('Failed to load characters:', error);
+//         showToast('Error loading characters', 'error');
+//     } finally {
+//         galleryState.loading = false;
+//     }
+// }
+
+// /**
+//  * Load characters from a specific path
+//  * @param {string} path - Path to character directory
+//  * @param {string} type - Type of characters (sfw/nsfw)
+//  * @returns {Promise<Array>} Array of character data
+//  */
+// async function loadCharactersFromPath(path, type) {
+//     // This would need to be adapted based on your repository structure
+//     // and how you're accessing the files (e.g., API, direct access, etc.)
+//     try {
+//         const response = await fetch(`${path}/index.json`);
+//         const directories = await response.json();
+        
+//         const characters = await Promise.all(
+//             directories.map(async (dir) => {
+//                 const manifestResponse = await fetch(`${path}/${dir}/manifest.json`);
+//                 const manifest = await manifestResponse.json();
+//                 return {
+//                     ...manifest,
+//                     path: `${path}/${dir}`,
+//                     type: type
+//                 };
+//             })
+//         );
+        
+//         return characters;
+//     } catch (error) {
+//         console.error(`Failed to load ${type} characters:`, error);
+//         return [];
+//     }
+// }
 
 // /**
 //  * Load character data from repository

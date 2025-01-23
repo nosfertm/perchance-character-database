@@ -2,7 +2,8 @@
   "name": "Slime Character",
   "description": "A friendly slime that can create copies of itself",
   "author": "username",
-  "link": "https://perchance.org/ai-character-chat-slime",
+  "characterAvatar": "https://user-uploads.perchance.org/file/f97d49e4231d6b90d83a37f12ca95c52.jpeg",
+  "shareLink": "https://perchance.org/ai-character-chat-slime",
   "shapeShifter_Pulls": 0,
   "groupSettings": {
     "requires": [

@@ -6,24 +6,17 @@ This directory contains a template for creating and submitting characters to the
 
 ### `manifest.json`
 Character metadata and configuration file. Contains:
-- Basic information (name, description, author)
+- Basic information (name, description, author, avatar, chat link, etc)
 - Content rating (sfw/nsfw)
 - Group settings and character relationships
 - Features and dependencies
-- Tags and categories
+- Categories and tags
 
 ### `character.zip`
 The exported character file from Perchance AI Character Chat. Must be:
 - Generated using the export function
 - Named exactly as "character.zip"
 - Unmodified after export
-
-### `preview.png`
-Main character image that will be displayed in the database:
-- Recommended size: 512x512px
-- Format: PNG
-- Max size: 1MB
-- Should be representative of the character
 
 ### `README.md`
 Character documentation and usage guide. Should include:
@@ -82,7 +75,6 @@ JavaScript code for extended functionality:
 character-name/
 ├── manifest.json     # Required
 ├── character.zip     # Required
-├── preview.png      # Required
 ├── README.md        # Required
 ├── changelog.md     # Optional
 ├── assets/          # Optional
