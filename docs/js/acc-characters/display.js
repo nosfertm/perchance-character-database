@@ -1,5 +1,6 @@
 import CONFIG from '../config.js';
 import { showToast } from '../utils.js';
+import { Octokit } from "https://esm.sh/octokit";
 
 // State management for gallery
 const galleryState = {
@@ -28,51 +29,100 @@ async function initGallery() {
     }
 }
 
+
 /**
- * Load character data from repository (optimized version)
- * @param {boolean} forceRefresh - If true, forces data fetch regardless of cache expiration
+ * Fetch data from GitHub repository with optional content processing.
+ * 
+ * @param {string} owner - Repository owner.
+ * @param {string} repo - Repository name.
+ * @param {string} path - File path within the repository.
+ * @param {string} branch - Branch name (default: "main").
+ * @param {string} outputFormat - Desired output format: "json" (default) or "base64".
+ * @returns {Promise<any>} - Decoded file content.
+ */
+async function fetchGithubData(owner, repo, path, branch = "main", outputFormat = "json") {
+    try {
+        console.log(`Fetching file from GitHub: ${owner}/${repo}/${path} (branch: ${branch})`);
+        
+        const octokit = new Octokit();
+        const response = await octokit.request("GET /repos/{owner}/{repo}/contents/{path}", {
+            owner,
+            repo,
+            path,
+            ref: branch,
+            headers: {
+                "x-github-api-version": "2022-11-28",
+            },
+        });
+
+        console.log("GitHub API response received.");
+
+        if (!response.data || !response.data.content) {
+            throw new Error("File content is empty or undefined.");
+        }
+
+        console.log(`Content encoding: ${response.data.encoding}`);
+
+        if (outputFormat === "base64") {
+            console.log("Returning raw Base64 content.");
+            return response.data.content;  // Return as Base64
+        } else if (outputFormat === "json") {
+            const decodedContent = Buffer.from(response.data.content, "base64").toString("utf-8");
+            console.log(`Decoded content length: ${decodedContent.length} characters`);
+
+            const jsonData = JSON.parse(decodedContent);
+            console.log("JSON content parsed successfully.");
+            return jsonData;
+        } else {
+            throw new Error(`Invalid outputFormat: ${outputFormat}`);
+        }
+    } catch (error) {
+        console.error("Error fetching or processing GitHub data:", error.message);
+        throw error;
+    }
+}
+
+/**
+ * Load character data from repository (optimized version).
+ * @param {boolean} forceRefresh - If true, forces data fetch regardless of cache expiration.
  * @returns {Promise<void>}
  */
 async function loadCharacters(forceRefresh = false) {
     galleryState.loading = true;
 
     try {
-        const repoURL = `https://api.github.com/repos/${CONFIG.repo.owner}/${CONFIG.repo.name}/contents`;
-        const indexPath = `${repoURL}/${CONFIG.paths.accCharacters.index}`;
-        console.log("Building index path for fetching:",indexPath);
-        
-        // Retrieve cache settings from config
+        console.log("Loading character data...");
+
         const cacheConfig = CONFIG.cache.accCharacters;
         const cacheKey = cacheConfig.key;
-        const cacheDuration = cacheConfig.duration * 60 * 1000 || 3600; // Convert minutes to milliseconds. If not set, default to 1 hour
+        const cacheDuration = cacheConfig.duration * 60 * 1000 || 3600; // Convert minutes to milliseconds, default 1 hour.
 
         const cachedData = localStorage.getItem(cacheKey);
         const lastFetchTime = localStorage.getItem(`${cacheKey}_timestamp`);
-
         const isCacheValid = lastFetchTime && (Date.now() - lastFetchTime < cacheDuration);
 
         if (!forceRefresh && cachedData && isCacheValid) {
             galleryState.characters = JSON.parse(cachedData);
-            console.log("Using cached data for characters:",galleryState.characters);
+            console.log("Using cached data for characters:", galleryState.characters);
         } else {
-            // Fetch new data from GitHub
-            console.log("Fetching new data for characters...\n\nReasons for not using cache:\n1. Force refresh:",forceRefresh,"\n2. Cache validity:",isCacheValid,"\n3. Cached data:",cachedData);
-            const response = await fetch(indexPath);
-            
-            if (!response.ok) {
-                throw new Error(`Failed to fetch: ${response.status} ${response.statusText}`);
-            }
-            
-            const indexData = await response.json();
+            console.log("Fetching new data for characters...\n\nReasons for not using cache:\n1. Force refresh:", forceRefresh, "\n2. Cache validity:", isCacheValid, "\n3. Cached data:", cachedData);
+
+            const indexData = await fetchGithubData(
+                CONFIG.repo.owner,
+                CONFIG.repo.name,
+                CONFIG.paths.accCharacters.index,
+                CONFIG.repo.branch,
+                "json"
+            );
 
             console.log("Fetched index.json data:", indexData);
 
             if (!Array.isArray(indexData)) {
                 throw new Error("Unexpected response format: Expected an array");
             }
-            
 
             // Transform data to match the original output format
+            const repoURL = `https://github.com/${CONFIG.repo.owner}/${CONFIG.repo.name}/blob/${CONFIG.repo.branch}`;
             const characters = indexData.map((item) => ({
                 ...item.manifest,
                 path: `${repoURL}/${item.path}`,
@@ -83,15 +133,81 @@ async function loadCharacters(forceRefresh = false) {
             galleryState.characters = characters;
             localStorage.setItem(cacheKey, JSON.stringify(characters));
             localStorage.setItem(`${cacheKey}_timestamp`, Date.now().toString());
-            console.log("Fetched and stored characters data successfully:",characters);
+
+            console.log("Fetched and stored characters data successfully:", characters);
         }
     } catch (error) {
-        console.error('Failed to load characters:', error);
-        showToast('Error loading characters', 'error');
+        console.error("Failed to load characters:", error.message);
+        showToast("Error loading characters", "error");
     } finally {
         galleryState.loading = false;
     }
 }
+
+// /**
+//  * Load character data from repository (optimized version)
+//  * @param {boolean} forceRefresh - If true, forces data fetch regardless of cache expiration
+//  * @returns {Promise<void>}
+//  */
+// async function loadCharacters(forceRefresh = false) {
+//     galleryState.loading = true;
+
+//     try {
+//         const repoURL = `https://api.github.com/repos/${CONFIG.repo.owner}/${CONFIG.repo.name}/contents`;
+//         const indexPath = `${repoURL}/${CONFIG.paths.accCharacters.index}`;
+//         console.log("Building index path for fetching:",indexPath);
+        
+//         // Retrieve cache settings from config
+//         const cacheConfig = CONFIG.cache.accCharacters;
+//         const cacheKey = cacheConfig.key;
+//         const cacheDuration = cacheConfig.duration * 60 * 1000 || 3600; // Convert minutes to milliseconds. If not set, default to 1 hour
+
+//         const cachedData = localStorage.getItem(cacheKey);
+//         const lastFetchTime = localStorage.getItem(`${cacheKey}_timestamp`);
+
+//         const isCacheValid = lastFetchTime && (Date.now() - lastFetchTime < cacheDuration);
+
+//         if (!forceRefresh && cachedData && isCacheValid) {
+//             galleryState.characters = JSON.parse(cachedData);
+//             console.log("Using cached data for characters:",galleryState.characters);
+//         } else {
+//             // Fetch new data from GitHub
+//             console.log("Fetching new data for characters...\n\nReasons for not using cache:\n1. Force refresh:",forceRefresh,"\n2. Cache validity:",isCacheValid,"\n3. Cached data:",cachedData);
+//             const response = await fetch(indexPath);
+
+//             if (!response.ok) {
+//                 throw new Error(`Failed to fetch: ${response.status} ${response.statusText}`);
+//             }
+            
+//             const indexData = await response.json();
+
+//             console.log("Fetched index.json data:", indexData);
+
+//             if (!Array.isArray(indexData)) {
+//                 throw new Error("Unexpected response format: Expected an array");
+//             }
+            
+
+//             // Transform data to match the original output format
+//             const characters = indexData.map((item) => ({
+//                 ...item.manifest,
+//                 path: `${repoURL}/${item.path}`,
+//                 type: item.manifest.categories.rating
+//             }));
+
+//             // Store data in state and cache
+//             galleryState.characters = characters;
+//             localStorage.setItem(cacheKey, JSON.stringify(characters));
+//             localStorage.setItem(`${cacheKey}_timestamp`, Date.now().toString());
+//             console.log("Fetched and stored characters data successfully:",characters);
+//         }
+//     } catch (error) {
+//         console.error('Failed to load characters:', error);
+//         showToast('Error loading characters', 'error');
+//     } finally {
+//         galleryState.loading = false;
+//     }
+// }
 
 
 
