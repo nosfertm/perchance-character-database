@@ -39,6 +39,24 @@ async function initGallery() {
 }
 
 /**
+ * Set up gallery event listeners
+ */
+function setupGalleryEvents() {
+    // Listen for filter updates
+    document.addEventListener('filtersUpdated', (event) => {
+        const { filters, nsfwEnabled } = event.detail;
+        filterCharacters(filters, nsfwEnabled);
+        renderGallery();
+    });
+    
+    // Refresh button
+    document.getElementById('refreshGallery').addEventListener('click', async () => {
+        await loadCharacters();
+        renderGallery();
+    });
+}
+
+/**
  * Load character data from repository (optimized version).
  * @param {boolean} forceRefresh - If true, forces data fetch regardless of cache expiration.
  * @returns {Promise<void>}
@@ -98,24 +116,6 @@ async function loadCharacters(forceRefresh = false) {
     } finally {
         galleryState.loading = false;
     }
-}
-
-/**
- * Set up gallery event listeners
- */
-function setupGalleryEvents() {
-    // Listen for filter updates
-    document.addEventListener('filtersUpdated', (event) => {
-        const { filters, nsfwEnabled } = event.detail;
-        filterCharacters(filters, nsfwEnabled);
-        renderGallery();
-    });
-    
-    // Refresh button
-    document.getElementById('refreshGallery').addEventListener('click', async () => {
-        await loadCharacters();
-        renderGallery();
-    });
 }
 
 /**
@@ -198,6 +198,9 @@ export function createCharacterCard(character) {
                         🔗
                     </button>
                 ` : ''}
+            </div>
+            <div class="card-footer ${character.type}">
+                ${truncatedName} - ${character.type}            
             </div>
         </div>
     `;

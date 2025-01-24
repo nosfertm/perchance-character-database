@@ -257,6 +257,12 @@
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
 }
+.card-footer.sfw {
+    background-color: rgba(48, 105, 197, 0.5); /* Blue with transparency for SFW */
+}
+.card-footer.nsfw {
+    background-color: rgba(255, 0, 0, 0.5); /* Red with transparency for NSFW */
+}
 
 /* Character Modal */
 .modal {
