@@ -229,12 +229,23 @@
     background-color: rgba(255, 0, 0, 0.5); /* Red with transparency for NSFW */
 }
 
-.card-actions {
+/* .card-actions {
     position: absolute;
     top: 10px;
     right: 10px;
     display: flex;
     gap: 10px;
+} */
+.card-actions {
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 .card-actions button {
