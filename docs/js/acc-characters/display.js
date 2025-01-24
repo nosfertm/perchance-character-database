@@ -218,10 +218,13 @@ export function createCharacterCard(character) {
 
     // Add event listener to reveal NSFW card
     const nsfwIcon = card.querySelector('.nsfw-icon');
-    nsfwIcon.addEventListener('click', () => {
-        const cardImage = document.querySelector('.card-image.nsfw');
-        cardImage.style.filter = 'none'; // Remove blur effect
-    });
+    if (nsfwIcon) {
+        nsfwIcon.addEventListener('click', () => {
+            const cardImage = document.querySelector('.card-image.nsfw');
+            cardImage.style.filter = 'none'; // Remove blur effect
+        });
+    }
+    
     
     // Add click event to open character details
     card.addEventListener('click', () => {
