@@ -183,7 +183,8 @@ export function createCharacterCard(character) {
     
     card.innerHTML = `
         <div class="card-image-container">
-            <img src="${character.characterAvatar}" alt="${character.name}">
+            <img src="${character.characterAvatar}" alt="${character.name}" class="card-image ${character.type === 'nsfw' ? 'nsfw' : ''};">
+            ${character.type} === 'nsfw' ? '<div class="nsfw-icon" onclick="revealNsfwCard()">🔥</div>' : ''}
         </div>
         <div class="card-footer ${character.type}">
             <span>${truncatedName} - ${character.type}</span>
