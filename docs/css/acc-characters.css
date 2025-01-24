@@ -196,7 +196,7 @@
     object-fit: cover;
 }
 
-.card-image .nsfw {
+.card-image.nsfw {
     filter: blur(10px); /* Blur the image for NSFW */
     transition: filter 0.3s ease;
 }

@@ -183,8 +183,8 @@ export function createCharacterCard(character) {
     
     card.innerHTML = `
         <div class="card-image-container">
-            <img src="${character.characterAvatar}" alt="${character.name}" class="card-image ${character.type === 'nsfw' ? 'nsfw' : ''};">
-            ${character.type} === 'nsfw' ? '<div class="nsfw-icon" onclick="revealNsfwCard()">🔥</div>' : ''}
+            <img src="${character.characterAvatar}" alt="${character.name}" class="card-image${character.type === 'nsfw' ? ' nsfw' : ''}">
+            ${character.type === 'nsfw' ? '<div class="nsfw-icon" onclick="revealNsfwCard()">🔥</div>' : ''}
         </div>
         <div class="card-footer ${character.type}">
             <span>${truncatedName} - ${character.type}</span>
@@ -215,6 +215,13 @@ export function createCharacterCard(character) {
             window.open(linkBtn.dataset.shareLink, '_blank');
         });
     }
+
+    // Add event listener to reveal NSFW card
+    const nsfwIcon = card.querySelector('.nsfw-icon');
+    nsfwIcon.addEventListener('click', () => {
+        const cardImage = document.querySelector('.card-image.nsfw');
+        cardImage.style.filter = 'none'; // Remove blur effect
+    });
     
     // Add click event to open character details
     card.addEventListener('click', () => {
