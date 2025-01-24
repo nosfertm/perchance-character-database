@@ -280,7 +280,7 @@
     border-bottom-right-radius: 8px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: stretch;
 }
 .card-footer.sfw {
     background-color: rgba(48, 105, 197, 0.5); /* Blue with transparency for SFW */

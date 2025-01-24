@@ -190,12 +190,12 @@ export function createCharacterCard(character) {
             <span style="padding: 5px;">${truncatedName} - ${character.type}</span>
             <div class="button-container">
                 ${character.downloadLink ? `
-                    <button class="download-btn" data-download-link="${character.downloadLink}">
+                    <button class="btn" data-download-link="${character.downloadLink}">
                         💾
                     </button>
                 ` : ''}
                 ${character.shareLink ? `
-                    <button class="link-btn" data-share-link="${character.shareLink}">
+                    <button class="btn" data-share-link="${character.shareLink}">
                         🔗
                     </button>
                 ` : ''}
