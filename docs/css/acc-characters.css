@@ -48,11 +48,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-radius: 5px;
 }
 
 .category-content {
     padding: var(--spacing-md);
-    display: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 0.5rem;
 }
 
 .category-content.active {
@@ -217,6 +221,12 @@
     justify-content: center;
     color: white;
 }
+.card-overlay.sfw {
+    background-color: rgba(48, 105, 197, 0.5); /* Blue with transparency for SFW */
+}
+.card-overlay.nsfw {
+    background-color: rgba(255, 0, 0, 0.5); /* Red with transparency for NSFW */
+}
 
 .card-actions {
     position: absolute;
@@ -236,6 +246,7 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    font-size: 18px;
 }
 
 .card-footer {

@@ -183,9 +183,9 @@ export function createCharacterCard(character) {
     
     card.innerHTML = `
         <div class="card-image-container">
-            <img src="${character.characterAvatar}" alt="${character.name} - ${character.type}">
+            <img src="${character.characterAvatar}" alt="${character.name}">
             <div class="card-overlay ${character.type}">
-                ${truncatedName}            
+                ${truncatedName} - ${character.type}            
             </div>
             <div class="card-actions">
                 ${character.downloadLink ? `
