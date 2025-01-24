@@ -199,9 +199,9 @@ export function createCharacterCard(character) {
                     </button>
                 ` : ''}
             </div>
-            <div class="card-footer ${character.type}">
-                ${truncatedName} - ${character.type}            
-            </div>
+        </div>
+        <div class="card-footer ${character.type}">
+            ${truncatedName} - ${character.type}            
         </div>
     `;
     
