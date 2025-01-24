@@ -187,7 +187,7 @@ export function createCharacterCard(character) {
         </div>
         <div class="card-footer ${character.type}">
             <span>${truncatedName} - ${character.type}</span>
-            <div class="card-actions">
+            <div class="button-container">
                 ${character.downloadLink ? `
                     <button class="download-btn" data-download-link="${character.downloadLink}">
                         💾

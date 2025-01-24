@@ -278,6 +278,11 @@
 .card-footer.nsfw {
     background-color: rgba(255, 0, 0, 0.5); /* Red with transparency for NSFW */
 }
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: --spacing-xs;
+}
 
 /* Character Modal */
 .modal {
