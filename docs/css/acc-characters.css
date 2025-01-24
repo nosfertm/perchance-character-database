@@ -274,7 +274,6 @@
 
 .card-footer {
     text-align: center;
-    padding: 5px;
     background: rgba(0,0,0,0.6);
     color: white;
     border-bottom-left-radius: 8px;
@@ -289,10 +288,18 @@
 .card-footer.nsfw {
     background-color: rgba(255, 0, 0, 0.5); /* Red with transparency for NSFW */
 }
+
 .button-container {
     display: flex;
     justify-content: flex-end;
-    gap: --spacing-xs;
+}
+
+.btn {
+    background: rgba(0, 0, 0, 0.20);
+    border: none;
+    border-left: 2px solid rgba(0, 0, 0, 0.20);
+    padding: 5px 5px;
+    cursor: pointer;
 }
 
 /* Character Modal */

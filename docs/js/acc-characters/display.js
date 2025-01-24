@@ -187,7 +187,7 @@ export function createCharacterCard(character) {
             ${character.type === 'nsfw' ? '<div class="nsfw-icon" onclick="revealNsfwCard()">🔥</div>' : ''}
         </div>
         <div class="card-footer ${character.type}">
-            <span>${truncatedName} - ${character.type}</span>
+            <span style="padding: 5px;">${truncatedName} - ${character.type}</span>
             <div class="button-container">
                 ${character.downloadLink ? `
                     <button class="download-btn" data-download-link="${character.downloadLink}">
@@ -214,17 +214,7 @@ export function createCharacterCard(character) {
         linkBtn.addEventListener('click', () => {
             window.open(linkBtn.dataset.shareLink, '_blank');
         });
-    }
-
-    // Add event listener to reveal NSFW card
-    // const nsfwIcon = card.querySelector('.nsfw-icon');
-    // if (nsfwIcon) {
-    //     nsfwIcon.addEventListener('click', () => {
-    //         const cardImage = document.querySelector('.card-image.nsfw');
-    //         cardImage.style.filter = 'none'; // Remove blur effect
-    //     });
-    // }
-    
+    }    
     
     // Add click event to open character details
     card.addEventListener('click', () => {
