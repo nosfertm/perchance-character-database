@@ -174,7 +174,7 @@ function setupGalleryEvents() {
     });
 
     // Adicionar evento de busca
-    document.getElementById('searchInput').addEventListener('input', handleSearchInput);
+    //document.getElementById('searchInput').addEventListener('input', handleSearchInput);
 }
 
 /**
