@@ -15,8 +15,9 @@ const filterState = {
 /**
  * Initialize the filter system
  * @returns {Promise<void>}
+ * @param {boolean} forceRefresh - If true, forces data fetch regardless of cache expiration.
  */
-export async function initFilters() {
+export async function initFilters(forceRefresh = false) {
     try {
         debug(debugKey, debugPrefix+"1 - Initializing filter system...");
 
