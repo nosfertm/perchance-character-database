@@ -26,10 +26,10 @@ async function initGallery() {
         await loadCharacters();
         
         // Initial filtering with default SFW setting
-        filterCharacters(
-            { Rating: ['SFW'] },  // Default to showing only SFW characters
-            false  // NSFW disabled by default
-        );
+        // filterCharacters(
+        //     { Rating: ['SFW'] },  // Default to showing only SFW characters
+        //     false  // NSFW disabled by default
+        // );
         
         // Render the gallery
         renderGallery();
