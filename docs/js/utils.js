@@ -48,9 +48,11 @@ export function truncateString(str, length) {
  * @param {string} message - The log message to display.
  * @param {...any} additionalParams - Additional parameters to log.
  */
+let counter = 1;
 export function debug(showMessage, message, ...additionalParams) {
     if (showMessage) {
-        console.log(message, ...additionalParams);
+        console.log(`[${counter}] ${message}`, ...additionalParams);
+        counter++;
     }
 }
 

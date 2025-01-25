@@ -3,7 +3,7 @@
  */
 export function initTheme() {
     const themeToggle = document.getElementById('themeToggle');
-    const currentTheme = localStorage.getItem('theme') || 'light';
+    const currentTheme = localStorage.getItem('theme') || 'dark';
     document.documentElement.setAttribute('data-theme', currentTheme);
 
     themeToggle.addEventListener('click', () => {

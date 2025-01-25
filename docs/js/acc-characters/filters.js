@@ -18,46 +18,53 @@ const filterState = {
  */
 export async function initFilters() {
     try {
-        // Log 1 - Início da execução da função
         debug(debugKey, debugPrefix+"1 - Initializing filter system...");
-        
-        // Usar fetchGithubData para buscar e processar categorias
-        // Passando o branch como 'sketch' e outputFormat como 'json'
-        const categories = await fetchGithubData(
-            CONFIG.repo.owner, 
-            CONFIG.repo.name, 
-            CONFIG.paths.categories, 
-            CONFIG.repo.branch, // Usando o branch 'sketch'
-            "json"    // Queremos os dados em formato JSON
-        );
-        
-        // Log 3 - Dados obtidos da resposta
-        debug(debugKey, debugPrefix+"4 - Categories data:", categories);
 
-        // Verifica se os dados têm a estrutura correta
-        if (!categories || typeof categories !== 'object') {
-            throw new Error('Invalid structure for categories data');
+        const cacheConfig = CONFIG.cache.accCharacters.filters;
+        const cacheKey = cacheConfig.key;
+        const cacheDuration = cacheConfig.duration * 60 * 1000 || 3600; // Convert minutes to milliseconds, default 1 hour.
+
+        const cachedData = localStorage.getItem(cacheKey);
+        const lastFetchTime = localStorage.getItem(`${cacheKey}_timestamp`);
+        const isCacheValid = lastFetchTime && (Date.now() - lastFetchTime < cacheDuration);
+
+        if (!forceRefresh && cachedData && isCacheValid) {
+            galleryState.characters = JSON.parse(cachedData);
+            debug(debugKey, debugPrefix+"Using cached data for categories:", galleryState.characters);
+        } else {
+
+            debug(debugKey, debugPrefix+"Fetching new data for categories...\n\nReasons for not using cache:\n1. Force refresh:", forceRefresh, "\n2. Cache validity:", isCacheValid, "\n3. Cached data:", cachedData);
+            const categories = await fetchGithubData(
+                CONFIG.repo.owner, 
+                CONFIG.repo.name, 
+                CONFIG.paths.categories, 
+                CONFIG.repo.branch, 
+                "json"    // The output format is JSON
+            );
+            
+            debug(debugKey, debugPrefix+"4 - Categories data:", categories);
+
+            // Check if the data has the correct structure
+            if (!categories || typeof categories !== 'object') {
+                throw new Error('Invalid structure for categories data');
+            }
+            
+            // Store data in state and cache
+            filterState.categories = categories;
+            localStorage.setItem(cacheKey, JSON.stringify(categories));
+            localStorage.setItem(`${cacheKey}_timestamp`, Date.now().toString());
+
+            debug(debugKey, debugPrefix+"Fetched and stored categories data successfully:", categories);
         }
         
-        // Atualize o estado das categorias no filterState
-        filterState.categories = categories;
-        
-        // Inicializa o painel de filtros
+        // Initialize filters
         renderFilterPanel();
-
-        // Log 4 - Inicializando painel de filtros
         debug(debugKey, debugPrefix+"5 - Rendering filter panel");
 
-        // Configura os eventos dos filtros
         setupFilterEvents();
-
-        // Log 5 - Configurando eventos
         debug(debugKey, debugPrefix+"6 - Setting up filter events");
 
-        // Inicializa o estado do filtro
         initializeDefaultFilters();
-        
-        // Log 6 - Finalização da inicialização
         debug(debugKey, debugPrefix+"7 - Filters initialized successfully");
 
     } catch (error) {
@@ -70,15 +77,14 @@ export async function initFilters() {
  * Render the filter panel with all categories
  */
 function renderFilterPanel() {
-    // Log 7 - Início do processo de renderização do painel
     console.log("8 - Rendering filter panel...");
 
     const container = document.getElementById('categoriesContainer');
     container.innerHTML = ''; // Clear existing content
     
     Object.entries(filterState.categories).forEach(([categoryName, categoryData], index) => {
-        // Log 8 - Verificando cada categoria
-        console.log(`9 - Processing category ${index + 1}:`, categoryName, categoryData);
+        // Check each category
+        console.log(`9 - Processing category ${index + 1} [name | data]:`, categoryName, categoryData);
 
         // Check if the category has tags, nsfw_only, etc.
         if (!categoryData.tags) {
@@ -87,8 +93,6 @@ function renderFilterPanel() {
 
         // Create category section
         const categorySection = createCategorySection(categoryName, categoryData);
-
-        // Log 9 - Categoria criada
         console.log(`10 - Category section created for ${categoryName}:`, categorySection);
 
         // Check if this is an NSFW-only category
@@ -108,7 +112,6 @@ function renderFilterPanel() {
  * @returns {HTMLElement} The category section element
  */
 function createCategorySection(categoryName, categoryData) {
-    // Log 10 - Início de criação da seção de categoria
     console.log("11 - Creating category section for", categoryName);
 
     const section = document.createElement('div');
@@ -126,7 +129,6 @@ function createCategorySection(categoryName, categoryData) {
     const content = document.createElement('div');
     content.className = 'category-content';
 
-    // Log 11 - Verificando e processando as tags da categoria
     console.log(`12 - Processing tags for category ${categoryName}`, categoryData.tags);
 
     // Add tags based on current NSFW state
@@ -134,7 +136,6 @@ function createCategorySection(categoryName, categoryData) {
         [...(categoryData.tags?.general || []), ...(categoryData.tags?.nsfw || [])] :
         (categoryData.tags?.general || []);
     
-    // Log 12 - Tags a serem exibidas
     console.log(`13 - Tags to show for ${categoryName}:`, tagsToShow);
 
     tagsToShow.forEach(tag => {

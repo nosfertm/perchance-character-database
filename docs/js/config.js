@@ -25,8 +25,14 @@ const CONFIG = {
     // Cache settings organized by feature/page
     cache: {
         accCharacters: {
-            duration: 60,  // Time to maintain cache in minutes (1 hour)
-            key: 'acc_characters_cache'
+            characters: {
+                duration: 60,  // Time to maintain cache in minutes (1 hour)
+                key: 'acc_characters_cache'
+            },
+            filters: {
+                duration: 60,  // Time to maintain cache in minutes (1 hour)
+                key: 'acc_filters_cache'
+            },
         },
         lorebooks: {
             duration: 120,  // Cache duration for lorebooks in minutes (2 hours)

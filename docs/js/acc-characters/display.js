@@ -67,7 +67,7 @@ async function loadCharacters(forceRefresh = false) {
     try {
         debug(debugKey, debugPrefix+"Loading character data...");
 
-        const cacheConfig = CONFIG.cache.accCharacters;
+        const cacheConfig = CONFIG.cache.accCharacters.characters;
         const cacheKey = cacheConfig.key;
         const cacheDuration = cacheConfig.duration * 60 * 1000 || 3600; // Convert minutes to milliseconds, default 1 hour.
 
@@ -187,7 +187,7 @@ export function createCharacterCard(character) {
             ${character.type === 'nsfw' ? '<div class="nsfw-icon" onclick="revealNsfwCard()">🔥</div>' : ''}
         </div>
         <div class="card-footer ${character.type}">
-            <span style="padding: 5px;">${truncatedName} - ${character.type}</span>
+            <span style="padding: 5px;">${truncatedName}</span>
             <div class="button-container">
                 ${character.downloadLink ? `
                     <button class="btn" data-download-link="${character.downloadLink}">
@@ -206,7 +206,8 @@ export function createCharacterCard(character) {
     // Add event listeners for download and link buttons
     const downloadBtn = card.querySelector('.download-btn');
     if (downloadBtn) {
-        downloadBtn.addEventListener('click', () => downloadCharacter(character));
+        //downloadBtn.addEventListener('click', () => downloadCharacter(character));
+        window.open(downloadBtn.dataset.downloadLink, '_blank');
     }
     
     const linkBtn = card.querySelector('.link-btn');
