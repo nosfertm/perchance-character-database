@@ -383,3 +383,9 @@
         max-width: 100%;
     }
 }
+
+@media (max-width: 400px) {
+    .gallery {
+        content: "CD";
+    }
+}
