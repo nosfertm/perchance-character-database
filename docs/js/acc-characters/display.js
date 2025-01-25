@@ -1,6 +1,7 @@
 import CONFIG from '../config.js';
 import { showToast, fetchGithubData, debug } from '../utils.js';
 import { getFilterState } from './filters.js';
+truncatedName 
 
 // Debug key for logging purposes
 const debugKey = CONFIG.debug?.aacCharacters?.display ?? false;
@@ -193,6 +194,11 @@ export function createCharacterCard(character) {
     const nsfwClass = character.type === 'nsfw' ? 'nsfw-character' : '';
     const blurClass = filterState.nsfwEnabled ? '' : 'nsfw-blur';
     const nsfwIconVisible = !filterState.nsfwEnabled;
+
+    // Truncate character name  //FIX. POINT TO UTILS
+    const truncatedName = character.name.length > 15 
+        ? character.name.substring(0, 15) + '...' 
+        : character.name;
     
     card.innerHTML = `
         <div class="card-image-container ${nsfwClass} ${blurClass}">
