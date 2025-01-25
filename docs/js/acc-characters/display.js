@@ -112,7 +112,7 @@ function renderGallery() {
     });
 
     // Atualiza contagem de resultados
-    updateResultsCount(filteredCharacters.length);
+    //updateResultsCount(filteredCharacters.length);
 }
 
 // Função para adicionar busca de texto
@@ -320,9 +320,9 @@ export function createCharacterCard(character) {
         : character.name;
     
     card.innerHTML = `
-        <div class="card-image-container ${nsfwClass} ${blurClass}">
-            <img src="${character.characterAvatar}" alt="${character.name}" class="card-image">
-            ${nsfwIconVisible && character.type === 'nsfw' ? '<div class="nsfw-icon" onclick="revealNsfwCard()">🔥</div>' : ''}
+        <div class="card-image-container">
+            <img src="${character.characterAvatar}" alt="${character.name}" class="card-image ${blurClass}">
+            ${nsfwIconVisible && character.type === 'nsfw' ? '<div class="nsfw-icon">🔥</div>' : ''}
         </div>
         <div class="card-footer ${character.type}">
             <span style="padding: 5px;">${truncatedName}</span>
