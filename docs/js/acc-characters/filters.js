@@ -208,6 +208,9 @@ function toggleSfwContent(show) {
 function handleRatingChange(event) {
     const checkbox = event.target;
     const tag = checkbox.dataset.tag;
+
+    console.log(`Rating checkbox changed: ${tag}`);
+    console.log("Filter state:", filterState);
     
     if (tag === 'NSFW') {
         filterState.nsfwEnabled = checkbox.checked;
