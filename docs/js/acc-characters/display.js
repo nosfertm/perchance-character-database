@@ -7,11 +7,119 @@ const debugKey = CONFIG.debug?.aacCharacters?.display ?? false;
 const debugPrefix = '[DISPLAY] ';
 
 // State management for gallery
+// const galleryState = {
+//     characters: [],
+//     //filteredCharacters: [],
+//     loading: false
+// };
+
 const galleryState = {
-    characters: [],
-    filteredCharacters: [],
-    loading: false
+    characters: [], // Lista completa de personagens
+    filters: {
+        rating: ['SFW', 'NSFW'], // Tags de rating selecionadas
+        genre: [], // Gêneros selecionados
+        searchText: '', // Texto de busca
+        nsfwEnabled: true // Status de NSFW
+    },
+    loading: false,
+
+    // Método para filtrar personagens
+    getFilteredCharacters() {
+        return this.characters.filter(character => {
+            // Filtro de Rating
+            const showSfw = this.filters.rating.includes('SFW');
+            const showNsfw = this.filters.rating.includes('NSFW');
+
+            if (character.type === 'nsfw' && (!this.filters.nsfwEnabled || !showNsfw)) {
+                return false;
+            }
+            
+            if (character.type === 'sfw' && !showSfw) {
+                return false;
+            }
+
+            // Filtro de Gênero
+            if (this.filters.genre.length > 0) {
+                const characterGenres = character.categories.genre || [];
+                const matchesGenre = this.filters.genre.some(genre => 
+                    characterGenres.some(characterGenre => 
+                        characterGenre.toLowerCase() === genre.toLowerCase()
+                    )
+                );
+                if (!matchesGenre) return false;
+            }
+
+            // Filtro de Texto de Busca
+            if (this.filters.searchText) {
+                const searchText = this.filters.searchText.toLowerCase();
+                const searchableFields = [
+                    character.name,
+                    character.description,
+                    character.author
+                ];
+
+                const matches = searchableFields.some(field => 
+                    field.toLowerCase().includes(searchText)
+                );
+
+                if (!matches) return false;
+            }
+
+            return true;
+        });
+    }
 };
+
+// Função para atualizar filtros
+function updateFilters(category, tag, isChecked) {
+    // Atualiza os filtros baseado na categoria
+    switch(category) {
+        case 'Rating':
+            if (isChecked) {
+                if (!galleryState.filters.rating.includes(tag)) {
+                    galleryState.filters.rating.push(tag);
+                }
+            } else {
+                galleryState.filters.rating = galleryState.filters.rating.filter(r => r !== tag);
+            }
+            break;
+        case 'Genre':
+            if (isChecked) {
+                if (!galleryState.filters.genre.includes(tag)) {
+                    galleryState.filters.genre.push(tag);
+                }
+            } else {
+                galleryState.filters.genre = galleryState.filters.genre.filter(g => g !== tag);
+            }
+            break;
+    }
+
+    // Atualiza a renderização
+    renderGallery();
+}
+
+// Função de renderização atualizada
+function renderGallery() {
+    const grid = document.getElementById('galleryGrid');
+    grid.innerHTML = '';
+    
+    // Usa o método getFilteredCharacters para obter personagens filtrados
+    const filteredCharacters = galleryState.getFilteredCharacters();
+    
+    filteredCharacters.forEach(character => {
+        const card = createCharacterCard(character);
+        grid.appendChild(card);
+    });
+
+    // Atualiza contagem de resultados
+    updateResultsCount(filteredCharacters.length);
+}
+
+// Função para adicionar busca de texto
+function handleSearchInput(event) {
+    galleryState.filters.searchText = event.target.value;
+    renderGallery();
+}
 
 /**
  * Initialize the gallery display
@@ -55,6 +163,18 @@ function setupGalleryEvents() {
         await loadCharacters();
         renderGallery();
     });
+
+    // No setup de eventos
+    document.querySelectorAll('.filter-checkbox').forEach(checkbox => {
+        checkbox.addEventListener('change', (event) => {
+            const category = event.target.closest('.category-section').dataset.category;
+            const tag = event.target.dataset.tag;
+            updateFilters(category, tag, event.target.checked);
+        });
+    });
+
+    // Adicionar evento de busca
+    document.getElementById('searchInput').addEventListener('input', handleSearchInput);
 }
 
 /**
@@ -202,7 +322,7 @@ export function createCharacterCard(character) {
     card.innerHTML = `
         <div class="card-image-container ${nsfwClass} ${blurClass}">
             <img src="${character.characterAvatar}" alt="${character.name}" class="card-image">
-            ${nsfwIconVisible ? '<div class="nsfw-icon" onclick="revealNsfwCard()">🔥</div>' : ''}
+            ${nsfwIconVisible && character.type === 'nsfw' ? '<div class="nsfw-icon" onclick="revealNsfwCard()">🔥</div>' : ''}
         </div>
         <div class="card-footer ${character.type}">
             <span style="padding: 5px;">${truncatedName}</span>
