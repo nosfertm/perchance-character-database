@@ -2,7 +2,7 @@
   "Rating": {
     "description": "Content maturity level",
     "tags": {
-      "general": ["SFW"],  
+      "general": ["SFW","NSFW"],  
       "nsfw": ["NSFW"]      
     },
     "required": true
