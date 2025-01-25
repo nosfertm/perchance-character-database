@@ -287,17 +287,17 @@ function filterCharacters(filters, nsfwEnabled) {
 /**
  * Render the gallery grid
  */
-function renderGallery() {
-    const grid = document.getElementById('galleryGrid');
-    grid.innerHTML = '';
+// function renderGallery() {
+//     const grid = document.getElementById('galleryGrid');
+//     grid.innerHTML = '';
     
-    galleryState.filteredCharacters.forEach(character => {
-        const card = createCharacterCard(character);
-        grid.appendChild(card);
-    });
+//     galleryState.filteredCharacters.forEach(character => {
+//         const card = createCharacterCard(character);
+//         grid.appendChild(card);
+//     });
 
-    console.log("renderGallery|galleryState",galleryState)
-}
+//     console.log("renderGallery|galleryState",galleryState)
+// }
 
 /**
  * Create a character card element
