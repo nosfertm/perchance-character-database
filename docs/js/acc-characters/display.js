@@ -1,7 +1,6 @@
 import CONFIG from '../config.js';
 import { showToast, fetchGithubData, debug } from '../utils.js';
 import { getFilterState } from './filters.js';
-truncatedName 
 
 // Debug key for logging purposes
 const debugKey = CONFIG.debug?.aacCharacters?.display ?? false;
