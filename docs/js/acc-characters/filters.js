@@ -269,6 +269,11 @@ function setupFilterEvents() {
     toggleButton.addEventListener('click', () => {
         document.getElementById('sidebar').classList.toggle('active');
     });
+
+    // Add event listeners to all category checkboxes
+    document.querySelectorAll('.filter-checkbox').forEach(checkbox => {
+        checkbox.addEventListener('change', handleFilterChange);
+    });
 }
 
 /**
@@ -322,6 +327,28 @@ function updateFilters() {
         }
     });
     document.dispatchEvent(event);
+}
+
+//new
+function handleFilterChange(event) {
+    const checkbox = event.target;
+    const category = checkbox.closest('.category-section').dataset.category;
+    const tag = checkbox.dataset.tag;
+
+    // Update selected filters
+    updateSelectedFilters(category, tag, checkbox.checked);
+    updateFilters();
+}
+
+function updateSelectedFilters(category, tag, isChecked) {
+    // Add or remove tags from selected filters
+    const currentFilters = filterState.selectedFilters[category] || [];
+    
+    if (isChecked && !currentFilters.includes(tag)) {
+        filterState.selectedFilters[category].push(tag);
+    } else if (!isChecked) {
+        filterState.selectedFilters[category] = currentFilters.filter(t => t !== tag);
+    }
 }
 
 // Export necessary functions and state

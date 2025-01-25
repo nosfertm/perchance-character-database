@@ -124,13 +124,12 @@ async function loadCharacters(forceRefresh = false) {
  * @param {boolean} nsfwEnabled - Whether NSFW content is enabled
  */
 function filterCharacters(filters, nsfwEnabled) {
+    // Modify the existing function to handle category filtering more comprehensively
     galleryState.filteredCharacters = galleryState.characters.filter(character => {
-        // Check rating first
+        // Rating filter logic
         const showSfw = filters.Rating?.includes('SFW');
         const showNsfw = filters.Rating?.includes('NSFW');
 
-        console.log("filterCharacters|galleryState",galleryState)
-        
         if (character.type === 'nsfw' && (!nsfwEnabled || !showNsfw)) {
             return false;
         }
@@ -139,16 +138,27 @@ function filterCharacters(filters, nsfwEnabled) {
             return false;
         }
         
-        // Check other filters
+        // Generalized category filtering
         return Object.entries(filters).every(([category, selectedTags]) => {
+            // Skip Rating and empty filter categories
             if (category === 'Rating' || selectedTags.length === 0) {
                 return true;
             }
             
-            const characterTags = character.categories[category.toLowerCase()] || [];
-            return selectedTags.some(tag => 
-                characterTags.includes(tag.toLowerCase())
-            );
+            // Convert character categories to lowercase for case-insensitive matching
+            const characterCategories = character.categories;
+            const lowercaseCategories = Object.keys(characterCategories).reduce((acc, key) => {
+                acc[key.toLowerCase()] = characterCategories[key].map(tag => tag.toLowerCase());
+                return acc;
+            }, {});
+
+            // Check if any selected tag matches character's categories
+            return selectedTags.some(selectedTag => {
+                const lowercaseTag = selectedTag.toLowerCase();
+                return Object.values(lowercaseCategories).some(tags => 
+                    tags.includes(lowercaseTag)
+                );
+            });
         });
     });
 }
@@ -177,18 +187,15 @@ export function createCharacterCard(character) {
     const card = document.createElement('div');
     card.classList.add('character-card');
     
-    // Determine color based on rating
-    const ratingColor = character.type === 'sfw' ? 'rgba(0, 0, 255, 0.5)' : 'rgba(255, 0, 0, 0.5)';
-    
-    // Truncate character name
-    const truncatedName = character.name.length > 15 
-        ? character.name.substring(0, 15) + '...' 
-        : character.name;
+    // Modify NSFW handling
+    const nsfwClass = character.type === 'nsfw' ? 'nsfw-character' : '';
+    const blurClass = filterState.nsfwEnabled ? '' : 'nsfw-blur';
+    const nsfwIconVisible = !filterState.nsfwEnabled;
     
     card.innerHTML = `
-        <div class="card-image-container">
-            <img src="${character.characterAvatar}" alt="${character.name}" class="card-image${character.type === 'nsfw' ? ' nsfw' : ''}">
-            ${character.type === 'nsfw' ? '<div class="nsfw-icon" onclick="revealNsfwCard()">🔥</div>' : ''}
+        <div class="card-image-container ${nsfwClass} ${blurClass}">
+            <img src="${character.characterAvatar}" alt="${character.name}" class="card-image">
+            ${nsfwIconVisible ? '<div class="nsfw-icon" onclick="revealNsfwCard()">🔥</div>' : ''}
         </div>
         <div class="card-footer ${character.type}">
             <span style="padding: 5px;">${truncatedName}</span>
