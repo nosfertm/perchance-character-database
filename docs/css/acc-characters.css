@@ -198,7 +198,7 @@
 
 .nsfw-blur {
     filter: blur(10px); /* Blur the image for NSFW */
-    transition: filter 0.3s ease;
+    transition: filter 1s ease;
 }
 
 .nsfw-icon {
