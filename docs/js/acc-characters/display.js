@@ -1,5 +1,6 @@
 import CONFIG from '../config.js';
 import { showToast, fetchGithubData, debug } from '../utils.js';
+import { getFilterState } from './filters.js';
 
 // Debug key for logging purposes
 const debugKey = CONFIG.debug?.aacCharacters?.display ?? false;
@@ -186,6 +187,7 @@ function renderGallery() {
 export function createCharacterCard(character) {
     const card = document.createElement('div');
     card.classList.add('character-card');
+    const filterState = getFilterState();
     
     // Modify NSFW handling
     const nsfwClass = character.type === 'nsfw' ? 'nsfw-character' : '';
