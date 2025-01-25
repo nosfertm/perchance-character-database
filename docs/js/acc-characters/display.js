@@ -128,6 +128,8 @@ function filterCharacters(filters, nsfwEnabled) {
         // Check rating first
         const showSfw = filters.Rating?.includes('SFW');
         const showNsfw = filters.Rating?.includes('NSFW');
+
+        console.log("filterCharacters|galleryState",galleryState)
         
         if (character.type === 'nsfw' && (!nsfwEnabled || !showNsfw)) {
             return false;
@@ -162,6 +164,8 @@ function renderGallery() {
         const card = createCharacterCard(character);
         grid.appendChild(card);
     });
+
+    console.log("renderGallery|galleryState",galleryState)
 }
 
 /**
