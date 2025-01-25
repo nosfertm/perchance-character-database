@@ -311,8 +311,8 @@ export function createCharacterCard(character) {
     
     // Modify NSFW handling
     const nsfwClass = character.type === 'nsfw' ? 'nsfw-character' : '';
-    const blurClass = filterState.nsfwEnabled ? '' : 'nsfw-blur';
-    const nsfwIconVisible = !filterState.nsfwEnabled;
+    const blurClass = filterState.nsfwEnabled && character.type === 'nsfw' ? '' : 'nsfw-blur';
+    const nsfwIconVisible = !filterState.nsfwEnabled && character.type === 'nsfw';
 
     // Truncate character name  //FIX. POINT TO UTILS
     const truncatedName = character.name.length > 15 
@@ -322,7 +322,7 @@ export function createCharacterCard(character) {
     card.innerHTML = `
         <div class="card-image-container">
             <img src="${character.characterAvatar}" alt="${character.name}" class="card-image ${blurClass}">
-            ${nsfwIconVisible && character.type === 'nsfw' ? '<div class="nsfw-icon">🔥</div>' : ''}
+            ${nsfwIconVisible ? '<div class="nsfw-icon">🔥</div>' : ''}
         </div>
         <div class="card-footer ${character.type}">
             <span style="padding: 5px;">${truncatedName}</span>
