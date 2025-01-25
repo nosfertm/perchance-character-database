@@ -311,8 +311,8 @@ export function createCharacterCard(character) {
     
     // Modify NSFW handling
     const nsfwClass = character.type === 'nsfw' ? 'nsfw-character' : '';
-    const blurClass = filterState.nsfwEnabled && character.type === 'nsfw' ? 'nsfw-blur' : '';
     const nsfwIconVisible = !filterState.nsfwEnabled && character.type === 'nsfw';
+    const blurClass = nfnsfwIconVisible ? 'nsfw-blur' : '';
 
     // Truncate character name  //FIX. POINT TO UTILS
     const truncatedName = character.name.length > 15 
@@ -325,7 +325,7 @@ export function createCharacterCard(character) {
             ${nsfwIconVisible ? '<div class="nsfw-icon">🔥</div>' : ''}
         </div>
         <div class="card-footer ${character.type}">
-            <span style="padding: 5px;">${truncatedName}|${filterState.nsfwEnabled}|${character.type}</span>
+            <span style="padding: 5px;">${truncatedName}</span>
             <div class="button-container">
                 ${character.downloadLink ? `
                     <button class="btn" data-download-link="${character.downloadLink}">
