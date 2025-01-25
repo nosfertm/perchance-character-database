@@ -133,9 +133,9 @@ function createCategorySection(categoryName, categoryData) {
     console.log(`12 - Processing tags for category ${categoryName}`, categoryData.tags);
 
     // Add tags based on current NSFW state
-    const tagsToShow = filterState.nsfwEnabled ? 
-        [...(categoryData.tags?.general || []), ...(categoryData.tags?.nsfw || [])] :
-        (categoryData.tags?.general || []);
+    const tagsToShow = filterState.nsfwEnabled 
+        ? [...(categoryData.tags?.general || []), ...(categoryData.tags?.nsfw || [])] 
+        : categoryData.tags?.general || [];
     
     console.log(`13 - Tags to show for ${categoryName}:`, tagsToShow);
 
@@ -192,6 +192,16 @@ function createTagCheckbox(category, tag) {
 }
 
 /**
+ * Toggle visibility of SFW content
+ * @param {boolean} show - Whether to show SFW content
+ */
+function toggleSfwContent(show) {
+    document.querySelectorAll('.character-card.sfw').forEach(card => {
+        card.style.display = show ? 'block' : 'none';
+    });
+}
+
+/**
  * Handle changes to Rating checkboxes
  * @param {Event} event - Change event
  */
@@ -207,6 +217,8 @@ function handleRatingChange(event) {
         const sfwCheckbox = document.querySelector('input[data-tag="SFW"]');
         if (checkbox.checked && !sfwCheckbox.checked) {
             toggleSfwContent(false);
+        } else {
+            toggleSfwContent(true);
         }
     }
     
