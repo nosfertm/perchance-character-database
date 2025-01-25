@@ -197,8 +197,8 @@
 }
 
 .nsfw-blur {
-    filter: blur(10px); /* Blur the image for NSFW */
-    transition: filter 1s ease;
+    filter: blur(6px); /* Blur the image for NSFW */
+    transition: filter 0.3s ease-in-out;
 }
 
 .nsfw-icon {
