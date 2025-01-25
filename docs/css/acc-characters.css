@@ -27,7 +27,35 @@
 
 .sidebar-content {
     padding: var(--spacing-md);
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: var(--spacing-md);
 }
+
+/* --------------------------------- SEARCH --------------------------------- */
+
+.search-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-container input {
+    flex: 1;
+    padding: 0.3rem;
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius-sm);
+    margin-right: var(--spacing-sm);
+}
+
+.search-container i:hover {
+    color: var(--color-primary);
+    transform: scale(1.2);
+  }
+
+/* ------------------------------- CATEGORIES ------------------------------- */
 
 /* Categories and Filters */
 .categories-container {
