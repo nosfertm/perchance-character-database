@@ -1,7 +1,7 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const { createApp, ref } = Vue;
+if (window.Vue) {
+    const { createApp, ref } = window.Vue;
 
-    const app = createApp({
+    createApp({
         data() {
             return {
                 showNsfwTags: false,
@@ -167,14 +167,13 @@ document.addEventListener('DOMContentLoaded', () => {
                             }          
                         }
                 ];
-            },
-
+            }
             // Dynamic filter application method
             applyFilters(character) {
                 // Filter logic implementation
             }
         }
-    });
-
-    app.mount('#app');
-});
+    }).mount('#app');
+} else {
+    console.error('Vue is not loaded');
+}
