@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     {
                         title: 'Characters',
                         description: 'Explore a diverse collection of AI-generated characters.',
-                        link: 'characters.html'
+                        link: 'acc-characters.html'
                     },
                     {
                         title: 'Lore Books',
