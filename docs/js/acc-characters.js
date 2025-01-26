@@ -1,51 +1,58 @@
-// acc-characters specific JavaScript
+// ACC Characters Vue.js Application
 document.addEventListener('DOMContentLoaded', () => {
-    // Vue 3 application initialization
-    const { createApp, ref } = Vue;
+    // Destructure Vue 3 core functions
+    const { createApp, ref, computed } = Vue;
 
     createApp({
         data() {
             return {
+                // Flags to control NSFW content visibility
                 showNsfwTags: false,
                 showNsfwImages: false,
+                
+                // Initialize categories and characters
                 categories: this.getStaticCategories(),
                 characters: this.getStaticCharacters(),
+                
+                // Object to track selected filters for each category
                 selectedFilters: {}
             };
         },
         methods: {
-             // Static categories function (to be replaced later)
-             getStaticCategories() {
+            // Static categories function
+            getStaticCategories() {
                 return {
                     "Rating": {
-                    "description": "Content maturity level",
-                    "tags": {
-                        "general": ["SFW","NSFW"],  
-                        "nsfw": ["NSFW"]      
-                    },
-                    "required": true
+                        "description": "Content maturity level",
+                        "tags": {
+                            "general": ["SFW", "NSFW"],  
+                            "nsfw": ["NSFW"]      
+                        },
+                        "required": true,
+                        "nsfw_only": false // Added explicit flag
                     },
                     "Genre": {
-                    "description": "Story type or style",
-                    "tags": {
-                        "general": ["Fantasy", "Horror", "Adventure", "RPG"],
-                        "nsfw": ["Erotic", "Sexual Roleplay", "Fetish"]
-                    },
-                    "required": true
+                        "description": "Story type or style",
+                        "tags": {
+                            "general": ["Fantasy", "Horror", "Adventure", "RPG"],
+                            "nsfw": ["Erotic", "Sexual Roleplay", "Fetish"]
+                        },
+                        "required": true,
+                        "nsfw_only": false // Added explicit flag
                     },
                     "Fetishes": {
-                    "description": "Adult-themed interests",
-                    "tags": {
-                        "general": [],
-                        "nsfw": ["BDSM", "Feet", "Roleplay", "Voyeurism"]
-                    },
-                    "required": false,
-                    "nsfw_only": true
+                        "description": "Adult-themed interests",
+                        "tags": {
+                            "general": [],
+                            "nsfw": ["BDSM", "Feet", "Roleplay", "Voyeurism"]
+                        },
+                        "required": false,
+                        "nsfw_only": true
                     }
                 };
             },
 
-            // Static characters function (to be replaced later)
+            // Static characters function
             getStaticCharacters() {
                 return [
                         {
@@ -169,9 +176,46 @@ document.addEventListener('DOMContentLoaded', () => {
                             }          
                         }
                 ];
+            },
+
+            // New method to filter characters based on selected filters
+            filterCharacters() {
+                return this.characters.filter(character => {
+                    // If no filters selected, show all characters
+                    if (Object.keys(this.selectedFilters).length === 0) {
+                        return true;
+                    }
+
+                    // Check if character matches all selected filters
+                    return Object.entries(this.selectedFilters).every(([category, selectedTags]) => {
+                        // Skip if no tags selected in this category
+                        if (selectedTags.length === 0) return true;
+
+                        // Check if character's category matches any selected tag
+                        const charCategoryValue = character.manifest.categories[category.toLowerCase()];
+                        return selectedTags.includes(charCategoryValue);
+                    });
+                });
             }
         },
-        mounted() {}
+        computed: {
+            // Computed property to handle character filtering with NSFW visibility
+            filteredCharacters() {
+                // Get filtered characters
+                let filtered = this.filterCharacters();
+
+                // Filter out NSFW characters if not allowed
+                if (!this.showNsfwTags) {
+                    filtered = filtered.filter(char => 
+                        char.manifest.categories.rating === 'sfw'
+                    );
+                }
+
+                return filtered;
+            }
+        },
+        mounted() {
+            // Optional: Any initialization logic when component is mounted
+        }
     }).mount('#app');
 });
-           
