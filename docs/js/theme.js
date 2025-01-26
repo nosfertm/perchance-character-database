@@ -1,5 +1,5 @@
 // Theme management utility
-const ThemeManager = {
+export const ThemeManager = {
     // Toggle between light and dark themes
     toggleTheme() {
         document.body.classList.toggle('dark-theme');
