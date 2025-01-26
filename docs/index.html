@@ -4,44 +4,98 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perchance Character Database</title>
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/theme.css">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
 </head>
 <body>
-    <!-- Header with site identity -->
-    <header class="site-header">
-        <div class="header-content">
-            <div class="logo-container">
-                <!-- You can add your logo image here -->
-                <h1>Perchance Character Database</h1>
-            </div>
-            <div class="header-controls">
-                <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
-                    🌓
-                </button>
-            </div>
-        </div>
-    </header>
+    <!-- Vue 3 App Container -->
+    <div id="app" class="d-flex flex-column min-vh-100">
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
 
-    <!-- Main navigation -->
-    <main class="main-content">
-        <nav class="main-nav">
-            <h2>&nbsp;</h2>
-            <h2>&nbsp;</h2> 
-            <h2>Welcome to Perchance Character Database</h2>
-            <div class="nav-buttons">
-                <a href="acc-characters.html" class="nav-button">
-                    <h3>Character Gallery</h3>
-                    <p>Browse and download AI characters</p>
+                <!-- Logo placeholder -->
+                <a class="navbar-brand" href="#">
+                    <img src="assets/logo-placeholder.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+                    {{ pageTitle }}
                 </a>
-                <a href="lorebooks.html" class="nav-button">
-                    <h3>Lorebooks</h3>
-                    <p>Access worldbuilding resources</p>
-                </a>
+
+                <!-- Collapse navbar menu -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto">
+                        <!-- Home menu -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <!-- Dynamic menu links -->
+                        <li v-for="section in featuredSections" :key="section.title" class="nav-item">
+                            <a class="nav-link" :href="section.link">{{ section.title }}</a>
+                        </li>
+                    </ul>
+                    <!-- Theme toggle button -->
+                    <button @click="toggleTheme" class="btn btn-outline-light ms-auto">
+                        {{ isDarkMode ? 'Light Mode' : 'Dark Mode' }}
+                    </button>
+                </div>
             </div>
         </nav>
-    </main>
 
-    <script type="module" src="./js/theme.js"></script>
+        <!-- Main Content -->
+        <div class="container-fluid px-4">
+            <!-- Reduced horizontal padding -->
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-8 offset-md-2 text-center">
+                        <h1 class="display-4">Welcome to Perchance Character Database</h1>
+                        <p class="lead">A community-driven platform for sharing and discovering characters, lore books, and resources for Perchance.org generators.</p>
+                        <div class="row mt-4">
+                            <div v-for="section in featuredSections" :key="section.title" class="col-md-4">
+                                <div class="card mb-4">
+                                    <div class="card-body">
+                                        <h5 class="card-title">{{ section.title }}</h5>
+                                        <p class="card-text">{{ section.description }}</p>
+                                        <a :href="section.link" class="btn btn-primary">View {{ section.title }}</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer with fixed bottom positioning -->
+        <footer class="bg-dark text-white text-center py-3 mt-auto">
+            <div class="container">
+                <p class="mb-0">
+                    © 2024 Perchance Character Database | 
+                    <a href="https://github.com/nosfertm/perchance-character-database" 
+                       class="text-white" 
+                       target="_blank">
+                        View on GitHub
+                    </a>
+                </p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Vue 3 and Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@3.3.4/dist/vue.global.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="js/config.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/theme.js"></script>
 </body>
 </html>

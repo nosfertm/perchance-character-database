@@ -1,14 +1,26 @@
-/**
- * Initialize theme settings
- */
-export function initTheme() {
-    const themeToggle = document.getElementById('themeToggle');
-    const currentTheme = localStorage.getItem('theme') || 'dark';
-    document.documentElement.setAttribute('data-theme', currentTheme);
+// Theme management utility
+const ThemeManager = {
+    // Toggle between light and dark themes
+    toggleTheme() {
+        document.body.classList.toggle('dark-theme');
+        localStorage.setItem('theme', this.isDarkMode() ? 'dark' : 'light');
+    },
 
-    themeToggle.addEventListener('click', () => {
-        const newTheme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
-        document.documentElement.setAttribute('data-theme', newTheme);
-        localStorage.setItem('theme', newTheme);
-    });
-}
+    // Check if dark mode is currently active
+    isDarkMode() {
+        return document.body.classList.contains('dark-theme');
+    },
+
+    // Initialize theme on page load
+    initTheme() {
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme === 'dark') {
+            document.body.classList.add('dark-theme');
+        }
+    }
+};
+
+// Initialize theme when script loads
+document.addEventListener('DOMContentLoaded', () => {
+    ThemeManager.initTheme();
+});

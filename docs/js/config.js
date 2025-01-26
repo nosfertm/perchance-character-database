@@ -1,73 +1,52 @@
-// Configuration settings for the web application
+// Configuration settings for the Perchance Character Database
 const CONFIG = {
-    // Repository information
+    // GitHub repository information
     repo: {
         owner: 'nosfertm',
         name: 'perchance-character-database',
-        branch: 'sketch'
+        branch: 'main'
     },
     
-    // File paths organized by feature/page
+    // File paths for different content types
     paths: {
-        accCharacters: {
+        characters: {
             index: 'ai-character-chat/characters/index.json'
         },
         lorebooks: {
             index: 'ai-character-chat/lorebooks/index.json'
         },
-        categories: 'categories.json',
-        types: {
-            sfw: 'sfw',
-            nsfw: 'nsfw'
-        }
+        guides: 'guides/index.json'
     },
 
-    // Cache settings organized by feature/page
+    // Cache configuration for different resources
     cache: {
-        accCharacters: {
-            characters: {
-                duration: 60,  // Time to maintain cache in minutes (1 hour)
-                key: 'acc_characters_cache'
-            },
-            filters: {
-                duration: 60,  // Time to maintain cache in minutes (1 hour)
-                key: 'acc_filters_cache'
-            },
+        characters: {
+            duration: 60,  // Cache duration in minutes
+            key: 'characters_cache'
         },
         lorebooks: {
-            duration: 120,  // Cache duration for lorebooks in minutes (2 hours)
+            duration: 120,  // Cache duration in minutes
             key: 'lorebooks_cache'
+        },
+        guides: {
+            duration: 180,  // Cache duration in minutes
+            key: 'guides_cache'
         }
     },
 
-    // Debug settings for logging
-    debug: {
-        aacCharacters: { 
-            "filters": true,    // Enable log for 'filters'
-            "display": true,    // Enable log for 'display'
-            "gallery": true     // Enable log for 'gallery'
-        },
-        lorebooks: false
-    },
-    
-    // UI Configuration
-    ui: {
-        galleryMode: 'portrait', // Configuration for gallery display mode
-        truncateNameLength: 15  // Maximum character name length in gallery
-    },
-
-    // Site navigation
-    navigation: {
-        home: '/index.html',
-        gallery: '/acc-characters.html',
-        lorebooks: '/lorebooks.html'
-    },
-    
-    // Site information
+    // Site metadata
     site: {
         title: 'Perchance Character Database',
-        description: 'Community-driven platform for Perchance.org characters and resources'
+        description: 'Community-driven platform for Perchance.org characters and resources',
+        version: '1.0.0'
+    },
+
+    // GitHub API configuration
+    github: {
+        baseUrl: 'https://api.github.com/repos',
+        contentType: 'application/vnd.github.v3+json'
     }
 };
 
+// Export configuration for use in other modules
 export default CONFIG;

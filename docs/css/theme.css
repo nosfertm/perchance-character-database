@@ -1,100 +1,26 @@
-/* Light Theme (default) */
+/* Base color scheme */
 :root {
-    /* Colors */
-    --color-primary: #2563eb;
-    --color-primary-hover: #1d4ed8;
-    --color-success: #059669;
-    --color-warning: #d97706;
-    --color-error: #dc2626;
-    
-    /* Background colors */
-    --bg-main: #ffffff;
-    --bg-secondary: #f3f4f6;
-    --bg-tertiary: #e5e7eb;
-    
-    /* Text colors */
-    --text-primary: #111827;
-    --text-secondary: #374151;
-    --text-tertiary: #6b7280;
-    
-    /* Border colors */
-    --border-light: #e5e7eb;
-    --border-medium: #d1d5db;
-    --border-dark: #9ca3af;
-    
-    /* Special elements */
-    --modal-overlay: rgba(0, 0, 0, 0.75);
-    --card-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    
-    /* Content indicators */
-    --sfw-indicator: rgba(25, 190, 129, 0.3);
-    --nsfw-indicator: rgba(220, 38, 38, 0.3);
+    --bg-primary: #ffffff;
+    --text-primary: #000000;
+    --bg-secondary: #f4f4f4;
+    --accent-color: #007bff;
 }
 
-/* Dark Theme */
-[data-theme="dark"] {
-    /* Colors */
-    --color-primary: #3b82f6;
-    --color-primary-hover: #2563eb;
-    --color-success: #059669;
-    --color-warning: #d97706;
-    --color-error: #dc2626;
-    
-    /* Background colors */
-    --bg-main: #111827;
-    --bg-secondary: #1f2937;
-    --bg-tertiary: #374151;
-    
-    /* Text colors */
-    --text-primary: #f9fafb;
-    --text-secondary: #e5e7eb;
-    --text-tertiary: #9ca3af;
-    
-    /* Border colors */
-    --border-light: #374151;
-    --border-medium: #4b5563;
-    --border-dark: #6b7280;
-    
-    /* Special elements */
-    --modal-overlay: rgba(0, 0, 0, 0.85);
-    --card-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    
-    /* Content indicators */
-    --sfw-indicator: rgba(25, 190, 129, 0.2);
-    --nsfw-indicator: rgba(220, 38, 38, 0.2);
+/* Dark theme color scheme */
+.dark-theme {
+    --bg-primary: #121212;
+    --text-primary: #ffffff;
+    --bg-secondary: #1e1e1e;
+    --accent-color: #3f9fff;
 }
 
-/* Apply theme colors to elements */
+/* Global theme styles */
 body {
-    background-color: var(--bg-main);
+    background-color: var(--bg-primary);
     color: var(--text-primary);
+    transition: background-color 0.3s, color 0.3s;
 }
 
-.site-header {
-    background-color: var(--bg-secondary);
-    border-bottom: 1px solid var(--border-light);
-}
-
-.control-button {
-    background-color: var(--bg-tertiary);
-    color: var(--text-primary);
-}
-
-.control-button:hover {
-    background-color: var(--color-primary);
-    color: white;
-}
-
-.toast.success {
-    background-color: var(--color-success);
-    color: white;
-}
-
-.toast.error {
-    background-color: var(--color-error);
-    color: white;
-}
-
-.loading-indicator {
-    color: var(--color-primary);
+.bg-secondary {
+    background-color: var(--bg-secondary) !important;
 }
