@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Similar head structure to index.html -->
+    <link href="css/acc-characters.css" rel="stylesheet">
+</head>
+<body>
+    <div id="app" class="d-flex flex-column min-vh-100">
+        <!-- Navbar (similar to index.html) -->
+        
+        <!-- Offcanvas Filter Section -->
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="filtersOffcanvas">
+            <div class="offcanvas-header">
+                <h5>Filters</h5>
+            </div>
+            <div class="offcanvas-body">
+                <!-- Dynamically generate filter accordions -->
+                <div v-for="(category, categoryName) in categories" :key="categoryName" 
+                     v-if="!category.nsfw_only || showNsfwTags">
+                    <div class="accordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse">
+                                    {{ categoryName }}
+                                </button>
+                            </h2>
+                            <div class="accordion-collapse collapse show">
+                                <div class="accordion-body">
+                                    <!-- Checkbox generation -->
+                                    <div v-for="tag in category.tags.general" :key="tag" 
+                                         class="form-check">
+                                        <input class="form-check-input" type="checkbox" 
+                                               :value="tag" :id="tag">
+                                        <label class="form-check-label" :for="tag">
+                                            {{ tag }}
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Characters Grid -->
+        <div class="container-fluid">
+            <div class="row">
+                <div v-for="character in characters" :key="character.path" 
+                     class="col-md-3 mb-4">
+                    <div :class="[
+                        'card', 
+                        character.manifest.categories.rating === 'nsfw' ? 'bg-danger' : 'bg-primary'
+                    ]">
+                        <img :src="character.manifest.characterAvatar" 
+                             :class="{
+                                 'card-img-top': true, 
+                                 'nsfw-blur': character.manifest.categories.rating === 'nsfw' && !showNsfwImages
+                             }"
+                             :alt="character.manifest.name">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ character.manifest.name }}</h5>
+                            <p class="card-text">{{ character.manifest.description }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer (similar to index.html) -->
+    </div>
+
+    <!-- Script inclusions -->
+    <script src="js/theme.js"></script>
+    <script src="js/acc-characters.js"></script>
+</body>
+</html>

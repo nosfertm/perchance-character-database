@@ -1,0 +1,14 @@
+/* NSFW image blur effect */
+.nsfw-blur {
+    filter: blur(10px);
+    transition: filter 0.3s ease;
+}
+
+.nsfw-blur:hover {
+    filter: blur(0);
+}
+
+/* NSFW card styling */
+.bg-danger {
+    opacity: 0.8;
+}

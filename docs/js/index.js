@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         link: 'lorebooks.html'
                     },
                     {
-                        title: 'Guidessss',
+                        title: 'Guides',
                         description: 'Learn how to create and use Perchance generators.',
                         link: 'guides.html'
                     }
