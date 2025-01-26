@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const { createApp, ref } = Vue;
 
     createApp({
+        data() {
             return {
                 showNsfwTags: false,
                 showNsfwImages: false,
@@ -166,10 +167,11 @@ document.addEventListener('DOMContentLoaded', () => {
                             }          
                         }
                 ];
-            }
+            },
             // Dynamic filter application method
             // applyFilters(character) {
             //     // Filter logic implementation
             // }
         }
     }).mount('#app');
+}
