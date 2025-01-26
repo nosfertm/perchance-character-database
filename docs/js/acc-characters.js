@@ -1,6 +1,5 @@
 // ACC Characters Vue.js Application
 document.addEventListener('DOMContentLoaded', () => {
-    // Destructure Vue 3 core functions
     const { createApp, ref, computed } = Vue;
 
     createApp({
@@ -10,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 showNsfwTags: false,
                 showNsfwImages: false,
                 
-                // Initialize categories and characters
+                // Initialize categories and characters with fallback
                 categories: this.getStaticCategories(),
                 characters: this.getStaticCharacters(),
                 
@@ -19,8 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
             };
         },
         methods: {
-
-            // Static categories function
+            // Robust categories function with default properties
             getStaticCategories() {
                 return {
                     "Rating": {
@@ -30,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             "nsfw": ["NSFW"]      
                         },
                         "required": true,
-                        "nsfw_only": false // Added explicit flag
+                        "nsfw_only": false
                     },
                     "Genre": {
                         "description": "Story type or style",
@@ -39,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             "nsfw": ["Erotic", "Sexual Roleplay", "Fetish"]
                         },
                         "required": true,
-                        "nsfw_only": false // Added explicit flag
+                        "nsfw_only": false
                     },
                     "Fetishes": {
                         "description": "Adult-themed interests",
@@ -178,43 +176,72 @@ document.addEventListener('DOMContentLoaded', () => {
                         }
                 ];
             },
-            
-            // Modify filter method to handle potential undefined scenarios
+
+            // Safe method to check category visibility
+            isCategoryVisible(category) {
+                // Ensure category exists and handle NSFW visibility
+                if (!category) return false;
+                
+                // If category is not NSFW-only, always show
+                if (!category.nsfw_only) return true;
+                
+                // For NSFW-only categories, check NSFW tag visibility
+                return this.showNsfwTags;
+            },
+
+            // Robust filtering method
             filterCharacters() {
                 return this.characters.filter(character => {
                     // Safeguard against undefined character structure
                     if (!character.manifest || !character.manifest.categories) return false;
-        
-                    // Rest of the filtering logic remains the same
+
+                    // If no filters selected, show all characters
                     if (Object.keys(this.selectedFilters).length === 0) {
                         return true;
                     }
-        
+
+                    // Check if character matches all selected filters
                     return Object.entries(this.selectedFilters).every(([category, selectedTags]) => {
+                        // Skip if no tags selected in this category
                         if (!selectedTags || selectedTags.length === 0) return true;
-        
-                        const charCategoryValue = character.manifest.categories[category.toLowerCase()];
+
+                        // Safely get character's category value
+                        const charCategoryValue = character.manifest.categories?.[category.toLowerCase()];
                         return selectedTags.includes(charCategoryValue);
                     });
                 });
             }
         },
         computed: {
+            // Computed property to handle character filtering with NSFW visibility
             filteredCharacters() {
+                // Get filtered characters
                 let filtered = this.filterCharacters();
-        
-                // Additional safeguard for NSFW filtering
+
+                // Filter out NSFW characters if not allowed
                 if (!this.showNsfwTags) {
                     filtered = filtered.filter(char => 
                         char.manifest?.categories?.rating === 'sfw'
                     );
                 }
-        
+
                 return filtered;
+            },
+
+            // Compute visible categories
+            visibleCategories() {
+                // Create a new object with only visible categories
+                const visible = {};
+                Object.entries(this.categories).forEach(([name, category]) => {
+                    if (this.isCategoryVisible(category)) {
+                        visible[name] = category;
+                    }
+                });
+                return visible;
             }
         },
         mounted() {
-            // Optional: Any initialization logic when component is mounted
+            // Optional: Any initialization logic
         }
     }).mount('#app');
 });
