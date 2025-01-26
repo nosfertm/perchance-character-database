@@ -6,8 +6,6 @@
 </head>
 <body>
     <div id="app" class="d-flex flex-column min-vh-100">
-        <!-- Navbar (similar to index.html) -->
-        
         <!-- Offcanvas Filter Section -->
         <div class="offcanvas offcanvas-start" tabindex="-1" id="filtersOffcanvas">
             <div class="offcanvas-header">
@@ -15,7 +13,8 @@
             </div>
             <div class="offcanvas-body">
                 <!-- Dynamically generate filter accordions -->
-                <div v-for="(category, categoryName) in categories" :key="categoryName" 
+                <div v-for="(category, categoryName) in categories" 
+                     :key="categoryName" 
                      v-if="!category.nsfw_only || showNsfwTags">
                     <div class="accordion">
                         <div class="accordion-item">
@@ -26,11 +25,17 @@
                             </h2>
                             <div class="accordion-collapse collapse show">
                                 <div class="accordion-body">
-                                    <!-- Checkbox generation -->
-                                    <div v-for="tag in category.tags.general" :key="tag" 
+                                    <!-- Safe checkbox generation with optional chaining -->
+                                    <div v-for="tag in (category.tags?.general || [])" 
+                                         :key="tag" 
                                          class="form-check">
-                                        <input class="form-check-input" type="checkbox" 
-                                               :value="tag" :id="tag">
+                                        <input 
+                                            class="form-check-input" 
+                                            type="checkbox" 
+                                            :value="tag" 
+                                            :id="tag"
+                                            v-model="selectedFilters[categoryName]"
+                                        >
                                         <label class="form-check-label" :for="tag">
                                             {{ tag }}
                                         </label>
@@ -46,28 +51,29 @@
         <!-- Characters Grid -->
         <div class="container-fluid">
             <div class="row">
-                <div v-for="character in characters" :key="character.path" 
+                <div v-for="character in filteredCharacters" 
+                     :key="character.path" 
                      class="col-md-3 mb-4">
                     <div :class="[
                         'card', 
-                        character.manifest.categories.rating === 'nsfw' ? 'bg-danger' : 'bg-primary'
+                        character.manifest?.categories?.rating === 'nsfw' ? 'bg-danger' : 'bg-primary'
                     ]">
-                        <img :src="character.manifest.characterAvatar" 
-                             :class="{
-                                 'card-img-top': true, 
-                                 'nsfw-blur': character.manifest.categories.rating === 'nsfw' && !showNsfwImages
-                             }"
-                             :alt="character.manifest.name">
+                        <img 
+                            :src="character.manifest?.characterAvatar" 
+                            :class="{
+                                'card-img-top': true, 
+                                'nsfw-blur': character.manifest?.categories?.rating === 'nsfw' && !showNsfwImages
+                            }"
+                            :alt="character.manifest?.name || 'Character Image'"
+                        >
                         <div class="card-body">
-                            <h5 class="card-title">{{ character.manifest.name }}</h5>
-                            <p class="card-text">{{ character.manifest.description }}</p>
+                            <h5 class="card-title">{{ character.manifest?.name || 'Unnamed Character' }}</h5>
+                            <p class="card-text">{{ character.manifest?.description || 'No description available' }}</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-        <!-- Footer (similar to index.html) -->
     </div>
 
     <!-- Vue 3 and Bootstrap JS -->
