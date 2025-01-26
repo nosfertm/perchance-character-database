@@ -1,10 +1,7 @@
-// Main application logic for Perchance Character Database
-import CONFIG from './config.js';
-
 class PerchanceApp {
     // Initialize the application
     constructor() {
-        this.config = CONFIG;
+        this.config = window.CONFIG;
         this.initializeApp();
     }
 

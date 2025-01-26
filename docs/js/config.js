@@ -1,5 +1,5 @@
 // Configuration settings for the Perchance Character Database
-const CONFIG = {
+window.CONFIG = {
     // GitHub repository information
     repo: {
         owner: 'nosfertm',
@@ -47,6 +47,3 @@ const CONFIG = {
         contentType: 'application/vnd.github.v3+json'
     }
 };
-
-// Export configuration for use in other modules
-//export default CONFIG;
