@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-    <!-- <html lang="en" data-bs-theme="dark"> -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -47,6 +46,14 @@
                     <button @click="toggleTheme" class="btn btn-outline-light ms-auto">
                         {{ isDarkMode ? 'Light Mode' : 'Dark Mode' }}
                     </button>
+
+                    <div class="form-check form-switch ms-auto">
+                        <input class="form-check-input" type="checkbox" id="themeSwitch" v-model="isDarkMode" @change="toggleTheme">
+                        <label class="form-check-label" for="themeSwitch">
+                            {{ isDarkMode ? 'Dark Mode' : 'Light Mode' }}
+                        </label>
+                    </div>         
+                               
                 </div>
             </div>
         </nav>
