@@ -1,4 +1,6 @@
+// acc-characters specific JavaScript
 document.addEventListener('DOMContentLoaded', () => {
+    // Vue 3 application initialization
     const { createApp, ref } = Vue;
 
     createApp({
@@ -12,8 +14,8 @@ document.addEventListener('DOMContentLoaded', () => {
             };
         },
         methods: {
-            // Static categories function (to be replaced later)
-            getStaticCategories() {
+             // Static categories function (to be replaced later)
+             getStaticCategories() {
                 return {
                     "Rating": {
                     "description": "Content maturity level",
@@ -167,11 +169,9 @@ document.addEventListener('DOMContentLoaded', () => {
                             }          
                         }
                 ];
-            },
-            // Dynamic filter application method
-            // applyFilters(character) {
-            //     // Filter logic implementation
-            // }
-        }
+            }
+        },
+        mounted() {}
     }).mount('#app');
-}
+});
+           
