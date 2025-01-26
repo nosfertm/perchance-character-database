@@ -11,7 +11,7 @@ class PerchanceApp {
         window.addEventListener('error', this.handleGlobalError);
 
         // Initialize cache management
-        this.setupCacheManagement();
+        //this.setupCacheManagement();
     }
 
     // Global error handler

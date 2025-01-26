@@ -169,9 +169,9 @@ if (window.Vue) {
                 ];
             }
             // Dynamic filter application method
-            applyFilters(character) {
-                // Filter logic implementation
-            }
+            // applyFilters(character) {
+            //     // Filter logic implementation
+            // }
         }
     }).mount('#app');
 } else {
