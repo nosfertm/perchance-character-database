@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
         data() {
             return {
                 // Flags to control NSFW content visibility
-                showNsfwTags: false,
+                showNsfwTags: true,
                 showNsfwImages: false,
                 
                 // Initialize categories and characters with fallback
@@ -20,8 +20,9 @@ document.addEventListener('DOMContentLoaded', () => {
         methods: {
             // Robust categories function with default properties
             getStaticCategories() {
-                return {
-                    "Rating": {
+                return [
+                    {
+                        "name": "Rating",
                         "description": "Content maturity level",
                         "tags": {
                             "general": ["SFW", "NSFW"],  
@@ -30,7 +31,8 @@ document.addEventListener('DOMContentLoaded', () => {
                         "required": true,
                         "nsfw_only": false
                     },
-                    "Genre": {
+                    {
+                        "name": "Genre",
                         "description": "Story type or style",
                         "tags": {
                             "general": ["Fantasy", "Horror", "Adventure", "RPG"],
@@ -39,7 +41,8 @@ document.addEventListener('DOMContentLoaded', () => {
                         "required": true,
                         "nsfw_only": false
                     },
-                    "Fetishes": {
+                    {
+                        "name": "Fetishes",
                         "description": "Adult-themed interests",
                         "tags": {
                             "general": [],
@@ -48,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         "required": false,
                         "nsfw_only": true
                     }
-                };
+                ];
             },
 
             // Static characters function
