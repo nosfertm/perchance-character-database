@@ -1,8 +1,7 @@
-if (window.Vue) {
-    const { createApp, ref } = window.Vue;
+document.addEventListener('DOMContentLoaded', () => {
+    const { createApp, ref } = Vue;
 
     createApp({
-        data() {
             return {
                 showNsfwTags: false,
                 showNsfwImages: false,
@@ -174,6 +173,4 @@ if (window.Vue) {
             // }
         }
     }).mount('#app');
-} else {
-    console.error('Vue is not loaded');
 }
