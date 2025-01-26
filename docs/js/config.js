@@ -49,4 +49,4 @@ const CONFIG = {
 };
 
 // Export configuration for use in other modules
-export default CONFIG;
+//export default CONFIG;
