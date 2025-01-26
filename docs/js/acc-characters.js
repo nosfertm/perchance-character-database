@@ -173,4 +173,3 @@ document.addEventListener('DOMContentLoaded', () => {
             // }
         }
     }).mount('#app');
-}
