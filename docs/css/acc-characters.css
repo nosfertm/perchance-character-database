@@ -1,0 +1,293 @@
+[v-cloak] {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .card-img-container {
+        height: 180px;
+        /* Reduz altura da imagem */
+    }
+
+    .card-footer {
+        padding: 0.25rem 0.5rem;
+    }
+
+    .card-title {
+        font-size: 0.9rem;
+    }
+
+    .action-btn {
+        padding: 0.25rem;
+        font-size: 0.9rem;
+    }
+
+    .action-btn.disabled {
+        pointer-events: none;
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+
+    .modal-content .row {
+        flex-direction: column;
+        /* Stack columns vertically */
+    }
+
+    .modal-content .col-5,
+    .modal-content .col-7 {
+        width: 100%;
+        /* Full width on mobile */
+        max-height: 60vw;
+        /* Limit height to 60% of viewport width */
+    }
+
+    .modal-dialog {
+        margin: 0.5rem;
+        /* Reduce margins on small screens */
+    }
+
+}
+
+@media (min-width: 1400px) {
+    .col-xl-2\.4 {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+
+@media (min-width: 1600px) {
+    .col-xxl-2 {
+        flex: 0 0 16.666667%;
+        max-width: 16.666667%;
+    }
+}
+
+/* NSFW image blur effect */
+.nsfw-blur {
+    filter: blur(10px);
+    transition: filter 0.3s ease;
+}
+
+/* .nsfw-blur:hover {
+    filter: blur(0);
+} */
+
+/* NSFW card styling */
+.bg-danger {
+    opacity: 0.8;
+}
+
+.card-img-container {
+    height: 200px;
+    overflow: hidden;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
+
+.card-title {
+    margin: 0;
+    flex-grow: 1;
+    color: white;
+    font-weight: 500;
+}
+
+.card-actions {
+    display: flex;
+    gap: 5px;
+}
+
+.action-btn {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding-left: 7px;
+}
+
+.action-btn:hover {
+    opacity: 0.8;
+    scale: 1.1;
+}
+
+.card:hover {
+    scale: 1.02;
+    box-shadow: 0px 14px 15px 2px rgba(0, 0, 0, 0.3);
+}
+
+.accordion-body {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.5rem 1rem;
+    flex-direction: column;
+    /* justify-content: space-between;
+    column-gap: 0.5rem; */
+}
+
+.category-block {
+    display: flex;
+    flex-wrap: wrap;
+    /* padding: 0.5rem 1rem; */
+    flex-direction: row;
+    column-gap: 0.75rem;
+}
+
+.filter-panel-controls {
+    display: flex;
+    align-items: center;
+    column-gap: 0.75rem;
+}
+
+/* Main content transition */
+.character-cards-container {
+    transition: margin-left 0.3s ease-in-out;
+}
+
+/* When filter panel is open */
+.filter-panel-open .character-cards-container {
+    margin-left: 400px;
+    /* Match offcanvas width */
+}
+
+/* .modal-lg {
+    max-width: 800px;
+}
+
+.modal-body img {
+    max-height: 300px;
+    object-fit: cover;
+    width: 100%;
+} */
+
+/* Modal Styles */
+/* Modal base size - sets the maximum width for extra large modal variant */
+.modal-xl {
+    max-width: 1200px;
+    /* Wider modal for better content display */
+}
+
+/* Left column containing the character image */
+.modal-image-col {
+    height: calc(90vh - 130px);
+    /* Calculate height: 90% viewport height minus header/footer (130px) */
+    background-color: rgba(0, 0, 0, 0.03);
+    /* Light gray background for image container */
+}
+
+/* Wrapper for the character image to maintain aspect ratio */
+.character-image-wrapper {
+    position: relative;
+    /* Used for absolute positioning of NSFW overlay */
+    height: 100%;
+    /* Fill full height of parent */
+    width: 100%;
+    /* Fill full width of parent */
+}
+
+/* Character image styling */
+.character-modal-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    /* Maintain aspect ratio while fitting in container */
+}
+
+/* Right column containing character information */
+.modal-content-col {
+    /* height: calc(90vh - 130px); Match height with image column */
+    overflow-y: auto;
+    /* Enable vertical scrolling for content */
+    padding-left: 1.5rem;
+    /* Add spacing around content */
+    padding-right: 1.5rem;
+    /* Add spacing around content */
+    padding-top: 1.5rem;
+    /* Add spacing around content */
+}
+
+/* Individual content sections (description, categories, etc.) */
+.content-section {
+    margin-bottom: 1rem;
+    /* Space between sections */
+}
+
+/* Overlay for NSFW content warning */
+.nsfw-overlay {
+    position: absolute;
+    /* Position relative to wrapper */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Center the overlay */
+    color: white;
+}
+
+/* Custom scrollbar styling for content column */
+.modal-content-col::-webkit-scrollbar {
+    width: 8px;
+    /* Scrollbar width */
+}
+
+.modal-content-col::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* Scrollbar track color */
+}
+
+.modal-content-col::-webkit-scrollbar-thumb {
+    background: #888;
+    /* Scrollbar handle color */
+    border-radius: 4px;
+    /* Rounded corners */
+}
+
+.modal-content-col::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    /* Darker color on hover */
+}
+
+.content-section a.disabled {
+    pointer-events: none;
+    opacity: 0.6;
+}
+
+.content-section a:not(.disabled) h5 {
+    cursor: pointer;
+}
+
+.content-section a:not(.disabled):hover h5 {
+    opacity: 0.8;
+}
+
+/* Collapse trigger styling */
+.collapse-trigger {
+    color: inherit !important;
+    /* Remove link color */
+}
+
+.collapse-trigger:hover {
+    text-decoration: none;
+}
+
+/* Chevron icon rotation animation */
+.collapse-icon {
+    transition: transform 0.2s ease-in-out;
+}
+
+.collapse-trigger:not(.collapsed) .collapse-icon {
+    transform: rotate(90deg);
+}
+
+/* Disabled state */
+.collapse-trigger.disabled {
+    opacity: 0.6;
+    pointer-events: none;
+}

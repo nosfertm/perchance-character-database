@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perchance DB</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Font Awesome via CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link href="css/acc-characters.css" rel="stylesheet">
+    <link href="css/theme.css" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+</head>
+
+<body>
+    <div id="app" v-cloak class="d-flex flex-column min-vh-100">
+
+
+        <!-- MODAL CHARACTER DETAIL -->
+        <div class="modal fade" id="characterModal" tabindex="-1" aria-labelledby="characterModalLabel"
+            data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel">
+            <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div v-if="selectedCharacter" class="modal-content" :class="{ 'bg-dark': isDarkMode }">
+                    <!-- Title -->
+                    <div class="modal-header" :class="{ 'bg-dark text-white border-secondary': isDarkMode }">
+                        <div class="d-flex align-items-center">
+                            <h5 class="modal-title mb-0" id="characterModalLabel" :class="{ 'text-white': isDarkMode }">
+                                {{this.selectedCharacter.manifest.name}}</h5>
+                            <small class="ms-2" :class="{ 'text-secondary': isDarkMode, 'text-muted': !isDarkMode }">
+                                by {{this.selectedCharacter.manifest.author || 'Unknown Creator'}}
+                            </small>
+                        </div>
+                        <div class="d-flex gap-2 align-items-center">
+                            <!-- TODO FIX LINKS -->
+                            <a :href="selectedCharacter.manifest?.downloadUrl" class="btn btn-success" target="_blank">
+                                <i class="bi bi-download"></i> Download
+                            </a>
+                            <a :href="selectedCharacter.manifest?.shareUrl" class="btn btn-primary" target="_blank">
+                                <i class="bi bi-chat"></i> Chat
+                            </a>
+                            <button type="button" class="btn-close" :class="{ 'btn-close-white': isDarkMode }"
+                                data-bs-dismiss="modal" aria-label="Close" @click="handleModalClose"></button>
+                        </div>
+                    </div>
+
+                    <!-- Modal Body -->
+                    <div class="modal-body p-0" :class="{ 'bg-dark': isDarkMode }">
+                        <div class="container-fluid">
+                            <div class="row g-0">
+                                <!-- Image Column -->
+                                <div class="col-5 modal-image-col">
+                                    <div class="character-image-wrapper">
+                                        <img :src="selectedCharacter.manifest.characterAvatar"
+                                            class="character-modal-image"
+                                            :class="{'nsfw-blur': selectedCharacter.manifest?.categories?.rating === 'nsfw' && !showNsfwImages}"
+                                            :alt="selectedCharacter.manifest.name || 'Character Image'"
+                                            @click="handleNsfwImageClick($event)">
+                                        <div v-if="selectedCharacter.manifest?.categories?.rating === 'nsfw' && !showNsfwImages"
+                                            class="nsfw-overlay">
+                                            <i class="fa-solid fa-fire-flame-curved fa-2x"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Content Column -->
+                                <div class="col-7 modal-content-col" :class="{ 'bg-dark text-white': isDarkMode }">
+                                    <!-- Description -->
+                                    <div class="content-section">
+                                        <h5 class="border-bottom pb-2" :class="{ 'border-secondary': isDarkMode }">
+                                            Description</h5>
+                                        <p>{{this.selectedCharacter.manifest.description}}</p>
+                                    </div>
+
+                                    <!-- Categories -->
+                                    <!-- Categories Section -->
+                                    <div class="content-section">
+                                        <!-- Collapse trigger with no link styling -->
+                                        <a class="d-block text-decoration-none collapse-trigger"
+                                            :class="{ 'collapsed': true, 'disabled': !hasCategoryItems }"
+                                            data-bs-toggle="collapse" href="#categoriesCollapse" role="button"
+                                            :aria-expanded="false" aria-controls="categoriesCollapse"
+                                            @click="!hasCategoryItems && $event.preventDefault()">
+                                            <!-- Section header with chevron icon -->
+                                            <h5 class="border-bottom pb-2 d-flex justify-content-between align-items-center"
+                                                :class="{ 'border-secondary': isDarkMode }">
+                                                <div class="d-flex align-items-center">
+                                                    <!-- Chevron icon that rotates based on collapse state -->
+                                                    <i class="bi bi-chevron-right me-2 collapse-icon"></i>
+                                                    <span
+                                                        :class="{ 'text-white': isDarkMode, 'text-dark': !isDarkMode }">Categories</span>
+                                                </div>
+                                                <span class="badge bg-secondary"
+                                                    :class="{ 'text-white': isDarkMode, 'text-dark': !isDarkMode }"
+                                                    v-if="categoryCount > 0">({{categoryCount}})</span>
+                                            </h5>
+                                        </a>
+                                        <!-- Collapsible content -->
+                                        <div class="collapse" id="categoriesCollapse">
+                                            <div v-for="(category, categoryName, index) in selectedCharacter.manifest.categories"
+                                                class="mb-3 d-flex flex-wrap gap-2">
+                                                <h6 :class="{ 'text-white': isDarkMode }">
+                                                    {{categoryName.split(' ').map(word => word.charAt(0).toUpperCase() +
+                                                    word.slice(1)).join(' ')}}:
+                                                </h6>
+                                                <span v-if="categoryName !== 'rating'" v-for="tag in category"
+                                                    class="badge bg-primary">{{tag}}</span>
+                                                <span v-else class="badge"
+                                                    :class="category === 'nsfw' ? 'bg-danger' : 'bg-primary'">{{category}}</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Required Characters Section -->
+                                    <div class="content-section"
+                                        v-if="selectedCharacter.manifest.groupSettings.requires">
+                                        <!-- Collapse trigger with no link styling -->
+                                        <a class="d-block text-decoration-none collapse-trigger"
+                                            :class="{ 'collapsed': true, 'disabled': !hasRequiredCharacters }"
+                                            data-bs-toggle="collapse" href="#requiredCollapse" role="button"
+                                            :aria-expanded="false" aria-controls="requiredCollapse"
+                                            @click="!hasRequiredCharacters && $event.preventDefault()">
+                                            <!-- Section header with chevron icon -->
+                                            <h5 class="border-bottom pb-2 d-flex justify-content-between align-items-center"
+                                                :class="{ 'border-secondary': isDarkMode }">
+                                                <div class="d-flex align-items-center">
+                                                    <!-- Chevron icon that rotates based on collapse state -->
+                                                    <i class="bi bi-chevron-right me-2 collapse-icon"></i>
+                                                    <span
+                                                        :class="{ 'text-white': isDarkMode, 'text-dark': !isDarkMode }">Required
+                                                        Characters</span>
+                                                </div>
+                                                <span class="badge bg-secondary"
+                                                    :class="{ 'text-white': isDarkMode, 'text-dark': !isDarkMode }"
+                                                    v-if="requiredCharCount > 0">({{requiredCharCount}})</span>
+                                            </h5>
+                                        </a>
+
+                                        <!-- Collapsible content -->
+                                        <div class="collapse" id="requiredCollapse">
+                                            <ol class="list-group list-group-numbered">
+                                                <ul v-for="char in selectedCharacter.manifest.groupSettings.requires"
+                                                    class="list-unstyled">
+                                                    <li class="list-group-item d-flex justify-content-between align-items-start"
+                                                        :class="{ 'bg-dark text-white border-secondary': isDarkMode }">
+                                                        <div class="ms-2 me-auto">
+                                                            <div class="fw-bold">{{char.name}}</div>
+                                                            Reason: {{char.reason}}
+                                                            <div class="mt-2 d-flex gap-2">
+                                                                <a href="google.com" class="btn btn-success btn-sm"
+                                                                    target="_blank">
+                                                                    <i class="bi bi-download"></i> Download
+                                                                </a>
+                                                                <a href="google.com" class="btn btn-primary btn-sm"
+                                                                    target="_blank">
+                                                                    <i class="bi bi-chat"></i> Chat
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <span class="badge rounded-pill"
+                                                            :class="char.rating?.toUpperCase() === 'NSFW' ? 'bg-danger' : 'bg-primary'">{{char.rating}}</span>
+                                                    </li>
+                                                </ul>
+                                            </ol>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Modal Footer -->
+                    <div class="modal-footer" :class="{ 'bg-dark text-white border-secondary': isDarkMode }">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"
+                            @click="handleModalClose">
+                            Close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- NSFW CONFIRMATION MODAL -->
+        <div class="modal fade" id="nsfwConfirmModal" tabindex="-1" role="dialog" aria-modal="true"
+            aria-labelledby="nsfwConfirmModalLabel">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content" :class="{ 'bg-dark text-white border-secondary': isDarkMode }">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="nsfwConfirmModalLabel">NSFW Content Warning</h5>
+                        <button type="button" data-bs-dismiss="modal" class="btn-close"
+                            :class="{ 'btn-close-white': isDarkMode }" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>This image contains NSFW content. Would you like to view it?</p>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="container-fluid">
+                            <div class="row g-2">
+                                <div class="col-12 col-sm-4">
+                                    <button type="button" class="btn btn-warning w-100" @click="showSingleNsfw">Show
+                                        this image</button>
+                                </div>
+                                <div class="col-12 col-sm-4">
+                                    <button type="button" class="btn btn-danger w-100" @click="showAllNsfw">Show all
+                                        images</button>
+                                </div>
+                                <div class="col-12 col-sm-4">
+                                    <button type="button" class="btn btn-secondary w-100"
+                                        data-bs-dismiss="modal">Cancel</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ----------------------------------------------------------------------- -->
+        <!--                                  PAGE                                   -->
+        <!-- ----------------------------------------------------------------------- -->
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <!-- Logo placeholder -->
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/logo.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+                    {{ site.pageTitle }}
+                </a>
+
+                <!-- Gallery Controls - Outside collapse -->
+                <div class="d-flex align-items-center order-lg-last ms-2">
+                    <div class="d-flex gap-2 me-2">
+                        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#filterPanel" aria-controls="filterPanel"
+                            @click="isFilterPanelOpen = !isFilterPanelOpen">
+                            <i class="fas fa-filter"></i>
+                        </button>
+
+                        <button class="btn btn-primary" type="button-disabled">
+                            <i class="fas fa-sync"></i>
+                        </button>
+                    </div>
+
+
+                </div>
+
+                <!-- Collapse navbar menu -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navbar items -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li v-for="section in site.featuredSections" :key="section.title" class="nav-item">
+                            <a class="nav-link" :class="section.link ? '': 'disabled'" :href="section.link">
+                                {{ section.title }}
+                            </a>
+                        </li>
+                    </ul>
+
+                    <!-- Theme toggle dropdown -->
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle btn-outline-light" type="button" id="themeToggleDropdown"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <i :class="themeIcon"></i>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end" :class="{ 'dropdown-menu-dark': isDarkMode }">
+                            <li>
+                                <a class="dropdown-item" href="#" @click.prevent="setTheme('light')">
+                                    <i class="fas fa-sun"></i> Light
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#" @click.prevent="setTheme('dark')">
+                                    <i class="fas fa-moon"></i> Dark
+                                </a>
+                            </li>
+                            <!-- <li>
+                        <a class="dropdown-item" href="#" @click.prevent="setTheme('auto')">
+                            <i class="fas fa-circle-half-stroke"></i> Auto
+                        </a>
+                    </li> -->
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+        </nav>
+
+        <!-- Page content -->
+
+        <!-- Filter panel -->
+        <div class="offcanvas offcanvas-start offcanvas-push" data-bs-scroll="true" data-bs-backdrop="false"
+            tabindex="-1" :class="{ 'bg-dark text-white': isDarkMode }" id="filterPanel"
+            aria-labelledby="filterPanelLabel">
+            <div class="offcanvas-header" :class="{ 'bg-dark text-white': isDarkMode }">
+                <h5 class="offcanvas-title" id="filterPanelLabel">Filter Panel</h5>
+                <div class="filter-panel-controls">
+                    <button v-show="hasActiveFilters" class="btn btn-sm btn-secondary ms-2"
+                        @click="clearFilters(); searchInput = ''">Clear filters</button>
+                    <button type="button" class="btn-close" :class="{ 'btn-close-white': isDarkMode }"
+                        data-bs-dismiss="offcanvas" aria-label="Close"
+                        @click="isFilterPanelOpen = !isFilterPanelOpen"></button>
+                </div>
+
+            </div>
+            <div class="offcanvas-body" :class="{ 'bg-dark text-white': isDarkMode }">
+
+                <!-- ------------------------ Filter panel content ------------------------- -->
+
+                <!-- Seach bar -->
+                <div class="input-group" :class="{ 'bg-dark text-white': isDarkMode }">
+                    <input type="text" class="form-control" :class="{ 'bg-dark text-white': isDarkMode }"
+                        v-model="searchInput" @keyup.enter="selectedFilters.searchText = searchInput"
+                        aria-label="Text input with segmented dropdown button">
+                    <button type="button" class="btn btn-outline-secondary" :class="{ 'btn-dark': isDarkMode }"
+                        data-bs-toggle="tooltip" title="For a full search, click the dropdown on the right."
+                        @click="selectedFilters.searchText = searchInput">
+                        <i class="fas fa-search"></i>
+                    </button>
+                    <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split"
+                        :class="{ 'btn-dark': isDarkMode }" data-bs-toggle="dropdown" aria-expanded="false">
+                        <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu" :class="{ 'dropdown-menu-dark': isDarkMode }">
+                        <li><a class="dropdown-item" href="#">Normal Search</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Full search</a></li>
+                    </ul>
+                </div>
+
+                <!-- Filter results count -->
+                <br>
+                <div class="divider-container d-flex align-items-center">
+                    <hr class="divider flex-grow-1 mx-2">
+                    <small v-if="filteredCharactersCount !== totalCharacters">
+                        Showing {{filteredCharactersCount}} of {{totalCharacters}} characters
+                    </small>
+                    <small v-if="filteredCharactersCount === totalCharacters">
+                        Showing all characters ({{totalCharacters}} total)
+                    </small>
+                    <hr class="divider flex-grow-1 mx-2">
+                </div>
+                <br>
+
+                <!-- Category Accordions Container -->
+                <div class="accordion" id="categoryHeader">
+
+                    <!-- Iterate through categories, showing NSFW ones only if showNsfwTags is true -->
+                    <div class="accordion-item" :class="{ 'bg-dark text-white': isDarkMode }"
+                        v-for="(category, index) in this.availableCategories" :key="index"
+                        v-show="!category?.nsfw_only || (category?.nsfw_only && showNsfwTags)">
+
+                        <!-- Accordion Header -->
+                        <h2 class="accordion-header" :id="'heading' + index">
+                            <button class="accordion-button" :class="{ 'bg-dark text-white': isDarkMode }" type="button"
+                                data-bs-toggle="collapse" :data-bs-target="'#collapse' + index" aria-expanded="true"
+                                :aria-controls="'collapse' + index">
+                                {{ category.name }}
+                            </button>
+                        </h2>
+
+                        <!-- Accordion Content -->
+                        <div :id="'collapse' + index" class="accordion-collapse collapse"
+                            :aria-labelledby="'heading' + index" data-bs-parent="#categoryHeader">
+                            <div class="accordion-body">
+
+                                <!-- SFW Tags Section -->
+                                <div class="category-block">
+                                    <!-- General tags -->
+                                    <div v-if="!stateLoading" v-for="tag in category.tags.general" :key="tag"
+                                        class="form-check">
+                                        <input class="form-check-input" type="checkbox" :value="tag"
+                                            :id="'tag-' + category.name + '-' + tag"
+                                            :checked="isTagSelected(category.name, tag)"
+                                            @change="handleTagSelection($event, category, tag)">
+                                        <label class="form-check-label" :for="'tag-' + category.name + '-' + tag">
+                                            {{ tag }}
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <!-- Divider -->
+                                <div v-if="showNsfwTags && category.tags.general.length && category.tags.nsfw.length"
+                                    class="divider-container d-flex align-items-center">
+                                    <hr class="divider flex-grow-1 mx-2">
+                                    <small>NSFW</small>
+                                    <hr class="divider flex-grow-1 mx-2">
+                                </div>
+
+                                <!-- NSFW tags -->
+                                <div class="category-block">
+                                    <div v-if="showNsfwTags && !stateLoading" v-for="tag in category.tags.nsfw"
+                                        :key="tag" class="form-check">
+                                        <input class="form-check-input" type="checkbox" :value="tag"
+                                            :id="'nsfw-tag-' + category.name + '-' + tag"
+                                            :checked="isTagSelected(category.name, tag, category)"
+                                            @change="handleTagSelection($event, category, tag)">
+                                        <label class="form-check-label" :for="'nsfw-tag-' + category.name + '-' + tag">
+                                            {{ tag }}
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <!-- ----------------------------------------------------------------------- -->
+        <!--                                 CONTENT                                 -->
+        <!-- ----------------------------------------------------------------------- -->
+
+        <!-- Characters Grid Section -->
+        <!-- Displays a responsive grid of character cards -->
+        <!-- Each card shows character image, name, and action buttons -->
+        <div class="container-fluid" :class="{'filter-panel-open': isFilterPanelOpen}">
+
+
+            <!-- Loading placeholders -->
+            <div v-if="stateLoading" class="row g-3 mb-3">
+                <!-- Generate X placeholder cards -->
+                <div v-for="n in 8" :key="n" class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2.4 col-xxl-2">
+                    <div class="card character-card" :class="Math.random() < 0.2 ? 'bg-danger' : 'bg-primary'"
+                        aria-hidden="true">
+                        <!-- Placeholder image -->
+                        <div class="card-img-container position-relative placeholder-glow">
+                            <span class="placeholder w-100" style="height: 200px;"></span>
+                        </div>
+
+                        <!-- Card Footer with placeholder content -->
+                        <div class="card-footer">
+                            <div class="card-title placeholder-glow">
+                                <span class="placeholder col-8"></span>
+                            </div>
+                            <div class="card-actions placeholder-glow">
+                                <a class="action-btn disabled placeholder col-4 me-2" tabindex="-1">
+                                    <i class="fas fa-comment"></i>
+                                </a>
+                                <a class="action-btn disabled placeholder col-4" tabindex="-1">
+                                    <i class="fas fa-download"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Gallery content -->
+            <div v-else class="row g-3 mb-3 character-cards-container">
+
+                <!-- Loop through filtered characters -->
+                <div v-for="character in filteredCharacters" :key="character.path"
+                    class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2.4 col-xxl-2">
+
+                    <!-- ------- Character Card with dynamic background based on rating -------- -->
+
+                    <!-- Evoke modal on click -->
+                    <div
+                        :class="['card character-card', character.manifest?.categories?.rating === 'nsfw' ? 'bg-danger' : 'bg-primary']">
+
+                        <!-- Image Container with fixed dimensions -->
+                        <div class="card-img-container position-relative">
+                            <img :src="character.manifest?.characterAvatar" :class="{
+                            'card-img-top': true, 
+                            'nsfw-blur': character.manifest?.categories?.rating === 'nsfw' && !showNsfwImages
+                        }" :alt="character.manifest?.name || 'Character Image'" @click="showCharacterModal(character)"
+                                data-bs-toggle="modal" data-bs-target="#characterModal">
+
+                            <!-- Put an icon overlay for NSFW images -->
+                            <div v-if="character.manifest?.categories?.rating === 'nsfw' && !showNsfwImages"
+                                class="position-absolute top-50 start-50 translate-middle text-white">
+                                <i class="fa-solid fa-fire-flame-curved fa-2x"></i>
+                            </div>
+                        </div>
+
+                        <!-- Card Footer with Title and Action Buttons -->
+                        <div class="card-footer">
+                            <div class="card-title text-truncate">
+                                {{ character.manifest?.name || 'Unnamed Character' }}
+                            </div>
+                            <div class="card-actions">
+                                <!-- Card action buttons -->
+                                <a :href="character.manifest?.shareUrl" target="_blank" class="action-btn"
+                                    :class="!character.manifest?.shareUrl ? 'disabled' : ''">
+                                    <i class="fas fa-comment"></i>
+                                </a>
+                                <a :href="character.manifest?.downloadUrl" target="_blank" class="action-btn"
+                                    :class="!character.manifest?.downloadUrl ? 'disabled' : ''">
+                                    <i class="fas fa-download"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer with fixed bottom positioning -->
+        <footer class="bg-dark text-white text-center py-3 mt-auto">
+            <div class="container">
+                <p class="mb-0">
+                    © 2024 Perchance Character Database |
+                    <a href="https://github.com/nosfertm/perchance-character-database" class="text-white"
+                        target="_blank">
+                        View on GitHub
+                    </a>
+                </p>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- Vue 3 and Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@3.3.4/dist/vue.global.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Script inclusions -->
+    <script src="js/config.js"></script>
+    <script src="js/main.js"></script>
+    <script type="module" src="js/theme.js"></script>
+    <script type="module" src="js/acc-characters.js"></script>
+</body>
+
+</html>

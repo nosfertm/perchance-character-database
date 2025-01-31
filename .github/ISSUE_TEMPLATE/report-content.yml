@@ -1,0 +1,90 @@
+name: "🚨 Report Content"
+description: "Report content that violates the rules or laws"
+title: "[Report] "
+labels: ["report"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill out the sections below to help us identify and review the reported illegal content.
+  - type: input
+    id: content_link
+    attributes:
+      label: "Provide the link to the content you want to report"
+      description: "Enter the URL or direct reference to the content being reported."
+      placeholder: "ai-character-chat/characters/Chloe"
+    validations:
+      required: true
+  - type: dropdown
+    id: content_type
+    attributes:
+      label: "Select the type of content being reported"
+      description: "Choose the type of content or select 'Other' if it doesn't fit the available options."
+      options:
+        - Character
+        - Lorebook
+        - Perchance Content
+        - Other (Please specify)
+      default: 1
+    validations:
+      required: true
+  - type: input
+    id: other_content_type
+    attributes:
+      label: "└── If you selected 'Other', please specify the content type"
+      description: "Provide a brief description of the content type."
+      placeholder: "Enter a description for the specific content type"
+    validations:
+      required: false
+  - type: dropdown
+    id: report_reason
+    attributes:
+      label: "Select the reasons for reporting the content"
+      description: "You can select multiple reasons if needed."
+      multiple: true
+      options:
+        - Child Exploitation
+        - Intellectual Property Infringement
+        - Piracy/Unauthorized Sharing
+        - Fraudulent Activity
+        - Hacking/Unauthorized Access
+        - Hate Speech or Incitement to Violence
+        - Other (Please describe)
+    validations:
+      required: true
+  - type: input
+    id: other_report_reason
+    attributes:
+      label: "└── If you selected 'Other', please specify the report reason"
+      description: "Provide a brief explanation of the reason to report."
+      placeholder: "Enter a description for the specific reason to report"
+    validations:
+      required: false
+  - type: textarea
+    id: description
+    attributes:
+      label: "Provide a description of why this content is considered illegal"
+      description: "Clearly explain which laws (including the country) or rules the content is violating."
+      placeholder: |
+        Describe the issue and provide details on which laws (including country-specific laws) or rules are being violated.
+    validations:
+      required: true
+  - type: textarea
+    id: additional_info
+    attributes:
+      label: "Additional information (Optional)"
+      description: "Any other relevant details that might help in the review process."
+      placeholder: "Provide any extra context or evidence related to the report."
+  - type: checkboxes
+    id: submit_confirmation
+    attributes:
+      label: "Acknowledgment and confirmation"
+      options:
+        - label: "I confirm that the information I have provided is accurate to the best of my knowledge."
+        - label: "I understand that for the content to be removed, it must be in violation of a law or a rule (either internal repository rules or Perchance policies)."
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        **Thank you for reporting this issue. We will review your submission and get back to you as soon as possible.**

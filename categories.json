@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Rating",
+        "description": "Content maturity level",
+        "tags": {
+            "general": [
+                "SFW",
+                "NSFW"
+            ],
+            "nsfw": []
+        },
+        "required": true,
+        "nsfw_only": false
+    },
+    {
+        "name": "Genre",
+        "description": "Story type or style",
+        "tags": {
+            "general": [
+                "Fantasy",
+                "Horror",
+                "Adventure",
+                "RPG"
+            ],
+            "nsfw": [
+                "Erotic",
+                "Sexual Roleplay",
+                "Fetish"
+            ]
+        },
+        "required": true,
+        "nsfw_only": false
+    },
+    {
+        "name": "Source",
+        "description": "Souce of inspiration",
+        "tags": {
+            "general": [
+                "Anime",
+                "Manga",
+                "Movie",
+                "Book",
+                "TV Show",
+                "Game",
+                "Fanfiction",
+                "Original"
+            ],
+            "nsfw": [
+                "Hentai",
+                "Adult Film",
+                "Doujinshi"
+            ]
+        },
+        "required": true,
+        "nsfw_only": false
+    },
+    {
+        "name": "Fetishes",
+        "description": "Adult-themed interests",
+        "tags": {
+            "general": [],
+            "nsfw": [
+                "BDSM",
+                "Feet",
+                "Roleplay",
+                "Voyeurism"
+            ]
+        },
+        "required": false,
+        "nsfw_only": true
+    }
+]

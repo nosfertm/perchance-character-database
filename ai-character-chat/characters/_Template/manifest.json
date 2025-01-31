@@ -1,0 +1,47 @@
+{
+  "name": "Chloe",
+  "description": "A friendly slime that can create copies of itself",
+  "author": "username",
+  "authorId": "1234567890",
+  "characterAvatar": "https://user-uploads.perchance.org/file/f97d49e4231d6b90d83a37f12ca95c52.jpeg",
+  "shareUrl": "https://perchance.org/ai-character-chat-slime",
+  "downloadUrl": "google.com",
+  "shapeShifter_Pulls": 0,
+  "groupSettings": {
+    "requires": [
+      {
+        "name": "Slime Clone",
+        "rating": "SFW",
+        "dbUrl": "https://perchance.org/ai-character-chat-slime-clone",
+        "shareUtr": "https://perchance.org/ai-character-chat-slime-clone",
+        "downloadUtr": "https://perchance.org/ai-character-chat-slime-clone",
+        "reason": "Acts as a clone during split interactions"
+      },
+      {
+        "name": "Slime Original",
+        "rating": "NSFW",
+        "dbUrl": "https://perchance.org/ai-character-chat-slime-clone",
+        "shareUtr": "https://perchance.org/ai-character-chat-slime-clone",
+        "downloadUtr": "https://perchance.org/ai-character-chat-slime-clone",
+        "reason": "Acts as the original"
+      }
+    ],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [
+      "custom-codes/reaction-images/code.js"
+    ],
+    "assets": [
+      "assets/reactions/",
+      "assets/voices/"
+    ]
+  },
+  "categories": {
+    "rating": "nsfw",
+    "genre": [
+      "Sexual Roleplay",
+      "Fetish"
+    ]
+  }
+}

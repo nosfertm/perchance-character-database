@@ -1,0 +1,26 @@
+/* Base color scheme */
+:root {
+    --bg-primary: #ffffff;
+    --text-primary: #000000;
+    --bg-secondary: #f4f4f4;
+    --accent-color: #007bff;
+}
+
+/* Dark theme color scheme */
+.dark-theme {
+    --bg-primary: #121212;
+    --text-primary: #ffffff;
+    --bg-secondary: #1e1e1e;
+    --accent-color: #3f9fff;
+}
+
+/* Global theme styles */
+body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.bg-secondary {
+    background-color: var(--bg-secondary) !important;
+}
