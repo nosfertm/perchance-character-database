@@ -1,49 +1,52 @@
-# Perchance Character Database  
-A **community-driven database** for sharing and exploring characters for [Perchance.org](https://perchance.org).  
+# Perchance Character Database
 
-## 🎯 Focus  
-Currently focused on AI Character Chat, with future plans to support other Perchance generators.
+[![Characters](https://img.shields.io/badge/Characters-1+-blue.svg)](https://nosfertm.github.io/perchance-character-database/index.html) [![Custom Codes](https://img.shields.io/badge/Custom_Codes-1+-green.svg)](./custom-codes) [![Contributors](https://img.shields.io/badge/Contributors-1+-orange.svg)](./docs/contributors.md)
 
-## This repository allows users to:  
-- **Share** their unique characters  
-- **Explore** a vast collection of NPCs and custom content  
-- **Utilize** extra tools and JavaScript custom codes for limitless possibilities  
+**[🎭 Browse Characters](https://nosfertm.github.io/perchance-character-database/index.html) • [📖 Documentation](./docs) • [🤝 Contribute](./docs/contributing.md) • [💬 Discord](https://discord.gg/your-server)**
 
-## 🚨 Disclaimer  
-This project is **community-managed**, and the repository owner assumes **no responsibility** for the content shared by users.  
-By contributing or using this repository, you agree to the following terms:  
+Welcome to the Perchance Character Database, your central hub for discovering, sharing, and enhancing AI-powered characters! Our growing collection features carefully curated characters, custom tools, and community-driven innovations.
 
-- **User Responsibility:** All content is submitted by the community. Contributors are solely responsible for the material they upload.
-- **Legal Compliance:** Contributors must ensure their submissions comply with applicable laws and do not infringe upon copyrights or other legal rights.
-- **NSFW Content:** Some characters may include **NSFW content**, which is clearly marked. Users should review such content responsibly.
-- **Security Risks:** The repository owner does not guarantee the safety, accuracy, or reliability of submitted content. Use at your own risk.
-- **Content Removal:** The repository maintainers reserve the right to remove any content that violates community guidelines or legal regulations.
+### ✨ Discover Our Portal
+[**Visit Our Character Portal**](https://nosfertm.github.io/perchance-character-database/index.html) to:
+- 🔍 Browse our extensive character collection with advanced filtering
+- ⭐ Find featured and trending characters
+- 📥 Download characters with one click
+- 💡 Get inspired by community creations
+- 🎨 Preview characters before downloading
 
-By downloading or using any content from this repository, you acknowledge these risks and agree to use the content responsibly.  
+## 🎯 Focus
+Currently centered on Perchance AI Character Chat, we're building a foundation for:
+- 🤖 Advanced AI character interactions
+- 🛠️ Custom behavior modifications
+- 🌐 Cross-character compatibility
+- 📚 Extensive documentation and guides
+- 🔄 Future Perchance generator support
 
-# Project Overview  
+## 🌟 Key Features
+- **Share & Discover**: Upload your unique characters or explore our vast collection
+- **Enhance & Customize**: Access tools and JavaScript extensions for unlimited possibilities
+- **Learn & Collaborate**: Join our growing community of creators and enthusiasts
+- **Safe & Organized**: Clear content ratings and categorization for easy navigation
 
-## 📖 How to Use  
-1. Browse the character collection in the `characters/` folder.  
-2. Add new characters by submitting a pull request.  
-3. Use the provided tools and custom scripts to personalize them.  
+## 🚨 Disclaimer
+This project is **community-managed**. By using or contributing to this repository, you acknowledge:
 
-## 🔧 Features  
-- 📚 A growing **character archive** for Perchance ai-character-chat  
-- 🛠️ Tools to customize and enhance character behavior  
-- 🌐 Custom JavaScript codes to expand character interactions  
-- 📄 Documentation for character classification and usage  
+- **Community Content**: All submissions come from users; contributors are responsible for their uploads
+- **Legal Compliance**: Submissions must respect applicable laws and intellectual property rights
+- **Content Ratings**: NSFW content is clearly marked for responsible browsing
+- **Use Responsibly**: Content safety and reliability cannot be guaranteed
+- **Moderation Rights**: Maintainers may remove content violating community guidelines
 
-## 🚀 Contributing  
-Want to contribute? Please check the [contribution guidelines](docs/contributing.md).  
+[Continue reading our full disclaimer...](./DISCLAIMER.md)
 
-## 📜 License  
-This project is licensed under the [MIT License](LICENSE).  
+## 📖 Getting Started
+1. Explore characters in the `characters/` directory
+2. Submit new characters via pull request
+3. Customize using our tools and scripts
+4. Join our community discussions
 
-## ⚠️ Attention!  
-Use this repository **at your own risk.** The repository owner holds no responsibility for potential risks such as malware, inappropriate content, or unintended consequences from using shared resources.
+[View our complete documentation →](./docs/getting-started.md)
 
 ---
-⚠️ Preliminary Content
-This page is currently preliminary and has not been reviewed. It may contain incorrect or outdated information.
-🔄 This list is automatically updated. Last update: {DATE}
+🔄 Last updated: {DATE}
+⚠️ Content subject to review and updates
