@@ -1,4 +1,4 @@
-import { Octokit } from "https://esm.sh/octokit";
+import { Octokit } from "https://esm.sh/@octokit/core";
 
 // Utility functions for GitHub data fetching
 const GithubUtils = {
