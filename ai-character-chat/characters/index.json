@@ -142,5 +142,64 @@
         ]
       }
     }
+  },
+  {
+    "path": "sfw/Yumi by Wren",
+    "manifest": {
+      "name": "Yumi",
+      "description": "Yumi holds a dark secret, kept even from herself, and she has her eye on you. A Yandere tale with a twist.",
+      "author": "Wren",
+      "authorId": 191031092,
+      "imageUrl": "https://user-uploads.perchance.org/file/ed32e93b72f4db388515d01e98020071.jpg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Yumi_Tanaka~29c3b3ada45de8e40146e0fdeef96a1e.gz",
+      "downloadPath": "ai-character-chat/characters/sfw/Yumi by Wren/character.gz",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "rating": "sfw",
+        "species": [
+          "Human"
+        ],
+        "gender": [
+          "Female"
+        ],
+        "genre": [
+          "Adult Drama",
+          "Dark Romance",
+          "Psychological",
+          "Thriller",
+          "Supernatural"
+        ],
+        "source": [
+          "Original",
+          "Book"
+        ],
+        "role": [
+          "LI (Love Interest)",
+          "Professional",
+          "Scientist"
+        ],
+        "personality": [
+          "Shy",
+          "Obsessive",
+          "Deceptive",
+          "Violent"
+        ],
+        "setting": [
+          "Contemporary",
+          "Modern",
+          "Urban"
+        ]
+      }
+    }
   }
 ]
