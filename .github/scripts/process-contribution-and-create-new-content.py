@@ -173,8 +173,6 @@ class ContributionProcessor:
                     # For required categories with no value, use first general tag as default
                     #categories[category_name] = [category['tags']['general'][0]]
                     categories[category_name] = 'blank'
-                else:
-                    categories[category_name] = []
         
         # Create manifest
         manifest = {
