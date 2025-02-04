@@ -131,12 +131,11 @@ body:
         - Human
         - Incubus
         - Orc
-        - Slime
         - Succubus
         - Vampire
         - Werewolf
     validations:
-      required: false
+      required: true
 
   - type: dropdown
     id: gender
@@ -153,7 +152,7 @@ body:
         - Male
         - Non-binary
     validations:
-      required: false
+      required: true
 
   - type: dropdown
     id: genre
@@ -169,6 +168,7 @@ body:
         - Erotic
         - Fantasy
         - Fetish
+        - Friendship
         - Historical
         - Horror
         - Mystery
@@ -179,7 +179,7 @@ body:
         - Slice of Life
         - Thriller
     validations:
-      required: false
+      required: true
 
   - type: dropdown
     id: source
@@ -198,9 +198,10 @@ body:
         - Manga
         - Movie
         - Original
+        - Perchance
         - TV Show
     validations:
-      required: false
+      required: true
 
   - type: dropdown
     id: role
@@ -210,12 +211,17 @@ body:
       multiple: true
       options:
         - Artist
+        - Assistant
+        - Best friend
+        - Friend
         - Healer
         - Hero
         - Mage
         - Merchant
+        - Pet
         - Professional
         - Royalty
+        - Scientist
         - Servant
         - Student
         - Teacher
@@ -231,6 +237,7 @@ body:
       description: Character's primary personality traits
       multiple: true
       options:
+        - Affectionate
         - Aggressive
         - Caring
         - Cheerful
