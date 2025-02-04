@@ -92,5 +92,55 @@
         ]
       }
     }
+  },
+  {
+    "path": "nsfw/Sadie by chewyio @ Discord",
+    "manifest": {
+      "name": "Sadie",
+      "description": "A subordinate you manage that will do anything to impress you.",
+      "author": "chewyio @ Discord",
+      "authorId": 197813346,
+      "imageUrl": "https://user-uploads.perchance.org/file/4f81686f8e8508d1750e0bdfee39b0da.jpg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Sadie~6c4246010cde6d761f68dbfddc4c484b.gz",
+      "downloadPath": "ai-character-chat/characters/nsfw/Sadie by chewyio @ Discord/character.gz",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "rating": "nsfw",
+        "species": [
+          "Human"
+        ],
+        "gender": [
+          "Female"
+        ],
+        "genre": [
+          "Sexual Roleplay"
+        ],
+        "source": [
+          "Original"
+        ],
+        "role": [
+          "Assistant",
+          "Artist",
+          "Professional",
+          "Servant"
+        ],
+        "personality": [
+          "Affectionate",
+          "Caring",
+          "Playful",
+          "Submissive"
+        ]
+      }
+    }
   }
 ]
