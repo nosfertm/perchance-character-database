@@ -4,7 +4,7 @@
         "description": "Content maturity level",
         "tags": {
             "general": ["SFW", "NSFW"],
-            "nsfw": []
+            "nsfw": ["Explicit", "Gore", "Dark Themes"]
         },
         "required": true,
         "nsfw_only": false
@@ -26,11 +26,37 @@
                 "AI",
                 "Ghost",
                 "Alien",
-                "Slime"
+                "Slime",
+                "Furry",
+                "Scaly",
+                "Insect",
+                "Spirit",
+                "Zombie / Undead",
+                "Dwarf",
+                "Neko",
+                "Unspecified",
+                "Mythological",
+                "Deity",
+                "Kitsune",
+                "Mermaid",
+                "Centaur",
+                "Harpy",
+                "Golem",
+                "Fairy",
+                "Elemental",
+                "Shapeshifter",
+                "Chimera",
+                "Beast",
+                "Half-breed",
+                "Cyborg",
+                "Robot",
+                "Clone"
             ],
             "nsfw": [
                 "Succubus",
-                "Incubus"
+                "Incubus",
+                "Tentacle Monster",
+                "Monster Girl/Boy"
             ]
         },
         "required": false,
@@ -45,12 +71,38 @@
                 "Female",
                 "Non-binary",
                 "Genderfluid",
-                "Agender"
+                "Agender",
+                "Transgender",
+                "Questioning",
+                "Gender Non-Conforming",
+                "Bigender",
+                "Androgynous"
             ],
             "nsfw": [
                 "Futanari",
-                "Gender Transformation"
+                "Gender Transformation",
+                "Gender Bender"
             ]
+        },
+        "required": false,
+        "nsfw_only": false
+    },
+    {
+        "name": "Age Group",
+        "description": "Character's age category",
+        "tags": {
+            "general": [
+                "Child",
+                "Teen",
+                "Young Adult",
+                "Adult",
+                "Middle-aged",
+                "Elder",
+                "Ancient",
+                "Immortal",
+                "Ageless"
+            ],
+            "nsfw": []
         },
         "required": false,
         "nsfw_only": false
@@ -73,12 +125,30 @@
                 "Action",
                 "Thriller",
                 "RPG",
-                "Friendship"
+                "Friendship",
+                "Cyberpunk",
+                "Steampunk",
+                "Post-apocalyptic",
+                "Military",
+                "Sports",
+                "School Life",
+                "Supernatural",
+                "Psychological",
+                "Musical",
+                "Western",
+                "Space Opera",
+                "Urban Fantasy",
+                "Gothic",
+                "Crime",
+                "Political",
+                "Educational"
             ],
             "nsfw": [
                 "Erotic",
                 "Sexual Roleplay",
-                "Fetish"
+                "Fetish",
+                "Adult Drama",
+                "Dark Romance"
             ]
         },
         "required": false,
@@ -97,12 +167,32 @@
                 "Game",
                 "Fanfiction",
                 "Original",
-                "Perchance"
+                "Perchance",
+                "Comic",
+                "Content Creator",
+                "Celebrity",
+                "Historical",
+                "Real life",
+                "Light Novel",
+                "Visual Novel",
+                "Web Series",
+                "Podcast",
+                "Folk Tale",
+                "Legend",
+                "Mythology",
+                "Art",
+                "Music",
+                "Poetry"
             ],
             "nsfw": [
                 "Hentai",
                 "Adult Film",
-                "Doujinshi"
+                "Doujinshi",
+                "Pornstar",
+                "Only fans",
+                "Adult Game",
+                "Adult Comics",
+                "Adult Literature"
             ]
         },
         "required": false,
@@ -129,9 +219,41 @@
                 "Scientist",
                 "Pet",
                 "Friend",
-                "Best friend"
+                "Best friend",
+                "LI (Love Interest)",
+                "Rival",
+                "Deity",
+                "Utility",
+                "Knight",
+                "Noble",
+                "Assassin",
+                "Thief",
+                "Guard",
+                "Doctor",
+                "Engineer",
+                "Programmer",
+                "Soldier",
+                "Detective",
+                "Idol",
+                "Celebrity",
+                "Athlete",
+                "Chef",
+                "Explorer",
+                "Researcher",
+                "Pilot",
+                "Musician",
+                "Writer",
+                "Farmer",
+                "Priest/Priestess",
+                "Adventurer",
+                "Leader"
             ],
-            "nsfw": []
+            "nsfw": [
+                "Adult Entertainer",
+                "Escort",
+                "Dominatrix/Dom",
+                "Sex Worker"
+            ]
         },
         "required": false,
         "nsfw_only": false
@@ -151,12 +273,83 @@
                 "Serious",
                 "Playful",
                 "Reserved",
-                "Affectionate"
+                "Affectionate",
+                "Obsessive",
+                "Cold",
+                "Judgmental",
+                "Manipulative",
+                "Intelligent",
+                "Wise",
+                "Naive",
+                "Brave",
+                "Cowardly",
+                "Lazy",
+                "Energetic",
+                "Loyal",
+                "Rebellious",
+                "Artistic",
+                "Analytical",
+                "Dramatic",
+                "Patient",
+                "Impulsive",
+                "Protective",
+                "Sarcastic",
+                "Honest",
+                "Deceptive",
+                "Ambitious",
+                "Humble",
+                "Proud",
+                "Vengeful",
+                "Forgiving",
+                "Traditional",
+                "Progressive"
             ],
             "nsfw": [
                 "Dominant",
                 "Submissive",
-                "Teasing"
+                "Teasing",
+                "Violent",
+                "Abusive / Toxic",
+                "Seductive",
+                "Possessive",
+                "Masochistic",
+                "Sadistic",
+                "Lustful"
+            ]
+        },
+        "required": false,
+        "nsfw_only": false
+    },
+    {
+        "name": "Physical Traits",
+        "description": "Notable physical characteristics",
+        "tags": {
+            "general": [
+                "Tall",
+                "Short",
+                "Muscular",
+                "Slim",
+                "Plus-sized",
+                "Athletic",
+                "Scarred",
+                "Tattooed",
+                "Glasses",
+                "Heterochromia",
+                "Unusual Hair Color",
+                "Long Hair",
+                "Short Hair",
+                "Androgynous Look",
+                "Wings",
+                "Tail",
+                "Horns",
+                "Pointed Ears",
+                "Multiple Arms",
+                "Multiple Eyes"
+            ],
+            "nsfw": [
+                "Voluptuous",
+                "Petite",
+                "Endowed"
             ]
         },
         "required": false,
@@ -174,10 +367,161 @@
                 "Voyeurism",
                 "Bondage",
                 "Pet Play",
-                "Size Difference"
+                "Size Difference",
+                "Harem",
+                "Pregnancy",
+                "Transformation",
+                "Mind Control",
+                "Hypnosis",
+                "Latex",
+                "Food Play",
+                "Temperature Play",
+                "Sensory Deprivation",
+                "Cross-dressing",
+                "Body Modification",
+                "Tentacles",
+                "Monster",
+                "Furry",
+                "Vore",
+                "Macro/Micro",
+                "Leather",
+                "Uniform",
+                "Medical",
+                "Exhibition",
+                "Slavery",
+                "Master/Slave",
+                "Orgasm Control",
+                "Breeding"
             ]
         },
         "required": false,
         "nsfw_only": true
+    },
+    {
+        "name": "Sexual Content",
+        "description": "Sexual activities and preferences",
+        "tags": {
+            "general": [],
+            "nsfw": [
+                "Vanilla",
+                "Anal",
+                "Oral",
+                "Threesome",
+                "Group",
+                "Gangbang",
+                "Double Penetration",
+                "Creampie",
+                "Bukkake",
+                "Masturbation",
+                "Toys",
+                "Fingering",
+                "Rimming",
+                "Fisting",
+                "Face-sitting",
+                "Deep Throat",
+                "Squirting",
+                "Edging",
+                "Rough",
+                "Gentle",
+                "First Time",
+                "Virgin",
+                "Non-virgin",
+                "Multiple Partners",
+                "Public",
+                "Semi-public",
+                "Quickie",
+                "Marathon",
+                "Mutual",
+                "One-sided"
+            ]
+        },
+        "required": false,
+        "nsfw_only": true
+    },
+    {
+        "name": "Sexual Preferences",
+        "description": "Sexual orientation and relationship preferences",
+        "tags": {
+            "general": [
+                "Straight",
+                "Gay",
+                "Lesbian",
+                "Bisexual",
+                "Pansexual",
+                "Asexual",
+                "Demisexual"
+            ],
+            "nsfw": [
+                "Polyamorous",
+                "Open Relationship",
+                "Friends with Benefits",
+                "No Strings Attached",
+                "Casual",
+                "Committed",
+                "Experimental"
+            ]
+        },
+        "required": false,
+        "nsfw_only": false
+    },
+    {
+        "name": "Sexual Experience",
+        "description": "Character's sexual experience level",
+        "tags": {
+            "general": [],
+            "nsfw": [
+                "Virgin",
+                "Inexperienced",
+                "Somewhat Experienced",
+                "Experienced",
+                "Very Experienced",
+                "Expert",
+                "Promiscuous",
+                "Reserved",
+                "Curious",
+                "Experimenting"
+            ]
+        },
+        "required": false,
+        "nsfw_only": true
+    },
+    {
+        "name": "Setting",
+        "description": "Primary environment or world setting",
+        "tags": {
+            "general": [
+                "Modern",
+                "Medieval",
+                "Future",
+                "Space",
+                "Urban",
+                "Rural",
+                "Fantasy World",
+                "Alternate History",
+                "Post-Apocalyptic",
+                "Cyberpunk",
+                "Steampunk",
+                "Victorian",
+                "Ancient",
+                "Prehistoric",
+                "Contemporary",
+                "School",
+                "Military Base",
+                "Castle",
+                "Wilderness",
+                "Underground",
+                "Virtual Reality",
+                "Dream World",
+                "Parallel Universe"
+            ],
+            "nsfw": [
+                "Adult Club",
+                "Brothel",
+                "Dungeon",
+                "Harem"
+            ]
+        },
+        "required": false,
+        "nsfw_only": false
     }
 ]
