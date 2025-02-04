@@ -124,17 +124,43 @@ body:
         - Alien
         - Android
         - Angel
+        - Beast
+        - Centaur
+        - Chimera
+        - Clone
+        - Cyborg
+        - Deity
         - Demon
         - Dragon
+        - Dwarf
+        - Elemental
         - Elf
+        - Fairy
+        - Furry
         - Ghost
+        - Golem
+        - Half-breed
+        - Harpy
         - Human
         - Incubus
+        - Insect
+        - Kitsune
+        - Mermaid
+        - Monster Girl/Boy
+        - Mythological
+        - Neko
         - Orc
+        - Robot
+        - Scaly
+        - Shapeshifter
         - Slime
+        - Spirit
         - Succubus
+        - Tentacle Monster
+        - Unspecified
         - Vampire
         - Werewolf
+        - Zombie / Undead
     validations:
       required: false
 
@@ -146,12 +172,37 @@ body:
       multiple: true
       options:
         - Agender
+        - Androgynous
+        - Bigender
         - Female
         - Futanari
+        - Gender Bender
+        - Gender Non-Conforming
         - Gender Transformation
         - Genderfluid
         - Male
         - Non-binary
+        - Questioning
+        - Transgender
+    validations:
+      required: false
+
+  - type: dropdown
+    id: age group
+    attributes:
+      label: Age Group
+      description: Character's age category
+      multiple: true
+      options:
+        - Adult
+        - Ageless
+        - Ancient
+        - Child
+        - Elder
+        - Immortal
+        - Middle-aged
+        - Teen
+        - Young Adult
     validations:
       required: false
 
@@ -163,22 +214,40 @@ body:
       multiple: true
       options:
         - Action
+        - Adult Drama
         - Adventure
         - Comedy
+        - Crime
+        - Cyberpunk
+        - Dark Romance
         - Drama
+        - Educational
         - Erotic
         - Fantasy
         - Fetish
         - Friendship
+        - Gothic
         - Historical
         - Horror
+        - Military
+        - Musical
         - Mystery
+        - Political
+        - Post-apocalyptic
+        - Psychological
         - RPG
         - Romance
+        - School Life
         - Sci-Fi
         - Sexual Roleplay
         - Slice of Life
+        - Space Opera
+        - Sports
+        - Steampunk
+        - Supernatural
         - Thriller
+        - Urban Fantasy
+        - Western
     validations:
       required: false
 
@@ -189,18 +258,38 @@ body:
       description: Source of inspiration
       multiple: true
       options:
+        - Adult Comics
         - Adult Film
+        - Adult Game
+        - Adult Literature
         - Anime
+        - Art
         - Book
+        - Celebrity
+        - Comic
+        - Content Creator
         - Doujinshi
         - Fanfiction
+        - Folk Tale
         - Game
         - Hentai
+        - Historical
+        - Legend
+        - Light Novel
         - Manga
         - Movie
+        - Music
+        - Mythology
+        - Only fans
         - Original
         - Perchance
+        - Podcast
+        - Poetry
+        - Pornstar
+        - Real life
         - TV Show
+        - Visual Novel
+        - Web Series
     validations:
       required: false
 
@@ -211,23 +300,54 @@ body:
       description: Character's primary role or occupation
       multiple: true
       options:
+        - Adult Entertainer
+        - Adventurer
         - Artist
+        - Assassin
         - Assistant
+        - Athlete
         - Best friend
+        - Celebrity
+        - Chef
+        - Deity
+        - Detective
+        - Doctor
+        - Dominatrix/Dom
+        - Engineer
+        - Escort
+        - Explorer
+        - Farmer
         - Friend
+        - Guard
         - Healer
         - Hero
+        - Idol
+        - Knight
+        - LI (Love Interest)
+        - Leader
         - Mage
         - Merchant
+        - Musician
+        - Noble
         - Pet
+        - Pilot
+        - Priest/Priestess
         - Professional
+        - Programmer
+        - Researcher
+        - Rival
         - Royalty
         - Scientist
         - Servant
+        - Sex Worker
+        - Soldier
         - Student
         - Teacher
+        - Thief
+        - Utility
         - Villain
         - Warrior
+        - Writer
     validations:
       required: false
 
@@ -238,20 +358,89 @@ body:
       description: Character's primary personality traits
       multiple: true
       options:
+        - Abusive / Toxic
         - Affectionate
         - Aggressive
+        - Ambitious
+        - Analytical
+        - Artistic
+        - Brave
         - Caring
         - Cheerful
+        - Cold
         - Confident
+        - Cowardly
+        - Deceptive
         - Dominant
+        - Dramatic
+        - Energetic
+        - Forgiving
         - Friendly
+        - Honest
+        - Humble
+        - Impulsive
+        - Intelligent
+        - Judgmental
+        - Lazy
+        - Loyal
+        - Lustful
+        - Manipulative
+        - Masochistic
         - Mysterious
+        - Naive
+        - Obsessive
+        - Patient
         - Playful
+        - Possessive
+        - Progressive
+        - Protective
+        - Proud
+        - Rebellious
         - Reserved
+        - Sadistic
+        - Sarcastic
+        - Seductive
         - Serious
         - Shy
         - Submissive
         - Teasing
+        - Traditional
+        - Vengeful
+        - Violent
+        - Wise
+    validations:
+      required: false
+
+  - type: dropdown
+    id: physical traits
+    attributes:
+      label: Physical Traits
+      description: Notable physical characteristics
+      multiple: true
+      options:
+        - Androgynous Look
+        - Athletic
+        - Endowed
+        - Glasses
+        - Heterochromia
+        - Horns
+        - Long Hair
+        - Multiple Arms
+        - Multiple Eyes
+        - Muscular
+        - Petite
+        - Plus-sized
+        - Pointed Ears
+        - Scarred
+        - Short
+        - Short Hair
+        - Slim
+        - Tail
+        - Tall
+        - Tattooed
+        - Unusual Hair Color
+        - Voluptuous
+        - Wings
     validations:
       required: false
 
@@ -263,12 +452,157 @@ body:
       multiple: true
       options:
         - BDSM
+        - Body Modification
         - Bondage
+        - Breeding
+        - Cross-dressing
+        - Exhibition
         - Feet
+        - Food Play
+        - Furry
+        - Harem
+        - Hypnosis
+        - Latex
+        - Leather
+        - Macro/Micro
+        - Master/Slave
+        - Medical
+        - Mind Control
+        - Monster
+        - Orgasm Control
         - Pet Play
+        - Pregnancy
         - Roleplay
+        - Sensory Deprivation
         - Size Difference
+        - Slavery
+        - Temperature Play
+        - Tentacles
+        - Transformation
+        - Uniform
+        - Vore
         - Voyeurism
+    validations:
+      required: false
+
+  - type: dropdown
+    id: sexual content
+    attributes:
+      label: Sexual Content
+      description: Sexual activities and preferences
+      multiple: true
+      options:
+        - Anal
+        - Bukkake
+        - Creampie
+        - Deep Throat
+        - Double Penetration
+        - Edging
+        - Face-sitting
+        - Fingering
+        - First Time
+        - Fisting
+        - Gangbang
+        - Gentle
+        - Group
+        - Marathon
+        - Masturbation
+        - Multiple Partners
+        - Mutual
+        - Non-virgin
+        - One-sided
+        - Oral
+        - Public
+        - Quickie
+        - Rimming
+        - Rough
+        - Semi-public
+        - Squirting
+        - Threesome
+        - Toys
+        - Vanilla
+        - Virgin
+    validations:
+      required: false
+
+  - type: dropdown
+    id: sexual preferences
+    attributes:
+      label: Sexual Preferences
+      description: Sexual orientation and relationship preferences
+      multiple: true
+      options:
+        - Asexual
+        - Bisexual
+        - Casual
+        - Committed
+        - Demisexual
+        - Experimental
+        - Friends with Benefits
+        - Gay
+        - Lesbian
+        - No Strings Attached
+        - Open Relationship
+        - Pansexual
+        - Polyamorous
+        - Straight
+    validations:
+      required: false
+
+  - type: dropdown
+    id: sexual experience
+    attributes:
+      label: Sexual Experience
+      description: Character's sexual experience level
+      multiple: true
+      options:
+        - Curious
+        - Experienced
+        - Experimenting
+        - Expert
+        - Inexperienced
+        - Promiscuous
+        - Reserved
+        - Somewhat Experienced
+        - Very Experienced
+        - Virgin
+    validations:
+      required: false
+
+  - type: dropdown
+    id: setting
+    attributes:
+      label: Setting
+      description: Primary environment or world setting
+      multiple: true
+      options:
+        - Adult Club
+        - Alternate History
+        - Ancient
+        - Brothel
+        - Castle
+        - Contemporary
+        - Cyberpunk
+        - Dream World
+        - Dungeon
+        - Fantasy World
+        - Future
+        - Harem
+        - Medieval
+        - Military Base
+        - Modern
+        - Parallel Universe
+        - Post-Apocalyptic
+        - Prehistoric
+        - Rural
+        - School
+        - Space
+        - Steampunk
+        - Underground
+        - Urban
+        - Victorian
+        - Virtual Reality
+        - Wilderness
     validations:
       required: false
   # END_CATEGORIES
