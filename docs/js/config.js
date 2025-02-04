@@ -4,7 +4,7 @@ window.CONFIG = {
     repo: {
         owner: 'nosfertm',
         name: 'perchance-character-database',
-        branch: 'develop'
+        branch: 'main'
     },
     
     // File paths for different content types
