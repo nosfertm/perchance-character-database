@@ -188,7 +188,7 @@ body:
       required: false
 
   - type: dropdown
-    id: age group
+    id: age-group
     attributes:
       label: Age Group
       description: Character's age category
@@ -412,7 +412,7 @@ body:
       required: false
 
   - type: dropdown
-    id: physical traits
+    id: physical-traits
     attributes:
       label: Physical Traits
       description: Notable physical characteristics
@@ -486,7 +486,7 @@ body:
       required: false
 
   - type: dropdown
-    id: sexual content
+    id: sexual-content
     attributes:
       label: Sexual Content
       description: Sexual activities and preferences
@@ -526,7 +526,7 @@ body:
       required: false
 
   - type: dropdown
-    id: sexual preferences
+    id: sexual-preferences
     attributes:
       label: Sexual Preferences
       description: Sexual orientation and relationship preferences
@@ -550,7 +550,7 @@ body:
       required: false
 
   - type: dropdown
-    id: sexual experience
+    id: sexual-experience
     attributes:
       label: Sexual Experience
       description: Character's sexual experience level
