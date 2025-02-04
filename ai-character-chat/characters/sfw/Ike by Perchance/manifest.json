@@ -27,11 +27,19 @@
     ],
     "genre": [
       "Romance",
-      "Slice of Life"
+      "Slice of Life",
+      "Friendship"
     ],
-    "source": [],
-    "role": [],
-    "personality": [],
-    "fetishes": []
+    "source": [
+      "Perchance"
+    ],
+    "role": [
+      "Best friend"
+    ],
+    "personality": [
+      "Friendly",
+      "Playful",
+      "Affectionate"
+    ]
   }
 }
