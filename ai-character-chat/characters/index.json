@@ -1,45 +1,91 @@
 [
-    {
-        "path": "sfw/Chloe by Perchance",
-        "manifest":{
-          "name": "Chloe",
-          "description": "Your green haired assistant. She's always there to help you out, no matter what you need. She's a bit of a bookworm, but she's always got a smile on her face.",
-          "author": "Perchance",
-          "authorId": "0",
-          "imageUrl": "https://user-uploads.perchance.org/file/f97d49e4231d6b90d83a37f12ca95c52.jpeg",
-          "shareUrl": "https://perchance.org/ai-character-chat?data=Chloe~764d8d6af616e292d43678b8540ff085.gz",
-          "downloadPath": "ai-character-chat/characters/sfw/Chloe by Perchance/character.gz",
-          "shapeShifter_Pulls": 0,
-          "galleryChat_Clicks": 0,
-          "galleryDownload_Clicks": 0,
-          "groupSettings": {
-            "requires": [
-              {
-                "name": "Charcter's Name",
-                "rating": "SFW",
-                "internalPath": "sfw/Chloe by Perchance",
-                "shareUrl": "https://perchance.org/ai-character-chat?data=XXXXXXXXXXXXXXXXXXXXXXXXXX",
-                "downloadPath": "ai-character-chat/characters/sfw/Chloe by Perchance/character.gz",
-                "reason": "Acts as a clone during split interactions"
-              }
-            ],
-            "recommends": []
-          },
-          "features": {
-            "customCode": [
-              "custom-codes/reaction-images/code.js"
-            ],
-            "assets": [
-              "assets/reactions/",
-              "assets/voices/"
-            ]
-          },
-          "categories": {
-            "rating": "sfw",
-            "species": ["Human"],
-            "gender": ["Female"],
-            "role": ["Assistant"]
+  {
+    "path": "sfw/Chloe by Perchance",
+    "manifest": {
+      "name": "Chloe",
+      "description": "Your green haired assistant. She's always there to help you out, no matter what you need. She's a bit of a bookworm, but she's always got a smile on her face.",
+      "author": "Perchance",
+      "authorId": "0",
+      "imageUrl": "https://user-uploads.perchance.org/file/f97d49e4231d6b90d83a37f12ca95c52.jpeg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Chloe~764d8d6af616e292d43678b8540ff085.gz",
+      "downloadPath": "ai-character-chat/characters/sfw/Chloe by Perchance/character.gz",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [
+          {
+            "name": "Charcter's Name",
+            "rating": "SFW",
+            "internalPath": "sfw/Chloe by Perchance",
+            "shareUrl": "https://perchance.org/ai-character-chat?data=XXXXXXXXXXXXXXXXXXXXXXXXXX",
+            "downloadPath": "ai-character-chat/characters/sfw/Chloe by Perchance/character.gz",
+            "reason": "Acts as a clone during split interactions"
           }
-        }        
+        ],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [
+          "custom-codes/reaction-images/code.js"
+        ],
+        "assets": [
+          "assets/reactions/",
+          "assets/voices/"
+        ]
+      },
+      "categories": {
+        "rating": "sfw",
+        "species": [
+          "Human"
+        ],
+        "gender": [
+          "Female"
+        ],
+        "role": [
+          "Assistant"
+        ]
+      }
     }
+  },
+  {
+    "path": "sfw/Ike by Perchance",
+    "manifest": {
+      "name": "Ike",
+      "description": "Ike Okunera, 23, is your childhood best friend and secret admirer, known for his bubbly personality and affection towards you. Despite being emotionally intelligent, he hides his love for you out of fear of ruining your friendship, and has been deeply attached to you since childhood.",
+      "author": "Perchance",
+      "authorId": 193018966,
+      "imageUrl": "https://user-uploads.perchance.org/file/1fc3053449b3899638f4328eec5817a8.jpeg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Ike~d1ad478c0beadb6481d8b7baf58e521b.gz",
+      "downloadPath": "ai-character-chat/characters/sfw/Ike by Perchance/character.gz",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "rating": "sfw",
+        "species": [
+          "Human"
+        ],
+        "gender": [
+          "Male"
+        ],
+        "genre": [
+          "Romance",
+          "Slice of Life"
+        ],
+        "source": [],
+        "role": [],
+        "personality": [],
+        "fetishes": []
+      }
+    }
+  }
 ]
