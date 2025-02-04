@@ -1,0 +1,77 @@
+# Template for feature/enhancement requests
+name: 🔼 Feature Request
+description: Suggest an enhancement or new feature
+title: "[Feature Request] "
+labels: ["enhancement"]
+body:
+  - type: checkboxes
+    id: search-check
+    attributes:
+      label: Search Check
+      description: Please verify you have completed these steps before submitting
+      options:
+        - label: I have searched existing issues (open and closed) for similar feature requests
+          required: true
+        - label: I have checked the project documentation to ensure this feature doesn't already exist
+          required: true
+  
+  - type: dropdown
+    id: request-scope
+    attributes:
+      label: Request Scope
+      description: What area does this feature/enhancement affect?
+      options:
+        - Repository Structure
+        - Web Portal
+        - Character Management
+        - Documentation
+        - Tools/Scripts
+        - User Experience
+        - Security
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Perceived Priority
+      description: How important do you think this feature is?
+      options:
+        - Low (Minor enhancement)
+        - Medium (Nice to have)
+        - High (Major improvement)
+        - Critical (Blocks usage)
+      default: 0
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem Description
+      description: What problem does this feature solve? Please be specific.
+      placeholder: "When I try to..., I want to be able to..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: How would you like this feature to work?
+      placeholder: "The system could..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternative Solutions
+      description: Have you considered any alternative solutions or workarounds?
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Any other context, screenshots, or examples?

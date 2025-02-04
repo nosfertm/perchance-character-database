@@ -1,0 +1,64 @@
+name: Process Contribution Issues
+
+on:
+  issues:
+    types: [opened, edited]
+  workflow_dispatch:
+    inputs:
+      issue_number:
+        description: 'Specific Issue Number to Process'
+        required: false
+        type: string
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  process-contribution:
+    # Only run if the issue has 'contribution' label and not 'AUTO PR Created'
+    if: |
+      (github.event_name == 'issues' && 
+       contains(github.event.issue.labels.*.name, 'contribution') && 
+       !contains(github.event.issue.labels.*.name, 'AUTO PR Created')) ||
+      github.event_name == 'workflow_dispatch' && !contains(github.event.issue.labels.*.name, 'AUTO PR Created'))
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install PyGithub pyyaml jsonschema
+
+      - name: Process Contribution
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT_GITHUB_ACTIONS }}
+          ISSUE_NUMBER: ${{ github.event.issue.number || inputs.issue_number }}
+        run: |
+          python .github/scripts/process-contribution-and-create-new-content.py
+
+      # - name: Validate Contribution
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.PAT_GITHUB_ACTIONS }}
+      #   run: |
+      #     python .github/scripts/contribution-validator.py
+
+      # - name: Add Labels
+      #   uses: actions/github-script@v6
+      #   with:
+      #     github-token: ${{ secrets.PAT_GITHUB_ACTIONS }}
+      #     script: |
+      #       github.rest.issues.addLabels({
+      #         issue_number: context.issue.number,
+      #         owner: context.repo.owner,
+      #         repo: context.repo.name,
+      #         labels: ['AUTO PR Created']
+      #       })

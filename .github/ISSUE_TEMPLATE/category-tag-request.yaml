@@ -1,0 +1,98 @@
+name: 🏷️ Category or Tag Request
+description: Request new categories or tags for content classification
+labels: ["category", "enhancement"]
+body:
+  - type: checkboxes
+    id: search-check
+    attributes:
+      label: Search Check
+      description: Please verify you have completed these steps before submitting
+      options:
+        - label: I have searched existing categories and tags in categories.json
+          required: true
+        - label: I have searched existing issues for similar category/tag requests
+          required: true
+        - label: I have checked if my request could fit within existing categories
+          required: true
+
+  
+  # This section will be automatically updated based on categories.json
+  # BEGIN_CATEGORIES_OPTIONS
+  - type: dropdown
+    id: existing-category
+    attributes:
+      label: Existing Category
+      description: Select an existing category, or leave at 'None' to add a new one.
+      options:
+        - None (New Category)
+        - Rating
+        - Species
+        - Gender
+        - Genre
+        - Source
+        - Role
+        - Personality
+        - Fetishes
+    validations:
+      required: true
+  # END_CATEGORIES_OPTIONS
+
+  - type: input
+    id: category-name
+    attributes:
+      label: └── New category Name
+      description: Leave it blank if adding tags to existent category.
+      placeholder: "e.g., Personality Traits"
+
+  - type: textarea
+    id: proposed-sfw-tags
+    attributes:
+      label: Proposed SFW Tags
+      description: List the tags you'd like to add, one per line
+      render: plain
+      placeholder: |
+        Tag 1
+        Tag 2
+        Tag 3
+    validations:
+      required: false
+
+  - type: textarea
+    id: proposed-nsfw-tags
+    attributes:
+      label: Proposed NSFW Tags
+      description: List the tags you'd like to add, one per line
+      render: plain
+      placeholder: |
+        Tag 1
+        Tag 2
+        Tag 3
+    validations:
+      required: false
+
+  - type: textarea
+    id: justification
+    attributes:
+      label: Justification
+      description: Explain why these additions would be useful. Include examples if possible.
+      placeholder: |
+        - How will this improve content organization?
+        - What types of content would use these tags?
+        - Why can't existing categories/tags cover this?
+    validations:
+      required: true
+
+  - type: textarea
+    id: examples
+    attributes:
+      label: Example Characters (Optional)
+      description: List some example characters that would use these categories/tags
+      placeholder: |
+        - Character 1: Would use tags X, Y
+        - Character 2: Would use tags Y, Z
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context (Optional)
+      description: Any other information that might be relevant to your request?

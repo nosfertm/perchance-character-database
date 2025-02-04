@@ -8,11 +8,11 @@ body:
       value: |
         Please fill out the sections below to help us identify and review the reported illegal content.
   - type: input
-    id: content_link
+    id: content_location
     attributes:
-      label: "Provide the link to the content you want to report"
-      description: "Enter the URL or direct reference to the content being reported."
-      placeholder: "ai-character-chat/characters/Chloe"
+      label: "Content Location"
+      description: "Enter the URL or direct reference to the content being reported (folder path or direct link)."
+      placeholder: "e.g., characters/sfw/character-name"
     validations:
       required: true
   - type: dropdown
@@ -33,7 +33,7 @@ body:
     attributes:
       label: "└── If you selected 'Other', please specify the content type"
       description: "Provide a brief description of the content type."
-      placeholder: "Enter a description for the specific content type"
+      placeholder: "Enter a description for the 'other' content type"
     validations:
       required: false
   - type: dropdown
@@ -43,12 +43,9 @@ body:
       description: "You can select multiple reasons if needed."
       multiple: true
       options:
-        - Child Exploitation
-        - Intellectual Property Infringement
-        - Piracy/Unauthorized Sharing
-        - Fraudulent Activity
-        - Hacking/Unauthorized Access
-        - Hate Speech or Incitement to Violence
+        - Copyright Infringement
+        - Illegal Content
+        - Against Community Guidelines
         - Other (Please describe)
     validations:
       required: true
@@ -57,7 +54,7 @@ body:
     attributes:
       label: "└── If you selected 'Other', please specify the report reason"
       description: "Provide a brief explanation of the reason to report."
-      placeholder: "Enter a description for the specific reason to report"
+      placeholder: "Enter a description for the 'other' reason to report"
     validations:
       required: false
   - type: textarea

@@ -1,0 +1,286 @@
+# contribution.yaml
+name: 🎁 Submit Content
+description: Submit a character, custom code, or lorebook
+title: "[Contribution] "
+labels: ["contribution"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for contributing to our repository! Please fill out the information below carefully.
+        
+        Before proceeding, make sure you have read our [Contribution Guidelines](/documentation/contributing.md).
+  
+  # Basic Information
+  - type: input
+    id: content-name
+    attributes:
+      label: Content Name
+      description: Name for your character, lorebook, etc
+    validations:
+      required: true
+  
+  - type: input
+    id: description
+    attributes:
+      label: Short Description
+      description: A brief description of your content (max 150 characters)
+    validations:
+      required: true
+  
+  - type: input
+    id: author
+    attributes:
+      label: Author Name
+      description: Your preferred attribution name. If left empty, will be used your github username. If unavailable, will fallback to 'Anonymous'
+    validations:
+      required: true
+  
+  - type: dropdown
+    id: content-type
+    attributes:
+      label: Content Type
+      options:
+        - Character
+        - Custom Code
+        - Lorebook
+    validations:
+      required: true
+  
+  # Content Type Specific Fields
+  - type: input
+    id: image-url
+    attributes:
+      label: Image URL for your content
+      description: Host your image [here](https://perchance.org/upload). Image is required for character submissions.
+  
+  - type: input
+    id: perchance-url
+    attributes:
+      label: Perchance Character Share Link
+      description: For character submissions only. See [here](/documentation/contributing.md) how to get the link.
+  
+  - type: textarea
+    id: custom-code
+    attributes:
+      label: Custom Code
+      description: For isolated custom code submissions only.
+      render: javascript
+  
+  - type: textarea
+    id: lorebook
+    attributes:
+      label: Lorebook Content
+      description: For lorebook submissions only. Each sentence separated by double line breaks.
+      render: plain
+      placeholder: |
+        First sentence
+        
+        Second sentence
+        
+        Third sentence
+  
+  - type: textarea
+    id: readme
+    attributes:
+      label: README Content
+      description: Description and documentation for your submission
+    validations:
+      required: true
+
+  # Categories Section
+  - type: markdown
+    attributes:
+      value: |
+        ## Content Categories
+        
+        The following categories help users find your content. 
+        While most are **optional**, proper categorization is **highly recommended**, because it helps users search and find your content.  
+          
+        > **Note:** Some tags are only valid for NSFW content and will be filtered accordingly.
+        _Missing a category or tag? You can request new ones [here](../../issues/new?labels=category-request)._
+  
+  - type: dropdown
+    id: rating
+    attributes:
+      label: Content Rating (REQUIRED)
+      description: This will determine content visibility and available tags
+      options:
+        - SFW
+        - NSFW
+    validations:
+      required: true
+      
+  # This section will be automatically updated based on categories.json
+  # BEGIN_CATEGORIES
+  - type: dropdown
+    id: species
+    attributes:
+      label: Species
+      description: Character's species or race
+      multiple: true
+      options:
+        - AI
+        - Alien
+        - Android
+        - Angel
+        - Demon
+        - Dragon
+        - Elf
+        - Ghost
+        - Human
+        - Incubus
+        - Orc
+        - Slime
+        - Succubus
+        - Vampire
+        - Werewolf
+    validations:
+      required: false
+
+  - type: dropdown
+    id: gender
+    attributes:
+      label: Gender
+      description: Character's gender identity
+      multiple: true
+      options:
+        - Agender
+        - Female
+        - Futanari
+        - Gender Transformation
+        - Genderfluid
+        - Male
+        - Non-binary
+    validations:
+      required: false
+
+  - type: dropdown
+    id: genre
+    attributes:
+      label: Genre
+      description: Story type or style
+      multiple: true
+      options:
+        - Action
+        - Adventure
+        - Comedy
+        - Drama
+        - Erotic
+        - Fantasy
+        - Fetish
+        - Historical
+        - Horror
+        - Mystery
+        - RPG
+        - Romance
+        - Sci-Fi
+        - Sexual Roleplay
+        - Slice of Life
+        - Thriller
+    validations:
+      required: false
+
+  - type: dropdown
+    id: source
+    attributes:
+      label: Source
+      description: Source of inspiration
+      multiple: true
+      options:
+        - Adult Film
+        - Anime
+        - Book
+        - Doujinshi
+        - Fanfiction
+        - Game
+        - Hentai
+        - Manga
+        - Movie
+        - Original
+        - TV Show
+    validations:
+      required: false
+
+  - type: dropdown
+    id: role
+    attributes:
+      label: Role
+      description: Character's primary role or occupation
+      multiple: true
+      options:
+        - Artist
+        - Healer
+        - Hero
+        - Mage
+        - Merchant
+        - Professional
+        - Royalty
+        - Servant
+        - Student
+        - Teacher
+        - Villain
+        - Warrior
+    validations:
+      required: false
+
+  - type: dropdown
+    id: personality
+    attributes:
+      label: Personality
+      description: Character's primary personality traits
+      multiple: true
+      options:
+        - Aggressive
+        - Caring
+        - Cheerful
+        - Confident
+        - Dominant
+        - Friendly
+        - Mysterious
+        - Playful
+        - Reserved
+        - Serious
+        - Shy
+        - Submissive
+        - Teasing
+    validations:
+      required: false
+
+  - type: dropdown
+    id: fetishes
+    attributes:
+      label: Fetishes
+      description: Adult-themed interests
+      multiple: true
+      options:
+        - BDSM
+        - Bondage
+        - Feet
+        - Pet Play
+        - Roleplay
+        - Size Difference
+        - Voyeurism
+    validations:
+      required: false
+  # END_CATEGORIES
+
+  # Legal Section
+  - type: markdown
+    attributes:
+      value: |
+        ## Legal Confirmations
+        
+        Please carefully read and confirm the following statements:
+  
+  - type: checkboxes
+    id: legal-confirmations
+    attributes:
+      label: Legal Confirmations
+      options:
+        - label: I confirm that this content does not violate any laws, repository rules, or policies, including but not limited to copyright, intellectual property rights, and content guidelines.
+          required: true
+        - label: I agree to release this content under the MIT License, granting permission for others to use, modify, and distribute it under the same terms as the repository.
+          required: true
+        - label: I understand that if this content is found to violate any laws or policies, it may be removed without prior notice, and I may be held legally responsible for any violations.
+          required: true

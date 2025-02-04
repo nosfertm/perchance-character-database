@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Project Documentation
+    url: https://github.com/nosfertm/perchance-character-database/tree/develop/documentation
+    about: Check our documentation first
+  - name: Questions & Discussions
+    url: https://github.com/nosfertm/perchance-character-database/discussions
+    about: Ask questions, share ideas, and discuss issues
