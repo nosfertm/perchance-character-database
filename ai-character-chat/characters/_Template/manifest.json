@@ -1,29 +1,23 @@
 {
   "name": "Chloe",
-  "description": "A friendly slime that can create copies of itself",
-  "author": "username",
-  "authorId": "1234567890",
-  "characterAvatar": "https://user-uploads.perchance.org/file/f97d49e4231d6b90d83a37f12ca95c52.jpeg",
-  "shareUrl": "https://perchance.org/ai-character-chat-slime",
-  "downloadUrl": "google.com",
+  "description": "Your green haired assistant. She's always there to help you out, no matter what you need. She's a bit of a bookworm, but she's always got a smile on her face.",
+  "author": "Perchance",
+  "authorId": "0",
+  "imageUrl": "https://user-uploads.perchance.org/file/f97d49e4231d6b90d83a37f12ca95c52.jpeg",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Chloe~764d8d6af616e292d43678b8540ff085.gz",
+  "downloadPath": "ai-character-chat/characters/sfw/Chloe by Perchance/character.gz",
   "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
   "groupSettings": {
     "requires": [
       {
-        "name": "Slime Clone",
+        "name": "Charcter's Name",
         "rating": "SFW",
-        "dbUrl": "https://perchance.org/ai-character-chat-slime-clone",
-        "shareUtr": "https://perchance.org/ai-character-chat-slime-clone",
-        "downloadUtr": "https://perchance.org/ai-character-chat-slime-clone",
+        "internalPath": "sfw/Chloe by Perchance",
+        "shareUrl": "https://perchance.org/ai-character-chat?data=XXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "downloadPath": "ai-character-chat/characters/sfw/Chloe by Perchance/character.gz",
         "reason": "Acts as a clone during split interactions"
-      },
-      {
-        "name": "Slime Original",
-        "rating": "NSFW",
-        "dbUrl": "https://perchance.org/ai-character-chat-slime-clone",
-        "shareUtr": "https://perchance.org/ai-character-chat-slime-clone",
-        "downloadUtr": "https://perchance.org/ai-character-chat-slime-clone",
-        "reason": "Acts as the original"
       }
     ],
     "recommends": []
@@ -38,10 +32,15 @@
     ]
   },
   "categories": {
-    "rating": "nsfw",
-    "genre": [
-      "Sexual Roleplay",
-      "Fetish"
+    "rating": "sfw",
+    "species": [
+      "Human"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "role": [
+      "Assistant"
     ]
   }
 }

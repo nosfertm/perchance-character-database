@@ -3,11 +3,53 @@
         "name": "Rating",
         "description": "Content maturity level",
         "tags": {
-            "general": [
-                "SFW",
-                "NSFW"
-            ],
+            "general": ["SFW", "NSFW"],
             "nsfw": []
+        },
+        "required": true,
+        "nsfw_only": false
+    },
+    {
+        "name": "Species",
+        "description": "Character's species or race",
+        "tags": {
+            "general": [
+                "Human",
+                "Elf",
+                "Orc",
+                "Dragon",
+                "Angel",
+                "Demon",
+                "Vampire",
+                "Werewolf",
+                "Android",
+                "AI",
+                "Ghost",
+                "Alien"
+            ],
+            "nsfw": [
+                "Succubus",
+                "Incubus"
+            ]
+        },
+        "required": true,
+        "nsfw_only": false
+    },
+    {
+        "name": "Gender",
+        "description": "Character's gender identity",
+        "tags": {
+            "general": [
+                "Male",
+                "Female",
+                "Non-binary",
+                "Genderfluid",
+                "Agender"
+            ],
+            "nsfw": [
+                "Futanari",
+                "Gender Transformation"
+            ]
         },
         "required": true,
         "nsfw_only": false
@@ -18,8 +60,17 @@
         "tags": {
             "general": [
                 "Fantasy",
+                "Sci-Fi",
                 "Horror",
                 "Adventure",
+                "Romance",
+                "Mystery",
+                "Comedy",
+                "Drama",
+                "Historical",
+                "Slice of Life",
+                "Action",
+                "Thriller",
                 "RPG"
             ],
             "nsfw": [
@@ -33,7 +84,7 @@
     },
     {
         "name": "Source",
-        "description": "Souce of inspiration",
+        "description": "Source of inspiration",
         "tags": {
             "general": [
                 "Anime",
@@ -55,6 +106,57 @@
         "nsfw_only": false
     },
     {
+        "name": "Role",
+        "description": "Character's primary role or occupation",
+        "tags": {
+            "general": [
+                "Student",
+                "Teacher",
+                "Warrior",
+                "Mage",
+                "Healer",
+                "Merchant",
+                "Royalty",
+                "Villain",
+                "Hero",
+                "Servant",
+                "Professional",
+                "Artist",
+                "Assistant",
+                "Scientist",
+                "Pet"
+            ],
+            "nsfw": []
+        },
+        "required": false,
+        "nsfw_only": false
+    },
+    {
+        "name": "Personality",
+        "description": "Character's primary personality traits",
+        "tags": {
+            "general": [
+                "Friendly",
+                "Shy",
+                "Confident",
+                "Aggressive",
+                "Caring",
+                "Mysterious",
+                "Cheerful",
+                "Serious",
+                "Playful",
+                "Reserved"
+            ],
+            "nsfw": [
+                "Dominant",
+                "Submissive",
+                "Teasing"
+            ]
+        },
+        "required": false,
+        "nsfw_only": false
+    },
+    {
         "name": "Fetishes",
         "description": "Adult-themed interests",
         "tags": {
@@ -63,7 +165,10 @@
                 "BDSM",
                 "Feet",
                 "Roleplay",
-                "Voyeurism"
+                "Voyeurism",
+                "Bondage",
+                "Pet Play",
+                "Size Difference"
             ]
         },
         "required": false,

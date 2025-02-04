@@ -58,7 +58,7 @@
                                 <!-- Image Column -->
                                 <div class="col-5 modal-image-col">
                                     <div class="character-image-wrapper">
-                                        <img :src="selectedCharacter.manifest.characterAvatar"
+                                        <img :src="selectedCharacter.manifest.imageUrl"
                                             class="character-modal-image"
                                             :class="{'nsfw-blur': selectedCharacter.manifest?.categories?.rating === 'nsfw' && !showNsfwImages}"
                                             :alt="selectedCharacter.manifest.name || 'Character Image'"
@@ -479,7 +479,7 @@
 
                         <!-- Image Container with fixed dimensions -->
                         <div class="card-img-container position-relative">
-                            <img :src="character.manifest?.characterAvatar" :class="{
+                            <img :src="character.manifest?.imageUrl" :class="{
                             'card-img-top': true, 
                             'nsfw-blur': character.manifest?.categories?.rating === 'nsfw' && !showNsfwImages
                         }" :alt="character.manifest?.name || 'Character Image'" @click="showCharacterModal(character)"
