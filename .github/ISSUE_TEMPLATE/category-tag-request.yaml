@@ -28,11 +28,17 @@ body:
         - Rating
         - Species
         - Gender
+        - Age Group
         - Genre
         - Source
         - Role
         - Personality
+        - Physical Traits
         - Fetishes
+        - Sexual Content
+        - Sexual Preferences
+        - Sexual Experience
+        - Setting
     validations:
       required: true
   # END_CATEGORIES_OPTIONS
