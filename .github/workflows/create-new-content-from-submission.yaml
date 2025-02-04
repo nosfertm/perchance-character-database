@@ -22,7 +22,7 @@ jobs:
       (github.event_name == 'issues' && 
        contains(github.event.issue.labels.*.name, 'contribution') && 
        !contains(github.event.issue.labels.*.name, 'AUTO PR Created')) ||
-      github.event_name == 'workflow_dispatch' && !contains(github.event.issue.labels.*.name, 'AUTO PR Created'))
+      github.event_name == 'workflow_dispatch' && !contains(github.event.issue.labels.*.name, 'AUTO PR Created')
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository

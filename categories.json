@@ -33,7 +33,7 @@
                 "Incubus"
             ]
         },
-        "required": true,
+        "required": false,
         "nsfw_only": false
     },
     {
@@ -52,7 +52,7 @@
                 "Gender Transformation"
             ]
         },
-        "required": true,
+        "required": false,
         "nsfw_only": false
     },
     {
@@ -81,7 +81,7 @@
                 "Fetish"
             ]
         },
-        "required": true,
+        "required": false,
         "nsfw_only": false
     },
     {
@@ -105,7 +105,7 @@
                 "Doujinshi"
             ]
         },
-        "required": true,
+        "required": false,
         "nsfw_only": false
     },
     {
