@@ -71,7 +71,8 @@
                 "Slice of Life",
                 "Action",
                 "Thriller",
-                "RPG"
+                "RPG",
+                "Friendship"
             ],
             "nsfw": [
                 "Erotic",
@@ -94,7 +95,8 @@
                 "TV Show",
                 "Game",
                 "Fanfiction",
-                "Original"
+                "Original",
+                "Perchance"
             ],
             "nsfw": [
                 "Hentai",
@@ -124,7 +126,9 @@
                 "Artist",
                 "Assistant",
                 "Scientist",
-                "Pet"
+                "Pet",
+                "Friend",
+                "Best friend"
             ],
             "nsfw": []
         },
@@ -145,7 +149,8 @@
                 "Cheerful",
                 "Serious",
                 "Playful",
-                "Reserved"
+                "Reserved",
+                "Affectionate"
             ],
             "nsfw": [
                 "Dominant",
