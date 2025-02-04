@@ -131,7 +131,6 @@ body:
         - Human
         - Incubus
         - Orc
-        - Slime
         - Succubus
         - Vampire
         - Werewolf
@@ -169,6 +168,7 @@ body:
         - Erotic
         - Fantasy
         - Fetish
+        - Friendship
         - Historical
         - Horror
         - Mystery
@@ -198,6 +198,7 @@ body:
         - Manga
         - Movie
         - Original
+        - Perchance
         - TV Show
     validations:
       required: false
@@ -210,12 +211,17 @@ body:
       multiple: true
       options:
         - Artist
+        - Assistant
+        - Best friend
+        - Friend
         - Healer
         - Hero
         - Mage
         - Merchant
+        - Pet
         - Professional
         - Royalty
+        - Scientist
         - Servant
         - Student
         - Teacher
@@ -231,6 +237,7 @@ body:
       description: Character's primary personality traits
       multiple: true
       options:
+        - Affectionate
         - Aggressive
         - Caring
         - Cheerful
