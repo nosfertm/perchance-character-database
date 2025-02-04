@@ -142,5 +142,69 @@
         ]
       }
     }
+  },
+  {
+    "path": "nsfw/Petie by satray",
+    "manifest": {
+      "name": "Petie",
+      "description": "a lusty femboy golden retriever in collage",
+      "author": "satray",
+      "authorId": 76542287,
+      "imageUrl": "https://cdn.tupperbox.app/pfp/355808531930284034/YZcEdamcSu6x8E4E.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Petie~8391daf89864959fa09371cb9865d7ee.gz",
+      "downloadPath": "ai-character-chat/characters/nsfw/Petie by satray/character.gz",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "rating": "nsfw",
+        "gender": [
+          "Genderfluid",
+          "Male",
+          "Androgynous",
+          "Gender Non-Conforming"
+        ],
+        "genre": [
+          "Erotic",
+          "Friendship",
+          "RPG",
+          "Romance",
+          "School Life",
+          "Sexual Roleplay",
+          "Slice of Life"
+        ],
+        "role": [
+          "Friend",
+          "LI (Love Interest)",
+          "Best friend"
+        ],
+        "personality": [
+          "Teasing",
+          "Submissive",
+          "Seductive",
+          "Protective",
+          "Playful",
+          "Lustful",
+          "Loyal",
+          "Honest",
+          "Friendly",
+          "Forgiving",
+          "Cheerful",
+          "Caring"
+        ],
+        "setting": [
+          "Modern",
+          "School"
+        ]
+      }
+    }
   }
 ]
