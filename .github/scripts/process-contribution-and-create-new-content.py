@@ -119,7 +119,74 @@ class ContributionProcessor:
         # Similar structure to lorebook processing
         # TODO: Implement custom code specific processing
         # Add malicious code detection placeholder
-        pass
+
+        # Get basic information
+        content_name = self.sanitize_filename(self.body.get('content_name', 'unnamed'))
+        author_name = self.sanitize_filename((self.body.get('author_name') or self.issue.user.login or 'anonymous').strip())
+        custom_code = self.body.get('custom-code')
+
+        # Validate JS code
+        if not custom_code:
+            raise ValueError("Missing custom code content")
+        
+        # Set up paths
+        base_path = "ai-character-chat/custom-codes"
+        cc_path = f"{base_path}/{content_name} by {author_name}"
+
+        # Create manifest
+        manifest = {
+            'name': content_name,
+            'description': self.body.get('short_description', ''),
+            'author': author_name,
+            'authorId': self.issue.user.id,
+            'downloadPath': f"{cc_path}/custom_code.js",
+            'usage': {
+                'character_Incorporations': 0,
+                'galleryShow_Clicks': 0,
+                'galleryDownload_Clicks': 0
+            }
+        }
+    
+        # Create changelog.json
+        now = datetime.datetime.utcnow().isoformat() + 'Z'    # Date and time in ISO 8601 (UTC)
+        changelog = {
+            'currentVersion': '1.0.0',
+            'created': now,
+            'lastUpdated': now,
+            'history': [      
+                {
+                    'version': '1.0.0',
+                    'date': now,
+                    'type': 'initial',
+                    'changes': ['Initial release']
+                }
+            ]
+        }
+        
+        # Prepare files to commit
+        files_to_commit = [
+            {
+                'path': f"{cc_path}/manifest.json",
+                'content': json.dumps(manifest, indent=2),
+                'message': 'Add custom-code manifest'
+            },
+            {
+                'path': f"{cc_path}/changelog.json",
+                'content': json.dumps(changelog, indent=2),
+                'message': 'Add custom-code changelog'
+            },
+            {
+                'path': f"{cc_path}/README.md",
+                'content': self.body.get('readme_content', ''),
+                'message': 'Add custom-code README'
+            }
+        ]
+
+        # Commit all files
+        print(f"DEBUG: Committing {len(files_to_commit)} files for custom-code")
+        self._commit_files(branch_name, files_to_commit)
+        
+        return True
         
     def process_character(self, branch_name):
         """
