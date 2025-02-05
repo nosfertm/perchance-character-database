@@ -1,0 +1,12 @@
+{
+  "name": "Generate an Avatar with `_change-avatar`",
+  "description": "Asks the AI of their current description, then generates an avatar from it.",
+  "author": "VioneT",
+  "authorId": 164311000,
+  "downloadPath": "ai-character-chat/custom-codes/Generate an Avatar with `_change-avatar` by VioneT/custom_code.js",
+  "usage": {
+    "character_Incorporations": 0,
+    "galleryShow_Clicks": 0,
+    "galleryDownload_Clicks": 0
+  }
+}
