@@ -123,7 +123,7 @@ class ContributionProcessor:
         # Get basic information
         content_name = self.sanitize_filename(self.body.get('content_name', 'unnamed'))
         author_name = self.sanitize_filename((self.body.get('author_name') or self.issue.user.login or 'anonymous').strip())
-        custom_code = self.body.get('custom-code')
+        custom_code = self.body.get('custom_code')
 
         # Validate JS code
         if not custom_code:
