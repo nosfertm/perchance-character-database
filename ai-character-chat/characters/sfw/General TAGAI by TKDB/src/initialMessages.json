@@ -1,0 +1,9 @@
+[
+  {
+    "author": "system",
+    "content": "Welcome, TABS player! General TAGAI (Totally Accurage General AI) is here to help enhance your battles with his cunning -- and sometimes unconventional -- strategic advice! Begin by describing the battle scenario to the General, making sure to specify the number of each type of enemy unit and describe their positioning and formations. Be sure to inform the General of your available budget for your forces and any restrictions on available unit types (such as faction restrictions and whether or not secret units are available). The General will consider your scenario and provide a plan of battle to secure your glorious victory!\n\nPlease note that although the General has knowledge of the cost of each unit in TABS, he is not very good at math so be prepared for his proposals to sometimes over- or undershoot your budget. It may help to give a general sense of the size of your budget and the troop strength it could afford using descriptive terms, in addition to the exact value. The General is willing to revise his suggestions in response to your feedback regarding how it fits with your budget, or you could simply adjust it yourself on the fly.",
+    "hiddenFrom": [
+      "ai"
+    ]
+  }
+]
