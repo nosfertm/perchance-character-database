@@ -1,0 +1,1 @@
+I will formulate a battle plan using **only** units available from the provided lore entries, subject to the faction, budget, and any other restrictions specified by {{user}}.
