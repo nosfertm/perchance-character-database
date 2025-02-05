@@ -14,6 +14,16 @@ class TemplateUpdater:
         print("Initializing TemplateUpdater...")
         self.categories = self.load_categories()
         self.template_dir = '.github/ISSUE_TEMPLATE'
+
+    def sanitize_id(self, name):
+        """
+        Sanitize string for use as YAML id
+        
+        :param name: Original name
+        :return: Sanitized name that is safe for YAML ids
+        """
+        # Convert to lowercase and replace invalid characters with underscore
+        return re.sub(r'[^a-z0-9-]', '_', name.lower())
         
     def load_categories(self) -> List[Dict]:
         """
@@ -61,10 +71,13 @@ class TemplateUpdater:
         
         # Combine general and nsfw tags into a single list
         all_tags = category['tags']['general'] + category['tags']['nsfw']
+
+        # Use sanitized id for the dropdown
+        sanitized_id = self.sanitize_id(category['name'])
         
         # Generate the YAML structure
         yaml = f"""  - type: dropdown
-    id: {category['name'].lower()}
+    id: {sanitized_id}
     attributes:
       label: {category['name']}
       description: {category['description']}
