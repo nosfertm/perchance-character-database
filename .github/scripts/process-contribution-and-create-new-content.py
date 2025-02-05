@@ -179,6 +179,11 @@ class ContributionProcessor:
                 'path': f"{cc_path}/README.md",
                 'content': self.body.get('readme_content', ''),
                 'message': 'Add custom-code README'
+            },
+            {
+                'path': f"{cc_path}/code.js",
+                'content': self.body.get('custom_code', '').replace('```javascript\n', '').replace('\n```', ''),
+                'message': 'Add custom-code JavaScript implementation'
             }
         ]
 
