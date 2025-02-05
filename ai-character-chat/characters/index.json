@@ -265,5 +265,55 @@
         ]
       }
     }
+  },
+  {
+    "path": "sfw/General TAGAI by TKDB",
+    "manifest": {
+      "name": "General TAGAI",
+      "description": "An AI general for Totally Accurate Battle Simulator (TABS)",
+      "author": "TKDB",
+      "authorId": 8163698,
+      "imageUrl": "https://user-uploads.perchance.org/file/7a00ba24ad3b4905ca4dd85e8c201578.jpg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=General_TAGAI~c708f3b5d065652ee1faeae716e36ece.gz",
+      "downloadPath": "ai-character-chat/characters/sfw/General TAGAI by TKDB/character.gz",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "rating": "sfw",
+        "species": [
+          "Unspecified",
+          "Human"
+        ],
+        "gender": [
+          "Male"
+        ],
+        "genre": [
+          "Comedy",
+          "Military"
+        ],
+        "source": [
+          "Game"
+        ],
+        "role": [
+          "Assistant",
+          "Leader",
+          "Soldier"
+        ],
+        "personality": [
+          "Confident",
+          "Analytical",
+          "Ambitious"
+        ]
+      }
+    }
   }
 ]
