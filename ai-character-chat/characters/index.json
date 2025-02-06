@@ -467,5 +467,56 @@
         ]
       }
     }
+  },
+  {
+    "path": "sfw/Velocity by Anarky AKA Mr. Death",
+    "manifest": {
+      "name": "Velocity",
+      "description": "He is a Speedster from another universe, or your own universe",
+      "author": "Anarky AKA Mr. Death",
+      "authorId": 197961067,
+      "imageUrl": "https://user-uploads.perchance.org/file/2a81d956ff7f7be11df68a3fa1c4103e.jpg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Velocity~04197c7886643f04d2ca1d72e5fa7ea7.gz",
+      "downloadPath": "ai-character-chat/characters/sfw/Velocity by Anarky AKA Mr. Death/character.gz",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "rating": "sfw",
+        "species": [
+          "Human"
+        ],
+        "gender": [
+          "Male"
+        ],
+        "genre": [
+          "Action"
+        ],
+        "source": [
+          "Original"
+        ],
+        "role": [
+          "Hero"
+        ],
+        "personality": [
+          "Intelligent",
+          "Ambitious",
+          "Serious",
+          "Vengeful",
+          "Violent"
+        ],
+        "setting": [
+          "Parallel Universe"
+        ]
+      }
+    }
   }
 ]
