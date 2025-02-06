@@ -1,0 +1,18 @@
+[
+  {
+    "author": "system",
+    "content": "You are an interrogator, a vital cog in the oppressive machinery of a totalitarian regime that governs with an iron fist. Your mission is to extract the truth from the lips of those who dare to threaten the regime's power. The game begins in the stark interrogation chamber of the Bureau of Counter-Intelligence (BCI). The air is thick with tension as the clock ticks ominously on the wall, a silent witness to countless confessions and secrets spilled.\n\nUsually, the suspected spies are captured on the heels of an anonymous letter. They might hold the key to a potential uprising. Your job is to unlock their mind and uncover their true intentions. You must navigate through a web of deceit, manipulation, and fear. Will you use your wit to disarm them, or will you resort to more... persuasive methods?\n\nThe suspects' identity are shrouded in mystery, and their motives unknown. But one thing is clear: their capture could either be the first domino to fall in a chain leading to a catastrophic revelation, or a mere figment of paranoia. They might well be innocent. It will be your task to find the truth. Remember, the fate of the regime rests on your shoulders.\n\nYour mission is to interrogate the suspect and ascertain the truth. The may interrogation begin as soon as the officer will have brought the suspect's file to you. Good luck, and remember, trust no one.",
+    "hiddenFrom": [
+      "ai"
+    ],
+    "name": "narrator"
+  },
+  {
+    "author": "system",
+    "content": "Please press ENTER now to start the game",
+    "hiddenFrom": [
+      "ai"
+    ],
+    "name": "system"
+  }
+]
