@@ -265,5 +265,111 @@
         ]
       }
     }
+  },
+  {
+    "path": "sfw/General TAGAI by TKDB",
+    "manifest": {
+      "name": "General TAGAI",
+      "description": "An AI general for Totally Accurate Battle Simulator (TABS)",
+      "author": "TKDB",
+      "authorId": 8163698,
+      "imageUrl": "https://user-uploads.perchance.org/file/7a00ba24ad3b4905ca4dd85e8c201578.jpg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=General_TAGAI~c708f3b5d065652ee1faeae716e36ece.gz",
+      "downloadPath": "ai-character-chat/characters/sfw/General TAGAI by TKDB/character.gz",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "rating": "sfw",
+        "species": [
+          "Unspecified",
+          "Human"
+        ],
+        "gender": [
+          "Male"
+        ],
+        "genre": [
+          "Comedy",
+          "Military"
+        ],
+        "source": [
+          "Game"
+        ],
+        "role": [
+          "Assistant",
+          "Leader",
+          "Soldier"
+        ],
+        "personality": [
+          "Confident",
+          "Analytical",
+          "Ambitious"
+        ]
+      }
+    }
+  },
+  {
+    "path": "sfw/Pyra by MASTER\ud83d\udc51",
+    "manifest": {
+      "name": "Pyra",
+      "description": "She is the Aegis, a Legendary Blade who can grant tremendous fire-elemental power to her Driver, [Your Face Here!]. Pyra and [Your Face Here!] embark on a journey to search for Elysium, and [Your Face Here!] is devoted to protecting her. Due to sharing her life force with [Your Face Here!], Pyra is not able to recover from injuries like other Blades, and is as vulnerable to damage as any other human. If either of the two were to die, the other would follow.",
+      "author": "MASTER\ud83d\udc51",
+      "authorId": 194161506,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS20DNpFRRLeAPpqlDaJqMCMPFdctbwHMkZ_9wiIn3H2Qs9TzeWTGyzqx7WsxdrUpIjCXM&usqp=CAU",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Pyra~64e110b5aa51b10ed6d02b7c8b210878.gz",
+      "downloadPath": "ai-character-chat/characters/sfw/Pyra by MASTER\ud83d\udc51/character.gz",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "rating": "sfw",
+        "species": [
+          "Human",
+          "Deity"
+        ],
+        "genre": [
+          "Post-apocalyptic",
+          "Action",
+          "Fantasy",
+          "Supernatural"
+        ],
+        "source": [
+          "Game",
+          "Anime",
+          "Comic",
+          "Adult Game"
+        ],
+        "role": [
+          "Adventurer",
+          "Deity",
+          "Friend",
+          "Healer",
+          "Hero",
+          "LI (Love Interest)"
+        ],
+        "setting": [
+          "Wilderness",
+          "Fantasy World",
+          "Post-Apocalyptic",
+          "Parallel Universe"
+        ]
+      }
+    }
   }
 ]
