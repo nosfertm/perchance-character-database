@@ -1,0 +1,5 @@
+How to:
+1. Copy and Paste the Custom Code to the Character's Custom Code Textarea. See [this guide for a walkthrough](https://docs.google.com/document/d/1z-L-M5PpHuI3Nz7R_mWOuwr0w_ElTxgzzqsYJND65Fs/edit?tab=t.7ojuif281el#heading=h.fs7j6itnshc3)
+2. Run the `/change-avatar` command. This will ask the character for its current appearance and personality. The generated response is used to generate the character's avatar. After a while, it would post a message on the thread with the old and new avatars.
+3. Run the `/roll-avatar` to evoke the image generation again without changing the saved appearance of the character. Use `/change-avatar` to re-change the saved appearance.
+The pushed messages are hidden from the AI, this is to prevent them responding with `data:...` messages. Feel free to edit it to your preferences. Previous versions of the code can be found [at this Rentry](https://rentry.co/qmc6k).

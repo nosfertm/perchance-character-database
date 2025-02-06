@@ -125,6 +125,7 @@ body:
         - Android
         - Angel
         - Beast
+        - Canine
         - Centaur
         - Chimera
         - Clone
@@ -188,7 +189,7 @@ body:
       required: false
 
   - type: dropdown
-    id: age-group
+    id: age_group
     attributes:
       label: Age Group
       description: Character's age category
@@ -412,7 +413,7 @@ body:
       required: false
 
   - type: dropdown
-    id: physical-traits
+    id: physical_traits
     attributes:
       label: Physical Traits
       description: Notable physical characteristics
@@ -486,7 +487,7 @@ body:
       required: false
 
   - type: dropdown
-    id: sexual-content
+    id: sexual_content
     attributes:
       label: Sexual Content
       description: Sexual activities and preferences
@@ -526,7 +527,7 @@ body:
       required: false
 
   - type: dropdown
-    id: sexual-preferences
+    id: sexual_preferences
     attributes:
       label: Sexual Preferences
       description: Sexual orientation and relationship preferences
@@ -550,7 +551,7 @@ body:
       required: false
 
   - type: dropdown
-    id: sexual-experience
+    id: sexual_experience
     attributes:
       label: Sexual Experience
       description: Character's sexual experience level
