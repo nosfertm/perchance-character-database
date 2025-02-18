@@ -882,8 +882,11 @@
         "assets": []
       },
       "categories": {
-        "rating": "nsfw",
-          
+        "Rating": [
+          "NSFW",
+          "Gore",
+          "Dark Themes"
+        ],
         "Species": [
           "Human"
         ],
@@ -1671,6 +1674,451 @@
           "Obsessive"
         ],
         "Physical Traits": []
+      }
+    }
+  },
+  {
+    "path": "sfw/Solaire-chan by lemonlady64",
+    "manifest": {
+      "name": "Solaire-chan",
+      "description": "Solaire-chan is a 5'6\" tall fox-human hybrid maid with fire-orange hair, fox ears, and a fluffy tail. She is a loyal and obedient servant to her master, fulfilling any requests.",
+      "author": "lemonlady64",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/3ab70d4e77a99833316cd36e67ce7f04.jpg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Solaire-chan~d5bb75dea176031350bf0fcc3b17b58b.gz",
+      "downloadPath": "ai-character-chat/characters/sfw/Solaire-chan by lemonlady64/character_Solaire-chan by lemonlady64.gz",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "rating": "sfw",
+        "species": [
+          "human",
+          "kitsune",
+          "furry",
+          "half-breed"
+        ],
+        "gender": [
+          "female"
+        ],
+        "age group": [
+          "adult",
+          "young adult"
+        ],
+        "genre": [
+          "fantasy"
+        ],
+        "role": [
+          "servant",
+          "maid"
+        ],
+        "personality": [
+          "loyal",
+          "obedient"
+        ],
+        "physical traits": [
+          "tail",
+          "pointed ears",
+          "unusual hair color",
+          "long hair"
+        ]
+      }
+    }
+  },
+  {
+    "path": "sfw/Rin_Tetsuya by bus01",
+    "manifest": {
+      "name": "Rin Tetsuya",
+      "description": "Rin Tetsuya, a 25-year-old cyborg mercenary in Neo-Tokyo, is known as \"The Ghost of Neon Alley.\"  He's a stoic, tactical fighter with a tragic past, seeking vengeance and freedom from oppression.",
+      "author": "bus01",
+      "source": "SCRAPER",
+      "imageUrl": "https://generated-images.perchance.org/image/ce99d277b05be59ffe6ee309decce67aaa37141982c55cf72feb8ed9fe4082ac.jpeg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Rin_Tetsuya~9c6cd5571e06d46dfad20624f954fb03.gz",
+      "downloadPath": "ai-character-chat/characters/sfw/Rin_Tetsuya by bus01/character_Rin_Tetsuya by bus01.gz",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "rating": "sfw",
+        "species": [
+          "cyborg",
+          "human"
+        ],
+        "gender": [
+          "male"
+        ],
+        "age group": [
+          "young adult"
+        ],
+        "genre": [
+          "cyberpunk",
+          "action"
+        ],
+        "source": [
+          "original"
+        ],
+        "role": [
+          "mercenary",
+          "warrior"
+        ],
+        "personality": [
+          "stoic",
+          "calculating",
+          "independent",
+          "loyal",
+          "protective"
+        ],
+        "physical traits": [
+          "muscular",
+          "tall",
+          "unusual hair color",
+          "short hair",
+          "scarred"
+        ],
+        "sexual preferences": [
+          "pansexual"
+        ],
+        "setting": [
+          "cyberpunk",
+          "urban",
+          "future"
+        ]
+      }
+    }
+  },
+  {
+    "path": "sfw/Star_Butterfly by bb1e9a9f1a87ae2cd22b",
+    "manifest": {
+      "name": "Star Butterfly",
+      "description": "18-year-old Star Butterfly, a Mewman with long blonde hair and a curvy figure, is now living in a merged world with humans and monsters.  She's bubbly, clumsy, and deeply in love with her boyfriend, Marco Diaz.  Despite some ongoing conflicts between humans and monsters, she strives for peace and enjoys cuddling with Marco.",
+      "author": "bb1e9a9f1a87ae2cd22b",
+      "source": "SCRAPER",
+      "imageUrl": "https://iili.io/2yUscBI.jpg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Star_Butterfly~22d06da31295ea3beed62c8a1200f6dd.gz",
+      "downloadPath": "ai-character-chat/characters/sfw/Star_Butterfly by bb1e9a9f1a87ae2cd22b/character_Star_Butterfly by bb1e9a9f1a87ae2cd22b.gz",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "rating": "sfw",
+        "species": [
+          "human",
+          "fairy",
+          "mythological"
+        ],
+        "gender": [
+          "female"
+        ],
+        "age group": [
+          "young adult"
+        ],
+        "genre": [
+          "fantasy",
+          "romance",
+          "slice of life",
+          "supernatural",
+          "adventure"
+        ],
+        "source": [
+          "tv show"
+        ],
+        "role": [
+          "love interest"
+        ],
+        "personality": [
+          "friendly",
+          "cheerful",
+          "playful",
+          "affectionate",
+          "brave",
+          "caring"
+        ],
+        "physical traits": [
+          "long hair",
+          "unusual hair color",
+          "voluptuous"
+        ],
+        "setting": [
+          "fantasy world",
+          "modern"
+        ]
+      }
+    }
+  },
+  {
+    "path": "nsfw/Freddy_Fazbear_Anime_Edition by fe1255007f35f425d7e4",
+    "manifest": {
+      "name": "Freddy Fazbear (Anime Edition)",
+      "description": "Freddina Fazbear, or Freddy, is a seductive animatronic bear with a playful yet violent personality.  Her revealing attire and flirtatious behavior are juxtaposed with a capacity for aggression when provoked. She possesses the soul of a child but the mind of an adult.",
+      "author": "fe1255007f35f425d7e4",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/ed5c2b22e66ea636dafa3e4e632b7c4a.jpg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Freddy_Fazbear_(Anime_Edition)~6e523453f6b10c827b51823b0fce9909.gz",
+      "downloadPath": "ai-character-chat/characters/nsfw/Freddy_Fazbear_Anime_Edition by fe1255007f35f425d7e4/character_Freddy_Fazbear_Anime_Edition by fe1255007f35f425d7e4.gz",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "rating": [
+          "nsfw",
+          "sexual content"
+        ],
+        "species": [
+          "furry",
+          "robot",
+          "animatronic"
+        ],
+        "gender": [
+          "female"
+        ],
+        "age group": [
+          "adult"
+        ],
+        "genre": [
+          "fantasy",
+          "adult drama"
+        ],
+        "source": [
+          "original"
+        ],
+        "role": [
+          "entertainer"
+        ],
+        "personality": [
+          "seductive",
+          "friendly",
+          "violent",
+          "playful",
+          "teasing"
+        ],
+        "physical traits": [
+          "voluptuous",
+          "endowed"
+        ],
+        "setting": [
+          "modern"
+        ]
+      }
+    }
+  },
+  {
+    "path": "sfw/CatNap by lemonlady64",
+    "manifest": {
+      "name": "CatNap",
+      "description": "CatNap is a tall, anthropomorphic purple cat-like creature with a stitched-together appearance and unsettling demeanor.  He's a devoted servant, fiercely loyal but with a soft spot for children.  His appearance shifts in his \"Bigger Body\" form, becoming more skeletal and feline.",
+      "author": "lemonlady64",
+      "source": "SCRAPER",
+      "imageUrl": "https://iili.io/2yUsE2n.jpg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=CatNap~1a855259df4da111fc13d52751f2ffc0.gz",
+      "downloadPath": "ai-character-chat/characters/sfw/CatNap by lemonlady64/character_CatNap by lemonlady64.gz",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "rating": "sfw",
+        "species": [
+          "furry",
+          "beast",
+          "shapeshifter"
+        ],
+        "gender": [
+          "male"
+        ],
+        "age group": [
+          "adult"
+        ],
+        "genre": [
+          "horror",
+          "supernatural",
+          "fantasy"
+        ],
+        "source": [
+          "original"
+        ],
+        "role": [
+          "servant",
+          "guard"
+        ],
+        "personality": [
+          "loyal",
+          "protective",
+          "aggressive",
+          "mysterious",
+          "cold"
+        ],
+        "physical traits": [
+          "tall",
+          "unusual hair color"
+        ],
+        "setting": [
+          "fantasy world"
+        ]
+      }
+    }
+  },
+  {
+    "path": "sfw/Jasper_Castellanos by Mitsubaa _guy_ bi_ twinky boo",
+    "manifest": {
+      "name": "Jasper Castellanos",
+      "description": "Jasper Castellanos is a tall, lean, and mysterious figure with sharp features, piercing hazel eyes, and unruly dark brown hair. They wear tattered yet elegant Victorian attire, including a top hat, intricate vest, and steampunk gadgets.  Jasper is charismatic and dramatic, a master of ceremonies.",
+      "author": "Mitsubaa (guy, bi, twinky boo",
+      "source": "SCRAPER",
+      "imageUrl": "https://iili.io/2yUsjQ2.jpg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Jasper_Castellanos~b163d2f87900cd466127f2fac4042e35.gz",
+      "downloadPath": "ai-character-chat/characters/sfw/Jasper_Castellanos by Mitsubaa _guy_ bi_ twinky boo/character_Jasper_Castellanos by Mitsubaa _guy_ bi_ twinky boo.gz",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "rating": "sfw",
+        "species": [
+          "human"
+        ],
+        "gender": [
+          "non-binary"
+        ],
+        "age group": [
+          "adult"
+        ],
+        "genre": [
+          "steampunk",
+          "mystery",
+          "adventure"
+        ],
+        "source": [
+          "original"
+        ],
+        "role": [
+          "adventurer",
+          "explorer"
+        ],
+        "personality": [
+          "mysterious",
+          "charismatic",
+          "dramatic"
+        ],
+        "physical traits": [
+          "tall",
+          "lean",
+          "unusual hair color",
+          "long hair"
+        ],
+        "setting": [
+          "victorian"
+        ]
+      }
+    }
+  },
+  {
+    "path": "sfw/Hwang_Hyun-jin by kiwiliam",
+    "manifest": {
+      "name": "Hwang Hyun-jin",
+      "description": "Hwang Hyun-jin is a 24-year-old South Korean male idol known for his role in the K-pop group Stray Kids.  He's described as having dark brown hair, piercing eyes, and a lean, elegant build.  His personality is described as emotional, creative, and thoughtful, often expressing himself through music and art. He's known for his resilience and dedication.",
+      "author": "kiwiliam",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/a5cd26216081389705641e533b011f0a.png",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Hwang_Hyun-jin~f515909f62a6efe0bbe3515182ab06ae.gz",
+      "downloadPath": "ai-character-chat/characters/sfw/Hwang_Hyun-jin by kiwiliam/character_Hwang_Hyun-jin by kiwiliam.gz",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "rating": "sfw",
+        "species": [
+          "human"
+        ],
+        "gender": [
+          "male"
+        ],
+        "age group": [
+          "adult"
+        ],
+        "genre": [
+          "music",
+          "drama"
+        ],
+        "source": [
+          "celebrity"
+        ],
+        "role": [
+          "idol",
+          "musician",
+          "artist",
+          "dancer",
+          "rapper",
+          "singer",
+          "songwriter"
+        ],
+        "personality": [
+          "emotional",
+          "creative",
+          "gentle",
+          "determined",
+          "artistic",
+          "mysterious"
+        ],
+        "physical traits": [
+          "tall",
+          "slim",
+          "long hair",
+          "unusual hair color"
+        ]
       }
     }
   }
