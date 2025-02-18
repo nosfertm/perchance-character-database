@@ -1891,10 +1891,7 @@
         "assets": []
       },
       "categories": {
-        "rating": [
-          "nsfw",
-          "sexual content"
-        ],
+        "rating": "nsfw",
         "species": [
           "furry",
           "robot",
