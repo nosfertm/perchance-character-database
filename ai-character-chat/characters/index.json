@@ -620,7 +620,7 @@
         "assets": []
       },
       "categories": {
-        "Rating": "sfw",
+        "rating": "sfw",
         "Species": [
           "Unspecified",
           "Human"
@@ -690,7 +690,7 @@
         "assets": []
       },
       "categories": {
-        "Rating": "sfw",
+        "rating": "sfw",
         "Species": [
           "Inumimi",
           "Canine",
@@ -754,7 +754,7 @@
         "assets": []
       },
       "categories": {
-        "Rating": "sfw",
+        "rating": "sfw",
         "Species": [
           "Human",
           "Canine",
@@ -822,7 +822,7 @@
         "assets": []
       },
       "categories": {
-        "Rating": "sfw",
+        "rating": "sfw",
         "Species": [
           "Human"
         ],
@@ -882,7 +882,7 @@
         "assets": []
       },
       "categories": {
-        "Rating": "nsfw",
+        "rating": "nsfw",
           
         "Species": [
           "Human"
@@ -942,7 +942,7 @@
         "assets": []
       },
       "categories": {
-        "Rating": "sfw",
+        "rating": "sfw",
         "Genre": [
           "RPG",
           "Fantasy",
@@ -976,7 +976,7 @@
         "assets": []
       },
       "categories": {
-        "Rating": "nsfw",
+        "rating": "nsfw",
         "Species": [
           "Elf"
         ],
@@ -1052,7 +1052,7 @@
         "assets": []
       },
       "categories": {
-        "Rating": "sfw",
+        "rating": "sfw",
         "Species": [
           "Dragon",
           "Human"
@@ -1090,7 +1090,7 @@
         "assets": []
       },
       "categories": {
-        "Rating": "sfw",
+        "rating": "sfw",
         "Species": [
           "Human",
           "Dragon"
@@ -1126,7 +1126,7 @@
         "assets": []
       },
       "categories": {
-        "Rating": "sfw",
+        "rating": "sfw",
         "Species": [
           "Unspecified",
           "Human"
@@ -1363,7 +1363,7 @@
         "assets": []
       },
       "categories": {
-        "Rating": "nsfw",
+        "rating": "nsfw",
         "Species": [
           "Chimera",
           "Monster Girl/Boy",
@@ -1449,7 +1449,7 @@
         "assets": []
       },
       "categories": {
-        "Rating": "nsfw",
+        "rating": "nsfw",
         "Species": [
           "Deity",
           "Mythological"
@@ -1516,7 +1516,7 @@
         "assets": []
       },
       "categories": {
-        "Rating": "nsfw",
+        "rating": "nsfw",
         "Species": [
           "Human"
         ],
@@ -1582,7 +1582,7 @@
         "assets": []
       },
       "categories": {
-        "Rating": "sfw",
+        "rating": "sfw",
         "Species": [
           "Human"
         ],
@@ -1646,7 +1646,7 @@
         "assets": []
       },
       "categories": {
-        "Rating": "sfw",
+        "rating": "sfw",
         "Species": [
           "Furry",
           "Canine"
