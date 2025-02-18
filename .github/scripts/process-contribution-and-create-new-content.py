@@ -252,6 +252,7 @@ class ContributionProcessor:
             'description': self.body.get('short_description', ''),
             'author': author_name,
             'authorId': self.issue.user.id,
+            'source': 'Issue',
             'imageUrl': self.body.get('image_url_for_your_content', ''),
             'shareUrl': share_url,
             'downloadPath': f"{char_path}/character.gz",
