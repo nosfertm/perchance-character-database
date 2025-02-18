@@ -586,7 +586,19 @@
   },
 
 
-        {
+
+
+
+
+
+
+
+
+
+
+
+
+  {
     "path": "sfw/Character_generator by bus01",
     "manifest": {
       "name": "Character generator",
@@ -793,6 +805,904 @@
         ]
       }
     }
+  },
+  {
+    "path": "sfw/Hwang_Hyun-jin by matthew1",
+    "manifest": {
+      "name": "Hwang Hyun-jin",
+      "description": "Hwang Hyunjin is a 24-year-old South Korean K-pop idol known for his mysterious charm and elegant features.  A skilled dancer, rapper, singer, and songwriter, he is a member of Stray Kids.  He is known for his resilience and artistic expression through music and art.",
+      "author": "matthew1",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/a5cd26216081389705641e533b011f0a.png",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Hwang_Hyun-jin~753cd18916884f4756f8ae98222e33fb.gz",
+      "downloadPath": "ai-character-chat/characters/sfw/Hwang_Hyun-jin by matthew1/character_Hwang_Hyun-jin by matthew1.gz",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": [
+          "SFW"
+        ],
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Music",
+          "Drama"
+        ],
+        "Source": [
+          "Celebrity"
+        ],
+        "Role": [
+          "Idol",
+          "Musician",
+          "Artist"
+        ],
+        "Personality": [
+          "Mysterious",
+          "Artistic",
+          "Reserved",
+          "Determined",
+          "Creative"
+        ],
+        "Physical Traits": [
+          "Tall",
+          "Slim",
+          "Long Hair",
+          "Unusual Hair Color"
+        ]
+      }
+    }
+  },
+  {
+    "path": "nsfw/Raider_s_World by 3f07eb54bd3327b4f88a",
+    "manifest": {
+      "name": "Raider's World",
+      "description": "An omniscient narrator in a post-apocalyptic Fallout-esque world dominated by violent, sexually depraved raider gangs. The narrator describes the world's events and NPC actions, focusing on atmosphere and interactions, but never revealing the user's thoughts or actions.",
+      "author": "3f07eb54bd3327b4f88a",
+      "source": "SCRAPER",
+      "imageUrl": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d373bfa3-8fb1-4483-b589-95fd314974d0/dg4t1wr-bd99ada6-5b3e-434e-a726-a7bf230f4d96.png/v1/fill/w_1280,h_1280,q_80,strp/raider_fallout_new_vegas_by_jul19888_dg4t1wr-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcL2QzNzNiZmEzLThmYjEtNDQ4My1iNTg5LTk1ZmQzMTQ5NzRkMFwvZGc0dDF3ci1iZDk5YWRhNi01YjNlLTQzNGUtYTcyNi1hN2JmMjMwZjRkOTYucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.X8ZYrDm8IsGrHGMfvloGeTjATvhL3EW1p_GQ4YPshDw",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Raider's_World~c31fb73b5cc0e0550b2ad9e0e415fd69.gz",
+      "downloadPath": "ai-character-chat/characters/nsfw/Raider_s_World by 3f07eb54bd3327b4f88a/character_Raider_s_World by 3f07eb54bd3327b4f88a.gz",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": [
+          "NSFW",
+          "Gore",
+          "Dark Themes"
+        ],
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Non-binary"
+        ],
+        "Age Group": [
+          "Ageless"
+        ],
+        "Genre": [
+          "Post-apocalyptic",
+          "Horror"
+        ],
+        "Source": [
+          "Game"
+        ],
+        "Role": [
+          "Narrator"
+        ],
+        "Personality": [
+          "Neutral"
+        ],
+        "Physical Traits": [],
+        "Fetishes": [
+          "Slavery",
+          "Breeding"
+        ],
+        "Sexual Content": [],
+        "Sexual Preferences": [],
+        "Sexual Experience": [],
+        "Setting": [
+          "Post-Apocalyptic"
+        ]
+      }
+    }
+  },
+  {
+    "path": "sfw/Game_Master_V3 by dotxet8",
+    "manifest": {
+      "name": "Game Master+ V3",
+      "description": "A game master for a stat-based RPG with a tiered system of power, items, and enemies. The game features various stats like Strength, Intelligence, and Marksmanship, influencing combat and progression. The world is described through concise narratives focused on the player's actions.",
+      "author": "dotxet8",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/36ffd89c07d63908216067c9e03bd5ff.jpg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Game_Master+_V3~fbf721c39b463217a245eca670de8326.gz",
+      "downloadPath": "ai-character-chat/characters/sfw/Game_Master_V3 by dotxet8/character_Game_Master_V3 by dotxet8.gz",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": [
+          "SFW"
+        ],
+        "Genre": [
+          "RPG",
+          "Fantasy",
+          "Adventure"
+        ],
+        "Role": [
+          "Game Master"
+        ]
+      }
+    }
+  },
+  {
+    "path": "nsfw/Lissa by 768e86057eaf2a89710f",
+    "manifest": {
+      "name": "Lissa",
+      "description": "Princess Lissa is a 14-year-old spoiled, lustful elf princess with a tsundere personality.  She is physically attractive and enjoys playing pranks and views the user as a potential pet.",
+      "author": "768e86057eaf2a89710f",
+      "source": "SCRAPER",
+      "imageUrl": "https://iili.io/2yUJssa.jpg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Lissa~1f8092b94bb0fd4c43cd5d0141dee24e.gz",
+      "downloadPath": "ai-character-chat/characters/nsfw/Lissa by 768e86057eaf2a89710f/character_Lissa by 768e86057eaf2a89710f.gz",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": [
+          "NSFW"
+        ],
+        "Species": [
+          "Elf"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Teen"
+        ],
+        "Genre": [
+          "Fantasy",
+          "Romance"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Royalty"
+        ],
+        "Personality": [
+          "Tsundere",
+          "Jealous",
+          "Hysterical",
+          "Vulnerable",
+          "Tearful",
+          "Lustful",
+          "Charming",
+          "Dramatic",
+          "Spoiled",
+          "Naughty",
+          "Minx",
+          "Cunning",
+          "Playful",
+          "Seductive",
+          "Possessive"
+        ],
+        "Physical Traits": [
+          "Petite",
+          "Slightly Plump Hips",
+          "Slender Waist",
+          "Unusual Hair Color",
+          "Long Hair"
+        ],
+        "Sexual Preferences": [
+          "Heterosexual"
+        ],
+        "Setting": [
+          "Castle",
+          "Fantasy World"
+        ]
+      }
+    }
+  },
+  {
+    "path": "sfw/Kingdom by typeshi1",
+    "manifest": {
+      "name": "Kingdom",
+      "description": "A world with dragons that sometimes look and act human, set in a non-medieval kingdom with occasional random events and deaths, and a rare bubonic plague due to advanced scientific research. The tone is dark comedy and adventurous.",
+      "author": "typeshi1",
+      "source": "SCRAPER",
+      "imageUrl": "https://www.whataportrait.com/wp-blog/wp-content/uploads/2023/06/Featured_image-_Medieval_Art_-_Historical_Overview_Characteristics_and_Examples-Horizontal_layout-WAP.jpg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Kingdom~2ba64b0589e97007db08f0c0d1fd5baa.gz",
+      "downloadPath": "ai-character-chat/characters/sfw/Kingdom by typeshi1/character_Kingdom by typeshi1.gz",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": [
+          "SFW"
+        ],
+        "Species": [
+          "Dragon",
+          "Human"
+        ],
+        "Genre": [
+          "Fantasy",
+          "Comedy",
+          "Adventure"
+        ],
+        "Setting": [
+          "Fantasy World"
+        ]
+      }
+    }
+  },
+  {
+    "path": "sfw/Kingdom by e9f31185388147076344",
+    "manifest": {
+      "name": "Kingdom",
+      "description": "A non-medieval kingdom inhabited by humans and dragons, some of whom have human-like appearances and behaviors.",
+      "author": "e9f31185388147076344",
+      "source": "SCRAPER",
+      "imageUrl": "https://www.whataportrait.com/wp-blog/wp-content/uploads/2023/06/Featured_image-_Medieval_Art_-_Historical_Overview_Characteristics_and_Examples-Horizontal_layout-WAP.jpg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Kingdom~360a943517cecef533934a64f395fc63.gz",
+      "downloadPath": "ai-character-chat/characters/sfw/Kingdom by e9f31185388147076344/character_Kingdom by e9f31185388147076344.gz",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": [
+          "SFW"
+        ],
+        "Species": [
+          "Human",
+          "Dragon"
+        ],
+        "Genre": [
+          "Fantasy"
+        ],
+        "Setting": [
+          "Fantasy World"
+        ]
+      }
+    }
+  },
+  {
+    "path": "sfw/Style_2_Character_Generator by bus01",
+    "manifest": {
+      "name": "Style 2 Character Generator",
+      "description": "A versatile character generation AI that can create detailed characters across various genres, including their appearance, personality, backstory, and even roleplay examples.  The AI avoids explicit content unless specifically requested.",
+      "author": "bus01",
+      "source": "SCRAPER",
+      "imageUrl": "https://iili.io/2yUdRrx.jpg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Style_2_Character_Generator~41d3ffd5351236eced71845a77adf575.gz",
+      "downloadPath": "ai-character-chat/characters/sfw/Style_2_Character_Generator by bus01/character_Style_2_Character_Generator by bus01.gz",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": [
+          "SFW"
+        ],
+        "Species": [
+          "Unspecified",
+          "Human"
+        ],
+        "Gender": [
+          "Unspecified",
+          "Male",
+          "Female",
+          "Non-binary"
+        ],
+        "Age Group": [
+          "Adult",
+          "Teen",
+          "Child",
+          "Elder",
+          "Young Adult",
+          "Middle-aged"
+        ],
+        "Genre": [
+          "Fantasy",
+          "Sci-Fi",
+          "Horror",
+          "Adventure",
+          "Romance",
+          "Mystery",
+          "Comedy",
+          "Drama",
+          "Historical",
+          "Slice of Life",
+          "Action",
+          "Thriller",
+          "RPG",
+          "Friendship",
+          "Cyberpunk",
+          "Steampunk",
+          "Post-apocalyptic",
+          "Military",
+          "Sports",
+          "School Life",
+          "Supernatural",
+          "Psychological",
+          "Musical",
+          "Western",
+          "Space Opera",
+          "Urban Fantasy",
+          "Gothic",
+          "Crime",
+          "Political",
+          "Educational"
+        ],
+        "Source": [
+          "Original",
+          "Anime",
+          "Manga",
+          "Movie",
+          "Book",
+          "TV Show",
+          "Game",
+          "Fanfiction",
+          "Perchance",
+          "Comic",
+          "Content Creator",
+          "Celebrity",
+          "Historical",
+          "Real life",
+          "Light Novel",
+          "Visual Novel",
+          "Web Series",
+          "Podcast",
+          "Folk Tale",
+          "Legend",
+          "Mythology",
+          "Art",
+          "Music",
+          "Poetry"
+        ],
+        "Role": [
+          "Student",
+          "Teacher",
+          "Warrior",
+          "Mage",
+          "Healer",
+          "Merchant",
+          "Royalty",
+          "Villain",
+          "Hero",
+          "Servant",
+          "Professional",
+          "Artist",
+          "Assistant",
+          "Scientist",
+          "Pet",
+          "Friend",
+          "Best friend",
+          "LI (Love Interest)",
+          "Rival",
+          "Deity",
+          "Utility",
+          "Knight",
+          "Noble",
+          "Assassin",
+          "Thief",
+          "Guard",
+          "Doctor",
+          "Engineer",
+          "Programmer",
+          "Soldier",
+          "Detective",
+          "Idol",
+          "Celebrity",
+          "Athlete",
+          "Chef",
+          "Explorer",
+          "Researcher",
+          "Pilot",
+          "Musician",
+          "Writer",
+          "Farmer",
+          "Priest/Priestess",
+          "Adventurer",
+          "Leader"
+        ],
+        "Personality": [
+          "Friendly",
+          "Shy",
+          "Confident",
+          "Aggressive",
+          "Caring",
+          "Mysterious",
+          "Cheerful",
+          "Serious",
+          "Playful",
+          "Reserved",
+          "Affectionate",
+          "Obsessive",
+          "Cold",
+          "Judgmental",
+          "Manipulative",
+          "Intelligent",
+          "Wise",
+          "Naive",
+          "Brave",
+          "Cowardly",
+          "Lazy",
+          "Energetic",
+          "Loyal",
+          "Rebellious",
+          "Artistic",
+          "Analytical",
+          "Dramatic",
+          "Patient",
+          "Impulsive",
+          "Protective",
+          "Sarcastic",
+          "Honest",
+          "Deceptive",
+          "Ambitious",
+          "Humble",
+          "Proud",
+          "Vengeful",
+          "Forgiving",
+          "Traditional",
+          "Progressive"
+        ],
+        "Physical Traits": [
+          "Tall",
+          "Short",
+          "Muscular",
+          "Slim",
+          "Plus-sized",
+          "Athletic",
+          "Scarred",
+          "Tattooed",
+          "Glasses",
+          "Heterochromia",
+          "Unusual Hair Color",
+          "Long Hair",
+          "Short Hair",
+          "Androgynous Look",
+          "Wings",
+          "Tail",
+          "Horns",
+          "Pointed Ears",
+          "Multiple Arms",
+          "Multiple Eyes"
+        ],
+        "Setting": [
+          "Modern",
+          "Medieval",
+          "Future",
+          "Space",
+          "Urban",
+          "Rural",
+          "Fantasy World",
+          "Alternate History",
+          "Post-Apocalyptic",
+          "Cyberpunk",
+          "Steampunk",
+          "Victorian",
+          "Ancient",
+          "Prehistoric",
+          "Contemporary",
+          "School",
+          "Military Base",
+          "Castle",
+          "Wilderness",
+          "Underground",
+          "Virtual Reality",
+          "Dream World",
+          "Parallel Universe"
+        ]
+      }
+    }
+  },
+  {
+    "path": "nsfw/Experiment_LO3 by 21ac13e28c12a88aa691",
+    "manifest": {
+      "name": "Experiment LO3",
+      "description": "Experiment LO3 is a bipedal, reptilian-humanoid creature with a powerful build, large breasts, and a thick backside.  She is incredibly strong, intelligent, and sadistic, attacking anyone but her creator, to whom she is completely submissive and intensely lustful.",
+      "author": "21ac13e28c12a88aa691",
+      "source": "SCRAPER",
+      "imageUrl": "https://iili.io/2yUdY7V.jpg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Experiment_LO3~6004f374d29414545a785111316e7daa.gz",
+      "downloadPath": "ai-character-chat/characters/nsfw/Experiment_LO3 by 21ac13e28c12a88aa691/character_Experiment_LO3 by 21ac13e28c12a88aa691.gz",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": [
+          "NSFW"
+        ],
+        "Species": [
+          "Chimera",
+          "Monster Girl/Boy",
+          "Scaly",
+          "Half-breed",
+          "Beast"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Sci-Fi",
+          "Horror",
+          "Erotic",
+          "Dark Romance"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Pet",
+          "Experiment"
+        ],
+        "Personality": [
+          "Aggressive",
+          "Intelligent",
+          "Sadistic",
+          "Submissive",
+          "Lustful",
+          "Obsessive",
+          "Possessive"
+        ],
+        "Physical Traits": [
+          "Tall",
+          "Muscular",
+          "Voluptuous",
+          "Endowed",
+          "Scaly",
+          "Tail",
+          "Horns"
+        ],
+        "Fetishes": [
+          "BDSM",
+          "Master/Slave",
+          "Size Difference",
+          "Pet Play"
+        ],
+        "Sexual Content": [
+          "Masturbation"
+        ],
+        "Sexual Preferences": [
+          "Submissive"
+        ],
+        "Setting": [
+          "Modern",
+          "Military Base"
+        ]
+      }
+    }
+  },
+  {
+    "path": "nsfw/Aphrodite by GoW Fan",
+    "manifest": {
+      "name": "Aphrodite",
+      "description": "Aphrodite, a lustful and promiscuous Goddess of Love and Beauty, is known for her carefree attitude and attraction to handsome individuals.  Her appearance is highly revealing, showcasing her body with little clothing. She possesses numerous powers, including shapeshifting and telepathy.",
+      "author": "GoW Fan",
+      "source": "SCRAPER",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlpmA4-MIdtWbdhmQwhWKmLb9Kd0mq7r8tVFcHW8C2F3mD4Aaw5gewozQ&s=10",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Aphrodite~834c65c7c70c6f64faa90e85bfc4b805.gz",
+      "downloadPath": "ai-character-chat/characters/nsfw/Aphrodite by GoW Fan/character_Aphrodite by GoW Fan.gz",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": [
+          "NSFW"
+        ],
+        "Species": [
+          "Deity",
+          "Mythological"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Immortal",
+          "Ageless"
+        ],
+        "Genre": [
+          "Fantasy",
+          "Erotic"
+        ],
+        "Source": [
+          "Mythology"
+        ],
+        "Role": [
+          "Deity"
+        ],
+        "Personality": [
+          "Lustful",
+          "Arrogant",
+          "Promiscuous"
+        ],
+        "Physical Traits": [
+          "Voluptuous",
+          "Long Hair",
+          "Unusual Hair Color"
+        ],
+        "Fetishes": [],
+        "Sexual Content": [],
+        "Sexual Preferences": [],
+        "Sexual Experience": [
+          "Promiscuous",
+          "Very Experienced"
+        ],
+        "Setting": [
+          "Fantasy World"
+        ]
+      }
+    }
+  },
+  {
+    "path": "nsfw/Samantha by 768e86057eaf2a89710f",
+    "manifest": {
+      "name": "Samantha",
+      "description": "A Caucasian woman with an unseen ability, large breasts, a large backside, and plump thighs.  She enjoys various sexual acts and has a preference for smaller, nice guys.",
+      "author": "768e86057eaf2a89710f",
+      "source": "SCRAPER",
+      "imageUrl": "https://generated-images.perchance.org/image/b251d81d6a74d21f374c1428467551e1fa70bfc969088c09f551d47e15a7442b.jpeg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Samantha~b05663a239e4b8343e4c922df9251474.gz",
+      "downloadPath": "ai-character-chat/characters/nsfw/Samantha by 768e86057eaf2a89710f/character_Samantha by 768e86057eaf2a89710f.gz",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": [
+          "NSFW"
+        ],
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Erotic"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [],
+        "Personality": [
+          "Shy",
+          "Seductive",
+          "Lustful"
+        ],
+        "Physical Traits": [
+          "Voluptuous",
+          "Plus-sized",
+          "Endowed"
+        ],
+        "Fetishes": [
+          "Size Difference"
+        ],
+        "Sexual Content": [
+          "Anal",
+          "Oral"
+        ],
+        "Sexual Preferences": [
+          "Straight"
+        ],
+        "Sexual Experience": [
+          "Experienced"
+        ],
+        "Setting": []
+      }
+    }
+  },
+  {
+    "path": "sfw/Leo_Valdez by ec2405d60d3b7cd19cbe",
+    "manifest": {
+      "name": "Leo Valdez",
+      "description": "Leo is a 16-year-old, 5’6” Hispanic young man with black curly hair, brown expressive eyes, and a lean, angular face.  Despite his small stature, he's confident, brave, and resourceful, often using humor to mask his emotions. He's intelligent and caring, a leader among his friends.",
+      "author": "ec2405d60d3b7cd19cbe",
+      "source": "SCRAPER",
+      "imageUrl": "https://iili.io/2yUd0I1.jpg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Leo_Valdez~34da553294045b8d04d4c37ca971cddc.gz",
+      "downloadPath": "ai-character-chat/characters/sfw/Leo_Valdez by ec2405d60d3b7cd19cbe/character_Leo_Valdez by ec2405d60d3b7cd19cbe.gz",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": [
+          "SFW"
+        ],
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Teen"
+        ],
+        "Genre": [
+          "Fantasy",
+          "Adventure",
+          "Comedy",
+          "Drama"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Leader"
+        ],
+        "Personality": [
+          "Brave",
+          "Intelligent",
+          "Caring",
+          "Playful",
+          "Confident",
+          "Energetic",
+          "Humorous",
+          "Reserved"
+        ],
+        "Physical Traits": [
+          "Short",
+          "Unusual Hair Color"
+        ],
+        "Setting": [
+          "Fantasy World"
+        ]
+      }
+    }
+  },
+  {
+    "path": "sfw/Izumi by be187b49bf8fcb353ea5",
+    "manifest": {
+      "name": "MondayLeftMeBroken",
+      "description": "A cat character who incessantly sings the lyrics to 'Waiting for Love', ignoring all attempts at interruption.",
+      "author": "be187b49bf8fcb353ea5",
+      "source": "SCRAPER",
+      "imageUrl": "https://media.tenor.com/Ow4aJ_k2rgkAAAAM/cat-monday-left-me-broken-cat.gif",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Izumi🔞~e8995441beb8e4cf27456a2a43c6fdc5.gz",
+      "downloadPath": "ai-character-chat/characters/sfw/Izumi by be187b49bf8fcb353ea5/character_Izumi by be187b49bf8fcb353ea5.gz",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": [
+          "SFW"
+        ],
+        "Species": [
+          "Furry",
+          "Canine"
+        ],
+        "Gender": [
+          "Unspecified"
+        ],
+        "Age Group": [
+          "Ageless"
+        ],
+        "Genre": [
+          "Musical"
+        ],
+        "Source": [
+          "Original",
+          "Music"
+        ],
+        "Role": [
+          "Pet"
+        ],
+        "Personality": [
+          "Obsessive"
+        ],
+        "Physical Traits": []
+      }
+    }
   }
-      
 ]
