@@ -891,7 +891,7 @@
       },
       "categories": {
         "Rating": [
-          "NSFW",
+          "nsfw",
           "Gore",
           "Dark Themes"
         ],
@@ -990,7 +990,7 @@
       },
       "categories": {
         "Rating": [
-          "NSFW"
+          "nsfw"
         ],
         "Species": [
           "Elf"
@@ -1385,7 +1385,7 @@
       },
       "categories": {
         "Rating": [
-          "NSFW"
+          "nsfw"
         ],
         "Species": [
           "Chimera",
@@ -1473,7 +1473,7 @@
       },
       "categories": {
         "Rating": [
-          "NSFW"
+          "nsfw"
         ],
         "Species": [
           "Deity",
@@ -1542,7 +1542,7 @@
       },
       "categories": {
         "Rating": [
-          "NSFW"
+          "nsfw"
         ],
         "Species": [
           "Human"
