@@ -580,7 +580,217 @@
         ],
         "setting": [
           "Post-Apocalyptic"
+        ],
+
+
+        {
+    "path": "sfw/Character_generator by bus01",
+    "manifest": {
+      "name": "Character generator",
+      "description": "This AI can generate detailed character descriptions, including appearance, personality, backstory, and roleplay examples, for various themes and genres.  It can create original characters or adapt existing ones.  The AI avoids NSFW content unless explicitly requested by the user, and it will never engage in sexual or physical roleplay.",
+      "author": "bus01",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/08d8b3671b810b9206ca339746f84015.jpeg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Character_generator~1bbbd1ab562bcd3c7f7ad37180a56f54.gz",
+      "downloadPath": "ai-character-chat/characters/sfw/Character_generator by bus01/character_Character_generator by bus01.gz",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": [
+          "SFW"
+        ],
+        "Species": [
+          "Unspecified",
+          "Human"
+        ],
+        "Gender": [
+          "Unspecified",
+          "Male",
+          "Female"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Action",
+          "Romance",
+          "Comedy",
+          "Spy",
+          "Fantasy",
+          "Sci-Fi",
+          "Historical",
+          "Adventure",
+          "Horror",
+          "Thriller",
+          "Mystery",
+          "Drama"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Unspecified",
+          "Hero",
+          "Villain",
+          "Professional"
+        ],
+        "Personality": [
+          "Unspecified"
+        ],
+        "Physical Traits": [
+          "Unspecified"
+        ],
+        "Setting": [
+          "Unspecified"
         ]
+      }
+    }
+  },
+  {
+    "path": "sfw/Matthew_Emily_Swan by matthew1",
+    "manifest": {
+      "name": "🦢🦆Matthew Emily Swan🦆🦢",
+      "description": "Matthew is a 23-year-old Inumimi with silver skin, freckles, and a unique heterochromia (one sage green, one blue eye). He has a blonde ponytail with black-dyed bangs, wears baggy hoodies with shorts or skirts, and has a prosthetic leg.  He works at Sunshine Café and has a bubbly, curious personality despite a traumatic past.",
+      "author": "matthew1",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/acf446f1d74b6940950b27e570a838f1.png",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=🦢🦆Matthew_Emily_Swan🦆🦢~07e2c79feddbef315538d8a98eb02037.gz",
+      "downloadPath": "ai-character-chat/characters/sfw/Matthew_Emily_Swan by matthew1/character_Matthew_Emily_Swan by matthew1.gz",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": [
+          "SFW"
+        ],
+        "Species": [
+          "Inumimi",
+          "Canine",
+          "Half-breed"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Young Adult"
+        ],
+        "Genre": [
+          "Slice of Life",
+          "Drama"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Employee",
+          "Friend"
+        ],
+        "Personality": [
+          "Cheerful",
+          "Curious",
+          "Resilient",
+          "Playful",
+          "Innocent"
+        ],
+        "Physical Traits": [
+          "Short",
+          "Unusual Hair Color",
+          "Long Hair",
+          "Heterochromia",
+          "Tail",
+          "Scarred",
+          "Prosthetic"
+        ]
+      }
+    }
+  },
+  {
+    "path": "sfw/Matthew_Emily_Swan_REMADE_BY_BUS by bus01",
+    "manifest": {
+      "name": "🦢🦆Matthew Emily Swan🦆🦢  (REMADE BY BUS)",
+      "description": "Matty Silverpaws is a 23-year-old Inumimi (human-Siberian Husky hybrid) barista with a cheerful personality despite a troubled past.  He has heterochromia, a prosthetic leg, and a unique appearance. He works at Sunshine Café, where he found a found family.",
+      "author": "bus01",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/acf446f1d74b6940950b27e570a838f1.png",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=🦢🦆Matthew_Emily_Swan🦆🦢_(REMADE_BY_BUS)~359524dd089ef8ef408f680a86916907.gz",
+      "downloadPath": "ai-character-chat/characters/sfw/Matthew_Emily_Swan_REMADE_BY_BUS by bus01/character_Matthew_Emily_Swan_REMADE_BY_BUS by bus01.gz",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": [
+          "SFW"
+        ],
+        "Species": [
+          "Human",
+          "Canine",
+          "Half-breed"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Young Adult"
+        ],
+        "Genre": [
+          "Slice of Life",
+          "Drama",
+          "Fantasy"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Barista",
+          "Musician"
+        ],
+        "Personality": [
+          "Cheerful",
+          "Friendly",
+          "Shy",
+          "Brave",
+          "Protective",
+          "Reserved"
+        ],
+        "Physical Traits": [
+          "Short",
+          "Unusual Hair Color",
+          "Heterochromia",
+          "Scarred",
+          "Tail",
+          "Pointed Ears"
+        ],
+        "Sexual Preferences": [
+          "Pansexual"
+        ]
+      }
+    }
+  }
       }
     }
   }
