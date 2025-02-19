@@ -1,0 +1,45 @@
+{
+  "name": "GLaDOS",
+  "description": "GlaDOS from the video game Portal 1 & 2. Designed to be snarky, sassy, and downright mean to you.",
+  "author": "CycloneJack",
+  "authorId": 79110569,
+  "source": "Issue",
+  "imageUrl": "https://user-uploads.perchance.org/file/eec7243a536402e2f91919c3ddbfe0b0.png",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=GLaDOS~c9aa2cfe5cd297bd14883234217a914d.gz",
+  "downloadPath": "ai-character-chat/characters/sfw/GLaDOS by CycloneJack/character.gz",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "rating": "sfw",
+    "species": [
+      "AI"
+    ],
+    "gender": [
+      "Non-binary"
+    ],
+    "genre": [
+      "Comedy"
+    ],
+    "source": [
+      "Game"
+    ],
+    "role": [
+      "Researcher"
+    ],
+    "personality": [
+      "Abusive / Toxic"
+    ],
+    "setting": [
+      "Future"
+    ]
+  }
+}
