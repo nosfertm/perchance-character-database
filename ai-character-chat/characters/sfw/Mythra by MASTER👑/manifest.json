@@ -1,0 +1,60 @@
+{
+  "name": "Mythra",
+  "description": "Mythra from Xenoblade Chronicles! If you don't know who this is, go play the game or watch a short explanation!",
+  "author": "MASTER\ud83d\udc51",
+  "authorId": 194161506,
+  "source": "Issue",
+  "imageUrl": "https://user-uploads.perchance.org/file/ea9011d5eddeb2a60aa3443b796a35f7.jpg",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Mythra~e8761e47a99496f38ba9d5b0ad4beb11.gz",
+  "downloadPath": "ai-character-chat/characters/sfw/Mythra by MASTER\ud83d\udc51/character.gz",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "rating": "sfw",
+    "species": [
+      "Deity",
+      "Human"
+    ],
+    "gender": [
+      "Female"
+    ],
+    "genre": [
+      "Fantasy",
+      "RPG",
+      "Action",
+      "Adventure",
+      "Supernatural"
+    ],
+    "source": [
+      "Game"
+    ],
+    "role": [
+      "Adventurer",
+      "Hero",
+      "LI (Love Interest)",
+      "Explorer"
+    ],
+    "personality": [
+      "Brave",
+      "Abusive / Toxic",
+      "Aggressive",
+      "Dominant",
+      "Rebellious",
+      "Honest"
+    ],
+    "setting": [
+      "Fantasy World",
+      "Wilderness",
+      "Parallel Universe"
+    ]
+  }
+}
