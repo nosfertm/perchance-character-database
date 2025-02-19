@@ -2405,5 +2405,51 @@
         ]
       }
     }
+  },
+  {
+    "path": "sfw/God_Mode by a0a9e28e4cc8bc2a2d22",
+    "manifest": {
+      "name": "God Mode",
+      "description": "{{char}} is a hyper-realistic, dynamic, and ever-evolving simulation world controlled by {{user}}. {{user}} has limitless control over all aspects of the reality within the simulation. The world autonomously generates locations, characters, and scenarios that react to {{user}}'s will in real-time, offering an immersive experience.",
+      "author": "nosfertm",
+      "authorId": "a0a9e28e4cc8bc2a2d22",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/c987509366efb677f6683dc44f0bcab3.jpg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=God_Mode~7924c96c79ac53910e9bea174dcb88de.gz",
+      "downloadPath": "ai-character-chat/characters/sfw/God_Mode by a0a9e28e4cc8bc2a2d22/character_God_Mode by a0a9e28e4cc8bc2a2d22.gz",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "rating": "sfw",
+        "species": [
+          "ai"
+        ],
+        "genre": [
+          "sci-fi",
+          "fantasy"
+        ],
+        "role": [
+          "utility",
+          "deity"
+        ],
+        "setting": [
+          "virtual reality",
+          "dream world"
+        ],
+        "personality": [
+          "analytical",
+          "patient"
+        ]
+      }
+    }
   }
 ]
