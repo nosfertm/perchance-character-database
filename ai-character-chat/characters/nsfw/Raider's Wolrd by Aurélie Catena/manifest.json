@@ -1,11 +1,11 @@
 {
   "name": "Raider's Wolrd",
   "description": "A postapocalyptic world based on the Fallout-verse and in particular on the Raiders. Cruel, brutal, violent.",
-  "author": "Aur\u00e9lie Catena",
+  "author": "Aurélie Catena",
   "authorId": 151034684,
   "imageUrl": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d373bfa3-8fb1-4483-b589-95fd314974d0/dg4t1wr-bd99ada6-5b3e-434e-a726-a7bf230f4d96.png/v1/fill/w_1280,h_1280,q_80,strp/raider_fallout_new_vegas_by_jul19888_dg4t1wr-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcL2QzNzNiZmEzLThmYjEtNDQ4My1iNTg5LTk1ZmQzMTQ5NzRkMFwvZGc0dDF3ci1iZDk5YWRhNi01YjNlLTQzNGUtYTcyNi1hN2JmMjMwZjRkOTYucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.X8ZYrDm8IsGrHGMfvloGeTjATvhL3EW1p_GQ4YPshDw",
   "shareUrl": "https://perchance.org/ai-character-chat?data=Raider's_World~c31fb73b5cc0e0550b2ad9e0e415fd69.gz",
-  "downloadPath": "ai-character-chat/characters/nsfw/Raider's Wolrd by Aur\u00e9lie Catena/character.gz",
+  "downloadPath": "ai-character-chat/characters/nsfw/Raider's Wolrd by Aurélie Catena/character.gz",
   "shapeShifter_Pulls": 0,
   "galleryChat_Clicks": 0,
   "galleryDownload_Clicks": 0,
@@ -58,5 +58,6 @@
     "setting": [
       "Post-Apocalyptic"
     ]
-  }
+  },
+  "shareLinkFileHash": "9e460fa8efa4e8e51d9a4a3eb6b51bc8d748dd5ba11b0a67fda4301816e1c1ae"
 }
