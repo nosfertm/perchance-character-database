@@ -34,8 +34,8 @@
                         <div class="d-flex align-items-center">
                             <h5 class="modal-title mb-0" id="characterModalLabel" :class="{ 'text-white': isDarkMode }">
                                 {{this.selectedCharacter.manifest.name}}</h5>
-                            <small class="ms-2" :class="{ 'text-secondary': isDarkMode, 'text-muted': !isDarkMode }">
-                                by {{this.selectedCharacter.manifest.author || 'Unknown Creator'}}
+                            <small class="ms-2 text-truncate" :class="{ 'text-secondary': isDarkMode, 'text-muted': !isDarkMode }">
+                                by {{this.selectedCharacter.manifest.author || 'Anonymous'}}
                             </small>
                         </div>
                         <div class="d-flex gap-2 align-items-center">
@@ -58,12 +58,11 @@
                                 <!-- Image Column -->
                                 <div class="col-5 modal-image-col">
                                     <div class="character-image-wrapper">
-                                        <img :src="selectedCharacter.manifest.imageUrl"
-                                            class="character-modal-image"
-                                            :class="{'nsfw-blur': selectedCharacter.manifest?.categories?.rating === 'nsfw' && !showNsfwImages}"
+                                        <img :src="selectedCharacter.manifest.imageUrl" class="character-modal-image"
+                                            :class="{'nsfw-blur': isNsfwCharacter(selectedCharacter.manifest?.categories?.rating) && !showNsfwImages}"
                                             :alt="selectedCharacter.manifest.name || 'Character Image'"
                                             @click="handleNsfwImageClick($event)">
-                                        <div v-if="selectedCharacter.manifest?.categories?.rating === 'nsfw' && !showNsfwImages"
+                                        <div v-if="isNsfwCharacter(selectedCharacter.manifest?.categories?.rating) && !showNsfwImages"
                                             class="nsfw-overlay">
                                             <i class="fa-solid fa-fire-flame-curved fa-2x"></i>
                                         </div>
@@ -106,14 +105,19 @@
                                         <div class="collapse" id="categoriesCollapse">
                                             <div v-for="(category, categoryName, index) in selectedCharacter.manifest.categories"
                                                 class="mb-3 d-flex flex-wrap gap-2">
-                                                <h6 :class="{ 'text-white': isDarkMode }">
-                                                    {{categoryName.split(' ').map(word => word.charAt(0).toUpperCase() +
-                                                    word.slice(1)).join(' ')}}:
-                                                </h6>
-                                                <span v-if="categoryName !== 'rating'" v-for="tag in category"
-                                                    class="badge bg-primary">{{tag}}</span>
-                                                <span v-else class="badge"
-                                                    :class="category === 'nsfw' ? 'bg-danger' : 'bg-primary'">{{category}}</span>
+                                                <template
+                                                    v-if="Array.isArray(category) ? category.length > 0 : category">
+                                                    <h6 :class="{ 'text-white': isDarkMode }">
+                                                        {{categoryName.split(' ').map(word =>
+                                                        word.charAt(0).toUpperCase() +
+                                                        word.slice(1)).join(' ')}}:
+                                                    </h6>
+                                                    <span v-if="categoryName !== 'rating' || Array.isArray(category)"
+                                                        v-for="tag in category" class="badge"
+                                                        :class="isNsfwCharacter(category) ? 'bg-danger' : 'bg-primary'">{{capitalizeWords(tag)}}</span>
+                                                    <span v-else class="badge"
+                                                        :class="isNsfwCharacter(category) ? 'bg-danger' : 'bg-primary'">{{category}}</span>
+                                                </template>
                                             </div>
                                         </div>
                                     </div>
@@ -165,7 +169,7 @@
                                                             </div>
                                                         </div>
                                                         <span class="badge rounded-pill"
-                                                            :class="char.rating?.toUpperCase() === 'NSFW' ? 'bg-danger' : 'bg-primary'">{{char.rating}}</span>
+                                                            :class="isNsfwCharacter(char.rating) ? 'bg-danger' : 'bg-primary'">{{char.rating}}</span>
                                                     </li>
                                                 </ul>
                                             </ol>
@@ -475,18 +479,18 @@
 
                     <!-- Evoke modal on click -->
                     <div
-                        :class="['card character-card', character.manifest?.categories?.rating === 'nsfw' ? 'bg-danger' : 'bg-primary']">
+                        :class="['card character-card', isNsfwCharacter(character.manifest?.categories?.rating) ? 'bg-danger' : 'bg-primary']">
 
                         <!-- Image Container with fixed dimensions -->
                         <div class="card-img-container position-relative">
                             <img :src="character.manifest?.imageUrl" :class="{
                             'card-img-top': true, 
-                            'nsfw-blur': character.manifest?.categories?.rating === 'nsfw' && !showNsfwImages
+                            'nsfw-blur': isNsfwCharacter(character.manifest?.categories?.rating) && !showNsfwImages
                         }" :alt="character.manifest?.name || 'Character Image'" @click="showCharacterModal(character)"
                                 data-bs-toggle="modal" data-bs-target="#characterModal">
 
                             <!-- Put an icon overlay for NSFW images -->
-                            <div v-if="character.manifest?.categories?.rating === 'nsfw' && !showNsfwImages"
+                            <div v-if="isNsfwCharacter(character.manifest?.categories?.rating) && !showNsfwImages"
                                 class="position-absolute top-50 start-50 translate-middle text-white">
                                 <i class="fa-solid fa-fire-flame-curved fa-2x"></i>
                             </div>

@@ -274,8 +274,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     }
 
                     // 3. Special handling for NSFW content
-                    const isNsfw = character.manifest.categories.rating?.toLowerCase() === 'nsfw';
-                    if (isNsfw && !this.showNsfwCharacters &&
+                    if (this.isNsfwCharacter(character.manifest.categories.rating) && !this.showNsfwCharacters &&
                         !this.selectedFilters.categories.rating?.includes('NSFW')) {
                         return false;
                     }
@@ -319,8 +318,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 this.showNsfwImages = false;
             },
 
-
-
+            // Method to handle NSFW image click
             handleNsfwImageClick(event) {
                 // Check if the clicked element is an NSFW image
                 if (!event.target.classList.contains('nsfw-blur')) {
@@ -372,7 +370,25 @@ document.addEventListener('DOMContentLoaded', () => {
                         ?.classList.add('nsfw-blur');
                 }
                 this.selectedCharacter = null;
-            }
+            },
+
+            // Check if the selected character is NSFW
+            isNsfwCharacter(rating) {
+                //const rating = this.selectedCharacter.manifest?.categories?.rating;
+
+                return Array.isArray(rating)
+                    ? rating.includes('nsfw')  // If array, checks if contaisn 'nsfw'
+                    : typeof rating === 'string' && rating.toLowerCase() === 'nsfw';  // If string, compares directly
+            },
+
+            // Method to capitalize words in a string
+            capitalizeWords(str) {
+                if (!str) return '';
+                return str
+                  .split(' ') // Split the words
+                  .map(word => word.charAt(0).toUpperCase() + word.slice(1)) // Capitalize each word
+                  .join(' '); // Merge words
+              }
         },
         computed: {
             themeIcon() {
