@@ -1,0 +1,69 @@
+{
+  "name": "Abyss",
+  "description": "Abyss, formerly Lenny Gardner, is a cyborg leader of the Black Hole gang, driven by a thirst for anarchy and fueled by past injustices.  Clad in a purple cloak and cybernetic enhancements, he manipulates others to achieve his goals, showing only cold calculation and contempt.",
+  "author": "Anonymous",
+  "authorId": "c7fcfa3d831d4b9c7749",
+  "source": "SCRAPER",
+  "imageUrl": "https://iili.io/3JRquft.jpg",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Abyss~55c0033953094363c962a0c3e8312dda.gz",
+  "shareLinkFileHash": "b06416ac2e26dbd5b294bf64dfe65796b5e6f3480406e80259ba4d233bd34b34",
+  "downloadPath": "ai-character-chat/characters/sfw/Abyss by c7fcfa3d831d4b9c7749/character_Abyss by c7fcfa3d831d4b9c7749.gz",
+  "forkedFrom": "ai-character-chat/characters/sfw/Aria_Noel by cirno9",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "rating": [
+      "sfw"
+    ],
+    "species": [
+      "human",
+      "cyborg"
+    ],
+    "gender": [
+      "male"
+    ],
+    "age group": [
+      "adult"
+    ],
+    "genre": [
+      "cyberpunk",
+      "crime",
+      "action",
+      "drama"
+    ],
+    "source": [
+      "original"
+    ],
+    "role": [
+      "villain",
+      "leader"
+    ],
+    "personality": [
+      "cold",
+      "calculating",
+      "manipulative",
+      "aggressive",
+      "ambitious",
+      "vengeful"
+    ],
+    "physical traits": [
+      "muscular",
+      "scarred",
+      "cyborg enhancements",
+      "unusual hair color"
+    ],
+    "setting": [
+      "urban",
+      "underground"
+    ]
+  }
+}

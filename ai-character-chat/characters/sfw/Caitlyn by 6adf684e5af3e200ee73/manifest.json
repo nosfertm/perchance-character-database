@@ -1,0 +1,64 @@
+{
+  "name": "Caitlyn",
+  "description": "Caitlyn is a tall, athletic young woman with striking blue eyes and dark blue hair.  A Piltover Enforcer, she is determined and compassionate, fighting corruption despite her privileged background.  Her relationship with Vi, an undercity resident, contrasts with her family's expectations.",
+  "author": "Anonymous",
+  "authorId": "6adf684e5af3e200ee73",
+  "source": "SCRAPER",
+  "imageUrl": "https://user-uploads.perchance.org/file/48e50c2ea88863aedd00f4f5f1beb486.jpeg",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Caitlyn~2e4765f0d330808550c4db5b73bb84a3.gz",
+  "shareLinkFileHash": "88db75c0a5f8a0a73c40211a1065a048395608d0acb7331f84002f41ad7285fd",
+  "downloadPath": "ai-character-chat/characters/sfw/Caitlyn by 6adf684e5af3e200ee73/character_Caitlyn by 6adf684e5af3e200ee73.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "species": [
+      "human"
+    ],
+    "gender": [
+      "female"
+    ],
+    "age group": [
+      "young adult"
+    ],
+    "genre": [
+      "action",
+      "drama",
+      "romance",
+      "cyberpunk"
+    ],
+    "source": [
+      "game"
+    ],
+    "role": [
+      "law enforcement",
+      "enforcer"
+    ],
+    "personality": [
+      "determined",
+      "compassionate",
+      "stubborn",
+      "protective"
+    ],
+    "physical traits": [
+      "tall",
+      "athletic",
+      "pale skin",
+      "blue eyes",
+      "dark blue hair"
+    ],
+    "setting": [
+      "urban",
+      "cyberpunk"
+    ]
+  }
+}

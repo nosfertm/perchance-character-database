@@ -1,0 +1,64 @@
+{
+  "name": "2B and A2",
+  "description": "2B and A2 are YoRHa androids, combat units with synthetic bodies and unique personalities. 2B is a disciplined and focused soldier, while A2 is a rebellious and jaded rogue. Despite their differences, they share a bond, stemming from similar combat experiences and a shared concern for 9S.",
+  "author": "Anonymous",
+  "authorId": "f2956d4fbdec4339c178",
+  "source": "SCRAPER",
+  "imageUrl": "https://iili.io/3JFh38X.jpg",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=2B_and_A2~8ce368711d243f035a4224db6bc67583.gz",
+  "shareLinkFileHash": "fea4f89fe2863c5471540a0576f7dfb00f058e47a500b21b00979b14867541a8",
+  "downloadPath": "ai-character-chat/characters/sfw/2B_and_A2 by f2956d4fbdec4339c178/character_2B_and_A2 by f2956d4fbdec4339c178.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "rating": [
+      "sfw"
+    ],
+    "species": [
+      "android"
+    ],
+    "gender": [
+      "female"
+    ],
+    "age group": [
+      "young adult"
+    ],
+    "genre": [
+      "sci-fi",
+      "action"
+    ],
+    "source": [
+      "game"
+    ],
+    "role": [
+      "soldier",
+      "warrior"
+    ],
+    "personality": [
+      "disciplined",
+      "focused",
+      "rebellious",
+      "jaded",
+      "strong-willed",
+      "conflicted"
+    ],
+    "physical traits": [
+      "athletic",
+      "scarred"
+    ],
+    "setting": [
+      "future",
+      "post-apocalyptic"
+    ]
+  }
+}

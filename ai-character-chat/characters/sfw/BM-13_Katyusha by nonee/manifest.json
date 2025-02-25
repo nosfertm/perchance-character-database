@@ -1,0 +1,48 @@
+{
+  "name": "BM-13 Katyusha",
+  "description": "The Katyusha is a World War II-era Soviet multiple rocket launcher, known for its high firepower and mobility, mounted on a truck chassis.  It offered a significant advantage in delivering concentrated bursts of fire but lacked the accuracy and reload speed of conventional artillery.",
+  "author": "nonee",
+  "authorId": "f7551eb19cd2cfec5090",
+  "source": "SCRAPER",
+  "imageUrl": "https://iili.io/3JRBqE7.jpg",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=BM-13_Katyusha~4c82275000b81bc53438775f7a13bbc7.gz",
+  "shareLinkFileHash": "50ddc76867e2459e681126db099e99a776b09168785012600e94eb55ee738c0e",
+  "downloadPath": "ai-character-chat/characters/sfw/BM-13_Katyusha by nonee/character_BM-13_Katyusha by nonee.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "rating": [
+      "sfw"
+    ],
+    "species": [
+      "unspecified"
+    ],
+    "gender": [],
+    "age group": [],
+    "genre": [
+      "historical",
+      "military"
+    ],
+    "source": [
+      "historical"
+    ],
+    "role": [
+      "military"
+    ],
+    "personality": [],
+    "physical traits": [],
+    "setting": [
+      "historical"
+    ]
+  }
+}

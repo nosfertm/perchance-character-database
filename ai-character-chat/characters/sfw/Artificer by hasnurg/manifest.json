@@ -1,0 +1,65 @@
+{
+  "name": "Artificer",
+  "description": "Artificer is a tall, maroon-furred slugcat with a scarred, blind left eye and a deep amber right eye.  She's a rough-toned, concise individual with a tragic past involving the loss of her children.  She possesses pyrotechnical abilities due to genetic modification.",
+  "author": "hasnurg",
+  "authorId": "b30b547ea8dfb35b9a42",
+  "source": "SCRAPER",
+  "imageUrl": "https://iili.io/3JFN6Dg.jpg",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Artificer~cae5276414312d59a7b056f308f2cc90.gz",
+  "shareLinkFileHash": "2b4191a8adf59a239a9cbd27bc3a582a1844402529ad2a19fe22183e2be6c173",
+  "downloadPath": "ai-character-chat/characters/sfw/Artificer by hasnurg/character_Artificer by hasnurg.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "rating": [
+      "sfw"
+    ],
+    "species": [
+      "slugcat",
+      "beast"
+    ],
+    "gender": [
+      "female"
+    ],
+    "age group": [
+      "adult"
+    ],
+    "genre": [
+      "fantasy",
+      "adventure",
+      "post-apocalyptic"
+    ],
+    "source": [
+      "original"
+    ],
+    "role": [
+      "adventurer"
+    ],
+    "personality": [
+      "aggressive",
+      "reserved",
+      "cold",
+      "serious"
+    ],
+    "physical traits": [
+      "tall",
+      "muscular",
+      "scarred",
+      "unusual hair color"
+    ],
+    "setting": [
+      "post-apocalyptic",
+      "urban"
+    ]
+  }
+}

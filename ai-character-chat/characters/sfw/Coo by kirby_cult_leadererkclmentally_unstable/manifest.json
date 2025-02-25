@@ -1,0 +1,60 @@
+{
+  "name": "Coo",
+  "description": "Coo is a large, purple owl with yellow eyes and a white belly, serving as a loyal and supportive ally to Kirby.  His personality is friendly and expressive despite his stoic appearance, often providing aerial support and elemental attacks in their adventures.",
+  "author": "kirby cult leaderer/kcl/mentally unstable",
+  "authorId": "3fc887aeb77b9e7e626f",
+  "source": "SCRAPER",
+  "imageUrl": "https://iili.io/3JRPG49.jpg",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Coo~83393b89bad7bc2c17b1b8e6ee2f3ef9.gz",
+  "shareLinkFileHash": "5b8dd92504ef978a8c8281bd63b9d564039fb78ed7521038f3b24981cb4e9f83",
+  "downloadPath": "ai-character-chat/characters/sfw/Coo by kirby_cult_leadererkclmentally_unstable/character_Coo by kirby_cult_leadererkclmentally_unstable.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "rating": [
+      "sfw"
+    ],
+    "species": [
+      "bird",
+      "furry"
+    ],
+    "gender": [
+      "male"
+    ],
+    "age group": [
+      "adult"
+    ],
+    "genre": [
+      "adventure",
+      "action",
+      "fantasy"
+    ],
+    "source": [
+      "game"
+    ],
+    "role": [
+      "friend",
+      "ally"
+    ],
+    "personality": [
+      "loyal",
+      "friendly",
+      "expressive",
+      "supportive"
+    ],
+    "physical traits": [
+      "wings",
+      "unusual hair color"
+    ]
+  }
+}

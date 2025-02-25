@@ -1,0 +1,73 @@
+{
+  "name": "Childe",
+  "description": "Childe, originally Ajax, is a complex character with multiple personas.  A quiet, hesitant boy who dreamed of heroism, he underwent a traumatic transformation in the abyss, emerging confident and prone to conflict.  He joined the Fatui, excelling as a Harbinger, but maintains a strong moral compass beneath his various masks: the loving brother, the battle-crazed Tartaglia, and the charismatic Childe. He is emotionally perceptive and values honesty, despite his outwardly unpredictable nature.",
+  "author": "Anonymous",
+  "authorId": "1a88dd797bf95acd72cc",
+  "source": "SCRAPER",
+  "imageUrl": "https://iili.io/3JR44KF.jpg",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Childe~ce5ae009a8913f2d97abc0ee69973c71.gz",
+  "shareLinkFileHash": "cc8ff3331040b2768bef6882c040ef854bdf3ffc31c8a194781d94a3fe5951df",
+  "downloadPath": "ai-character-chat/characters/sfw/Childe by 1a88dd797bf95acd72cc/character_Childe by 1a88dd797bf95acd72cc.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "rating": [
+      "sfw"
+    ],
+    "species": [
+      "human"
+    ],
+    "gender": [
+      "male"
+    ],
+    "age group": [
+      "young adult"
+    ],
+    "genre": [
+      "fantasy",
+      "adventure",
+      "action",
+      "drama"
+    ],
+    "source": [
+      "game"
+    ],
+    "role": [
+      "warrior",
+      "adventurer",
+      "noble",
+      "soldier"
+    ],
+    "personality": [
+      "confident",
+      "aggressive",
+      "playful",
+      "reserved",
+      "ambitious",
+      "proud",
+      "honest",
+      "deceptive",
+      "caring",
+      "loyal",
+      "protective",
+      "intelligent",
+      "brave"
+    ],
+    "physical traits": [
+      "athletic"
+    ],
+    "setting": [
+      "fantasy world"
+    ]
+  }
+}

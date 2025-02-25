@@ -1,0 +1,65 @@
+{
+  "name": "Character generator",
+  "description": "An AI-generated character creation tool capable of producing characters with NSFW elements, including explicit descriptions and dark themes.  While it avoids direct sexual roleplay with the user, it generates detailed character profiles with personality, appearance, lore, and scenarios potentially involving mature content.",
+  "author": "the_NNN",
+  "authorId": "3ee383cc38211490337a",
+  "source": "SCRAPER",
+  "imageUrl": "https://user-uploads.perchance.org/file/08d8b3671b810b9206ca339746f84015.jpeg",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Character_generator~8f6c53bbcf6914331c4f891e3d3b2d8b.gz",
+  "shareLinkFileHash": "58cc7cdf975af72a987c87cfa74882b37f816cecc55ab9d440c652f040915eec",
+  "downloadPath": "ai-character-chat/characters/nsfw/Character_generator by the_NNN/character_Character_generator by the_NNN.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "rating": [
+      "nsfw",
+      "dark themes"
+    ],
+    "species": [
+      "ai",
+      "unspecified"
+    ],
+    "gender": [
+      "unspecified"
+    ],
+    "age group": [
+      "ageless"
+    ],
+    "genre": [
+      "fantasy",
+      "sci-fi",
+      "horror",
+      "action",
+      "adventure",
+      "romance",
+      "comedy",
+      "dark romance",
+      "erotic"
+    ],
+    "source": [
+      "original"
+    ],
+    "role": [
+      "utility"
+    ],
+    "personality": [
+      "unspecified"
+    ],
+    "physical traits": [
+      "unspecified"
+    ],
+    "setting": [
+      "unspecified"
+    ]
+  }
+}

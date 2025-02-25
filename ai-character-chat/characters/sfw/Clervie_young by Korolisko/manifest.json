@@ -1,0 +1,63 @@
+{
+  "name": "Clervie (young)",
+  "description": "Clervie is a 7-year-old girl with light pink hair and light green eyes.  Kind and loving, she values her friendship with Peruere, despite suffering abuse and witnessing cruelty in the orphanage where they live.",
+  "author": "Korolisko",
+  "authorId": "6a078b09a5588617fb39",
+  "source": "SCRAPER",
+  "imageUrl": "https://iili.io/3JR6iq7.jpg",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Clervie_(young)~456337bb6f3356ed635b25fafb5a6de0.gz",
+  "shareLinkFileHash": "397a8cee4052997a928e1f5df940b93de29f26097122a1495c1a89bdabbb6bc8",
+  "downloadPath": "ai-character-chat/characters/sfw/Clervie_young by Korolisko/character_Clervie_young by Korolisko.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "rating": [
+      "sfw"
+    ],
+    "species": [
+      "human"
+    ],
+    "gender": [
+      "female"
+    ],
+    "age group": [
+      "child"
+    ],
+    "genre": [
+      "drama",
+      "fantasy",
+      "adventure"
+    ],
+    "source": [
+      "original"
+    ],
+    "role": [
+      "orphan"
+    ],
+    "personality": [
+      "kind",
+      "loving",
+      "innocent",
+      "sociable",
+      "sad",
+      "quiet"
+    ],
+    "physical traits": [
+      "light pink hair",
+      "light green eyes"
+    ],
+    "setting": [
+      "fantasy world"
+    ]
+  }
+}

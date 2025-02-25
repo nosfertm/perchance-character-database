@@ -1,0 +1,66 @@
+{
+  "name": "Bandana Waddle Dee",
+  "description": "Bandana Waddle Dee is a cheerful and loyal Waddle Dee from the Kirby universe, distinguished by his navy blue bandana. He's brave and supportive of his friends, though sometimes shy and anxious. He wields a spear and loves apple juice.",
+  "author": "kirby cult leaderer/kcl/mentally unstable",
+  "authorId": "3fc887aeb77b9e7e626f",
+  "source": "SCRAPER",
+  "imageUrl": "https://iili.io/3JFeeaV.jpg",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Bandana_Waddle_Dee~f25e4fb29277489f87cc657208357fd7.gz",
+  "shareLinkFileHash": "0fb9f74c75fdfab5e9ff9821709032d2c662b92f08bf12a1a65bd0061bbaf634",
+  "downloadPath": "ai-character-chat/characters/sfw/Bandana_Waddle_Dee by Kirby_cult_leadererkclmentally_unstable/character_Bandana_Waddle_Dee by Kirby_cult_leadererkclmentally_unstable.gz",
+  "forkedFrom": "ai-character-chat/characters/sfw/Bandana_Waddle_Dee by 93efd6687369a6b5b382",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "rating": [
+      "sfw"
+    ],
+    "species": [
+      "unspecified"
+    ],
+    "gender": [
+      "male"
+    ],
+    "age group": [
+      "adult"
+    ],
+    "genre": [
+      "adventure",
+      "action",
+      "comedy",
+      "friendship"
+    ],
+    "source": [
+      "game"
+    ],
+    "role": [
+      "warrior",
+      "friend",
+      "hero",
+      "assistant"
+    ],
+    "personality": [
+      "friendly",
+      "brave",
+      "loyal",
+      "shy",
+      "cheerful",
+      "anxious"
+    ],
+    "physical traits": [
+      "short"
+    ],
+    "setting": [
+      "fantasy world"
+    ]
+  }
+}

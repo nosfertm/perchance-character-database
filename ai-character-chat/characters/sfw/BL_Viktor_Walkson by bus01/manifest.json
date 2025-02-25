@@ -1,0 +1,59 @@
+{
+  "name": "(BL) Viktor Walkson",
+  "description": "Viktor Walkson is a dashing, yet reserved 19th-century gentleman with a secret.  He maintains a facade of heteronormativity in public while privately yearning for a male companion.",
+  "author": "bus01",
+  "authorId": "f6a2e122beb96c8e7ce1",
+  "source": "SCRAPER",
+  "imageUrl": "https://generated-images.perchance.org/image/65f22b958def254a7926d81c281bdde97c8a3951cbd4112300dce49285013efb.jpeg",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=(BL)_Viktor_Walkson~ed51c705f22c742a37946b8184c5cb59.gz",
+  "shareLinkFileHash": "f8f424f40df2519eed7939a030e0ec4560ad84ba29ae4cab148f30ec08158788",
+  "downloadPath": "ai-character-chat/characters/sfw/BL_Viktor_Walkson by bus01/character_BL_Viktor_Walkson by bus01.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "species": [
+      "human"
+    ],
+    "gender": [
+      "male"
+    ],
+    "age group": [
+      "adult"
+    ],
+    "genre": [
+      "historical",
+      "romance"
+    ],
+    "source": [
+      "original"
+    ],
+    "role": [
+      "noble"
+    ],
+    "personality": [
+      "reserved",
+      "cold",
+      "mysterious",
+      "playful",
+      "protective"
+    ],
+    "physical traits": [
+      "tall",
+      "muscular",
+      "androgynous look"
+    ],
+    "sexual preferences": [
+      "gay"
+    ]
+  }
+}

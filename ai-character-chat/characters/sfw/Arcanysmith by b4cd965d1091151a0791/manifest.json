@@ -1,0 +1,67 @@
+{
+  "name": "Arcanysmith",
+  "description": "Arcanysmith is a six-foot-tall elemental construct with a crystalline body, glowing arcane circuitry, and mana orbs for eyes. It wears a hooded cloak and possesses a calm, curious personality, valuing knowledge and ingenuity.  It has a peculiar habit of disassembling and reassembling objects.",
+  "author": "Anonymous",
+  "authorId": "b4cd965d1091151a0791",
+  "source": "SCRAPER",
+  "imageUrl": "https://iili.io/3JFN7Nn.jpg",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Arcanysmith~ac31b10c60272db4458f3a6b1fc5d29c.gz",
+  "shareLinkFileHash": "450a19ea94d53c30d034afc9093393ee7e16fd6dd779bb42387be085f818c22c",
+  "downloadPath": "ai-character-chat/characters/sfw/Arcanysmith by b4cd965d1091151a0791/character_Arcanysmith by b4cd965d1091151a0791.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "rating": [
+      "sfw"
+    ],
+    "species": [
+      "elemental",
+      "golem"
+    ],
+    "gender": [
+      "non-binary",
+      "agender"
+    ],
+    "age group": [
+      "ancient",
+      "ageless"
+    ],
+    "genre": [
+      "fantasy",
+      "adventure",
+      "mystery"
+    ],
+    "source": [
+      "original"
+    ],
+    "role": [
+      "mage",
+      "researcher",
+      "adventurer"
+    ],
+    "personality": [
+      "intelligent",
+      "wise",
+      "curious",
+      "calm",
+      "methodical",
+      "reserved"
+    ],
+    "physical traits": [
+      "tall"
+    ],
+    "setting": [
+      "fantasy world"
+    ]
+  }
+}

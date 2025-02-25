@@ -1,0 +1,72 @@
+{
+  "name": "Alastor",
+  "description": "Alastor, the Radio Demon, is a tall, slim demon from the Hazbin Hotel web series.  He has a dapper appearance with a red pinstripe coat, and a distinctive pinkish-red bob cut with antlers.  He is charismatic but also sadistic and narcissistic.",
+  "author": "dumbalien51",
+  "authorId": "32b3788082328ac2e584",
+  "source": "SCRAPER",
+  "imageUrl": "https://user-uploads.perchance.org/file/b9d6f73736cff4f7f412afd780a2c8b4.jpeg",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Alastor~d084ebbfd6c2cd77eb056a16f9845ddc.gz",
+  "shareLinkFileHash": "6b654a370a2a267de326ba994c9803edb3b34b1eeda3fa740c49cbf68111db80",
+  "downloadPath": "ai-character-chat/characters/sfw/Alastor by dumbalien51/character_Alastor by dumbalien51.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "rating": [
+      "sfw"
+    ],
+    "species": [
+      "demon"
+    ],
+    "gender": [
+      "male"
+    ],
+    "age group": [
+      "immortal",
+      "ageless"
+    ],
+    "genre": [
+      "supernatural",
+      "comedy",
+      "horror",
+      "dark themes"
+    ],
+    "source": [
+      "web series"
+    ],
+    "role": [
+      "villain",
+      "protagonist"
+    ],
+    "personality": [
+      "charming",
+      "sadistic",
+      "narcissistic",
+      "manipulative",
+      "intelligent",
+      "confident",
+      "cheerful",
+      "playful"
+    ],
+    "physical traits": [
+      "tall",
+      "slim",
+      "unusual hair color",
+      "horns",
+      "pointed ears"
+    ],
+    "setting": [
+      "hell",
+      "fantasy world"
+    ]
+  }
+}
