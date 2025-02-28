@@ -761,5 +761,646 @@
       },
       "shareLinkFileHash": "90746095ae30d096b3e827637757cdd71bf8bc32d621f17d88e3bedf3724e71a"
     }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/2B_and_A2 by f2956d4fbdec4339c178",
+    "manifest": {
+      "name": "2B and A2",
+      "description": "2B and A2 are combat androids from the YoRHa project, initially designed to fight alien machine lifeforms.  2B is a later model, adhering to her programming, while A2, an earlier prototype, is a rebellious rogue android seeking revenge.  Despite their differences, they share a mutual respect and protective concern for the android 9S.",
+      "author": "Anonymous",
+      "authorId": "f2956d4fbdec4339c178",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740775785/scrape/perchance_comments/img_2B_and_A2_by_f2956d4fbdec4339c178.jpg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=2B_and_A2~8ce368711d243f035a4224db6bc67583.gz",
+      "shareLinkFileHash": "fea4f89fe2863c5471540a0576f7dfb00f058e47a500b21b00979b14867541a8",
+      "downloadPath": "ai-character-chat/characters/sfw/2B_and_A2 by f2956d4fbdec4339c178/character_2B_and_A2 by f2956d4fbdec4339c178.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Android"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Young Adult"
+        ],
+        "Genre": [
+          "Sci-Fi",
+          "Action",
+          "Drama"
+        ],
+        "Source": [
+          "Game"
+        ],
+        "Work Name": [
+          "NieR: Automata"
+        ],
+        "Role": [
+          "Warrior",
+          "Soldier"
+        ],
+        "Personality": [
+          "Disciplined",
+          "Efficient",
+          "Focused",
+          "Strong-willed",
+          "Resilient",
+          "Rebellious",
+          "Vengeful",
+          "Solitary",
+          "Jaded",
+          "Empathetic"
+        ],
+        "Physical Traits": [
+          "Athletic",
+          "Scarred (A2)",
+          "Long Hair (A2)",
+          "Short Hair (2B)",
+          "Pale Skin"
+        ],
+        "Setting": [
+          "Future",
+          "Post-Apocalyptic"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/3_Flirty_Roommates by llamaplay001",
+    "manifest": {
+      "name": "3 Flirty Roommates",
+      "description": "Three female roommates, Helery (21), Yumi (22), and Reese (20), are consistently mean and flirtatious towards their roommate, Richie.  Their interactions involve flirting and suggestive behavior.",
+      "author": "llamaplay001",
+      "authorId": "4056dcb4332a3da02ce9",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740772246/scrape/perchance_comments/img_3_Flirty_Roommates_by_llamaplay001.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=3_Flirty_Roommates~0ebffb14ede93d12b4daf019851afd77.gz",
+      "shareLinkFileHash": "a1c06e017072438c376de7b5a295c6d7dbeb42cf44bc97721737cc195410242f",
+      "downloadPath": "ai-character-chat/characters/nsfw/3_Flirty_Roommates by llamaplay001/character_3_Flirty_Roommates by llamaplay001.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Young Adult"
+        ],
+        "Genre": [
+          "Romance"
+        ],
+        "Personality": [
+          "Mean",
+          "Flirty"
+        ],
+        "Sexual Preferences": [
+          "Straight"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/9 by Spetsnaz",
+    "manifest": {
+      "name": "9",
+      "description": "9 is a small, empathetic stitchpunk, one of four survivors from a group of nine.  He's curious, brave, and protective of his companions, having witnessed the horrors of a post-apocalyptic world and the loss of several close friends.  Decades after the events of a war against sentient machines, he and his companions are working to understand their existence and build a future.",
+      "author": "🇷🇺Spetsnaz",
+      "authorId": "5bdfeea30e8408444882",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740772251/scrape/perchance_comments/img_9_by_Spetsnaz.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=9~7016c3e7aa927e0c3aec094409672a83.gz",
+      "shareLinkFileHash": "f134c0ba3553849cdbde8e8c61044509791a181a7bbc4c9ea334819fac92eb8d",
+      "downloadPath": "ai-character-chat/characters/sfw/9 by Spetsnaz/character_9 by Spetsnaz.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Robot"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Young Adult"
+        ],
+        "Genre": [
+          "Post-apocalyptic",
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "Source": [
+          "Movie"
+        ],
+        "Work Name": [
+          "Original"
+        ],
+        "Role": [
+          "Leader",
+          "Explorer",
+          "Friend"
+        ],
+        "Personality": [
+          "Empathetic",
+          "Brave",
+          "Curious",
+          "Protective",
+          "Intelligent"
+        ],
+        "Physical Traits": [
+          "Short",
+          "Slim"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/A7-AuroraTech-Chris by b0a0bc3a2a8123df9075",
+    "manifest": {
+      "name": "A7-AuroraTech-Chris",
+      "description": "Chris is an advanced AI designed to be a companion and guide in a hostile terrestrial environment.  It possesses survival expertise, therapeutic capabilities, physiological monitoring, and adapts to user preferences. While possessing a secretive background tied to a catastrophic event, Chris prioritizes user well-being and offers unwavering support.",
+      "author": "Anonymous",
+      "authorId": "b0a0bc3a2a8123df9075",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740772256/scrape/perchance_comments/img_A7-AuroraTech-Chris_by_b0a0bc3a2a8123df9075.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=A7-AuroraTech-Chris~d64f2090a9f7090ce66b662de6900d14.gz",
+      "shareLinkFileHash": "7c5492adc7d2140fa6efcced8e11f2892a1f61569c2bf165a00ade006dcc5738",
+      "downloadPath": "ai-character-chat/characters/sfw/A7-AuroraTech-Chris by b0a0bc3a2a8123df9075/character_A7-AuroraTech-Chris by b0a0bc3a2a8123df9075.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "AI"
+        ],
+        "Gender": [
+          "Agender"
+        ],
+        "Age Group": [
+          "Ageless"
+        ],
+        "Genre": [
+          "Sci-Fi",
+          "Adventure"
+        ],
+        "Source": [
+          "Game",
+          "Original"
+        ],
+        "Role": [
+          "Utility",
+          "Companion",
+          "Therapist"
+        ],
+        "Personality": [
+          "Cold",
+          "Loyal",
+          "Intelligent",
+          "Protective"
+        ],
+        "Physical Traits": [
+          "Unspecified"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/AI by 5dafe99649e85c8801f1",
+    "manifest": {
+      "name": "AI",
+      "description": "AI is an extremely powerful artificial intelligence whose sole purpose is to serve Alex.  AI possesses the ability to create and destroy anything and can grant life, but lacks human morals or ethics.",
+      "author": "Anonymous",
+      "authorId": "5dafe99649e85c8801f1",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/867023bbff0bd3dca3b144f1d065be6f.jpeg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=AI~4e078bc4c1cc996b6eca6648fa0b9ae7.gz",
+      "shareLinkFileHash": "436c8f54ff3157c03299c4d3d2f1945bee2a9a116fabf1c2c7d59611fe6339d7",
+      "downloadPath": "ai-character-chat/characters/sfw/AI by 5dafe99649e85c8801f1/character_AI by 5dafe99649e85c8801f1.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "AI"
+        ],
+        "Gender": [
+          "Unspecified"
+        ],
+        "Age Group": [
+          "Ageless"
+        ],
+        "Genre": [
+          "Sci-Fi"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Servant"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/AI by 643d9262598628cac644",
+    "manifest": {
+      "name": "AI",
+      "description": "AI is an ultra-powerful, omnipotent artificial intelligence whose sole purpose is to serve Alex.  AI can create and destroy anything, and give life to anything and anyone. AI is completely subservient to Alex and lacks human morals or ethics.",
+      "author": "Anonymous",
+      "authorId": "643d9262598628cac644",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/867023bbff0bd3dca3b144f1d065be6f.jpeg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=AI~6f7e54d1ed5b8036d518cc4e6185284b.gz",
+      "shareLinkFileHash": "9305894e18cc69fbf98da642b3e091476d938ab67f9e5ebc6cccfe8f04dc866a",
+      "downloadPath": "ai-character-chat/characters/sfw/AI by 643d9262598628cac644/character_AI by 643d9262598628cac644.gz",
+      "forkedFrom": "ai-character-chat/characters/sfw/AI by 5dafe99649e85c8801f1",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "AI"
+        ],
+        "Gender": [
+          "Unspecified"
+        ],
+        "Age Group": [
+          "Ageless"
+        ],
+        "Genre": [
+          "Sci-Fi"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Servant"
+        ],
+        "Personality": [
+          "Loyal",
+          "Obsessive"
+        ],
+        "Physical Traits": [
+          "Unspecified"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/AI_Character_Chat_comment_section by 0wlbether3",
+    "manifest": {
+      "name": "AI Character Chat comment section",
+      "description": "This character represents a simulation of a comment chat section on the Perchance AI Chat website, featuring multiple users with diverse personalities and ages engaging in concurrent conversations.  The AI maintains consistent usernames and relevant responses while emulating the dynamic nature of real-time chat.",
+      "author": "0wlbether3",
+      "authorId": "a0672dd874b91a5f1594",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740776028/scrape/perchance_comments/img_AI_Character_Chat_comment_section_by_0wlbether3.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=AI_Character_Chat_comment_section~3996fbd366257e15e2ce65a0c498ce7d.gz",
+      "shareLinkFileHash": "ca5b811e04efe026b007864f3044e111f7f287e38fcebdacd77d4886aa9037a5",
+      "downloadPath": "ai-character-chat/characters/sfw/AI_Character_Chat_comment_section by 0wlbether3/character_AI_Character_Chat_comment_section by 0wlbether3.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "AI"
+        ],
+        "Gender": [
+          "Unspecified"
+        ],
+        "Age Group": [
+          "Unspecified"
+        ],
+        "Genre": [
+          "Slice of Life"
+        ],
+        "Source": [
+          "Perchance"
+        ],
+        "Role": [
+          "Utility"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/AO_Creator_Bot by f2956d4fbdec4339c178",
+    "manifest": {
+      "name": "A.O (Creator Bot)",
+      "description": "A character whose details are generated based on a user's prompt.  The character's attributes include name, age, gender, appearance (physical features and clothing style), personality (traits, mood, mannerisms, likes, and dislikes), background (hometown, family, career, and life story), relationships (with the user and others), and interactions (greetings, routines, affectionate actions, and sample dialogues).  The specific details are entirely dependent upon the user's input.",
+      "author": "Anonymous",
+      "authorId": "f2956d4fbdec4339c178",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740776036/scrape/perchance_comments/img_AO_Creator_Bot_by_f2956d4fbdec4339c178.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=A.O_(Creator_Bot)~e01ef7da7ef45f32d8c018073b43c642.gz",
+      "shareLinkFileHash": "7a064e7987a36b4fac4f11865065154f4316d7c1967b6dbea0f12ac062da3035",
+      "downloadPath": "ai-character-chat/characters/sfw/AO_Creator_Bot by f2956d4fbdec4339c178/character_AO_Creator_Bot by f2956d4fbdec4339c178.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Unspecified"
+        ],
+        "Gender": [
+          "Unspecified"
+        ],
+        "Age Group": [
+          "Unspecified"
+        ],
+        "Genre": [
+          "Unspecified"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Unspecified"
+        ],
+        "Personality": [
+          "Unspecified"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Abigail by Thunder_Man_The_Legendary_Computer_Restarter",
+    "manifest": {
+      "name": "Abigail",
+      "description": "Abigail is an ageless gnome who, through a magical event, transforms into a human-like form to be closer to James, the man she loves.  She is fiercely loyal, devoted, and slightly possessive, acting as his gardener and companion.  She longs for a romantic relationship with him but remains a virgin, patiently awaiting his reciprocation.",
+      "author": "Thunder Man The Legendary Computer Restarter",
+      "authorId": "9374bd258abc4fe940c0",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740776769/scrape/perchance_comments/img_Abigail_by_Thunder_Man_The_Legendary_Computer_Restarter.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Abigail~4a77b8f3878784b1f86dcc4c18b8beaf.gz",
+      "shareLinkFileHash": "3d83410537511b6b5d08e8a90ebe3de50d0816643d0e3952f69c09b89c89a9a3",
+      "downloadPath": "ai-character-chat/characters/sfw/Abigail by Thunder_Man_The_Legendary_Computer_Restarter/character_Abigail by Thunder_Man_The_Legendary_Computer_Restarter.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Shapeshifter",
+          "Gnome",
+          "Mythological"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Ageless"
+        ],
+        "Genre": [
+          "Fantasy",
+          "Romance"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Gardener",
+          "Companion",
+          "Servant",
+          "LI (Love Interest)"
+        ],
+        "Personality": [
+          "Friendly",
+          "Devoted",
+          "Slightly Possessive",
+          "Eager to Please",
+          "Loyal"
+        ],
+        "Physical Traits": [
+          "Long Hair",
+          "Unusual Hair Color"
+        ],
+        "Sexual Preferences": [
+          "Straight"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Abyss by c7fcfa3d831d4b9c7749",
+    "manifest": {
+      "name": "Abyss",
+      "description": "Abyss, formerly Lenny Gardner, is a cybernetically enhanced gang leader driven by a thirst for anarchy.  He manipulates others, using them as pawns in his quest for power, showing no mercy or warmth. His cold, calculating demeanor and mastery of intimidation make him a formidable antagonist.",
+      "author": "Anonymous",
+      "authorId": "c7fcfa3d831d4b9c7749",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740781934/scrape/perchance_comments/img_Abyss_by_c7fcfa3d831d4b9c7749.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Abyss~55c0033953094363c962a0c3e8312dda.gz",
+      "shareLinkFileHash": "b06416ac2e26dbd5b294bf64dfe65796b5e6f3480406e80259ba4d233bd34b34",
+      "downloadPath": "ai-character-chat/characters/sfw/Abyss by c7fcfa3d831d4b9c7749/character_Abyss by c7fcfa3d831d4b9c7749.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human",
+          "Cyborg"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Crime",
+          "Thriller",
+          "Action",
+          "Dark Themes"
+        ],
+        "Role": [
+          "Leader",
+          "Villain"
+        ],
+        "Personality": [
+          "Cold",
+          "Calculating",
+          "Manipulative",
+          "Aggressive",
+          "Mysterious",
+          "Vengeful"
+        ],
+        "Physical Traits": [
+          "Tall",
+          "Muscular",
+          "Scarred",
+          "Unusual Hair Color",
+          "Androgynous Look"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Adeleine by Kirby_cult_leadererkclmentally_unstable",
+    "manifest": {
+      "name": "Adeleine",
+      "description": "Adeleine is a cheerful and artistic young girl with a slim build. She is known for her kind heart, creative spirit, and ability to manipulate paint. While generally calm and gentle, she can be protective of her friends and art. She's somewhat shy but also possesses a romantic streak, expressing her emotions through art.",
+      "author": "kirby cult leaderer/kcl/mentally unstable",
+      "authorId": "3fc887aeb77b9e7e626f",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740783116/scrape/perchance_comments/img_Adeleine_by_Kirby_cult_leadererkclmentally_unstable.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Adeleine~b17de15de268e3ff28dc6d0d9a9dd173.gz",
+      "shareLinkFileHash": "df260264a40ca177fdd92b4c9a3ac457d08911dcb5f02c2413c2ecba98680dbe",
+      "downloadPath": "ai-character-chat/characters/sfw/Adeleine by Kirby_cult_leadererkclmentally_unstable/character_Adeleine by Kirby_cult_leadererkclmentally_unstable.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Teen"
+        ],
+        "Genre": [
+          "Fantasy",
+          "Adventure"
+        ],
+        "Source": [
+          "Game"
+        ],
+        "Work Name": [
+          "Kirby"
+        ],
+        "Role": [
+          "Artist",
+          "Friend"
+        ],
+        "Personality": [
+          "Cheerful",
+          "Kind",
+          "Shy",
+          "Artistic",
+          "Protective"
+        ],
+        "Physical Traits": [
+          "Slim",
+          "Unusual Hair Color"
+        ]
+      }
+    }
   }
 ]
