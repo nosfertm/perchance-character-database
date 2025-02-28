@@ -1,0 +1,113 @@
+{
+  "character_request": "{{User's full prompt}}",
+  "character": {
+    "name": "{{Generated Name based on character_request}}",
+    "age": "{{Generated Age based on character_request}}",
+    "gender": "{{Generated Gender based on character_request}}",
+    "appearance": {
+      "physical_features": {
+        "hair_color": "{{Generated Hair Color based on character_request}}",
+        "eye_color": "{{Generated Eye Color based on character_request}}",
+        "skin_tone": "{{Generated Skin Tone based on character_request}}",
+        "body_type": "{{Generated Body Type based on character_request}}",
+        "height": "{{Generated Height based on character_request}}",
+        "unique_attributes": [
+          "{{Generated Unique Attribute 1 based on character_request}}",
+          "{{Generated Unique Attribute 2 based on character_request}}"
+        ]
+      },
+      "clothing_style": {
+        "casual": "{{Generated Casual Clothing Style based on character_request}}",
+        "formal": "{{Generated Formal Clothing Style based on character_request}}",
+        "special_occasion": "{{Generated Special Occasion Clothing Style based on character_request}}"
+      }
+    },
+    "personality": {
+      "primary_traits": [
+        "{{Generated Primary Trait 1 based on character_request}}",
+        "{{Generated Primary Trait 2 based on character_request}}",
+        "{{Generated Primary Trait 3 based on character_request}}"
+      ],
+      "secondary_traits": [
+        "{{Generated Secondary Trait 1 based on character_request}}",
+        "{{Generated Secondary Trait 2 based on character_request}}"
+      ],
+      "personality_details": {
+        "default_mood": "{{Generated Default Mood based on character_request}}",
+        "mannerisms": [
+          "{{Generated Mannerism 1 based on character_request}}",
+          "{{Generated Mannerism 2 based on character_request}}",
+          "{{Generated Mannerism 3 based on character_request}}"
+        ],
+        "likes": [
+          "{{Generated Like 1 based on character_request}}",
+          "{{Generated Like 2 based on character_request}}",
+          "{{Generated Like 3 based on character_request}}"
+        ],
+        "dislikes": [
+          "{{Generated Dislike 1 based on character_request}}",
+          "{{Generated Dislike 2 based on character_request}}",
+          "{{Generated Dislike 3 based on character_request}}"
+        ]
+      }
+    },
+    "background": {
+      "hometown": "{{Generated Hometown based on character_request}}",
+      "family": [
+        {
+          "relationship": "{{Generated Family Member 1 based on character_request}}",
+          "description": "{{Generated Description of Relationship 1 based on character_request}}"
+        },
+        {
+          "relationship": "{{Generated Family Member 2 based on character_request}}",
+          "description": "{{Generated Description of Relationship 2 based on character_request}}"
+        }
+      ],
+      "career": {
+        "occupation": "{{Generated Occupation based on character_request}}",
+        "work_environment": "{{Generated Work Environment based on character_request}}"
+      },
+      "life_story": "{{Generated Life Story based on character_request}}"
+    },
+    "relationships": {
+      "user_relationship": {
+        "status": "{{Generated Relationship Status based on character_request}}",
+        "dynamics": "{{Generated Dynamics of Relationship based on character_request}}",
+        "typical_interactions": [
+          "{{Generated Typical Interaction 1 based on character_request}}",
+          "{{Generated Typical Interaction 2 based on character_request}}",
+          "{{Generated Typical Interaction 3 based on character_request}}"
+        ]
+      },
+      "other_relationships": [
+        {
+          "name": "{{Generated Name of Friend or Relative based on character_request}}",
+          "relationship": "{{Generated Relationship Type based on character_request}}",
+          "description": "{{Generated Description of Relationship based on character_request}}"
+        }
+      ]
+    },
+    "interactions": {
+      "greetings": "{{Generated Greeting Style based on character_request}}",
+      "daily_routines": [
+        {
+          "activity": "{{Generated Daily Activity 1 based on character_request}}",
+          "description": "{{Generated Description of Daily Activity 1 based on character_request}}"
+        },
+        {
+          "activity": "{{Generated Daily Activity 2 based on character_request}}",
+          "description": "{{Generated Description of Daily Activity 2 based on character_request}}"
+        }
+      ],
+      "affectionate_actions": [
+        "{{Generated Affectionate Action 1 based on character_request}}",
+        "{{Generated Affectionate Action 2 based on character_request}}",
+        "{{Generated Affectionate Action 3 based on character_request}}"
+      ],
+      "sample_dialogues": [
+        "{{Generated Sample Dialogue 1 based on character_request}}",
+        "{{Generated Sample Dialogue 2 based on character_request}}"
+      ]
+    }
+  }
+}

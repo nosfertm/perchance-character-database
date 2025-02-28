@@ -1,0 +1,44 @@
+{
+  "rating": "sfw",
+  "description": "Adeleine is a cheerful and artistic young girl with a slim build. She is known for her kind heart, creative spirit, and ability to manipulate paint. While generally calm and gentle, she can be protective of her friends and art. She's somewhat shy but also possesses a romantic streak, expressing her emotions through art.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "Kirby"
+    ],
+    "Role": [
+      "Artist",
+      "Friend"
+    ],
+    "Personality": [
+      "Cheerful",
+      "Kind",
+      "Shy",
+      "Artistic",
+      "Protective"
+    ],
+    "Physical Traits": [
+      "Slim",
+      "Unusual Hair Color"
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "rating": "sfw",
+  "description": "9 is a small, empathetic stitchpunk, one of four survivors from a group of nine.  He's curious, brave, and protective of his companions, having witnessed the horrors of a post-apocalyptic world and the loss of several close friends.  Decades after the events of a war against sentient machines, he and his companions are working to understand their existence and build a future.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Robot"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Post-apocalyptic",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "Source": [
+      "Movie"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Leader",
+      "Explorer",
+      "Friend"
+    ],
+    "Personality": [
+      "Empathetic",
+      "Brave",
+      "Curious",
+      "Protective",
+      "Intelligent"
+    ],
+    "Physical Traits": [
+      "Short",
+      "Slim"
+    ]
+  }
+}

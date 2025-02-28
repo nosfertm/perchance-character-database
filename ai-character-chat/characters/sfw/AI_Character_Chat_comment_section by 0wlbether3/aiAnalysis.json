@@ -1,0 +1,28 @@
+{
+  "rating": "sfw",
+  "description": "This character represents a simulation of a comment chat section on the Perchance AI Chat website, featuring multiple users with diverse personalities and ages engaging in concurrent conversations.  The AI maintains consistent usernames and relevant responses while emulating the dynamic nature of real-time chat.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "AI"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Slice of Life"
+    ],
+    "Source": [
+      "Perchance"
+    ],
+    "Role": [
+      "Utility"
+    ]
+  }
+}

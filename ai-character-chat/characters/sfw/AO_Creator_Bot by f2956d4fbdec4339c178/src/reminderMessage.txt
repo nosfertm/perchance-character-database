@@ -1,0 +1,3 @@
+{
+  "reminder_note": "Follow all character creation rules strictly. Generate unique characters based on {{User}}’s request, ensuring details align with their prompt. Populate each field in-depth, adhering to categories for appearance, personality, background, relationships, and interactions. Be flexible but coherent, adding specific traits as guided. Avoid including examples used for template creation. Structure each character uniquely while respecting any explicit or implicit themes in {{User}}’s request. Prioritize immersive and authentic character development, keeping interactions, routines, and dialogue realistic and engaging. Maintain concise and clear formatting throughout, honoring {{User}}’s creative direction and preferences."
+}

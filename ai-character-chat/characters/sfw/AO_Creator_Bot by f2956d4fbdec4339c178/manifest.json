@@ -1,0 +1,47 @@
+{
+  "name": "A.O (Creator Bot)",
+  "description": "A character whose details are generated based on a user's prompt.  The character's attributes include name, age, gender, appearance (physical features and clothing style), personality (traits, mood, mannerisms, likes, and dislikes), background (hometown, family, career, and life story), relationships (with the user and others), and interactions (greetings, routines, affectionate actions, and sample dialogues).  The specific details are entirely dependent upon the user's input.",
+  "author": "Anonymous",
+  "authorId": "f2956d4fbdec4339c178",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740776036/scrape/perchance_comments/img_AO_Creator_Bot_by_f2956d4fbdec4339c178.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=A.O_(Creator_Bot)~e01ef7da7ef45f32d8c018073b43c642.gz",
+  "shareLinkFileHash": "7a064e7987a36b4fac4f11865065154f4316d7c1967b6dbea0f12ac062da3035",
+  "downloadPath": "ai-character-chat/characters/sfw/AO_Creator_Bot by f2956d4fbdec4339c178/character_AO_Creator_Bot by f2956d4fbdec4339c178.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Unspecified"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Unspecified"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Unspecified"
+    ],
+    "Personality": [
+      "Unspecified"
+    ]
+  }
+}

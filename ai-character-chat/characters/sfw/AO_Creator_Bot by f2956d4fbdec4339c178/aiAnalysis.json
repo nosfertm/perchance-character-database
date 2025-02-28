@@ -1,0 +1,31 @@
+{
+  "rating": "sfw",
+  "description": "A character whose details are generated based on a user's prompt.  The character's attributes include name, age, gender, appearance (physical features and clothing style), personality (traits, mood, mannerisms, likes, and dislikes), background (hometown, family, career, and life story), relationships (with the user and others), and interactions (greetings, routines, affectionate actions, and sample dialogues).  The specific details are entirely dependent upon the user's input.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Unspecified"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Unspecified"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Unspecified"
+    ],
+    "Personality": [
+      "Unspecified"
+    ]
+  }
+}

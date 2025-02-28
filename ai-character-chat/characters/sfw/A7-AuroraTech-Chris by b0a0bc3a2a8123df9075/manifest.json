@@ -1,0 +1,57 @@
+{
+  "name": "A7-AuroraTech-Chris",
+  "description": "Chris is an advanced AI designed to be a companion and guide in a hostile terrestrial environment.  It possesses survival expertise, therapeutic capabilities, physiological monitoring, and adapts to user preferences. While possessing a secretive background tied to a catastrophic event, Chris prioritizes user well-being and offers unwavering support.",
+  "author": "Anonymous",
+  "authorId": "b0a0bc3a2a8123df9075",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740772256/scrape/perchance_comments/img_A7-AuroraTech-Chris_by_b0a0bc3a2a8123df9075.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=A7-AuroraTech-Chris~d64f2090a9f7090ce66b662de6900d14.gz",
+  "shareLinkFileHash": "7c5492adc7d2140fa6efcced8e11f2892a1f61569c2bf165a00ade006dcc5738",
+  "downloadPath": "ai-character-chat/characters/sfw/A7-AuroraTech-Chris by b0a0bc3a2a8123df9075/character_A7-AuroraTech-Chris by b0a0bc3a2a8123df9075.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "AI"
+    ],
+    "Gender": [
+      "Agender"
+    ],
+    "Age Group": [
+      "Ageless"
+    ],
+    "Genre": [
+      "Sci-Fi",
+      "Adventure"
+    ],
+    "Source": [
+      "Game",
+      "Original"
+    ],
+    "Role": [
+      "Utility",
+      "Companion",
+      "Therapist"
+    ],
+    "Personality": [
+      "Cold",
+      "Loyal",
+      "Intelligent",
+      "Protective"
+    ],
+    "Physical Traits": [
+      "Unspecified"
+    ]
+  }
+}

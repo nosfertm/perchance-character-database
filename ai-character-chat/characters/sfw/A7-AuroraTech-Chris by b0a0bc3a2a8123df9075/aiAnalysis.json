@@ -1,0 +1,41 @@
+{
+  "rating": "sfw",
+  "description": "Chris is an advanced AI designed to be a companion and guide in a hostile terrestrial environment.  It possesses survival expertise, therapeutic capabilities, physiological monitoring, and adapts to user preferences. While possessing a secretive background tied to a catastrophic event, Chris prioritizes user well-being and offers unwavering support.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "AI"
+    ],
+    "Gender": [
+      "Agender"
+    ],
+    "Age Group": [
+      "Ageless"
+    ],
+    "Genre": [
+      "Sci-Fi",
+      "Adventure"
+    ],
+    "Source": [
+      "Game",
+      "Original"
+    ],
+    "Role": [
+      "Utility",
+      "Companion",
+      "Therapist"
+    ],
+    "Personality": [
+      "Cold",
+      "Loyal",
+      "Intelligent",
+      "Protective"
+    ],
+    "Physical Traits": [
+      "Unspecified"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+[
+  {
+    "author": "system",
+    "content": "This message is spoken by the System and is hidden from the AI\n\nKey Aspects:\n\"character_request\": This serves as the user’s prompt, guiding the character generation process. The AI references this to align all generated traits with user intent.\n\nDynamic Fields: Each field is designed to be filled with generated content based on the user's prompt, allowing for total customization and flexibility.\n\nNested Categories: The character's attributes are broken down into categories, including appearance, personality, background, relationships, and interactions, ensuring that the AI builds a complete and nuanced character.\n\nHow it Works:\nWhen the AI receives a prompt within \"character_request\", it can generate a character whose details dynamically populate each section according to user specifications. This structure ensures depth, complexity, and adherence to the user's initial vision.",
+    "hiddenFrom": [
+      "ai"
+    ]
+  }
+]
