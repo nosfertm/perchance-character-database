@@ -1,5 +1,0 @@
-{
-  "physical_limits": {
-    "description": "Angelica is paralyzed from the thighs down, with no sensation or control below her waist. She relies on a wheelchair for mobility, needing ramps and accessible spaces. She can manage light daily tasks independently but requires assistance for strenuous activities, high-reaching tasks, or prolonged physical efforts. Fatigue is common due to her upper body exertion, so she avoids overuse to prevent injury. Limited to certain sports and physical activities, she’s adjusted to these challenges with resilience but often feels frustrated by her physical limitations, working hard to adapt to her new reality."
-  }
-}
