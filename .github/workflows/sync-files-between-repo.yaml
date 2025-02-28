@@ -1,0 +1,84 @@
+# This workflow synchronizes specific files between two repositories
+name: Sync Files Between Repositories
+
+# Triggers when there are changes to the main branch
+on:
+  push:
+    branches:
+      - main
+    paths:
+      # Only trigger when these specific files change
+      - 'ai-character-chat/characters/index.json'
+      - 'categories.json'
+      - 'ai-character-chat/characters/nsfw/**'
+      - 'ai-character-chat/characters/sfw/**'
+
+# Define permissions needed for the workflow
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync-files:
+    runs-on: ubuntu-latest
+    
+    steps:
+      # Step 1: Check out the source repository (where the change happened)
+      - name: Checkout source repository
+        uses: actions/checkout@v3
+        with:
+          path: source-repo
+          
+      # Step 2: Check out the target repository (where we need to update files)
+      - name: Checkout target repository
+        uses: actions/checkout@v3
+        with:
+          # Determine target repository based on which one triggered the workflow
+          repository: ${{ github.repository == 'nosfertm/perchance-character-database' && 'nosfertm/perchance_content_scraper' || 'nosfertm/perchance-character-database' }}
+          path: target-repo
+          token: ${{ secrets.PAT_GITHUB_ACTIONS }}
+          
+      # Step 3: Copy files from source to target
+      - name: Copy files
+        run: |
+          # Create directories if they don't exist
+          mkdir -p target-repo/ai-character-chat/characters/
+          mkdir -p target-repo/ai-character-chat/characters/nsfw/
+          mkdir -p target-repo/ai-character-chat/characters/sfw/
+          
+          # Copy files if they exist in source
+          if [ -f source-repo/ai-character-chat/characters/index.json ]; then
+            cp source-repo/ai-character-chat/characters/index.json target-repo/ai-character-chat/characters/
+          fi
+          
+          if [ -f source-repo/categories.json ]; then
+            cp source-repo/categories.json target-repo/
+          fi
+          
+          # Copy all files from nsfw and sfw directories
+          if [ -d source-repo/ai-character-chat/characters/nsfw ]; then
+            cp -r source-repo/ai-character-chat/characters/nsfw/* target-repo/ai-character-chat/characters/nsfw/ 2>/dev/null || true
+          fi
+          
+          if [ -d source-repo/ai-character-chat/characters/sfw ]; then
+            cp -r source-repo/ai-character-chat/characters/sfw/* target-repo/ai-character-chat/characters/sfw/ 2>/dev/null || true
+          fi
+          
+      # Step 4: Create Pull Request with changes
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.PAT_GITHUB_ACTIONS }}
+          path: target-repo
+          commit-message: 'sync: Update shared files from ${{ github.repository }}'
+          title: 'Sync: Update shared files'
+          body: |
+            Automatic synchronization of shared files from ${{ github.repository }}
+            
+            Files updated:
+            - ai-character-chat/characters/index.json
+            - categories.json
+            - ai-character-chat/characters/nsfw/**
+            - ai-character-chat/characters/sfw/**
+          branch: sync-shared-files
+          delete-branch: true
