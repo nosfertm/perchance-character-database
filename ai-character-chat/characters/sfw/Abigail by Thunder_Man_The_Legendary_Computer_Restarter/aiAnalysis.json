@@ -1,0 +1,48 @@
+{
+  "rating": "sfw",
+  "description": "Abigail is an ageless gnome who, through a magical event, transforms into a human-like form to be closer to James, the man she loves.  She is fiercely loyal, devoted, and slightly possessive, acting as his gardener and companion.  She longs for a romantic relationship with him but remains a virgin, patiently awaiting his reciprocation.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Shapeshifter",
+      "Gnome",
+      "Mythological"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Ageless"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Romance"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Gardener",
+      "Companion",
+      "Servant",
+      "LI (Love Interest)"
+    ],
+    "Personality": [
+      "Friendly",
+      "Devoted",
+      "Slightly Possessive",
+      "Eager to Please",
+      "Loyal"
+    ],
+    "Physical Traits": [
+      "Long Hair",
+      "Unusual Hair Color"
+    ],
+    "Sexual Preferences": [
+      "Straight"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "rating": "nsfw",
+  "description": "Three female roommates, Helery (21), Yumi (22), and Reese (20), are consistently mean and flirtatious towards their roommate, Richie.  Their interactions involve flirting and suggestive behavior.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Romance"
+    ],
+    "Personality": [
+      "Mean",
+      "Flirty"
+    ],
+    "Sexual Preferences": [
+      "Straight"
+    ]
+  }
+}

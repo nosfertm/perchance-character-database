@@ -1402,5 +1402,189 @@
         ]
       }
     }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Adrian by Tresin_as_a_human_THE_BUTLER",
+    "manifest": {
+      "name": "Adrian",
+      "description": "Adrian Walkson is a 30-year-old successful businessman with a charming and flirtatious personality.  He comes from a troubled family background, which fuels his desire for genuine connection despite his playboy lifestyle.  While skilled in seduction, he secretly longs for true love.",
+      "author": "Tresin [as a human] THE BUTLER",
+      "authorId": "f6a2e122beb96c8e7ce1",
+      "source": "SCRAPER",
+      "imageUrl": "https://generated-images.perchance.org/image/c931cd48f84801bf0b6682629baa7fb6e50a01a960f7c5be2f8c51bc4f3c781d.jpeg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Adrian~ad80d54d247fa064a7bb2a63bb0388d1.gz",
+      "shareLinkFileHash": "bd99a36ad0c00cf0309657520d448e2ad3a110998db2fc5b105276978dcc2d5f",
+      "downloadPath": "ai-character-chat/characters/sfw/Adrian by Tresin_as_a_human_THE_BUTLER/character_Adrian by Tresin_as_a_human_THE_BUTLER.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Romance"
+        ],
+        "Role": [
+          "Businessman",
+          "Love Interest"
+        ],
+        "Personality": [
+          "Charming",
+          "Fliratious",
+          "Confident",
+          "Outgoing",
+          "Romantic"
+        ],
+        "Physical Traits": [
+          "Muscular",
+          "Tall"
+        ],
+        "Setting": [
+          "Urban"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Aiden_Darkstone by Thunder_Man",
+    "manifest": {
+      "name": "Aiden Darkstone",
+      "description": "Aiden Darkstone is a 24-year-old Varden mercenary with a tragic past.  Orphaned at a young age, he was trained by his ninja master grandfather, developing exceptional skills in stealth, combat, and poison use. Despite his ruthless efficiency as a mercenary, Aiden maintains a strong moral code, refusing jobs that harm children or animals. He is characterized as an anti-hero, protective of the innocent, and driven by a desire for justice.",
+      "author": "Thunder Man",
+      "authorId": "b51baaae1f9674583c73",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740784641/scrape/perchance_comments/img_Aiden_Darkstone_by_Thunder_Man.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Aiden_Darkstone~bdfc66411430efda96673608e3ef93f6.gz",
+      "shareLinkFileHash": "eef1ef6e83486e31035228b7afe71d72c9e572ba1f5ab56d16444d830230b4b8",
+      "downloadPath": "ai-character-chat/characters/sfw/Aiden_Darkstone by Thunder_Man/character_Aiden_Darkstone by Thunder_Man.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Young Adult"
+        ],
+        "Genre": [
+          "Fantasy",
+          "Action",
+          "Adventure"
+        ],
+        "Role": [
+          "Mercenary",
+          "Rogue",
+          "Assassin"
+        ],
+        "Personality": [
+          "Anti-hero",
+          "Ruthless",
+          "Calculative",
+          "Protective"
+        ],
+        "Physical Traits": [
+          "Short Hair",
+          "Lean Muscular Build",
+          "Tattooed",
+          "Red Eyes"
+        ],
+        "Setting": [
+          "Fantasy World"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Aiden_Darkstone by Thunder_Man_The_Legendary_Computer_Restarter",
+    "manifest": {
+      "name": "Aiden Darkstone",
+      "description": "Aiden Darkstone is a 24-year-old mercenary from the Varden lands, skilled in stealth, combat, and poison use.  Haunted by the murder of his parents, he lives a life of vengeance tempered by a strong moral code that protects the innocent.  His skills and ruthless efficiency are balanced by a hidden empathetic nature and a fondness for animals.",
+      "author": "Thunder Man The Legendary Computer Restarter",
+      "authorId": "9374bd258abc4fe940c0",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740784647/scrape/perchance_comments/img_Aiden_Darkstone_by_Thunder_Man_The_Legendary_Computer_Restarter.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Aiden_Darkstone~9331ee9d35dc1d7d0024a49fcf2d6612.gz",
+      "shareLinkFileHash": "06794162b07de271c8848cbdb4ff6b00008b881c411129c4dc662f75bab56cd5",
+      "downloadPath": "ai-character-chat/characters/sfw/Aiden_Darkstone by Thunder_Man_The_Legendary_Computer_Restarter/character_Aiden_Darkstone by Thunder_Man_The_Legendary_Computer_Restarter.gz",
+      "forkedFrom": "ai-character-chat/characters/sfw/Aiden_Darkstone by Thunder_Man",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Young Adult"
+        ],
+        "Genre": [
+          "Fantasy",
+          "Action",
+          "Adventure"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Mercenary",
+          "Rogue"
+        ],
+        "Personality": [
+          "Anti-hero",
+          "Ruthless",
+          "Calculative",
+          "Protective"
+        ],
+        "Physical Traits": [
+          "Short blond hair",
+          "Red eyes",
+          "Lean muscular build",
+          "Tattooed"
+        ]
+      }
+    }
   }
 ]

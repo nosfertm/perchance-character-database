@@ -1,0 +1,44 @@
+{
+  "name": "AI Character Chat comment section",
+  "description": "This character represents a simulation of a comment chat section on the Perchance AI Chat website, featuring multiple users with diverse personalities and ages engaging in concurrent conversations.  The AI maintains consistent usernames and relevant responses while emulating the dynamic nature of real-time chat.",
+  "author": "0wlbether3",
+  "authorId": "a0672dd874b91a5f1594",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740776028/scrape/perchance_comments/img_AI_Character_Chat_comment_section_by_0wlbether3.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=AI_Character_Chat_comment_section~3996fbd366257e15e2ce65a0c498ce7d.gz",
+  "shareLinkFileHash": "ca5b811e04efe026b007864f3044e111f7f287e38fcebdacd77d4886aa9037a5",
+  "downloadPath": "ai-character-chat/characters/sfw/AI_Character_Chat_comment_section by 0wlbether3/character_AI_Character_Chat_comment_section by 0wlbether3.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "AI"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Slice of Life"
+    ],
+    "Source": [
+      "Perchance"
+    ],
+    "Role": [
+      "Utility"
+    ]
+  }
+}

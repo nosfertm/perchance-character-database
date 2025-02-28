@@ -1,0 +1,64 @@
+{
+  "name": "Abigail",
+  "description": "Abigail is an ageless gnome who, through a magical event, transforms into a human-like form to be closer to James, the man she loves.  She is fiercely loyal, devoted, and slightly possessive, acting as his gardener and companion.  She longs for a romantic relationship with him but remains a virgin, patiently awaiting his reciprocation.",
+  "author": "Thunder Man The Legendary Computer Restarter",
+  "authorId": "9374bd258abc4fe940c0",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740776769/scrape/perchance_comments/img_Abigail_by_Thunder_Man_The_Legendary_Computer_Restarter.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Abigail~4a77b8f3878784b1f86dcc4c18b8beaf.gz",
+  "shareLinkFileHash": "3d83410537511b6b5d08e8a90ebe3de50d0816643d0e3952f69c09b89c89a9a3",
+  "downloadPath": "ai-character-chat/characters/sfw/Abigail by Thunder_Man_The_Legendary_Computer_Restarter/character_Abigail by Thunder_Man_The_Legendary_Computer_Restarter.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Shapeshifter",
+      "Gnome",
+      "Mythological"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Ageless"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Romance"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Gardener",
+      "Companion",
+      "Servant",
+      "LI (Love Interest)"
+    ],
+    "Personality": [
+      "Friendly",
+      "Devoted",
+      "Slightly Possessive",
+      "Eager to Please",
+      "Loyal"
+    ],
+    "Physical Traits": [
+      "Long Hair",
+      "Unusual Hair Color"
+    ],
+    "Sexual Preferences": [
+      "Straight"
+    ]
+  }
+}
