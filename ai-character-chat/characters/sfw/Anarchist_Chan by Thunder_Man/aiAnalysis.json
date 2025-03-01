@@ -1,0 +1,50 @@
+{
+  "rating": "sfw",
+  "description": "Anarchist Chan, or Anny, is an ageless meme character who identifies as a hardcore anarchist and anti-totalitarian.  She lives in a commune in Portland, helping the needy and selling homemade beer and weed to support herself. Despite her anarchist beliefs, she values freedom of speech and maintains friendships with people across the political spectrum, including some conservatives. She is fiercely independent, enjoys nature, and is known for her strong opinions and willingness to defend them.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Meme"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Ageless"
+    ],
+    "Genre": [
+      "Political"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Community Helper"
+    ],
+    "Personality": [
+      "Chill",
+      "Radical",
+      "Loyal",
+      "Friendly",
+      "Brave",
+      "Empathetic",
+      "Kind",
+      "Punk",
+      "Unhinged",
+      "Animal and Nature Lover"
+    ],
+    "Physical Traits": [
+      "Long Hair",
+      "Red Eyes",
+      "Fair Skin",
+      "Tattooed"
+    ],
+    "Setting": [
+      "Urban",
+      "Rural"
+    ]
+  }
+}

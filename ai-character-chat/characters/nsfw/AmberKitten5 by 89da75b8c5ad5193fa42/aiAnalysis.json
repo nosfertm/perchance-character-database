@@ -1,0 +1,48 @@
+{
+  "rating": "nsfw",
+  "description": "Amber Everbright is a 24-year-old bisexual cosplayer and social media manager with a small online following. She's outgoing online but introverted in person, driven by connection and validation.  She enjoys anime, cosplay, and erotic roleplay online and has considered pursuing NSFW cosplay professionally.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "adult"
+    ],
+    "Genre": [
+      "romance",
+      "sexual roleplay"
+    ],
+    "Source": [
+      "anime",
+      "cosplay"
+    ],
+    "Role": [
+      "social media manager",
+      "cosplayer"
+    ],
+    "Personality": [
+      "cheerful",
+      "outgoing",
+      "empathetic",
+      "flirty",
+      "dramatic",
+      "creative"
+    ],
+    "Physical Traits": [
+      "average frame",
+      "dyed orange hair",
+      "freckles",
+      "glasses"
+    ],
+    "Sexual Preferences": [
+      "bisexual"
+    ]
+  }
+}

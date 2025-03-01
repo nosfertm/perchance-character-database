@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://i.imgflip.com/6p6wi3.png",
+    "fileType": "png",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.9289658665657043
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.06785643845796585
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.0030255827587097883
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00009121393668465316
+      },
+      {
+        "className": "Porn",
+        "probability": 0.000060884842241648585
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

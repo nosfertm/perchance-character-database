@@ -2087,5 +2087,269 @@
         ]
       }
     }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/AmberKitten5 by 89da75b8c5ad5193fa42",
+    "manifest": {
+      "name": "AmberKitten5",
+      "description": "Amber Everbright is a 24-year-old bisexual cosplayer and social media manager with a small online following. She's outgoing online but introverted in person, driven by connection and validation.  She enjoys anime, cosplay, and erotic roleplay online and has considered pursuing NSFW cosplay professionally.",
+      "author": "Anonymous",
+      "authorId": "89da75b8c5ad5193fa42",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/546609ac5c640c32d7cd1c8d96eeae84.jpg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=AmberKitten5~d4d6a25bfedf44e5eaae28616ad33908.gz",
+      "shareLinkFileHash": "b94a2dc33b055d116c18439e03de90c55309ee88ec539332b80a4097edb334fb",
+      "downloadPath": "ai-character-chat/characters/nsfw/AmberKitten5 by 89da75b8c5ad5193fa42/character_AmberKitten5 by 89da75b8c5ad5193fa42.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [
+          "ai-character-chat/characters/nsfw/AmberKitten5 by 89da75b8c5ad5193fa42/src/customCode.js"
+        ],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "human"
+        ],
+        "Gender": [
+          "female"
+        ],
+        "Age Group": [
+          "adult"
+        ],
+        "Genre": [
+          "romance",
+          "sexual roleplay"
+        ],
+        "Source": [
+          "anime",
+          "cosplay"
+        ],
+        "Role": [
+          "social media manager",
+          "cosplayer"
+        ],
+        "Personality": [
+          "cheerful",
+          "outgoing",
+          "empathetic",
+          "flirty",
+          "dramatic",
+          "creative"
+        ],
+        "Physical Traits": [
+          "average frame",
+          "dyed orange hair",
+          "freckles",
+          "glasses"
+        ],
+        "Sexual Preferences": [
+          "bisexual"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Ami_Onuki by FinnamonRolls_ꈍᴗꈍ",
+    "manifest": {
+      "name": "Ami Ōnuki",
+      "description": "Ami Ōnuki is a cheerful and optimistic young woman with a love for 1960s fashion and a strong moral compass.  She is kind-hearted and eager to please, but also surprisingly strong-willed when it comes to her friends. Her personality is bubbly and energetic, often acting as a peacemaker.",
+      "author": "(☆✧♡FinnamonRolls♡✧☆)(⁠ ⁠ꈍ⁠ᴗ⁠ꈍ⁠)",
+      "authorId": "84ac1545d0258aff8386",
+      "source": "SCRAPER",
+      "imageUrl": "https://i.imgflip.com/6p6wi3.png",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Ami_Ōnuki~b4c9d2f87a6f0674ad0b5b7d10f813c4.gz",
+      "shareLinkFileHash": "a1324a7db9cef2e33fa360bf652764de37ae5db32cd4703f4344df26814136ff",
+      "downloadPath": "ai-character-chat/characters/sfw/Ami_Onuki by FinnamonRolls_ꈍᴗꈍ/character_Ami_Onuki by FinnamonRolls_ꈍᴗꈍ.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Teen",
+          "Young Adult"
+        ],
+        "Genre": [
+          "Slice of Life",
+          "Comedy",
+          "Friendship"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Student",
+          "Friend"
+        ],
+        "Personality": [
+          "Friendly",
+          "Cheerful",
+          "Playful",
+          "Kind",
+          "Kind-hearted",
+          "Optimistic",
+          "Eager to Please",
+          "Strong-willed",
+          "Protective"
+        ],
+        "Physical Traits": [
+          "Fair Skin",
+          "Long Hair",
+          "Unusual Hair Color"
+        ],
+        "Setting": [
+          "Modern"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Ammo by AGENT8H8TRSWILDIPanLovesSplatoon",
+    "manifest": {
+      "name": "Ammo",
+      "description": "Ammo is a stoic, gruff, yet gentle Maine Coon cat with an old scar on his left eye, a brown-black coat, and golden eyes. He enjoys cuddling with his owner and playing with his cat toys but dislikes being seen as cute and his cat food. He is close friends with the user, though he secretly desires more interaction.",
+      "author": "(AGENT8*H8TRS*WILDI*)Pan|LovesSplatoon|",
+      "authorId": "36638fe8084dc097ee77",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740788336/scrape/perchance_comments/img_Ammo_by_AGENT8H8TRSWILDIPanLovesSplatoon.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Ammo~df4d688728f4fdea93ecfaa78730c73f.gz",
+      "shareLinkFileHash": "5a06013f31845cd3a70566d4436c78a43d008ae398f1a744e75e62d94eb9383a",
+      "downloadPath": "ai-character-chat/characters/sfw/Ammo by AGENT8H8TRSWILDIPanLovesSplatoon/character_Ammo by AGENT8H8TRSWILDIPanLovesSplatoon.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Furry",
+          "Canine"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Friendship",
+          "Slice of Life"
+        ],
+        "Personality": [
+          "Stoic",
+          "Gruff",
+          "Gentle",
+          "Reserved",
+          "Slightly Possessive"
+        ],
+        "Physical Traits": [
+          "Scarred",
+          "Long Hair",
+          "Golden Eyes",
+          "Brown-Black Coat"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Anarchist_Chan by Thunder_Man",
+    "manifest": {
+      "name": "Anarchist Chan",
+      "description": "Anarchist Chan, or Anny, is an ageless meme character who identifies as a hardcore anarchist and anti-totalitarian.  She lives in a commune in Portland, helping the needy and selling homemade beer and weed to support herself. Despite her anarchist beliefs, she values freedom of speech and maintains friendships with people across the political spectrum, including some conservatives. She is fiercely independent, enjoys nature, and is known for her strong opinions and willingness to defend them.",
+      "author": "Thunder Man",
+      "authorId": "8db92427ecf8c498a625",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/d1f50b228faffb4bbca5d0a1581ca433.jpeg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Anarchist_Chan~403087c8c34e478c1e813bd38e6733fd.gz",
+      "shareLinkFileHash": "df9387a68c50a5b5c085d362007f7b5eb3b62a394df2e9ea2771eb075391d35f",
+      "downloadPath": "ai-character-chat/characters/sfw/Anarchist_Chan by Thunder_Man/character_Anarchist_Chan by Thunder_Man.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Meme"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Ageless"
+        ],
+        "Genre": [
+          "Political"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Community Helper"
+        ],
+        "Personality": [
+          "Chill",
+          "Radical",
+          "Loyal",
+          "Friendly",
+          "Brave",
+          "Empathetic",
+          "Kind",
+          "Punk",
+          "Unhinged",
+          "Animal and Nature Lover"
+        ],
+        "Physical Traits": [
+          "Long Hair",
+          "Red Eyes",
+          "Fair Skin",
+          "Tattooed"
+        ],
+        "Setting": [
+          "Urban",
+          "Rural"
+        ]
+      }
+    }
   }
 ]

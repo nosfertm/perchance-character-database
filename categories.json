@@ -60,7 +60,8 @@
                 "Robot",
                 "Clone",
                 "Canine",
-                "Gnome"
+                "Gnome",
+                "Meme"
             ],
             "nsfw": [
                 "Succubus",
@@ -196,7 +197,8 @@
                 "Mythology",
                 "Art",
                 "Music",
-                "Poetry"
+                "Poetry",
+                "cosplay"
             ],
             "nsfw": [
                 "Hentai",
@@ -380,7 +382,10 @@
                 "Businessman",
                 "Love Interest",
                 "Mercenary",
-                "Rogue"
+                "Rogue",
+                "social media manager",
+                "cosplayer",
+                "Community Helper"
             ],
             "nsfw": [
                 "Adult Entertainer",
@@ -486,7 +491,15 @@
                 "technical",
                 "menacing",
                 "snarky",
-                "Evil"
+                "Evil",
+                "Kind-hearted",
+                "Gruff",
+                "Gentle",
+                "Chill",
+                "Radical",
+                "Punk",
+                "Unhinged",
+                "Animal and Nature Lover"
             ],
             "nsfw": [
                 "Dominant",
@@ -548,7 +561,12 @@
                 "floppy ears",
                 "thick thighs",
                 "big ass",
-                "huge breasts"
+                "huge breasts",
+                "average frame",
+                "dyed orange hair",
+                "freckles",
+                "Golden Eyes",
+                "Brown-Black Coat"
             ],
             "nsfw": [
                 "Voluptuous",
