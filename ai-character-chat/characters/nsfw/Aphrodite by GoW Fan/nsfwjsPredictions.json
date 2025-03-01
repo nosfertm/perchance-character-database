@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlpmA4-MIdtWbdhmQwhWKmLb9Kd0mq7r8tVFcHW8C2F3mD4Aaw5gewozQ&s=10",
+    "fileType": "com/images",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.7583994269371033
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.2356366664171219
+      },
+      {
+        "className": "Porn",
+        "probability": 0.005442866124212742
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00038892918382771313
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.00013214627688284963
+      }
+    ],
+    "containsNSFW": true,
+    "error": null
+  }
+]

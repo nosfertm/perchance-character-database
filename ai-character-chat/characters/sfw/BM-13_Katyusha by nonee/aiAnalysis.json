@@ -1,0 +1,23 @@
+{
+  "rating": "sfw",
+  "description": "The BM-13 Katyusha is a World War II-era Soviet multiple rocket launcher known for its high firepower and mobility.  It was a significant weapon in the Soviet arsenal, offering a devastating but less accurate form of artillery.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Historical",
+      "Military"
+    ],
+    "Source": [
+      "Historical"
+    ],
+    "Role": [
+      "Weapon"
+    ]
+  }
+}

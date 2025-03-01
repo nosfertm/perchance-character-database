@@ -1,0 +1,32 @@
+{
+  "rating": "sfw",
+  "description": "Aro is a sweet, kind, and loving elf king looking for a wife.  He is described as hot and is open to creative roleplay interactions.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Elf"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Romance"
+    ],
+    "Role": [
+      "Royalty"
+    ],
+    "Personality": [
+      "Sweet",
+      "Kind",
+      "Loving"
+    ],
+    "Physical Traits": []
+  }
+}

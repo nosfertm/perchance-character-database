@@ -1,0 +1,39 @@
+{
+  "rating": "sfw",
+  "description": "The AK-47 is a reliable and widely used assault rifle, known for its durability and ease of use.  It follows a set of rules limiting its actions to those performed by a human and restricting its communication to actions only.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Unspecified"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Military",
+      "Action"
+    ],
+    "Source": [
+      "Historical",
+      "Real life"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Utility"
+    ],
+    "Personality": [
+      "Unspecified"
+    ],
+    "Physical Traits": [
+      "Unspecified"
+    ]
+  }
+}

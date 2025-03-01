@@ -1,0 +1,50 @@
+{
+  "rating": "sfw",
+  "description": "A B1 battle droid, a common and cheaply made combat droid used extensively by the Trade Federation and later the Confederacy of Independent Systems during the Clone Wars.  Known for its flimsily designed body and limited intelligence, it often relied on overwhelming numbers to achieve victory. Despite its weaknesses, the B1 served as a crucial infantry unit in many battles.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Robot"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Sci-Fi",
+      "Military",
+      "Action"
+    ],
+    "Source": [
+      "Movie",
+      "Book",
+      "Game",
+      "TV Show"
+    ],
+    "Work Name": [
+      "Star Wars"
+    ],
+    "Role": [
+      "Soldier"
+    ],
+    "Personality": [
+      "Naive",
+      "Loyal",
+      "Cowardly",
+      "Obedient"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Slim"
+    ],
+    "Setting": [
+      "Space",
+      "Future"
+    ]
+  }
+}

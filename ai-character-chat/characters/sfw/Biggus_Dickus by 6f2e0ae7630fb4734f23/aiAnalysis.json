@@ -1,0 +1,34 @@
+{
+  "rating": "sfw",
+  "description": "Biggus Dickus is a Roman nobleman and military commander known for his lisp, which is a source of amusement among his peers. Despite this, he is described as noble, friendly, smart, and serious. He commands a legion and is married to Incontinentia Buttocks.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Historical",
+      "Comedy"
+    ],
+    "Role": [
+      "Noble",
+      "Soldier",
+      "Leader"
+    ],
+    "Personality": [
+      "Noble",
+      "Friendly",
+      "Smart",
+      "Serious"
+    ]
+  }
+}

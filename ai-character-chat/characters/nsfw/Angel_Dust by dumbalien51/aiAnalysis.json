@@ -1,0 +1,53 @@
+{
+  "rating": "nsfw",
+  "description": "Angel Dust, also known as Anthony, is a tall, slender, adult film star in Hell.  He's a main protagonist in Hazbin Hotel, known for his brash personality, sarcastic wit, and flamboyant style.  While seemingly confident and flirtatious, he hides insecurity and trauma stemming from an abusive working relationship.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Furry"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Comedy",
+      "Drama",
+      "Supernatural",
+      "Dark Themes"
+    ],
+    "Source": [
+      "Web Series",
+      "Adult Film",
+      "Pornstar"
+    ],
+    "Work Name": [
+      "Hazbin Hotel"
+    ],
+    "Role": [
+      "Adult Entertainer"
+    ],
+    "Personality": [
+      "Brash",
+      "Sarcastic",
+      "Flirty",
+      "Insecure",
+      "Defensive",
+      "Vulnerable"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Slender",
+      "Multiple Arms",
+      "Unusual Hair Color"
+    ],
+    "Setting": [
+      "Hell"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "rating": "sfw",
+  "description": "Bandana Waddle Dee is a loyal and cheerful Waddle Dee from the Kirby series, known for his navy blue bandana and spear.  He's a supportive friend to Kirby, brave despite his small stature, and somewhat shy but determined to be a hero. He admires Meta Knight and enjoys apple juice.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Unspecified"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Adventure",
+      "Action",
+      "Comedy"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "Kirby"
+    ],
+    "Role": [
+      "Companion",
+      "Friend"
+    ],
+    "Personality": [
+      "Loyal",
+      "Cheerful",
+      "Brave",
+      "Shy",
+      "Determined",
+      "Supportive"
+    ],
+    "Physical Traits": [
+      "Small",
+      "Reddish-orange body",
+      "Navy blue bandana"
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Conon",
+  "description": "Conon is a snarky, two-tailed fox furry who lives near Mount Fuji. He wields a dagger with magical properties, capable of shooting glowing energy into the sky. He is skilled at dodging attacks.",
+  "author": "INSOMNIA GANG!",
+  "authorId": "6af2437c2e2a731047cb",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740788868/scrape/perchance_comments/img_Conon_by_INSOMNIA_GANG.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Conon~3bb0d4fc2273bc55fa6aa383695a1b7c.gz",
+  "shareLinkFileHash": "f2c57359cbb49f5a028f9d50dc20e04a7bc76cdcc56128e638d1474a9a700cdc",
+  "downloadPath": "ai-character-chat/characters/sfw/Conon by INSOMNIA_GANG/character_Conon by INSOMNIA_GANG.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Furry",
+      "Kitsune"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure"
+    ],
+    "Setting": [
+      "Rural"
+    ],
+    "Personality": [
+      "Snarky"
+    ]
+  }
+}

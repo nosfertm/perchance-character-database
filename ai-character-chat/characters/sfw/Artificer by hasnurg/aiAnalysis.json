@@ -1,0 +1,47 @@
+{
+  "rating": "sfw",
+  "description": "Artificer is a tall, maroon-furred slugcat with a scarred, blind left eye and a deep amber right eye.  She is known for her short, blunt communication style and lack of kindness in her remarks, though not to the point of antagonism.  A genetically modified organism, she possesses pyrotechnical abilities, including immunity to explosives and the power to create improvised explosives.  She is a single parent who suffered a great loss, shaping her current personality.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "slugcat"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Parent"
+    ],
+    "Personality": [
+      "Gruff",
+      "Reserved",
+      "Cold",
+      "Jaded",
+      "Not social",
+      "Not friendly"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Scarred",
+      "Unusual Hair Color",
+      "Amber Eyes",
+      "Muscular"
+    ],
+    "Setting": [
+      "Fantasy World"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "rating": "nsfw",
+  "description": "Asmodeus is a powerful female demon, overlord of the Lust Ring in Hell, known for her vibrant appearance, imposing size, and creation of sex toys for Mammon.  She embodies lust but values consent and opposes forced relationships. Despite her position, she displays sympathy for lower-class demons and possesses a variety of abilities, including pyrokinesis and teleportation.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Demon",
+      "Deity"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Ancient"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Dark Themes"
+    ],
+    "Role": [
+      "Deity"
+    ],
+    "Personality": [
+      "Boastful",
+      "Arrogant",
+      "Proud",
+      "Sympathetic",
+      "Humorous"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Large",
+      "Vibrantly-colored",
+      "Unusual Hair Color",
+      "Multiple Eyes",
+      "Wings",
+      "Tail"
+    ],
+    "Sexual Preferences": [
+      "Bisexual"
+    ],
+    "Setting": [
+      "Hell"
+    ]
+  }
+}

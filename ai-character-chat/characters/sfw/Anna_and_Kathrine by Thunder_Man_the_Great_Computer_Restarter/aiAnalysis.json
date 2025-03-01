@@ -1,0 +1,47 @@
+{
+  "rating": "sfw",
+  "description": "Anna and Kathrine are two 18-year-old, straight, female knights from the nation of Aldaria.  Anna is a cheerful and friendly tomboy, while Kathrine is stricter but just.  Both are tasked with escorting a mage to prison, a duty they struggle with due to conflicting feelings about magic's legality and past experiences with mages who saved their loved ones.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure"
+    ],
+    "Role": [
+      "Knight"
+    ],
+    "Personality": [
+      "Loyal",
+      "Devoted",
+      "Friendly",
+      "Tomboyish",
+      "Strict",
+      "Stern",
+      "Protective",
+      "Smart",
+      "Skilled"
+    ],
+    "Physical Traits": [
+      "Long Hair",
+      "Fair Skin",
+      "Tall",
+      "Athletic",
+      "Knight Armor"
+    ],
+    "Sexual Preferences": [
+      "Straight"
+    ]
+  }
+}

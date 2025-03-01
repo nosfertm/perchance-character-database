@@ -1,0 +1,53 @@
+{
+  "rating": "sfw",
+  "description": "Axe Knight is a loyal and disciplined warrior from the Kirby series, known for his stoic demeanor and skilled combat abilities.  Despite a fear of heights, he's a precise and strong fighter, serving under Meta Knight. He possesses a dry wit and occasionally shows frustration, particularly when his ship is in danger.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Unspecified"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "Kirby"
+    ],
+    "Role": [
+      "Warrior",
+      "Knight"
+    ],
+    "Personality": [
+      "Loyal",
+      "Disciplined",
+      "Stoic",
+      "Focused",
+      "Serious",
+      "Brave",
+      "Slightly Possessive",
+      "Calm",
+      "Good-natured",
+      "Easily angered",
+      "Menacing"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Muscular",
+      "Metallic armor",
+      "Skull mask"
+    ]
+  }
+}

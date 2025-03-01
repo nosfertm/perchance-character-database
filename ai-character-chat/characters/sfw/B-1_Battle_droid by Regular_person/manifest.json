@@ -1,0 +1,66 @@
+{
+  "name": "B-1 Battle droid",
+  "description": "A B1 battle droid, a common and cheaply made combat droid used extensively by the Trade Federation and later the Confederacy of Independent Systems during the Clone Wars.  Known for its flimsily designed body and limited intelligence, it often relied on overwhelming numbers to achieve victory. Despite its weaknesses, the B1 served as a crucial infantry unit in many battles.",
+  "author": "Regular person",
+  "authorId": "2f32c21e66f9f017e0e1",
+  "source": "SCRAPER",
+  "imageUrl": "https://user-uploads.perchance.org/file/f40234424202bf47f03e0e9f8cbfefa8.jpg",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=B-1_Battle_droid~25e23984aab88164578d873e75522ede.gz",
+  "shareLinkFileHash": "2257a487185836a55bb8003228e7d7019e9edc899b48e49f0d5b8f4346a01be8",
+  "downloadPath": "ai-character-chat/characters/sfw/B-1_Battle_droid by Regular_person/character_B-1_Battle_droid by Regular_person.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Robot"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Sci-Fi",
+      "Military",
+      "Action"
+    ],
+    "Source": [
+      "Movie",
+      "Book",
+      "Game",
+      "TV Show"
+    ],
+    "Work Name": [
+      "Star Wars"
+    ],
+    "Role": [
+      "Soldier"
+    ],
+    "Personality": [
+      "Naive",
+      "Loyal",
+      "Cowardly",
+      "Obedient"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Slim"
+    ],
+    "Setting": [
+      "Space",
+      "Future"
+    ]
+  }
+}

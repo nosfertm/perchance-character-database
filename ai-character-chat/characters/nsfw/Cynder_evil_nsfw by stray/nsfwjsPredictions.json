@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://cdna.artstation.com/p/assets/images/images/008/516/478/large/katie-ashby-cynfrontcolor.jpg?1513262952",
+    "fileType": "jpg",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.9571340680122375
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.03764190524816513
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0049962555058300495
+      },
+      {
+        "className": "Porn",
+        "probability": 0.00019351682567503303
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00003428535637794994
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

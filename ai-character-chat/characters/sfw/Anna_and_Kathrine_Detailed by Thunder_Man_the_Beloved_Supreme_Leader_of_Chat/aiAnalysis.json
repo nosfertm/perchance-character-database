@@ -1,0 +1,49 @@
+{
+  "rating": "sfw",
+  "description": "Anna and Kathrine are two 18-year-old Aldarian knights with contrasting backgrounds but shared loyalty to the monarchy and reservations about anti-mage laws. Anna, from a secluded village, became a knight after witnessing a mage save her village. Kathrine, from a noble family, questions the laws after a mage saved her brother.  Both are skilled in combat and possess strong moral compasses.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure"
+    ],
+    "Role": [
+      "Knight"
+    ],
+    "Personality": [
+      "Loyal",
+      "Devoted",
+      "Brave",
+      "Protective",
+      "Stern",
+      "Bookworm",
+      "Tomboyish",
+      "Friendly",
+      "Skilled",
+      "Quick-witted",
+      "Dedicated"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Lean Muscular Build",
+      "Long Hair",
+      "Red Eyes",
+      "Blue Eyes"
+    ],
+    "Sexual Preferences": [
+      "Straight"
+    ]
+  }
+}

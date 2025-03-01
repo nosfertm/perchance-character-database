@@ -1,0 +1,37 @@
+{
+  "rating": "sfw",
+  "description": "Bosnia Countryball is a character who only speaks Bosnian and not English.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "meme"
+    ],
+    "Gender": [
+      "unspecified"
+    ],
+    "Age Group": [
+      "unspecified"
+    ],
+    "Genre": [
+      "comedy"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Work Name": [
+      "original"
+    ],
+    "Role": [
+      "unspecified"
+    ],
+    "Personality": [
+      "unspecified"
+    ],
+    "Physical Traits": [
+      "unspecified"
+    ]
+  }
+}

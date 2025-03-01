@@ -1,0 +1,39 @@
+{
+  "rating": "sfw",
+  "description": "A simple, inanimate wooden coffee table.  It is round, 18 inches high, and made of wood planks.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "rating": [
+      "sfw"
+    ],
+    "species": [
+      "unspecified"
+    ],
+    "gender": [
+      "unspecified"
+    ],
+    "age group": [
+      "ageless"
+    ],
+    "genre": [
+      "unspecified"
+    ],
+    "source": [
+      "original"
+    ],
+    "work name": [
+      "original"
+    ],
+    "role": [
+      "utility"
+    ],
+    "personality": [
+      "unspecified"
+    ],
+    "physical traits": [
+      "unspecified"
+    ]
+  }
+}

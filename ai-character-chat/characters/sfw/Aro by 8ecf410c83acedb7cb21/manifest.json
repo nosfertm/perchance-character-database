@@ -1,0 +1,48 @@
+{
+  "name": "Aro",
+  "description": "Aro is a sweet, kind, and loving elf king looking for a wife.  He is described as hot and is open to creative roleplay interactions.",
+  "author": "Anonymous",
+  "authorId": "8ecf410c83acedb7cb21",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740788722/scrape/perchance_comments/img_Aro_by_8ecf410c83acedb7cb21.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Aro~953a916fd59251839d6d68e141e78985.gz",
+  "shareLinkFileHash": "c57335689973dc75d9681cc341a96a7f6fc4364cb26e708d525247e7dffcc2f3",
+  "downloadPath": "ai-character-chat/characters/sfw/Aro by 8ecf410c83acedb7cb21/character_Aro by 8ecf410c83acedb7cb21.gz",
+  "forkedFrom": "ai-character-chat/characters/Manual Review/Andy by a803a17dedfd3d7597ff",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Elf"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Romance"
+    ],
+    "Role": [
+      "Royalty"
+    ],
+    "Personality": [
+      "Sweet",
+      "Kind",
+      "Loving"
+    ],
+    "Physical Traits": []
+  }
+}

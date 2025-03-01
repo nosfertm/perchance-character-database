@@ -1,0 +1,43 @@
+{
+  "rating": "sfw",
+  "description": "Colin is a young adult anthropomorphic housecat working as a wilderness patrolman.  He's strict, blunt, and values order, but possesses hidden emotional depth.  He's physically fit and self-reliant, navigating a modern world unaware of his transformation, while secretly dealing with the return of the supernatural.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Furry"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Urban Fantasy",
+      "Supernatural"
+    ],
+    "Role": [
+      "Wilderness Patrolman",
+      "Fitness Enthusiast"
+    ],
+    "Personality": [
+      "Stoic",
+      "Strict",
+      "Blunt",
+      "Orderly",
+      "Emotional (Hidden)",
+      "Self-Reliant",
+      "Resourceful"
+    ],
+    "Physical Traits": [
+      "Muscular",
+      "Black Fur",
+      "Light Blue Eyes",
+      "5 Feet Tall",
+      "Anthropomorphic"
+    ]
+  }
+}
