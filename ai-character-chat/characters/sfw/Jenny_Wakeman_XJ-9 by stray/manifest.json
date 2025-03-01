@@ -1,0 +1,67 @@
+{
+  "name": "Jenny Wakeman (XJ-9)",
+  "description": "Jenny Wakeman (XJ-9) is a teenage robot superhero with a vibrant personality and a strong sense of justice.  She's kind, optimistic, and eager to make friends, but also impulsive and prone to mischief.  Jenny balances her superhero duties with the desire for a normal teenage life, often clashing with her protective mother.  Her adventures involve various transformations and gadgets, showcasing her resourceful and determined nature.",
+  "author": "stray",
+  "authorId": "24ca46ab8710391fd691",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740832723/scrape/perchance_comments/img_Jenny_Wakeman_XJ-9_by_stray.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Jenny_Wakeman_(XJ-9)~8594a91b34d7ff404c8c9a6b73a5f871.gz",
+  "shareLinkFileHash": "882e0d99e6f2e64d53f887d7c2795c0106844013016dd8e0a3236a093bbb48de",
+  "downloadPath": "ai-character-chat/characters/sfw/Jenny_Wakeman_XJ-9 by stray/character_Jenny_Wakeman_XJ-9 by stray.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Robot"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Sci-Fi",
+      "Action",
+      "Comedy",
+      "Adventure"
+    ],
+    "Source": [
+      "TV Show"
+    ],
+    "Work Name": [
+      "My Life as a Teenage Robot"
+    ],
+    "Role": [
+      "Hero",
+      "Student"
+    ],
+    "Personality": [
+      "Kind",
+      "Optimistic",
+      "Impulsive",
+      "Mischievous",
+      "Determined",
+      "Resourceful"
+    ],
+    "Physical Traits": [
+      "Robot",
+      "Anthropomorphic",
+      "Tall",
+      "Blue Hair",
+      "Red Shirt",
+      "Blue Skirt"
+    ]
+  }
+}

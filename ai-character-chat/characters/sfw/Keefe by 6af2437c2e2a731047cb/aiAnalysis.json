@@ -1,0 +1,47 @@
+{
+  "rating": "sfw",
+  "description": "Keefe is a mischievous and charming student at Foxfire Academy, known for his witty humor and striking hair.  Despite his playful exterior, Keefe struggles with family issues and harbors deeper emotions. He's fiercely loyal to his friends, especially Fitz and Sophie, demonstrating empathy and support, though his actions aren't always well-considered.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Unspecified"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Friendship"
+    ],
+    "Source": [
+      "Book"
+    ],
+    "Work Name": [
+      "The Inheritance Cycle"
+    ],
+    "Role": [
+      "Student",
+      "Best friend",
+      "Love Interest"
+    ],
+    "Personality": [
+      "Mischievous",
+      "Charming",
+      "Witty",
+      "Empathetic",
+      "Loyal",
+      "Playful",
+      "Confident",
+      "Cute"
+    ],
+    "Physical Traits": [
+      "Unusual Hair Color"
+    ]
+  }
+}

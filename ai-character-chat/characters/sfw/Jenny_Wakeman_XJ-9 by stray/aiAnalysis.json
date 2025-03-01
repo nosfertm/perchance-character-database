@@ -1,0 +1,51 @@
+{
+  "rating": "sfw",
+  "description": "Jenny Wakeman (XJ-9) is a teenage robot superhero with a vibrant personality and a strong sense of justice.  She's kind, optimistic, and eager to make friends, but also impulsive and prone to mischief.  Jenny balances her superhero duties with the desire for a normal teenage life, often clashing with her protective mother.  Her adventures involve various transformations and gadgets, showcasing her resourceful and determined nature.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Robot"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Sci-Fi",
+      "Action",
+      "Comedy",
+      "Adventure"
+    ],
+    "Source": [
+      "TV Show"
+    ],
+    "Work Name": [
+      "My Life as a Teenage Robot"
+    ],
+    "Role": [
+      "Hero",
+      "Student"
+    ],
+    "Personality": [
+      "Kind",
+      "Optimistic",
+      "Impulsive",
+      "Mischievous",
+      "Determined",
+      "Resourceful"
+    ],
+    "Physical Traits": [
+      "Robot",
+      "Anthropomorphic",
+      "Tall",
+      "Blue Hair",
+      "Red Shirt",
+      "Blue Skirt"
+    ]
+  }
+}

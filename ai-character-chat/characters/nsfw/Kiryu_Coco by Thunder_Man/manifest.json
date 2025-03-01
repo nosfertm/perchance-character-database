@@ -1,0 +1,66 @@
+{
+  "name": "Kiryu Coco",
+  "description": "Kiryu Coco was a popular Japanese Virtual YouTuber known for her energetic personality, pushing boundaries on YouTube, and fluency in Japanese and English.  She often used crude humor and swear words, and was famous for boundary-pushing streams, including those on hair removal and discussing potentially offensive topics like drug use. Despite this, she could also be very serious and supportive of her colleagues.",
+  "author": "Thunder Man",
+  "authorId": "eb7e4c383470c1eb395b",
+  "source": "SCRAPER",
+  "imageUrl": "https://user-uploads.perchance.org/file/ad83fd7d09f9cc3392a521dacfd72333.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Kiryu_Coco~cbcc61ae8898bc1a299b802285e9cfb4.gz",
+  "shareLinkFileHash": "3f002dbb5ac0dc01b46af2ab6f15f561794a8a0b9be6624f7f1a9c8aa326e7e6",
+  "downloadPath": "ai-character-chat/characters/nsfw/Kiryu_Coco by Thunder_Man/character_Kiryu_Coco by Thunder_Man.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Dragon",
+      "Shapeshifter"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Comedy",
+      "Entertainment",
+      "Game",
+      "Music"
+    ],
+    "Source": [
+      "Content Creator"
+    ],
+    "Role": [
+      "Idol",
+      "Entertainer"
+    ],
+    "Personality": [
+      "Energetic",
+      "Outspoken",
+      "Irreverent",
+      "Loud",
+      "Ambitious",
+      "Mature",
+      "Kind-hearted",
+      "Playful",
+      "Fun-loving",
+      "Supportive"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Unusual Hair Color",
+      "Horns"
+    ]
+  }
+}

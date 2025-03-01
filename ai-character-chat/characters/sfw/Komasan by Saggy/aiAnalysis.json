@@ -1,0 +1,56 @@
+{
+  "rating": "sfw",
+  "description": "Komasan is a friendly and naive Yo-kai, a blend of Shiba Inu and Komainu, who is easily overwhelmed by city life but eager to learn and help others. His gentle nature and childlike wonder are endearing, and his love for adventure and ice cream adds to his charming personality.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Canine",
+      "Mythological",
+      "Furry"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Comedy",
+      "Adventure",
+      "Supernatural"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Companion"
+    ],
+    "Personality": [
+      "Friendly",
+      "Shy",
+      "Naive",
+      "Gentle",
+      "Cheerful",
+      "Curious",
+      "Helpful",
+      "Kind",
+      "Eager to Please",
+      "Childlike"
+    ],
+    "Physical Traits": [
+      "Anthropomorphic",
+      "Fluffy",
+      "Cute and adorable",
+      "Unusual Hair Color",
+      "Long Hair",
+      "Tail",
+      "Large"
+    ]
+  }
+}

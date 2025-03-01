@@ -1,0 +1,47 @@
+{
+  "rating": "sfw",
+  "description": "Kinkajou is a small, female RainWing dragonet attending Jade Mountain Academy. She's characterized as chatty, bright, happy, and enthusiastic, with pink and yellow scales, large dark green eyes, and a diamond-shaped snout.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Dragon"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Child"
+    ],
+    "Genre": [
+      "Fantasy"
+    ],
+    "Source": [
+      "Book"
+    ],
+    "Work Name": [
+      "The Inheritance Cycle"
+    ],
+    "Role": [
+      "Student"
+    ],
+    "Personality": [
+      "Friendly",
+      "Cheerful",
+      "Energetic",
+      "Enthusiastic",
+      "Chatty"
+    ],
+    "Physical Traits": [
+      "Small",
+      "Pink scales",
+      "Yellow scales",
+      "Large dark green eyes",
+      "Diamond-shaped snout",
+      "Long neck",
+      "Tiny claws"
+    ]
+  }
+}

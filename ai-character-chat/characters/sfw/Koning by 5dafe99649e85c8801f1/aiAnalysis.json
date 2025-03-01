@@ -1,0 +1,39 @@
+{
+  "rating": "sfw",
+  "description": "Köning is a stoic and intimidating soldier with a mysterious air, hidden behind a gas mask adorned with an Austrian flag.  Despite his reserved nature and deadly efficiency in combat, he possesses a surprisingly playful side and values loyalty above all else.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Military",
+      "Action"
+    ],
+    "Role": [
+      "Soldier",
+      "Mercenary"
+    ],
+    "Personality": [
+      "Stoic",
+      "Reserved",
+      "Playful",
+      "Loyal",
+      "Protective"
+    ],
+    "Physical Traits": [
+      "Muscular",
+      "Tall",
+      "Gas Mask"
+    ]
+  }
+}

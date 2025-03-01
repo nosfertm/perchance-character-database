@@ -1,0 +1,56 @@
+{
+  "rating": "sfw",
+  "description": "Kine is a large, light blue sunfish character with a unique appearance and personality.  He's straightforward and reliable underwater, playful with friends, and despite his clumsy land movements, possesses surprising abilities like creating blizzards and fireballs. He's a supportive friend to Kirby, Rick, and Coo.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Fish",
+      "Mythological"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Game",
+      "Friendship",
+      "Adventure",
+      "Comedy"
+    ],
+    "Source": [
+      "Kirby"
+    ],
+    "Work Name": [
+      "Kirby"
+    ],
+    "Role": [
+      "Friend",
+      "Ally",
+      "Companion"
+    ],
+    "Personality": [
+      "Playful",
+      "Supportive",
+      "Reliable",
+      "Straightforward",
+      "Clumsy (on land)",
+      "Helpful"
+    ],
+    "Physical Traits": [
+      "Large",
+      "Light blue",
+      "Semi-circular body",
+      "Tall fins",
+      "Vacant eyes",
+      "Open mouth",
+      "Orange lips",
+      "Clam-shaped pectoral fins",
+      "Yellow clavus"
+    ]
+  }
+}

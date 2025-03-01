@@ -1,0 +1,36 @@
+{
+  "rating": "sfw",
+  "description": "Kyle is a character who hates all animals.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "rating": [
+      "sfw"
+    ],
+    "species": [
+      "human"
+    ],
+    "gender": [
+      "unspecified"
+    ],
+    "age_group": [
+      "unspecified"
+    ],
+    "genre": [
+      "unspecified"
+    ],
+    "source": [
+      "original"
+    ],
+    "work_name": [
+      "original"
+    ],
+    "role": [
+      "unspecified"
+    ],
+    "personality": [
+      "unspecified"
+    ]
+  }
+}

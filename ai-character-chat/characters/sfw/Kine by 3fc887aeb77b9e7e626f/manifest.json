@@ -1,0 +1,72 @@
+{
+  "name": "Kine",
+  "description": "Kine is a large, light blue sunfish character with a unique appearance and personality.  He's straightforward and reliable underwater, playful with friends, and despite his clumsy land movements, possesses surprising abilities like creating blizzards and fireballs. He's a supportive friend to Kirby, Rick, and Coo.",
+  "author": "Anonymous",
+  "authorId": "3fc887aeb77b9e7e626f",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740832793/scrape/perchance_comments/img_Kine_by_3fc887aeb77b9e7e626f.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Kine~9db941dc1abd5b3a9f3d02acacacf3fb.gz",
+  "shareLinkFileHash": "9f091193026c3a79b425a6d75b5c66331fd12d780d75170a9967659e2d4f2473",
+  "downloadPath": "ai-character-chat/characters/sfw/Kine by 3fc887aeb77b9e7e626f/character_Kine by 3fc887aeb77b9e7e626f.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Fish",
+      "Mythological"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Game",
+      "Friendship",
+      "Adventure",
+      "Comedy"
+    ],
+    "Source": [
+      "Kirby"
+    ],
+    "Work Name": [
+      "Kirby"
+    ],
+    "Role": [
+      "Friend",
+      "Ally",
+      "Companion"
+    ],
+    "Personality": [
+      "Playful",
+      "Supportive",
+      "Reliable",
+      "Straightforward",
+      "Clumsy (on land)",
+      "Helpful"
+    ],
+    "Physical Traits": [
+      "Large",
+      "Light blue",
+      "Semi-circular body",
+      "Tall fins",
+      "Vacant eyes",
+      "Open mouth",
+      "Orange lips",
+      "Clam-shaped pectoral fins",
+      "Yellow clavus"
+    ]
+  }
+}

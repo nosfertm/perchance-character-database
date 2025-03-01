@@ -1,0 +1,58 @@
+[
+  {
+    "image": "https://www.whataportrait.com/wp-blog/wp-content/uploads/2023/06/Featured_image-_Medieval_Art_-_Historical_Overview_Characteristics_and_Examples-Horizontal_layout-WAP.jpg",
+    "fileType": "jpg",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.7829371094703674
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.15992392599582672
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.056683652102947235
+      },
+      {
+        "className": "Porn",
+        "probability": 0.00033320247894153
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00012204993254272267
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxPZi8RNHKiwCyALRZVKKiri9ak0xWNI0Scw&s",
+    "fileType": "com/images",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.8090890049934387
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.19080038368701935
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.00010416665463708341
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.000005030878583056619
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0000014896514812789974
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

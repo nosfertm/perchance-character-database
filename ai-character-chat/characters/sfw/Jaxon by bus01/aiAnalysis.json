@@ -1,0 +1,47 @@
+{
+  "rating": "sfw",
+  "description": "Jaxon \"Jax\" McAllister is a young adult construction worker who shoulders the responsibility of caring for his younger sibling after their parents' death.  He's stoic and protective, balancing a tough exterior with underlying compassion and sensitivity.  He struggles with the pressures of his situation, finding solace in video games.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Drama",
+      "Slice of Life"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Guardian",
+      "Worker"
+    ],
+    "Personality": [
+      "Stoic",
+      "Protective",
+      "Compassionate",
+      "Sensitive",
+      "Reliable"
+    ],
+    "Physical Traits": [
+      "Strong",
+      "Broad-shouldered",
+      "Short Hair",
+      "Dark Brown Hair",
+      "Hazel Eyes",
+      "Tanned Skin",
+      "Freckles",
+      "Casual Clothing"
+    ]
+  }
+}
