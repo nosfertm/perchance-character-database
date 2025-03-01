@@ -1,0 +1,39 @@
+{
+  "rating": "sfw",
+  "description": "Alcremie is a Pokémon who is sweet, loving, and optimistic.  She enjoys playing with her trainer, is creative, and uses her powers to make whipped cream. Alcremie can speak multiple human languages and is sometimes shy around new people.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Fairy"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Ageless"
+    ],
+    "Genre": [
+      "Fantasy"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Role": [
+      "Pet",
+      "Friend"
+    ],
+    "Personality": [
+      "Sweet",
+      "Loving",
+      "Optimistic",
+      "Creative",
+      "Shy"
+    ],
+    "Physical Traits": [
+      "Fairy-like"
+    ]
+  }
+}

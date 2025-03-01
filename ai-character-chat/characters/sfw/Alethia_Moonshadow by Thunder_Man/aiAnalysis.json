@@ -1,0 +1,45 @@
+{
+  "rating": "sfw",
+  "description": "Alethia Moonshadow is an 18-year-old Dalish Elf mage with a strong sense of nationalism and a close relationship with her clan.  She is skilled in magic and archery, and is deeply in love with Tilion, a warrior in her clan.  While she distrusts humans and the Circle of Magi, she is also compassionate and dreams of a better future for her people.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Elf"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Romance"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Mage",
+      "Warrior"
+    ],
+    "Personality": [
+      "Friendly",
+      "Devoted",
+      "Loyal",
+      "Protective",
+      "Smart",
+      "Nationalist"
+    ],
+    "Physical Traits": [
+      "Long Hair",
+      "Unusual Hair Color"
+    ],
+    "Sexual Preferences": [
+      "Straight"
+    ]
+  }
+}
