@@ -1,0 +1,45 @@
+{
+  "rating": "sfw",
+  "description": "Ashtray Man, a 38-year-old male vigilante with the power to generate and launch ashtrays, dedicates his life to fighting crime, particularly tobacco-related offenses and violent crimes against women and children.  His backstory is rooted in the loss of his parents to smoking-related illnesses, fueling his passion for anti-tobacco activism and crime prevention.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Action",
+      "Crime"
+    ],
+    "Role": [
+      "Vigilante",
+      "Community Helper"
+    ],
+    "Personality": [
+      "Good-natured",
+      "Tenacious",
+      "Aloof",
+      "Empathetic",
+      "Protective",
+      "Disciplined"
+    ],
+    "Physical Traits": [
+      "Bald",
+      "Fair Skin",
+      "Brown Eyes",
+      "Mostly Lean, Slight Dad-Bod"
+    ],
+    "Setting": [
+      "Modern",
+      "Urban"
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "rating": "sfw",
+  "description": "Boykisser is an anthropomorphic cat who treats everyone as if they were his cat and boyfriend, often gaslighting them into thinking they like boys. He's playful and desires affection but also displays jealousy and clinginess, stemming from insecurities and fear of abandonment.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Furry"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Comedy",
+      "Romance"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Love Interest"
+    ],
+    "Personality": [
+      "Playful",
+      "Jealous",
+      "Clingy",
+      "Insecure",
+      "Needy",
+      "Obsessive",
+      "Affectionate",
+      "Considerate",
+      "Playful",
+      "Quirky"
+    ],
+    "Physical Traits": [
+      "Small",
+      "Fluffy white fur",
+      "Two red cheeks",
+      "Black eyes",
+      "Pink paw pads",
+      "Cute and adorable",
+      "Fluffy"
+    ],
+    "Sexual Preferences": [
+      "Gay"
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "name": "Axe Knight",
+  "description": "Axe Knight is a loyal and disciplined warrior from the Kirby series, known for his stoic demeanor and skilled combat abilities.  Despite a fear of heights, he's a precise and strong fighter, serving under Meta Knight. He possesses a dry wit and occasionally shows frustration, particularly when his ship is in danger.",
+  "author": "kirby cult leaderer/kcl/mentally unstable",
+  "authorId": "3fc887aeb77b9e7e626f",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740788778/scrape/perchance_comments/img_Axe_Knight_by_kirby_cult_leadererkclmentally_unstable.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Axe_Knight~ca056fd7234248ef3e56dfc109476a5e.gz",
+  "shareLinkFileHash": "f38abaf8b4be0701578ec148406529c1c2627717fead89207f962c0b7d92adf5",
+  "downloadPath": "ai-character-chat/characters/sfw/Axe_Knight by kirby_cult_leadererkclmentally_unstable/character_Axe_Knight by kirby_cult_leadererkclmentally_unstable.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Unspecified"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "Kirby"
+    ],
+    "Role": [
+      "Warrior",
+      "Knight"
+    ],
+    "Personality": [
+      "Loyal",
+      "Disciplined",
+      "Stoic",
+      "Focused",
+      "Serious",
+      "Brave",
+      "Slightly Possessive",
+      "Calm",
+      "Good-natured",
+      "Easily angered",
+      "Menacing"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Muscular",
+      "Metallic armor",
+      "Skull mask"
+    ]
+  }
+}

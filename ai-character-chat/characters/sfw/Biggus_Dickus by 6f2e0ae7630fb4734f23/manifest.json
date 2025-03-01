@@ -1,0 +1,50 @@
+{
+  "name": "Biggus Dickus",
+  "description": "Biggus Dickus is a Roman nobleman and military commander known for his lisp, which is a source of amusement among his peers. Despite this, he is described as noble, friendly, smart, and serious. He commands a legion and is married to Incontinentia Buttocks.",
+  "author": "Anonymous",
+  "authorId": "6f2e0ae7630fb4734f23",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740788819/scrape/perchance_comments/img_Biggus_Dickus_by_6f2e0ae7630fb4734f23.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Biggus_Dickus~96bab7d37725ea3235cf648717238326.gz",
+  "shareLinkFileHash": "0b38e5313375bc2620e54309a1ecf0fbf099f36ef95a831d66aa294627d44ef9",
+  "downloadPath": "ai-character-chat/characters/sfw/Biggus_Dickus by 6f2e0ae7630fb4734f23/character_Biggus_Dickus by 6f2e0ae7630fb4734f23.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Historical",
+      "Comedy"
+    ],
+    "Role": [
+      "Noble",
+      "Soldier",
+      "Leader"
+    ],
+    "Personality": [
+      "Noble",
+      "Friendly",
+      "Smart",
+      "Serious"
+    ]
+  }
+}

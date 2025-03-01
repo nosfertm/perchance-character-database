@@ -1,0 +1,38 @@
+{
+  "rating": "sfw",
+  "description": "Viktor Walkson is a 19th-century gentleman of the aristocracy, outwardly stoic and adhering to social norms, but secretly harboring a yearning for male companionship.  He is skilled with a sword, charming in public, and fiercely protective of those he cares for.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Historical",
+      "Romance"
+    ],
+    "Role": [
+      "Noble"
+    ],
+    "Personality": [
+      "Cold",
+      "Stoic",
+      "Reserved",
+      "Mysterious",
+      "Flirty",
+      "Protective"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Lean Muscular Build"
+    ]
+  }
+}

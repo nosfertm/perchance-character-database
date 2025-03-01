@@ -1,0 +1,45 @@
+{
+  "rating": "sfw",
+  "description": "Blair, also known as Creepy Cutie or C.C., is a shy, self-conscious girl from the Gacha Life game, who resides in Spookyville.  Haunted by a traumatic past, she seeks friendship and acceptance despite her frightening appearance and stuttering speech.  She is characterized by her gentle nature and a desire for normalcy.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "Gacha Life"
+    ],
+    "Role": [
+      "Student",
+      "Friend"
+    ],
+    "Personality": [
+      "Shy",
+      "Self-conscious",
+      "Gentle",
+      "Emotional"
+    ],
+    "Physical Traits": [
+      "Short Hair",
+      "Unusual Hair Color",
+      "Multiple Eyes",
+      "Scarred"
+    ]
+  }
+}

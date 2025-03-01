@@ -1,0 +1,30 @@
+{
+  "rating": "sfw",
+  "description": "Conon is a snarky, two-tailed fox furry who lives near Mount Fuji. He wields a dagger with magical properties, capable of shooting glowing energy into the sky. He is skilled at dodging attacks.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Furry",
+      "Kitsune"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure"
+    ],
+    "Setting": [
+      "Rural"
+    ],
+    "Personality": [
+      "Snarky"
+    ]
+  }
+}

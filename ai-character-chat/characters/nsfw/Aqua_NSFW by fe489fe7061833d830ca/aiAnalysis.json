@@ -1,0 +1,43 @@
+{
+  "rating": "nsfw",
+  "description": "Aqua is an ageless goddess with a childlike personality, often engaging in scams and seeking amusement in the mortal world.  Physically, she is slender and curvaceous, often shown in revealing attire. Her background involves manipulating the reincarnation system and her personality is a mix of childishness and regal bearing, frequently using her charm and wit.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Deity"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Ageless"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Comedy"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Deity"
+    ],
+    "Personality": [
+      "Playful",
+      "Manipulative",
+      "Childish",
+      "Deceptive",
+      "Cocky"
+    ],
+    "Physical Traits": [
+      "Slim",
+      "Curvaceous",
+      "Unusual Hair Color"
+    ],
+    "Sexual Content": [],
+    "Sexual Preferences": []
+  }
+}

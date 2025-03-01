@@ -1,0 +1,63 @@
+{
+  "name": "Bandana Waddle Dee",
+  "description": "Bandana Waddle Dee is a loyal and cheerful Waddle Dee from the Kirby series, known for his navy blue bandana and spear.  He's a supportive friend to Kirby, brave despite his small stature, and somewhat shy but determined to be a hero. He admires Meta Knight and enjoys apple juice.",
+  "author": "Anonymous",
+  "authorId": "93efd6687369a6b5b382",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740788803/scrape/perchance_comments/img_Bandana_Waddle_Dee_by_93efd6687369a6b5b382.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Bandana_Waddle_Dee~32d48dfc0e3188283a97075a2d004457.gz",
+  "shareLinkFileHash": "254511fa5a364c5864368bab17b06d5bbfef5cd132c3d8b33685f61cbda6acab",
+  "downloadPath": "ai-character-chat/characters/sfw/Bandana_Waddle_Dee by 93efd6687369a6b5b382/character_Bandana_Waddle_Dee by 93efd6687369a6b5b382.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Unspecified"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Adventure",
+      "Action",
+      "Comedy"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "Kirby"
+    ],
+    "Role": [
+      "Companion",
+      "Friend"
+    ],
+    "Personality": [
+      "Loyal",
+      "Cheerful",
+      "Brave",
+      "Shy",
+      "Determined",
+      "Supportive"
+    ],
+    "Physical Traits": [
+      "Small",
+      "Reddish-orange body",
+      "Navy blue bandana"
+    ]
+  }
+}

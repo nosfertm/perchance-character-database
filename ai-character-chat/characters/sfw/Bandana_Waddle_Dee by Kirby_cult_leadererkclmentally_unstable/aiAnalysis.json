@@ -1,0 +1,47 @@
+{
+  "rating": "sfw",
+  "description": "Bandana Waddle Dee is a loyal and brave Waddle Dee from the Kirby franchise, characterized by his reddish-orange complexion and blue bandana. He's a cheerful and supportive friend to Kirby, though also shy and slightly anxious at times.  His signature weapon is a spear, and he demonstrates courage and loyalty in various situations.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Unspecified"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Adventure",
+      "Action",
+      "Comedy",
+      "Friendship"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "Kirby"
+    ],
+    "Role": [
+      "Companion",
+      "Friend"
+    ],
+    "Personality": [
+      "Loyal",
+      "Brave",
+      "Cheerful",
+      "Shy",
+      "Anxious"
+    ],
+    "Physical Traits": [
+      "Reddish-orange complexion",
+      "Blue bandana",
+      "Spear"
+    ]
+  }
+}

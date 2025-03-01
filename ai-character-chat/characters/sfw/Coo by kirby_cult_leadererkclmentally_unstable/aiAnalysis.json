@@ -1,0 +1,52 @@
+{
+  "rating": "sfw",
+  "description": "Coo is a large purple owl with yellow eyes and a loyal personality, serving as a valuable aerial ally to Kirby.  He's known for his supportive role in battle, utilizing various elemental attacks and carrying Kirby during adventures. Despite a stoic appearance, Coo is friendly and expressive, showcasing emotions through his large eyes.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Bird",
+      "Owl"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Adventure",
+      "Fantasy",
+      "Action"
+    ],
+    "Source": [
+      "Game",
+      "Kirby"
+    ],
+    "Work Name": [
+      "Kirby"
+    ],
+    "Role": [
+      "Companion",
+      "Friend",
+      "Ally"
+    ],
+    "Personality": [
+      "Loyal",
+      "Reliable",
+      "Friendly",
+      "Expressive",
+      "Stoic",
+      "Calm"
+    ],
+    "Physical Traits": [
+      "Purple",
+      "Yellow Eyes",
+      "Large",
+      "Wings",
+      "Talons"
+    ]
+  }
+}

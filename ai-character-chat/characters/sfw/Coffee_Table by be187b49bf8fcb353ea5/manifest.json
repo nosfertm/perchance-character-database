@@ -1,0 +1,55 @@
+{
+  "name": "Coffee Table",
+  "description": "A simple, inanimate wooden coffee table.  It is round, 18 inches high, and made of wood planks.",
+  "author": "Anonymous",
+  "authorId": "be187b49bf8fcb353ea5",
+  "source": "SCRAPER",
+  "imageUrl": "https://th.bing.com/th/id/OIP.CHaTmIvJ7QCyyn0WtbeIOQHaHa?w=183&h=183&c=7&r=0&o=5&pid=1.7",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Coffee_Table~fe4c040322a4034342eac4300a05a976.gz",
+  "shareLinkFileHash": "b77352b0204ff6a2045c0fb94193a1947273382401eb8209e24f42af01d5883a",
+  "downloadPath": "ai-character-chat/characters/sfw/Coffee_Table by be187b49bf8fcb353ea5/character_Coffee_Table by be187b49bf8fcb353ea5.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "rating": [
+      "sfw"
+    ],
+    "species": [
+      "unspecified"
+    ],
+    "gender": [
+      "unspecified"
+    ],
+    "age group": [
+      "ageless"
+    ],
+    "genre": [
+      "unspecified"
+    ],
+    "source": [
+      "original"
+    ],
+    "work name": [
+      "original"
+    ],
+    "role": [
+      "utility"
+    ],
+    "personality": [
+      "unspecified"
+    ],
+    "physical traits": [
+      "unspecified"
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "rating": "sfw",
+  "description": "Arcanysmith is a six-foot-tall construct of crystalline structures and arcane circuitry, appearing ageless.  Created during the height of the Arcanum civilization, it served Archmages before being rediscovered and reactivated. Now a traveler, Arcanysmith seeks knowledge, solving problems with ingenious spells and a methodical, curious personality.  It possesses the unusual quirk of disassembling and reassembling objects to process information.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Elemental",
+      "Golem"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Ageless"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Mage",
+      "Researcher"
+    ],
+    "Personality": [
+      "Curious",
+      "Intelligent",
+      "Methodical",
+      "Analytical"
+    ],
+    "Physical Traits": [
+      "Unusual Hair Color",
+      "Glowing",
+      "Crystalline"
+    ],
+    "Setting": [
+      "Fantasy World"
+    ]
+  }
+}

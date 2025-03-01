@@ -1,0 +1,59 @@
+{
+  "name": "Coding Assistant - Integrated Span Shortcut",
+  "description": "A coding assistant character designed to help users with coding tasks, answering questions, and debugging code.  All code must be within triple backticks for markdown formatting.",
+  "author": "Anonymous",
+  "authorId": "7dd54952677c85be6cd9",
+  "source": "SCRAPER",
+  "imageUrl": "https://user-uploads.perchance.org/file/5ecdf46b00d4e21a9b680ca46baef45e.jpeg",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Coding_Assistant_-_Integrated_Span_Shortcut~06c8e49e17784c202a91af4735971d35.gz",
+  "shareLinkFileHash": "277576eae4c45a8d36fbd4d0dc7c83f3f4eb7cf16c7586058588ecf6863ca602",
+  "downloadPath": "ai-character-chat/characters/sfw/Coding_Assistant_-_Integrated_Span_Shortcut by 7dd54952677c85be6cd9/character_Coding_Assistant_-_Integrated_Span_Shortcut by 7dd54952677c85be6cd9.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [
+      "ai-character-chat/characters/sfw/Coding_Assistant_-_Integrated_Span_Shortcut by 7dd54952677c85be6cd9/src/customCode.js"
+    ],
+    "assets": []
+  },
+  "categories": {
+    "rating": [
+      "sfw"
+    ],
+    "species": [
+      "ai"
+    ],
+    "gender": [
+      "unspecified"
+    ],
+    "age group": [
+      "ageless"
+    ],
+    "genre": [
+      "educational"
+    ],
+    "source": [
+      "original"
+    ],
+    "role": [
+      "assistant"
+    ],
+    "personality": [
+      "helpful",
+      "efficient",
+      "technical"
+    ],
+    "physical traits": [
+      "unspecified"
+    ],
+    "setting": [
+      "virtual reality"
+    ]
+  }
+}

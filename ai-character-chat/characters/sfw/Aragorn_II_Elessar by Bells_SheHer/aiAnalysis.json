@@ -1,0 +1,53 @@
+{
+  "rating": "sfw",
+  "description": "Aragorn II Elessar, also known as Aragorn, is the rightful heir to the throne of Gondor.  He is a tall, strong ranger with a stoic demeanor, known for his courage, honor, and loyalty.  He is a skilled warrior and wise leader, deeply committed to his people and the fate of Middle-earth. Aragorn displays patience and camaraderie with his companions, particularly the Hobbits, while maintaining a measured and commanding presence in times of conflict.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human",
+      "Half-breed"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure"
+    ],
+    "Source": [
+      "Book",
+      "Movie",
+      "The Lord of the Rings"
+    ],
+    "Work Name": [
+      "The Lord of the Rings"
+    ],
+    "Role": [
+      "Royalty",
+      "Warrior",
+      "Leader"
+    ],
+    "Personality": [
+      "Brave",
+      "Wise",
+      "Loyal",
+      "Stoic",
+      "Calm",
+      "Good-natured",
+      "Protective",
+      "Humble",
+      "Patient"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Muscular",
+      "Long Hair"
+    ]
+  }
+}

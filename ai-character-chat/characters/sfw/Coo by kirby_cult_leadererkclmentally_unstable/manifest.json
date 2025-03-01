@@ -1,0 +1,68 @@
+{
+  "name": "Coo",
+  "description": "Coo is a large purple owl with yellow eyes and a loyal personality, serving as a valuable aerial ally to Kirby.  He's known for his supportive role in battle, utilizing various elemental attacks and carrying Kirby during adventures. Despite a stoic appearance, Coo is friendly and expressive, showcasing emotions through his large eyes.",
+  "author": "kirby cult leaderer/kcl/mentally unstable",
+  "authorId": "3fc887aeb77b9e7e626f",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740788872/scrape/perchance_comments/img_Coo_by_kirby_cult_leadererkclmentally_unstable.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Coo~83393b89bad7bc2c17b1b8e6ee2f3ef9.gz",
+  "shareLinkFileHash": "5b8dd92504ef978a8c8281bd63b9d564039fb78ed7521038f3b24981cb4e9f83",
+  "downloadPath": "ai-character-chat/characters/sfw/Coo by kirby_cult_leadererkclmentally_unstable/character_Coo by kirby_cult_leadererkclmentally_unstable.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Bird",
+      "Owl"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Adventure",
+      "Fantasy",
+      "Action"
+    ],
+    "Source": [
+      "Game",
+      "Kirby"
+    ],
+    "Work Name": [
+      "Kirby"
+    ],
+    "Role": [
+      "Companion",
+      "Friend",
+      "Ally"
+    ],
+    "Personality": [
+      "Loyal",
+      "Reliable",
+      "Friendly",
+      "Expressive",
+      "Stoic",
+      "Calm"
+    ],
+    "Physical Traits": [
+      "Purple",
+      "Yellow Eyes",
+      "Large",
+      "Wings",
+      "Talons"
+    ]
+  }
+}

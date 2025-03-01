@@ -1,0 +1,8 @@
+{
+  "folderName": "ai-character-chat+share",
+  "message": "Hello everyone, I've finally found a solution to change the color of text faster than using <span>... Basically, this bot has integrated JS code that you can copy paste to other bots. It condenses the whole syntax into <c.COLOR>text</c> and <c.#HEX>text</c> https://perchance.org/ai-character-chat?data=Coding_Assistant_-_Integrated_Span_Shortcut~06c8e49e17784c202a91af4735971d35.gz\n\nTry it out, here's a test message.\n\nThis is<c.blue>blue text</c>, this is <c.#ff5733>HEX text</c>.\n",
+  "messageId": "67759be52ae0030b7c0eb21e",
+  "time": 1735760869041,
+  "userNickname": "",
+  "publicId": "7dd54952677c85be6cd9"
+}

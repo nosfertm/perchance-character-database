@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e88c7f58-2159-4a3c-8ee4-3919ed7f8a19/de8uc0d-f7307dcf-a4fd-4d6d-ba05-f5cdc036b1d7.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2U4OGM3ZjU4LTIxNTktNGEzYy04ZWU0LTM5MTllZDdmOGExOVwvZGU4dWMwZC1mNzMwN2RjZi1hNGZkLTRkNmQtYmEwNS1mNWNkYzAzNmIxZDcucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.COkhKMA4qyT9uJcFDrT0ekp5rii1_lBJn3-4QhG9aZI",
+    "fileType": "cokhkma4qyt9ujcfdrt0ekp5rii1_lbjn3-4qhg9azi",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.8477622866630554
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.14965470135211945
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.002530834637582302
+      },
+      {
+        "className": "Porn",
+        "probability": 0.00003577467577997595
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00001638477624510415
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

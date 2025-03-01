@@ -61,7 +61,10 @@
                 "Clone",
                 "Canine",
                 "Gnome",
-                "Meme"
+                "Meme",
+                "slugcat",
+                "Bird",
+                "Owl"
             ],
             "nsfw": [
                 "Succubus",
@@ -198,7 +201,9 @@
                 "Art",
                 "Music",
                 "Poetry",
-                "cosplay"
+                "cosplay",
+                "The Lord of the Rings",
+                "Kirby"
             ],
             "nsfw": [
                 "Hentai",
@@ -286,7 +291,9 @@
                 "NieR: Automata",
                 "Original",
                 "Kirby",
-                "Hazbin Hotel"
+                "Hazbin Hotel",
+                "My Hero Academia",
+                "Gacha Life"
             ],
             "nsfw": [
                 "Bible Black",
@@ -385,7 +392,14 @@
                 "Rogue",
                 "social media manager",
                 "cosplayer",
-                "Community Helper"
+                "Community Helper",
+                "Parent",
+                "None",
+                "Vigilante",
+                "Weapon",
+                "Wilderness Patrolman",
+                "Fitness Enthusiast",
+                "Ally"
             ],
             "nsfw": [
                 "Adult Entertainer",
@@ -499,7 +513,57 @@
                 "Radical",
                 "Punk",
                 "Unhinged",
-                "Animal and Nature Lover"
+                "Animal and Nature Lover",
+                "helpful",
+                "Brash",
+                "Insecure",
+                "Defensive",
+                "Stubborn",
+                "Independent",
+                "Resourceful",
+                "Sensitive",
+                "Tomboyish",
+                "Strict",
+                "Stern",
+                "Skilled",
+                "Bookworm",
+                "Quick-witted",
+                "Dedicated",
+                "Arrogant",
+                "Promiscuous",
+                "Childish",
+                "Cocky",
+                "Methodical",
+                "Unpredictable",
+                "Fiery",
+                "Tenacious",
+                "Aloof",
+                "Boastful",
+                "Sympathetic",
+                "Humorous",
+                "Boisterous",
+                "Bloodthirsty",
+                "Loud",
+                "Determined",
+                "Obedient",
+                "Competitive",
+                "Supportive",
+                "Anxious",
+                "Noble",
+                "Self-conscious",
+                "Emotional",
+                "Jealous",
+                "Clingy",
+                "Needy",
+                "Considerate",
+                "Quirky",
+                "Blunt",
+                "Orderly",
+                "Emotional (Hidden)",
+                "Self-Reliant",
+                "Reliable",
+                "Expressive",
+                "Cunning"
             ],
             "nsfw": [
                 "Dominant",
@@ -566,7 +630,46 @@
                 "dyed orange hair",
                 "freckles",
                 "Golden Eyes",
-                "Brown-Black Coat"
+                "Brown-Black Coat",
+                "Slender",
+                "Wheelchair user",
+                "Knight Armor",
+                "Blue Eyes",
+                "Curvaceous",
+                "Glowing",
+                "Crystalline",
+                "Curvy",
+                "Blonde Hair",
+                "Bald",
+                "Brown Eyes",
+                "Mostly Lean, Slight Dad-Bod",
+                "Large",
+                "Vibrantly-colored",
+                "Big breasts",
+                "Metallic armor",
+                "Skull mask",
+                "Small",
+                "Reddish-orange body",
+                "Navy blue bandana",
+                "Reddish-orange complexion",
+                "Blue bandana",
+                "Spear",
+                "White Hair",
+                "Pink Eyes",
+                "Fluffy white fur",
+                "Two red cheeks",
+                "Black eyes",
+                "Pink paw pads",
+                "Cute and adorable",
+                "Fluffy",
+                "Black Fur",
+                "Light Blue Eyes",
+                "5 Feet Tall",
+                "Anthropomorphic",
+                "Large Breasts",
+                "Synthetic Skin",
+                "Purple",
+                "Talons"
             ],
             "nsfw": [
                 "Voluptuous",
@@ -581,7 +684,10 @@
         "name": "Fetishes",
         "description": "Adult-themed interests",
         "tags": {
-            "general": [],
+            "general": [
+                "Embarrassment",
+                "Domination"
+            ],
             "nsfw": [
                 "BDSM",
                 "Feet",
@@ -623,7 +729,9 @@
         "name": "Sexual Content",
         "description": "Sexual activities and preferences",
         "tags": {
-            "general": [],
+            "general": [
+                "Promiscuous"
+            ],
             "nsfw": [
                 "Vanilla",
                 "Anal",
@@ -671,7 +779,9 @@
                 "Bisexual",
                 "Pansexual",
                 "Asexual",
-                "Demisexual"
+                "Demisexual",
+                "Unspecified",
+                "Submissive"
             ],
             "nsfw": [
                 "Polyamorous",
