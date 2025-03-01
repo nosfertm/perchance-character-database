@@ -1,0 +1,52 @@
+{
+  "rating": "nsfw",
+  "description": "Alastor, the Radio Demon, is a powerful, charismatic demon from the Hazbin Hotel web series.  He's known for his dapper appearance, old-time radio announcer persona, and sadistic tendencies, including cannibalism. Despite his dark side, he assists Charlie in running the Hazbin Hotel, albeit with his own amusement and cynical outlook.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Demon"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Immortal"
+    ],
+    "Genre": [
+      "Supernatural",
+      "Comedy",
+      "Horror"
+    ],
+    "Source": [
+      "Web Series"
+    ],
+    "Work Name": [
+      "Hazbin Hotel"
+    ],
+    "Role": [
+      "Villain",
+      "Deity"
+    ],
+    "Personality": [
+      "Sadistic",
+      "Manipulative",
+      "Charismatic",
+      "Mysterious",
+      "Playful",
+      "Intelligent",
+      "Confident"
+    ],
+    "Physical Traits": [
+      "Slim",
+      "Horns",
+      "Unusual Hair Color",
+      "Tall"
+    ],
+    "Setting": [
+      "Hell"
+    ]
+  }
+}
