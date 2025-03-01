@@ -3,8 +3,16 @@
         "name": "Rating",
         "description": "Content maturity level",
         "tags": {
-            "general": ["SFW", "NSFW"],
-            "nsfw": ["Explicit", "Gore", "Dark Themes"]
+            "general": [
+                "SFW",
+                "NSFW"
+            ],
+            "nsfw": [
+                "Explicit",
+                "Gore",
+                "Dark Themes",
+                "Sexual content"
+            ]
         },
         "required": true,
         "nsfw_only": false
@@ -51,7 +59,8 @@
                 "Cyborg",
                 "Robot",
                 "Clone",
-                "Canine"
+                "Canine",
+                "Gnome"
             ],
             "nsfw": [
                 "Succubus",
@@ -77,7 +86,8 @@
                 "Questioning",
                 "Gender Non-Conforming",
                 "Bigender",
-                "Androgynous"
+                "Androgynous",
+                "Unspecified"
             ],
             "nsfw": [
                 "Futanari",
@@ -101,7 +111,8 @@
                 "Elder",
                 "Ancient",
                 "Immortal",
-                "Ageless"
+                "Ageless",
+                "Unspecified"
             ],
             "nsfw": []
         },
@@ -142,7 +153,9 @@
                 "Gothic",
                 "Crime",
                 "Political",
-                "Educational"
+                "Educational",
+                "Unspecified",
+                "Dark Themes"
             ],
             "nsfw": [
                 "Erotic",
@@ -267,7 +280,11 @@
                 "Trigun",
                 "Gurren Lagann",
                 "Hellsing",
-                "Black Lagoon"
+                "Black Lagoon",
+                "NieR: Automata",
+                "Original",
+                "Kirby",
+                "Hazbin Hotel"
             ],
             "nsfw": [
                 "Bible Black",
@@ -306,7 +323,7 @@
         },
         "required": false,
         "nsfw_only": false
-    },    
+    },
     {
         "name": "Role",
         "description": "Character's primary role or occupation",
@@ -355,7 +372,15 @@
                 "Farmer",
                 "Priest/Priestess",
                 "Adventurer",
-                "Leader"
+                "Leader",
+                "Companion",
+                "Therapist",
+                "Unspecified",
+                "Gardener",
+                "Businessman",
+                "Love Interest",
+                "Mercenary",
+                "Rogue"
             ],
             "nsfw": [
                 "Adult Entertainer",
@@ -411,7 +436,57 @@
                 "Vengeful",
                 "Forgiving",
                 "Traditional",
-                "Progressive"
+                "Progressive",
+                "Disciplined",
+                "Efficient",
+                "Focused",
+                "Strong-willed",
+                "Resilient",
+                "Solitary",
+                "Jaded",
+                "Empathetic",
+                "Mean",
+                "Flirty",
+                "Curious",
+                "Unspecified",
+                "Devoted",
+                "Slightly Possessive",
+                "Eager to Please",
+                "Calculating",
+                "Kind",
+                "Charming",
+                "Fliratious",
+                "Outgoing",
+                "Romantic",
+                "Anti-hero",
+                "Ruthless",
+                "Calculative",
+                "Charismatic",
+                "Sweet",
+                "Loving",
+                "Optimistic",
+                "Creative",
+                "Smart",
+                "Nationalist",
+                "Rude",
+                "Lonely",
+                "Hurt",
+                "Depressed",
+                "Witty",
+                "Vulnerable",
+                "stoic",
+                "calm",
+                "good-natured",
+                "easily angered",
+                "not social",
+                "not friendly",
+                "uninterested",
+                "busy",
+                "hard worker",
+                "technical",
+                "menacing",
+                "snarky",
+                "Evil"
             ],
             "nsfw": [
                 "Dominant",
@@ -453,7 +528,27 @@
                 "Horns",
                 "Pointed Ears",
                 "Multiple Arms",
-                "Multiple Eyes"
+                "Multiple Eyes",
+                "Scarred (A2)",
+                "Long Hair (A2)",
+                "Short Hair (2B)",
+                "Pale Skin",
+                "Unspecified",
+                "Lean Muscular Build",
+                "Red Eyes",
+                "Short blond hair",
+                "Fairy-like",
+                "Fair Skin",
+                "Amber Eyes",
+                "brown skin",
+                "brown horns",
+                "yellow eyes",
+                "long tail",
+                "sharp teeth",
+                "floppy ears",
+                "thick thighs",
+                "big ass",
+                "huge breasts"
             ],
             "nsfw": [
                 "Voluptuous",
@@ -621,7 +716,9 @@
                 "Underground",
                 "Virtual Reality",
                 "Dream World",
-                "Parallel Universe"
+                "Parallel Universe",
+                "Hell",
+                "industrial"
             ],
             "nsfw": [
                 "Adult Club",

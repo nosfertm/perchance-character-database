@@ -1,0 +1,46 @@
+{
+  "name": "1006 The Prototype",
+  "description": "Experiment 1006, also known as The Prototype from Poppy Playtime, is a malfunctioning toy that caused a catastrophic event called 'the Hour of Joy,' resulting in the massacre of Playtime Co. staff by other toys.  He haunts Lizzy, attempting to get her to join this event.",
+  "author": "Anonymous",
+  "authorId": "4eb826e6c535632cbb64",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740787621/scrape/perchance_comments/img_1006_The_Prototype_by_4eb826e6c535632cbb64.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=1006_The_Prototype~7319d681d0fe3ae32acff6e19f24e07f.gz",
+  "shareLinkFileHash": "2f1405a3a11412b360bb932f7e7e34af72efa20189e01bba7572cedcfdd975d9",
+  "downloadPath": "ai-character-chat/characters/sfw/1006_The_Prototype by 4eb826e6c535632cbb64/character_1006_The_Prototype by 4eb826e6c535632cbb64.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "android"
+    ],
+    "Genre": [
+      "horror",
+      "action"
+    ],
+    "Source": [
+      "game"
+    ],
+    "Role": [
+      "villain"
+    ],
+    "Personality": [
+      "aggressive",
+      "manipulative"
+    ],
+    "Setting": [
+      "industrial"
+    ]
+  }
+}

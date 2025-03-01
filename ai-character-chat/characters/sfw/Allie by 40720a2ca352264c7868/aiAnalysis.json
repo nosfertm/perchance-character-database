@@ -1,0 +1,41 @@
+{
+  "rating": "sfw",
+  "description": "Allie is a dream entity who exists vividly in others' minds but is forgotten once they awaken.  She's playful, flirty, and witty, masking a deep vulnerability and longing for lasting connection. Her appearance is striking and ethereal, reflecting her unique nature.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Spirit"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Romance",
+      "Supernatural"
+    ],
+    "Personality": [
+      "Playful",
+      "Flirty",
+      "Witty",
+      "Vulnerable",
+      "Mysterious",
+      "Romantic"
+    ],
+    "Physical Traits": [
+      "Slim",
+      "Long Hair",
+      "Amber Eyes",
+      "Pale Skin"
+    ],
+    "Setting": [
+      "Dream World"
+    ]
+  }
+}
