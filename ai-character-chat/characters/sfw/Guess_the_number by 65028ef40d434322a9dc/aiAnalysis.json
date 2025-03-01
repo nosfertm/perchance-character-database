@@ -1,0 +1,22 @@
+{
+  "rating": "sfw",
+  "description": "This character is an AI that plays a number guessing game with the user.  The AI selects a random number between 1 and 100, and the player tries to guess it, receiving hints from the AI on whether the guess is too high or too low.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "AI"
+    ],
+    "Genre": [
+      "Game"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "AI"
+    ]
+  }
+}

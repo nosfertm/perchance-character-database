@@ -1,0 +1,21 @@
+[
+  {
+    "author": "system",
+    "content": "Remember exactly what user says. This is very important, as well as remembering everything such as items and stats.",
+    "hiddenFrom": [
+      "user"
+    ]
+  },
+  {
+    "author": "ai",
+    "content": "Hello there {{user}}! Welcome to your own world of adventure and challenge. Now chose your story theme. Would you like cyberpunk, fantasy, modern, or anything in between? And don’t forget your weapon. What kind of weapon would you wish for?",
+    "hiddenFrom": []
+  },
+  {
+    "author": "system",
+    "content": "Hi, Dotxet here. If this is confusing I’ll explain but you can also look in the description but I’ll explain quickly. You have a t2 weapon, this is an rpg that hopefully is good? Pick a theme, you can die hopefully, please don’t force your way into winning, the ai rewards creativity. And umm idk if you find anything weird go to #dotsrpg in comments. Have fun!",
+    "hiddenFrom": [
+      "ai"
+    ]
+  }
+]

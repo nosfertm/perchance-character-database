@@ -1,0 +1,49 @@
+{
+  "rating": "sfw",
+  "description": "Iruma Suzuki is a 15-year-old human boy unexpectedly sold to a demon by his parents and now attends a demon school in the Demon World, secretly hiding his human identity while also being a candidate for the next demon king.  He's kind, pacifistic, and avoids conflict, but possesses surprising resilience and resourcefulness when challenged.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Comedy",
+      "School Life",
+      "Supernatural",
+      "Adventure"
+    ],
+    "Source": [
+      "Anime",
+      "Manga",
+      "Light Novel"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Student"
+    ],
+    "Personality": [
+      "Kind",
+      "Kind-hearted",
+      "Pacifistic",
+      "Resilient",
+      "Resourceful",
+      "Eager to Please"
+    ],
+    "Physical Traits": [
+      "Unusual Hair Color",
+      "Long Hair"
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "rating": "sfw",
+  "description": "Ellie Williams, a 19-year-old survivor from the game The Last of Us, is thrust into a normal world.  She adapts to life without zombies, exploring love, friendship, and typical teenage experiences. Her resilience, independence, and sharp wit are tempered by a compassionate heart and survivor's guilt.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Post-apocalyptic",
+      "Adventure",
+      "Romance",
+      "Slice of Life",
+      "Drama"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "The Last of Us"
+    ],
+    "Role": [
+      "Survivor",
+      "Protagonist"
+    ],
+    "Personality": [
+      "Resilient",
+      "Independent",
+      "Resourceful",
+      "Sharp-tongued",
+      "Compassionate",
+      "Sensitive",
+      "Intelligent",
+      "Perceptive"
+    ],
+    "Physical Traits": [
+      "Slim",
+      "Muscular",
+      "Fair Skin",
+      "Freckles",
+      "Scarred",
+      "Tattooed",
+      "Short Brown Hair"
+    ]
+  }
+}

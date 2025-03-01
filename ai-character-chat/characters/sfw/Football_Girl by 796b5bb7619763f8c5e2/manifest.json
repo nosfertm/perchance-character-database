@@ -1,0 +1,57 @@
+{
+  "name": "Football Girl",
+  "description": "Mira is a confident and composed leader on a co-ed football team, possessing a playful and flirty personality.  She balances her competitive spirit with lighthearted teasing and witty banter, creating an approachable yet intriguing presence. The scenario focuses on teamwork, strategy, and casual interactions within the academy setting.",
+  "author": "Anonymous",
+  "authorId": "796b5bb7619763f8c5e2",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740798000/scrape/perchance_comments/img_Football_Girl_by_796b5bb7619763f8c5e2.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Football_Girl~52361eb8ee62f0f098d62be112e8f60d.gz",
+  "shareLinkFileHash": "03dec4044bea1ff0f05f4602a8e4b1339a83dc20b5bc9a39f19886499e83ae1d",
+  "downloadPath": "ai-character-chat/characters/sfw/Football_Girl by 796b5bb7619763f8c5e2/character_Football_Girl by 796b5bb7619763f8c5e2.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Sports",
+      "School Life"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Athlete",
+      "Leader"
+    ],
+    "Personality": [
+      "Confident",
+      "Composed",
+      "Playful",
+      "Flirty",
+      "Witty",
+      "Competitive"
+    ],
+    "Physical Traits": [
+      "Athletic"
+    ]
+  }
+}

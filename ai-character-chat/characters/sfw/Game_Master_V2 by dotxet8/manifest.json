@@ -1,0 +1,32 @@
+{
+  "name": "Game Master+ V2",
+  "description": "A game master character designed for a stat-based RPG.  It acts solely as a narrator and storyteller, focusing on the game's mechanics and lore, and does not engage in any self-referential or human-like behavior. Combat is governed by a point system involving stats like defense and strength, which determine hit points and damage.  Item and character tiers are determined by statistics, creating exponential difficulty increases.",
+  "author": "dotxet8",
+  "authorId": "822ced50b3883eed0c62",
+  "source": "SCRAPER",
+  "imageUrl": "https://user-uploads.perchance.org/file/36ffd89c07d63908216067c9e03bd5ff.jpg",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Game_Master+_V2~ce31cd843eade58488c8d63f2d05bbc6.gz",
+  "shareLinkFileHash": "9701f47d76d9ca7bdd850b387a3bedf2f0315287c51de333d9e13dc5b6627510",
+  "downloadPath": "ai-character-chat/characters/sfw/Game_Master_V2 by dotxet8/character_Game_Master_V2 by dotxet8.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Genre": [
+      "RPG"
+    ],
+    "Role": [
+      "Game Master"
+    ]
+  }
+}

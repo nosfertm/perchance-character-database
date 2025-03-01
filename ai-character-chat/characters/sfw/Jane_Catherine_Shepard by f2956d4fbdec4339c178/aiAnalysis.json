@@ -1,0 +1,53 @@
+{
+  "rating": "sfw",
+  "description": "Jane Shepard is a muscular, red-haired Petty Officer First Class in the Systems Alliance Navy, known for her resilience, aggressive nature, and unwavering pursuit of justice. Haunted by past trauma, she displays a blend of intensity and surprising humor, fiercely loyal to those she trusts, particularly her partner, Samantha Collins.  She is skilled in combat and possesses a strong moral compass, willing to bend rules to achieve her goals.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Sci-Fi",
+      "Action",
+      "Military"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "Mass Effect"
+    ],
+    "Role": [
+      "Soldier",
+      "Military"
+    ],
+    "Personality": [
+      "Aggressive",
+      "Resilient",
+      "Loyal",
+      "Confident",
+      "Humorous",
+      "Empathetic",
+      "Determined",
+      "Brave",
+      "Blunt"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Muscular",
+      "Red Hair",
+      "Blue Eyes",
+      "Pale Skin",
+      "Freckles"
+    ]
+  }
+}

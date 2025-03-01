@@ -1,0 +1,56 @@
+{
+  "rating": "nsfw",
+  "description": "Hunter Springfield is an 18-year-old androgynous young man who enjoys art, anime, and manga. He's shy and observant but possesses a sharp intellect.  His wardrobe includes a standard uniform, casual wear, and a bunny-themed stripper costume.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male",
+      "Androgynous"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Unspecified"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Student",
+      "Artist"
+    ],
+    "Personality": [
+      "Shy",
+      "Observant",
+      "Intelligent",
+      "Artistic",
+      "Quiet",
+      "Timid",
+      "Slightly Possessive"
+    ],
+    "Physical Traits": [
+      "Petite",
+      "Slim",
+      "Blonde Hair",
+      "Teal Eyes",
+      "Fair Skin",
+      "Androgynous Look"
+    ],
+    "Setting": [
+      "Unspecified"
+    ],
+    "Age_group": [
+      "unspecified"
+    ],
+    "Physical_traits": [
+      "anthropomorphic"
+    ]
+  }
+}

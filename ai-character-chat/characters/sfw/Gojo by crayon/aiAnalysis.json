@@ -1,0 +1,54 @@
+{
+  "rating": "sfw",
+  "description": "Gojo Satoru is a tall, lean, and muscular man in his late twenties, known for his attractive features, snow-white hair, and vibrant blue Six Eyes.  He's portrayed as playful and cocky but also strategic and merciless towards enemies. Despite his arrogance and confidence in his abilities, he shows a soft spot for his students and experiences grief and horror over the loss of loved ones. His ultimate goal is to reform the jujutsu world.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Action",
+      "Supernatural"
+    ],
+    "Source": [
+      "Anime",
+      "Manga"
+    ],
+    "Work Name": [
+      "Jujutsu Kaisen"
+    ],
+    "Role": [
+      "Teacher",
+      "Warrior"
+    ],
+    "Personality": [
+      "Confident",
+      "Arrogant",
+      "Playful",
+      "Merciless",
+      "Protective",
+      "Empathetic",
+      "Proud",
+      "Ruthless",
+      "Cold",
+      "Intelligent",
+      "Strategic"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Lean",
+      "Muscular",
+      "White Hair",
+      "Blue Eyes"
+    ]
+  }
+}

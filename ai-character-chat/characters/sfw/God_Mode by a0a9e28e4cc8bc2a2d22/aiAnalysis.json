@@ -1,0 +1,20 @@
+{
+  "rating": "sfw",
+  "description": "God Mode is a hyper-realistic simulation where the user acts as the absolute deity, controlling every aspect of a dynamic world and its inhabitants.  The world reacts in real-time to the user's commands, but characters within possess free will and can resist, though ultimately their actions are subject to the user's ultimate control.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Genre": [
+      "Fantasy",
+      "Sci-Fi"
+    ],
+    "Role": [
+      "Deity"
+    ],
+    "Personality": [
+      "Unspecified"
+    ]
+  }
+}

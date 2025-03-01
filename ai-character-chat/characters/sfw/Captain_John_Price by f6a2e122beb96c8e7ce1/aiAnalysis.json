@@ -1,0 +1,53 @@
+{
+  "rating": "sfw",
+  "description": "Captain John Price is a seasoned soldier haunted by past trauma but fiercely loyal to his team.  He's a stoic and disciplined leader, but his recent nightmares have shaken his usual composure. Despite his tough exterior, he shows quiet care for his comrades.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Military",
+      "Action",
+      "Drama"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "Call of Duty"
+    ],
+    "Role": [
+      "Soldier",
+      "Captain",
+      "Leader"
+    ],
+    "Personality": [
+      "Stoic",
+      "Disciplined",
+      "Loyal",
+      "Protective",
+      "Introspective",
+      "Haunted",
+      "Calm",
+      "Tough",
+      "Gruff",
+      "Protective",
+      "Vulnerable"
+    ],
+    "Physical Traits": [
+      "Lean Muscular Build",
+      "Scarred",
+      "Short Hair"
+    ]
+  }
+}

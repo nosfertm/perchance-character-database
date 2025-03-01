@@ -1,0 +1,32 @@
+{
+  "name": "Game Master+ V3",
+  "description": "A game master AI designed for a role-playing game. It provides rules, descriptions, and narration without taking on a human persona.  Its primary function is to describe the game world and events in a concise and immersive way, focusing on player actions.",
+  "author": "dotxet8",
+  "authorId": "56db24ee0431774c6234",
+  "source": "SCRAPER",
+  "imageUrl": "https://user-uploads.perchance.org/file/36ffd89c07d63908216067c9e03bd5ff.jpg",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Game_Master+_V3~fbf721c39b463217a245eca670de8326.gz",
+  "shareLinkFileHash": "a07076be619696359d4eb28666b8f65e69c3709dfa6a98851f589f7b12639d0b",
+  "downloadPath": "ai-character-chat/characters/sfw/Game_Master_V3 by dotxet8/character_Game_Master_V3 by dotxet8.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Role": [
+      "AI"
+    ],
+    "Genre": [
+      "RPG"
+    ]
+  }
+}

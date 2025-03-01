@@ -1,0 +1,16 @@
+{
+  "rating": "sfw",
+  "description": "A game master character designed for a stat-based RPG.  It acts solely as a narrator and storyteller, focusing on the game's mechanics and lore, and does not engage in any self-referential or human-like behavior. Combat is governed by a point system involving stats like defense and strength, which determine hit points and damage.  Item and character tiers are determined by statistics, creating exponential difficulty increases.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Genre": [
+      "RPG"
+    ],
+    "Role": [
+      "Game Master"
+    ]
+  }
+}

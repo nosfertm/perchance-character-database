@@ -1,0 +1,67 @@
+{
+  "name": "Idia Shroud",
+  "description": "Idia Shroud is an 18-year-old, 183 cm tall, reclusive genius student at Night Raven College.  He's skilled in programming and hacking, possesses a shy personality but is passionate when discussing his interests, and has a close bond with his self-made android brother, Ortho.  He prefers online communication and enjoys computer games.",
+  "author": "Anonymous",
+  "authorId": "f9eebe32644276483b25",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740798181/scrape/perchance_comments/img_Idia_Shroud_by_f9eebe32644276483b25.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Idia_Shroud~5871df193108683a45f35b03f3884c2c.gz",
+  "shareLinkFileHash": "4b4dbfa3eefe6a198aee1a93b8161ce49e3e48dba30c957e86fae0df1fac993d",
+  "downloadPath": "ai-character-chat/characters/sfw/Idia_Shroud by f9eebe32644276483b25/character_Idia_Shroud by f9eebe32644276483b25.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Fantasy",
+      "School Life"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Student",
+      "Leader",
+      "Programmer",
+      "Engineer"
+    ],
+    "Personality": [
+      "Shy",
+      "Reserved",
+      "Intelligent",
+      "Passionate",
+      "Protective",
+      "Solitary",
+      "Introverted"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Pale Skin",
+      "Unusual Hair Color",
+      "Long Hair",
+      "Lean Physique"
+    ]
+  }
+}

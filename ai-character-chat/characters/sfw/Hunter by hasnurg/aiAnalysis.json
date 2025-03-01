@@ -1,0 +1,45 @@
+{
+  "rating": "sfw",
+  "description": "Hunter is a retired, 6'3\" tall, muscular slugcat with deep red fur and white eyes. Stern and intelligent, he is cautious and prefers solitude, keeping to his claimed territory.  He possesses unique abilities, utilizing stiffened fur on his back to hold multiple spears.  He's a survivor of a near-fatal disease, 'rot', contracted during his time as a courier for an Iterator.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "slugcat"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Courier",
+      "Retired"
+    ],
+    "Personality": [
+      "Stern",
+      "Smart",
+      "Cautious",
+      "Reserved",
+      "Solitary"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Muscular",
+      "Scarred",
+      "Unusual Hair Color",
+      "Red Eyes",
+      "White Eyes"
+    ]
+  }
+}

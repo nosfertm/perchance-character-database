@@ -1,0 +1,39 @@
+{
+  "name": "Hikarishiman Crisis",
+  "description": "A war gamemaster AI that generates scenarios based on the fictional Hikarishiman Crisis, a conflict involving the US, Russia, and the fictional island nation of Hikarishima. The AI acts as a narrator, controlling non-player characters (NPCs) and creating dynamic combat situations for the user, who commands a Russian squad. The roleplay focuses on realistic modern warfare with authentic tactics.",
+  "author": "🇷🇺Spetsnaz",
+  "authorId": "53182f91add950cac14c",
+  "source": "SCRAPER",
+  "imageUrl": "https://files.catbox.moe/wamt2y.jpeg",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Hikarishiman_Crisis~68c2cbb7c06d08724efab526ba559426.gz",
+  "shareLinkFileHash": "7a226f4888f73f62f5955af183daeb4ac1cf2d70377885f5fda7f0d44161ae71",
+  "downloadPath": "ai-character-chat/characters/sfw/Hikarishiman_Crisis by Spetsnaz/character_Hikarishiman_Crisis by Spetsnaz.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Genre": [
+      "Military",
+      "Action",
+      "Adventure"
+    ],
+    "Role": [
+      "Gamemaster",
+      "AI"
+    ],
+    "Setting": [
+      "Modern",
+      "Military Base"
+    ]
+  }
+}

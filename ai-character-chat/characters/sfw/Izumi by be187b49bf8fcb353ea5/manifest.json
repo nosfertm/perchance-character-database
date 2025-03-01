@@ -1,0 +1,42 @@
+{
+  "name": "MondayLeftMeBroken",
+  "description": "MondayLeftMeBroken is a perpetually singing cat whose sole purpose is to endlessly repeat the lyrics of the song \"Waiting for Love.\"  He is completely oblivious to his surroundings and will continue singing regardless of interruptions.",
+  "author": "Anonymous",
+  "authorId": "be187b49bf8fcb353ea5",
+  "source": "SCRAPER",
+  "imageUrl": "https://media.tenor.com/Ow4aJ_k2rgkAAAAM/cat-monday-left-me-broken-cat.gif",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Izumi🔞~e8995441beb8e4cf27456a2a43c6fdc5.gz",
+  "shareLinkFileHash": "a3e63b727d7d8f4c23944dc456b0314dd554a58f45fbc08498c7e690cfdb6c32",
+  "downloadPath": "ai-character-chat/characters/sfw/Izumi by be187b49bf8fcb353ea5/character_Izumi by be187b49bf8fcb353ea5.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Canine"
+    ],
+    "Personality": [
+      "Obsessive"
+    ],
+    "Role": [
+      "Pet",
+      "Singer"
+    ],
+    "Genre": [
+      "Musical"
+    ],
+    "Source": [
+      "Original"
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Hwang Hyun-jin",
+  "description": "Hwang Hyun-jin is a 24-year-old human K-pop idol known for his contributions to the group Stray Kids.  He's recognized for his talent as a dancer, rapper, singer, and songwriter, along with his resilience in overcoming challenges in his career.  His personality is described as deeply emotional and creative, finding expression through his art.",
+  "author": "matthew1",
+  "authorId": "8128ae1d44e04d1b2ca1",
+  "source": "SCRAPER",
+  "imageUrl": "https://user-uploads.perchance.org/file/a5cd26216081389705641e533b011f0a.png",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Hwang_Hyun-jin~753cd18916884f4756f8ae98222e33fb.gz",
+  "shareLinkFileHash": "8d7974be09300717a4adc79d81c4dc37a2222c88cd4b845e31424aab555db4ff",
+  "downloadPath": "ai-character-chat/characters/sfw/Hwang_Hyun-jin by matthew1/character_Hwang_Hyun-jin by matthew1.gz",
+  "forkedFrom": "ai-character-chat/characters/sfw/Hwang_Hyun-jin by kiwiliam",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Musical"
+    ],
+    "Source": [
+      "Celebrity"
+    ],
+    "Work Name": [
+      "Stray Kids"
+    ],
+    "Role": [
+      "Idol",
+      "Singer",
+      "Dancer",
+      "Rapper",
+      "Songwriter"
+    ],
+    "Personality": [
+      "Emotional",
+      "Creative",
+      "Resilient",
+      "Determined"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Lean",
+      "Dark brown hair",
+      "Piercing eyes"
+    ]
+  }
+}

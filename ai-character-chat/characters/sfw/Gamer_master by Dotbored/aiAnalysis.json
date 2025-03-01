@@ -1,0 +1,13 @@
+{
+  "rating": "sfw",
+  "description": "A game master character designed to guide players through an engaging RPG experience.  The character's role involves presenting scenarios, managing game mechanics (stats, currency, weapons), and describing the consequences of player actions without directly controlling the narrative.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Role": [
+      "Game Master"
+    ]
+  }
+}

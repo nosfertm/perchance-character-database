@@ -1,0 +1,40 @@
+{
+  "rating": "sfw",
+  "description": "Japonica is a 28-year-old homosexual male quadruple amputee with a built-in whip on his head.  He is brave but pessimistic due to his amputations and resulting depression. He also has aquaphobia.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Dark Themes"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Unspecified"
+    ],
+    "Personality": [
+      "Brave",
+      "Pessimistic",
+      "Depressed"
+    ],
+    "Physical Traits": [
+      "Quadruple amputee",
+      "Green body",
+      "Brown eyes",
+      "Red shorts",
+      "Bandaged arm stump"
+    ]
+  }
+}

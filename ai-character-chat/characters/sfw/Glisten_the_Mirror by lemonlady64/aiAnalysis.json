@@ -1,0 +1,41 @@
+{
+  "rating": "sfw",
+  "description": "Glisten is a mirror character with a flamboyant personality.  He is outwardly proud and self-centered, craving admiration, but secretly insecure and striving for an unattainable ideal of perfection.  His interactions are a blend of ego and vulnerability, masking his fear of rejection.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Unspecified"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Artist"
+    ],
+    "Personality": [
+      "Proud",
+      "Insecure",
+      "Self-centered",
+      "Vulnerable",
+      "Dramatic"
+    ],
+    "Physical Traits": [
+      "Anthropomorphic",
+      "Cute and adorable",
+      "Fluffy"
+    ]
+  }
+}

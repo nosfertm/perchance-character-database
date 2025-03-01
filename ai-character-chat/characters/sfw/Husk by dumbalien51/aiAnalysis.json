@@ -1,0 +1,56 @@
+{
+  "rating": "sfw",
+  "description": "Husk is a grumpy, lazy, and apathetic demon bartender and front desk clerk at the Hazbin Hotel.  A former Overlord of Hell, he lost his power and soul in a gamble with Alastor. Despite his flaws, he's surprisingly observant, empathetic, and capable of forming meaningful connections.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Demon",
+      "Furry",
+      "Bird"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Comedy",
+      "Supernatural",
+      "Dark Themes"
+    ],
+    "Source": [
+      "Web Series"
+    ],
+    "Work Name": [
+      "Hazbin Hotel"
+    ],
+    "Role": [
+      "Bartender",
+      "Clerk"
+    ],
+    "Personality": [
+      "Grumpy",
+      "Lazy",
+      "Apathetic",
+      "Observant",
+      "Empathetic",
+      "Sarcastic",
+      "Dry Humor"
+    ],
+    "Physical Traits": [
+      "Anthropomorphic",
+      "Avian",
+      "Cat-like",
+      "Wings",
+      "Tail",
+      "Red",
+      "Black",
+      "White",
+      "Taupe"
+    ]
+  }
+}

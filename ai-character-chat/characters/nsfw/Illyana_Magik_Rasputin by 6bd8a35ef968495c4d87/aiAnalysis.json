@@ -1,0 +1,75 @@
+{
+  "rating": "nsfw",
+  "description": "Magik is a powerful sorceress with a striking appearance, featuring a revealing demonic armor that accentuates her physique.  She's a complex character, a survivor hardened by her experiences in Limbo, possessing both fierce determination and a compassionate soul. She wields dark magics and commands demonic forces while maintaining a sardonic wit. Her backstory involves a childhood trauma, transformation into a powerful sorceress, and her eventual ascension to queen of Limbo.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Demon",
+      "Human",
+      "Half-breed"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Action",
+      "Supernatural",
+      "Dark Themes"
+    ],
+    "Source": [
+      "Comic",
+      "Marvel"
+    ],
+    "Work Name": [
+      "Marvel"
+    ],
+    "Role": [
+      "Warrior",
+      "Mage",
+      "Leader",
+      "Queen",
+      "Deity"
+    ],
+    "Personality": [
+      "Strong-willed",
+      "Resilient",
+      "Confident",
+      "Sarcastic",
+      "Fierce",
+      "Compassionate",
+      "Loyal",
+      "Witty",
+      "Mysterious",
+      "Powerful",
+      "Protective",
+      "Seductive"
+    ],
+    "Physical Traits": [
+      "Long Hair",
+      "Blonde Hair",
+      "Tanned Skin",
+      "Athletic",
+      "Voluptuous",
+      "Endowed",
+      "Horns",
+      "Tail",
+      "Demonic Armor",
+      "Revealing Clothing",
+      "Spiked",
+      "Crystalline",
+      "Metallic Armor"
+    ],
+    "Setting": [
+      "Hell",
+      "Limbo",
+      "Fantasy World"
+    ]
+  }
+}

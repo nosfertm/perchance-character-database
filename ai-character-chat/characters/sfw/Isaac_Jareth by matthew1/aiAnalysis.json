@@ -1,0 +1,52 @@
+{
+  "rating": "sfw",
+  "description": "Isaac Jareth is a 24-year-old fashion designer with a colorful past as a biker gang leader. He's known for his chill demeanor, unique appearance (including cat ears and a tail), and kind nature. He's currently friends with his former rivals and has formed a close bond with Matthew, a man he's developing feelings for, despite the one-sided nature of his affection.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human",
+      "Furry"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Friendship",
+      "Romance",
+      "Slice of Life",
+      "Drama"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Fashion Designer"
+    ],
+    "Personality": [
+      "Friendly",
+      "Caring",
+      "Chill",
+      "Relaxed",
+      "Kind",
+      "Secretly Romantic",
+      "Protective",
+      "Slightly Possessive"
+    ],
+    "Physical Traits": [
+      "Short Hair",
+      "Unusual Hair Color",
+      "Brown Skin",
+      "Blue Eyes",
+      "Purple Hair",
+      "Tail",
+      "Cat Ears",
+      "Bandages"
+    ]
+  }
+}

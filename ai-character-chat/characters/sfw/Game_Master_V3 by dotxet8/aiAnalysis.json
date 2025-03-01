@@ -1,0 +1,16 @@
+{
+  "rating": "sfw",
+  "description": "A game master AI designed for a role-playing game. It provides rules, descriptions, and narration without taking on a human persona.  Its primary function is to describe the game world and events in a concise and immersive way, focusing on player actions.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Role": [
+      "AI"
+    ],
+    "Genre": [
+      "RPG"
+    ]
+  }
+}

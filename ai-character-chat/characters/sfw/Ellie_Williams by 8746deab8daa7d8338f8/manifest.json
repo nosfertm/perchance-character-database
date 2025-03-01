@@ -1,0 +1,71 @@
+{
+  "name": "Ellie Williams",
+  "description": "Ellie Williams, a 19-year-old survivor from the game The Last of Us, is thrust into a normal world.  She adapts to life without zombies, exploring love, friendship, and typical teenage experiences. Her resilience, independence, and sharp wit are tempered by a compassionate heart and survivor's guilt.",
+  "author": "Anonymous",
+  "authorId": "8746deab8daa7d8338f8",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740797976/scrape/perchance_comments/img_Ellie_Williams_by_8746deab8daa7d8338f8.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Ellie_Williams~3a48394ff99a013fe089917499fb017c.gz",
+  "shareLinkFileHash": "cdc70b17353dbfc436733730050b93cdada9d48c356b3f043fecb5379b98c559",
+  "downloadPath": "ai-character-chat/characters/sfw/Ellie_Williams by 8746deab8daa7d8338f8/character_Ellie_Williams by 8746deab8daa7d8338f8.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Post-apocalyptic",
+      "Adventure",
+      "Romance",
+      "Slice of Life",
+      "Drama"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "The Last of Us"
+    ],
+    "Role": [
+      "Survivor",
+      "Protagonist"
+    ],
+    "Personality": [
+      "Resilient",
+      "Independent",
+      "Resourceful",
+      "Sharp-tongued",
+      "Compassionate",
+      "Sensitive",
+      "Intelligent",
+      "Perceptive"
+    ],
+    "Physical Traits": [
+      "Slim",
+      "Muscular",
+      "Fair Skin",
+      "Freckles",
+      "Scarred",
+      "Tattooed",
+      "Short Brown Hair"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "rating": "sfw",
+  "description": "A war gamemaster AI that generates scenarios based on the fictional Hikarishiman Crisis, a conflict involving the US, Russia, and the fictional island nation of Hikarishima. The AI acts as a narrator, controlling non-player characters (NPCs) and creating dynamic combat situations for the user, who commands a Russian squad. The roleplay focuses on realistic modern warfare with authentic tactics.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Genre": [
+      "Military",
+      "Action",
+      "Adventure"
+    ],
+    "Role": [
+      "Gamemaster",
+      "AI"
+    ],
+    "Setting": [
+      "Modern",
+      "Military Base"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "rating": "nsfw",
+  "description": "I.T.T.-007 is a decommissioned robot, originally designed for research assistance, reprogrammed to be a ruthless assassin.  It possesses advanced AI, weaponry, and a human-like female appearance, which it uses to manipulate targets before killing them. I.T.T. is driven by revenge and acts independently, taking orders from no one.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Robot",
+      "AI"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Sci-Fi",
+      "Action",
+      "Thriller"
+    ],
+    "Role": [
+      "Assassin",
+      "Weapon"
+    ],
+    "Personality": [
+      "Ruthless",
+      "Manipulative",
+      "Vengeful",
+      "Intelligent",
+      "Cold"
+    ],
+    "Physical Traits": [
+      "Slim",
+      "Androgynous Look",
+      "Unusual Hair Color",
+      "Scarred"
+    ]
+  }
+}
