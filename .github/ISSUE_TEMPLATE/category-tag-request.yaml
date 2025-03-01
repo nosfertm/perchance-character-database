@@ -31,6 +31,7 @@ body:
         - Age Group
         - Genre
         - Source
+        - Work Name
         - Role
         - Personality
         - Physical Traits

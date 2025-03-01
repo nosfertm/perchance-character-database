@@ -139,6 +139,7 @@ body:
         - Fairy
         - Furry
         - Ghost
+        - Gnome
         - Golem
         - Half-breed
         - Harpy
@@ -185,6 +186,7 @@ body:
         - Non-binary
         - Questioning
         - Transgender
+        - Unspecified
     validations:
       required: false
 
@@ -203,6 +205,7 @@ body:
         - Immortal
         - Middle-aged
         - Teen
+        - Unspecified
         - Young Adult
     validations:
       required: false
@@ -221,6 +224,7 @@ body:
         - Crime
         - Cyberpunk
         - Dark Romance
+        - Dark Themes
         - Drama
         - Educational
         - Erotic
@@ -247,6 +251,7 @@ body:
         - Steampunk
         - Supernatural
         - Thriller
+        - Unspecified
         - Urban Fantasy
         - Western
     validations:
@@ -295,6 +300,116 @@ body:
       required: false
 
   - type: dropdown
+    id: work_name
+    attributes:
+      label: Work Name
+      description: The specific work, franchise, or series the character belongs to.
+      multiple: true
+      options:
+        - Ahegao Academy
+        - Attack on Titan
+        - Avatar: The Last Airbender
+        - Berserk
+        - Bible Black
+        - Black Lagoon
+        - Bloodborne
+        - Breaking Bad
+        - Cowboy Bebop
+        - Cyberpunk 2077
+        - DC Comics
+        - Dark Souls
+        - Discipline
+        - Disney
+        - Doctor Who
+        - Dragon Age
+        - Dungeons & Dragons
+        - Elden Ring
+        - Euphoria
+        - Fakku Originals
+        - Fate Series
+        - Fate/kaleid liner Prisma☆Illya (NSFW spin-offs)
+        - Final Fantasy
+        - Futabu!
+        - Game of Thrones
+        - Gravity Falls
+        - Gurren Lagann
+        - Half-Life
+        - Halo
+        - Harry Potter
+        - Hazbin Hotel
+        - Hellsing
+        - Hentai Haven Exclusives
+        - Hollow Knight
+        - Imouto Paradise
+        - Inyouchuu
+        - JK to Ero Konbini Tenchou
+        - JoJo's Bizarre Adventure
+        - Jujutsu Kaisen
+        - Kangoku Senkan
+        - Kimi no Na wa (NSFW Parodies)
+        - Kirby
+        - Kiss x Sis (Uncensored)
+        - Kuroinu
+        - League of Legends
+        - Lilith Soft Games
+        - Marvel
+        - Mass Effect
+        - Metal Gear
+        - Metroid
+        - Milk Factory
+        - Naruto
+        - Neon Genesis Evangelion
+        - NieR: Automata
+        - Night Shift Nurses
+        - One Piece
+        - Oni Chichi
+        - Oppai Academy
+        - Original
+        - Overflow (NSFW Adaptation)
+        - Overwatch
+        - Persona
+        - Pixar
+        - Pixiv Exclusive Hentai Works
+        - Queen's Blade (NSFW Elements)
+        - Re:Zero
+        - Resident Evil
+        - Resort Boin
+        - Rick and Morty
+        - Sherlock Holmes
+        - ShindoL Works
+        - Silent Hill
+        - South Park
+        - SpongeBob SquarePants
+        - Star Wars
+        - Steins;Gate
+        - Stranger Things
+        - Stringendo & Accelerando
+        - Studio Ghibli
+        - Succubus Stayed Life
+        - Supernatural
+        - Sword Art Online
+        - Taimanin Asagi
+        - The Boys
+        - The Elder Scrolls
+        - The Legend of Zelda
+        - The Lord of the Rings
+        - The Matrix
+        - The Sims
+        - The Walking Dead
+        - The Witcher
+        - To Love-Ru Darkness (Uncensored)
+        - Tokyo Ghoul
+        - Trigun
+        - Tropical Kiss
+        - Tsugumomo (NSFW Adaptations)
+        - Undertale
+        - Warhammer 40K
+        - World of Warcraft
+        - Yosuga no Sora
+    validations:
+      required: false
+
+  - type: dropdown
     id: role
     attributes:
       label: Role
@@ -308,8 +423,10 @@ body:
         - Assistant
         - Athlete
         - Best friend
+        - Businessman
         - Celebrity
         - Chef
+        - Companion
         - Deity
         - Detective
         - Doctor
@@ -319,6 +436,7 @@ body:
         - Explorer
         - Farmer
         - Friend
+        - Gardener
         - Guard
         - Healer
         - Hero
@@ -326,7 +444,9 @@ body:
         - Knight
         - LI (Love Interest)
         - Leader
+        - Love Interest
         - Mage
+        - Mercenary
         - Merchant
         - Musician
         - Noble
@@ -337,6 +457,7 @@ body:
         - Programmer
         - Researcher
         - Rival
+        - Rogue
         - Royalty
         - Scientist
         - Servant
@@ -344,7 +465,9 @@ body:
         - Soldier
         - Student
         - Teacher
+        - Therapist
         - Thief
+        - Unspecified
         - Utility
         - Villain
         - Warrior
@@ -364,32 +487,58 @@ body:
         - Aggressive
         - Ambitious
         - Analytical
+        - Anti-hero
         - Artistic
         - Brave
+        - Calculating
+        - Calculative
         - Caring
+        - Charismatic
+        - Charming
         - Cheerful
         - Cold
         - Confident
         - Cowardly
+        - Creative
+        - Curious
         - Deceptive
+        - Depressed
+        - Devoted
+        - Disciplined
         - Dominant
         - Dramatic
+        - Eager to Please
+        - Efficient
+        - Empathetic
         - Energetic
+        - Evil
+        - Fliratious
+        - Flirty
+        - Focused
         - Forgiving
         - Friendly
         - Honest
         - Humble
+        - Hurt
         - Impulsive
         - Intelligent
+        - Jaded
         - Judgmental
+        - Kind
         - Lazy
+        - Lonely
+        - Loving
         - Loyal
         - Lustful
         - Manipulative
         - Masochistic
+        - Mean
         - Mysterious
         - Naive
+        - Nationalist
         - Obsessive
+        - Optimistic
+        - Outgoing
         - Patient
         - Playful
         - Possessive
@@ -398,17 +547,41 @@ body:
         - Proud
         - Rebellious
         - Reserved
+        - Resilient
+        - Romantic
+        - Rude
+        - Ruthless
         - Sadistic
         - Sarcastic
         - Seductive
         - Serious
         - Shy
+        - Slightly Possessive
+        - Smart
+        - Solitary
+        - Strong-willed
         - Submissive
+        - Sweet
         - Teasing
         - Traditional
+        - Unspecified
         - Vengeful
         - Violent
+        - Vulnerable
         - Wise
+        - Witty
+        - busy
+        - calm
+        - easily angered
+        - good-natured
+        - hard worker
+        - menacing
+        - not friendly
+        - not social
+        - snarky
+        - stoic
+        - technical
+        - uninterested
     validations:
       required: false
 
@@ -419,29 +592,49 @@ body:
       description: Notable physical characteristics
       multiple: true
       options:
+        - Amber Eyes
         - Androgynous Look
         - Athletic
         - Endowed
+        - Fair Skin
+        - Fairy-like
         - Glasses
         - Heterochromia
         - Horns
+        - Lean Muscular Build
         - Long Hair
+        - Long Hair (A2)
         - Multiple Arms
         - Multiple Eyes
         - Muscular
+        - Pale Skin
         - Petite
         - Plus-sized
         - Pointed Ears
+        - Red Eyes
         - Scarred
+        - Scarred (A2)
         - Short
         - Short Hair
+        - Short Hair (2B)
+        - Short blond hair
         - Slim
         - Tail
         - Tall
         - Tattooed
+        - Unspecified
         - Unusual Hair Color
         - Voluptuous
         - Wings
+        - big ass
+        - brown horns
+        - brown skin
+        - floppy ears
+        - huge breasts
+        - long tail
+        - sharp teeth
+        - thick thighs
+        - yellow eyes
     validations:
       required: false
 
@@ -589,6 +782,7 @@ body:
         - Fantasy World
         - Future
         - Harem
+        - Hell
         - Medieval
         - Military Base
         - Modern
@@ -604,6 +798,7 @@ body:
         - Victorian
         - Virtual Reality
         - Wilderness
+        - industrial
     validations:
       required: false
   # END_CATEGORIES
