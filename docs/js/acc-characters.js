@@ -73,19 +73,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
                     const cacheConfig = window.CONFIG.cache.accCharacters.characters;
                     const cacheKey = cacheConfig.key;
-                    const cacheDuration = cacheConfig.duration * 60 * 1000 || 3600; // Convert minutes to milliseconds, default 1 hour.
+                    const cacheDuration = cacheConfig.duration * 60 * 1000 || 3600;
 
                     const cachedData = localStorage.getItem(cacheKey);
                     const lastFetchTime = localStorage.getItem(`${cacheKey}_timestamp`);
                     const isCacheValid = lastFetchTime && (Date.now() - lastFetchTime < cacheDuration);
 
-                    if (!forceRefresh && cachedData && isCacheValid) {
-                        const charData = JSON.parse(cachedData);
-                        Misc.debug(debugKey, debugPrefix + "Using cached data for characters.\nData:", JSON.stringify(charData, 0, 4));
-                        this.characters = charData;
-                    } else {
-                        Misc.debug(debugKey, debugPrefix + "Fetching new data for characters...\n\nReasons for not using cache:\n1. Force refresh:", forceRefresh, "\n2. Cache validity:", isCacheValid, "\n3. Cached data:", cachedData);
+                    let charData;
 
+                    if (!forceRefresh && cachedData && isCacheValid) {
+                        charData = JSON.parse(cachedData);
+                        Misc.debug(debugKey, debugPrefix + "Using cached data for characters");
+                    } else {
                         const indexData = await GithubUtils.fetchGithubData(
                             window.CONFIG.repo.owner,
                             window.CONFIG.repo.name,
@@ -94,35 +93,35 @@ document.addEventListener('DOMContentLoaded', () => {
                             "json"
                         );
 
-                        Misc.debug(debugKey, debugPrefix + "Fetched index.json data:", "indexData");
-
-                        // Check if the data has the correct structure
-                        if (!indexData || typeof indexData !== 'object') {
+                        // Check data structure
+                        if (!indexData || typeof indexData !== 'object' || !Array.isArray(indexData)) {
                             throw new Error('Invalid structure for characters data');
                         }
 
-                        if (!Array.isArray(indexData)) {
-                            throw new Error("Unexpected response format: Expected an array");
-                        }
+                        // Process the data to convert categories to lowercase
+                        charData = indexData.map(char => {
+                            if (char.manifest?.categories) {
+                                const lowerCaseCategories = {};
+                                Object.entries(char.manifest.categories).forEach(([key, value]) => {
+                                    const lowerKey = key.toLowerCase();
+                                    const lowerValue = Array.isArray(value)
+                                        ? value.map(v => typeof v === 'string' ? v.toLowerCase() : v)
+                                        : typeof value === 'string' ? value.toLowerCase() : value;
+                                    lowerCaseCategories[lowerKey] = lowerValue;
+                                });
+                                char.manifest.categories = lowerCaseCategories;
+                            }
+                            return char;
+                        });
 
-                        // Transform data to match the original output format
-                        // const repoURL = `https://github.com/${CONFIG.repo.owner}/${CONFIG.repo.name}/blob/${CONFIG.repo.branch}`;
-                        // const charData = indexData.map((item) => ({
-                        //     ...item.manifest,
-                        //     path: `${repoURL}/${item.path}`,
-                        //     type: item.manifest.categories.rating
-                        // }));
-                        const charData = indexData;
-
-                        // Store data in state and cache
+                        // Store processed data in cache
                         localStorage.setItem(cacheKey, JSON.stringify(charData));
                         localStorage.setItem(`${cacheKey}_timestamp`, Date.now().toString());
 
-                        Misc.debug(debugKey, debugPrefix + "Fetched and stored characters data successfully!\nData:", JSON.stringify(charData, 0, 4));
-
-                        //return charData;
-                        this.characters = charData;
+                        Misc.debug(debugKey, debugPrefix + "Fetched and stored characters data successfully");
                     }
+
+                    this.characters = charData;
                 } catch (error) {
                     ToastUtils.showToast('Failed to load characters.', 'Error', 'error');
                     console.error("Failed to load characters:", error.message);
@@ -195,6 +194,22 @@ document.addEventListener('DOMContentLoaded', () => {
                 } finally {
                     this.stateLoading = false;
                 }
+            },
+
+            // Add this helper method to the methods section
+            convertToLowerCase(data) {
+                if (Array.isArray(data)) {
+                    return data.map(item => this.convertToLowerCase(item));
+                } else if (typeof data === 'object' && data !== null) {
+                    const newObj = {};
+                    for (const [key, value] of Object.entries(data)) {
+                        newObj[key.toLowerCase()] = this.convertToLowerCase(value);
+                    }
+                    return newObj;
+                } else if (typeof data === 'string') {
+                    return data.toLowerCase();
+                }
+                return data;
             },
 
             isTagSelected(categoryName, tag, cat) {
@@ -374,7 +389,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Check if the selected character is NSFW
             isNsfwCharacter(rating) {
-                //const rating = this.selectedCharacter.manifest?.categories?.rating;
+                if (!rating) return false;
 
                 return Array.isArray(rating)
                     ? rating.includes('nsfw')  // If array, checks if contaisn 'nsfw'
@@ -385,10 +400,10 @@ document.addEventListener('DOMContentLoaded', () => {
             capitalizeWords(str) {
                 if (!str) return '';
                 return str
-                  .split(' ') // Split the words
-                  .map(word => word.charAt(0).toUpperCase() + word.slice(1)) // Capitalize each word
-                  .join(' '); // Merge words
-              }
+                    .split(' ') // Split the words
+                    .map(word => word.charAt(0).toUpperCase() + word.slice(1)) // Capitalize each word
+                    .join(' '); // Merge words
+            }
         },
         computed: {
             themeIcon() {
