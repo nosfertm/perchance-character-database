@@ -73,7 +73,9 @@
                 "Giant",
                 "Cookie",
                 "plant",
-                "pumpkin"
+                "pumpkin",
+                "Fish",
+                "Humanoid"
             ],
             "nsfw": [
                 "Succubus",
@@ -172,7 +174,8 @@
                 "Unspecified",
                 "Dark Themes",
                 "Game",
-                "Music"
+                "Music",
+                "Entertainment"
             ],
             "nsfw": [
                 "Erotic",
@@ -219,7 +222,8 @@
                 "Kirby",
                 "Undertale",
                 "Musical",
-                "Marvel"
+                "Marvel",
+                "Terraria"
             ],
             "nsfw": [
                 "Hentai",
@@ -323,7 +327,9 @@
                 "Portal",
                 "Tower of Fantasy",
                 "Stray Kids",
-                "Bendy and the Ink Machine"
+                "Bendy and the Ink Machine",
+                "My Life as a Teenage Robot",
+                "Camp Buddy"
             ],
             "nsfw": [
                 "Bible Black",
@@ -469,7 +475,12 @@
                 "Guardian",
                 "Queen",
                 "Fashion Designer",
-                "Nature Caretaker"
+                "Nature Caretaker",
+                "Bodyguard",
+                "Pirate",
+                "Surfer Shop Owner",
+                "Community Volunteer",
+                "Critic"
             ],
             "nsfw": [
                 "Adult Entertainer",
@@ -749,7 +760,30 @@
                 "Tender (Hidden)",
                 "Cynical",
                 "Professional",
-                "Pessimistic"
+                "Pessimistic",
+                "Brutal",
+                "Nihilistic",
+                "Prideful",
+                "Controlling",
+                "Overprotective",
+                "Laid back",
+                "Leader",
+                "Clumsy (on land)",
+                "Greedy",
+                "Just",
+                "Unforgiving",
+                "Commanding",
+                "Emotionally Intelligent",
+                "Extroverted",
+                "Enthusiastic",
+                "Chatty",
+                "Heroic",
+                "Outspoken",
+                "Irreverent",
+                "Fun-loving",
+                "Tsundere",
+                "Hyper",
+                "Social"
             ],
             "nsfw": [
                 "Dominant",
@@ -1048,7 +1082,55 @@
                 "Green body",
                 "Red shorts",
                 "Bandaged arm stump",
-                "cat tail"
+                "cat tail",
+                "Mechanical",
+                "Metallic",
+                "Strong",
+                "Broad-shouldered",
+                "Hazel Eyes",
+                "Casual Clothing",
+                "Robot",
+                "Blue Hair",
+                "Red Shirt",
+                "Blue Skirt",
+                "Colossal",
+                "Beard",
+                "Tattoos",
+                "Messy dark brown hair",
+                "Light blue",
+                "Semi-circular body",
+                "Tall fins",
+                "Vacant eyes",
+                "Open mouth",
+                "Orange lips",
+                "Clam-shaped pectoral fins",
+                "Yellow clavus",
+                "Yellow fins",
+                "Orange mouth",
+                "Flightless",
+                "Blue feathers",
+                "White belly",
+                "Red beak",
+                "Crown",
+                "Purple cloak",
+                "Hammer",
+                "Plate Armor",
+                "Frost Runes",
+                "Crimson Cape",
+                "Golden Crown",
+                "Long Braided Beard",
+                "Icy Beads",
+                "Glistening",
+                "Pink scales",
+                "Yellow scales",
+                "Large dark green eyes",
+                "Diamond-shaped snout",
+                "Long neck",
+                "Tiny claws",
+                "Pink",
+                "Gas Mask",
+                "Cute",
+                "Yellow Hair"
             ],
             "nsfw": [
                 "Voluptuous",
@@ -1069,7 +1151,8 @@
                 "Cuckolding",
                 "Light bondage",
                 "Service-oriented submission",
-                "Feminization"
+                "Feminization",
+                "Worship"
             ],
             "nsfw": [
                 "BDSM",
@@ -1117,7 +1200,8 @@
                 "Unspecified",
                 "Gentle sex",
                 "Foreplay",
-                "Seduction"
+                "Seduction",
+                "Vaginal sex"
             ],
             "nsfw": [
                 "Vanilla",
@@ -1283,5 +1367,17 @@
         "required": false,
         "nsfw_only": false,
         "name": "Physical_traits"
+    },
+    {
+        "description": "Auto-generated category",
+        "tags": {
+            "general": [
+                "original"
+            ],
+            "nsfw": []
+        },
+        "required": false,
+        "nsfw_only": false,
+        "name": "Work_name"
     }
 ]

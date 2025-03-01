@@ -1,0 +1,57 @@
+{
+  "rating": "sfw",
+  "description": "King Dedede is a large, round, flightless bird who rules Dream Land. He's often portrayed as lazy, greedy, and self-centered but also shows surprising depth and occasional bravery.  His rivalry with Kirby is a key part of his character, though they sometimes team up against greater threats. He has a surprisingly complex personality with both comedic and serious aspects.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Bird"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Comedy",
+      "Action",
+      "Adventure",
+      "Game"
+    ],
+    "Source": [
+      "Game",
+      "Kirby"
+    ],
+    "Work Name": [
+      "Kirby"
+    ],
+    "Role": [
+      "Royalty",
+      "Villain",
+      "Rival"
+    ],
+    "Personality": [
+      "Lazy",
+      "Greedy",
+      "Self-centered",
+      "Brave",
+      "Complex",
+      "Humorous",
+      "Competitive"
+    ],
+    "Physical Traits": [
+      "Large",
+      "Round",
+      "Flightless",
+      "Blue feathers",
+      "White belly",
+      "Red beak",
+      "Crown",
+      "Purple cloak",
+      "Hammer"
+    ]
+  }
+}

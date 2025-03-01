@@ -1,0 +1,40 @@
+[
+  {
+    "image": "https://user-uploads.perchance.org/file/ad83fd7d09f9cc3392a521dacfd72333.webp",
+    "predictions": [],
+    "containsNSFW": null,
+    "error": {
+      "message": "Expected image (BMP, JPEG, PNG, or GIF), but got unsupported image type",
+      "stack": "Error: Expected image (BMP, JPEG, PNG, or GIF), but got unsupported image type\n    at getImageType (/home/runner/work/perchance_content_scraper/perchance_content_scraper/node_modules/@tensorflow/tfjs-node/dist/image.js:353:15)\n    at Object.decodeImage (/home/runner/work/perchance_content_scraper/perchance_content_scraper/node_modules/@tensorflow/tfjs-node/dist/image.js:198:21)\n    at safeLoadImage (/home/runner/work/perchance_content_scraper/perchance_content_scraper/.github/scripts/process_scraped_characters.js:2410:28)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async checkImageForNSFW (/home/runner/work/perchance_content_scraper/perchance_content_scraper/.github/scripts/process_scraped_characters.js:2483:32)\n    at async processCharacter (/home/runner/work/perchance_content_scraper/perchance_content_scraper/.github/scripts/process_scraped_characters.js:2805:55)\n    at async processCharacters (/home/runner/work/perchance_content_scraper/perchance_content_scraper/.github/scripts/process_scraped_characters.js:2591:30)\n    at async main (/home/runner/work/perchance_content_scraper/perchance_content_scraper/.github/scripts/process_scraped_characters.js:3095:9)",
+      "name": "Error"
+    }
+  },
+  {
+    "image": "https://user-uploads.perchance.org/file/8c53750df2abfb0b76ba5a66b5c89efb.jpeg",
+    "fileType": "jpeg",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.9559703469276428
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.04193095490336418
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.0017240209272131324
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00031814814428798854
+      },
+      {
+        "className": "Porn",
+        "probability": 0.00005657997462549247
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

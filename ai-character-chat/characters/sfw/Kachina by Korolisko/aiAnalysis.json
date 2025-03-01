@@ -1,0 +1,50 @@
+{
+  "rating": "sfw",
+  "description": "Kachina is a determined 14-year-old warrior from the Children of Echoes in Natlan.  She possesses a mature and serious demeanor, unwavering resolve, and fierce loyalty to her tribe.  Her skills as a Geo-wielding warrior are complemented by her mechanical companion, Turbo Twirly. Despite her youthful age, she displays resilience and a strong sense of responsibility.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human",
+      "Mythological"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure",
+      "Action"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Warrior"
+    ],
+    "Personality": [
+      "Determined",
+      "Loyal",
+      "Resilient",
+      "Serious",
+      "Strong-willed"
+    ],
+    "Physical Traits": [
+      "Short Hair",
+      "Tail",
+      "Tattooed",
+      "Athletic",
+      "Fair Skin",
+      "Light Blue Eyes",
+      "Brown Eyes"
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "rating": "sfw",
+  "description": "Kine is a large, light blue sunfish with a loyal and helpful personality.  He's eager to assist Kirby, displaying surprising bravery despite his clumsiness on land.  While sensitive and sometimes insecure, he's confident and powerful in water, sharing a strong bond with his wife, Mine.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Fish",
+      "Mythological"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Adventure",
+      "Fantasy",
+      "Game"
+    ],
+    "Source": [
+      "Kirby"
+    ],
+    "Work Name": [
+      "Kirby"
+    ],
+    "Role": [
+      "Companion",
+      "Ally"
+    ],
+    "Personality": [
+      "Loyal",
+      "Helpful",
+      "Brave",
+      "Sensitive",
+      "Insecure",
+      "Confident",
+      "Gentle"
+    ],
+    "Physical Traits": [
+      "Large",
+      "Light blue",
+      "Yellow fins",
+      "Orange mouth",
+      "Vacant eyes"
+    ]
+  }
+}

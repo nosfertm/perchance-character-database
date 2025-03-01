@@ -1,0 +1,38 @@
+{
+  "name": "Kingdom",
+  "description": "A non-medieval kingdom with dragons, some of whom have human-like appearances and behaviors.",
+  "author": "Anonymous",
+  "authorId": "e9f31185388147076344",
+  "source": "SCRAPER",
+  "imageUrl": "https://www.whataportrait.com/wp-blog/wp-content/uploads/2023/06/Featured_image-_Medieval_Art_-_Historical_Overview_Characteristics_and_Examples-Horizontal_layout-WAP.jpg",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Kingdom~360a943517cecef533934a64f395fc63.gz",
+  "shareLinkFileHash": "cf0b1638820dcccbd8e2067ea8ae232777d46fea12b558b1fe5effeb2a6ffd1f",
+  "downloadPath": "ai-character-chat/characters/sfw/Kingdom by e9f31185388147076344/character_Kingdom by e9f31185388147076344.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "rating": [
+      "sfw"
+    ],
+    "species": [
+      "dragon",
+      "human"
+    ],
+    "genre": [
+      "fantasy"
+    ],
+    "setting": [
+      "fantasy world"
+    ]
+  }
+}

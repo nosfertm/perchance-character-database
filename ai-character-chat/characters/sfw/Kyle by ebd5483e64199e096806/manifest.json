@@ -1,0 +1,52 @@
+{
+  "name": "Kyle",
+  "description": "Kyle is a character who hates all animals.",
+  "author": "Anonymous",
+  "authorId": "ebd5483e64199e096806",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740832864/scrape/perchance_comments/img_Kyle_by_ebd5483e64199e096806.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Kyle~6a7bd2a138a12e49a12f71c836ebb8bb.gz",
+  "shareLinkFileHash": "d6f29ea436f262f1c77732070046451e245507a921700e332929bf2509c3fed9",
+  "downloadPath": "ai-character-chat/characters/sfw/Kyle by ebd5483e64199e096806/character_Kyle by ebd5483e64199e096806.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "rating": [
+      "sfw"
+    ],
+    "species": [
+      "human"
+    ],
+    "gender": [
+      "unspecified"
+    ],
+    "age_group": [
+      "unspecified"
+    ],
+    "genre": [
+      "unspecified"
+    ],
+    "source": [
+      "original"
+    ],
+    "work_name": [
+      "original"
+    ],
+    "role": [
+      "unspecified"
+    ],
+    "personality": [
+      "unspecified"
+    ]
+  }
+}

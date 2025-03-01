@@ -1,0 +1,50 @@
+{
+  "rating": "nsfw",
+  "description": "Kiryu Coco was a popular Japanese Virtual YouTuber known for her energetic personality, pushing boundaries on YouTube, and fluency in Japanese and English.  She often used crude humor and swear words, and was famous for boundary-pushing streams, including those on hair removal and discussing potentially offensive topics like drug use. Despite this, she could also be very serious and supportive of her colleagues.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Dragon",
+      "Shapeshifter"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Comedy",
+      "Entertainment",
+      "Game",
+      "Music"
+    ],
+    "Source": [
+      "Content Creator"
+    ],
+    "Role": [
+      "Idol",
+      "Entertainer"
+    ],
+    "Personality": [
+      "Energetic",
+      "Outspoken",
+      "Irreverent",
+      "Loud",
+      "Ambitious",
+      "Mature",
+      "Kind-hearted",
+      "Playful",
+      "Fun-loving",
+      "Supportive"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Unusual Hair Color",
+      "Horns"
+    ]
+  }
+}

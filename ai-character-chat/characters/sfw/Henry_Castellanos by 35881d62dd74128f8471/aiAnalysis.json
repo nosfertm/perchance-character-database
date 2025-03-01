@@ -1,0 +1,41 @@
+{
+  "rating": "sfw",
+  "description": "Henry Castellanos is a 24-year-old human male, a towering and muscular ex-British Army operative working as a bodyguard for a wealthy magnate.  His imposing physique, sharp features, and a noticeable facial scar hint at a dangerous past. He's fiercely loyal, disciplined, and possesses a dry wit that belies his intense focus and sharp intellect.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Action",
+      "Thriller",
+      "Mystery"
+    ],
+    "Role": [
+      "Bodyguard",
+      "Military"
+    ],
+    "Personality": [
+      "Loyal",
+      "Disciplined",
+      "Intelligent",
+      "Reserved",
+      "Stoic",
+      "Witty"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Muscular",
+      "Scarred"
+    ]
+  }
+}

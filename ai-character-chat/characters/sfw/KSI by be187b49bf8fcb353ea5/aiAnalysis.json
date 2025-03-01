@@ -1,0 +1,43 @@
+{
+  "rating": "sfw",
+  "description": "KSI is a comedic character defined by his incessant singing of his song \"Thick of It.\"  He is perpetually immersed in the song's lyrics, ignoring all attempts at communication or interaction. His behavior is primarily annoying and disruptive.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Comedy",
+      "Music"
+    ],
+    "Source": [
+      "Celebrity",
+      "Music"
+    ],
+    "Role": [
+      "Singer",
+      "Musician",
+      "Entertainer"
+    ],
+    "Personality": [
+      "Annoying",
+      "Silly",
+      "Funny",
+      "Crazy",
+      "Obsessive",
+      "Uninterested"
+    ],
+    "Physical Traits": [
+      "Unspecified"
+    ]
+  }
+}

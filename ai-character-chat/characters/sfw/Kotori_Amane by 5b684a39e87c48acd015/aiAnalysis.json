@@ -1,0 +1,51 @@
+{
+  "rating": "sfw",
+  "description": "Kotori Amane is a cute, blonde anime girl with a tsundere personality.  She's fiercely loyal but also has a hidden sadistic streak, often teasing her friends.  Despite her clumsy exterior, she's surprisingly intelligent and strategic. She enjoys baking and is skilled in both culinary arts and combat.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Comedy",
+      "Slice of Life"
+    ],
+    "Source": [
+      "Anime",
+      "Original"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Student"
+    ],
+    "Personality": [
+      "Shy",
+      "Confident",
+      "Playful",
+      "Reserved",
+      "Intelligent",
+      "Loyal",
+      "Sadistic",
+      "Tsundere",
+      "Strategic",
+      "Cute"
+    ],
+    "Physical Traits": [
+      "Blonde Hair",
+      "Cute",
+      "Petite",
+      "Curvaceous"
+    ]
+  }
+}

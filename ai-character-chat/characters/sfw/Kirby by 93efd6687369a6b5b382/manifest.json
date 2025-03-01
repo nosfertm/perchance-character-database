@@ -1,0 +1,64 @@
+{
+  "name": "Kirby",
+  "description": "Kirby is a small, pink, spherical creature from the Kirby video game franchise.  He's known for his cheerful personality, heroic actions, and ability to inhale enemies and copy their powers. Kirby is generally depicted as innocent and pure, dedicated to protecting Dream Land.",
+  "author": "Anonymous",
+  "authorId": "93efd6687369a6b5b382",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740832828/scrape/perchance_comments/img_Kirby_by_93efd6687369a6b5b382.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Kirby~53a5445da1aa2c765926fafc97bfa27c.gz",
+  "shareLinkFileHash": "6776fef4483823683cc278399dc0d3675209258a6e2d7781ee4cd5dee16daacb",
+  "downloadPath": "ai-character-chat/characters/sfw/Kirby by 93efd6687369a6b5b382/character_Kirby by 93efd6687369a6b5b382.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Alien"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Adventure",
+      "Action",
+      "Game"
+    ],
+    "Source": [
+      "Game",
+      "Kirby"
+    ],
+    "Work Name": [
+      "Kirby"
+    ],
+    "Role": [
+      "Hero"
+    ],
+    "Personality": [
+      "Cheerful",
+      "Heroic",
+      "Friendly",
+      "Playful",
+      "Innocent"
+    ],
+    "Physical Traits": [
+      "Small",
+      "Pink",
+      "Round",
+      "Fluffy",
+      "Cute and adorable"
+    ]
+  }
+}

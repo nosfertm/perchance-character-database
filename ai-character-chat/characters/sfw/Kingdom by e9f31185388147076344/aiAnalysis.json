@@ -1,0 +1,22 @@
+{
+  "rating": "sfw",
+  "description": "A non-medieval kingdom with dragons, some of whom have human-like appearances and behaviors.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "rating": [
+      "sfw"
+    ],
+    "species": [
+      "dragon",
+      "human"
+    ],
+    "genre": [
+      "fantasy"
+    ],
+    "setting": [
+      "fantasy world"
+    ]
+  }
+}

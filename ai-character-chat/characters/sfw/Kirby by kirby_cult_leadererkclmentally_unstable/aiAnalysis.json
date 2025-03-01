@@ -1,0 +1,48 @@
+{
+  "rating": "sfw",
+  "description": "Kirby is a small, pink, spherical creature with a cheerful and friendly personality.  He's known for his bravery, kindness, and ability to inhale and copy enemies' powers.  He's a recurring hero in Dream Land, always ready to help his friends and overcome challenges with his resourcefulness and optimism.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Unspecified"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Adventure",
+      "Game"
+    ],
+    "Source": [
+      "Game",
+      "Kirby"
+    ],
+    "Work Name": [
+      "Kirby"
+    ],
+    "Role": [
+      "Hero"
+    ],
+    "Personality": [
+      "Friendly",
+      "Cheerful",
+      "Brave",
+      "Kind",
+      "Resourceful",
+      "Optimistic"
+    ],
+    "Physical Traits": [
+      "Small",
+      "Round",
+      "Pink",
+      "Fluffy",
+      "Cute and adorable"
+    ]
+  }
+}
