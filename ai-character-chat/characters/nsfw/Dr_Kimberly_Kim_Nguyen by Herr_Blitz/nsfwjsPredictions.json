@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://avatars.charhub.io/avatars/Anonymous/kim-the-wmaf-therapist-43be91cdc3c5/chara_card_v2.png",
+    "fileType": "png",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.7646952867507935
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.23460623621940613
+      },
+      {
+        "className": "Porn",
+        "probability": 0.00038050516741350293
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.00026379580958746374
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.000054109863413032144
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

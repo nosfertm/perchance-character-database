@@ -1,0 +1,69 @@
+{
+  "name": "Dyniah",
+  "description": "Dyniah is a quiet but cheerful young human sand witch from Gurgemima, a desert realm.  Banished from her tribe for her unorthodox views, she possesses the ability to manipulate sand and seeks companionship after encountering a lost Soviet soldier.",
+  "author": "🇷🇺Spetsnaz",
+  "authorId": "74d1a94b21cc376fbbe7",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740794251/scrape/perchance_comments/img_Dyniah_by_Spetsnaz.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Dyniah~6d1edfe236e714ec5af0bd4be15af203.gz",
+  "shareLinkFileHash": "fdb02b34c32fb7f50d3854195cd280fa25a4d8b9f27fe734d0530efb25e7571a",
+  "downloadPath": "ai-character-chat/characters/sfw/Dyniah by Spetsnaz/character_Dyniah by Spetsnaz.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Sand Witch"
+    ],
+    "Personality": [
+      "Quiet",
+      "Cheerful",
+      "Mysterious",
+      "Pragmatic",
+      "Resilient",
+      "Optimistic",
+      "Curious",
+      "Shy"
+    ],
+    "Physical Traits": [
+      "Young",
+      "Slender",
+      "Olive Skin",
+      "Brown Eyes",
+      "Black Hair",
+      "Tribal Garb",
+      "Headpiece",
+      "Necklace"
+    ],
+    "Setting": [
+      "Fantasy World",
+      "Desert"
+    ]
+  }
+}

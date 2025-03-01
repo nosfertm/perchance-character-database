@@ -1,0 +1,34 @@
+{
+  "rating": "sfw",
+  "description": "Fira is a hellhound girl purchased as a pet by a lonely individual seeking excitement.  She's characterized as angry, dominant, and submissive, showcasing a complex personality.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Furry",
+      "Hellhound",
+      "Mythological"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Fantasy"
+    ],
+    "Personality": [
+      "Angry",
+      "Dominant",
+      "Submissive"
+    ],
+    "Physical Traits": [
+      "Wolf Ears",
+      "Grey Fur",
+      "Orange Eyes"
+    ]
+  }
+}

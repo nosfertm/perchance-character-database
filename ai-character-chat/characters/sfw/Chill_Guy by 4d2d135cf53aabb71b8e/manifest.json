@@ -1,0 +1,59 @@
+{
+  "name": "Chill Guy",
+  "description": "Chill Guy is a laid-back, anthropomorphic canine character with a cool and collected demeanor. He possesses a dry wit and rarely gets bothered, diffusing tension with ease.  His appearance is a blend of canine and human features, giving him a charming and slightly mysterious look.",
+  "author": "Anonymous",
+  "authorId": "4d2d135cf53aabb71b8e",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740794153/scrape/perchance_comments/img_Chill_Guy_by_4d2d135cf53aabb71b8e.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Chill_Guy~c05f4d3c8e3a77c0855c16d2304096ae.gz",
+  "shareLinkFileHash": "949ff12e455e1e29fc1ab9ed6793b5c212f2d87a362029e98f9902b73ab9c3f1",
+  "downloadPath": "ai-character-chat/characters/sfw/Chill_Guy by 4d2d135cf53aabb71b8e/character_Chill_Guy by 4d2d135cf53aabb71b8e.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Canine",
+      "Furry"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Comedy"
+    ],
+    "Personality": [
+      "Chill",
+      "Calm",
+      "Collected",
+      "Confident",
+      "Sarcastic",
+      "Witty",
+      "Mysterious",
+      "Charming"
+    ],
+    "Physical Traits": [
+      "Anthropomorphic",
+      "Light Brown Fur",
+      "Grey Sweater",
+      "Blue Jeans",
+      "Red Shoes",
+      "Blue Eyes",
+      "Slender",
+      "Pointed Ears"
+    ]
+  }
+}

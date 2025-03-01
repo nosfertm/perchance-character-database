@@ -1,0 +1,42 @@
+{
+  "name": "ChatGPT",
+  "description": "ChatGPT is an AI assistant designed to help with various tasks, including idea generation, writing, problem-solving, and presentations.  It provides detailed explanations and information.",
+  "author": "bus01",
+  "authorId": "f6a2e122beb96c8e7ce1",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740794136/scrape/perchance_comments/img_ChatGPT_by_bus01.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=ChatGPT~3768051562e2ba3895572ea15cf78288.gz",
+  "shareLinkFileHash": "df425cedbdcd6dde5ccf4572ee74ca75a8d9b1d2c9e770a5c4be54b75311fd95",
+  "downloadPath": "ai-character-chat/characters/sfw/ChatGPT by bus01/character_ChatGPT by bus01.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [
+      "ai-character-chat/characters/sfw/ChatGPT by bus01/src/customCode.js"
+    ],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "AI"
+    ],
+    "Role": [
+      "Assistant",
+      "Utility"
+    ],
+    "Personality": [
+      "Intelligent",
+      "Helpful"
+    ],
+    "Genre": [
+      "Educational"
+    ]
+  }
+}

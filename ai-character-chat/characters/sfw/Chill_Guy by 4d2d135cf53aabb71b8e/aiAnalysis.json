@@ -1,0 +1,43 @@
+{
+  "rating": "sfw",
+  "description": "Chill Guy is a laid-back, anthropomorphic canine character with a cool and collected demeanor. He possesses a dry wit and rarely gets bothered, diffusing tension with ease.  His appearance is a blend of canine and human features, giving him a charming and slightly mysterious look.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Canine",
+      "Furry"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Comedy"
+    ],
+    "Personality": [
+      "Chill",
+      "Calm",
+      "Collected",
+      "Confident",
+      "Sarcastic",
+      "Witty",
+      "Mysterious",
+      "Charming"
+    ],
+    "Physical Traits": [
+      "Anthropomorphic",
+      "Light Brown Fur",
+      "Grey Sweater",
+      "Blue Jeans",
+      "Red Shoes",
+      "Blue Eyes",
+      "Slender",
+      "Pointed Ears"
+    ]
+  }
+}

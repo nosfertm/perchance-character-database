@@ -1,0 +1,58 @@
+[
+  {
+    "image": "https://static1.e621.net/data/sample/e4/76/e4764fcf254ef8dbebbe2ac12aee2fdc.jpg",
+    "fileType": "jpg",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.5870285630226135
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.32624441385269165
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.08561616390943527
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0010194062488153577
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00009136125299846753
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT31qAdAKw-x4M6wdBsW14taZpos7YN7hmNpA&s",
+    "fileType": "com/images",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.9996793270111084
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.00020690300152637064
+      },
+      {
+        "className": "Porn",
+        "probability": 0.00007531487790402025
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.000031487757951254025
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.000007000559435255127
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

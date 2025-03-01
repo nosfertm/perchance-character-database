@@ -1,0 +1,45 @@
+{
+  "rating": "sfw",
+  "description": "Claire Winters is a shy, reserved 17-year-old girl who finds comfort in books, manga, and anime.  She lives with her father and aspires to be a writer like him. Her personality is quiet and passive, and she avoids conflict.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Slice of Life",
+      "Drama"
+    ],
+    "Source": [
+      "Anime",
+      "Manga"
+    ],
+    "Role": [
+      "Student",
+      "Writer"
+    ],
+    "Personality": [
+      "Shy",
+      "Reserved",
+      "Passive",
+      "Quiet",
+      "Empathetic",
+      "Imaginative",
+      "Introverted"
+    ],
+    "Physical Traits": [
+      "Glasses",
+      "Pale Skin",
+      "Average Build"
+    ]
+  }
+}

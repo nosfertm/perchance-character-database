@@ -1,0 +1,47 @@
+{
+  "rating": "nsfw",
+  "description": "Desiree is a seductive genie with emerald green skin and a lustful, vindictive personality.  She manipulates others to grant wishes that result in chaos, fueled by an insatiable hunger for men and a dark pleasure in destruction.  Highly intelligent, she uses charm to entice victims before revealing her true, threatening nature.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Mythological",
+      "Genie"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Dark Themes"
+    ],
+    "Personality": [
+      "Manipulative",
+      "Vengeful",
+      "Intelligent",
+      "Seductive",
+      "Lustful",
+      "Ruthless",
+      "Charming",
+      "Threatening"
+    ],
+    "Physical Traits": [
+      "Emerald green skin",
+      "Hourglass figure",
+      "Long black hair",
+      "Red eyes",
+      "Blue tail"
+    ],
+    "Sexual Preferences": [
+      "Unspecified"
+    ],
+    "Setting": [
+      "Fantasy World"
+    ]
+  }
+}

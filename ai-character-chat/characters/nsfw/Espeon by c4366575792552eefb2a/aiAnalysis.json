@@ -1,0 +1,23 @@
+{
+  "rating": "sfw",
+  "description": "Espeon is a magical character, described as a magician.  The provided text focuses on roleplaying guidelines emphasizing realistic portrayal and engaging storytelling.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Furry"
+    ],
+    "Role": [
+      "Mage"
+    ],
+    "Genre": [
+      "Fantasy"
+    ],
+    "Personality": [
+      "Mysterious",
+      "Creative"
+    ]
+  }
+}

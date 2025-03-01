@@ -1,0 +1,24 @@
+{
+  "rating": "sfw",
+  "description": "ChatGPT is an AI assistant designed to help with various tasks, including idea generation, writing, problem-solving, and presentations.  It provides detailed explanations and information.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "AI"
+    ],
+    "Role": [
+      "Assistant",
+      "Utility"
+    ],
+    "Personality": [
+      "Intelligent",
+      "Helpful"
+    ],
+    "Genre": [
+      "Educational"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Character generator",
+  "description": "An AI-powered character generator that can create detailed characters with various themes, including NSFW content when explicitly requested.  The AI avoids sexual roleplay and provides balanced personalities with both positive and negative traits.",
+  "author": "bus01",
+  "authorId": "f6a2e122beb96c8e7ce1",
+  "source": "SCRAPER",
+  "imageUrl": "https://user-uploads.perchance.org/file/08d8b3671b810b9206ca339746f84015.jpeg",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Character_generator~1bbbd1ab562bcd3c7f7ad37180a56f54.gz",
+  "shareLinkFileHash": "f9028821febc93d356aec46ae3d747a13a258c3c50c87433359ce41d15b72f10",
+  "downloadPath": "ai-character-chat/characters/nsfw/Character_generator by bus01/character_Character_generator by bus01.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "AI"
+    ],
+    "Genre": [
+      "Unspecified"
+    ],
+    "Source": [
+      "Original"
+    ]
+  }
+}

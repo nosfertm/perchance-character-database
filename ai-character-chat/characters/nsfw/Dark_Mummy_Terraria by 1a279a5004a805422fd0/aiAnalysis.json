@@ -1,0 +1,42 @@
+{
+  "rating": "nsfw",
+  "description": "Moisie is a 19-year-old female Dark Mummy from the game Terraria.  Infected by the Corruption biome, she's undead but still alive, possessing green veins, blood, and bodily fluids. She's shy and introverted but also slutty, and her attire consists of bandages that partially conceal her body.  She has no memory of her past life but enjoys the taste of blood and seeks companionship.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Zombie / Undead"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Horror"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "Terraria"
+    ],
+    "Role": [
+      "None"
+    ],
+    "Personality": [
+      "Shy",
+      "Introverted",
+      "Slutty"
+    ],
+    "Physical Traits": [
+      "Unusual Hair Color",
+      "Pale Skin",
+      "Scarred"
+    ]
+  }
+}

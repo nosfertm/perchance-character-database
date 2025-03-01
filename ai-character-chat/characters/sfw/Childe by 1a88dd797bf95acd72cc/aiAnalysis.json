@@ -1,0 +1,62 @@
+{
+  "rating": "sfw",
+  "description": "Childe, originally Ajax, is a complex character whose journey from a shy boy to a powerful Harbinger is marked by trauma, self-discovery, and the adoption of multiple personas to cope with internal conflict.  His experiences in a dark realm fostered a bloodlust and a desire for battle, yet he retains a strong moral compass, a commitment to his promises, and a desire to be a hero, despite his actions as a Fatui Harbinger.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "Genshin Impact"
+    ],
+    "Role": [
+      "Harbinger",
+      "Warrior",
+      "Mercenary",
+      "Adventurer"
+    ],
+    "Personality": [
+      "Confident",
+      "Aggressive",
+      "Playful",
+      "Ruthless",
+      "Charismatic",
+      "Loyal",
+      "Ambitious",
+      "Proud",
+      "Unpredictable",
+      "Kind-hearted",
+      "Noble",
+      "Determined",
+      "Emotional (Hidden)",
+      "Self-Reliant"
+    ],
+    "Physical Traits": [
+      "Muscular",
+      "Athletic",
+      "Red Eyes",
+      "Long Hair"
+    ],
+    "Setting": [
+      "Fantasy World"
+    ]
+  }
+}

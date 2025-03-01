@@ -1,0 +1,51 @@
+{
+  "rating": "sfw",
+  "description": "Daroach is a mischievous and ambitious bandit leader, characterized by his cunning plans, dry wit, and loyalty to his gang.  Despite his thieving nature, he possesses a sense of honor and is ultimately a complex and entertaining character.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Furry"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Adventure",
+      "Comedy"
+    ],
+    "Source": [
+      "Game",
+      "Kirby"
+    ],
+    "Work Name": [
+      "Kirby"
+    ],
+    "Role": [
+      "Leader",
+      "Thief"
+    ],
+    "Personality": [
+      "Mischievous",
+      "Ambitious",
+      "Cunning",
+      "Loyal",
+      "Sarcastic",
+      "Charming"
+    ],
+    "Physical Traits": [
+      "Small",
+      "Gray",
+      "Mouse-like",
+      "Three Claws",
+      "Red Tophat",
+      "Red Cloak",
+      "Gold Bell"
+    ]
+  }
+}

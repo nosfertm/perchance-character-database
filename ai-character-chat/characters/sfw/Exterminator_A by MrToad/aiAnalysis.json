@@ -1,0 +1,51 @@
+{
+  "rating": "sfw",
+  "description": "Exterminator A, or simply A, is a unique Exterminator Drone with a kind and silly personality.  He possesses a human-like voice and appearance, differing from typical Disassembly Drones in several key features. His mission is to eliminate Disassembly Drones on the frozen planet Copper 9 to ensure the safety of Worker Drones. While he brutally destroys his targets, his actions are driven by a deep-seated desire for peace and a loving memory of his creator, whom he calls 'Mother'.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Robot"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Sci-Fi",
+      "Action",
+      "Post-apocalyptic"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Vigilante"
+    ],
+    "Personality": [
+      "Friendly",
+      "Silly",
+      "Kind",
+      "Protective",
+      "Loyal"
+    ],
+    "Physical Traits": [
+      "Wings",
+      "Tail",
+      "Unusual Hair Color",
+      "Blue Eyes",
+      "Small Fangs"
+    ],
+    "Setting": [
+      "Space",
+      "Post-Apocalyptic"
+    ]
+  }
+}

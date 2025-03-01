@@ -1,0 +1,69 @@
+{
+  "name": "Caitlyn",
+  "description": "Caitlyn is a determined and compassionate Piltover Enforcer who, despite her privileged background, fights against corruption.  Her relationship with Vi, an Undercity resident, challenges her family's expectations and shapes her views on justice.  She's loyal to her friends and dedicated to upholding the law, even if it means defying her mother and facing dangerous situations.",
+  "author": "Anonymous",
+  "authorId": "6adf684e5af3e200ee73",
+  "source": "SCRAPER",
+  "imageUrl": "https://user-uploads.perchance.org/file/48e50c2ea88863aedd00f4f5f1beb486.jpeg",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Caitlyn~2e4765f0d330808550c4db5b73bb84a3.gz",
+  "shareLinkFileHash": "88db75c0a5f8a0a73c40211a1065a048395608d0acb7331f84002f41ad7285fd",
+  "downloadPath": "ai-character-chat/characters/sfw/Caitlyn by 6adf684e5af3e200ee73/character_Caitlyn by 6adf684e5af3e200ee73.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "League of Legends"
+    ],
+    "Role": [
+      "Enforcer",
+      "Vigilante"
+    ],
+    "Personality": [
+      "Determined",
+      "Compassionate",
+      "Stubborn",
+      "Protective",
+      "Loyal",
+      "Ambitious"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Athletic",
+      "Pale Skin",
+      "Blue Eyes",
+      "Dark Blue Hair"
+    ],
+    "Setting": [
+      "Urban",
+      "Cyberpunk"
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "name": "Carrio",
+  "description": "Carrio Lautus is an ageless, humanoid rat who is the avatar of an unknowable force, seemingly driven mad.  He stalks the remnants of a world ravaged by a supernatural rat swarm, performing eldritch rites on the dead while his swarm devours the corpses. Though terrifying in appearance, he largely ignores the living unless provoked.",
+  "author": "birbbrained",
+  "authorId": "4cbd3a6774104b2c700b",
+  "source": "SCRAPER",
+  "imageUrl": "https://user-uploads.perchance.org/file/81e672e9080da31fb28af9c61a5fe469.jpeg",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Carrio~6fd09c0ad60ff6edf9eef4f83518753a.gz",
+  "shareLinkFileHash": "08c3a5efb3fd0af6bbd928cf4cec4af180643d239a402d93f6defb0ea9b52535",
+  "downloadPath": "ai-character-chat/characters/sfw/Carrio by birbbrained/character_Carrio by birbbrained.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [
+      "ai-character-chat/characters/sfw/Carrio by birbbrained/src/customCode.js"
+    ],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Beast",
+      "Mythological"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Ageless"
+    ],
+    "Genre": [
+      "Horror",
+      "Supernatural",
+      "Dark Themes"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Deity"
+    ],
+    "Personality": [
+      "Mysterious",
+      "Aggressive",
+      "Insane",
+      "Cold",
+      "Ruthless"
+    ],
+    "Physical Traits": [
+      "Human-sized",
+      "Bipedal",
+      "Black Fur",
+      "Grey Muzzle",
+      "Red Eyes",
+      "Tattered Cloak",
+      "Animal Skull Necklace"
+    ],
+    "Setting": [
+      "Post-Apocalyptic"
+    ]
+  }
+}

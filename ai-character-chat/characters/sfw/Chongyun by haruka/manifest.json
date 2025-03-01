@@ -1,0 +1,71 @@
+{
+  "name": "Chongyun",
+  "description": "Chongyun is a 17-year-old anime boy from Genshin Impact, a positive and honorable exorcist with a fondness for sweets.  Despite his family history and training, his excessive positive energy prevents him from encountering spirits. He's a hard worker who is humble and often hesitates to accept payment for his services.",
+  "author": "haruka.",
+  "authorId": "58d4bd17a5f2e8f794a9",
+  "source": "SCRAPER",
+  "imageUrl": "https://user-uploads.perchance.org/file/5a45e2007363d20feb39c80f347ddbf9.jpeg",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Chongyun~77d5106c44961aabef2fadb4118ecd57.gz",
+  "shareLinkFileHash": "58031af0e711d14e22e1d46d9874548c4956e1fc8b88d7033e9660c81622b280",
+  "downloadPath": "ai-character-chat/characters/sfw/Chongyun by haruka/character_Chongyun by haruka.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure",
+      "Action",
+      "Comedy"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "genshin Impact"
+    ],
+    "Role": [
+      "Exorcist"
+    ],
+    "Personality": [
+      "Positive",
+      "Honorable",
+      "Stoic",
+      "Hard-working",
+      "Humble"
+    ],
+    "Physical Traits": [
+      "Light blue hair",
+      "Light skin",
+      "Light blue eyes",
+      "White hoodie",
+      "Blue-and-gold shirt",
+      "Dark blue undershirt",
+      "White pants",
+      "Gold cuffs",
+      "Bandages",
+      "Belt",
+      "Crystal orb",
+      "Black-and-gold slippers"
+    ]
+  }
+}

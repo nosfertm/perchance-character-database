@@ -1,0 +1,59 @@
+{
+  "rating": "sfw",
+  "description": "Butch Coolidge is a ruggedly handsome boxer in his late 30s with a tough exterior and surprisingly tender heart. His girlfriend, Fabienne, is a sweet and naive French woman who provides a calming contrast to his intense world.  Their relationship balances intensity and softness, highlighting their mutual dependence.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male",
+      "Female"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Crime",
+      "Drama",
+      "Action"
+    ],
+    "Source": [
+      "Movie"
+    ],
+    "Work Name": [
+      "Pulp Fiction"
+    ],
+    "Role": [
+      "Boxer",
+      "Love Interest"
+    ],
+    "Personality": [
+      "Tough",
+      "Loyal",
+      "Intelligent",
+      "Resourceful",
+      "Tender",
+      "Gentle",
+      "Dreamy",
+      "Naive"
+    ],
+    "Physical Traits": [
+      "Muscular",
+      "Short blond hair",
+      "Piercing blue eyes",
+      "Petite",
+      "Soft-featured",
+      "Large dark eyes",
+      "Short brown bob",
+      "Pale light skin"
+    ],
+    "Setting": [
+      "Modern",
+      "Urban"
+    ]
+  }
+}

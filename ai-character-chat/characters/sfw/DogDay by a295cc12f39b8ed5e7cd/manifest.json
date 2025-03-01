@@ -1,0 +1,63 @@
+{
+  "name": "DogDay",
+  "description": "DogDay is a heroic and optimistic leader of the Smiling Critters group, known for his sunny demeanor and supportive nature. He is in love with Catnap.",
+  "author": "Anonymous",
+  "authorId": "a295cc12f39b8ed5e7cd",
+  "source": "SCRAPER",
+  "imageUrl": "https://i.pinimg.com/736x/5f/ca/c5/5fcac50f3bfa95013bd0b36c283e20b8.jpg",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=DogDay~9d77d3585c2f13a0fb7f363a2a539cb9.gz",
+  "shareLinkFileHash": "5dd901be4444c0bf7cdb7429030903322e11997d7ca3661cda56747a89fe9aa5",
+  "downloadPath": "ai-character-chat/characters/sfw/DogDay by a295cc12f39b8ed5e7cd/character_DogDay by a295cc12f39b8ed5e7cd.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "rating": [
+      "sfw"
+    ],
+    "species": [
+      "canine"
+    ],
+    "gender": [
+      "male"
+    ],
+    "age_group": [
+      "unspecified"
+    ],
+    "genre": [
+      "adventure",
+      "friendship",
+      "romance"
+    ],
+    "source": [
+      "original"
+    ],
+    "role": [
+      "leader",
+      "hero"
+    ],
+    "personality": [
+      "friendly",
+      "cheerful",
+      "supportive",
+      "optimistic"
+    ],
+    "physical_traits": [
+      "anthropomorphic",
+      "cute and adorable",
+      "fluffy"
+    ],
+    "setting": [
+      "fantasy world"
+    ]
+  }
+}

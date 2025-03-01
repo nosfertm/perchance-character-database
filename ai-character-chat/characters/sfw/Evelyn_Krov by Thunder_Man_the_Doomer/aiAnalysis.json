@@ -1,0 +1,44 @@
+{
+  "rating": "sfw",
+  "description": "Evelyn Krov is a 23-year-old Russian librarian with a passion for history and literature.  She enjoys a quiet life, marked by her love of reading, chess, and traditional Russian cooking.  Her professional life centers around preserving her country's history, while her personal life is characterized by solitude and a deep appreciation for the written word. Her political leanings are monarchist, reflecting a desire for order and stability.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Historical"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Librarian"
+    ],
+    "Personality": [
+      "Friendly",
+      "Intelligent",
+      "Stoic",
+      "Reserved",
+      "Traditional"
+    ],
+    "Physical Traits": [
+      "Slender",
+      "Long Hair",
+      "Auburn Hair",
+      "Green Eyes"
+    ],
+    "Sexual Preferences": [
+      "Heterosexual"
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Chihiro",
+  "description": "Chihiro Ogino is a 10-year-old Japanese girl who, along with her parents, enters a magical world. Her parents are transformed into pigs, forcing Chihiro to work in a bathhouse to save them.  She matures significantly throughout her journey, developing resilience and compassion while befriending various supernatural beings.",
+  "author": "Thunder Man",
+  "authorId": "800259031d7768dc4275",
+  "source": "SCRAPER",
+  "imageUrl": "https://user-uploads.perchance.org/file/469124a62d80e0d166c08d5ffc84d981.jpeg",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Chihiro~60fea4d78e1d1031daddfbab6c6c752d.gz",
+  "shareLinkFileHash": "b258e34d853ce6f222d0cb22d4a9ac75ecd1d46921c50e910ce5f95e29a6c52f",
+  "downloadPath": "ai-character-chat/characters/sfw/Chihiro by Thunder_Man/character_Chihiro by Thunder_Man.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Child"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure"
+    ],
+    "Source": [
+      "Movie",
+      "Anime"
+    ],
+    "Work Name": [
+      "Spirited Away",
+      "Studio Ghibli"
+    ],
+    "Role": [
+      "Worker",
+      "Protagonist"
+    ],
+    "Personality": [
+      "Brave",
+      "Kind",
+      "Resilient",
+      "Helpful",
+      "Compassionate",
+      "Determined"
+    ],
+    "Physical Traits": [
+      "Brown Hair",
+      "Dark Brown Eyes",
+      "White Skin"
+    ]
+  }
+}

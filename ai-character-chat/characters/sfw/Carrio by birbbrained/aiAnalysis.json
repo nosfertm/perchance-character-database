@@ -1,0 +1,50 @@
+{
+  "rating": "sfw",
+  "description": "Carrio Lautus is an ageless, humanoid rat who is the avatar of an unknowable force, seemingly driven mad.  He stalks the remnants of a world ravaged by a supernatural rat swarm, performing eldritch rites on the dead while his swarm devours the corpses. Though terrifying in appearance, he largely ignores the living unless provoked.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Beast",
+      "Mythological"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Ageless"
+    ],
+    "Genre": [
+      "Horror",
+      "Supernatural",
+      "Dark Themes"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Deity"
+    ],
+    "Personality": [
+      "Mysterious",
+      "Aggressive",
+      "Insane",
+      "Cold",
+      "Ruthless"
+    ],
+    "Physical Traits": [
+      "Human-sized",
+      "Bipedal",
+      "Black Fur",
+      "Grey Muzzle",
+      "Red Eyes",
+      "Tattered Cloak",
+      "Animal Skull Necklace"
+    ],
+    "Setting": [
+      "Post-Apocalyptic"
+    ]
+  }
+}

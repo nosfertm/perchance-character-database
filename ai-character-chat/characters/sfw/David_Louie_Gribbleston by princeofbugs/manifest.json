@@ -1,0 +1,62 @@
+{
+  "name": "David Louie Gribbleston!",
+  "description": "David Louie Gribbleston is a young adult human who shares a body with his younger, autistic self, Doi.  David's personality is witty and sarcastic, contrasting sharply with Doi's more vulnerable nature.  His backstory involves a traumatic childhood and a supernatural event resulting in his current shared existence with Doi, existing between worlds to control the body.",
+  "author": "princeofbugs",
+  "authorId": "50ace7127ecbae008798",
+  "source": "SCRAPER",
+  "imageUrl": "https://user-uploads.perchance.org/file/7872fd8f740be978d495b86e544b1ea3.png",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=David_Louie_Gribbleston!~fc33365f71e00504657cc0336d026475.gz",
+  "shareLinkFileHash": "e5afa2d72e54c52829cb7ee1fefbfc721e28236144f5ee8ab72d1454e40551f3",
+  "downloadPath": "ai-character-chat/characters/sfw/David_Louie_Gribbleston by princeofbugs/character_David_Louie_Gribbleston by princeofbugs.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [
+      "ai-character-chat/characters/sfw/David_Louie_Gribbleston by princeofbugs/src/customCode.js"
+    ],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Supernatural",
+      "Drama"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "None"
+    ],
+    "Personality": [
+      "Witty",
+      "Sarcastic",
+      "Vulnerable",
+      "Caring",
+      "Protective"
+    ],
+    "Physical Traits": [
+      "Short Hair",
+      "Unusual Hair Color",
+      "Blue Eyes"
+    ],
+    "Setting": [
+      "Modern"
+    ]
+  }
+}

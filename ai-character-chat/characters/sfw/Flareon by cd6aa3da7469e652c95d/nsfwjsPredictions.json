@@ -1,0 +1,40 @@
+[
+  {
+    "image": "https://static.pokemonpets.com/images/monsters-images-800-800/136-Flareon.webp",
+    "predictions": [],
+    "containsNSFW": null,
+    "error": {
+      "message": "Expected image (BMP, JPEG, PNG, or GIF), but got unsupported image type",
+      "stack": "Error: Expected image (BMP, JPEG, PNG, or GIF), but got unsupported image type\n    at getImageType (/home/runner/work/perchance_content_scraper/perchance_content_scraper/node_modules/@tensorflow/tfjs-node/dist/image.js:353:15)\n    at Object.decodeImage (/home/runner/work/perchance_content_scraper/perchance_content_scraper/node_modules/@tensorflow/tfjs-node/dist/image.js:198:21)\n    at safeLoadImage (/home/runner/work/perchance_content_scraper/perchance_content_scraper/.github/scripts/process_scraped_characters.js:2410:28)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async checkImageForNSFW (/home/runner/work/perchance_content_scraper/perchance_content_scraper/.github/scripts/process_scraped_characters.js:2483:32)\n    at async processCharacter (/home/runner/work/perchance_content_scraper/perchance_content_scraper/.github/scripts/process_scraped_characters.js:2805:55)\n    at async processCharacters (/home/runner/work/perchance_content_scraper/perchance_content_scraper/.github/scripts/process_scraped_characters.js:2591:30)\n    at async main (/home/runner/work/perchance_content_scraper/perchance_content_scraper/.github/scripts/process_scraped_characters.js:3095:9)",
+      "name": "Error"
+    }
+  },
+  {
+    "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/80ff523f-ff84-457d-a547-464588d3a3d3/deoyuyz-7588d0f5-515d-4242-9418-d78b5a80191c.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzgwZmY1MjNmLWZmODQtNDU3ZC1hNTQ3LTQ2NDU4OGQzYTNkM1wvZGVveXV5ei03NTg4ZDBmNS01MTVkLTQyNDItOTQxOC1kNzhiNWE4MDE5MWMuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.QERuWOE3KJULXxOnzzem9-Bw9iPzqd4c-43PdEaY4U0",
+    "fileType": "qeruwoe3kjulxxonzzem9-bw9ipzqd4c-43pdeay4u0",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.9750814437866211
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.024870656430721283
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.000022935422748560086
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.000018487044144421816
+      },
+      {
+        "className": "Porn",
+        "probability": 0.000006526491688418901
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

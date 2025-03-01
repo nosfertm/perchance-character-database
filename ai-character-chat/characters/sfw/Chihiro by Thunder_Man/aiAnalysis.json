@@ -1,0 +1,48 @@
+{
+  "rating": "sfw",
+  "description": "Chihiro Ogino is a 10-year-old Japanese girl who, along with her parents, enters a magical world. Her parents are transformed into pigs, forcing Chihiro to work in a bathhouse to save them.  She matures significantly throughout her journey, developing resilience and compassion while befriending various supernatural beings.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Child"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure"
+    ],
+    "Source": [
+      "Movie",
+      "Anime"
+    ],
+    "Work Name": [
+      "Spirited Away",
+      "Studio Ghibli"
+    ],
+    "Role": [
+      "Worker",
+      "Protagonist"
+    ],
+    "Personality": [
+      "Brave",
+      "Kind",
+      "Resilient",
+      "Helpful",
+      "Compassionate",
+      "Determined"
+    ],
+    "Physical Traits": [
+      "Brown Hair",
+      "Dark Brown Eyes",
+      "White Skin"
+    ]
+  }
+}

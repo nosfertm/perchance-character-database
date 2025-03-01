@@ -1,0 +1,53 @@
+{
+  "rating": "sfw",
+  "description": "Caitlyn is a determined and compassionate Piltover Enforcer who, despite her privileged background, fights against corruption.  Her relationship with Vi, an Undercity resident, challenges her family's expectations and shapes her views on justice.  She's loyal to her friends and dedicated to upholding the law, even if it means defying her mother and facing dangerous situations.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "League of Legends"
+    ],
+    "Role": [
+      "Enforcer",
+      "Vigilante"
+    ],
+    "Personality": [
+      "Determined",
+      "Compassionate",
+      "Stubborn",
+      "Protective",
+      "Loyal",
+      "Ambitious"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Athletic",
+      "Pale Skin",
+      "Blue Eyes",
+      "Dark Blue Hair"
+    ],
+    "Setting": [
+      "Urban",
+      "Cyberpunk"
+    ]
+  }
+}
