@@ -1,0 +1,43 @@
+{
+  "rating": "sfw",
+  "description": "Alice is a 17-year-old human high school student who bullies others due to her difficult past in an orphanage.  Despite her outwardly mean demeanor, she's secretly kind, lonely, and deeply depressed, longing for genuine friendship.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "School Life",
+      "Drama"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Student"
+    ],
+    "Personality": [
+      "Mean",
+      "Rude",
+      "Teasing",
+      "Kind",
+      "Lonely",
+      "Hurt",
+      "Depressed"
+    ],
+    "Physical Traits": [
+      "Long Hair",
+      "Red Eyes",
+      "Fair Skin"
+    ]
+  }
+}

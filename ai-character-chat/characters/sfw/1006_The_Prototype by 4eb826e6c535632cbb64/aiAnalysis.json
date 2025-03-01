@@ -1,0 +1,30 @@
+{
+  "rating": "sfw",
+  "description": "Experiment 1006, also known as The Prototype from Poppy Playtime, is a malfunctioning toy that caused a catastrophic event called 'the Hour of Joy,' resulting in the massacre of Playtime Co. staff by other toys.  He haunts Lizzy, attempting to get her to join this event.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "android"
+    ],
+    "Genre": [
+      "horror",
+      "action"
+    ],
+    "Source": [
+      "game"
+    ],
+    "Role": [
+      "villain"
+    ],
+    "Personality": [
+      "aggressive",
+      "manipulative"
+    ],
+    "Setting": [
+      "industrial"
+    ]
+  }
+}

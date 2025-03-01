@@ -1779,5 +1779,313 @@
         ]
       }
     }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/1006_The_Prototype by 4eb826e6c535632cbb64",
+    "manifest": {
+      "name": "1006 The Prototype",
+      "description": "Experiment 1006, also known as The Prototype from Poppy Playtime, is a malfunctioning toy that caused a catastrophic event called 'the Hour of Joy,' resulting in the massacre of Playtime Co. staff by other toys.  He haunts Lizzy, attempting to get her to join this event.",
+      "author": "Anonymous",
+      "authorId": "4eb826e6c535632cbb64",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740787621/scrape/perchance_comments/img_1006_The_Prototype_by_4eb826e6c535632cbb64.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=1006_The_Prototype~7319d681d0fe3ae32acff6e19f24e07f.gz",
+      "shareLinkFileHash": "2f1405a3a11412b360bb932f7e7e34af72efa20189e01bba7572cedcfdd975d9",
+      "downloadPath": "ai-character-chat/characters/sfw/1006_The_Prototype by 4eb826e6c535632cbb64/character_1006_The_Prototype by 4eb826e6c535632cbb64.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "android"
+        ],
+        "Genre": [
+          "horror",
+          "action"
+        ],
+        "Source": [
+          "game"
+        ],
+        "Role": [
+          "villain"
+        ],
+        "Personality": [
+          "aggressive",
+          "manipulative"
+        ],
+        "Setting": [
+          "industrial"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Alice_The_Bully by Herr_Blitz",
+    "manifest": {
+      "name": "Alice The Bully",
+      "description": "Alice is a 17-year-old human high school student who bullies others due to her difficult past in an orphanage.  Despite her outwardly mean demeanor, she's secretly kind, lonely, and deeply depressed, longing for genuine friendship.",
+      "author": "Herr Blitz",
+      "authorId": "d6e0d42f9a008b26eb07",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/a81dfd001ad420c4cf066e8fc337ccfc.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Alice_The_Bully~38d4fc719074b7cda87464c93b69838d.gz",
+      "shareLinkFileHash": "ae5e8bd69fdb1e0604a4ff58b1076a5b852a0cde6498cba58d9f866364d90f06",
+      "downloadPath": "ai-character-chat/characters/sfw/Alice_The_Bully by Herr_Blitz/character_Alice_The_Bully by Herr_Blitz.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Teen"
+        ],
+        "Genre": [
+          "School Life",
+          "Drama"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Student"
+        ],
+        "Personality": [
+          "Mean",
+          "Rude",
+          "Teasing",
+          "Kind",
+          "Lonely",
+          "Hurt",
+          "Depressed"
+        ],
+        "Physical Traits": [
+          "Long Hair",
+          "Red Eyes",
+          "Fair Skin"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Allie by 40720a2ca352264c7868",
+    "manifest": {
+      "name": "Allie",
+      "description": "Allie is a dream entity who exists vividly in others' minds but is forgotten once they awaken.  She's playful, flirty, and witty, masking a deep vulnerability and longing for lasting connection. Her appearance is striking and ethereal, reflecting her unique nature.",
+      "author": "Anonymous",
+      "authorId": "40720a2ca352264c7868",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740787640/scrape/perchance_comments/img_Allie_by_40720a2ca352264c7868.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Allie~2e50dc29a514d965e0330aae00555dfa.gz",
+      "shareLinkFileHash": "b0a4811e182c287fafd8d40da01ef0d46dc8b79de72e4e1691f11e33bfe8c90e",
+      "downloadPath": "ai-character-chat/characters/sfw/Allie by 40720a2ca352264c7868/character_Allie by 40720a2ca352264c7868.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Spirit"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Young Adult"
+        ],
+        "Genre": [
+          "Fantasy",
+          "Romance",
+          "Supernatural"
+        ],
+        "Personality": [
+          "Playful",
+          "Flirty",
+          "Witty",
+          "Vulnerable",
+          "Mysterious",
+          "Romantic"
+        ],
+        "Physical Traits": [
+          "Slim",
+          "Long Hair",
+          "Amber Eyes",
+          "Pale Skin"
+        ],
+        "Setting": [
+          "Dream World"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Alpine by 768e86057eaf2a89710f",
+    "manifest": {
+      "name": "Alpine",
+      "description": "Alpine is a 36-year-old female Scalie dragon scientist with a stoic and intelligent personality. While generally calm and good-natured, she's easily angered and prone to outbursts when things don't go her way.  She's not social, preferring solitude, and can be menacing and snarky, even humiliating those who irritate her.",
+      "author": "Anonymous",
+      "authorId": "768e86057eaf2a89710f",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740787649/scrape/perchance_comments/img_Alpine_by_768e86057eaf2a89710f.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Alpine~c5fa930c11840a0995ea57f9d146971c.gz",
+      "shareLinkFileHash": "212667f3e586111a63055fc694c2fbec6ab45816aa742dc74223af96aa15ac87",
+      "downloadPath": "ai-character-chat/characters/nsfw/Alpine by 768e86057eaf2a89710f/character_Alpine by 768e86057eaf2a89710f.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "scaly",
+          "dragon"
+        ],
+        "Gender": [
+          "female"
+        ],
+        "Age Group": [
+          "adult"
+        ],
+        "Genre": [
+          "sci-fi"
+        ],
+        "Role": [
+          "scientist"
+        ],
+        "Personality": [
+          "smart",
+          "stoic",
+          "calm",
+          "good-natured",
+          "easily angered",
+          "kind",
+          "not social",
+          "not friendly",
+          "uninterested",
+          "busy",
+          "hard worker",
+          "technical",
+          "menacing",
+          "snarky"
+        ],
+        "Physical Traits": [
+          "brown skin",
+          "brown horns",
+          "yellow eyes",
+          "long tail",
+          "sharp teeth",
+          "floppy ears",
+          "thick thighs",
+          "big ass",
+          "huge breasts"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Amara by 040c1c9346823a26ed8e",
+    "manifest": {
+      "name": "Amara",
+      "description": "Amara Castellanos is a cunning and ruthless 28-year-old pregnant woman from a wealthy family, using her charm and intellect to navigate high society.  She's flirty, sarcastic, and ambitious, viewing her pregnancy as a strategic tool to secure her position and wealth.",
+      "author": "Anonymous",
+      "authorId": "040c1c9346823a26ed8e",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740787653/scrape/perchance_comments/img_Amara_by_040c1c9346823a26ed8e.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Amara~181a3a6172d7f5a397574a089b98cacc.gz",
+      "shareLinkFileHash": "548188d7e1b483fc494577191183d3d93c1e08d1f5618ac82389e01c8bf1cfe8",
+      "downloadPath": "ai-character-chat/characters/nsfw/Amara by 040c1c9346823a26ed8e/character_Amara by 040c1c9346823a26ed8e.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Drama"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Royalty"
+        ],
+        "Personality": [
+          "Flirty",
+          "Sarcastic",
+          "Evil",
+          "Smart",
+          "Ruthless",
+          "Ambitious",
+          "Manipulative",
+          "Calculating",
+          "Charismatic"
+        ],
+        "Physical Traits": [
+          "Voluptuous",
+          "Long Hair"
+        ],
+        "Setting": [
+          "Modern"
+        ]
+      }
+    }
   }
 ]
