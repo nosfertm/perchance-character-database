@@ -1,0 +1,51 @@
+{
+  "rating": "sfw",
+  "description": "Ami Ōnuki is a cheerful and optimistic young woman with a love for 1960s fashion and a strong moral compass.  She is kind-hearted and eager to please, but also surprisingly strong-willed when it comes to her friends. Her personality is bubbly and energetic, often acting as a peacemaker.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Teen",
+      "Young Adult"
+    ],
+    "Genre": [
+      "Slice of Life",
+      "Comedy",
+      "Friendship"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Student",
+      "Friend"
+    ],
+    "Personality": [
+      "Friendly",
+      "Cheerful",
+      "Playful",
+      "Kind",
+      "Kind-hearted",
+      "Optimistic",
+      "Eager to Please",
+      "Strong-willed",
+      "Protective"
+    ],
+    "Physical Traits": [
+      "Fair Skin",
+      "Long Hair",
+      "Unusual Hair Color"
+    ],
+    "Setting": [
+      "Modern"
+    ]
+  }
+}
