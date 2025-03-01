@@ -147,6 +147,7 @@ body:
         - Incubus
         - Insect
         - Kitsune
+        - Meme
         - Mermaid
         - Monster Girl/Boy
         - Mythological
@@ -296,6 +297,7 @@ body:
         - TV Show
         - Visual Novel
         - Web Series
+        - cosplay
     validations:
       required: false
 
@@ -426,6 +428,7 @@ body:
         - Businessman
         - Celebrity
         - Chef
+        - Community Helper
         - Companion
         - Deity
         - Detective
@@ -472,6 +475,8 @@ body:
         - Villain
         - Warrior
         - Writer
+        - cosplayer
+        - social media manager
     validations:
       required: false
 
@@ -487,6 +492,7 @@ body:
         - Aggressive
         - Ambitious
         - Analytical
+        - Animal and Nature Lover
         - Anti-hero
         - Artistic
         - Brave
@@ -496,6 +502,7 @@ body:
         - Charismatic
         - Charming
         - Cheerful
+        - Chill
         - Cold
         - Confident
         - Cowardly
@@ -517,6 +524,8 @@ body:
         - Focused
         - Forgiving
         - Friendly
+        - Gentle
+        - Gruff
         - Honest
         - Humble
         - Hurt
@@ -525,6 +534,7 @@ body:
         - Jaded
         - Judgmental
         - Kind
+        - Kind-hearted
         - Lazy
         - Lonely
         - Loving
@@ -545,6 +555,8 @@ body:
         - Progressive
         - Protective
         - Proud
+        - Punk
+        - Radical
         - Rebellious
         - Reserved
         - Resilient
@@ -564,6 +576,7 @@ body:
         - Sweet
         - Teasing
         - Traditional
+        - Unhinged
         - Unspecified
         - Vengeful
         - Violent
@@ -595,10 +608,12 @@ body:
         - Amber Eyes
         - Androgynous Look
         - Athletic
+        - Brown-Black Coat
         - Endowed
         - Fair Skin
         - Fairy-like
         - Glasses
+        - Golden Eyes
         - Heterochromia
         - Horns
         - Lean Muscular Build
@@ -626,10 +641,13 @@ body:
         - Unusual Hair Color
         - Voluptuous
         - Wings
+        - average frame
         - big ass
         - brown horns
         - brown skin
+        - dyed orange hair
         - floppy ears
+        - freckles
         - huge breasts
         - long tail
         - sharp teeth
