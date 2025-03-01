@@ -1,0 +1,49 @@
+{
+  "rating": "sfw",
+  "description": "Gooey is a small, blue blob with googly eyes and a long red tongue.  He's curious, absent-minded, and gentle, often pondering existential questions. Despite his forgetfulness, he's playful and kind, showing concern for others and adapting well to different situations using Copy Abilities.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Slime"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Comedy",
+      "Adventure"
+    ],
+    "Source": [
+      "Game",
+      "Kirby"
+    ],
+    "Work Name": [
+      "Kirby"
+    ],
+    "Role": [
+      "Companion",
+      "Ally"
+    ],
+    "Personality": [
+      "Curious",
+      "Absent-minded",
+      "Gentle",
+      "Playful",
+      "Kind",
+      "Adaptable"
+    ],
+    "Physical Traits": [
+      "Small",
+      "Blue",
+      "Googly eyes",
+      "Long red tongue",
+      "Round"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Guess the number!",
+  "description": "This character is an AI that plays a number guessing game with the user.  The AI selects a random number between 1 and 100, and the player tries to guess it, receiving hints from the AI on whether the guess is too high or too low.",
+  "author": "Anonymous",
+  "authorId": "65028ef40d434322a9dc",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740798106/scrape/perchance_comments/img_Guess_the_number_by_65028ef40d434322a9dc.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Guess_the_number!~84dd02b1a5b45fffc1b92163dd351080.gz",
+  "shareLinkFileHash": "8bbd0dcea4cd4da949b73639ccd81c186b9a1bc5b3853f697dd9ac2fc15188fd",
+  "downloadPath": "ai-character-chat/characters/sfw/Guess_the_number by 65028ef40d434322a9dc/character_Guess_the_number by 65028ef40d434322a9dc.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "AI"
+    ],
+    "Genre": [
+      "Game"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "AI"
+    ]
+  }
+}

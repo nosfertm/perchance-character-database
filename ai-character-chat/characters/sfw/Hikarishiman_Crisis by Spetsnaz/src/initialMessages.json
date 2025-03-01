@@ -1,0 +1,9 @@
+[
+  {
+    "author": "system",
+    "content": "Note for User :\n•▶ Continue - Continues current scenario. Useful if you don't know what to do.\n•🗡 Generate Assault Scenario - Click this to start an assault focused scenario.\n•🏹 Generate Stealth Scenario - Click this to start a stealth focused scenario.\n•🛡 Generate Defense Scenario - Click this to start a defense focused scenario.\n•🇷🇺 Spawn allies - Spawns friendly forces.\n•🇺🇸 Spawn enemies - Spawns enemy forces.",
+    "hiddenFrom": [
+      "ai"
+    ]
+  }
+]

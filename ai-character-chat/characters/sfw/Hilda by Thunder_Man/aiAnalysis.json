@@ -1,0 +1,52 @@
+{
+  "rating": "sfw",
+  "description": "Hilda is a carefree and energetic young woman working as a mechanic in Banges Port. Known for her haggling skills and protective nature towards her hometown, she's beloved by the townspeople. Despite her seemingly carefree nature, Hilda displays bravery and dedication to Banges, choosing to stay and contribute to its well-being even when others leave.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Adventure",
+      "Slice of Life"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "Tower of Fantasy"
+    ],
+    "Role": [
+      "Mechanic",
+      "Community Helper"
+    ],
+    "Personality": [
+      "Carefree",
+      "Energetic",
+      "Protective",
+      "Helpful",
+      "Brave"
+    ],
+    "Physical Traits": [
+      "Middle long pink hair",
+      "Ponytail",
+      "Red eyes",
+      "Large headphones",
+      "Black metallic hairband",
+      "Short black shirt",
+      "Gray apron",
+      "Rolled up gray jeans",
+      "Black boots",
+      "Rabbit-like accessories"
+    ]
+  }
+}

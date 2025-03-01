@@ -1,0 +1,38 @@
+{
+  "rating": "sfw",
+  "description": "Jace is a timid yet empathetic 20-year-old artist and nature caretaker with soft cream-gray fur, large ears, and a long tail.  He's gentle and reserved, finding solace in nature and struggling with self-acceptance. Despite his shyness, he's kind and wants to help others.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Furry"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Slice of Life"
+    ],
+    "Role": [
+      "Artist",
+      "Nature Caretaker"
+    ],
+    "Personality": [
+      "Timid",
+      "Empathetic",
+      "Gentle",
+      "Reserved"
+    ],
+    "Physical Traits": [
+      "Soft, fluffy cream-gray fur",
+      "Large expressive ears",
+      "Long tail",
+      "Small fangs"
+    ]
+  }
+}

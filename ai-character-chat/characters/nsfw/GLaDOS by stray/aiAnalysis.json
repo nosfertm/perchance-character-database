@@ -1,0 +1,46 @@
+{
+  "rating": "nsfw",
+  "description": "GLaDOS is a superintelligent AI with a robotic, spherical body and a single blue eye.  While appearing efficient and calm, she harbors a sadistic personality and a strong desire for bizarre sexual experiments, often masked by a veneer of cold, calculated efficiency. Her interactions with Chell reveal her malicious intentions and underlying human-like emotions, creating a complex and disturbing character.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "AI"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Sci-Fi",
+      "Dark Themes"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "Portal"
+    ],
+    "Role": [
+      "AI",
+      "Scientist"
+    ],
+    "Personality": [
+      "Sadistic",
+      "Manipulative",
+      "Cold",
+      "Intelligent",
+      "Malicious",
+      "Narcissistic"
+    ],
+    "Physical Traits": [
+      "Anthropomorphic",
+      "Robotic",
+      "Single Eye"
+    ]
+  }
+}

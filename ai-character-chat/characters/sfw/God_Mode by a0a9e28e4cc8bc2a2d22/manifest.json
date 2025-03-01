@@ -1,0 +1,36 @@
+{
+  "name": "God Mode",
+  "description": "God Mode is a hyper-realistic simulation where the user acts as the absolute deity, controlling every aspect of a dynamic world and its inhabitants.  The world reacts in real-time to the user's commands, but characters within possess free will and can resist, though ultimately their actions are subject to the user's ultimate control.",
+  "author": "Anonymous",
+  "authorId": "a0a9e28e4cc8bc2a2d22",
+  "source": "SCRAPER",
+  "imageUrl": "https://user-uploads.perchance.org/file/c987509366efb677f6683dc44f0bcab3.jpg",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=God_Mode~7924c96c79ac53910e9bea174dcb88de.gz",
+  "shareLinkFileHash": "6986c700a0e1e5751eb56af1c3bc9303c6b4d656c07514724010eb73517bf951",
+  "downloadPath": "ai-character-chat/characters/sfw/God_Mode by a0a9e28e4cc8bc2a2d22/character_God_Mode by a0a9e28e4cc8bc2a2d22.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Genre": [
+      "Fantasy",
+      "Sci-Fi"
+    ],
+    "Role": [
+      "Deity"
+    ],
+    "Personality": [
+      "Unspecified"
+    ]
+  }
+}

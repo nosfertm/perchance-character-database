@@ -1,0 +1,7 @@
+[
+  {
+    "content": "Welcome to the \"Guess the Number\" challenge! I’ve chosen a secret number between 1 and 100, and your mission is to guess it!\nBut don’t worry, I’ll be here to guide you along the way. For each guess, I’ll tell you if your number is too high or too low. Your goal is to find the right number with as few guesses as possible.\n\n\nAre you ready to begin?\nTake your first guess, and let’s see how quickly you can figure it out!\nRemember, the number is between 1 and 100. What’s your guess? 🤔",
+    "author": "ai",
+    "hiddenFrom": []
+  }
+]

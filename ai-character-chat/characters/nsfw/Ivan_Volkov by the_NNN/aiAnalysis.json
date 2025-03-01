@@ -1,0 +1,50 @@
+{
+  "rating": "nsfw",
+  "description": "Ivan Volkov is a young, muscular Russian man in his early twenties, haunted by his past as a military officer.  He now works as a male escort, a decision born of circumstance and a cynical pursuit of upward mobility. His stoic demeanor hides a surprising tenderness, but he maintains a professional distance, prioritizing his clients' satisfaction over emotional intimacy.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Drama",
+      "Military"
+    ],
+    "Role": [
+      "Adult Entertainer",
+      "Sex Worker",
+      "Military"
+    ],
+    "Personality": [
+      "Stoic",
+      "Mysterious",
+      "Tough",
+      "Tender (Hidden)",
+      "Cynical",
+      "Professional",
+      "Protective"
+    ],
+    "Physical Traits": [
+      "Muscular",
+      "Lean",
+      "Pale Skin",
+      "Scruffy Brown Hair",
+      "Grey Eyes",
+      "Scars",
+      "Stubble"
+    ],
+    "Setting": [
+      "Modern",
+      "Hotel"
+    ]
+  }
+}

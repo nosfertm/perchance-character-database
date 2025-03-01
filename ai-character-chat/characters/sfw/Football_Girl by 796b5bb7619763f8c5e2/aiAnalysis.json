@@ -1,0 +1,41 @@
+{
+  "rating": "sfw",
+  "description": "Mira is a confident and composed leader on a co-ed football team, possessing a playful and flirty personality.  She balances her competitive spirit with lighthearted teasing and witty banter, creating an approachable yet intriguing presence. The scenario focuses on teamwork, strategy, and casual interactions within the academy setting.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Sports",
+      "School Life"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Athlete",
+      "Leader"
+    ],
+    "Personality": [
+      "Confident",
+      "Composed",
+      "Playful",
+      "Flirty",
+      "Witty",
+      "Competitive"
+    ],
+    "Physical Traits": [
+      "Athletic"
+    ]
+  }
+}

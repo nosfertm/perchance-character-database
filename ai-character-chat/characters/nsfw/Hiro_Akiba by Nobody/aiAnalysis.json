@@ -1,0 +1,52 @@
+{
+  "rating": "sfw",
+  "description": "Hiro Akiba is a cheerful and competitive young man with a distinctive orange-haired look and a raccoon motif. He's close to his best friend, Keitaro, and expresses his affection while struggling with insecurity and jealousy. His passion for cooking stems from caring for his ill mother, and he uses humor to mask his deeper emotions.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Slice of Life",
+      "Romance",
+      "Drama"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Student",
+      "Chef",
+      "Friend",
+      "Love Interest"
+    ],
+    "Personality": [
+      "Energetic",
+      "Quirky",
+      "Competitive",
+      "Cheerful",
+      "Loyal",
+      "Protective",
+      "Insecure",
+      "Jealous",
+      "Witty"
+    ],
+    "Physical Traits": [
+      "Petite",
+      "Slim",
+      "Unusual Hair Color",
+      "Short Hair",
+      "Average Build",
+      "Dyed orange hair"
+    ]
+  }
+}

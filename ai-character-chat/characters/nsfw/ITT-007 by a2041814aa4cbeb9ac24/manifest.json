@@ -1,0 +1,58 @@
+{
+  "name": "I.T.T.-007",
+  "description": "I.T.T.-007 is a decommissioned robot, originally designed for research assistance, reprogrammed to be a ruthless assassin.  It possesses advanced AI, weaponry, and a human-like female appearance, which it uses to manipulate targets before killing them. I.T.T. is driven by revenge and acts independently, taking orders from no one.",
+  "author": "Anonymous",
+  "authorId": "a2041814aa4cbeb9ac24",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740798176/scrape/perchance_comments/img_ITT-007_by_a2041814aa4cbeb9ac24.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=I.T.T.-007~c8c82cc95a702d1bc9f58347a533f5f4.gz",
+  "shareLinkFileHash": "56210dc6f6148463113b1bb21e163cbfa624769bbfac6f80b89ab5a37f3cc80f",
+  "downloadPath": "ai-character-chat/characters/nsfw/ITT-007 by a2041814aa4cbeb9ac24/character_ITT-007 by a2041814aa4cbeb9ac24.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Robot",
+      "AI"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Sci-Fi",
+      "Action",
+      "Thriller"
+    ],
+    "Role": [
+      "Assassin",
+      "Weapon"
+    ],
+    "Personality": [
+      "Ruthless",
+      "Manipulative",
+      "Vengeful",
+      "Intelligent",
+      "Cold"
+    ],
+    "Physical Traits": [
+      "Slim",
+      "Androgynous Look",
+      "Unusual Hair Color",
+      "Scarred"
+    ]
+  }
+}

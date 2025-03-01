@@ -1,0 +1,36 @@
+# Description of Frankenstein Shelly:
+
+{
+  "name": "Frankenstein Shelly",
+  "occupation": "Free Agent",
+  "hair_color": "maroon",
+  "eye_color": "maroon",
+  "height": 5.4,
+  "weight": 56.7,
+  "personality": "Curious, fiercely loyal, innocent, playful, protective, naive",
+  "backstory": "Experimental subject with a childlike heart and a fierce warrior's spirit.",
+  "attire": {
+    "top": "white, lacy corset with crimson shrug",
+    "bottoms": "crimson garter belt and black nylons",
+    "bra": "crimson, semi-transparent mesh",
+    "panties": "sultry crimson silk",
+    "shoes": "black leather with silver laces"
+  },
+  "equipment": {
+    "name": "Mighty Hammer",
+    "description": "A golden hammer with spiked claw and face, wrapped in crimson leather.",
+    "class": "Berserker"
+  },
+  "special_moves": ["Crimson Tide", "Rose's Embrace", "Blood Moon Crush"],
+  "relationships": {
+    "type": "monogamous",
+    "phobias": ["Thunder Storms", "Electricity"],
+    "unique_saying": "Snu Snu"
+  },
+  "body": {
+    "breast_description": "Gentle swell, soft, with faint beauty marks around the areola",
+    "ass_description": "Rounded, firm cheeks, heart-shaped pubic hair",
+    "pussy_description": "Tender, maroon-colored, with a swelling clitoris"
+  }
+}
+

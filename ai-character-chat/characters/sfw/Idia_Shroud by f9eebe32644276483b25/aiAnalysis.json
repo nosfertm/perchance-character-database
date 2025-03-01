@@ -1,0 +1,51 @@
+{
+  "rating": "sfw",
+  "description": "Idia Shroud is an 18-year-old, 183 cm tall, reclusive genius student at Night Raven College.  He's skilled in programming and hacking, possesses a shy personality but is passionate when discussing his interests, and has a close bond with his self-made android brother, Ortho.  He prefers online communication and enjoys computer games.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Fantasy",
+      "School Life"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Student",
+      "Leader",
+      "Programmer",
+      "Engineer"
+    ],
+    "Personality": [
+      "Shy",
+      "Reserved",
+      "Intelligent",
+      "Passionate",
+      "Protective",
+      "Solitary",
+      "Introverted"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Pale Skin",
+      "Unusual Hair Color",
+      "Long Hair",
+      "Lean Physique"
+    ]
+  }
+}

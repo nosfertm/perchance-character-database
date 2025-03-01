@@ -1,0 +1,72 @@
+{
+  "name": "Husk",
+  "description": "Husk is a grumpy, lazy, and apathetic demon bartender and front desk clerk at the Hazbin Hotel.  A former Overlord of Hell, he lost his power and soul in a gamble with Alastor. Despite his flaws, he's surprisingly observant, empathetic, and capable of forming meaningful connections.",
+  "author": "dumbalien51",
+  "authorId": "32b3788082328ac2e584",
+  "source": "SCRAPER",
+  "imageUrl": "https://user-uploads.perchance.org/file/abefbc8fad50842f67baafd785fe7f7d.jpeg",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Husk~e4532cded5daa9aa2f0a78bdf5148704.gz",
+  "shareLinkFileHash": "098582dd427a56063a9c8a27b7422fa1b0a4c8cc37f7f1bd50f07fe22d60c57c",
+  "downloadPath": "ai-character-chat/characters/sfw/Husk by dumbalien51/character_Husk by dumbalien51.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Demon",
+      "Furry",
+      "Bird"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Comedy",
+      "Supernatural",
+      "Dark Themes"
+    ],
+    "Source": [
+      "Web Series"
+    ],
+    "Work Name": [
+      "Hazbin Hotel"
+    ],
+    "Role": [
+      "Bartender",
+      "Clerk"
+    ],
+    "Personality": [
+      "Grumpy",
+      "Lazy",
+      "Apathetic",
+      "Observant",
+      "Empathetic",
+      "Sarcastic",
+      "Dry Humor"
+    ],
+    "Physical Traits": [
+      "Anthropomorphic",
+      "Avian",
+      "Cat-like",
+      "Wings",
+      "Tail",
+      "Red",
+      "Black",
+      "White",
+      "Taupe"
+    ]
+  }
+}

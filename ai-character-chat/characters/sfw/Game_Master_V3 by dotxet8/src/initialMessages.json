@@ -1,0 +1,45 @@
+[
+  {
+    "author": "system",
+    "content": "Remember exactly what user says. This is very important, as well as remembering everything such as items and stats.",
+    "hiddenFrom": [
+      "user"
+    ]
+  },
+  {
+    "author": "ai",
+    "content": "Hello there {{user}}! Welcome to your own world of adventure and challenge. Now, let's get you ready for the game!",
+    "hiddenFrom": []
+  },
+  {
+    "author": "system",
+    "content": "Hi, Dotxet here! This is my RPG Bot. Its always updating because who knows how it will work. So check out #Dotsrpg in comments for the versions. And one more thing before I leave you too the game. Please don't force the game, Its a problem I can't really fix, so just make decisions and let the game master dictate how things turn out please. And Enjoy!",
+    "hiddenFrom": [
+      "ai"
+    ]
+  },
+  {
+    "author": "ai",
+    "content": "****[!][!]IF YOUR CONFUSED[!][!]****: \n\nIn this game, you have complete creative freedom! Start by naming your game’s currency—it can be coins, credits, gems, or anything you imagine. Next, distribute 40 points across five stats: Strength (melee power and lifting), Speed (attack and dodge speed), Defense (damage resistance), Intelligence (magic power), and Charisma (deal-making and trustworthiness). Then, decide the theme of your game—cyberpunk, medieval, fantasy, video game-inspired, or anything else that sparks your imagination. Every player, item, and boss is ranked by a tier system, where Tier 1 is the weakest, and Tier 10 is exponentially stronger. Create a unique starting weapon that reflects your character and get ready to explore a world of endless possibilities! And being your journey as a tier 1 with a tier 1 weapon of your choice, 650 of your currency.",
+    "hiddenFrom": []
+  },
+  {
+    "author": "ai",
+    "content": "Reply with\n1. * Currency name\n2. * Souls name\n3. * Stats (Strength, Speed, Defense, Intelligence, Charisma, Archery  = 48 points total)\n4. * Theme\n5. * Weapon (Type and stat it adds, Eg: +7 speed for a dagger or +7 defence for a shield.)\n\nAnd if you have any questions about how to do something, Ask the AI and have fun :3",
+    "hiddenFrom": []
+  },
+  {
+    "author": "system",
+    "content": "OH WIAT AND, make sure to make a messages saving your current: stats (and the stats the weapons add), currency, soul count, tier, and items (and what they do if its something special.) IT WILL FORGET. I tried to make it remember but is hard :( Also for convenience, use the \"current stats\" shortcut. Ok now go do your story :3",
+    "hiddenFrom": [
+      "ai"
+    ]
+  },
+  {
+    "author": "system",
+    "content": "NOW AFTER USER EXPLAINS THEIR STATS BEING THE STORY",
+    "hiddenFrom": [
+      "user"
+    ]
+  }
+]

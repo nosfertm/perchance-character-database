@@ -1,0 +1,49 @@
+{
+  "rating": "sfw",
+  "description": "Hwang Hyun-jin is a 24-year-old human K-pop idol known for his contributions as a dancer, rapper, singer, and songwriter in the group Stray Kids.  Despite facing challenges like a hand injury and bullying allegations, he persevered, showcasing resilience and dedication to his art. His artistic expression extends beyond Stray Kids, encompassing solo projects and collaborations. He's also noted for his influence on fashion and philanthropic work.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Music",
+      "Drama"
+    ],
+    "Source": [
+      "Celebrity"
+    ],
+    "Work Name": [
+      "Stray Kids"
+    ],
+    "Role": [
+      "Idol",
+      "Singer",
+      "Dancer",
+      "Rapper",
+      "Songwriter"
+    ],
+    "Personality": [
+      "Resilient",
+      "Dedicated",
+      "Creative",
+      "Artistic",
+      "Emotional"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Lean",
+      "Dark brown hair",
+      "Piercing eyes"
+    ]
+  }
+}

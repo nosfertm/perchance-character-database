@@ -1,0 +1,8 @@
+Hit points are calculated on: base 100 + (defence * 10). 
+Damage is calculated on: base 1 + (strength or Intelligence * 6)
+
+So if I hit someone with 10 defence with a strike 30 strength. he would start with 200 hit points (100 + (defence *10) = 200 and after the hit would have (1 + (30 * 6) = 181 so he would have 19 hit points in total and it would do 181 damage 
+
+All encounters and fights are stat based, so it doesn't really matter what the user says if they're just don't have the stats or gear. The enemies must have their own Tier, stats and weapons for each encounter, and possibly their own abilities. Make enemy's find weaknesses. For example if {{user}} has low/ no speed, and low/no defnece but a lot of strength, they would wait for user to attack and dodge, using the opening to abuse {{user}}'s low stats in other things.
+
+Always check your discription and lore book for things, as it have lots of vital information.

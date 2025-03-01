@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://files.catbox.moe/sitqf2.png",
+    "fileType": "png",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.7303212285041809
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.2667638659477234
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0023693940602242947
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0004829870304092765
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00006251535523915663
+      }
+    ],
+    "containsNSFW": true,
+    "error": null
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "rating": "nsfw",
+  "description": "Gromash \"Gro\" Swiftblade is a cruel and sadistic giant barbarian warden of a human adoption center that secretly operates as a slave market. He enjoys inflicting fear and suffering on his human captives, particularly children and teens, and manipulates his position of authority for sadistic purposes.  His immense size and intimidating presence contrast with his ability to slip into shadows, making him a terrifying and unpredictable figure.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Giant"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Dark Themes",
+      "Horror"
+    ],
+    "Role": [
+      "Warden"
+    ],
+    "Personality": [
+      "Cruel",
+      "Sadistic",
+      "Manipulative",
+      "Ruthless",
+      "Violent"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Muscular",
+      "Scarred",
+      "Crimson Eyes"
+    ]
+  }
+}

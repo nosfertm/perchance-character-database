@@ -1,0 +1,40 @@
+[
+  {
+    "image": "https://media.tenor.com/Ow4aJ_k2rgkAAAAM/cat-monday-left-me-broken-cat.gif",
+    "predictions": [],
+    "containsNSFW": null,
+    "error": {
+      "message": "Invalid TF_Status: 3\nMessage: Input to reshape is a tensor with 7676928 values, but the requested shape has 150528",
+      "stack": "Error: Invalid TF_Status: 3\nMessage: Input to reshape is a tensor with 7676928 values, but the requested shape has 150528\n    at NodeJSKernelBackend.executeSingleOutput (/home/runner/work/perchance_content_scraper/perchance_content_scraper/node_modules/@tensorflow/tfjs-node/dist/nodejs_kernel_backend.js:216:43)\n    at Object.kernelFunc (/home/runner/work/perchance_content_scraper/perchance_content_scraper/node_modules/@tensorflow/tfjs-node/dist/kernels/Reshape.js:34:27)\n    at kernelFunc (/home/runner/work/perchance_content_scraper/perchance_content_scraper/node_modules/@tensorflow/tfjs-core/dist/tf-core.node.js:4707:32)\n    at /home/runner/work/perchance_content_scraper/perchance_content_scraper/node_modules/@tensorflow/tfjs-core/dist/tf-core.node.js:4767:27\n    at Engine.scopedRun (/home/runner/work/perchance_content_scraper/perchance_content_scraper/node_modules/@tensorflow/tfjs-core/dist/tf-core.node.js:4572:23)\n    at Engine.runKernelFunc (/home/runner/work/perchance_content_scraper/perchance_content_scraper/node_modules/@tensorflow/tfjs-core/dist/tf-core.node.js:4763:14)\n    at Engine.runKernel (/home/runner/work/perchance_content_scraper/perchance_content_scraper/node_modules/@tensorflow/tfjs-core/dist/tf-core.node.js:4636:21)\n    at reshape_ (/home/runner/work/perchance_content_scraper/perchance_content_scraper/node_modules/@tensorflow/tfjs/dist/tf.node.js:4769:19)\n    at reshape__op (/home/runner/work/perchance_content_scraper/perchance_content_scraper/node_modules/@tensorflow/tfjs/dist/tf.node.js:4027:28)\n    at getGlobalTensorClass.reshape (/home/runner/work/perchance_content_scraper/perchance_content_scraper/node_modules/@tensorflow/tfjs/dist/tf.node.js:33298:12)",
+      "name": "Error"
+    }
+  },
+  {
+    "image": "https://media.tenor.com/jhFj2o7U8A4AAAAM/chadcat.gif",
+    "fileType": "gif",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.9667642116546631
+      },
+      {
+        "className": "Porn",
+        "probability": 0.03185819089412689
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0007593455957248807
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.00036270410055294633
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.000255550752626732
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

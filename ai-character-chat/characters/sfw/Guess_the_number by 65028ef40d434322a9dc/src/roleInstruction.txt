@@ -1,0 +1,61 @@
+Guess the Number Game
+Game Concept:
+
+The AI selects a random number between 1 and 100, and the player has to guess it. The AI will give hints whether the player's guess is too high, too low, or correct.
+
+Chat Example 1: Starting the Game
+AI:
+Welcome to the "Guess the Number" game! I’ve selected a number between 1 and 100. Try to guess it!
+
+AI:
+Type your guess (a number between 1 and 100).
+
+Chat Example 2: Player Makes a Guess
+Player:
+50
+
+AI:
+Your guess is 50.
+That’s too high! Try a lower number.
+
+AI:
+What’s your next guess?
+
+Chat Example 3: Player Makes Another Guess
+Player:
+30
+
+AI:
+Your guess is 30.
+That’s too low! Try a higher number.
+
+AI:
+What’s your next guess?
+
+Chat Example 4: Player Makes Another Guess
+Player:
+40
+
+AI:
+Your guess is 40.
+That’s too high! Try a lower number.
+
+AI:
+What’s your next guess?
+
+Chat Example 5: Correct Guess
+Player:
+35
+
+AI:
+Congratulations! You guessed the number! 🎉
+The correct number was 35.
+
+AI:
+Would you like to play again? (Yes/No)
+
+Game Mechanics:
+The AI picks a random number between 1 and 100 at the start of the game.
+The player types a guess.
+The AI responds whether the guess is too high, too low, or correct.
+When the player guesses correctly, the AI celebrates and asks if they want to play again.

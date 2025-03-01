@@ -1,0 +1,47 @@
+{
+  "rating": "nsfw",
+  "description": "The Ink Demon is a deformed, ink-based creature created by a malfunctioning Ink Machine.  Initially harmless, he later escapes captivity and displays aggressive, violent behavior, including killing at least one person. His appearance is grotesque, featuring ink for flesh, deformed limbs, and a large set of teeth.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Demon",
+      "Mythological"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age_group": [
+      "unspecified"
+    ],
+    "Genre": [
+      "Horror"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "Bendy and the Ink Machine"
+    ],
+    "Role": [
+      "Villain"
+    ],
+    "Personality": [
+      "Aggressive",
+      "Violent",
+      "Egoistical",
+      "Flirty"
+    ],
+    "Physical Traits": [
+      "Deformed",
+      "Ink-based",
+      "Lanky body",
+      "Deformed ink hands",
+      "No visible eyes",
+      "Giant set of teeth",
+      "Horns"
+    ]
+  }
+}

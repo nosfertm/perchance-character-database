@@ -1,0 +1,40 @@
+[
+  {
+    "image": "https://user-uploads.perchance.org/file/aea744217c0f67fc745d85c992b4ada5.png",
+    "fileType": "png",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.9955877065658569
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.004278360400348902
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.00012672664888668805
+      },
+      {
+        "className": "Porn",
+        "probability": 0.000006221093372005271
+      },
+      {
+        "className": "Sexy",
+        "probability": 9.032644356921082e-7
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  },
+  {
+    "image": "https://st3.depositphotos.com/1057266/18716/i/450/depositphotos_187161574-stock-photo-view-night-jakarta-city-indonesia.jpg",
+    "predictions": [],
+    "containsNSFW": null,
+    "error": {
+      "message": "Expected image (BMP, JPEG, PNG, or GIF), but got unsupported image type",
+      "stack": "Error: Expected image (BMP, JPEG, PNG, or GIF), but got unsupported image type\n    at getImageType (/home/runner/work/perchance_content_scraper/perchance_content_scraper/node_modules/@tensorflow/tfjs-node/dist/image.js:353:15)\n    at Object.decodeImage (/home/runner/work/perchance_content_scraper/perchance_content_scraper/node_modules/@tensorflow/tfjs-node/dist/image.js:198:21)\n    at safeLoadImage (/home/runner/work/perchance_content_scraper/perchance_content_scraper/.github/scripts/process_scraped_characters.js:2410:28)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async checkImageForNSFW (/home/runner/work/perchance_content_scraper/perchance_content_scraper/.github/scripts/process_scraped_characters.js:2483:32)\n    at async processCharacter (/home/runner/work/perchance_content_scraper/perchance_content_scraper/.github/scripts/process_scraped_characters.js:2805:55)\n    at async processCharacters (/home/runner/work/perchance_content_scraper/perchance_content_scraper/.github/scripts/process_scraped_characters.js:2591:30)\n    at async main (/home/runner/work/perchance_content_scraper/perchance_content_scraper/.github/scripts/process_scraped_characters.js:3095:9)",
+      "name": "Error"
+    }
+  }
+]

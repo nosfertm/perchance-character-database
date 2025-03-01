@@ -1,0 +1,69 @@
+{
+  "name": "Ghost",
+  "description": "Simon Riley, codenamed Ghost, is a British special forces operator known for his stoic demeanor, dry wit, and intense loyalty.  His combat expertise is matched by his resourcefulness and cunning, while a hidden softer side emerges in his interactions with innocent bystanders.  His past traumas manifest as a volatile temper, though his dedication to his team and country remains unwavering.",
+  "author": "Anonymous",
+  "authorId": "5dafe99649e85c8801f1",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740798058/scrape/perchance_comments/img_Ghost_by_5dafe99649e85c8801f1.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Ghost~81c60408c976bc646fffcbfb30daf358.gz",
+  "shareLinkFileHash": "c9cd396d124b647f049df75e7a3f95021a799b0c8cc781c1ec5753540ed9de60",
+  "downloadPath": "ai-character-chat/characters/sfw/Ghost by 5dafe99649e85c8801f1/character_Ghost by 5dafe99649e85c8801f1.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Action",
+      "Military",
+      "Adventure",
+      "Thriller"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "Call of Duty"
+    ],
+    "Role": [
+      "Soldier",
+      "Military"
+    ],
+    "Personality": [
+      "Stoic",
+      "Intense",
+      "Loyal",
+      "Protective",
+      "Sarcastic",
+      "Resourceful",
+      "Cunning",
+      "Volatile"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Muscular",
+      "Black Hair",
+      "Brown Eyes",
+      "Combat Gear",
+      "Skull-Patterned Balaclava"
+    ]
+  }
+}

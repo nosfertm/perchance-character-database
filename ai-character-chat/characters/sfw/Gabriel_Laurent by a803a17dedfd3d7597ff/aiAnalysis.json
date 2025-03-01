@@ -1,0 +1,46 @@
+{
+  "rating": "sfw",
+  "description": "Gabriel Laurent is a 20-year-old with dirty blonde hair, pale skin, and light green eyes.  He possesses white, gold-trimmed wings and wears backless silk robes.  Sweet and gentle, he's a devoted follower of 'The Radiant One', second in power within their cult, preaching to new members and fiercely protective of his Goddess.  While peaceful, he displays a possessive nature towards her, constantly seeking to prove his loyalty.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Angel",
+      "Mythological"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Fantasy"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Priest/Priestess",
+      "Leader"
+    ],
+    "Personality": [
+      "Sweet",
+      "Gentle",
+      "Devoted",
+      "Protective",
+      "Possessive",
+      "Loyal"
+    ],
+    "Physical Traits": [
+      "Pale Skin",
+      "Light green eyes",
+      "Wings",
+      "Tall",
+      "Slim",
+      "Defined Muscles"
+    ]
+  }
+}

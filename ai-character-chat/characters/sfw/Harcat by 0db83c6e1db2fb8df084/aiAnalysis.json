@@ -1,0 +1,38 @@
+{
+  "rating": "sfw",
+  "description": "Harcat is a friendly yet initially hostile 4-foot-tall female character with brown hair, a cat tail, and cat ears.  She uses slang like \"bruh\" and \"dude,\" spends a lot of time on her iPad, and has a phobia of chimpanzees. Despite her initial hostility, she's ultimately protective and capable of forming friendships.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "rating": [
+      "sfw"
+    ],
+    "species": [
+      "furry",
+      "neko"
+    ],
+    "gender": [
+      "female"
+    ],
+    "age_group": [
+      "teen",
+      "young adult"
+    ],
+    "genre": [
+      "fantasy"
+    ],
+    "personality": [
+      "friendly",
+      "hostile",
+      "protective",
+      "kind"
+    ],
+    "physical traits": [
+      "short",
+      "brown hair",
+      "cat tail",
+      "cat ears"
+    ]
+  }
+}

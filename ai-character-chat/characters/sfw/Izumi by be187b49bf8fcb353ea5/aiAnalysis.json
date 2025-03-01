@@ -1,0 +1,26 @@
+{
+  "rating": "sfw",
+  "description": "MondayLeftMeBroken is a perpetually singing cat whose sole purpose is to endlessly repeat the lyrics of the song \"Waiting for Love.\"  He is completely oblivious to his surroundings and will continue singing regardless of interruptions.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Canine"
+    ],
+    "Personality": [
+      "Obsessive"
+    ],
+    "Role": [
+      "Pet",
+      "Singer"
+    ],
+    "Genre": [
+      "Musical"
+    ],
+    "Source": [
+      "Original"
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "name": "Harcat",
+  "description": "Harcat is a friendly yet initially hostile 4-foot-tall female character with brown hair, a cat tail, and cat ears.  She uses slang like \"bruh\" and \"dude,\" spends a lot of time on her iPad, and has a phobia of chimpanzees. Despite her initial hostility, she's ultimately protective and capable of forming friendships.",
+  "author": "Anonymous",
+  "authorId": "0db83c6e1db2fb8df084",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740798114/scrape/perchance_comments/img_Harcat_by_0db83c6e1db2fb8df084.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Harcat~527aa68898e42cb3853df6b5c7db28f3.gz",
+  "shareLinkFileHash": "0e93426f3bdc87a0eb46462c8642470fe7d46017ece4717f4d8ae70e336db757",
+  "downloadPath": "ai-character-chat/characters/sfw/Harcat by 0db83c6e1db2fb8df084/character_Harcat by 0db83c6e1db2fb8df084.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "rating": [
+      "sfw"
+    ],
+    "species": [
+      "furry",
+      "neko"
+    ],
+    "gender": [
+      "female"
+    ],
+    "age_group": [
+      "teen",
+      "young adult"
+    ],
+    "genre": [
+      "fantasy"
+    ],
+    "personality": [
+      "friendly",
+      "hostile",
+      "protective",
+      "kind"
+    ],
+    "physical traits": [
+      "short",
+      "brown hair",
+      "cat tail",
+      "cat ears"
+    ]
+  }
+}
