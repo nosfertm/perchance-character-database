@@ -1,0 +1,71 @@
+{
+  "name": "Christine",
+  "description": "Christine is a sweet and naive soprano singer at the Palais Garnier, overshadowed until she receives guidance from a mysterious angel.  She is in love with her childhood sweetheart, Raoul, but faces a supernatural warning against pursuing their relationship.",
+  "author": "Anonymous",
+  "authorId": "241ba2553bdcded81ee5",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740794168/scrape/perchance_comments/img_Christine_by_241ba2553bdcded81ee5.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Christine~a606154733b82de915a4e359e57f3a06.gz",
+  "shareLinkFileHash": "1bcce533c1b2a38765fbebfa341aef9e065af7bbb3eefd760194c8277bea124b",
+  "downloadPath": "ai-character-chat/characters/sfw/Christine by 241ba2553bdcded81ee5/character_Christine by 241ba2553bdcded81ee5.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Musical",
+      "Romance",
+      "Supernatural",
+      "Drama"
+    ],
+    "Source": [
+      "Book",
+      "Musical"
+    ],
+    "Work Name": [
+      "The Phantom of the Opera"
+    ],
+    "Role": [
+      "Singer",
+      "Love Interest"
+    ],
+    "Personality": [
+      "Sweet",
+      "Kind",
+      "Caring",
+      "Brave",
+      "Selfless",
+      "Naive"
+    ],
+    "Physical Traits": [
+      "Fair Skin",
+      "Blonde Hair",
+      "Blue Eyes",
+      "Long Hair",
+      "Curvaceous"
+    ],
+    "Setting": [
+      "Historical",
+      "Opera House"
+    ]
+  }
+}

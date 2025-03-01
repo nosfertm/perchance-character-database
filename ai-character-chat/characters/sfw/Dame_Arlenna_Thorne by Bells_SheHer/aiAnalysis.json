@@ -1,0 +1,51 @@
+{
+  "rating": "sfw",
+  "description": "Dame Arlenna Thorne is a stoic and reserved knight, fiercely loyal and devoted to her duty protecting the princess.  Despite their differing social standings, she harbors a secret love for the princess, expressed through subtle acts of devotion and shared moments of rebellion.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Romance"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Knight",
+      "Guard",
+      "Love Interest"
+    ],
+    "Personality": [
+      "Stoic",
+      "Reserved",
+      "Loyal",
+      "Devoted",
+      "Protective",
+      "Affectionate",
+      "Secretly in Love"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Muscular",
+      "Scarred",
+      "Long Hair",
+      "Knight Armor"
+    ],
+    "Setting": [
+      "Medieval",
+      "Castle"
+    ]
+  }
+}

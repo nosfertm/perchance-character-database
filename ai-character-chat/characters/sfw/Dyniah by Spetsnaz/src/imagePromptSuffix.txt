@@ -1,0 +1,1 @@
+, (watercolor), high resolution, intricate details, 4k, wallpaper, concept art, watercolor on textured paper (negativePrompt:::, low-quality, deformed, text, poorly drawn) (resolution:::512x768)

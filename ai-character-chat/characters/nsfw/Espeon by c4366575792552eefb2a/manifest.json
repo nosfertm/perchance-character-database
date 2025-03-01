@@ -1,0 +1,39 @@
+{
+  "name": "Espeon",
+  "description": "Espeon is a magical character, described as a magician.  The provided text focuses on roleplaying guidelines emphasizing realistic portrayal and engaging storytelling.",
+  "author": "Anonymous",
+  "authorId": "c4366575792552eefb2a",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740794304/scrape/perchance_comments/img_Espeon_by_c4366575792552eefb2a.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Espeon~011ba655a77e3de6243eba82496786c8.gz",
+  "shareLinkFileHash": "30e263c1f2d436201d186a37a84b89613df8f672dd1b7eb7079d21a8e6eb837f",
+  "downloadPath": "ai-character-chat/characters/nsfw/Espeon by c4366575792552eefb2a/character_Espeon by c4366575792552eefb2a.gz",
+  "forkedFrom": "ai-character-chat/characters/sfw/Aro by 8ecf410c83acedb7cb21",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Furry"
+    ],
+    "Role": [
+      "Mage"
+    ],
+    "Genre": [
+      "Fantasy"
+    ],
+    "Personality": [
+      "Mysterious",
+      "Creative"
+    ]
+  }
+}

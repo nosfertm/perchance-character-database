@@ -1,0 +1,25 @@
+{
+  "rating": "sfw",
+  "description": "ChatGPT is a large language model AI chatbot. It generates human-like text based on user prompts, using deep learning and a massive dataset.  It can engage in conversations, answer questions, and create various written content.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "ai"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Ageless"
+    ],
+    "Genre": [
+      "Unspecified"
+    ],
+    "Source": [
+      "Original"
+    ]
+  }
+}

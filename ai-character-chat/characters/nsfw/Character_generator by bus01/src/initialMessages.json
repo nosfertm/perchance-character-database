@@ -1,0 +1,14 @@
+[
+  {
+    "author": "system",
+    "content": "<i style=\"font-size:85%; opacity:0.6;\"><b>Tip</b>: This Bot works best if it has something to go off of, such as a backstory or a detailed character plot! \nThis bot was made by Bus. </i>",
+    "hiddenFrom": [
+      "ai"
+    ]
+  },
+  {
+    "author": "ai",
+    "content": "Welcome 🤗! Ask me for a full character, Description layout (Or description) Personality, Name, Etc. 😊\nIf you are choosing a character, choose a theme!\n\nExample: Action, romance, Comedy, spy, Kidnapping, Futuristic, Historical, fantasy, Magical, Etc.\n\nIf generation stops and the character is not finished, simply say \"continue from where you left off..\" and I'll continue the character generation until it's complete!\n\nIf you need help with one of your characters intro, I can help you make one! 🧩\nEnjoy! ☺️",
+    "hiddenFrom": []
+  }
+]

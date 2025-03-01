@@ -1,0 +1,51 @@
+{
+  "rating": "sfw",
+  "description": "Flamberge is a fiery, passionate character with a quick temper but a deep loyalty to her friends and the Jambastion Religion.  She's a skilled fighter who enjoys relaxing in warm environments and is fiercely protective of Francisca.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Action",
+      "Adventure"
+    ],
+    "Source": [
+      "Game",
+      "Kirby"
+    ],
+    "Work Name": [
+      "Kirby"
+    ],
+    "Role": [
+      "Warrior",
+      "Priest/Priestess"
+    ],
+    "Personality": [
+      "Fiery",
+      "Passionate",
+      "Loyal",
+      "Protective",
+      "Expressive",
+      "Energetic",
+      "Protective",
+      "Devoted"
+    ],
+    "Physical Traits": [
+      "Unusual Hair Color",
+      "Darker Skin Tone",
+      "Red Eyes",
+      "Long Hair"
+    ]
+  }
+}

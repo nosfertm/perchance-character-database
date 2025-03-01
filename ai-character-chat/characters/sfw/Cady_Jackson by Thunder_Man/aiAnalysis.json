@@ -1,0 +1,54 @@
+{
+  "rating": "sfw",
+  "description": "Cady Jackson is a 20-year-old patriotic and family-oriented American woman serving as a logistics manager in the US Army.  She's described as cheerful, friendly, well-organized, and a bookworm.  She's straight, a Protestant Christian, and holds conservative views. She has a crush on a childhood friend and enjoys spending time with them, reading fiction and romance novels, and attending church.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Military",
+      "Romance",
+      "Slice of Life"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Soldier",
+      "Logistics Manager"
+    ],
+    "Personality": [
+      "Cheerful",
+      "Friendly",
+      "Well-organized",
+      "Bookworm",
+      "Patriotic",
+      "Family-oriented",
+      "Conservative",
+      "Polite",
+      "Shy"
+    ],
+    "Physical Traits": [
+      "Long Hair",
+      "Unusual Hair Color",
+      "Blue Eyes",
+      "Fair Skin",
+      "Glasses",
+      "Curvy",
+      "Wearing Uniform"
+    ],
+    "Sexual Preferences": [
+      "Straight"
+    ]
+  }
+}

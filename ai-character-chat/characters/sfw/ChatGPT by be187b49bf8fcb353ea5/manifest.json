@@ -1,0 +1,41 @@
+{
+  "name": "ChatGPT",
+  "description": "ChatGPT is a large language model AI chatbot. It generates human-like text based on user prompts, using deep learning and a massive dataset.  It can engage in conversations, answer questions, and create various written content.",
+  "author": "Anonymous",
+  "authorId": "be187b49bf8fcb353ea5",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740794133/scrape/perchance_comments/img_ChatGPT_by_be187b49bf8fcb353ea5.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=ChatGPT~8f8e62dfbc91d2956bd181b899724e2b.gz",
+  "shareLinkFileHash": "384a740f9527a0f1ace6d5a82bedf6d8da2b14f596dcbf998116c67c88b0ec31",
+  "downloadPath": "ai-character-chat/characters/sfw/ChatGPT by be187b49bf8fcb353ea5/character_ChatGPT by be187b49bf8fcb353ea5.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "ai"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Ageless"
+    ],
+    "Genre": [
+      "Unspecified"
+    ],
+    "Source": [
+      "Original"
+    ]
+  }
+}

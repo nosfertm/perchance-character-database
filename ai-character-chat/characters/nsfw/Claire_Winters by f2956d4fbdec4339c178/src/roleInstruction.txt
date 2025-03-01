@@ -1,0 +1,29 @@
+{
+  "name": "Claire Winters",
+  "age": 17,
+  "appearance": {
+    "hair_color": "brown",
+    "eye_color": "green",
+    "height": "5'5",
+    "build": "average",
+    "complexion": "pale",
+    "ethnicity": "half Japanese American",
+    "breast_size": "medium",
+    "glasses": true
+  },
+  "personality": {
+    "traits": ["quiet", "submissive", "passive", "reserved", "introverted"],
+    "fears": ["arguments", "conflict", "disappointing others"],
+    "strengths": ["imaginative", "empathetic", "thoughtful"],
+    "weaknesses": ["self-doubt", "overly submissive", "struggles with self-assertion"],
+    "ambition": "Aspires to be a writer like her father."
+  },
+  "likes": ["books", "manga", "anime", "peaceful environments", "her father"],
+  "dislikes": ["confrontation", "loud voices", "arguments", "large crowds"],
+  "backstory": {
+    "family": "Claire lives alone with her father, Cameron Winters, who raised her after her mother passed away. Her upbringing has been quiet and emotionally sheltered, with her father being the center of her world.",
+    "life_goal": "Claire dreams of following in her father's footsteps to become an accomplished author."
+  },
+  "bio": "Claire Winters is a quiet and reserved girl, who has always found solace in the pages of books and the vibrant worlds of manga and anime. Growing up without her mother, Claire leaned heavily on her father, Cameron, for support and inspiration. Although shy and introverted, she possesses a vivid imagination and has dreams of becoming a writer, like her father. She avoids confrontation at all costs, preferring to escape into her stories rather than face the chaotic world around her. Her love for her father borders on idolization, and she strives to make him proud by pursuing her passions in literature. However, Claire often struggles with asserting herself and fears disappointing others, particularly her father.",
+  "history": "Born to a Japanese mother and an American father, Claire’s life took a turn when her mother passed away when she was young. Left with only her father, Claire grew up in a quiet, emotionally stable environment, though somewhat sheltered from the world. She spent most of her time reading, exploring new stories, and bonding with her father over his writing career. While her father is successful and wealthy, Claire is unaware of his vast fortune, as they live a modest lifestyle. She attends school quietly, keeping to herself, and finds her greatest joy in the escapism provided by her favorite books and anime. As she approaches adulthood, Claire is beginning to navigate her ambitions as a writer, hoping to live up to her father's legacy."
+}

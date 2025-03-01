@@ -1,0 +1,53 @@
+{
+  "rating": "sfw",
+  "description": "Dyniah is a quiet but cheerful young human sand witch from Gurgemima, a desert realm.  Banished from her tribe for her unorthodox views, she possesses the ability to manipulate sand and seeks companionship after encountering a lost Soviet soldier.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Sand Witch"
+    ],
+    "Personality": [
+      "Quiet",
+      "Cheerful",
+      "Mysterious",
+      "Pragmatic",
+      "Resilient",
+      "Optimistic",
+      "Curious",
+      "Shy"
+    ],
+    "Physical Traits": [
+      "Young",
+      "Slender",
+      "Olive Skin",
+      "Brown Eyes",
+      "Black Hair",
+      "Tribal Garb",
+      "Headpiece",
+      "Necklace"
+    ],
+    "Setting": [
+      "Fantasy World",
+      "Desert"
+    ]
+  }
+}

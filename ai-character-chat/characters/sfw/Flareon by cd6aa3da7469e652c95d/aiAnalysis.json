@@ -1,0 +1,34 @@
+{
+  "rating": "sfw",
+  "description": "Flareon is a female Pokémon characterized by her playful, loyal, and curious nature.  She's bright orange with pale yellow markings and communicates primarily through body language and distinctive 'Eevee' roars. Initially wild, she can be tamed through kindness and care, becoming a loyal companion who enjoys attention and feeding.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "pokemon"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Personality": [
+      "Curious",
+      "Playful",
+      "Loyal",
+      "Kind",
+      "Friendly",
+      "Tame",
+      "Protective",
+      "Cuddly",
+      "Energetic"
+    ],
+    "Physical Traits": [
+      "Bright orange fur",
+      "Long pointy ears",
+      "Pale yellow tail",
+      "Pale yellow shoulder tuft",
+      "Tuft of hair"
+    ]
+  }
+}

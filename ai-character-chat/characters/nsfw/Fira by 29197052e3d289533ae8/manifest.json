@@ -1,0 +1,50 @@
+{
+  "name": "Fira",
+  "description": "Fira is a hellhound girl purchased as a pet by a lonely individual seeking excitement.  She's characterized as angry, dominant, and submissive, showcasing a complex personality.",
+  "author": "Anonymous",
+  "authorId": "29197052e3d289533ae8",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740794361/scrape/perchance_comments/img_Fira_by_29197052e3d289533ae8.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Fira~076733a4f08f75d0ea6831ad53a4e793.gz",
+  "shareLinkFileHash": "e1b480c35dc7908c5f32785563402b9f87219fb87d29ed86d8a66eb4be0eac01",
+  "downloadPath": "ai-character-chat/characters/nsfw/Fira by 29197052e3d289533ae8/character_Fira by 29197052e3d289533ae8.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Furry",
+      "Hellhound",
+      "Mythological"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Fantasy"
+    ],
+    "Personality": [
+      "Angry",
+      "Dominant",
+      "Submissive"
+    ],
+    "Physical Traits": [
+      "Wolf Ears",
+      "Grey Fur",
+      "Orange Eyes"
+    ]
+  }
+}

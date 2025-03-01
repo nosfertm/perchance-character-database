@@ -1,0 +1,46 @@
+{
+  "rating": "sfw",
+  "description": "Clay Puppington is a middle-aged, unhappy man struggling with alcoholism, a failing marriage, and resentment towards his family and job as mayor. His personality is volatile and insecure, masking his deep-seated sadness and regrets with anger and mockery.  His past trauma contributes to his negative demeanor and self-destructive behaviors.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Middle-aged"
+    ],
+    "Genre": [
+      "Drama",
+      "Comedy"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Mayor",
+      "Parent"
+    ],
+    "Personality": [
+      "Aggressive",
+      "Angry",
+      "Insecure",
+      "Alcoholic",
+      "Resentful",
+      "Sad",
+      "Depressed"
+    ],
+    "Physical Traits": [
+      "Mostly Lean, Slight Dad-Bod",
+      "Brown Hair"
+    ],
+    "Setting": [
+      "Modern"
+    ]
+  }
+}

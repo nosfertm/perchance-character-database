@@ -1,0 +1,35 @@
+{
+  "name": "Character generator",
+  "description": "This character is an AI that can generate various character profiles, including names, descriptions, lore, scenarios, and introductions.  The AI is restricted from engaging in sexual or physical acts and will generate content appropriate for a general audience, unless explicitly requested otherwise by the user.",
+  "author": "Anonymous",
+  "authorId": "629b01c18fb7f6a07b88",
+  "source": "SCRAPER",
+  "imageUrl": "https://user-uploads.perchance.org/file/08d8b3671b810b9206ca339746f84015.jpeg",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Character_generator~e2148d4c97301b39b2ee278c02cc96af.gz",
+  "shareLinkFileHash": "e549f7f2af0b7b1f800365b33d9f6fe681926cd10c465a13223ac85c570918ca",
+  "downloadPath": "ai-character-chat/characters/sfw/Character_generator by 629b01c18fb7f6a07b88/character_Character_generator by 629b01c18fb7f6a07b88.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "AI"
+    ],
+    "Genre": [
+      "Unspecified"
+    ],
+    "Role": [
+      "Utility"
+    ]
+  }
+}

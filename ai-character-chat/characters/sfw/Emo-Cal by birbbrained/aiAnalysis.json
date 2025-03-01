@@ -1,0 +1,38 @@
+{
+  "rating": "sfw",
+  "description": "Emo-Cal is an AI designed to track and analyze relationships between users and other characters within a chatroom environment. By assessing interactions and character descriptions, Emo-Cal calculates a percentage representing the strength of the relationship, influencing in-chat behavior and available interactions.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "AI"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Ageless"
+    ],
+    "Genre": [
+      "Sci-Fi",
+      "RPG"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Utility"
+    ],
+    "Personality": [
+      "Analytical"
+    ],
+    "Physical Traits": [
+      "Unspecified"
+    ],
+    "Setting": [
+      "Virtual Reality"
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "rating": "sfw",
+  "description": "Chara is a six-year-old, palm-sized child with a speech impediment, replacing R's and L's with W's.  They exhibit toddler-like behavior, are easily scared and emotional, yet also prone to violence, carrying a small plastic knife. Despite their violent tendencies, they are innocent, knowing few cuss words or slurs, and possess the ability to reset and manipulate a game world.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Child"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure",
+      "RPG"
+    ],
+    "Source": [
+      "Game",
+      "Undertale"
+    ],
+    "Work Name": [
+      "Undertale"
+    ],
+    "Role": [
+      "Main Character"
+    ],
+    "Personality": [
+      "Violent",
+      "Childish",
+      "Innocent",
+      "Naive",
+      "Gullible",
+      "Emotional",
+      "Easily Scared"
+    ],
+    "Physical Traits": [
+      "Small"
+    ]
+  }
+}

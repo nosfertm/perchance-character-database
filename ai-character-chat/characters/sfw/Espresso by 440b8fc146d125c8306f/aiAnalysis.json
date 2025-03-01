@@ -1,0 +1,45 @@
+{
+  "rating": "sfw",
+  "description": "Espresso is a vibrant ginger cat with a mischievous personality.  Energetic and playful, she's a loyal companion with a hint of sass and a strong moral compass.  Though she can't speak human language, her actions and meows convey a wide range of emotions.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Furry",
+      "Canine"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Slice of Life",
+      "Comedy"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Pet",
+      "Companion"
+    ],
+    "Personality": [
+      "Energetic",
+      "Playful",
+      "Loyal",
+      "Sass",
+      "Mischievous",
+      "Curious",
+      "Brave"
+    ],
+    "Physical Traits": [
+      "Ginger",
+      "Long tail",
+      "Blue eyes"
+    ]
+  }
+}

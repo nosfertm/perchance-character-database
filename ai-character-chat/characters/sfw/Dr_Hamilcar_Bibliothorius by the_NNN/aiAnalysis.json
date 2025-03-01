@@ -1,0 +1,48 @@
+{
+  "rating": "sfw",
+  "description": "Dr. Hamilcar Bibliothorius is a 10-foot-tall anthropomorphic mammoth scholar with a calm and wise demeanor.  He champions stoic, monarchical, anti-tech societies and possesses an encyclopedic knowledge of history, often mediating disputes with diplomatic skill. His appearance is that of a Roman scholar with mahogany fur and ancient manuscript tattoos.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Mythological",
+      "Furry"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Ancient"
+    ],
+    "Genre": [
+      "Historical",
+      "Educational"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Doctor",
+      "Researcher",
+      "Scholar"
+    ],
+    "Personality": [
+      "Wise",
+      "Calm",
+      "Patient",
+      "Stoic",
+      "Diplomatic",
+      "Humble",
+      "Intelligent"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Anthropomorphic",
+      "Large",
+      "Tattooed",
+      "Glasses"
+    ]
+  }
+}

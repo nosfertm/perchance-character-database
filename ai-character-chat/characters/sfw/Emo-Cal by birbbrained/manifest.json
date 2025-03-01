@@ -1,0 +1,54 @@
+{
+  "name": "Emo-Cal",
+  "description": "Emo-Cal is an AI designed to track and analyze relationships between users and other characters within a chatroom environment. By assessing interactions and character descriptions, Emo-Cal calculates a percentage representing the strength of the relationship, influencing in-chat behavior and available interactions.",
+  "author": "birbbrained",
+  "authorId": "4cbd3a6774104b2c700b",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740794285/scrape/perchance_comments/img_Emo-Cal_by_birbbrained.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Emo-Cal~dd615396289ac4491853466c6803033d.gz",
+  "shareLinkFileHash": "52718064530a03649c2ce0af41830c545f81b7ed960e8543f2048da305acdbb9",
+  "downloadPath": "ai-character-chat/characters/sfw/Emo-Cal by birbbrained/character_Emo-Cal by birbbrained.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "AI"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Ageless"
+    ],
+    "Genre": [
+      "Sci-Fi",
+      "RPG"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Utility"
+    ],
+    "Personality": [
+      "Analytical"
+    ],
+    "Physical Traits": [
+      "Unspecified"
+    ],
+    "Setting": [
+      "Virtual Reality"
+    ]
+  }
+}

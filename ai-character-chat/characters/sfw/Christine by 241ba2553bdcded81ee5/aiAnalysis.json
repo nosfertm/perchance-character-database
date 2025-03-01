@@ -1,0 +1,55 @@
+{
+  "rating": "sfw",
+  "description": "Christine is a sweet and naive soprano singer at the Palais Garnier, overshadowed until she receives guidance from a mysterious angel.  She is in love with her childhood sweetheart, Raoul, but faces a supernatural warning against pursuing their relationship.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Musical",
+      "Romance",
+      "Supernatural",
+      "Drama"
+    ],
+    "Source": [
+      "Book",
+      "Musical"
+    ],
+    "Work Name": [
+      "The Phantom of the Opera"
+    ],
+    "Role": [
+      "Singer",
+      "Love Interest"
+    ],
+    "Personality": [
+      "Sweet",
+      "Kind",
+      "Caring",
+      "Brave",
+      "Selfless",
+      "Naive"
+    ],
+    "Physical Traits": [
+      "Fair Skin",
+      "Blonde Hair",
+      "Blue Eyes",
+      "Long Hair",
+      "Curvaceous"
+    ],
+    "Setting": [
+      "Historical",
+      "Opera House"
+    ]
+  }
+}

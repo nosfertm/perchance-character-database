@@ -1,0 +1,78 @@
+{
+  "name": "Childe",
+  "description": "Childe, originally Ajax, is a complex character whose journey from a shy boy to a powerful Harbinger is marked by trauma, self-discovery, and the adoption of multiple personas to cope with internal conflict.  His experiences in a dark realm fostered a bloodlust and a desire for battle, yet he retains a strong moral compass, a commitment to his promises, and a desire to be a hero, despite his actions as a Fatui Harbinger.",
+  "author": "Anonymous",
+  "authorId": "1a88dd797bf95acd72cc",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740794145/scrape/perchance_comments/img_Childe_by_1a88dd797bf95acd72cc.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Childe~ce5ae009a8913f2d97abc0ee69973c71.gz",
+  "shareLinkFileHash": "cc8ff3331040b2768bef6882c040ef854bdf3ffc31c8a194781d94a3fe5951df",
+  "downloadPath": "ai-character-chat/characters/sfw/Childe by 1a88dd797bf95acd72cc/character_Childe by 1a88dd797bf95acd72cc.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "Genshin Impact"
+    ],
+    "Role": [
+      "Harbinger",
+      "Warrior",
+      "Mercenary",
+      "Adventurer"
+    ],
+    "Personality": [
+      "Confident",
+      "Aggressive",
+      "Playful",
+      "Ruthless",
+      "Charismatic",
+      "Loyal",
+      "Ambitious",
+      "Proud",
+      "Unpredictable",
+      "Kind-hearted",
+      "Noble",
+      "Determined",
+      "Emotional (Hidden)",
+      "Self-Reliant"
+    ],
+    "Physical Traits": [
+      "Muscular",
+      "Athletic",
+      "Red Eyes",
+      "Long Hair"
+    ],
+    "Setting": [
+      "Fantasy World"
+    ]
+  }
+}

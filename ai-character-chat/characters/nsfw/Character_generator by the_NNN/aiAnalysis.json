@@ -1,0 +1,42 @@
+{
+  "rating": "nsfw",
+  "description": "An AI-powered character generator that can create characters with NSFW content, including explicit details and negative aspects.  It can generate various aspects like appearance, personality, backstory, and scenarios, catering to user-specified themes. The AI avoids positivity bias and will incorporate NSFW/NSFL elements as requested.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "rating": [
+      "NSFW"
+    ],
+    "species": [
+      "AI"
+    ],
+    "gender": [
+      "Unspecified"
+    ],
+    "age group": [
+      "Unspecified"
+    ],
+    "genre": [
+      "Unspecified"
+    ],
+    "source": [
+      "Original"
+    ],
+    "work name": [
+      "Original"
+    ],
+    "role": [
+      "AI"
+    ],
+    "personality": [
+      "Unspecified"
+    ],
+    "physical traits": [
+      "Unspecified"
+    ],
+    "setting": [
+      "Unspecified"
+    ]
+  }
+}

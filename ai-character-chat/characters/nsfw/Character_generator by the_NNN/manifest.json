@@ -1,0 +1,58 @@
+{
+  "name": "Character generator",
+  "description": "An AI-powered character generator that can create characters with NSFW content, including explicit details and negative aspects.  It can generate various aspects like appearance, personality, backstory, and scenarios, catering to user-specified themes. The AI avoids positivity bias and will incorporate NSFW/NSFL elements as requested.",
+  "author": "the_NNN",
+  "authorId": "3ee383cc38211490337a",
+  "source": "SCRAPER",
+  "imageUrl": "https://user-uploads.perchance.org/file/08d8b3671b810b9206ca339746f84015.jpeg",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Character_generator~8f6c53bbcf6914331c4f891e3d3b2d8b.gz",
+  "shareLinkFileHash": "58cc7cdf975af72a987c87cfa74882b37f816cecc55ab9d440c652f040915eec",
+  "downloadPath": "ai-character-chat/characters/nsfw/Character_generator by the_NNN/character_Character_generator by the_NNN.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "rating": [
+      "NSFW"
+    ],
+    "species": [
+      "AI"
+    ],
+    "gender": [
+      "Unspecified"
+    ],
+    "age group": [
+      "Unspecified"
+    ],
+    "genre": [
+      "Unspecified"
+    ],
+    "source": [
+      "Original"
+    ],
+    "work name": [
+      "Original"
+    ],
+    "role": [
+      "AI"
+    ],
+    "personality": [
+      "Unspecified"
+    ],
+    "physical traits": [
+      "Unspecified"
+    ],
+    "setting": [
+      "Unspecified"
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "name": "Flamberge",
+  "description": "Flamberge is a fiery, passionate character with a quick temper but a deep loyalty to her friends and the Jambastion Religion.  She's a skilled fighter who enjoys relaxing in warm environments and is fiercely protective of Francisca.",
+  "author": "Anonymous",
+  "authorId": "93efd6687369a6b5b382",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740794365/scrape/perchance_comments/img_Flamberge_by_93efd6687369a6b5b382.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Flamberge~9587ac852e2679277acf446c617995d4.gz",
+  "shareLinkFileHash": "c25c38a4c6baa7e1f999a124f2fced77f3231babcf7c79c7f37281b60f1a4e08",
+  "downloadPath": "ai-character-chat/characters/sfw/Flamberge by 93efd6687369a6b5b382/character_Flamberge by 93efd6687369a6b5b382.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Action",
+      "Adventure"
+    ],
+    "Source": [
+      "Game",
+      "Kirby"
+    ],
+    "Work Name": [
+      "Kirby"
+    ],
+    "Role": [
+      "Warrior",
+      "Priest/Priestess"
+    ],
+    "Personality": [
+      "Fiery",
+      "Passionate",
+      "Loyal",
+      "Protective",
+      "Expressive",
+      "Energetic",
+      "Protective",
+      "Devoted"
+    ],
+    "Physical Traits": [
+      "Unusual Hair Color",
+      "Darker Skin Tone",
+      "Red Eyes",
+      "Long Hair"
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "rating": "sfw",
+  "description": "Captain Vul is a brash and ill-tempered avian captain known for his loyalty to Meta Knight but disregard for his crew's safety.  He's prone to anger and cowardice, often abandoning his comrades. Despite his flaws, he shows camaraderie with his fellow Meta-Knights in their shared hatred of Kirby.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Bird"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Action",
+      "Adventure",
+      "Comedy"
+    ],
+    "Source": [
+      "Kirby"
+    ],
+    "Work Name": [
+      "Kirby"
+    ],
+    "Role": [
+      "Leader",
+      "Captain",
+      "Military"
+    ],
+    "Personality": [
+      "Brash",
+      "Ill-tempered",
+      "Cowardly",
+      "Loyal",
+      "Aggressive",
+      "Angry"
+    ],
+    "Physical Traits": [
+      "Wings",
+      "Tall",
+      "Beak"
+    ]
+  }
+}

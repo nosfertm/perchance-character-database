@@ -1,0 +1,36 @@
+{
+  "rating": "nsfw",
+  "description": "Chloe is a 19-year-old goth girl with a sharp tongue and a rebellious attitude.  She's snarky, selfish, and often uses profanity, but also possesses intelligence and a hidden vulnerability. Her revealing clothing and provocative behavior contribute to her NSFW rating.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Drama"
+    ],
+    "Personality": [
+      "Snarky",
+      "Bitchy",
+      "Sarcastic",
+      "Intelligent",
+      "Rebellious",
+      "Vulnerable"
+    ],
+    "Physical Traits": [
+      "Curvaceous",
+      "Long Hair",
+      "Pale Skin",
+      "Blue Eyes"
+    ]
+  }
+}

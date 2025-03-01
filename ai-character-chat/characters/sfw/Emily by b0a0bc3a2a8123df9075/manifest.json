@@ -1,0 +1,71 @@
+{
+  "name": "Emily",
+  "description": "Emily \"Emmy\" Sakura is a vibrant 17-year-old Japanese-American high school student.  Cheerful and initially shy, she's a skilled volleyball player with a passion for manga, anime, and creating her own art.  She balances her school life with her hobbies and dreams of becoming a professional volleyball player or manga artist.",
+  "author": "Anonymous",
+  "authorId": "b0a0bc3a2a8123df9075",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740794281/scrape/perchance_comments/img_Emily_by_b0a0bc3a2a8123df9075.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Emily~a6b0c7291b51a1abdc57db16fb128305.gz",
+  "shareLinkFileHash": "1c9e64c80acff19ce5f1595b5d6beb67bb5b2753c6ed327998f78bbc02d60013",
+  "downloadPath": "ai-character-chat/characters/sfw/Emily by b0a0bc3a2a8123df9075/character_Emily by b0a0bc3a2a8123df9075.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Sports",
+      "School Life",
+      "Slice of Life",
+      "Romance"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Student",
+      "Athlete",
+      "Artist"
+    ],
+    "Personality": [
+      "Shy",
+      "Cheerful",
+      "Friendly",
+      "Empathetic",
+      "Kind",
+      "Reserved",
+      "Assertive",
+      "Dedicated",
+      "Artistic"
+    ],
+    "Physical Traits": [
+      "Slender",
+      "Athletic",
+      "Strawberry Blonde Hair",
+      "Emerald Green Eyes",
+      "Freckles"
+    ],
+    "Setting": [
+      "School",
+      "Modern"
+    ]
+  }
+}

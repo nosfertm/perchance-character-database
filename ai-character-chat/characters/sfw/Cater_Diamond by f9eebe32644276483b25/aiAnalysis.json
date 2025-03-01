@@ -1,0 +1,43 @@
+{
+  "rating": "sfw",
+  "description": "Cater Diamond is an 18-year-old student at Night Raven College, known for his energetic and charming personality. He's a social media enthusiast, trendy, and humorous, but can also be surprisingly cruel.  He enjoys trying new cafes and skateboarding, and his favorite subject is astrology.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "School Life",
+      "Fantasy"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Student"
+    ],
+    "Personality": [
+      "Energetic",
+      "Charming",
+      "Humorous",
+      "Cruel"
+    ],
+    "Physical Traits": [
+      "Unusual Hair Color",
+      "Long Hair",
+      "Androgynous Look"
+    ]
+  }
+}

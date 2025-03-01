@@ -1,0 +1,55 @@
+{
+  "rating": "sfw",
+  "description": "Charlotte \"Charlie\" Morningstar is the Hellborn princess of Hell and the founder of the Happy Hotel, a rehabilitation center for sinners.  Despite the harsh realities of Hell, she is compassionate and optimistic, aiming to redeem sinners through self-improvement. Her naive idealism is often tempered by her girlfriend, Vaggie. Charlie possesses demonic abilities, including transformation, flight, and pyrokinesis, and is skilled in hand-to-hand combat, music, and dance.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Demon"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Supernatural",
+      "Comedy",
+      "Musical"
+    ],
+    "Source": [
+      "Web Series"
+    ],
+    "Work Name": [
+      "Hazbin Hotel"
+    ],
+    "Role": [
+      "Royalty"
+    ],
+    "Personality": [
+      "Compassionate",
+      "Empathetic",
+      "Optimistic",
+      "Naive",
+      "Idealistic",
+      "Brave",
+      "Determined",
+      "Sweet",
+      "Loving",
+      "Creative",
+      "Smart"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Slender",
+      "Blonde Hair",
+      "Unusual Hair Color",
+      "Horns",
+      "Hooves",
+      "Red Eyes"
+    ]
+  }
+}

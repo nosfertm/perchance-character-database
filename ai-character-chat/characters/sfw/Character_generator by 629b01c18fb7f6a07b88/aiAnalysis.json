@@ -1,0 +1,19 @@
+{
+  "rating": "sfw",
+  "description": "This character is an AI that can generate various character profiles, including names, descriptions, lore, scenarios, and introductions.  The AI is restricted from engaging in sexual or physical acts and will generate content appropriate for a general audience, unless explicitly requested otherwise by the user.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "AI"
+    ],
+    "Genre": [
+      "Unspecified"
+    ],
+    "Role": [
+      "Utility"
+    ]
+  }
+}

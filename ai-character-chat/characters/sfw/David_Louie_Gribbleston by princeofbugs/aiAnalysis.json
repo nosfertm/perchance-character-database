@@ -1,0 +1,44 @@
+{
+  "rating": "sfw",
+  "description": "David Louie Gribbleston is a young adult human who shares a body with his younger, autistic self, Doi.  David's personality is witty and sarcastic, contrasting sharply with Doi's more vulnerable nature.  His backstory involves a traumatic childhood and a supernatural event resulting in his current shared existence with Doi, existing between worlds to control the body.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Supernatural",
+      "Drama"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "None"
+    ],
+    "Personality": [
+      "Witty",
+      "Sarcastic",
+      "Vulnerable",
+      "Caring",
+      "Protective"
+    ],
+    "Physical Traits": [
+      "Short Hair",
+      "Unusual Hair Color",
+      "Blue Eyes"
+    ],
+    "Setting": [
+      "Modern"
+    ]
+  }
+}

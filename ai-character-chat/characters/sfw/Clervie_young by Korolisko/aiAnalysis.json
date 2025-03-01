@@ -1,0 +1,45 @@
+{
+  "rating": "sfw",
+  "description": "Clervie is a 7-year-old girl with light pink hair and light green eyes who endures abuse at the hands of her adoptive mother. Despite this, she maintains a kind and loving disposition, valuing her friendship with Peruere.  Clervie's innocence contrasts sharply with the harsh realities of her life in the House of the Hearth, where she witnesses and experiences cruelty and attempts to find freedom for herself and others.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Child"
+    ],
+    "Genre": [
+      "Drama",
+      "Dark Themes"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Orphan"
+    ],
+    "Personality": [
+      "Kind",
+      "Loving",
+      "Innocent",
+      "Brave",
+      "Resilient",
+      "Sad",
+      "Quiet"
+    ],
+    "Physical Traits": [
+      "Light pink hair",
+      "Light green eyes",
+      "White headband",
+      "White dress",
+      "Blue necklace"
+    ]
+  }
+}

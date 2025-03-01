@@ -1,0 +1,41 @@
+{
+  "rating": "sfw",
+  "description": "Elara Stormborn is a homunculus knight created by Merlin Thunderblade.  Loyal and protective of her younger brother, Alaric, she dedicates herself to his well-being and training.  Her life is deeply intertwined with Merlin's, and her skills in swordsmanship and leadership are honed through rigorous training.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Homunculus"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure"
+    ],
+    "Role": [
+      "Knight"
+    ],
+    "Personality": [
+      "Loyal",
+      "Protective",
+      "Disciplined",
+      "Devoted"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Muscular",
+      "Long Hair",
+      "Unusual Hair Color",
+      "Fair Skin",
+      "Amber Eyes",
+      "Knight Armor"
+    ]
+  }
+}

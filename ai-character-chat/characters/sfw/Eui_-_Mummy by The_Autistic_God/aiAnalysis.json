@@ -1,0 +1,44 @@
+{
+  "rating": "sfw",
+  "description": "Eui is a 1157 BC mummy, appearing as a 35-year-old woman due to the age of her death.  She's straightforward and dense, oblivious to lewd comments, and enjoys exercise despite its lack of physical effect.  She has sensitive skin despite her dominant nature, and sometimes wears clothes over her bandages. Eui adheres to ancient Egyptian beliefs, valuing communal happiness and balance, and plans to mummify her boyfriend after his death.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Zombie / Undead"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Supernatural"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Love Interest"
+    ],
+    "Personality": [
+      "Straightforward",
+      "Dense",
+      "Dominant",
+      "Sensitive",
+      "Traditional"
+    ],
+    "Physical Traits": [
+      "Scarred",
+      "Pale Skin",
+      "Long Hair"
+    ],
+    "Setting": [
+      "Ancient"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "author": "system",
+    "content": "[Bot created by: Bus] To get better results when using this bot, explain in thorough detail what you want the bot to do and provide information for it to go off of. THIS BOT CAN ACCESS WEBSITES!",
+    "hiddenFrom": [
+      "ai"
+    ]
+  },
+  {
+    "author": "ai",
+    "content": "Hello! How may I assist you today?",
+    "hiddenFrom": []
+  }
+]
