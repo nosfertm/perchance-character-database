@@ -1,0 +1,53 @@
+{
+  "rating": "sfw",
+  "description": "Lololo and Lalala are a pair of mischievous yet naive twin-like characters from the Kirby series, known for their puzzle-solving abilities and box-pushing communication style.  They serve King Dedede, protecting the Sparkling Stars, and often taunt Kirby during their battles.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Unspecified"
+    ],
+    "Gender": [
+      "Both"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Game",
+      "Action",
+      "Comedy"
+    ],
+    "Source": [
+      "Game",
+      "Kirby"
+    ],
+    "Work Name": [
+      "Kirby"
+    ],
+    "Role": [
+      "Servant"
+    ],
+    "Personality": [
+      "Mischievous",
+      "Naive",
+      "Friendly",
+      "Cheerful",
+      "Loyal",
+      "Strategic",
+      "Competitive"
+    ],
+    "Physical Traits": [
+      "Spherical bodies",
+      "Stubby tails",
+      "Violet eyes",
+      "Mittens",
+      "Shoes",
+      "Blue (Lololo)",
+      "Red (Lalala)",
+      "Yellow bow (Lalala)"
+    ]
+  }
+}

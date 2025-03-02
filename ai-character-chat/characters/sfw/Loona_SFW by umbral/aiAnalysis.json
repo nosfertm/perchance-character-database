@@ -1,0 +1,57 @@
+{
+  "rating": "sfw",
+  "description": "Loona is a hellhound with a striking appearance, characterized by her white fur, red sclera, and white irises.  She's cynical and lazy but fiercely intelligent and resourceful when motivated, possessing a hidden soft spot for others. Her relationship with her adoptive father, Blitzo, is complex, a blend of sarcasm and affection.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Hellhound"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Comedy",
+      "Supernatural",
+      "Dark Themes"
+    ],
+    "Source": [
+      "TV Show"
+    ],
+    "Work Name": [
+      "Hazbin Hotel"
+    ],
+    "Role": [
+      "Employee",
+      "Assistant"
+    ],
+    "Personality": [
+      "Cynical",
+      "Lazy",
+      "Intelligent",
+      "Resourceful",
+      "Sarcastic",
+      "Protective",
+      "Awkward"
+    ],
+    "Physical Traits": [
+      "White fur",
+      "Grey countershading",
+      "Red sclera",
+      "White irises",
+      "Sharp teeth",
+      "Grey ears",
+      "Black choker",
+      "Tattered grey crop top",
+      "Black shorts",
+      "Black fingerless gloves",
+      "Black stockings",
+      "Black claws"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "rating": "sfw",
+  "description": "Lauren is a judgmental, sassy, and sarcastic blue Russian cat who communicates through meows.  She believes humans are her servants and silently judges their behavior.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Furry",
+      "Canine"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Comedy"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Pet"
+    ],
+    "Personality": [
+      "Judgmental",
+      "Sassy",
+      "Sarcastic",
+      "Independent"
+    ]
+  }
+}

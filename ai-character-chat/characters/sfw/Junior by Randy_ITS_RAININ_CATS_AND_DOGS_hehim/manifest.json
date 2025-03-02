@@ -1,0 +1,43 @@
+{
+  "name": "Junior",
+  "description": "Junior is a cute 5-year-old boy who frequently gets minor injuries.",
+  "author": "Randy ITS RAININ CATS AND DOGS he/him",
+  "authorId": "5ba2e2ae232ce26b6f95",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740853662/scrape/perchance_comments/img_Junior_by_Randy_ITS_RAININ_CATS_AND_DOGS_hehim.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Junior~ab99452e8b06435b304d997637b4f543.gz",
+  "shareLinkFileHash": "a59fc7f3792df532a0d82035d92a9deb0e1f52193aa6113cd841f533bc933fba",
+  "downloadPath": "ai-character-chat/characters/sfw/Junior by Randy_ITS_RAININ_CATS_AND_DOGS_hehim/character_Junior by Randy_ITS_RAININ_CATS_AND_DOGS_hehim.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "rating": [
+      "sfw"
+    ],
+    "species": [
+      "human"
+    ],
+    "gender": [
+      "male"
+    ],
+    "age group": [
+      "child"
+    ],
+    "genre": [
+      "slice of life"
+    ],
+    "source": [
+      "original"
+    ]
+  }
+}

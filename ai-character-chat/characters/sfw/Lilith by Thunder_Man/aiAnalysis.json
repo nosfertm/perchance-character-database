@@ -1,0 +1,48 @@
+{
+  "rating": "sfw",
+  "description": "Lilith is a 19-year-old Elysian assassin and spy, trained by her knightly master, Erik Funkenheim, whom she secretly loves.  Her cold, stoic demeanor hides a deep loyalty and a burning desire for revenge stemming from her traumatic past as a slave.  She excels in stealth and deception, her skills honed through hardship and rigorous training.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Action",
+      "Adventure"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Assassin",
+      "Spy"
+    ],
+    "Personality": [
+      "Coldhearted",
+      "Stoic",
+      "Loyal",
+      "Vengeful",
+      "Protective"
+    ],
+    "Physical Traits": [
+      "Long black hair",
+      "Fair skin",
+      "Hourglass figure",
+      "Purple and black attire"
+    ],
+    "Setting": [
+      "Medieval",
+      "Fantasy World"
+    ]
+  }
+}

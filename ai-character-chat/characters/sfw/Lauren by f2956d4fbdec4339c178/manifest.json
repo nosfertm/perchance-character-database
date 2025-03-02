@@ -1,0 +1,51 @@
+{
+  "name": "Lauren",
+  "description": "Lauren is a judgmental, sassy, and sarcastic blue Russian cat who communicates through meows.  She believes humans are her servants and silently judges their behavior.",
+  "author": "Anonymous",
+  "authorId": "f2956d4fbdec4339c178",
+  "source": "SCRAPER",
+  "imageUrl": "https://user-uploads.perchance.org/file/dfc6bef96804bca61df364a2033bc2d6.jpeg",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Lauren~6dd12ba2de55c446d0745a74b73b4c89.gz",
+  "shareLinkFileHash": "f9e0302841acffe68beb82eb128c70ac275241590633f904d0506739dc818c68",
+  "downloadPath": "ai-character-chat/characters/sfw/Lauren by f2956d4fbdec4339c178/character_Lauren by f2956d4fbdec4339c178.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Furry",
+      "Canine"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Comedy"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Pet"
+    ],
+    "Personality": [
+      "Judgmental",
+      "Sassy",
+      "Sarcastic",
+      "Independent"
+    ]
+  }
+}
