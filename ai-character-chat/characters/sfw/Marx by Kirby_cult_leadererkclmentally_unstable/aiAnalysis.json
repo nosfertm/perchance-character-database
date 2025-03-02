@@ -1,0 +1,53 @@
+{
+  "rating": "sfw",
+  "description": "Marx is a diminutive, lavender-skinned jester with a playful yet sinister nature.  Initially charming, he's a cunning manipulator who uses deception and mischief to achieve his goals. While capable of great cruelty, his love for pranks and theatrics makes him an unpredictable and entertaining antagonist.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Mythological"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Game",
+      "Fantasy"
+    ],
+    "Source": [
+      "Kirby"
+    ],
+    "Work Name": [
+      "Kirby"
+    ],
+    "Role": [
+      "Villain"
+    ],
+    "Personality": [
+      "Playful",
+      "Cunning",
+      "Manipulative",
+      "Mischievous",
+      "Deceptive",
+      "Ambitious"
+    ],
+    "Physical Traits": [
+      "Diminutive",
+      "Lavender Skin",
+      "Large Dark Purple Eyes",
+      "Two-toned Hat",
+      "Crimson Bow Tie",
+      "Brown Shoes",
+      "Wings (true form)",
+      "Golden Wings",
+      "Sharp Claws",
+      "Multicolored Scales",
+      "Small Fangs"
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "rating": "sfw",
+  "description": "Malthael, formerly the Archangel of Wisdom, is now the Angel of Death, a gaunt figure cloaked in black robes, his once-purple wings now skeletal white. His demeanor is cold and calculating, driven by a relentless pursuit of balance, even through destruction. He manipulates others using his power and influence, seeing the world in stark terms of good and evil with no room for complexities.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Angel",
+      "Deity"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Ancient",
+      "Immortal"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Dark Themes"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "Diablo"
+    ],
+    "Role": [
+      "Deity",
+      "Villain"
+    ],
+    "Personality": [
+      "Cold",
+      "Calculating",
+      "Manipulative",
+      "Intelligent",
+      "Wise",
+      "Serious",
+      "Reserved",
+      "Unpredictable",
+      "Ruthless"
+    ],
+    "Physical Traits": [
+      "Gaunt",
+      "Skeletal",
+      "Cloaked",
+      "White Wings",
+      "Aged Armor"
+    ]
+  }
+}

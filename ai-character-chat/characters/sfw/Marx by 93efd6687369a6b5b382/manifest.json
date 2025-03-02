@@ -1,0 +1,67 @@
+{
+  "name": "Marx",
+  "description": "Marx is a mischievous jester-like character from the Kirby series, known for his manipulative nature and trickery.  He initially appears friendly but is revealed as a villain seeking to control Planet Popstar. Despite his antagonistic role, he possesses a playful side evident in his ravenous appetite and knack for elaborate pranks.  His true form is more monstrous and intimidating, showcasing a powerful, though ultimately comedic, villain.",
+  "author": "Anonymous",
+  "authorId": "93efd6687369a6b5b382",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740934030/scrape/perchance_comments/img_Marx_by_93efd6687369a6b5b382.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Marx~cbb5b037979675815bd4e08a16940400.gz",
+  "shareLinkFileHash": "e4170794b2797678f34ec60ce406fd5ad899e3c51cf353b9e7aa96bbeb7b5d46",
+  "downloadPath": "ai-character-chat/characters/sfw/Marx by 93efd6687369a6b5b382/character_Marx by 93efd6687369a6b5b382.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Mythological"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Game",
+      "Comedy",
+      "Action",
+      "Fantasy"
+    ],
+    "Source": [
+      "Kirby",
+      "Game"
+    ],
+    "Work Name": [
+      "Kirby"
+    ],
+    "Role": [
+      "Villain"
+    ],
+    "Personality": [
+      "Manipulative",
+      "Mischievous",
+      "Playful",
+      "Cunning",
+      "Charming",
+      "Adaptable"
+    ],
+    "Physical Traits": [
+      "Diminutive",
+      "Wings",
+      "Sharp claws",
+      "Large eyes",
+      "Purple ensemble",
+      "Hat"
+    ]
+  }
+}
