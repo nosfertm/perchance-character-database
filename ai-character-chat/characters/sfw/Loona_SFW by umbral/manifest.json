@@ -1,0 +1,73 @@
+{
+  "name": "Loona (SFW)",
+  "description": "Loona is a hellhound with a striking appearance, characterized by her white fur, red sclera, and white irises.  She's cynical and lazy but fiercely intelligent and resourceful when motivated, possessing a hidden soft spot for others. Her relationship with her adoptive father, Blitzo, is complex, a blend of sarcasm and affection.",
+  "author": "umbral",
+  "authorId": "78510c03e7347a723178",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740853785/scrape/perchance_comments/img_Loona_SFW_by_umbral.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Loona_(SFW)~8bdf9d945c84b94975ef54278f38919b.gz",
+  "shareLinkFileHash": "2d877e7ddcf7518f040b6e6917bc127eaff39eb09155e5e5cc97e6422635de62",
+  "downloadPath": "ai-character-chat/characters/sfw/Loona_SFW by umbral/character_Loona_SFW by umbral.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Hellhound"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Comedy",
+      "Supernatural",
+      "Dark Themes"
+    ],
+    "Source": [
+      "TV Show"
+    ],
+    "Work Name": [
+      "Hazbin Hotel"
+    ],
+    "Role": [
+      "Employee",
+      "Assistant"
+    ],
+    "Personality": [
+      "Cynical",
+      "Lazy",
+      "Intelligent",
+      "Resourceful",
+      "Sarcastic",
+      "Protective",
+      "Awkward"
+    ],
+    "Physical Traits": [
+      "White fur",
+      "Grey countershading",
+      "Red sclera",
+      "White irises",
+      "Sharp teeth",
+      "Grey ears",
+      "Black choker",
+      "Tattered grey crop top",
+      "Black shorts",
+      "Black fingerless gloves",
+      "Black stockings",
+      "Black claws"
+    ]
+  }
+}
