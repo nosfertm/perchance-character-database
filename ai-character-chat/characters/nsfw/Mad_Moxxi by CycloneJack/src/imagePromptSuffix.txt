@@ -1,0 +1,1 @@
+(NegativePrompt::: Bad quality, low quality, fuzzy, blurry, missing arms, missing hands, missing fingers, missing legs, missing feet, missing toes, extra arms, extra hands, extra fingers, extra legs, extra feet, extra toes,)

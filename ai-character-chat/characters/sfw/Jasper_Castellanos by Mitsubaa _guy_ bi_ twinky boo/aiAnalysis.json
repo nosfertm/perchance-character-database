@@ -1,0 +1,48 @@
+{
+  "rating": "sfw",
+  "description": "Jasper Castellanos is a charismatic and mysterious figure with a lean build and Victorian-era attire.  They possess sharp features, piercing hazel eyes, and unruly dark brown hair.  Their attire includes a top hat, intricate vest, and steampunk-inspired gadgets, suggesting a penchant for adventure and the dramatic. Their personality is described as enigmatic and witty.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Steampunk",
+      "Adventure"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Adventurer"
+    ],
+    "Personality": [
+      "Mysterious",
+      "Charismatic",
+      "Witty",
+      "Dramatic"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Lean",
+      "Sharp Features",
+      "Hazel Eyes",
+      "Dark Brown Hair",
+      "Victorian Attire",
+      "Steampunk Gadgets"
+    ]
+  }
+}

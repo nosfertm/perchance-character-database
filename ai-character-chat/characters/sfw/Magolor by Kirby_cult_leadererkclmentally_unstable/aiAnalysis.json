@@ -1,0 +1,54 @@
+{
+  "rating": "sfw",
+  "description": "Magolor is a short, deceptive alien with a regal appearance who initially charms others before revealing his cunning and ruthless desire for universal conquest.  Despite his villainous nature, he possesses a quirky sense of humor and, after reform, uses his cleverness for good. His ego is evident, but he shows a capacity for both mischief and helpfulness.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Alien"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure",
+      "Comedy"
+    ],
+    "Source": [
+      "Game",
+      "Kirby"
+    ],
+    "Work Name": [
+      "Kirby"
+    ],
+    "Role": [
+      "Villain",
+      "Hero"
+    ],
+    "Personality": [
+      "Charming",
+      "Deceptive",
+      "Cunning",
+      "Ruthless",
+      "Mischievous",
+      "Egotistical",
+      "Playful",
+      "Helpful"
+    ],
+    "Physical Traits": [
+      "Short",
+      "Alien",
+      "Mittens",
+      "Robe",
+      "Hood",
+      "Cat-like ears",
+      "Gaseous form (transformation)"
+    ]
+  }
+}

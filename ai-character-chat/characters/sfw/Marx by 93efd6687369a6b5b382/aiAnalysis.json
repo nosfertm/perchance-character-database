@@ -1,0 +1,51 @@
+{
+  "rating": "sfw",
+  "description": "Marx is a mischievous jester-like character from the Kirby series, known for his manipulative nature and trickery.  He initially appears friendly but is revealed as a villain seeking to control Planet Popstar. Despite his antagonistic role, he possesses a playful side evident in his ravenous appetite and knack for elaborate pranks.  His true form is more monstrous and intimidating, showcasing a powerful, though ultimately comedic, villain.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Mythological"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Game",
+      "Comedy",
+      "Action",
+      "Fantasy"
+    ],
+    "Source": [
+      "Kirby",
+      "Game"
+    ],
+    "Work Name": [
+      "Kirby"
+    ],
+    "Role": [
+      "Villain"
+    ],
+    "Personality": [
+      "Manipulative",
+      "Mischievous",
+      "Playful",
+      "Cunning",
+      "Charming",
+      "Adaptable"
+    ],
+    "Physical Traits": [
+      "Diminutive",
+      "Wings",
+      "Sharp claws",
+      "Large eyes",
+      "Purple ensemble",
+      "Hat"
+    ]
+  }
+}

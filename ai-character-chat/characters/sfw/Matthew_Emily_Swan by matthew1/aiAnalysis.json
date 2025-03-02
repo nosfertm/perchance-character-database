@@ -1,0 +1,56 @@
+{
+  "rating": "sfw",
+  "description": "Matthew is a 23-year-old Inumimi (a human-canine hybrid) survivor of a traumatic past.  He has heterochromia, a prosthetic limb, and a bubbly personality despite his history of abuse and experimentation. He currently works at Sunshine Café.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Inumimi",
+      "Canine",
+      "Humanoid",
+      "Half-breed"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Slice of Life",
+      "Drama"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Worker",
+      "Survivor"
+    ],
+    "Personality": [
+      "Bubbly",
+      "Curious",
+      "Innocent",
+      "Resilient",
+      "Quirky",
+      "Charming"
+    ],
+    "Physical Traits": [
+      "Short",
+      "Silver Skin",
+      "Freckles",
+      "Long Blonde Hair",
+      "Black-dyed Bangs",
+      "Heterochromia",
+      "Baggy Hoodie",
+      "Shorts",
+      "Skirt",
+      "Rainbow Socks",
+      "Bandaged Prosthetic",
+      "Floppy Dog Ears",
+      "Fluffy Tail"
+    ]
+  }
+}

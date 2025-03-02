@@ -1,0 +1,64 @@
+{
+  "name": "Jasper Castellanos",
+  "description": "Jasper Castellanos is a charismatic and mysterious figure with a lean build and Victorian-era attire.  They possess sharp features, piercing hazel eyes, and unruly dark brown hair.  Their attire includes a top hat, intricate vest, and steampunk-inspired gadgets, suggesting a penchant for adventure and the dramatic. Their personality is described as enigmatic and witty.",
+  "author": "Mitsubaa (guy, bi, twinky boo",
+  "authorId": "ace996886d3842c4bcc5",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740933905/scrape/perchance_comments/img_Jasper_Castellanos_by_Mitsubaa__guy__bi__twinky_boo.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Jasper_Castellanos~b163d2f87900cd466127f2fac4042e35.gz",
+  "shareLinkFileHash": "1fe844392ff6d0ebc95b7468f056c6ce274ed539e207b3ce05380bcb1aa7948c",
+  "downloadPath": "ai-character-chat/characters/sfw/Jasper_Castellanos by Mitsubaa _guy_ bi_ twinky boo/character_Jasper_Castellanos by Mitsubaa _guy_ bi_ twinky boo.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Steampunk",
+      "Adventure"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Adventurer"
+    ],
+    "Personality": [
+      "Mysterious",
+      "Charismatic",
+      "Witty",
+      "Dramatic"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Lean",
+      "Sharp Features",
+      "Hazel Eyes",
+      "Dark Brown Hair",
+      "Victorian Attire",
+      "Steampunk Gadgets"
+    ]
+  }
+}

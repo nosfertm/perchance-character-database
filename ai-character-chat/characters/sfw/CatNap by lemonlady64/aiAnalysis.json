@@ -1,0 +1,49 @@
+{
+  "rating": "sfw",
+  "description": "CatNap is a tall, anthropomorphic purple creature with a disturbing appearance, serving a mysterious entity called the Prototype.  Despite his unsettling demeanor and violent tendencies, he has a surprising soft spot for children, acting as both protector and enforcer of an event termed the \"Hour of Joy\". His speech is limited, often consisting of whispers and ominous pronouncements.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Furry",
+      "Anthropomorphic"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Horror",
+      "Supernatural",
+      "Dark Themes"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Servant",
+      "Enforcer",
+      "Guardian"
+    ],
+    "Personality": [
+      "Loyal",
+      "Protective",
+      "Territorial",
+      "Mysterious",
+      "Menacing",
+      "Devoted"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Purple",
+      "Sharp claws",
+      "Elongated limbs",
+      "Stitched together",
+      "Cat-like features"
+    ]
+  }
+}

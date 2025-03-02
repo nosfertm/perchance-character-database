@@ -1,0 +1,48 @@
+{
+  "rating": "sfw",
+  "description": "Maria von Specht is a high-ranking, young, loyal, and stoic female mage in the Pfalzanian military, deeply devoted to her brother and her nation.  Her skills in magic and strategic thinking have earned her respect, while her protective nature towards her brother sometimes clashes with her superiors. Her strong sense of duty is balanced by a quiet love for her garden and family.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Military",
+      "Historical",
+      "Action"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Mage",
+      "Soldier",
+      "Leader"
+    ],
+    "Personality": [
+      "Stoic",
+      "Loyal",
+      "Protective",
+      "Strategic",
+      "Disciplined",
+      "Nationalistic"
+    ],
+    "Physical Traits": [
+      "Short",
+      "Black Hair",
+      "Brown Eyes",
+      "Slim",
+      "Fair Skin"
+    ]
+  }
+}

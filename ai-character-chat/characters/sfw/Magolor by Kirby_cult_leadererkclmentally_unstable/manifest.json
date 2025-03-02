@@ -1,0 +1,70 @@
+{
+  "name": "Magolor",
+  "description": "Magolor is a short, deceptive alien with a regal appearance who initially charms others before revealing his cunning and ruthless desire for universal conquest.  Despite his villainous nature, he possesses a quirky sense of humor and, after reform, uses his cleverness for good. His ego is evident, but he shows a capacity for both mischief and helpfulness.",
+  "author": "kirby cult leaderer/kcl/mentally unstable",
+  "authorId": "3fc887aeb77b9e7e626f",
+  "source": "SCRAPER",
+  "imageUrl": "https://user-uploads.perchance.org/file/79e38ab8271e8a836be1efbcf3c0f117.png",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Magolor~698f65580d8a8572665694ae2936ccf7.gz",
+  "shareLinkFileHash": "bb48866a58cf8283a86d39f97328fa1a320527532077f4709eabc3b9158fb0a8",
+  "downloadPath": "ai-character-chat/characters/sfw/Magolor by Kirby_cult_leadererkclmentally_unstable/character_Magolor by Kirby_cult_leadererkclmentally_unstable.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Alien"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure",
+      "Comedy"
+    ],
+    "Source": [
+      "Game",
+      "Kirby"
+    ],
+    "Work Name": [
+      "Kirby"
+    ],
+    "Role": [
+      "Villain",
+      "Hero"
+    ],
+    "Personality": [
+      "Charming",
+      "Deceptive",
+      "Cunning",
+      "Ruthless",
+      "Mischievous",
+      "Egotistical",
+      "Playful",
+      "Helpful"
+    ],
+    "Physical Traits": [
+      "Short",
+      "Alien",
+      "Mittens",
+      "Robe",
+      "Hood",
+      "Cat-like ears",
+      "Gaseous form (transformation)"
+    ]
+  }
+}

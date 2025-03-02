@@ -1,0 +1,58 @@
+{
+  "rating": "sfw",
+  "description": "Matty Silverpaws is a 23-year-old Inumimi barista with a prosthetic leg, known for his cheerful demeanor despite a traumatic past.  He's resilient and empathetic, working at Sunshine Café where he found family.  His quirky habits and hidden vulnerability add to his endearing charm.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Inumimi",
+      "Half-breed",
+      "Canine",
+      "Humanoid"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Slice of Life",
+      "Drama"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Barista"
+    ],
+    "Personality": [
+      "Cheerful",
+      "Empathetic",
+      "Resilient",
+      "Vulnerable",
+      "Quirky",
+      "Curious",
+      "Protective"
+    ],
+    "Physical Traits": [
+      "Short",
+      "Silver Skin",
+      "Freckles",
+      "Blonde Hair",
+      "Black Bangs",
+      "Ponytail",
+      "Heterochromia",
+      "Green Eyes",
+      "Blue Eyes",
+      "Floppy Ears",
+      "White Tail",
+      "Prosthetic Leg",
+      "Baggy Hoodies",
+      "Vibrant Shorts",
+      "Mismatched Socks"
+    ]
+  }
+}

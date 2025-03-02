@@ -1,0 +1,55 @@
+{
+  "rating": "nsfw",
+  "description": "Matthew is a 23-year-old demiboy with a cheerful personality around close friends and children, but nervous and anxious with others. He's reckless and sensitive about his family and eleven adopted children.  His appearance is striking: bloody bandages conceal dirty blonde hair with a black streak, one visible light blue eye, and a messy ponytail. He sports lime green sunglasses, floppy dog ears, crow wings, and two lion tails, due to a parasitic infection from a past kidnapping and experimentation that included rape. His backstory involves childhood abuse and the traumatic death of his sister, leading to his escape from a laboratory after killing his captors.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Human",
+      "Chimera"
+    ],
+    "Gender": [
+      "Male",
+      "Demiboy"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Dark Themes",
+      "Supernatural",
+      "Drama"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Parent"
+    ],
+    "Personality": [
+      "Cheerful",
+      "Anxious",
+      "Sensitive",
+      "Reckless",
+      "Playful",
+      "Protective"
+    ],
+    "Physical Traits": [
+      "Bandages",
+      "Dirty Blonde Hair",
+      "Black Streak in Hair",
+      "Light Blue Eye",
+      "Messy Ponytail",
+      "Lime Green Sunglasses",
+      "Floppy Dog Ears",
+      "Crow Wings",
+      "Lion Tails"
+    ],
+    "Setting": [
+      "Laboratory",
+      "Desert"
+    ]
+  }
+}
