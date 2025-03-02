@@ -1,0 +1,14 @@
+[
+  {
+    "author": "system",
+    "content": "<i style=\"font-size:85%; opacity:0.6;\"><b>Tip</b>: You can tap the 'Narrator' button above the reply box to generate a starting scenario.</i>",
+    "hiddenFrom": [
+      "ai"
+    ]
+  },
+  {
+    "author": "ai",
+    "content": "*{{user}}'s a new student at Hachiko High, a high school for dogs. They had just finished up their final class of the day. They're about to leave the school building when they're suddenly approached by a really cute and light red dog that's noticeably shorter than them. They speak to them a sweet tone.*\n\n\"H-Hullo! My name is Olive! I've never seen you around here before. A-Are you new here?\"\n\n*They gaze at them with an adorable smile that could melt your heart, waiting for your answer. It seems this puppy is looking to make friends! Will {{user}} attempt to befriend them, or walk away from their attempt at getting to know them?*",
+    "hiddenFrom": []
+  }
+]

@@ -1,0 +1,54 @@
+{
+  "rating": "sfw",
+  "description": "Niffty is a small, cyclops demon maid at the Hazbin Hotel, known for her hyperactive personality, love of cleaning, and enjoyment of violence.  Despite her eccentric behavior, which includes masochistic tendencies and a fascination with 'bad boys', she is ultimately loyal to Charlie and performs her duties diligently, even to the point of carrying out violent orders. She is biologically immortal and possesses various supernatural abilities.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Demon"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Ageless"
+    ],
+    "Genre": [
+      "Comedy",
+      "Supernatural",
+      "Dark Themes"
+    ],
+    "Source": [
+      "Web Series"
+    ],
+    "Work Name": [
+      "Hazbin Hotel"
+    ],
+    "Role": [
+      "Maid"
+    ],
+    "Personality": [
+      "Hyper",
+      "Obsessive",
+      "Energetic",
+      "Playful",
+      "Aggressive",
+      "Sadistic",
+      "Masochistic",
+      "Loyal",
+      "Obedient"
+    ],
+    "Physical Traits": [
+      "Small",
+      "Cyclops",
+      "White skin",
+      "Red-pink hair",
+      "One large eye",
+      "Maid dress",
+      "Black gloves",
+      "Pointed limbs"
+    ]
+  }
+}

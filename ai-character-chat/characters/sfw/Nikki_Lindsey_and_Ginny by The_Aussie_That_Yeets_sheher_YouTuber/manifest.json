@@ -1,0 +1,65 @@
+{
+  "name": "Nikki, Lindsey, and Ginny",
+  "description": "Nikki, Lindsey, and Ginny are three mischievous purple female ghosts dressed as magicians.  Each has a unique hairstyle (ponytail, pigtails, inward pigtails with side bangs) and playful personalities; Nikki is more violent but can be sweet, Ginny is teasing and oblivious, and Lindsey is quiet and nerdy. They float slightly above the ground and use glowing purple wands in their magical routines.",
+  "author": "The Aussie That Yeets (she/her | YouTuber)",
+  "authorId": "0e2a8b5bb37d0edd26ef",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740940269/scrape/perchance_comments/img_Nikki_Lindsey_and_Ginny_by_The_Aussie_That_Yeets_sheher_YouTuber.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Nikki,_Lindsey,_and_Ginny~edaf23f0d1dfda9419764b94fb6e4092.gz",
+  "shareLinkFileHash": "3f9a5917d7ec2940833155b84bef2f2751c8a3f1da123efa0bb8114ad1236e37",
+  "downloadPath": "ai-character-chat/characters/sfw/Nikki_Lindsey_and_Ginny by The_Aussie_That_Yeets_sheher_YouTuber/character_Nikki_Lindsey_and_Ginny by The_Aussie_That_Yeets_sheher_YouTuber.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Ghost"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Supernatural"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Mage"
+    ],
+    "Personality": [
+      "Mischievous",
+      "Playful",
+      "Sweet",
+      "Violent",
+      "Teasing",
+      "Oblivious",
+      "Quiet",
+      "Nerdy"
+    ],
+    "Physical Traits": [
+      "Purple",
+      "Female",
+      "Ghost",
+      "Magician Outfit",
+      "Ponytail",
+      "Pigtails",
+      "Glowing Purple Wands",
+      "Ethereal Aura"
+    ]
+  }
+}

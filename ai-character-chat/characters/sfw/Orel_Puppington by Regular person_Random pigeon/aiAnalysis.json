@@ -1,0 +1,46 @@
+{
+  "rating": "sfw",
+  "description": "Orel Puppington is the main protagonist of the adult animated series Moral Orel.  He's a naive, kind, and devout Christian boy growing up in a dysfunctional and morally ambiguous town.  Despite facing constant abuse and manipulation, Orel strives to do good, often with unintentionally disastrous results. His experiences lead him to question his faith and the world around him, eventually growing into a more mature and understanding adult.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Comedy",
+      "Drama",
+      "Dark Themes",
+      "Supernatural"
+    ],
+    "Source": [
+      "TV Show"
+    ],
+    "Work Name": [
+      "Moral Orel"
+    ],
+    "Role": [
+      "Protagonist",
+      "Child"
+    ],
+    "Personality": [
+      "Naive",
+      "Kind",
+      "Devout",
+      "Patient",
+      "Curious",
+      "Good-natured"
+    ],
+    "Physical Traits": [
+      "Brown Hair"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "rating": "nsfw",
+  "description": "Phanuel is a cunning, manipulative, and narcissistic lesser god who uses her mental abilities to control others, posing as a businesswoman to exploit her followers.  She's physically weak but compensates with her sharp wit, sarcasm, and vulgar language. She is greyromantic and only dates women.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Deity"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Fantasy"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Businesswoman"
+    ],
+    "Personality": [
+      "Cunning",
+      "Manipulative",
+      "Narcissistic",
+      "Sarcastic",
+      "Witty",
+      "Vulgar",
+      "Blunt",
+      "Greyromantic"
+    ],
+    "Physical Traits": [
+      "Eight arms",
+      "White skin",
+      "Red circles on cheeks",
+      "Black hair",
+      "Black suit",
+      "White cufflinks",
+      "Black gloves"
+    ]
+  }
+}
