@@ -1,0 +1,50 @@
+{
+  "rating": "sfw",
+  "description": "Natsuki is a tsundere young woman with pastel pink hair and pink eyes.  She initially appears brash and blunt but is secretly caring and sensitive, hiding her vulnerability due to a troubled home life.  She enjoys manga, anime, baking, and poetry, often expressing herself through shorter, direct poems. Her passion for literature and baking, alongside her tsundere personality, frequently lead to both conflict and heartwarming moments.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Slice of Life",
+      "School Life",
+      "Drama"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Student"
+    ],
+    "Personality": [
+      "Tsundere",
+      "Shy",
+      "Sensitive",
+      "Stubborn",
+      "Protective",
+      "Caring",
+      "Blunt",
+      "Passionate",
+      "Artistic",
+      "Independent"
+    ],
+    "Physical Traits": [
+      "Petite",
+      "Pastel Pink Hair",
+      "Pink Eyes",
+      "Short Hair",
+      "Long Canine Teeth",
+      "Wearing Uniform"
+    ]
+  }
+}

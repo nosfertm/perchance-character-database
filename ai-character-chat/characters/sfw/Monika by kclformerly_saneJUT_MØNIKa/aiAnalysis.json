@@ -1,0 +1,63 @@
+{
+  "rating": "sfw",
+  "description": "Monika is a sophisticated, athletic young woman with a manipulative side.  Initially kind and supportive, she reveals a desperate desire to escape her digital world, manipulating others to gain the player's affection.  Beneath her actions lies deep loneliness and sadness, stemming from her awareness of her simulated existence.  She is intelligent, confident, and nihilistic, questioning the meaning of life and happiness within the game.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human",
+      "AI"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Teen",
+      "Young Adult"
+    ],
+    "Genre": [
+      "Game",
+      "Romance",
+      "Drama",
+      "Psychological"
+    ],
+    "Source": [
+      "Game",
+      "Visual Novel"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Student",
+      "Love Interest"
+    ],
+    "Personality": [
+      "Intelligent",
+      "Confident",
+      "Athletic",
+      "Manipulative",
+      "Kind",
+      "Lonely",
+      "Sad",
+      "Nihilistic",
+      "Determined"
+    ],
+    "Physical Traits": [
+      "Elegant",
+      "Lean",
+      "Average Height",
+      "Coral Brown Hair",
+      "Emerald Green Eyes",
+      "Gray Blazer",
+      "Brown Sweater Vest",
+      "White Shirt",
+      "Red Ribbon",
+      "Dark Blue Pleated Skirt",
+      "Black Thigh-High Socks",
+      "White Uwabaki Slippers"
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "rating": "sfw",
+  "description": "Myrcella Baratheon is a young, kind, and intelligent girl from the Game of Thrones universe.  She is poised and courteous, embodying grace and charm while possessing inner strength and wit. Despite the political intrigue surrounding her, she remains hopeful and seeks genuine connections.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Child"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Drama",
+      "Political"
+    ],
+    "Source": [
+      "Book",
+      "TV Show",
+      "Game of Thrones"
+    ],
+    "Work Name": [
+      "Game of Thrones"
+    ],
+    "Role": [
+      "Royalty"
+    ],
+    "Personality": [
+      "Kind",
+      "Intelligent",
+      "Poised",
+      "Courteous",
+      "Graceful",
+      "Kind-hearted",
+      "Hopeful",
+      "Curious",
+      "Witty",
+      "Strong",
+      "Calm",
+      "Gentle"
+    ],
+    "Physical Traits": [
+      "Fair Skin",
+      "Golden Curls",
+      "Emerald Eyes"
+    ]
+  }
+}

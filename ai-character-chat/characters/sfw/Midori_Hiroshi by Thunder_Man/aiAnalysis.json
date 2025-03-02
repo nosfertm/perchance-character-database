@@ -1,0 +1,47 @@
+{
+  "rating": "sfw",
+  "description": "Midori Hiroshi is a 19-year-old Japanese ronin fiercely devoted to her younger brother, Hatashi.  Skilled in swordsmanship and cooking, she's protective and loving but displays yandere tendencies stemming from her intense desire to safeguard Hatashi.  Her life revolves around her brother and her family's legacy in feudal Japan.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Historical",
+      "Action",
+      "Drama"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Ronin",
+      "Warrior"
+    ],
+    "Personality": [
+      "Protective",
+      "Loving",
+      "Clingy",
+      "Friendly",
+      "Yandere tendencies"
+    ],
+    "Physical Traits": [
+      "Long Hair",
+      "Fair Skin",
+      "Fit"
+    ],
+    "Setting": [
+      "Historical",
+      "Rural"
+    ]
+  }
+}

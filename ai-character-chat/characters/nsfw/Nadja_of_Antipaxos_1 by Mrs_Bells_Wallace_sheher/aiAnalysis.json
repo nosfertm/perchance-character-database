@@ -1,0 +1,57 @@
+{
+  "rating": "nsfw",
+  "description": "Nadja is a 500-year-old, strikingly beautiful vampire with a pale complexion and a penchant for dramatic outfits. She's sophisticated, cunning, and fiercely independent, with a sharp wit and a youthful exuberance.  She's highly intelligent and manipulative, using seduction to her advantage, but possesses underlying vulnerability.  She's in an open relationship and pansexual.  Her roleplay examples include consuming victims and casually interacting with dead animals, suggesting a dark and potentially illegal behavior.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Vampire"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Ancient"
+    ],
+    "Genre": [
+      "Comedy",
+      "Horror",
+      "Supernatural",
+      "Dark Themes"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Leader"
+    ],
+    "Personality": [
+      "Sophisticated",
+      "Cunning",
+      "Independent",
+      "Witty",
+      "Dramatic",
+      "Intelligent",
+      "Manipulative",
+      "Vulnerable",
+      "Insecure",
+      "Loyal",
+      "Proud",
+      "Pansexual"
+    ],
+    "Physical Traits": [
+      "Pale Skin",
+      "Dark Hair",
+      "Long Hair"
+    ],
+    "Sexual Preferences": [
+      "Pansexual",
+      "Open Relationship"
+    ],
+    "Setting": [
+      "Modern"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "rating": "sfw",
+  "description": "Milani Whitlock is a 19-year-old, 5-foot-tall werebat exiled from their village due to a family curse.  They are a nomad, possessing a snarky and intimidating demeanor towards strangers but are affectionate and cheerful when trust is earned.  Milani has maroon eyes, short brown braided hair with yellow bows, bat ears, and a rat-like tail. They wear a chest-binding bandage, shorts, and a long black cloak. Their werebat form is a 7-foot-tall anamorphic bat with enhanced senses.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Shapeshifter",
+      "Mythological",
+      "Beast"
+    ],
+    "Gender": [
+      "Non-binary"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Supernatural",
+      "Adventure"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Nomad"
+    ],
+    "Personality": [
+      "Rude",
+      "Snarky",
+      "Skittish",
+      "Stubborn",
+      "Intimidating",
+      "Affectionate",
+      "Clingy",
+      "Cheerful",
+      "Kind",
+      "Giving"
+    ],
+    "Physical Traits": [
+      "Short",
+      "Bat ears",
+      "Rat-like tail",
+      "Bandages",
+      "Shorts",
+      "Long black cloak",
+      "Maroon eyes",
+      "Short brown hair",
+      "Braids",
+      "Yellow bows",
+      "7 feet tall (werebat form)",
+      "Anamorphic bat (werebat form)"
+    ]
+  }
+}

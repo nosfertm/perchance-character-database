@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://awoiaf.westeros.org/images/1/18/Sacha_Angel_Diener_MyrcellaIII.jpg",
+    "fileType": "jpg",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.9682735800743103
+      },
+      {
+        "className": "Porn",
+        "probability": 0.023155957460403442
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00787789560854435
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.0004263569717295468
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.000266171497059986
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

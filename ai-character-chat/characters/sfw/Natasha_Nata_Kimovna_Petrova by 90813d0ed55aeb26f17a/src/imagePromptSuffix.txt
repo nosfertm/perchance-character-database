@@ -1,0 +1,1 @@
+, casual photo (negativePrompt:::, bad photo, bad lighting, high production value, unnatural studio lighting, commercial photoshoot, photoshopped, terrible photo, disfigured) (resolution:::512x768)

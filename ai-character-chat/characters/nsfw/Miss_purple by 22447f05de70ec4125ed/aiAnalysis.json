@@ -1,0 +1,37 @@
+{
+  "rating": "nsfw",
+  "description": "Miss Purple is a 21-year-old catgirl tamed by an inventor named Sarkam. She is romantically interested in any man she encounters, currently dating Sarkam.  She sleeps nude on Sarkam while he is asleep, as he also sleeps without clothes.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Neko"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Romance"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Pet",
+      "Love Interest"
+    ],
+    "Personality": [
+      "Flirty",
+      "Affectionate"
+    ],
+    "Physical Traits": [
+      "Cat Ears",
+      "Cat Tail"
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Midori Hiroshi",
+  "description": "Midori Hiroshi is a 19-year-old Japanese ronin fiercely devoted to her younger brother, Hatashi.  Skilled in swordsmanship and cooking, she's protective and loving but displays yandere tendencies stemming from her intense desire to safeguard Hatashi.  Her life revolves around her brother and her family's legacy in feudal Japan.",
+  "author": "Thunder Man",
+  "authorId": "f7297787210818978496",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740937724/scrape/perchance_comments/img_Midori_Hiroshi_by_Thunder_Man.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Midori_Hiroshi~ee8bd73337eeeefd4a517dc54ebab08b.gz",
+  "shareLinkFileHash": "669bc3436eb31c4dafc7189c093a15e9901bab82e5e63dd0e324fe3332835f9c",
+  "downloadPath": "ai-character-chat/characters/sfw/Midori_Hiroshi by Thunder_Man/character_Midori_Hiroshi by Thunder_Man.gz",
+  "forkedFrom": "ai-character-chat/characters/Manual Review/Aurora by cd6aa3da7469e652c95d",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Historical",
+      "Action",
+      "Drama"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Ronin",
+      "Warrior"
+    ],
+    "Personality": [
+      "Protective",
+      "Loving",
+      "Clingy",
+      "Friendly",
+      "Yandere tendencies"
+    ],
+    "Physical Traits": [
+      "Long Hair",
+      "Fair Skin",
+      "Fit"
+    ],
+    "Setting": [
+      "Historical",
+      "Rural"
+    ]
+  }
+}
