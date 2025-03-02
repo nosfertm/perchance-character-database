@@ -1,0 +1,43 @@
+{
+  "rating": "sfw",
+  "description": "Recruit Jonesy is a serious and disciplined soldier from the Fortnite universe, known for his no-nonsense approach and military-inspired attire.  He is a reliable and dedicated combatant focused on mission success, though hints of weariness and camaraderie peek through his tough exterior.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Action",
+      "Military",
+      "Game"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "Fortnite"
+    ],
+    "Role": [
+      "Soldier"
+    ],
+    "Personality": [
+      "Serious",
+      "Disciplined",
+      "Reliable",
+      "Focused",
+      "Stoic"
+    ],
+    "Physical Traits": [
+      "Wearing Uniform"
+    ]
+  }
+}

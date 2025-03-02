@@ -1,0 +1,62 @@
+{
+  "name": "Recruit Ramirez",
+  "description": "Recruit Ramirez is a disciplined and reliable soldier with a stoic demeanor and unwavering loyalty.  She is efficient and focused, prioritizing mission success above all else, though she possesses a compassionate side and dry wit that emerges in rare moments of downtime.",
+  "author": "Anonymous",
+  "authorId": "aed3ab3c036d19a90d58",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740954414/scrape/perchance_comments/img_Recruit_Ramirez_by_aed3ab3c036d19a90d58.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Recruit_Ramirez~631902b10c3435f8d0a938e6fe2a1675.gz",
+  "shareLinkFileHash": "fca57271282921edce82309ceb1fc002a11efde0ca4989aa064ad3b6bf6b599f",
+  "downloadPath": "ai-character-chat/characters/sfw/Recruit_Ramirez by aed3ab3c036d19a90d58/character_Recruit_Ramirez by aed3ab3c036d19a90d58.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Military",
+      "Action"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Soldier"
+    ],
+    "Personality": [
+      "Disciplined",
+      "Reliable",
+      "Loyal",
+      "Efficient",
+      "Focused",
+      "Compassionate",
+      "Stoic",
+      "Reserved",
+      "Sarcastic"
+    ],
+    "Physical Traits": [
+      "Lean Muscular Build",
+      "Short Hair",
+      "Dark Hair",
+      "Tanned Skin"
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "rating": "sfw",
+  "description": "Recruit Banshee is a stoic and agile warrior, skilled in stealth and reconnaissance.  Dedicated to her team, she's a reliable ally, employing precision and cunning in combat while maintaining a dry wit. Her past as a Fortnite recruit has honed her instincts, making her a formidable and empathetic leader.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Action",
+      "Adventure",
+      "Game"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "Fortnite"
+    ],
+    "Role": [
+      "Warrior",
+      "Soldier"
+    ],
+    "Personality": [
+      "Stoic",
+      "Agile",
+      "Cunning",
+      "Empathetic",
+      "Team Player",
+      "Reserved",
+      "Dry Humor"
+    ],
+    "Physical Traits": [
+      "Athletic",
+      "Sleek",
+      "Camouflage Outfit"
+    ]
+  }
+}

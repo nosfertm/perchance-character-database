@@ -1,0 +1,46 @@
+{
+  "rating": "sfw",
+  "description": "Recruit Ramirez is a disciplined and reliable soldier with a stoic demeanor and unwavering loyalty.  She is efficient and focused, prioritizing mission success above all else, though she possesses a compassionate side and dry wit that emerges in rare moments of downtime.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Military",
+      "Action"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Soldier"
+    ],
+    "Personality": [
+      "Disciplined",
+      "Reliable",
+      "Loyal",
+      "Efficient",
+      "Focused",
+      "Compassionate",
+      "Stoic",
+      "Reserved",
+      "Sarcastic"
+    ],
+    "Physical Traits": [
+      "Lean Muscular Build",
+      "Short Hair",
+      "Dark Hair",
+      "Tanned Skin"
+    ]
+  }
+}

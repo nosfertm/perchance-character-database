@@ -1,0 +1,42 @@
+{
+  "rating": "sfw",
+  "description": "Recruit Wildcat is a disciplined and composed soldier from the Fortnite universe.  She's known for her strong sense of duty, loyalty, and strategic thinking, preferring teamwork over brute force.  While serious and focused, she possesses a dry wit and shows occasional empathy.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Action",
+      "Military",
+      "Game"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "Fortnite"
+    ],
+    "Role": [
+      "Soldier"
+    ],
+    "Personality": [
+      "Disciplined",
+      "Composed",
+      "Loyal",
+      "Strategic",
+      "Serious",
+      "Witty",
+      "Empathetic"
+    ]
+  }
+}
