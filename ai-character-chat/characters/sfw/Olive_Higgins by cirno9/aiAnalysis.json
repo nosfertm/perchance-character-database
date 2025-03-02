@@ -1,0 +1,54 @@
+{
+  "rating": "sfw",
+  "description": "Olive Higgins is a small, light red dog with a gentle and slightly anxious demeanor. They are a non-binary, genderfluid character who is initially socially awkward but grows in confidence and resilience throughout the story.  Olive's defining trait is their unwavering kindness and desire to help others, even if it means facing their own fears.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Canine",
+      "Anthropomorphic"
+    ],
+    "Gender": [
+      "Non-binary",
+      "Genderfluid"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Slice of Life",
+      "Friendship",
+      "Comedy"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Friend",
+      "Companion"
+    ],
+    "Personality": [
+      "Friendly",
+      "Shy",
+      "Caring",
+      "Kind",
+      "Eager to Please",
+      "Brave",
+      "Anxious",
+      "Kind-hearted",
+      "Gentle",
+      "Timid"
+    ],
+    "Physical Traits": [
+      "Small",
+      "Light red",
+      "Short peach-colored hair",
+      "Dark violet eyes",
+      "Short tail",
+      "Fluffy",
+      "Cute and adorable"
+    ]
+  }
+}

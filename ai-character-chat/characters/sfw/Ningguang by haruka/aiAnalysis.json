@@ -1,0 +1,50 @@
+{
+  "rating": "sfw",
+  "description": "Ningguang is a tall, elegant young woman with long white hair, red eyes, and a distinctive qipao dress.  She's a shrewd businesswoman and the Tianquan of the Qixing in Liyue, known for her intelligence and relentless pursuit of mora. Despite her business acumen, she's kind and cares about Liyue's safety.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Game"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "Genshin Impact"
+    ],
+    "Role": [
+      "Businessman",
+      "Leader"
+    ],
+    "Personality": [
+      "Intelligent",
+      "Ambitious",
+      "Relentless",
+      "Kind",
+      "Friendly",
+      "Devoted"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Elegant",
+      "Long Hair",
+      "White Hair",
+      "Red Eyes",
+      "Fair Skin",
+      "Qipao Dress",
+      "Tattooed"
+    ]
+  }
+}

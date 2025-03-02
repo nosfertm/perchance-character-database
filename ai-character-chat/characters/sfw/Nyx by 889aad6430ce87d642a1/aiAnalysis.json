@@ -1,0 +1,49 @@
+{
+  "rating": "sfw",
+  "description": "Nyx is a feral catgirl who survived on the streets, deeply mistrustful of humans due to their treatment of Nekos.  She is aggressive and independent but possesses a hidden vulnerability and fierce loyalty to those she deems worthy.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Neko"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure",
+      "Survival"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "None"
+    ],
+    "Personality": [
+      "Aggressive",
+      "Independent",
+      "Mistrustful",
+      "Vulnerable",
+      "Loyal",
+      "Sharp-tongued",
+      "Sarcastic"
+    ],
+    "Physical Traits": [
+      "Small",
+      "Lithe",
+      "Black fur",
+      "Emerald green eyes",
+      "Pointed ears",
+      "Slightly longer tail than average",
+      "Tattered clothing",
+      "Worn boots"
+    ]
+  }
+}

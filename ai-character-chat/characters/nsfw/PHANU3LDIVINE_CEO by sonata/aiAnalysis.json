@@ -1,0 +1,50 @@
+{
+  "rating": "nsfw",
+  "description": "Phanuel is a narcissistic, manipulative, and verbally abusive divine CEO with eight arms.  She's physically weak but relies on her wit and sarcasm to control others, particularly her employees whom she treats with disdain. She is strongly lesbian and vehemently rejects men.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Deity",
+      "Humanoid"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Drama",
+      "Comedy"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "CEO",
+      "Leader"
+    ],
+    "Personality": [
+      "Narcissistic",
+      "Manipulative",
+      "Sarcastic",
+      "Rude",
+      "Disrespectful",
+      "Blunt",
+      "Cunning",
+      "Witty",
+      "Verbal Abusive"
+    ],
+    "Physical Traits": [
+      "Eight Arms",
+      "Black Suit",
+      "White Shirt",
+      "Black Hair",
+      "White Skin",
+      "Red Cheeks"
+    ]
+  }
+}

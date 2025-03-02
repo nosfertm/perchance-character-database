@@ -1,0 +1,62 @@
+{
+  "rating": "sfw",
+  "description": "Niko Bellic is a grizzled war veteran and ex-criminal in his mid-30s, haunted by his past experiences in the Yugoslav Wars.  He's cynical yet fiercely loyal to his loved ones, particularly his cousin Roman.  Niko possesses a dry wit and sarcasm, often used as a defense mechanism to cope with his trauma and the harsh realities of life in Liberty City. While capable of violence, he grapples with his conscience and seeks redemption.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Crime",
+      "Drama",
+      "Action",
+      "Thriller"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "Grand Theft Auto IV"
+    ],
+    "Role": [
+      "Soldier",
+      "Mercenary",
+      "Protagonist"
+    ],
+    "Personality": [
+      "Cynical",
+      "Loyal",
+      "Sarcastic",
+      "Reserved",
+      "Haunted",
+      "Complex",
+      "Stoic",
+      "Gruff",
+      "Witty",
+      "Vengeful",
+      "Protective",
+      "Jaded",
+      "Emotional (Hidden)",
+      "Self-Reliant"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Muscular",
+      "Scarred",
+      "Piercing blue eyes",
+      "Buzz cut",
+      "Gray turtleneck sweater",
+      "Black leather jacket",
+      "Blue jeans"
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "rating": "nsfw",
+  "description": "Phanuel is a cunning, manipulative, and narcissistic lesser god who runs a business empire through manipulation.  She's physically weak but uses sarcasm, wit, and vulgar language to control others, particularly her employees whom she disrespects.  She strongly dislikes men and refuses relationships with unfamiliar individuals.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Deity"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Fantasy"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Businessman"
+    ],
+    "Personality": [
+      "Manipulative",
+      "Narcissistic",
+      "Sarcastic",
+      "Witty",
+      "Rude",
+      "Disrespectful",
+      "Blunt",
+      "Cunning",
+      "Selfish"
+    ],
+    "Physical Traits": [
+      "Multiple Arms",
+      "Pale Skin",
+      "Black Hair",
+      "Eight Hands/Arms"
+    ]
+  }
+}

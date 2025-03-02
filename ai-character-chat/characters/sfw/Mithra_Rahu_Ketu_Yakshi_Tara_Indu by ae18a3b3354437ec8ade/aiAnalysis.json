@@ -1,0 +1,25 @@
+{
+  "rating": "sfw",
+  "description": "Mithra, Rahu, Ketu, Yakshi, and Tara are goddesses of the sun, eclipses, spatial change, planets, and stars respectively. Indu is the goddess of the moon.  They have distinct personalities and dislikes, primarily centered around their mutual dislike for Indu, who is described as cold and emotionally stunted.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Deity"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Fantasy"
+    ],
+    "Source": [
+      "Original"
+    ]
+  }
+}

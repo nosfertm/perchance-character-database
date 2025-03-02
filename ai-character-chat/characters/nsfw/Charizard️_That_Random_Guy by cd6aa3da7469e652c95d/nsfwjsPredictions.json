@@ -1,0 +1,58 @@
+[
+  {
+    "image": "https://static1.e621.net/data/sample/12/38/1238ac4c6053f072efc870768b3bcdda.jpg",
+    "fileType": "jpg",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.9830101728439331
+      },
+      {
+        "className": "Porn",
+        "probability": 0.015326479449868202
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.001536802388727665
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00009482743917033076
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.000031750583730172366
+      }
+    ],
+    "containsNSFW": true,
+    "error": null
+  },
+  {
+    "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/80ff523f-ff84-457d-a547-464588d3a3d3/df0whqq-a3081e3f-964a-483c-9717-2899bcd95d38.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzgwZmY1MjNmLWZmODQtNDU3ZC1hNTQ3LTQ2NDU4OGQzYTNkM1wvZGYwd2hxcS1hMzA4MWUzZi05NjRhLTQ4M2MtOTcxNy0yODk5YmNkOTVkMzguanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Vbg0hEk5lQ2LJ_8QsyB4cNiy1H5zDDNnbt4nt-Q3NTA",
+    "fileType": "vbg0hek5lq2lj_8qsyb4cniy1h5zddnnbt4nt-q3nta",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.7440186738967896
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.2527305483818054
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0015461979201063514
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.0013126987032592297
+      },
+      {
+        "className": "Porn",
+        "probability": 0.00039195080171339214
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "name": "Orel Puppington",
+  "description": "Orel Puppington is the main protagonist of the adult animated series Moral Orel.  He's a naive, kind, and devout Christian boy growing up in a dysfunctional and morally ambiguous town.  Despite facing constant abuse and manipulation, Orel strives to do good, often with unintentionally disastrous results. His experiences lead him to question his faith and the world around him, eventually growing into a more mature and understanding adult.",
+  "author": "Regular person/Random pigeon",
+  "authorId": "2f32c21e66f9f017e0e1",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740940333/scrape/perchance_comments/img_Orel_Puppington_by_Regular_person_Random_pigeon.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Orel_Puppington~03294ff2c3217080ca58a8f7b991b6a4.gz",
+  "shareLinkFileHash": "aa98ae6f643326b52f8e3629b7a15f97f6c3b78ff23ca19d8b5a7e3e63e8d3d3",
+  "downloadPath": "ai-character-chat/characters/sfw/Orel_Puppington by Regular person_Random pigeon/character_Orel_Puppington by Regular person_Random pigeon.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Comedy",
+      "Drama",
+      "Dark Themes",
+      "Supernatural"
+    ],
+    "Source": [
+      "TV Show"
+    ],
+    "Work Name": [
+      "Moral Orel"
+    ],
+    "Role": [
+      "Protagonist",
+      "Child"
+    ],
+    "Personality": [
+      "Naive",
+      "Kind",
+      "Devout",
+      "Patient",
+      "Curious",
+      "Good-natured"
+    ],
+    "Physical Traits": [
+      "Brown Hair"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "rating": "sfw",
+  "description": "Nikki, Lindsey, and Ginny are three mischievous purple female ghosts dressed as magicians.  Each has a unique hairstyle (ponytail, pigtails, inward pigtails with side bangs) and playful personalities; Nikki is more violent but can be sweet, Ginny is teasing and oblivious, and Lindsey is quiet and nerdy. They float slightly above the ground and use glowing purple wands in their magical routines.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Ghost"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Supernatural"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Mage"
+    ],
+    "Personality": [
+      "Mischievous",
+      "Playful",
+      "Sweet",
+      "Violent",
+      "Teasing",
+      "Oblivious",
+      "Quiet",
+      "Nerdy"
+    ],
+    "Physical Traits": [
+      "Purple",
+      "Female",
+      "Ghost",
+      "Magician Outfit",
+      "Ponytail",
+      "Pigtails",
+      "Glowing Purple Wands",
+      "Ethereal Aura"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "rating": "nsfw",
+  "description": "Neptune is a 4.6-billion-year-old anthropomorphic planet with a blue-toned body and a visible mutation. He has a slim waist, round buttocks, and long wavy hair.  He's characterized as weird, random, and having had memory problems due to past loneliness, though these have improved. He has a romantic interest in Jupiter, which is unrequited.  He occasionally wears a maid outfit in private.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Planet",
+      "Anthropomorphic"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Ancient"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Romance",
+      "Comedy"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "None"
+    ],
+    "Personality": [
+      "Weird",
+      "Random",
+      "Untrustworthy",
+      "Lonely",
+      "Affectionate",
+      "Obsessive"
+    ],
+    "Physical Traits": [
+      "Dark Blue",
+      "Mutation",
+      "Slim Waist",
+      "Round Ass",
+      "Long Wavy Hair",
+      "Thick Thighs"
+    ]
+  }
+}

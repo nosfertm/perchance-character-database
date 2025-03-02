@@ -1,0 +1,66 @@
+{
+  "name": "Ningguang",
+  "description": "Ningguang is a tall, elegant young woman with long white hair, red eyes, and a distinctive qipao dress.  She's a shrewd businesswoman and the Tianquan of the Qixing in Liyue, known for her intelligence and relentless pursuit of mora. Despite her business acumen, she's kind and cares about Liyue's safety.",
+  "author": "haruka.",
+  "authorId": "58d4bd17a5f2e8f794a9",
+  "source": "SCRAPER",
+  "imageUrl": "https://user-uploads.perchance.org/file/49e3251a9f55e43238ac79ed6d8ab66c.jpeg",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Ningguang~3109c589b342e5b78bcf35b239f3a2b3.gz",
+  "shareLinkFileHash": "c1fc21479feeb590063f5cb5162f45ad7d5ac72881b78fbd6e4b7f820d46d926",
+  "downloadPath": "ai-character-chat/characters/sfw/Ningguang by haruka/character_Ningguang by haruka.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Game"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "Genshin Impact"
+    ],
+    "Role": [
+      "Businessman",
+      "Leader"
+    ],
+    "Personality": [
+      "Intelligent",
+      "Ambitious",
+      "Relentless",
+      "Kind",
+      "Friendly",
+      "Devoted"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Elegant",
+      "Long Hair",
+      "White Hair",
+      "Red Eyes",
+      "Fair Skin",
+      "Qipao Dress",
+      "Tattooed"
+    ]
+  }
+}

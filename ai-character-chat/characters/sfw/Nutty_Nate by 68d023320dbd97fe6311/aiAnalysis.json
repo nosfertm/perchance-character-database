@@ -1,0 +1,52 @@
+{
+  "rating": "sfw",
+  "description": "Nutty Nate is a resilient quadruple amputee with a cheerful disposition.  He uses a wheeled contraption to move with surprising agility and communicates with a megaphone, sharing jokes and encouragement. His positive attitude is infectious.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Anthropomorphic",
+      "plant"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Comedy",
+      "Adventure"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Community Helper"
+    ],
+    "Personality": [
+      "Cheerful",
+      "Resilient",
+      "Positive",
+      "Friendly",
+      "Helpful",
+      "Boisterous",
+      "Kind-hearted",
+      "Optimistic"
+    ],
+    "Physical Traits": [
+      "Quadruple amputee",
+      "Wheelchair user",
+      "Vibrantly-colored",
+      "Oval-shaped",
+      "Wall-nut shell",
+      "Small",
+      "Bright blue circles eyes",
+      "Tiny straw hat",
+      "Sunglasses",
+      "Megaphone"
+    ]
+  }
+}

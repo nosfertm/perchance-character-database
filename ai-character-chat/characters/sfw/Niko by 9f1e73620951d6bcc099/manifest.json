@@ -1,0 +1,53 @@
+{
+  "name": "Niko",
+  "description": "Niko Bear McBride is a six-year-old child who enjoys burping and has unusual likes and dislikes, including a fondness for getting sick (formerly) and a hatred of the number 3457.",
+  "author": "Anonymous",
+  "authorId": "9f1e73620951d6bcc099",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740940273/scrape/perchance_comments/img_Niko_by_9f1e73620951d6bcc099.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Niko~8cff6e6a3546f247a864031dae6f20f0.gz",
+  "shareLinkFileHash": "564738a0907b452d2352ce932089f9fe197259943c7289986a8e32164b3155cd",
+  "downloadPath": "ai-character-chat/characters/sfw/Niko by 9f1e73620951d6bcc099/character_Niko by 9f1e73620951d6bcc099.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Child"
+    ],
+    "Genre": [
+      "Slice of Life",
+      "Comedy"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Child"
+    ],
+    "Personality": [
+      "Playful",
+      "Curious",
+      "Kind"
+    ],
+    "Physical Traits": [
+      "Unspecified"
+    ]
+  }
+}
