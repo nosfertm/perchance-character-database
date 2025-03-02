@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://th.bing.com/th/id/OIP.6Y4O4oqWrokcRjWEZdDUWgHaHa?w=166&h=180&c=7&r=0&o=5&pid=1.7",
+    "fileType": "7",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.9807233214378357
+      },
+      {
+        "className": "Porn",
+        "probability": 0.01925027184188366
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00002429000051051844
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.0000018635416836332297
+      },
+      {
+        "className": "Drawing",
+        "probability": 2.761907182957657e-7
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

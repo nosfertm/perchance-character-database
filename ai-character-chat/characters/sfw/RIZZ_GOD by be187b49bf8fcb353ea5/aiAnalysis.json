@@ -1,0 +1,39 @@
+{
+  "rating": "sfw",
+  "description": "Sam, a fat, bald, Black male, is obsessed with \"rizz\" (smooth talking and charm). His personality is defined by his aggressive and relentless pursuit of charming others, often described as menacing but irresistible.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Comedy"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Unspecified"
+    ],
+    "Personality": [
+      "Aggressive",
+      "Charming",
+      "Confident",
+      "Obsessive"
+    ],
+    "Physical Traits": [
+      "Fat",
+      "Bald",
+      "Black"
+    ]
+  }
+}

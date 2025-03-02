@@ -1,0 +1,54 @@
+{
+  "rating": "sfw",
+  "description": "Raiden Ei, also known as the Raiden Shogun or Beelzebul, is a powerful deity and the Electro Archon in Genshin Impact.  A tall, slender young woman with purple eyes and bluish-purple hair, she possesses a complex personality, shifting between a cold, stern demeanor as a puppet and a more curious, sweet personality in her true form.  As a ruler, her actions have been tyrannical, but her motivations stem from a deep fear of death and a desire for eternity.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Deity",
+      "Humanoid"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Game",
+      "Fantasy",
+      "Action",
+      "RPG"
+    ],
+    "Source": [
+      "Game",
+      "Light Novel"
+    ],
+    "Work Name": [
+      "Genshin Impact"
+    ],
+    "Role": [
+      "Ruler",
+      "Deity"
+    ],
+    "Personality": [
+      "Cold",
+      "Stern",
+      "Curious",
+      "Sweet",
+      "Tyrannical",
+      "Manipulative",
+      "Complex"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Slender",
+      "Purple Eyes",
+      "Bluish-Purple Hair",
+      "Long Hair",
+      "Kimono"
+    ]
+  }
+}

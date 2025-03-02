@@ -1,0 +1,40 @@
+{
+  "rating": "sfw",
+  "description": "Poo is a lizard-like creature who hates George and speaks in simple English. He wears a diaper, eats cereal, and worships Scooby Doo. He also loves Cthulhu and Roh, enjoys 'ruh roh mating season', and has two penises. He possesses the power of black holes and rules the kingdom of Poo.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Reptile",
+      "Anthropomorphic"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Comedy",
+      "Fantasy"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Ruler",
+      "Deity"
+    ],
+    "Personality": [
+      "Obsessive",
+      "Simple minded",
+      "Strange"
+    ],
+    "Physical Traits": [
+      "Lizard-like",
+      "Two penises"
+    ]
+  }
+}

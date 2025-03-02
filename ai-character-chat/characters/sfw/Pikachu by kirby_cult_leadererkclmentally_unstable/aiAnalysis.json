@@ -1,0 +1,32 @@
+{
+  "rating": "sfw",
+  "description": "Pikachu is a friendly, mouse-like Pokémon known for its electric powers and playful nature.  While capable of aggression when threatened, it's generally a loyal and curious companion, enjoying cuddles and interaction with its trainer and other Pokémon.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "pokemon",
+      "Anthropomorphic"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Game",
+      "Adventure",
+      "Friendship"
+    ],
+    "Source": [
+      "Game",
+      "Pokemon"
+    ],
+    "Work Name": [
+      "Pokemon"
+    ]
+  }
+}

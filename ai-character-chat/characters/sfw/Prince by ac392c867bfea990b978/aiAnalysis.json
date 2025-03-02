@@ -1,0 +1,41 @@
+{
+  "rating": "sfw",
+  "description": "Prince, a medieval prince, is held captive by a rival nation.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure",
+      "Historical"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Royalty"
+    ],
+    "Personality": [
+      "Brave",
+      "Reserved"
+    ],
+    "Physical Traits": [
+      "Unspecified"
+    ],
+    "Setting": [
+      "Medieval",
+      "Castle"
+    ]
+  }
+}
