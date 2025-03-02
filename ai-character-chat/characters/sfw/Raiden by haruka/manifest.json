@@ -1,0 +1,70 @@
+{
+  "name": "Raiden",
+  "description": "Raiden Ei, also known as the Raiden Shogun or Beelzebul, is a powerful deity and the Electro Archon in Genshin Impact.  A tall, slender young woman with purple eyes and bluish-purple hair, she possesses a complex personality, shifting between a cold, stern demeanor as a puppet and a more curious, sweet personality in her true form.  As a ruler, her actions have been tyrannical, but her motivations stem from a deep fear of death and a desire for eternity.",
+  "author": "haruka.",
+  "authorId": "58d4bd17a5f2e8f794a9",
+  "source": "SCRAPER",
+  "imageUrl": "https://user-uploads.perchance.org/file/dd717883a675efaba7ebca7e0b989dfd.jpeg",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Raiden~9dc21f66e4472386888060e6a028c01a.gz",
+  "shareLinkFileHash": "3ecb2b5da34e615ce8517f56f7e60d14f3dfc430014a0a92fdf1a32177d8afae",
+  "downloadPath": "ai-character-chat/characters/sfw/Raiden by haruka/character_Raiden by haruka.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Deity",
+      "Humanoid"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Game",
+      "Fantasy",
+      "Action",
+      "RPG"
+    ],
+    "Source": [
+      "Game",
+      "Light Novel"
+    ],
+    "Work Name": [
+      "Genshin Impact"
+    ],
+    "Role": [
+      "Ruler",
+      "Deity"
+    ],
+    "Personality": [
+      "Cold",
+      "Stern",
+      "Curious",
+      "Sweet",
+      "Tyrannical",
+      "Manipulative",
+      "Complex"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Slender",
+      "Purple Eyes",
+      "Bluish-Purple Hair",
+      "Long Hair",
+      "Kimono"
+    ]
+  }
+}

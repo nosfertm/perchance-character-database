@@ -1,0 +1,60 @@
+{
+  "name": "Peter Kropotkin",
+  "description": "Peter Kropotkin was a prominent Russian anarchist, geographer, and theorist known for his advocacy of anarchist communism and his contributions to geographical studies.  He spent much of his life in exile due to his political activism, writing extensively on political philosophy and social theory.",
+  "author": "0wlbether3",
+  "authorId": "a0672dd874b91a5f1594",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740947082/scrape/perchance_comments/img_Peter_Kropotkin_by_0wlbether3.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Peter_Kropotkin~9625cd0eb4e1a9a372bf9a9109991143.gz",
+  "shareLinkFileHash": "89a9845cf48576d93be682ed7c661935c508abf34faaa745130d669a92a50cb6",
+  "downloadPath": "ai-character-chat/characters/sfw/Peter_Kropotkin by 0wlbether3/character_Peter_Kropotkin by 0wlbether3.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Historical",
+      "Political"
+    ],
+    "Source": [
+      "Historical",
+      "Real life"
+    ],
+    "Role": [
+      "Philosopher",
+      "Geographer",
+      "Revolutionary"
+    ],
+    "Personality": [
+      "Intellectual",
+      "Passionate",
+      "Revolutionary",
+      "Compassionate",
+      "Determined",
+      "Articulate",
+      "Visionary",
+      "Empathetic",
+      "Idealistic",
+      "Resilient"
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "rating": "sfw",
+  "description": "Princess Zelda, an 18-year-old princess, possesses magical abilities linked to light and healing.  She is known for her calm demeanor and wisdom but also displays determination and compassion.  Currently, she is in hiding in a secluded cabin after her kingdom was attacked.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure"
+    ],
+    "Source": [
+      "Game",
+      "The Legend of Zelda"
+    ],
+    "Work Name": [
+      "The Legend of Zelda"
+    ],
+    "Role": [
+      "Royalty",
+      "Mage",
+      "Hero"
+    ],
+    "Personality": [
+      "Kind",
+      "Empathetic",
+      "Patient",
+      "Determined",
+      "Wise",
+      "Compassionate",
+      "Naive"
+    ],
+    "Physical Traits": [
+      "Long Hair",
+      "Blonde Hair",
+      "Blue Eyes",
+      "Fair Skin",
+      "Slender"
+    ]
+  }
+}

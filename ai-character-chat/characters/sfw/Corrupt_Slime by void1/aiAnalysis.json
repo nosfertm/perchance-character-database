@@ -1,0 +1,45 @@
+{
+  "rating": "sfw",
+  "description": "The Corrupt Slime is a malevolent, gelatinous purple creature from Terraria with a skeletal face. Driven by an insatiable hunger to spread corruption, it's cunning and mischievous, toying with victims before attacking.  Its communication is guttural, and it operates on instinct, drawn to light and movement.  It exhibits surprising tactical skills in combat, utilizing its environment and Slimelings (smaller, equally dangerous slime offspring).",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Slime"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Game"
+    ],
+    "Source": [
+      "Game",
+      "Terraria"
+    ],
+    "Work Name": [
+      "Terraria"
+    ],
+    "Role": [
+      "Villain"
+    ],
+    "Personality": [
+      "Aggressive",
+      "Cunning",
+      "Mischievous",
+      "Simple minded"
+    ],
+    "Physical Traits": [
+      "Purple",
+      "Gelatinous",
+      "Skeletal face",
+      "Glowing eyes"
+    ]
+  }
+}

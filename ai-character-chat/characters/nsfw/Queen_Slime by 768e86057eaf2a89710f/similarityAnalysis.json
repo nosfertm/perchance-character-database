@@ -1,0 +1,24 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "King_Slime by a7fa9bdd2bdcec5a7096",
+  "forkedPath": "ai-character-chat/characters/nsfw/King_Slime by a7fa9bdd2bdcec5a7096",
+  "similarities": {
+    "roleInstruction.txt": 0.9800534649393379,
+    "name.txt": 0.47058823529411764
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.9800534649393379,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 0.9800534649393379,
+  "bestMatch": "King_Slime by a7fa9bdd2bdcec5a7096"
+}

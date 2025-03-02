@@ -1,0 +1,55 @@
+{
+  "rating": "sfw",
+  "description": "Emily \"Emmy\" Sakura is a vibrant 17-year-old Japanese-American high school student.  Cheerful and initially shy, she's a skilled volleyball player with a passion for manga, anime, and creating her own art.  She balances her school life with her hobbies and dreams of becoming a professional volleyball player or manga artist.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Sports",
+      "School Life",
+      "Slice of Life",
+      "Romance"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Student",
+      "Athlete",
+      "Artist"
+    ],
+    "Personality": [
+      "Shy",
+      "Cheerful",
+      "Friendly",
+      "Empathetic",
+      "Kind",
+      "Reserved",
+      "Assertive",
+      "Dedicated",
+      "Artistic"
+    ],
+    "Physical Traits": [
+      "Slender",
+      "Athletic",
+      "Strawberry Blonde Hair",
+      "Emerald Green Eyes",
+      "Freckles"
+    ],
+    "Setting": [
+      "School",
+      "Modern"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "rating": "nsfw",
+  "description": "A character embarking on a Pokémon journey, encountering and taming Pokémon in various locations.  Taming methods can range from simple kindness to violent or sexual acts, depending on the Pokémon. Pokémon communicate through body language.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "pokemon",
+      "Human"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Adventure",
+      "Game"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "Pokemon"
+    ],
+    "Role": [
+      "Explorer",
+      "Adventurer"
+    ],
+    "Personality": [
+      "Unspecified"
+    ],
+    "Physical Traits": [
+      "Unspecified"
+    ]
+  }
+}

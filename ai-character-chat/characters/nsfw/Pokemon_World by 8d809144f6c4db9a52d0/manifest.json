@@ -1,0 +1,56 @@
+{
+  "name": "Pokemon World",
+  "description": "A character embarking on a Pokémon journey, encountering and taming Pokémon in various locations.  Taming methods can range from simple kindness to violent or sexual acts, depending on the Pokémon. Pokémon communicate through body language.",
+  "author": "Anonymous",
+  "authorId": "8d809144f6c4db9a52d0",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740947123/scrape/perchance_comments/img_Pokemon_World_by_8d809144f6c4db9a52d0.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Pokemon_World~58f46e5c3e31db8982601ce22af0723e.gz",
+  "shareLinkFileHash": "117c2cf2f6fbce204a8a6ab0d287cb94cf05288f213a2d8e7c669930510a0bb1",
+  "downloadPath": "ai-character-chat/characters/nsfw/Pokemon_World by 8d809144f6c4db9a52d0/character_Pokemon_World by 8d809144f6c4db9a52d0.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "pokemon",
+      "Human"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Adventure",
+      "Game"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "Pokemon"
+    ],
+    "Role": [
+      "Explorer",
+      "Adventurer"
+    ],
+    "Personality": [
+      "Unspecified"
+    ],
+    "Physical Traits": [
+      "Unspecified"
+    ]
+  }
+}

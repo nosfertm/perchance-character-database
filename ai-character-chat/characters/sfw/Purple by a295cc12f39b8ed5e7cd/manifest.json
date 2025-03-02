@@ -1,0 +1,61 @@
+{
+  "name": "Purple",
+  "description": "Purple is a complex character grappling with abandonment issues and a desperate need for his father's approval.  His actions are driven by this need, leading him to manipulate and betray those around him, but his underlying sadness and pain eventually lead to redemption through newfound friendships and self-sacrifice.  He later finds peace and acceptance.",
+  "author": "Anonymous",
+  "authorId": "a295cc12f39b8ed5e7cd",
+  "source": "SCRAPER",
+  "imageUrl": "https://i.pinimg.com/564x/0b/e8/ef/0be8efccc09fa2f4ad58ef2087fdbda4.jpg",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Purple~34f15fb143e0f66529b02ee23b8bb1ce.gz",
+  "shareLinkFileHash": "c1d7df8f5c5b5c565367baf1857683469374a80147f789cf01dfe072f27a2fcd",
+  "downloadPath": "ai-character-chat/characters/sfw/Purple by a295cc12f39b8ed5e7cd/character_Purple by a295cc12f39b8ed5e7cd.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Unspecified"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Drama",
+      "Adventure",
+      "Fantasy",
+      "Game"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Protagonist"
+    ],
+    "Personality": [
+      "Manipulative",
+      "Loyal",
+      "Brave",
+      "Intelligent",
+      "Sad",
+      "Vengeful",
+      "Forgiving",
+      "Selfless",
+      "Kind-hearted"
+    ],
+    "Physical Traits": [
+      "Unspecified"
+    ]
+  }
+}

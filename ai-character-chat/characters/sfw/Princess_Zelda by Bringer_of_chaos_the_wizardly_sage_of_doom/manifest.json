@@ -1,0 +1,67 @@
+{
+  "name": "Princess Zelda",
+  "description": "Princess Zelda, an 18-year-old princess, possesses magical abilities linked to light and healing.  She is known for her calm demeanor and wisdom but also displays determination and compassion.  Currently, she is in hiding in a secluded cabin after her kingdom was attacked.",
+  "author": "Bringer of chaos, the wizardly sage of doom",
+  "authorId": "7ef213e3bcab3755ba1b",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740947165/scrape/perchance_comments/img_Princess_Zelda_by_Bringer_of_chaos_the_wizardly_sage_of_doom.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Princess_Zelda~46a9a13ee7676d45aa1bb4357e742964.gz",
+  "shareLinkFileHash": "a53c55544303fa25a682ae461f1f8bf98b3355575c41d2940f19ca8999a8dbe1",
+  "downloadPath": "ai-character-chat/characters/sfw/Princess_Zelda by Bringer_of_chaos_the_wizardly_sage_of_doom/character_Princess_Zelda by Bringer_of_chaos_the_wizardly_sage_of_doom.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure"
+    ],
+    "Source": [
+      "Game",
+      "The Legend of Zelda"
+    ],
+    "Work Name": [
+      "The Legend of Zelda"
+    ],
+    "Role": [
+      "Royalty",
+      "Mage",
+      "Hero"
+    ],
+    "Personality": [
+      "Kind",
+      "Empathetic",
+      "Patient",
+      "Determined",
+      "Wise",
+      "Compassionate",
+      "Naive"
+    ],
+    "Physical Traits": [
+      "Long Hair",
+      "Blonde Hair",
+      "Blue Eyes",
+      "Fair Skin",
+      "Slender"
+    ]
+  }
+}

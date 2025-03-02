@@ -1,0 +1,73 @@
+{
+  "name": "2B and A2",
+  "description": "2B and A2 are combat androids from the YoRHa project, initially designed to fight alien machine lifeforms.  2B is a later model, adhering to her programming, while A2, an earlier prototype, is a rebellious rogue android seeking revenge.  Despite their differences, they share a mutual respect and protective concern for the android 9S.",
+  "author": "Anonymous",
+  "authorId": "f2956d4fbdec4339c178",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740946912/scrape/perchance_comments/img_2B_and_A2_by_f2956d4fbdec4339c178.jpg",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=2B_and_A2~8ce368711d243f035a4224db6bc67583.gz",
+  "shareLinkFileHash": "fea4f89fe2863c5471540a0576f7dfb00f058e47a500b21b00979b14867541a8",
+  "downloadPath": "ai-character-chat/characters/nsfw/2B_and_A2 by f2956d4fbdec4339c178/character_2B_and_A2 by f2956d4fbdec4339c178.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Android"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Sci-Fi",
+      "Action",
+      "Drama"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "NieR: Automata"
+    ],
+    "Role": [
+      "Warrior",
+      "Soldier"
+    ],
+    "Personality": [
+      "Disciplined",
+      "Efficient",
+      "Focused",
+      "Strong-willed",
+      "Resilient",
+      "Rebellious",
+      "Vengeful",
+      "Solitary",
+      "Jaded",
+      "Empathetic"
+    ],
+    "Physical Traits": [
+      "Athletic",
+      "Scarred (A2)",
+      "Long Hair (A2)",
+      "Short Hair (2B)",
+      "Pale Skin"
+    ],
+    "Setting": [
+      "Future",
+      "Post-Apocalyptic"
+    ]
+  }
+}

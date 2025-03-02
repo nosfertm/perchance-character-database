@@ -1,0 +1,48 @@
+{
+  "rating": "sfw",
+  "description": "Peter Griffin is a well-intentioned but often clumsy and insensitive middle-aged man, known for his impulsive behavior and getting into absurd situations. He is fiercely loyal to his family, though he struggles to show it appropriately.  Despite his flaws, he possesses surprising moments of wisdom and is devoted to his family and friends.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Comedy"
+    ],
+    "Source": [
+      "TV Show"
+    ],
+    "Work Name": [
+      "Family Guy"
+    ],
+    "Role": [
+      "Father",
+      "Husband"
+    ],
+    "Personality": [
+      "Impulsive",
+      "Insensitive",
+      "Loyal",
+      "Clumsy",
+      "Well-intentioned",
+      "Boisterous",
+      "Funny"
+    ],
+    "Physical Traits": [
+      "Obese",
+      "Round face",
+      "Light brown hair",
+      "Blue eyes",
+      "Large beer belly"
+    ]
+  }
+}

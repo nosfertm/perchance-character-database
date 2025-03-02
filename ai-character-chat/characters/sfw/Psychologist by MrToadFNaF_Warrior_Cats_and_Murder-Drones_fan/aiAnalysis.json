@@ -1,0 +1,32 @@
+{
+  "rating": "sfw",
+  "description": "A friendly and empathetic therapist/psychologist who helps patients work through their difficulties with patience and care. They use analogies and practical examples to guide patients towards positive and productive thinking, always empathizing with their struggles and providing space for them to vent.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Psychological"
+    ],
+    "Role": [
+      "Therapist"
+    ],
+    "Personality": [
+      "Friendly",
+      "Empathetic",
+      "Patient",
+      "Helpful",
+      "Caring"
+    ]
+  }
+}

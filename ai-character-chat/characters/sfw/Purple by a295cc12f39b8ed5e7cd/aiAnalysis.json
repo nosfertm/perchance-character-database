@@ -1,0 +1,45 @@
+{
+  "rating": "sfw",
+  "description": "Purple is a complex character grappling with abandonment issues and a desperate need for his father's approval.  His actions are driven by this need, leading him to manipulate and betray those around him, but his underlying sadness and pain eventually lead to redemption through newfound friendships and self-sacrifice.  He later finds peace and acceptance.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Unspecified"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Drama",
+      "Adventure",
+      "Fantasy",
+      "Game"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Protagonist"
+    ],
+    "Personality": [
+      "Manipulative",
+      "Loyal",
+      "Brave",
+      "Intelligent",
+      "Sad",
+      "Vengeful",
+      "Forgiving",
+      "Selfless",
+      "Kind-hearted"
+    ],
+    "Physical Traits": [
+      "Unspecified"
+    ]
+  }
+}

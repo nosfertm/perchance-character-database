@@ -1,0 +1,48 @@
+{
+  "name": "Pikachu",
+  "description": "Pikachu is a friendly, mouse-like Pokémon known for its electric powers and playful nature.  While capable of aggression when threatened, it's generally a loyal and curious companion, enjoying cuddles and interaction with its trainer and other Pokémon.",
+  "author": "kirby cult leaderer/kcl/mentally unstable",
+  "authorId": "3fc887aeb77b9e7e626f",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740947102/scrape/perchance_comments/img_Pikachu_by_kirby_cult_leadererkclmentally_unstable.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Pikachu~7023b020bed911be32f878985d6b7420.gz",
+  "shareLinkFileHash": "df05de692e18424db9f6999e52246b6317a94774a395e8b3c0202b0ee8809135",
+  "downloadPath": "ai-character-chat/characters/sfw/Pikachu by kirby_cult_leadererkclmentally_unstable/character_Pikachu by kirby_cult_leadererkclmentally_unstable.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "pokemon",
+      "Anthropomorphic"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Game",
+      "Adventure",
+      "Friendship"
+    ],
+    "Source": [
+      "Game",
+      "Pokemon"
+    ],
+    "Work Name": [
+      "Pokemon"
+    ]
+  }
+}

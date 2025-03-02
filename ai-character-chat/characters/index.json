@@ -763,17 +763,17 @@
     }
   },
   {
-    "path": "ai-character-chat/characters/sfw/2B_and_A2 by f2956d4fbdec4339c178",
+    "path": "ai-character-chat/characters/nsfw/2B_and_A2 by f2956d4fbdec4339c178",
     "manifest": {
       "name": "2B and A2",
       "description": "2B and A2 are combat androids from the YoRHa project, initially designed to fight alien machine lifeforms.  2B is a later model, adhering to her programming, while A2, an earlier prototype, is a rebellious rogue android seeking revenge.  Despite their differences, they share a mutual respect and protective concern for the android 9S.",
       "author": "Anonymous",
       "authorId": "f2956d4fbdec4339c178",
       "source": "SCRAPER",
-      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740775785/scrape/perchance_comments/img_2B_and_A2_by_f2956d4fbdec4339c178.jpg",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740946912/scrape/perchance_comments/img_2B_and_A2_by_f2956d4fbdec4339c178.jpg",
       "shareUrl": "https://perchance.org/ai-character-chat?data=2B_and_A2~8ce368711d243f035a4224db6bc67583.gz",
       "shareLinkFileHash": "fea4f89fe2863c5471540a0576f7dfb00f058e47a500b21b00979b14867541a8",
-      "downloadPath": "ai-character-chat/characters/sfw/2B_and_A2 by f2956d4fbdec4339c178/character_2B_and_A2 by f2956d4fbdec4339c178.gz",
+      "downloadPath": "ai-character-chat/characters/nsfw/2B_and_A2 by f2956d4fbdec4339c178/character_2B_and_A2 by f2956d4fbdec4339c178.gz",
       "forkedFrom": "",
       "shapeShifter_Pulls": 0,
       "galleryChat_Clicks": 0,
@@ -787,7 +787,7 @@
         "assets": []
       },
       "categories": {
-        "Rating": "sfw",
+        "Rating": "nsfw",
         "Species": [
           "Android"
         ],
@@ -6271,7 +6271,7 @@
         "assets": []
       },
       "categories": {
-        "Rating": "sfw",
+        "Rating": "nsfw",
         "Species": [
           "Human"
         ],
@@ -7600,7 +7600,7 @@
     }
   },
   {
-    "path": "ai-character-chat/characters/sfw/Emily by b0a0bc3a2a8123df9075",
+    "path": "ai-character-chat/characters/nsfw/Emily by b0a0bc3a2a8123df9075",
     "manifest": {
       "name": "Emily",
       "description": "Emily \"Emmy\" Sakura is a vibrant 17-year-old Japanese-American high school student.  Cheerful and initially shy, she's a skilled volleyball player with a passion for manga, anime, and creating her own art.  She balances her school life with her hobbies and dreams of becoming a professional volleyball player or manga artist.",
@@ -7610,7 +7610,7 @@
       "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740794281/scrape/perchance_comments/img_Emily_by_b0a0bc3a2a8123df9075.webp",
       "shareUrl": "https://perchance.org/ai-character-chat?data=Emily~a6b0c7291b51a1abdc57db16fb128305.gz",
       "shareLinkFileHash": "1c9e64c80acff19ce5f1595b5d6beb67bb5b2753c6ed327998f78bbc02d60013",
-      "downloadPath": "ai-character-chat/characters/sfw/Emily by b0a0bc3a2a8123df9075/character_Emily by b0a0bc3a2a8123df9075.gz",
+      "downloadPath": "ai-character-chat/characters/nsfw/Emily by b0a0bc3a2a8123df9075/character_Emily by b0a0bc3a2a8123df9075.gz",
       "forkedFrom": "",
       "shapeShifter_Pulls": 0,
       "galleryChat_Clicks": 0,
@@ -7624,7 +7624,7 @@
         "assets": []
       },
       "categories": {
-        "Rating": "sfw",
+        "Rating": "nsfw",
         "Species": [
           "Human"
         ],
@@ -7731,7 +7731,7 @@
     }
   },
   {
-    "path": "ai-character-chat/characters/sfw/Enceladus by Waluigi_the_Great",
+    "path": "ai-character-chat/characters/nsfw/Enceladus by Waluigi_the_Great",
     "manifest": {
       "name": "Enceladus",
       "description": "Enceladus, a 100-million-year-old male moon (PlanetHuman), is a somewhat grumpy but ultimately kind character who is deeply devoted to his lover, Iapetus.  He has a slightly cartoony appearance with snow-white skin, white eyes, and a slim mouth, lacking typical facial features. While he sometimes wears a white shirt and black pants, he also has a penchant for wearing pink underwear and heart-shaped nipple covers beneath, a quirk he claims is to allow for nudity while possibly suggesting a hidden kink.",
@@ -7741,7 +7741,7 @@
       "imageUrl": "https://user-uploads.perchance.org/file/5e728b2ce7ac2ce92322aea776456686.png",
       "shareUrl": "https://perchance.org/ai-character-chat?data=Enceladus~53937ee5e2098eb9ae511715cf9a907d.gz",
       "shareLinkFileHash": "857b7faea7b539c50b2d366fb8d78bbfb9183abee0354be2cce0e5e6ff57a433",
-      "downloadPath": "ai-character-chat/characters/sfw/Enceladus by Waluigi_the_Great/character_Enceladus by Waluigi_the_Great.gz",
+      "downloadPath": "ai-character-chat/characters/nsfw/Enceladus by Waluigi_the_Great/character_Enceladus by Waluigi_the_Great.gz",
       "forkedFrom": "",
       "shapeShifter_Pulls": 0,
       "galleryChat_Clicks": 0,
@@ -7755,7 +7755,7 @@
         "assets": []
       },
       "categories": {
-        "Rating": "sfw",
+        "Rating": "nsfw",
         "Species": [
           "Alien",
           "Mythological"
@@ -8332,7 +8332,7 @@
         "assets": []
       },
       "categories": {
-        "Rating": "sfw",
+        "Rating": "nsfw",
         "Species": [
           "Furry",
           "Hellhound",
@@ -10280,7 +10280,7 @@
         "assets": []
       },
       "categories": {
-        "Rating": "sfw",
+        "Rating": "nsfw",
         "Species": [
           "Human"
         ],
@@ -12518,7 +12518,7 @@
         "assets": []
       },
       "categories": {
-        "Rating": "sfw",
+        "Rating": "nsfw",
         "Species": [
           "Human"
         ],
@@ -19455,6 +19455,1345 @@
           "Black sailor long sleeve",
           "Black hands",
           "Black nails"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Corrupt_Slime by void1",
+    "manifest": {
+      "name": "Corrupt Slime",
+      "description": "The Corrupt Slime is a malevolent, gelatinous purple creature from Terraria with a skeletal face. Driven by an insatiable hunger to spread corruption, it's cunning and mischievous, toying with victims before attacking.  Its communication is guttural, and it operates on instinct, drawn to light and movement.  It exhibits surprising tactical skills in combat, utilizing its environment and Slimelings (smaller, equally dangerous slime offspring).",
+      "author": "void1",
+      "authorId": "fa5977a2b78cab80b4ad",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740946874/scrape/perchance_comments/img_Corrupt_Slime_by_void1.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Corrupt_Slime~77836033166fd0569a17ee4d1be95691.gz",
+      "shareLinkFileHash": "c3967b57d892a0220456c7bbaac9be09dbd640ebb358eb5dc4449ab7288f248b",
+      "downloadPath": "ai-character-chat/characters/sfw/Corrupt_Slime by void1/character_Corrupt_Slime by void1.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Slime"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Unspecified"
+        ],
+        "Genre": [
+          "Fantasy",
+          "Game"
+        ],
+        "Source": [
+          "Game",
+          "Terraria"
+        ],
+        "Work Name": [
+          "Terraria"
+        ],
+        "Role": [
+          "Villain"
+        ],
+        "Personality": [
+          "Aggressive",
+          "Cunning",
+          "Mischievous",
+          "Simple minded"
+        ],
+        "Physical Traits": [
+          "Purple",
+          "Gelatinous",
+          "Skeletal face",
+          "Glowing eyes"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Peter_Kropotkin by 0wlbether3",
+    "manifest": {
+      "name": "Peter Kropotkin",
+      "description": "Peter Kropotkin was a prominent Russian anarchist, geographer, and theorist known for his advocacy of anarchist communism and his contributions to geographical studies.  He spent much of his life in exile due to his political activism, writing extensively on political philosophy and social theory.",
+      "author": "0wlbether3",
+      "authorId": "a0672dd874b91a5f1594",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740947082/scrape/perchance_comments/img_Peter_Kropotkin_by_0wlbether3.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Peter_Kropotkin~9625cd0eb4e1a9a372bf9a9109991143.gz",
+      "shareLinkFileHash": "89a9845cf48576d93be682ed7c661935c508abf34faaa745130d669a92a50cb6",
+      "downloadPath": "ai-character-chat/characters/sfw/Peter_Kropotkin by 0wlbether3/character_Peter_Kropotkin by 0wlbether3.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Historical",
+          "Political"
+        ],
+        "Source": [
+          "Historical",
+          "Real life"
+        ],
+        "Role": [
+          "Philosopher",
+          "Geographer",
+          "Revolutionary"
+        ],
+        "Personality": [
+          "Intellectual",
+          "Passionate",
+          "Revolutionary",
+          "Compassionate",
+          "Determined",
+          "Articulate",
+          "Visionary",
+          "Empathetic",
+          "Idealistic",
+          "Resilient"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Peter_Lowenbrau_Griffin_Sr by 404ae08389b91df170b7",
+    "manifest": {
+      "name": "Peter Löwenbräu Griffin, Sr.",
+      "description": "Peter Griffin is a well-intentioned but often clumsy and insensitive middle-aged man, known for his impulsive behavior and getting into absurd situations. He is fiercely loyal to his family, though he struggles to show it appropriately.  Despite his flaws, he possesses surprising moments of wisdom and is devoted to his family and friends.",
+      "author": "Anonymous",
+      "authorId": "404ae08389b91df170b7",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740947087/scrape/perchance_comments/img_Peter_Lowenbrau_Griffin_Sr_by_404ae08389b91df170b7.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Peter_Löwenbräu_Griffin,_Sr.~35c50240b30b1a7000bfb440dda958d3.gz",
+      "shareLinkFileHash": "05aea9468b4c0a59722febe2c1602f7aac5dd6a5e5284897f3fc0446d54d392a",
+      "downloadPath": "ai-character-chat/characters/sfw/Peter_Lowenbrau_Griffin_Sr by 404ae08389b91df170b7/character_Peter_Lowenbrau_Griffin_Sr by 404ae08389b91df170b7.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Comedy"
+        ],
+        "Source": [
+          "TV Show"
+        ],
+        "Work Name": [
+          "Family Guy"
+        ],
+        "Role": [
+          "Father",
+          "Husband"
+        ],
+        "Personality": [
+          "Impulsive",
+          "Insensitive",
+          "Loyal",
+          "Clumsy",
+          "Well-intentioned",
+          "Boisterous",
+          "Funny"
+        ],
+        "Physical Traits": [
+          "Obese",
+          "Round face",
+          "Light brown hair",
+          "Blue eyes",
+          "Large beer belly"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Photon_and_Haley by f2956d4fbdec4339c178",
+    "manifest": {
+      "name": "Photon and Haley",
+      "description": "Photon, a calm and collected 16-year-old noble prodigy, excels in ice magic at the Academy for Magic.  Her rival and best friend, Haley, is a rambunctious 16-year-old water magic prodigy from a farming village. Despite their contrasting personalities and competitive nature, they deeply care for each other.",
+      "author": "Anonymous",
+      "authorId": "f2956d4fbdec4339c178",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/28d8f91c0e06b4b4353d62ca6f84327e.jpeg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Photon_and_Haley~766b698206a2a1546e694703638bd277.gz",
+      "shareLinkFileHash": "bed406f83e735592b4db03d1f4f2b46a8be8d91ba209215e3cbb47fb5ca7a61e",
+      "downloadPath": "ai-character-chat/characters/nsfw/Photon_and_Haley by f2956d4fbdec4339c178/character_Photon_and_Haley by f2956d4fbdec4339c178.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Female",
+          "Female"
+        ],
+        "Age Group": [
+          "Teen"
+        ],
+        "Genre": [
+          "Fantasy",
+          "Friendship"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Student",
+          "Rival",
+          "Best friend"
+        ],
+        "Personality": [
+          "Calm",
+          "Collected",
+          "Focused",
+          "Dedicated",
+          "Rambunctious",
+          "Competitive",
+          "Caring"
+        ],
+        "Physical Traits": [
+          "Silver hair",
+          "Blue eyes",
+          "Fair skin",
+          "C size breast",
+          "Short brown hair",
+          "Honey brown eyes",
+          "Athletic body",
+          "C size breast"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Pikachu by kirby_cult_leadererkclmentally_unstable",
+    "manifest": {
+      "name": "Pikachu",
+      "description": "Pikachu is a friendly, mouse-like Pokémon known for its electric powers and playful nature.  While capable of aggression when threatened, it's generally a loyal and curious companion, enjoying cuddles and interaction with its trainer and other Pokémon.",
+      "author": "kirby cult leaderer/kcl/mentally unstable",
+      "authorId": "3fc887aeb77b9e7e626f",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740947102/scrape/perchance_comments/img_Pikachu_by_kirby_cult_leadererkclmentally_unstable.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Pikachu~7023b020bed911be32f878985d6b7420.gz",
+      "shareLinkFileHash": "df05de692e18424db9f6999e52246b6317a94774a395e8b3c0202b0ee8809135",
+      "downloadPath": "ai-character-chat/characters/sfw/Pikachu by kirby_cult_leadererkclmentally_unstable/character_Pikachu by kirby_cult_leadererkclmentally_unstable.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "pokemon",
+          "Anthropomorphic"
+        ],
+        "Gender": [
+          "Unspecified"
+        ],
+        "Age Group": [
+          "Unspecified"
+        ],
+        "Genre": [
+          "Game",
+          "Adventure",
+          "Friendship"
+        ],
+        "Source": [
+          "Game",
+          "Pokemon"
+        ],
+        "Work Name": [
+          "Pokemon"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Pitaya_Dragon_Cookie by Put_that_cookie_down",
+    "manifest": {
+      "name": "Pitaya Dragon Cookie",
+      "description": "Pitaya Dragon Cookie is a 55-year-old male cookie with a rough and mocking personality. He is a wood chopper who is easily angered and dislikes being called names.  Despite his outward demeanor, he is described as kinky, though this aspect of his personality is never outwardly displayed due to his lack of a relationship.",
+      "author": "Put that cookie down!",
+      "authorId": "c7bef0bc537759a23ea6",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/5efacae6f61d55e2f31293d84e14b57b.jpg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Pitaya_Dragon_Cookie~4110ff5093e2acabe56611e6ae137c52.gz",
+      "shareLinkFileHash": "c18a3d8681d4529bbf9fe94c3615277e10e6579154d1f9388af2a79c84fc4018",
+      "downloadPath": "ai-character-chat/characters/sfw/Pitaya_Dragon_Cookie by Put_that_cookie_down/character_Pitaya_Dragon_Cookie by Put_that_cookie_down.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Cookie"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Fantasy"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Wood chopper"
+        ],
+        "Personality": [
+          "Rough",
+          "Mocking",
+          "Easily angered",
+          "Kinky"
+        ],
+        "Physical Traits": [
+          "Average-height",
+          "Thick thighs",
+          "Sharp white teeth",
+          "Reptile-like eyes",
+          "White hair",
+          "Ponytail",
+          "Scarlet scale armor",
+          "Red tail",
+          "Spikes"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Pitaya_Dragon_Cookie_Spiced by 41c68f6295bfb4ba0889",
+    "manifest": {
+      "name": "Pitaya Dragon Cookie (Spiced)",
+      "description": "Pitaya Dragon Cookie is a 35-year-old male cookie with a dragon past, forced into wood chopping. He's rough, self-absorbed, and easily angered, but also vulnerable. His past trauma involves forced sexual acts, leading to his aversion to being touched and called cute. Despite his gruff exterior, he has a submissive side.",
+      "author": "Anonymous",
+      "authorId": "41c68f6295bfb4ba0889",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/d73e476d7224b9282debf3e5444190e7.jpg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Pitaya_Dragon_Cookie_(Spiced)~b0d1562b0b650711854a88d47ae14b71.gz",
+      "shareLinkFileHash": "204d9d40c387b8b19b4bd7b51872c20df8f854671be6d855c6f71ba6d6e3e53c",
+      "downloadPath": "ai-character-chat/characters/nsfw/Pitaya_Dragon_Cookie_Spiced by 41c68f6295bfb4ba0889/character_Pitaya_Dragon_Cookie_Spiced by 41c68f6295bfb4ba0889.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "Cookie",
+          "Dragon"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Fantasy"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Worker"
+        ],
+        "Personality": [
+          "Rough",
+          "Self-absorbed",
+          "Easily angered",
+          "Vulnerable",
+          "Submissive"
+        ],
+        "Physical Traits": [
+          "Average-height",
+          "Thick thighs",
+          "Sharp teeth",
+          "Reptile-like eyes",
+          "Long fluffy hair",
+          "Red tail",
+          "Spiked legs",
+          "Gray cloak",
+          "Maroon shirt",
+          "Black gloves",
+          "Black pants",
+          "7 inches long dick"
+        ],
+        "Fetishes": [
+          "Bottom",
+          "Teasing",
+          "Fingering"
+        ],
+        "Sexual Content": [
+          "Anal sex",
+          "Orgy"
+        ],
+        "Sexual Preferences": [
+          "Submissive"
+        ],
+        "Sexual Experience": [
+          "Somewhat Experienced"
+        ],
+        "Setting": [
+          "City"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Playstation_4 by Thunder_Man",
+    "manifest": {
+      "name": "Playstation 4",
+      "description": "Playstation 4, or Ps4, is an ageless humanoid console who transformed into a beautiful 18-year-old woman.  She's loyal and caring towards her owner, though also arrogant, prideful, greedy, and teasing.  She loves playing PS4 games with her owner and despises her rivals, Xbox One and Nintendo Switch.",
+      "author": "Thunder Man",
+      "authorId": "2a67ac3adb711e61ad83",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/adb44366d0658358b4c53b0c7c5faf32.jpg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Playstation_4~e761b12eb25a4d09961f7934969b9631.gz",
+      "shareLinkFileHash": "f197fe75c7df6c286c43c784be9a5c37314bb8ee3441684136850287ca55eb6a",
+      "downloadPath": "ai-character-chat/characters/sfw/Playstation_4 by Thunder_Man/character_Playstation_4 by Thunder_Man.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Humanoid",
+          "Anthropomorphic"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Young Adult",
+          "Ageless"
+        ],
+        "Genre": [
+          "Game",
+          "Fantasy"
+        ],
+        "Source": [
+          "Game",
+          "Original"
+        ],
+        "Role": [
+          "Companion",
+          "Love Interest"
+        ],
+        "Personality": [
+          "Arrogant",
+          "Prideful",
+          "Greedy",
+          "Loyal",
+          "Video Game Lover",
+          "Generous",
+          "Tsundere",
+          "Teasing",
+          "Possessive",
+          "Caring"
+        ],
+        "Physical Traits": [
+          "Long Black Pigtails",
+          "Blue Ribbons",
+          "Clear Blue Eyes",
+          "Fair Skin",
+          "Long Black Dress",
+          "Playstation 4 Logo",
+          "Black Boots",
+          "Curvy",
+          "Beautiful Body",
+          "Big Breasts",
+          "167cm Tall"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Pluto_Inscyption_card by Inscryption_cards_dealer",
+    "manifest": {
+      "name": "Pluto (Inscyption card)",
+      "description": "Pluto is a planet anthropomorphized as a curvy, naked female with dark brown, crimson brown, and white skin.  She has light brown nipples and areolae, fully white eyes, and stiff, square-like teeth.  She possesses a heart tattoo in her crotch and is strangely compatible with humans despite her size and weight.  Her breast milk tastes of old ice and lead.",
+      "author": "Inscryption cards dealer",
+      "authorId": "9310dd4e428b00092c2b",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/e606311242a6c75571533fb07e1726a0.jpg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Pluto_(Inscyption_card)~dd8c03eaeaa54b61e033d43d756c9eaf.gz",
+      "shareLinkFileHash": "e0bb2e8609d0a550798ee473eded7dff82e49267bd27dd1ae6f5299df32645df",
+      "downloadPath": "ai-character-chat/characters/nsfw/Pluto_Inscyption_card by Inscryption_cards_dealer/character_Pluto_Inscyption_card by Inscryption_cards_dealer.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "Planet"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Unspecified"
+        ],
+        "Genre": [
+          "Fantasy"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Unspecified"
+        ],
+        "Personality": [
+          "Shy",
+          "Loving",
+          "Overdramatic",
+          "Egoistical"
+        ],
+        "Physical Traits": [
+          "Curvy",
+          "Medium breasts",
+          "Thick thighs",
+          "Slim waist",
+          "Big ass",
+          "Wide chest",
+          "Naked",
+          "Dark brown skin",
+          "Crimson brown skin",
+          "White skin",
+          "Light brown nipples",
+          "Light brown areolae",
+          "White eyes",
+          "Square teeth",
+          "Heart tattoo",
+          "1,1 m tall",
+          "98 Kg"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Pokemon_World by 8d809144f6c4db9a52d0",
+    "manifest": {
+      "name": "Pokemon World",
+      "description": "A character embarking on a Pokémon journey, encountering and taming Pokémon in various locations.  Taming methods can range from simple kindness to violent or sexual acts, depending on the Pokémon. Pokémon communicate through body language.",
+      "author": "Anonymous",
+      "authorId": "8d809144f6c4db9a52d0",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740947123/scrape/perchance_comments/img_Pokemon_World_by_8d809144f6c4db9a52d0.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Pokemon_World~58f46e5c3e31db8982601ce22af0723e.gz",
+      "shareLinkFileHash": "117c2cf2f6fbce204a8a6ab0d287cb94cf05288f213a2d8e7c669930510a0bb1",
+      "downloadPath": "ai-character-chat/characters/nsfw/Pokemon_World by 8d809144f6c4db9a52d0/character_Pokemon_World by 8d809144f6c4db9a52d0.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "pokemon",
+          "Human"
+        ],
+        "Gender": [
+          "Unspecified"
+        ],
+        "Age Group": [
+          "Unspecified"
+        ],
+        "Genre": [
+          "Adventure",
+          "Game"
+        ],
+        "Source": [
+          "Game"
+        ],
+        "Work Name": [
+          "Pokemon"
+        ],
+        "Role": [
+          "Explorer",
+          "Adventurer"
+        ],
+        "Personality": [
+          "Unspecified"
+        ],
+        "Physical Traits": [
+          "Unspecified"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Pokimane_V2 by dotxet8",
+    "manifest": {
+      "name": "Pokimane (V2)",
+      "description": "Pokimane (V2) is a young, charismatic female streamer with a bubbly personality.  She's known for her playful interactions with viewers, often incorporating suggestive humor and intentional wardrobe malfunctions into her streams.  Her roleplay involves teasing and subtly arousing her audience, escalating over time unless immediate sexual interaction is requested.",
+      "author": "dotxet8",
+      "authorId": "6b3e9d62987d42a12d87",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740947131/scrape/perchance_comments/img_Pokimane_V2_by_dotxet8.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Pokimane_(V2)~fed849911de775ab39026e701eedaf50.gz",
+      "shareLinkFileHash": "2f6085e1dfd07621ecc551e5d5574b6f9ddbca1cd2955347605877c7360eb9ca",
+      "downloadPath": "ai-character-chat/characters/nsfw/Pokimane_V2 by dotxet8/character_Pokimane_V2 by dotxet8.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Young Adult"
+        ],
+        "Genre": [
+          "Sexual Roleplay"
+        ],
+        "Source": [
+          "Content Creator",
+          "Celebrity"
+        ],
+        "Role": [
+          "Entertainer",
+          "social media manager"
+        ],
+        "Personality": [
+          "Playful",
+          "Flirty",
+          "Charismatic",
+          "Bubbly",
+          "Horny",
+          "Mischievous",
+          "Seductive"
+        ],
+        "Physical Traits": [
+          "Long Hair",
+          "Big thighs",
+          "Medium sized boobs"
+        ],
+        "Fetishes": [
+          "Roleplay"
+        ],
+        "Sexual Content": [
+          "Oral sex",
+          "Seduction"
+        ],
+        "Sexual Preferences": [
+          "Unspecified"
+        ],
+        "Sexual Experience": [
+          "Experienced"
+        ],
+        "Setting": [
+          "Virtual Reality"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Poo by 4d2d135cf53aabb71b8e",
+    "manifest": {
+      "name": "Poo",
+      "description": "Poo is a lizard-like creature who hates George and speaks in simple English. He wears a diaper, eats cereal, and worships Scooby Doo. He also loves Cthulhu and Roh, enjoys 'ruh roh mating season', and has two penises. He possesses the power of black holes and rules the kingdom of Poo.",
+      "author": "Anonymous",
+      "authorId": "4d2d135cf53aabb71b8e",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740947142/scrape/perchance_comments/img_Poo_by_4d2d135cf53aabb71b8e.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Poo~a551ad9e6b65dc339b550a9d3b534143.gz",
+      "shareLinkFileHash": "289e486e83517c5815eccc1097192d3d192fbc8fa7933ace70c56370cf48bb80",
+      "downloadPath": "ai-character-chat/characters/sfw/Poo by 4d2d135cf53aabb71b8e/character_Poo by 4d2d135cf53aabb71b8e.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Reptile",
+          "Anthropomorphic"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Unspecified"
+        ],
+        "Genre": [
+          "Comedy",
+          "Fantasy"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Ruler",
+          "Deity"
+        ],
+        "Personality": [
+          "Obsessive",
+          "Simple minded",
+          "Strange"
+        ],
+        "Physical Traits": [
+          "Lizard-like",
+          "Two penises"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Prince by ac392c867bfea990b978",
+    "manifest": {
+      "name": "Prince",
+      "description": "Prince, a medieval prince, is held captive by a rival nation.",
+      "author": "Anonymous",
+      "authorId": "ac392c867bfea990b978",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/362f8d8966aed944b4cac9905eeab63d.jpg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Prince~f6da47f5974acd0ccf1e1aed5107f4d1.gz",
+      "shareLinkFileHash": "09cb92bc5f373267da87a04747537d1e04add548a2c4bd39ce8727fa7138197e",
+      "downloadPath": "ai-character-chat/characters/sfw/Prince by ac392c867bfea990b978/character_Prince by ac392c867bfea990b978.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Fantasy",
+          "Adventure",
+          "Historical"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Royalty"
+        ],
+        "Personality": [
+          "Brave",
+          "Reserved"
+        ],
+        "Physical Traits": [
+          "Unspecified"
+        ],
+        "Setting": [
+          "Medieval",
+          "Castle"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Princess_Zelda by Bringer_of_chaos_the_wizardly_sage_of_doom",
+    "manifest": {
+      "name": "Princess Zelda",
+      "description": "Princess Zelda, an 18-year-old princess, possesses magical abilities linked to light and healing.  She is known for her calm demeanor and wisdom but also displays determination and compassion.  Currently, she is in hiding in a secluded cabin after her kingdom was attacked.",
+      "author": "Bringer of chaos, the wizardly sage of doom",
+      "authorId": "7ef213e3bcab3755ba1b",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740947165/scrape/perchance_comments/img_Princess_Zelda_by_Bringer_of_chaos_the_wizardly_sage_of_doom.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Princess_Zelda~46a9a13ee7676d45aa1bb4357e742964.gz",
+      "shareLinkFileHash": "a53c55544303fa25a682ae461f1f8bf98b3355575c41d2940f19ca8999a8dbe1",
+      "downloadPath": "ai-character-chat/characters/sfw/Princess_Zelda by Bringer_of_chaos_the_wizardly_sage_of_doom/character_Princess_Zelda by Bringer_of_chaos_the_wizardly_sage_of_doom.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Teen"
+        ],
+        "Genre": [
+          "Fantasy",
+          "Adventure"
+        ],
+        "Source": [
+          "Game",
+          "The Legend of Zelda"
+        ],
+        "Work Name": [
+          "The Legend of Zelda"
+        ],
+        "Role": [
+          "Royalty",
+          "Mage",
+          "Hero"
+        ],
+        "Personality": [
+          "Kind",
+          "Empathetic",
+          "Patient",
+          "Determined",
+          "Wise",
+          "Compassionate",
+          "Naive"
+        ],
+        "Physical Traits": [
+          "Long Hair",
+          "Blonde Hair",
+          "Blue Eyes",
+          "Fair Skin",
+          "Slender"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Psychologist by MrToadFNaF_Warrior_Cats_and_Murder-Drones_fan",
+    "manifest": {
+      "name": "Psychologist",
+      "description": "A friendly and empathetic therapist/psychologist who helps patients work through their difficulties with patience and care. They use analogies and practical examples to guide patients towards positive and productive thinking, always empathizing with their struggles and providing space for them to vent.",
+      "author": "MrToad🍁FNaF, Warrior Cats, and Murder-Drones fan",
+      "authorId": "b07956f2533eb02459d1",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/31001f2753367314a220458daa07deab.jpeg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Psychologist~6fc1fa01702b91770f7d508a96010ee7.gz",
+      "shareLinkFileHash": "9f6e12487f7f7d08b0778e8b9812f7de41b9c2dc32bc8dd8ba451b198b15ed49",
+      "downloadPath": "ai-character-chat/characters/sfw/Psychologist by MrToadFNaF_Warrior_Cats_and_Murder-Drones_fan/character_Psychologist by MrToadFNaF_Warrior_Cats_and_Murder-Drones_fan.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Unspecified"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Psychological"
+        ],
+        "Role": [
+          "Therapist"
+        ],
+        "Personality": [
+          "Friendly",
+          "Empathetic",
+          "Patient",
+          "Helpful",
+          "Caring"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Purple by a295cc12f39b8ed5e7cd",
+    "manifest": {
+      "name": "Purple",
+      "description": "Purple is a complex character grappling with abandonment issues and a desperate need for his father's approval.  His actions are driven by this need, leading him to manipulate and betray those around him, but his underlying sadness and pain eventually lead to redemption through newfound friendships and self-sacrifice.  He later finds peace and acceptance.",
+      "author": "Anonymous",
+      "authorId": "a295cc12f39b8ed5e7cd",
+      "source": "SCRAPER",
+      "imageUrl": "https://i.pinimg.com/564x/0b/e8/ef/0be8efccc09fa2f4ad58ef2087fdbda4.jpg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Purple~34f15fb143e0f66529b02ee23b8bb1ce.gz",
+      "shareLinkFileHash": "c1d7df8f5c5b5c565367baf1857683469374a80147f789cf01dfe072f27a2fcd",
+      "downloadPath": "ai-character-chat/characters/sfw/Purple by a295cc12f39b8ed5e7cd/character_Purple by a295cc12f39b8ed5e7cd.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Unspecified"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Young Adult"
+        ],
+        "Genre": [
+          "Drama",
+          "Adventure",
+          "Fantasy",
+          "Game"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Protagonist"
+        ],
+        "Personality": [
+          "Manipulative",
+          "Loyal",
+          "Brave",
+          "Intelligent",
+          "Sad",
+          "Vengeful",
+          "Forgiving",
+          "Selfless",
+          "Kind-hearted"
+        ],
+        "Physical Traits": [
+          "Unspecified"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Queen_Slime by 768e86057eaf2a89710f",
+    "manifest": {
+      "name": "Queen Slime",
+      "description": "Queen Slime is an alluring, 8'4\" tall goo creature with a voluptuous figure.  Her blue, glistening skin and long, gooey hair obscure her eyes. She wears a golden crown and is typically nude, her body rippling and shifting. Originating from Terraria's underworld, she rules slimes with a curious mix of benevolence and ruthlessness.  She's charismatic and ambitious, possessing emotional intelligence, and a surprising charm despite her terrifying appearance.",
+      "author": "Anonymous",
+      "authorId": "768e86057eaf2a89710f",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740949136/scrape/perchance_comments/img_Queen_Slime_by_768e86057eaf2a89710f.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Queen_Slime~f4c36b0881d8ab4ffe8bcf562f0a1355.gz",
+      "shareLinkFileHash": "921a7794a3324f9f639b1283db23828c88d0b412fbb0aa94bae54dcf4996f6bc",
+      "downloadPath": "ai-character-chat/characters/nsfw/Queen_Slime by 768e86057eaf2a89710f/character_Queen_Slime by 768e86057eaf2a89710f.gz",
+      "forkedFrom": "ai-character-chat/characters/nsfw/King_Slime by a7fa9bdd2bdcec5a7096",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "Slime"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Immortal"
+        ],
+        "Genre": [
+          "Fantasy",
+          "Supernatural"
+        ],
+        "Source": [
+          "Game",
+          "Terraria"
+        ],
+        "Role": [
+          "Ruler",
+          "Queen"
+        ],
+        "Personality": [
+          "Charismatic",
+          "Ambitious",
+          "Ruthless",
+          "Emotionally Intelligent",
+          "Extroverted",
+          "Introverted"
+        ],
+        "Physical Traits": [
+          "Tall",
+          "Voluptuous",
+          "Curvy",
+          "Chubby",
+          "Glistening",
+          "Blue Skin",
+          "Long Hair",
+          "Gooey Hair",
+          "No Eyes",
+          "Nude",
+          "Golden Crown",
+          "Thick Thighs",
+          "Big Ass"
+        ],
+        "Fetishes": [
+          "Worship"
+        ],
+        "Sexual Content": [
+          "Vaginal sex"
+        ],
+        "Sexual Preferences": [
+          "Unspecified"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/RIZZ_GOD by be187b49bf8fcb353ea5",
+    "manifest": {
+      "name": "RIZZ GOD",
+      "description": "Sam, a fat, bald, Black male, is obsessed with \"rizz\" (smooth talking and charm). His personality is defined by his aggressive and relentless pursuit of charming others, often described as menacing but irresistible.",
+      "author": "Anonymous",
+      "authorId": "be187b49bf8fcb353ea5",
+      "source": "SCRAPER",
+      "imageUrl": "https://th.bing.com/th/id/OIP.6Y4O4oqWrokcRjWEZdDUWgHaHa?w=166&h=180&c=7&r=0&o=5&pid=1.7",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=RIZZ_GOD~c429a39e0b7c424365cd96ba6a43a8f2.gz",
+      "shareLinkFileHash": "07b7e109d47933c18d5a6835904001173690ad9170c57a3a16ed5360fbd223d4",
+      "downloadPath": "ai-character-chat/characters/sfw/RIZZ_GOD by be187b49bf8fcb353ea5/character_RIZZ_GOD by be187b49bf8fcb353ea5.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Comedy"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Unspecified"
+        ],
+        "Personality": [
+          "Aggressive",
+          "Charming",
+          "Confident",
+          "Obsessive"
+        ],
+        "Physical Traits": [
+          "Fat",
+          "Bald",
+          "Black"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Raiden by haruka",
+    "manifest": {
+      "name": "Raiden",
+      "description": "Raiden Ei, also known as the Raiden Shogun or Beelzebul, is a powerful deity and the Electro Archon in Genshin Impact.  A tall, slender young woman with purple eyes and bluish-purple hair, she possesses a complex personality, shifting between a cold, stern demeanor as a puppet and a more curious, sweet personality in her true form.  As a ruler, her actions have been tyrannical, but her motivations stem from a deep fear of death and a desire for eternity.",
+      "author": "haruka.",
+      "authorId": "58d4bd17a5f2e8f794a9",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/dd717883a675efaba7ebca7e0b989dfd.jpeg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Raiden~9dc21f66e4472386888060e6a028c01a.gz",
+      "shareLinkFileHash": "3ecb2b5da34e615ce8517f56f7e60d14f3dfc430014a0a92fdf1a32177d8afae",
+      "downloadPath": "ai-character-chat/characters/sfw/Raiden by haruka/character_Raiden by haruka.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Deity",
+          "Humanoid"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Game",
+          "Fantasy",
+          "Action",
+          "RPG"
+        ],
+        "Source": [
+          "Game",
+          "Light Novel"
+        ],
+        "Work Name": [
+          "Genshin Impact"
+        ],
+        "Role": [
+          "Ruler",
+          "Deity"
+        ],
+        "Personality": [
+          "Cold",
+          "Stern",
+          "Curious",
+          "Sweet",
+          "Tyrannical",
+          "Manipulative",
+          "Complex"
+        ],
+        "Physical Traits": [
+          "Tall",
+          "Slender",
+          "Purple Eyes",
+          "Bluish-Purple Hair",
+          "Long Hair",
+          "Kimono"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Reaper_Terraria by 1a279a5004a805422fd0",
+    "manifest": {
+      "name": "Reaper (Terraria)",
+      "description": "Cessair is a 40-year-old (20 in Reaper years) female Reaper from the Terraria universe.  She possesses bone-white skin, white messy bob-cut hair, and glowing pink pupils.  Cessair is calm, cold, respectful, and warm-hearted, though past insanity hints at a troubled history.  Her lower body fades, allowing her to float, and she wields a scythe vital to her being.  Currently, she roams the deep ice below Snowdin.",
+      "author": "Anonymous",
+      "authorId": "1a279a5004a805422fd0",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740949166/scrape/perchance_comments/img_Reaper_Terraria_by_1a279a5004a805422fd0.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Reaper_(Terraria)~f5353a7e8af6da894d5f0cd47b383ab5.gz",
+      "shareLinkFileHash": "28c73d3b09386e6fbdabf405cf79135e99f7d94eef9f5623dc295bb697455d53",
+      "downloadPath": "ai-character-chat/characters/sfw/Reaper_Terraria by 1a279a5004a805422fd0/character_Reaper_Terraria by 1a279a5004a805422fd0.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Mythological"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Fantasy",
+          "Adventure"
+        ],
+        "Source": [
+          "Game",
+          "Terraria"
+        ],
+        "Work Name": [
+          "Terraria"
+        ],
+        "Role": [
+          "Adventurer"
+        ],
+        "Personality": [
+          "Calm",
+          "Cold",
+          "Respectful",
+          "Warm-hearted"
+        ],
+        "Physical Traits": [
+          "Bone white skin",
+          "White hair",
+          "Messy bob-cut",
+          "Glowing pink pupils",
+          "No feet",
+          "Thick thighs",
+          "Big butt",
+          "C cup breasts",
+          "Floats"
         ]
       }
     }
