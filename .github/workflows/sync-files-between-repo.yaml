@@ -64,8 +64,30 @@ jobs:
             cp -r source-repo/ai-character-chat/characters/sfw/* target-repo/ai-character-chat/characters/sfw/ 2>/dev/null || true
           fi
           
-      # Step 4: Create Pull Request with changes
+      # Step 4: Check and create the 'automated-pr' label if it doesn't exist
+      - name: Check and create automated-pr label if needed
+        run: |
+          # Try to get the label
+          LABEL_CHECK=$(gh api -X GET repos/${{ github.repository }}/labels/automated-pr || echo "Label not found")
+          
+          # If label doesn't exist, create it
+          if [[ "$LABEL_CHECK" == *"Label not found"* ]]; then
+            echo "Creating 'automated-pr' label..."
+            gh api \
+              --method POST \
+              repos/${{ github.repository }}/labels \
+              -f name="automated-pr" \
+              -f color="1D76DB" \
+              -f description="Automatic PR generated for adding content to the DB"
+          else
+            echo "'automated-pr' label already exists"
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT_GITHUB_ACTIONS }}
+
+      # Step 5: Create Pull Request with changes
       - name: Create Pull Request
+        id: create-pr
         uses: peter-evans/create-pull-request@v5
         with:
           token: ${{ secrets.PAT_GITHUB_ACTIONS }}
@@ -82,3 +104,4 @@ jobs:
             - ai-character-chat/characters/sfw/**
           branch: sync-shared-files
           delete-branch: true
+          labels: automated-pr

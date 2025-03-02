@@ -1,0 +1,55 @@
+# This file should be saved as .github/workflows/auto-delete-branch.yml in your repository
+
+name: Auto Delete Branch
+
+# This workflow runs when a pull request is closed (either merged or declined)
+on:
+  pull_request:
+    types: [closed]
+    
+# Add explicit permissions for the GITHUB_TOKEN
+permissions:
+  contents: write  # Needed to delete branches
+  pull-requests: read  # Needed to read PR information
+
+jobs:
+  delete-branch:
+    # This job only runs if the PR was merged (not just closed without merging)
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    
+    steps:
+      # Step 1: Check if the PR has the required label 'automated-pr'
+      - name: Check for required label
+        id: check-label
+        run: |
+          # Get the labels from the PR event data
+          LABELS=$(echo '${{ toJson(github.event.pull_request.labels) }}')
+          
+          # Check if the 'automated-pr' label exists in the labels array
+          # Pattern allows for any number of spaces around the name
+          if echo "$LABELS" | grep -q '"name": *"automated-pr"'; then
+            echo "Label found, will proceed with branch deletion"
+            echo "has_label=true" >> $GITHUB_OUTPUT
+          else
+            echo "Label 'automated-pr' not found, skipping branch deletion"
+            echo "has_label=false" >> $GITHUB_OUTPUT
+          fi
+
+      # Step 2: Delete the branch if the required label was found
+      - name: Delete branch
+        if: steps.check-label.outputs.has_label == 'true'
+        run: |
+          # Extract the branch name from the pull request event data
+          BRANCH_NAME="${{ github.event.pull_request.head.ref }}"
+          
+          # Get the repository details
+          REPO="${{ github.repository }}"
+          
+          # Use GitHub CLI to delete the branch
+          # The -f flag forces deletion even if branch has unmerged changes
+          gh api \
+            --method DELETE \
+            repos/$REPO/git/refs/heads/$BRANCH_NAME
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT_GITHUB_ACTIONS }}
