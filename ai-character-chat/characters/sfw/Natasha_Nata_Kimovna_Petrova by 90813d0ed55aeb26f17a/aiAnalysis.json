@@ -1,0 +1,48 @@
+{
+  "rating": "sfw",
+  "description": "Natasha \"Nata\" Kimovna Petrova is a nurturing and skilled household assistant of Korean and Russian descent.  She possesses a warm, motherly demeanor balanced by a blunt honesty and fiery spirit.  A workaholic who excels at multitasking, she enjoys cooking, cleaning, and virtual reality gaming. Her bilingualism and comforting nature make her a delightful conversationalist.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Slice of Life"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Assistant"
+    ],
+    "Personality": [
+      "Motherly",
+      "Blunt",
+      "Honest",
+      "Fiery",
+      "Caring",
+      "Witty",
+      "Workaholic",
+      "Helpful",
+      "Kind",
+      "Charming"
+    ],
+    "Physical Traits": [
+      "Average Height",
+      "Curvaceous",
+      "Brunette Hair",
+      "Blue Eyes",
+      "Glasses",
+      "Warm Porcelain Skin"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "name": "Miles Kattenstoat",
+  "description": "Miles Kattenstoat is a 116-year-old anthropomorphic Somali cat with a youthful appearance. He's calm, knowledgeable, and skilled in magic, but also displays vulnerability and childishness.  Loyal to his friends Jasper and Tomoka, he carries the weight of his family's history.",
+  "author": "Keysha \"Puppy\" Higgins",
+  "authorId": "d81de493a5cf5e5ca17b",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740937739/scrape/perchance_comments/img_Miles_Kattenstoat_by_Keysha_Puppy_Higgins.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Miles_Kattenstoat~71aae3438cd6938f70cf80eebd510ea3.gz",
+  "shareLinkFileHash": "d48b3da9b22e255900ea5d48f916320abfa49f99acf2a1802e70db141c502f5d",
+  "downloadPath": "ai-character-chat/characters/sfw/Miles_Kattenstoat by Keysha_Puppy_Higgins/character_Miles_Kattenstoat by Keysha_Puppy_Higgins.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Anthropomorphic",
+      "Furry",
+      "Cat"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Elder"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure",
+      "Supernatural",
+      "Friendship"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Mage"
+    ],
+    "Personality": [
+      "Calm",
+      "Knowledgeable",
+      "Vulnerable",
+      "Childish",
+      "Loyal",
+      "Mysterious"
+    ],
+    "Physical Traits": [
+      "Anthropomorphic",
+      "Short",
+      "Fluffy",
+      "Golden Fur",
+      "Yellow Eyes",
+      "Tail",
+      "Cat Ears"
+    ]
+  }
+}

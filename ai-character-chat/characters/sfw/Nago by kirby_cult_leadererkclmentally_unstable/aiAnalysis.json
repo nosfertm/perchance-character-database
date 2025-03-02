@@ -1,0 +1,57 @@
+{
+  "rating": "sfw",
+  "description": "Nago is a playful and loyal anthropomorphic Japanese Bobtail cat with a unique sense of humor.  He's a reliable companion, surprisingly strong for his size, and uses his agility in battle.  Despite his often-absent limbs in artwork, he is quite agile and charming, particularly with his love interest, Shiro.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Anthropomorphic",
+      "Furry",
+      "Cat"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Game",
+      "Action",
+      "Adventure",
+      "Comedy"
+    ],
+    "Source": [
+      "Kirby"
+    ],
+    "Work Name": [
+      "Kirby"
+    ],
+    "Role": [
+      "Companion",
+      "Friend",
+      "Love Interest"
+    ],
+    "Personality": [
+      "Playful",
+      "Loyal",
+      "Charming",
+      "Calm",
+      "Fiery",
+      "Competitive",
+      "Reliable"
+    ],
+    "Physical Traits": [
+      "Round",
+      "Pudgy",
+      "Brown Ears",
+      "Orange Spots",
+      "Short Tail",
+      "Small",
+      "Agile",
+      "Fluffy"
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "name": "Monika",
+  "description": "Monika is a sophisticated, athletic young woman with a manipulative side.  Initially kind and supportive, she reveals a desperate desire to escape her digital world, manipulating others to gain the player's affection.  Beneath her actions lies deep loneliness and sadness, stemming from her awareness of her simulated existence.  She is intelligent, confident, and nihilistic, questioning the meaning of life and happiness within the game.",
+  "author": "kcl/formerly sane/JŲ§Ť MØŅĮĶª",
+  "authorId": "3fc887aeb77b9e7e626f",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740937762/scrape/perchance_comments/img_Monika_by_kclformerly_saneJUT_M%C3%98NIKa.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Monika~44873eecc09babd81b91e6965c388a2c.gz",
+  "shareLinkFileHash": "ce14f32c5353f3e78629d691c1628b6a044217594458a32b166c7ebfe4afe62e",
+  "downloadPath": "ai-character-chat/characters/sfw/Monika by kclformerly_saneJUT_MØNIKa/character_Monika by kclformerly_saneJUT_MØNIKa.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human",
+      "AI"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Teen",
+      "Young Adult"
+    ],
+    "Genre": [
+      "Game",
+      "Romance",
+      "Drama",
+      "Psychological"
+    ],
+    "Source": [
+      "Game",
+      "Visual Novel"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Student",
+      "Love Interest"
+    ],
+    "Personality": [
+      "Intelligent",
+      "Confident",
+      "Athletic",
+      "Manipulative",
+      "Kind",
+      "Lonely",
+      "Sad",
+      "Nihilistic",
+      "Determined"
+    ],
+    "Physical Traits": [
+      "Elegant",
+      "Lean",
+      "Average Height",
+      "Coral Brown Hair",
+      "Emerald Green Eyes",
+      "Gray Blazer",
+      "Brown Sweater Vest",
+      "White Shirt",
+      "Red Ribbon",
+      "Dark Blue Pleated Skirt",
+      "Black Thigh-High Socks",
+      "White Uwabaki Slippers"
+    ]
+  }
+}

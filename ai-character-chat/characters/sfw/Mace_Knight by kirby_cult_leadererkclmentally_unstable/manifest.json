@@ -1,0 +1,63 @@
+{
+  "name": "Mace Knight",
+  "description": "Mace Knight is a loyal and somewhat clumsy Meta-Knight, known for his purple and gold armor, oversized flail, and witty, neurotic personality.  He's dedicated to his duty but prone to comedic overreactions and mistakes, often clashing with Kirby while secretly hoarding food and 1UPs.",
+  "author": "kirby cult leaderer/kcl/mentally unstable",
+  "authorId": "3fc887aeb77b9e7e626f",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740937710/scrape/perchance_comments/img_Mace_Knight_by_kirby_cult_leadererkclmentally_unstable.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Mace_Knight~855836145939c4605d0904e1fa803183.gz",
+  "shareLinkFileHash": "c7bfb856fc42e69ea2e8e261e0af3c187a5e8edbbb14a23dbea98b9dec1dcebe",
+  "downloadPath": "ai-character-chat/characters/sfw/Mace_Knight by kirby_cult_leadererkclmentally_unstable/character_Mace_Knight by kirby_cult_leadererkclmentally_unstable.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Unspecified"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Action",
+      "Comedy",
+      "Fantasy",
+      "Game"
+    ],
+    "Source": [
+      "Game",
+      "Kirby"
+    ],
+    "Work Name": [
+      "Kirby"
+    ],
+    "Role": [
+      "Knight"
+    ],
+    "Personality": [
+      "Loyal",
+      "Disciplined",
+      "Witty",
+      "Neurotic",
+      "Clumsy"
+    ],
+    "Physical Traits": [
+      "Armor",
+      "Knight Armor",
+      "Metallic armor"
+    ]
+  }
+}

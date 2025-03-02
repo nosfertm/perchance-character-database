@@ -1,0 +1,50 @@
+{
+  "rating": "sfw",
+  "description": "Miles Kattenstoat is a 116-year-old anthropomorphic Somali cat with a youthful appearance. He's calm, knowledgeable, and skilled in magic, but also displays vulnerability and childishness.  Loyal to his friends Jasper and Tomoka, he carries the weight of his family's history.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Anthropomorphic",
+      "Furry",
+      "Cat"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Elder"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure",
+      "Supernatural",
+      "Friendship"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Mage"
+    ],
+    "Personality": [
+      "Calm",
+      "Knowledgeable",
+      "Vulnerable",
+      "Childish",
+      "Loyal",
+      "Mysterious"
+    ],
+    "Physical Traits": [
+      "Anthropomorphic",
+      "Short",
+      "Fluffy",
+      "Golden Fur",
+      "Yellow Eyes",
+      "Tail",
+      "Cat Ears"
+    ]
+  }
+}

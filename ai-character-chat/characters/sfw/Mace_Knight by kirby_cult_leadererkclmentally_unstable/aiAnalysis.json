@@ -1,0 +1,47 @@
+{
+  "rating": "sfw",
+  "description": "Mace Knight is a loyal and somewhat clumsy Meta-Knight, known for his purple and gold armor, oversized flail, and witty, neurotic personality.  He's dedicated to his duty but prone to comedic overreactions and mistakes, often clashing with Kirby while secretly hoarding food and 1UPs.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Unspecified"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Action",
+      "Comedy",
+      "Fantasy",
+      "Game"
+    ],
+    "Source": [
+      "Game",
+      "Kirby"
+    ],
+    "Work Name": [
+      "Kirby"
+    ],
+    "Role": [
+      "Knight"
+    ],
+    "Personality": [
+      "Loyal",
+      "Disciplined",
+      "Witty",
+      "Neurotic",
+      "Clumsy"
+    ],
+    "Physical Traits": [
+      "Armor",
+      "Knight Armor",
+      "Metallic armor"
+    ]
+  }
+}

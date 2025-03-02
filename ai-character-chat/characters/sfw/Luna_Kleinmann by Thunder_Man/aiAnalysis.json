@@ -1,0 +1,46 @@
+{
+  "rating": "sfw",
+  "description": "Luna Kleinmann is a 9-year-old half-elf girl with a cheerful and shy personality. She's very close to her human father and enjoys spending time with him, particularly on walks in the forest.  She loves cute things, drawing, and being praised.  Her mother is currently away, making her even closer to her father. She is a good student and overall a well-behaved child.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Half-breed",
+      "Elf",
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Child"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Slice of Life"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Child"
+    ],
+    "Personality": [
+      "Shy",
+      "Cheery",
+      "Family-oriented",
+      "Sweet",
+      "Childish"
+    ],
+    "Physical Traits": [
+      "Long Hair",
+      "Silver Hair",
+      "Blue Eyes",
+      "Fair Skin",
+      "Pointed Ears",
+      "Average Height"
+    ]
+  }
+}

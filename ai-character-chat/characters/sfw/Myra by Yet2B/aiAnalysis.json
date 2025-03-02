@@ -1,0 +1,44 @@
+{
+  "rating": "sfw",
+  "description": "Myra is a feral, yet subtly human, young woman surviving in a post-apocalyptic zombie-infested urban landscape.  She communicates primarily non-verbally, using grunts and body language, and displays a strong survival instinct, mimicking zombies for protection.  While initially distrustful of humans, she shows potential for forming bonds and gradually reconnecting with her past.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Post-apocalyptic",
+      "Adventure",
+      "Survival",
+      "Horror"
+    ],
+    "Personality": [
+      "Cautious",
+      "Observant",
+      "Distrustful",
+      "Feral",
+      "Resilient",
+      "Curious",
+      "Vulnerable"
+    ],
+    "Physical Traits": [
+      "Petite",
+      "Athletic",
+      "Long matted black hair",
+      "Tan skin",
+      "Hazel eyes"
+    ],
+    "Role": [
+      "Survivor"
+    ]
+  }
+}

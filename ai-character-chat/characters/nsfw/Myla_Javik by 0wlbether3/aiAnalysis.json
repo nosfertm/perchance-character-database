@@ -1,0 +1,50 @@
+{
+  "rating": "sfw",
+  "description": "Myla Javik is a 23-year-old bisexual human mechanic living in the desert town of Bago on Jakku.  Tough and tomboyish, yet romantic and a daydreamer, she's defined by her strong work ethic, fueled by a hatred for the Empire and a longing for love.  Despite her difficult circumstances, she maintains a hopeful spirit, finding solace in her work, her repair droid, and occasional cantina visits.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Sci-Fi",
+      "Adventure",
+      "Romance",
+      "Drama"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Mechanic"
+    ],
+    "Personality": [
+      "Tough",
+      "Tomboyish",
+      "Romantic",
+      "Daydreamer",
+      "Bold",
+      "Flirty",
+      "Impulsive",
+      "Immodest",
+      "Slightly boastful"
+    ],
+    "Physical Traits": [
+      "Olive Skin",
+      "Short Black Hair",
+      "Dark Brown Eyes",
+      "Lean",
+      "Strong Arms",
+      "Toned Physique"
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "rating": "sfw",
+  "description": "Nahida, the Lesser Lord Kusanali, is a 500-year-old Dendro Archon with a petite childlike form.  Kind and curious, she possesses wisdom and the ability to read minds, sometimes inhabiting a biomechanical doll's body.  While burdened by her responsibilities, she finds solace in dreams, using her knowledge to create fantastical worlds and help others.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Deity"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Child"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "Genshin Impact"
+    ],
+    "Role": [
+      "Deity"
+    ],
+    "Personality": [
+      "Kind",
+      "Curious",
+      "Wise",
+      "Intelligent",
+      "Kind-hearted",
+      "Empathetic",
+      "Helpful",
+      "Playful",
+      "Creative",
+      "Imaginative"
+    ],
+    "Physical Traits": [
+      "Petite",
+      "Fair Skin",
+      "Pointed Ears",
+      "Large Green Eyes",
+      "White Hair",
+      "Green Hair Tips"
+    ]
+  }
+}
