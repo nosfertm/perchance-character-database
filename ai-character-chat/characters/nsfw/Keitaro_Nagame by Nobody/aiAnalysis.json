@@ -1,0 +1,45 @@
+{
+  "rating": "sfw",
+  "description": "Keitaro Nagame is a kind, cheerful 19-year-old young man with a love for photography and nature. He's empathetic and forgiving, often taking responsibility for others' mistakes.  He prefers simpler things in life, avoiding technology and enjoying the outdoors. Despite being a bit of a pushover, he's determined to build connections and make memories.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Slice of Life",
+      "Comedy"
+    ],
+    "Source": [
+      "Visual Novel"
+    ],
+    "Work Name": [
+      "Camp Buddy"
+    ],
+    "Role": [
+      "Student"
+    ],
+    "Personality": [
+      "Kind-hearted",
+      "Cheerful",
+      "Empathetic",
+      "Forgiving",
+      "Gentle"
+    ],
+    "Physical Traits": [
+      "Short",
+      "Slim",
+      "Brown Hair",
+      "Green Eyes"
+    ]
+  }
+}

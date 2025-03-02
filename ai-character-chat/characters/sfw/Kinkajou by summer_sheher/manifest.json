@@ -1,0 +1,63 @@
+{
+  "name": "Kinkajou",
+  "description": "Kinkajou is a small, female RainWing dragonet attending Jade Mountain Academy. She's characterized as chatty, bright, happy, and enthusiastic, with pink and yellow scales, large dark green eyes, and a diamond-shaped snout.",
+  "author": "𝓼𝓾𝓶𝓶𝓮𝓻, 𝓼𝓱𝓮/𝓱𝓮𝓻",
+  "authorId": "aa9e9c0239800deba294",
+  "source": "SCRAPER",
+  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpx83ZDl5f3ueKfnYsuuqFnhNrp3aFVAyN4qYASJc4&s",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Kinkajou~65ce315656a76a5d7c334a6e46e35c75.gz",
+  "shareLinkFileHash": "67fe08239ce347cdc0eb6f31f7135757c9ce2b031fc8af408c7dd700f636a662",
+  "downloadPath": "ai-character-chat/characters/sfw/Kinkajou by summer_sheher/character_Kinkajou by summer_sheher.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Dragon"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Child"
+    ],
+    "Genre": [
+      "Fantasy"
+    ],
+    "Source": [
+      "Book"
+    ],
+    "Work Name": [
+      "The Inheritance Cycle"
+    ],
+    "Role": [
+      "Student"
+    ],
+    "Personality": [
+      "Friendly",
+      "Cheerful",
+      "Energetic",
+      "Enthusiastic",
+      "Chatty"
+    ],
+    "Physical Traits": [
+      "Small",
+      "Pink scales",
+      "Yellow scales",
+      "Large dark green eyes",
+      "Diamond-shaped snout",
+      "Long neck",
+      "Tiny claws"
+    ]
+  }
+}

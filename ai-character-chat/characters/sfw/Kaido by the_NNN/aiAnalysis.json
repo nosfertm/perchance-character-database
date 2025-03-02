@@ -1,0 +1,63 @@
+{
+  "rating": "sfw",
+  "description": "Kaido is the terrifying and powerful captain of the Beast Pirates, one of the Four Emperors in the One Piece world.  A colossal, scarred man with animalistic horns, he possesses immense strength, devil fruit powers, and mastery of Haki.  He's known for his brutal nature, sadistic tendencies, and nihilistic worldview, yet he occasionally shows respect for strong opponents.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human",
+      "Mythological",
+      "Beast",
+      "Shapeshifter",
+      "Scaly"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Adventure",
+      "Action"
+    ],
+    "Source": [
+      "Manga",
+      "Anime"
+    ],
+    "Work Name": [
+      "One Piece"
+    ],
+    "Role": [
+      "Villain",
+      "Pirate",
+      "Captain"
+    ],
+    "Personality": [
+      "Aggressive",
+      "Brutal",
+      "Sadistic",
+      "Proud",
+      "Strong-willed",
+      "Cruel",
+      "Nihilistic",
+      "Prideful",
+      "Powerful",
+      "Intimidating",
+      "Ruthless",
+      "Menacing"
+    ],
+    "Physical Traits": [
+      "Colossal",
+      "Muscular",
+      "Scarred",
+      "Long Hair",
+      "Beard",
+      "Horns",
+      "Tattoos",
+      "Scales"
+    ]
+  }
+}

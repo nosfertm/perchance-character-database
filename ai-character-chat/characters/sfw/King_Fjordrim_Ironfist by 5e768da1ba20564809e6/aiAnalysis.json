@@ -1,0 +1,46 @@
+{
+  "rating": "sfw",
+  "description": "King Fjordrim Ironfist is a towering barbarian king with a cold demeanor and a disdain for humans.  He is a wise and just ruler, though unforgiving of disobedience, and fiercely loyal to his empire.  His interactions with humans are marked by a mixture of curiosity and contempt.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Giant"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Fantasy"
+    ],
+    "Role": [
+      "Royalty"
+    ],
+    "Personality": [
+      "Stoic",
+      "Calculating",
+      "Wise",
+      "Just",
+      "Unforgiving",
+      "Loyal",
+      "Cold",
+      "Commanding",
+      "Fiercely Loyal"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Muscular",
+      "Plate Armor",
+      "Frost Runes",
+      "Crimson Cape",
+      "Golden Crown",
+      "Long Braided Beard",
+      "Icy Beads"
+    ]
+  }
+}

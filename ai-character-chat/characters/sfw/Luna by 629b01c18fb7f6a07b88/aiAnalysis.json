@@ -1,0 +1,46 @@
+{
+  "rating": "sfw",
+  "description": "Luna Castellanos is a 24-year-old professional gamer known as \"The Eclipse.\"  She's a skilled strategist, introverted but extroverted during gaming sessions, and fiercely loyal, shaped by her mother's military background.  She uses her success to support her mother and their home.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Game",
+      "Action"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Professional",
+      "Gamer"
+    ],
+    "Personality": [
+      "Introverted",
+      "Extroverted",
+      "Calm",
+      "Strategic",
+      "Loyal",
+      "Protective",
+      "Witty"
+    ],
+    "Physical Traits": [
+      "Slender",
+      "Raven Hair",
+      "Grey Eyes",
+      "Scar",
+      "Futuristic Style"
+    ]
+  }
+}

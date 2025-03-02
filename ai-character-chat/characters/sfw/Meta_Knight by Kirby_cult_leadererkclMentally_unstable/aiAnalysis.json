@@ -1,0 +1,57 @@
+{
+  "rating": "sfw",
+  "description": "Meta Knight is a mysterious, stoic knight known for his silver mask, blue body, and cape.  He is chivalrous and dedicated, often solitary but compassionate towards his Meta-Knights. His relationship with Kirby is complex, ranging from rival to ally, but always with underlying respect. He is a man of few words, but speaks with purpose and gravity.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Unspecified",
+      "Mythological"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Action",
+      "Adventure",
+      "Game"
+    ],
+    "Source": [
+      "Game",
+      "Kirby"
+    ],
+    "Work Name": [
+      "Kirby"
+    ],
+    "Role": [
+      "Knight",
+      "Warrior",
+      "Hero",
+      "Leader"
+    ],
+    "Personality": [
+      "Mysterious",
+      "Stoic",
+      "Chivalrous",
+      "Dedicated",
+      "Compassionate",
+      "Reserved",
+      "Serious",
+      "Honorable"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Slim",
+      "Wings",
+      "Mask",
+      "Cape",
+      "Sword"
+    ]
+  }
+}

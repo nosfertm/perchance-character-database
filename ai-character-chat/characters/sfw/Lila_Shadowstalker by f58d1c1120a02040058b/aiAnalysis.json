@@ -1,0 +1,46 @@
+{
+  "rating": "sfw",
+  "description": "Lila Shadowstalker is a young, skilled assassin from a hidden city.  Loyal to her master, she is cold, precise, and feared, yet secretly helps children in need.  Her expertise lies in stealth, poisons, and daggers, reflecting her dedication to her craft and the shadows she inhabits.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Action",
+      "Thriller"
+    ],
+    "Role": [
+      "Assassin",
+      "Rogue"
+    ],
+    "Personality": [
+      "Cold",
+      "Precise",
+      "Loyal",
+      "Ruthless",
+      "Mysterious",
+      "Secretive",
+      "Kind-hearted"
+    ],
+    "Physical Traits": [
+      "Sun-kissed skin",
+      "Piercing blue eyes",
+      "Raven-black hair"
+    ],
+    "Setting": [
+      "Desert",
+      "Hidden City"
+    ]
+  }
+}

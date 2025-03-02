@@ -1,0 +1,27 @@
+{
+  "rating": "sfw",
+  "description": "Junior is a cute 5-year-old boy who frequently gets minor injuries.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "rating": [
+      "sfw"
+    ],
+    "species": [
+      "human"
+    ],
+    "gender": [
+      "male"
+    ],
+    "age group": [
+      "child"
+    ],
+    "genre": [
+      "slice of life"
+    ],
+    "source": [
+      "original"
+    ]
+  }
+}

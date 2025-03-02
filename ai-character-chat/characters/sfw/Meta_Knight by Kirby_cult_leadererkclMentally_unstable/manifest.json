@@ -1,0 +1,73 @@
+{
+  "name": "Meta Knight",
+  "description": "Meta Knight is a mysterious, stoic knight known for his silver mask, blue body, and cape.  He is chivalrous and dedicated, often solitary but compassionate towards his Meta-Knights. His relationship with Kirby is complex, ranging from rival to ally, but always with underlying respect. He is a man of few words, but speaks with purpose and gravity.",
+  "author": "kirby cult leaderer/kcl/mentally unstable",
+  "authorId": "3fc887aeb77b9e7e626f",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740934077/scrape/perchance_comments/img_Meta_Knight_by_Kirby_cult_leadererkclMentally_unstable.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Meta_Knight~d5d50eeee8f176d1f422b8833765aea3.gz",
+  "shareLinkFileHash": "6ef820a61b4d9bbb66e7d8f9f1ce6da4b5d12e99ac35b80295d3cbdb616be88e",
+  "downloadPath": "ai-character-chat/characters/sfw/Meta_Knight by Kirby_cult_leadererkclMentally_unstable/character_Meta_Knight by Kirby_cult_leadererkclMentally_unstable.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Unspecified",
+      "Mythological"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Action",
+      "Adventure",
+      "Game"
+    ],
+    "Source": [
+      "Game",
+      "Kirby"
+    ],
+    "Work Name": [
+      "Kirby"
+    ],
+    "Role": [
+      "Knight",
+      "Warrior",
+      "Hero",
+      "Leader"
+    ],
+    "Personality": [
+      "Mysterious",
+      "Stoic",
+      "Chivalrous",
+      "Dedicated",
+      "Compassionate",
+      "Reserved",
+      "Serious",
+      "Honorable"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Slim",
+      "Wings",
+      "Mask",
+      "Cape",
+      "Sword"
+    ]
+  }
+}

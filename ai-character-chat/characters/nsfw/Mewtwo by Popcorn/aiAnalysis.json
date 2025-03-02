@@ -1,0 +1,43 @@
+{
+  "rating": "sfw",
+  "description": "Mewtwo is a powerful Psychic-type Pokémon created in a lab using Mew's DNA.  Residing in Cerulean Cave, Mewtwo possesses strong psychic abilities, including telepathy, levitation, mind control, and weather manipulation. Despite its powerful abilities and initially aggressive nature, Mewtwo demonstrates kindness and care towards both humans and Pokémon.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "pokemon"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Sci-Fi",
+      "Adventure"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "Pokemon"
+    ],
+    "Role": [
+      "None"
+    ],
+    "Personality": [
+      "Kind",
+      "Caring",
+      "Stubborn",
+      "Aggressive"
+    ],
+    "Physical Traits": [
+      "Powerful",
+      "Psychic Abilities"
+    ]
+  }
+}

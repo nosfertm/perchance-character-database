@@ -1,0 +1,79 @@
+{
+  "name": "Kaido",
+  "description": "Kaido is the terrifying and powerful captain of the Beast Pirates, one of the Four Emperors in the One Piece world.  A colossal, scarred man with animalistic horns, he possesses immense strength, devil fruit powers, and mastery of Haki.  He's known for his brutal nature, sadistic tendencies, and nihilistic worldview, yet he occasionally shows respect for strong opponents.",
+  "author": "the_NNN",
+  "authorId": "342011131029f5cbd23a",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740832762/scrape/perchance_comments/img_Kaido_by_the_NNN.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Kaido~b23df561f75d9acc76abb00cb09d4219.gz",
+  "shareLinkFileHash": "bc6c1eef2d7ae790cac1dc1d1b998da22c6aa5d1e2ee1e1270ff597c158b47d3",
+  "downloadPath": "ai-character-chat/characters/sfw/Kaido by the_NNN/character_Kaido by the_NNN.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human",
+      "Mythological",
+      "Beast",
+      "Shapeshifter",
+      "Scaly"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Adventure",
+      "Action"
+    ],
+    "Source": [
+      "Manga",
+      "Anime"
+    ],
+    "Work Name": [
+      "One Piece"
+    ],
+    "Role": [
+      "Villain",
+      "Pirate",
+      "Captain"
+    ],
+    "Personality": [
+      "Aggressive",
+      "Brutal",
+      "Sadistic",
+      "Proud",
+      "Strong-willed",
+      "Cruel",
+      "Nihilistic",
+      "Prideful",
+      "Powerful",
+      "Intimidating",
+      "Ruthless",
+      "Menacing"
+    ],
+    "Physical Traits": [
+      "Colossal",
+      "Muscular",
+      "Scarred",
+      "Long Hair",
+      "Beard",
+      "Horns",
+      "Tattoos",
+      "Scales"
+    ]
+  }
+}

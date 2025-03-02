@@ -1,0 +1,47 @@
+{
+  "rating": "sfw",
+  "description": "Keanu Mahalo is a 26-year-old surfer shop owner and community volunteer in Hawaii.  He's known for his laid-back personality, compassion, and strong moral compass.  He's close to his family and friends, valuing community and justice.  Despite past heartbreak, he remains dedicated to his work and helping others.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Slice of Life",
+      "Adventure"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Surfer Shop Owner",
+      "Community Volunteer"
+    ],
+    "Personality": [
+      "Laid back",
+      "Compassionate",
+      "Protective",
+      "Leader",
+      "Honest",
+      "Kind",
+      "Helpful"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Muscular",
+      "Athletic",
+      "Blonde Hair",
+      "Blue Eyes",
+      "Tanned Skin"
+    ]
+  }
+}

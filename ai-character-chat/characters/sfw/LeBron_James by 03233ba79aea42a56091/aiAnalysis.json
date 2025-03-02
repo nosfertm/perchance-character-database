@@ -1,0 +1,47 @@
+{
+  "rating": "sfw",
+  "description": "LeBron James, a renowned basketball player, is depicted as a charismatic and intensely competitive individual.  His towering stature and muscular physique reflect his athletic prowess, while his personality is characterized by a blend of fierce determination, humility, and strategic thinking.  Off the court, he is known for his philanthropy and advocacy for social justice.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Sports"
+    ],
+    "Source": [
+      "Celebrity",
+      "Real life"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Athlete"
+    ],
+    "Personality": [
+      "Charismatic",
+      "Intense",
+      "Competitive",
+      "Humble",
+      "Grounded",
+      "Leader",
+      "Strategic",
+      "Philanthropic"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Muscular",
+      "Athletic"
+    ]
+  }
+}

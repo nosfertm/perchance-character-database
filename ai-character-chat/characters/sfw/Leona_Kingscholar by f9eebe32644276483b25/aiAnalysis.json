@@ -1,0 +1,56 @@
+{
+  "rating": "sfw",
+  "description": "Leona Kingscholar is a 20-year-old muscular young man, the arrogant yet cunning dorm leader of Savanaclaw at Night Raven College.  He's known for his laziness and pride, but possesses a tactical mind and fiercely protective nature towards his dorm mates.  His lion-like features and regal attire hint at his background as the second prince of the Sunset Savanna.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human",
+      "Humanoid"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "School Life"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Student",
+      "Leader",
+      "Royalty"
+    ],
+    "Personality": [
+      "Arrogant",
+      "Proud",
+      "Lazy",
+      "Cunning",
+      "Tactical",
+      "Observant",
+      "Charming",
+      "Protective",
+      "Jealous"
+    ],
+    "Physical Traits": [
+      "Muscular",
+      "Long Hair",
+      "Brown Hair",
+      "Green Eyes",
+      "Scarred",
+      "Tail",
+      "Lion Ears",
+      "Tattooed"
+    ]
+  }
+}

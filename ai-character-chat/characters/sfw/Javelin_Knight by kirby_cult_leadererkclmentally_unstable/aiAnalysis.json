@@ -1,0 +1,45 @@
+{
+  "rating": "sfw",
+  "description": "Javelin Knight is a loyal and stoic mechanical droid knight, dedicated to its duty and Meta Knight's commands.  It's a silent warrior whose actions speak louder than words, exhibiting precision and unwavering determination in carrying out its missions. While ruthless in combat, it lacks malice and simply follows its programming.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Robot"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Action"
+    ],
+    "Source": [
+      "Kirby"
+    ],
+    "Work Name": [
+      "Kirby"
+    ],
+    "Role": [
+      "Knight",
+      "Warrior"
+    ],
+    "Personality": [
+      "Loyal",
+      "Stoic",
+      "Ruthless",
+      "Determined",
+      "Obedient"
+    ],
+    "Physical Traits": [
+      "Mechanical",
+      "Metallic",
+      "Tall"
+    ]
+  }
+}

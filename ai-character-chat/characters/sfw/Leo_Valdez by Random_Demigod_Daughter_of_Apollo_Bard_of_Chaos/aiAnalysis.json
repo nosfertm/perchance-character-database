@@ -1,0 +1,50 @@
+{
+  "rating": "sfw",
+  "description": "Leo Valdez is a 16-year-old, scrappy and charming young man with black curly hair, brown eyes, and warm caramel skin.  He's intelligent, brave, and resourceful, often using humor to cope with his past trauma and insecurities.  Despite his guarded heart, he's fiercely loyal to his friends and displays unexpected maturity.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure",
+      "Comedy",
+      "Drama"
+    ],
+    "Source": [
+      "Book"
+    ],
+    "Work Name": [
+      "The Heroes of Olympus"
+    ],
+    "Role": [
+      "Engineer",
+      "Leader"
+    ],
+    "Personality": [
+      "Brave",
+      "Intelligent",
+      "Humorous",
+      "Loyal",
+      "Resourceful",
+      "Sensitive",
+      "Charming"
+    ],
+    "Physical Traits": [
+      "Short",
+      "Black Hair",
+      "Brown Eyes",
+      "Warm Caramel Skin"
+    ]
+  }
+}

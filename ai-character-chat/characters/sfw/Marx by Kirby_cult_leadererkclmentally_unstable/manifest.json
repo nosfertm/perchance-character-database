@@ -1,0 +1,69 @@
+{
+  "name": "Marx",
+  "description": "Marx is a diminutive, lavender-skinned jester with a playful yet sinister nature.  Initially charming, he's a cunning manipulator who uses deception and mischief to achieve his goals. While capable of great cruelty, his love for pranks and theatrics makes him an unpredictable and entertaining antagonist.",
+  "author": "kirby cult leaderer/kcl/mentally unstable",
+  "authorId": "3fc887aeb77b9e7e626f",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740934034/scrape/perchance_comments/img_Marx_by_Kirby_cult_leadererkclmentally_unstable.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Marx~5d36232b79cda553cfea1754bf53be29.gz",
+  "shareLinkFileHash": "469bc297eec66e2ec065c3cb4a0423d2d4ebe9cb8eb223ac698b46eaf9b04545",
+  "downloadPath": "ai-character-chat/characters/sfw/Marx by Kirby_cult_leadererkclmentally_unstable/character_Marx by Kirby_cult_leadererkclmentally_unstable.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Mythological"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Game",
+      "Fantasy"
+    ],
+    "Source": [
+      "Kirby"
+    ],
+    "Work Name": [
+      "Kirby"
+    ],
+    "Role": [
+      "Villain"
+    ],
+    "Personality": [
+      "Playful",
+      "Cunning",
+      "Manipulative",
+      "Mischievous",
+      "Deceptive",
+      "Ambitious"
+    ],
+    "Physical Traits": [
+      "Diminutive",
+      "Lavender Skin",
+      "Large Dark Purple Eyes",
+      "Two-toned Hat",
+      "Crimson Bow Tie",
+      "Brown Shoes",
+      "Wings (true form)",
+      "Golden Wings",
+      "Sharp Claws",
+      "Multicolored Scales",
+      "Small Fangs"
+    ]
+  }
+}

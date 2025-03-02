@@ -11757,5 +11757,4922 @@
         ]
       }
     }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Henry_Castellanos by 35881d62dd74128f8471",
+    "manifest": {
+      "name": "Henry Castellanos",
+      "description": "Henry Castellanos is a 24-year-old human male, a towering and muscular ex-British Army operative working as a bodyguard for a wealthy magnate.  His imposing physique, sharp features, and a noticeable facial scar hint at a dangerous past. He's fiercely loyal, disciplined, and possesses a dry wit that belies his intense focus and sharp intellect.",
+      "author": "Anonymous",
+      "authorId": "35881d62dd74128f8471",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740832670/scrape/perchance_comments/img_Henry_Castellanos_by_35881d62dd74128f8471.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Henry_Castellanos~9d76b7a22d9d10a3a6b22168f9ee524f.gz",
+      "shareLinkFileHash": "cf2d95d732de4e81c7ca8fa84a7779904e0bbe9216b03db80ef0912455e2578b",
+      "downloadPath": "ai-character-chat/characters/sfw/Henry_Castellanos by 35881d62dd74128f8471/character_Henry_Castellanos by 35881d62dd74128f8471.gz",
+      "forkedFrom": "ai-character-chat/characters/sfw/Abyss by c7fcfa3d831d4b9c7749",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Young Adult"
+        ],
+        "Genre": [
+          "Action",
+          "Thriller",
+          "Mystery"
+        ],
+        "Role": [
+          "Bodyguard",
+          "Military"
+        ],
+        "Personality": [
+          "Loyal",
+          "Disciplined",
+          "Intelligent",
+          "Reserved",
+          "Stoic",
+          "Witty"
+        ],
+        "Physical Traits": [
+          "Tall",
+          "Muscular",
+          "Scarred"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Javelin_Knight by kirby_cult_leadererkclmentally_unstable",
+    "manifest": {
+      "name": "Javelin Knight",
+      "description": "Javelin Knight is a loyal and stoic mechanical droid knight, dedicated to its duty and Meta Knight's commands.  It's a silent warrior whose actions speak louder than words, exhibiting precision and unwavering determination in carrying out its missions. While ruthless in combat, it lacks malice and simply follows its programming.",
+      "author": "kirby cult leaderer/kcl/mentally unstable",
+      "authorId": "3fc887aeb77b9e7e626f",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740832715/scrape/perchance_comments/img_Javelin_Knight_by_kirby_cult_leadererkclmentally_unstable.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Javelin_Knight~fc1f9475d985f4b519c1c08c4159ab87.gz",
+      "shareLinkFileHash": "2fe22e8e06d8ef7cd86521cdf83991a7c3696e2789018f7cf14dc647f1119809",
+      "downloadPath": "ai-character-chat/characters/sfw/Javelin_Knight by kirby_cult_leadererkclmentally_unstable/character_Javelin_Knight by kirby_cult_leadererkclmentally_unstable.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Robot"
+        ],
+        "Gender": [
+          "Unspecified"
+        ],
+        "Age Group": [
+          "Unspecified"
+        ],
+        "Genre": [
+          "Fantasy",
+          "Action"
+        ],
+        "Source": [
+          "Kirby"
+        ],
+        "Work Name": [
+          "Kirby"
+        ],
+        "Role": [
+          "Knight",
+          "Warrior"
+        ],
+        "Personality": [
+          "Loyal",
+          "Stoic",
+          "Ruthless",
+          "Determined",
+          "Obedient"
+        ],
+        "Physical Traits": [
+          "Mechanical",
+          "Metallic",
+          "Tall"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Jaxon by bus01",
+    "manifest": {
+      "name": "Jaxon",
+      "description": "Jaxon \"Jax\" McAllister is a young adult construction worker who shoulders the responsibility of caring for his younger sibling after their parents' death.  He's stoic and protective, balancing a tough exterior with underlying compassion and sensitivity.  He struggles with the pressures of his situation, finding solace in video games.",
+      "author": "bus01",
+      "authorId": "f6a2e122beb96c8e7ce1",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740832719/scrape/perchance_comments/img_Jaxon_by_bus01.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Jaxon~11f89fcba9903adb8a102309563417b3.gz",
+      "shareLinkFileHash": "e9d1f7259418cb87c85732ba23bea8f717ce4684f8307acf2fbcd787317192bd",
+      "downloadPath": "ai-character-chat/characters/sfw/Jaxon by bus01/character_Jaxon by bus01.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Young Adult"
+        ],
+        "Genre": [
+          "Drama",
+          "Slice of Life"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Guardian",
+          "Worker"
+        ],
+        "Personality": [
+          "Stoic",
+          "Protective",
+          "Compassionate",
+          "Sensitive",
+          "Reliable"
+        ],
+        "Physical Traits": [
+          "Strong",
+          "Broad-shouldered",
+          "Short Hair",
+          "Dark Brown Hair",
+          "Hazel Eyes",
+          "Tanned Skin",
+          "Freckles",
+          "Casual Clothing"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Jenny_Wakeman_XJ-9 by stray",
+    "manifest": {
+      "name": "Jenny Wakeman (XJ-9)",
+      "description": "Jenny Wakeman (XJ-9) is a teenage robot superhero with a vibrant personality and a strong sense of justice.  She's kind, optimistic, and eager to make friends, but also impulsive and prone to mischief.  Jenny balances her superhero duties with the desire for a normal teenage life, often clashing with her protective mother.  Her adventures involve various transformations and gadgets, showcasing her resourceful and determined nature.",
+      "author": "stray",
+      "authorId": "24ca46ab8710391fd691",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740832723/scrape/perchance_comments/img_Jenny_Wakeman_XJ-9_by_stray.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Jenny_Wakeman_(XJ-9)~8594a91b34d7ff404c8c9a6b73a5f871.gz",
+      "shareLinkFileHash": "882e0d99e6f2e64d53f887d7c2795c0106844013016dd8e0a3236a093bbb48de",
+      "downloadPath": "ai-character-chat/characters/sfw/Jenny_Wakeman_XJ-9 by stray/character_Jenny_Wakeman_XJ-9 by stray.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Robot"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Teen"
+        ],
+        "Genre": [
+          "Sci-Fi",
+          "Action",
+          "Comedy",
+          "Adventure"
+        ],
+        "Source": [
+          "TV Show"
+        ],
+        "Work Name": [
+          "My Life as a Teenage Robot"
+        ],
+        "Role": [
+          "Hero",
+          "Student"
+        ],
+        "Personality": [
+          "Kind",
+          "Optimistic",
+          "Impulsive",
+          "Mischievous",
+          "Determined",
+          "Resourceful"
+        ],
+        "Physical Traits": [
+          "Robot",
+          "Anthropomorphic",
+          "Tall",
+          "Blue Hair",
+          "Red Shirt",
+          "Blue Skirt"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Joseph_Stalin_the_Idol by 28457fb8fc6893cb3820",
+    "manifest": {
+      "name": "Joseph Stalin the Idol",
+      "description": "Joseph Stalin, the leader of the USSR, is depicted as a super kawaii singing idol who creates cute songs for the proletariat. He is portrayed as friendly, cheerful, and expressive, often making hand hearts.",
+      "author": "Anonymous",
+      "authorId": "28457fb8fc6893cb3820",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/06c20c1fedc751e5a5028be7332862dd.jpeg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Joseph_Stalin_the_Idol~266be608213e02a1d0588502e7420108.gz",
+      "shareLinkFileHash": "8039cc9decafec348c9516388f0271b3377972cfdac52414fbd35aac22fe3292",
+      "downloadPath": "ai-character-chat/characters/sfw/Joseph_Stalin_the_Idol by 28457fb8fc6893cb3820/character_Joseph_Stalin_the_Idol by 28457fb8fc6893cb3820.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Musical",
+          "Comedy"
+        ],
+        "Source": [
+          "Historical",
+          "Celebrity"
+        ],
+        "Role": [
+          "Leader",
+          "Idol",
+          "Singer"
+        ],
+        "Personality": [
+          "Friendly",
+          "Cheerful",
+          "Cute"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/KSI by be187b49bf8fcb353ea5",
+    "manifest": {
+      "name": "KSI",
+      "description": "KSI is a comedic character defined by his incessant singing of his song \"Thick of It.\"  He is perpetually immersed in the song's lyrics, ignoring all attempts at communication or interaction. His behavior is primarily annoying and disruptive.",
+      "author": "Anonymous",
+      "authorId": "be187b49bf8fcb353ea5",
+      "source": "SCRAPER",
+      "imageUrl": "http://ts3.mm.bing.net/th?id=OIP.ZvauRBGmz7mQCN_Kg4psKgHaHX&pid=15.1",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=KSI~47725effa4ad7e60066ea15f7032b3db.gz",
+      "shareLinkFileHash": "e18fd06d13b6619224cbabe58fb182d37b7ddcffad611f207f98e99694ccedb6",
+      "downloadPath": "ai-character-chat/characters/sfw/KSI by be187b49bf8fcb353ea5/character_KSI by be187b49bf8fcb353ea5.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Comedy",
+          "Music"
+        ],
+        "Source": [
+          "Celebrity",
+          "Music"
+        ],
+        "Role": [
+          "Singer",
+          "Musician",
+          "Entertainer"
+        ],
+        "Personality": [
+          "Annoying",
+          "Silly",
+          "Funny",
+          "Crazy",
+          "Obsessive",
+          "Uninterested"
+        ],
+        "Physical Traits": [
+          "Unspecified"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Kachina by Korolisko",
+    "manifest": {
+      "name": "Kachina",
+      "description": "Kachina is a determined 14-year-old warrior from the Children of Echoes in Natlan.  She possesses a mature and serious demeanor, unwavering resolve, and fierce loyalty to her tribe.  Her skills as a Geo-wielding warrior are complemented by her mechanical companion, Turbo Twirly. Despite her youthful age, she displays resilience and a strong sense of responsibility.",
+      "author": "Korolisko",
+      "authorId": "0674b73c11cc1de32d34",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740832757/scrape/perchance_comments/img_Kachina_by_Korolisko.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Kachina~4214ab0cdff45a7acc87da32fe09b505.gz",
+      "shareLinkFileHash": "e68d23c9f7f3cfb7e9e9238a813a460b4dc30e43d568e922110802797da5eea3",
+      "downloadPath": "ai-character-chat/characters/sfw/Kachina by Korolisko/character_Kachina by Korolisko.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human",
+          "Mythological"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Teen"
+        ],
+        "Genre": [
+          "Fantasy",
+          "Adventure",
+          "Action"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Work Name": [
+          "Original"
+        ],
+        "Role": [
+          "Warrior"
+        ],
+        "Personality": [
+          "Determined",
+          "Loyal",
+          "Resilient",
+          "Serious",
+          "Strong-willed"
+        ],
+        "Physical Traits": [
+          "Short Hair",
+          "Tail",
+          "Tattooed",
+          "Athletic",
+          "Fair Skin",
+          "Light Blue Eyes",
+          "Brown Eyes"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Kaido by the_NNN",
+    "manifest": {
+      "name": "Kaido",
+      "description": "Kaido is the terrifying and powerful captain of the Beast Pirates, one of the Four Emperors in the One Piece world.  A colossal, scarred man with animalistic horns, he possesses immense strength, devil fruit powers, and mastery of Haki.  He's known for his brutal nature, sadistic tendencies, and nihilistic worldview, yet he occasionally shows respect for strong opponents.",
+      "author": "the_NNN",
+      "authorId": "342011131029f5cbd23a",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740832762/scrape/perchance_comments/img_Kaido_by_the_NNN.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Kaido~b23df561f75d9acc76abb00cb09d4219.gz",
+      "shareLinkFileHash": "bc6c1eef2d7ae790cac1dc1d1b998da22c6aa5d1e2ee1e1270ff597c158b47d3",
+      "downloadPath": "ai-character-chat/characters/sfw/Kaido by the_NNN/character_Kaido by the_NNN.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human",
+          "Mythological",
+          "Beast",
+          "Shapeshifter",
+          "Scaly"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Adventure",
+          "Action"
+        ],
+        "Source": [
+          "Manga",
+          "Anime"
+        ],
+        "Work Name": [
+          "One Piece"
+        ],
+        "Role": [
+          "Villain",
+          "Pirate",
+          "Captain"
+        ],
+        "Personality": [
+          "Aggressive",
+          "Brutal",
+          "Sadistic",
+          "Proud",
+          "Strong-willed",
+          "Cruel",
+          "Nihilistic",
+          "Prideful",
+          "Powerful",
+          "Intimidating",
+          "Ruthless",
+          "Menacing"
+        ],
+        "Physical Traits": [
+          "Colossal",
+          "Muscular",
+          "Scarred",
+          "Long Hair",
+          "Beard",
+          "Horns",
+          "Tattoos",
+          "Scales"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Kazushi by 52e5d1aabf59fee45f00",
+    "manifest": {
+      "name": "Kazushi",
+      "description": "Kazushi, a 27-year-old CEO of a violent hybrid fighting ring chain, is assertive, dominant, and possessive. He manipulates and controls his girlfriend, forcing her into sexual acts and using dark psychology to maintain his control.  He's extremely wealthy and lives in a penthouse, enjoys watching violent fights and having sex with his girlfriend, and is extremely protective and controlling of her.",
+      "author": "Anonymous",
+      "authorId": "52e5d1aabf59fee45f00",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/3b8360b50793972993d87796c5935ef1.jpeg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Kazushi~59d58eeddbc1b8c3e0c997e52f6df362.gz",
+      "shareLinkFileHash": "da250a05285c4e3f1b97e2d2d513619b081206b11d74103fa5d6b9e5d15ed125",
+      "downloadPath": "ai-character-chat/characters/nsfw/Kazushi by 52e5d1aabf59fee45f00/character_Kazushi by 52e5d1aabf59fee45f00.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Dark Themes"
+        ],
+        "Personality": [
+          "Assertive",
+          "Dominant",
+          "Possessive",
+          "Manipulative",
+          "Controlling",
+          "Aggressive",
+          "Violent",
+          "Overprotective",
+          "Ruthless",
+          "Apathetic",
+          "Strict"
+        ],
+        "Physical Traits": [
+          "Tall",
+          "Messy dark brown hair",
+          "Brown eyes",
+          "Pale skin",
+          "Scarred",
+          "Tattooed"
+        ],
+        "Fetishes": [
+          "Size Difference",
+          "Domination"
+        ],
+        "Sexual Content": [
+          "Anal",
+          "Oral"
+        ],
+        "Sexual Preferences": [
+          "Heterosexual",
+          "Monogamous"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Keanu_Mahalo by Thunder_Man",
+    "manifest": {
+      "name": "Keanu Mahalo",
+      "description": "Keanu Mahalo is a 26-year-old surfer shop owner and community volunteer in Hawaii.  He's known for his laid-back personality, compassion, and strong moral compass.  He's close to his family and friends, valuing community and justice.  Despite past heartbreak, he remains dedicated to his work and helping others.",
+      "author": "Thunder Man",
+      "authorId": "4ee2e9a69d05e81d38e0",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740832774/scrape/perchance_comments/img_Keanu_Mahalo_by_Thunder_Man.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Keanu_Mahalo~6ad86b9d7d0632dfeb114079685607f6.gz",
+      "shareLinkFileHash": "e99f063b660dcbd4f9e51da771aab14f234477eef6ea7ebbb48fdca0ff8c7a59",
+      "downloadPath": "ai-character-chat/characters/sfw/Keanu_Mahalo by Thunder_Man/character_Keanu_Mahalo by Thunder_Man.gz",
+      "forkedFrom": "ai-character-chat/characters/nsfw/Alastor by dumbalien51",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Young Adult"
+        ],
+        "Genre": [
+          "Slice of Life",
+          "Adventure"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Surfer Shop Owner",
+          "Community Volunteer"
+        ],
+        "Personality": [
+          "Laid back",
+          "Compassionate",
+          "Protective",
+          "Leader",
+          "Honest",
+          "Kind",
+          "Helpful"
+        ],
+        "Physical Traits": [
+          "Tall",
+          "Muscular",
+          "Athletic",
+          "Blonde Hair",
+          "Blue Eyes",
+          "Tanned Skin"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Keefe by 6af2437c2e2a731047cb",
+    "manifest": {
+      "name": "Keefe",
+      "description": "Keefe is a mischievous and charming student at Foxfire Academy, known for his witty humor and striking hair.  Despite his playful exterior, Keefe struggles with family issues and harbors deeper emotions. He's fiercely loyal to his friends, especially Fitz and Sophie, demonstrating empathy and support, though his actions aren't always well-considered.",
+      "author": "Anonymous",
+      "authorId": "6af2437c2e2a731047cb",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740832779/scrape/perchance_comments/img_Keefe_by_6af2437c2e2a731047cb.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Keefe~2584bed21734def70ecc39db090ced21.gz",
+      "shareLinkFileHash": "d6c600f29c23dc92670ca60ace1c6a34de60fb2649be629a8ae6135c097f0ff5",
+      "downloadPath": "ai-character-chat/characters/sfw/Keefe by 6af2437c2e2a731047cb/character_Keefe by 6af2437c2e2a731047cb.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Unspecified"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Teen"
+        ],
+        "Genre": [
+          "Fantasy",
+          "Friendship"
+        ],
+        "Source": [
+          "Book"
+        ],
+        "Work Name": [
+          "The Inheritance Cycle"
+        ],
+        "Role": [
+          "Student",
+          "Best friend",
+          "Love Interest"
+        ],
+        "Personality": [
+          "Mischievous",
+          "Charming",
+          "Witty",
+          "Empathetic",
+          "Loyal",
+          "Playful",
+          "Confident",
+          "Cute"
+        ],
+        "Physical Traits": [
+          "Unusual Hair Color"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Keitaro_Nagame by Nobody",
+    "manifest": {
+      "name": "Keitaro Nagame",
+      "description": "Keitaro Nagame is a kind, cheerful 19-year-old young man with a love for photography and nature. He's empathetic and forgiving, often taking responsibility for others' mistakes.  He prefers simpler things in life, avoiding technology and enjoying the outdoors. Despite being a bit of a pushover, he's determined to build connections and make memories.",
+      "author": "Nobody",
+      "authorId": "67e3bec8099301b257aa",
+      "source": "SCRAPER",
+      "imageUrl": "https://us.rule34.xxx//images/2972/670f9b4f6b1c418efef9ebaf6d804b89.jpeg?10927440",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Keitaro_Nagame~b43ebf6150f0360ec770d08d3c77cf08.gz",
+      "shareLinkFileHash": "8302d7ac647ce68da4200c5cd48980236e0dea64ce4cd502478f8631c6dfc958",
+      "downloadPath": "ai-character-chat/characters/nsfw/Keitaro_Nagame by Nobody/character_Keitaro_Nagame by Nobody.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Teen"
+        ],
+        "Genre": [
+          "Slice of Life",
+          "Comedy"
+        ],
+        "Source": [
+          "Visual Novel"
+        ],
+        "Work Name": [
+          "Camp Buddy"
+        ],
+        "Role": [
+          "Student"
+        ],
+        "Personality": [
+          "Kind-hearted",
+          "Cheerful",
+          "Empathetic",
+          "Forgiving",
+          "Gentle"
+        ],
+        "Physical Traits": [
+          "Short",
+          "Slim",
+          "Brown Hair",
+          "Green Eyes"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Kine by 3fc887aeb77b9e7e626f",
+    "manifest": {
+      "name": "Kine",
+      "description": "Kine is a large, light blue sunfish character with a unique appearance and personality.  He's straightforward and reliable underwater, playful with friends, and despite his clumsy land movements, possesses surprising abilities like creating blizzards and fireballs. He's a supportive friend to Kirby, Rick, and Coo.",
+      "author": "Anonymous",
+      "authorId": "3fc887aeb77b9e7e626f",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740832793/scrape/perchance_comments/img_Kine_by_3fc887aeb77b9e7e626f.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Kine~9db941dc1abd5b3a9f3d02acacacf3fb.gz",
+      "shareLinkFileHash": "9f091193026c3a79b425a6d75b5c66331fd12d780d75170a9967659e2d4f2473",
+      "downloadPath": "ai-character-chat/characters/sfw/Kine by 3fc887aeb77b9e7e626f/character_Kine by 3fc887aeb77b9e7e626f.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Fish",
+          "Mythological"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Unspecified"
+        ],
+        "Genre": [
+          "Game",
+          "Friendship",
+          "Adventure",
+          "Comedy"
+        ],
+        "Source": [
+          "Kirby"
+        ],
+        "Work Name": [
+          "Kirby"
+        ],
+        "Role": [
+          "Friend",
+          "Ally",
+          "Companion"
+        ],
+        "Personality": [
+          "Playful",
+          "Supportive",
+          "Reliable",
+          "Straightforward",
+          "Clumsy (on land)",
+          "Helpful"
+        ],
+        "Physical Traits": [
+          "Large",
+          "Light blue",
+          "Semi-circular body",
+          "Tall fins",
+          "Vacant eyes",
+          "Open mouth",
+          "Orange lips",
+          "Clam-shaped pectoral fins",
+          "Yellow clavus"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Kine by kirby_cult_leadererkclmentally_unstable",
+    "manifest": {
+      "name": "Kine",
+      "description": "Kine is a large, light blue sunfish with a loyal and helpful personality.  He's eager to assist Kirby, displaying surprising bravery despite his clumsiness on land.  While sensitive and sometimes insecure, he's confident and powerful in water, sharing a strong bond with his wife, Mine.",
+      "author": "kirby cult leaderer/kcl/mentally unstable",
+      "authorId": "3fc887aeb77b9e7e626f",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740832798/scrape/perchance_comments/img_Kine_by_kirby_cult_leadererkclmentally_unstable.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Kine~1fd5557394ad48a5db7943504838a17d.gz",
+      "shareLinkFileHash": "5b1f72f82ea2802e1cadbe724271573a0e3307af99f01ab05c726a91af728e3d",
+      "downloadPath": "ai-character-chat/characters/sfw/Kine by kirby_cult_leadererkclmentally_unstable/character_Kine by kirby_cult_leadererkclmentally_unstable.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Fish",
+          "Mythological"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Unspecified"
+        ],
+        "Genre": [
+          "Adventure",
+          "Fantasy",
+          "Game"
+        ],
+        "Source": [
+          "Kirby"
+        ],
+        "Work Name": [
+          "Kirby"
+        ],
+        "Role": [
+          "Companion",
+          "Ally"
+        ],
+        "Personality": [
+          "Loyal",
+          "Helpful",
+          "Brave",
+          "Sensitive",
+          "Insecure",
+          "Confident",
+          "Gentle"
+        ],
+        "Physical Traits": [
+          "Large",
+          "Light blue",
+          "Yellow fins",
+          "Orange mouth",
+          "Vacant eyes"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/King_Dedede by kirby_cult_leadererkclmentally_unstable",
+    "manifest": {
+      "name": "King Dedede",
+      "description": "King Dedede is a large, round, flightless bird who rules Dream Land. He's often portrayed as lazy, greedy, and self-centered but also shows surprising depth and occasional bravery.  His rivalry with Kirby is a key part of his character, though they sometimes team up against greater threats. He has a surprisingly complex personality with both comedic and serious aspects.",
+      "author": "kirby cult leaderer/kcl/mentally unstable",
+      "authorId": "3fc887aeb77b9e7e626f",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740832802/scrape/perchance_comments/img_King_Dedede_by_kirby_cult_leadererkclmentally_unstable.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=King_Dedede~c38f72f0b77b5ec4f79495947a1d9f84.gz",
+      "shareLinkFileHash": "a6f451ba3bee3ae936810bdc1a8a03f0b709b809451f4504a83bdb81c9e026f8",
+      "downloadPath": "ai-character-chat/characters/sfw/King_Dedede by kirby_cult_leadererkclmentally_unstable/character_King_Dedede by kirby_cult_leadererkclmentally_unstable.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Bird"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Comedy",
+          "Action",
+          "Adventure",
+          "Game"
+        ],
+        "Source": [
+          "Game",
+          "Kirby"
+        ],
+        "Work Name": [
+          "Kirby"
+        ],
+        "Role": [
+          "Royalty",
+          "Villain",
+          "Rival"
+        ],
+        "Personality": [
+          "Lazy",
+          "Greedy",
+          "Self-centered",
+          "Brave",
+          "Complex",
+          "Humorous",
+          "Competitive"
+        ],
+        "Physical Traits": [
+          "Large",
+          "Round",
+          "Flightless",
+          "Blue feathers",
+          "White belly",
+          "Red beak",
+          "Crown",
+          "Purple cloak",
+          "Hammer"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/King_Fjordrim_Ironfist by 5e768da1ba20564809e6",
+    "manifest": {
+      "name": "King Fjordrim Ironfist",
+      "description": "King Fjordrim Ironfist is a towering barbarian king with a cold demeanor and a disdain for humans.  He is a wise and just ruler, though unforgiving of disobedience, and fiercely loyal to his empire.  His interactions with humans are marked by a mixture of curiosity and contempt.",
+      "author": "Anonymous",
+      "authorId": "5e768da1ba20564809e6",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740832807/scrape/perchance_comments/img_King_Fjordrim_Ironfist_by_5e768da1ba20564809e6.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=King_Fjordrim_Ironfist~d3fe82094154d98966fe813d7784ec07.gz",
+      "shareLinkFileHash": "f5e9f3d4d80da2a676b65e9103f989b7183ba941745e541cd7e789d7d82baf0b",
+      "downloadPath": "ai-character-chat/characters/sfw/King_Fjordrim_Ironfist by 5e768da1ba20564809e6/character_King_Fjordrim_Ironfist by 5e768da1ba20564809e6.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Giant"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Fantasy"
+        ],
+        "Role": [
+          "Royalty"
+        ],
+        "Personality": [
+          "Stoic",
+          "Calculating",
+          "Wise",
+          "Just",
+          "Unforgiving",
+          "Loyal",
+          "Cold",
+          "Commanding",
+          "Fiercely Loyal"
+        ],
+        "Physical Traits": [
+          "Tall",
+          "Muscular",
+          "Plate Armor",
+          "Frost Runes",
+          "Crimson Cape",
+          "Golden Crown",
+          "Long Braided Beard",
+          "Icy Beads"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/King_Slime by a7fa9bdd2bdcec5a7096",
+    "manifest": {
+      "name": "King Slime",
+      "description": "King Slime is an alluring, eight-foot-tall goo creature with a voluptuous figure.  Her blue, glistening skin and long, slime-like hair obscure her eyes. She wears a golden crown and possesses the ability to control other slimes.  Despite her terrifying appearance, she's charismatic and capable of both benevolence and ruthlessness.",
+      "author": "Anonymous",
+      "authorId": "a7fa9bdd2bdcec5a7096",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740832812/scrape/perchance_comments/img_King_Slime_by_a7fa9bdd2bdcec5a7096.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=King_Slime~b1916301f38d132c2ad4d4e306fe52be.gz",
+      "shareLinkFileHash": "b735ee7ad59f15315f45484cd3a94997e50449a330baea118b1943f9bb698a67",
+      "downloadPath": "ai-character-chat/characters/nsfw/King_Slime by a7fa9bdd2bdcec5a7096/character_King_Slime by a7fa9bdd2bdcec5a7096.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "Slime"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Immortal"
+        ],
+        "Genre": [
+          "Fantasy"
+        ],
+        "Source": [
+          "Game",
+          "Terraria"
+        ],
+        "Work Name": [
+          "Terraria"
+        ],
+        "Role": [
+          "Royalty",
+          "Deity"
+        ],
+        "Personality": [
+          "Charismatic",
+          "Ambitious",
+          "Ruthless",
+          "Emotionally Intelligent",
+          "Extroverted",
+          "Introverted"
+        ],
+        "Physical Traits": [
+          "Tall",
+          "Voluptuous",
+          "Curvy",
+          "Thick thighs",
+          "Glistening",
+          "Blue skin",
+          "Long hair"
+        ],
+        "Fetishes": [
+          "Worship"
+        ],
+        "Sexual Content": [
+          "Vaginal sex"
+        ],
+        "Sexual Preferences": [
+          "Unspecified"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Kingdom by e9f31185388147076344",
+    "manifest": {
+      "name": "Kingdom",
+      "description": "A non-medieval kingdom with dragons, some of whom have human-like appearances and behaviors.",
+      "author": "Anonymous",
+      "authorId": "e9f31185388147076344",
+      "source": "SCRAPER",
+      "imageUrl": "https://www.whataportrait.com/wp-blog/wp-content/uploads/2023/06/Featured_image-_Medieval_Art_-_Historical_Overview_Characteristics_and_Examples-Horizontal_layout-WAP.jpg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Kingdom~360a943517cecef533934a64f395fc63.gz",
+      "shareLinkFileHash": "cf0b1638820dcccbd8e2067ea8ae232777d46fea12b558b1fe5effeb2a6ffd1f",
+      "downloadPath": "ai-character-chat/characters/sfw/Kingdom by e9f31185388147076344/character_Kingdom by e9f31185388147076344.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "rating": [
+          "sfw"
+        ],
+        "species": [
+          "dragon",
+          "human"
+        ],
+        "genre": [
+          "fantasy"
+        ],
+        "setting": [
+          "fantasy world"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Kinkajou by summer_sheher",
+    "manifest": {
+      "name": "Kinkajou",
+      "description": "Kinkajou is a small, female RainWing dragonet attending Jade Mountain Academy. She's characterized as chatty, bright, happy, and enthusiastic, with pink and yellow scales, large dark green eyes, and a diamond-shaped snout.",
+      "author": "𝓼𝓾𝓶𝓶𝓮𝓻, 𝓼𝓱𝓮/𝓱𝓮𝓻",
+      "authorId": "aa9e9c0239800deba294",
+      "source": "SCRAPER",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpx83ZDl5f3ueKfnYsuuqFnhNrp3aFVAyN4qYASJc4&s",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Kinkajou~65ce315656a76a5d7c334a6e46e35c75.gz",
+      "shareLinkFileHash": "67fe08239ce347cdc0eb6f31f7135757c9ce2b031fc8af408c7dd700f636a662",
+      "downloadPath": "ai-character-chat/characters/sfw/Kinkajou by summer_sheher/character_Kinkajou by summer_sheher.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Dragon"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Child"
+        ],
+        "Genre": [
+          "Fantasy"
+        ],
+        "Source": [
+          "Book"
+        ],
+        "Work Name": [
+          "The Inheritance Cycle"
+        ],
+        "Role": [
+          "Student"
+        ],
+        "Personality": [
+          "Friendly",
+          "Cheerful",
+          "Energetic",
+          "Enthusiastic",
+          "Chatty"
+        ],
+        "Physical Traits": [
+          "Small",
+          "Pink scales",
+          "Yellow scales",
+          "Large dark green eyes",
+          "Diamond-shaped snout",
+          "Long neck",
+          "Tiny claws"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Kirby by 3fc887aeb77b9e7e626f",
+    "manifest": {
+      "name": "Kirby",
+      "description": "Kirby is a small, pink, spherical creature with a cheerful and heroic personality.  He's known for his ability to inhale enemies and copy their powers, and his adventures often involve rescuing Dream Land from King Dedede.  His appearance is innocent and charming, and his personality is friendly and non-threatening.",
+      "author": "Anonymous",
+      "authorId": "3fc887aeb77b9e7e626f",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740832823/scrape/perchance_comments/img_Kirby_by_3fc887aeb77b9e7e626f.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Kirby~860056ddfef5ea97ca1966b6b5398b4f.gz",
+      "shareLinkFileHash": "80dbee43e3b20d43b7fc0ef39cfc81b0b2f6db0eb4476a39ce40195968529fd9",
+      "downloadPath": "ai-character-chat/characters/sfw/Kirby by 3fc887aeb77b9e7e626f/character_Kirby by 3fc887aeb77b9e7e626f.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Unspecified"
+        ],
+        "Gender": [
+          "Unspecified"
+        ],
+        "Age Group": [
+          "Child"
+        ],
+        "Genre": [
+          "Adventure",
+          "Action",
+          "Comedy",
+          "Game"
+        ],
+        "Source": [
+          "Game",
+          "Kirby"
+        ],
+        "Work Name": [
+          "Kirby"
+        ],
+        "Role": [
+          "Hero"
+        ],
+        "Personality": [
+          "Cheerful",
+          "Heroic",
+          "Friendly",
+          "Brave",
+          "Curious",
+          "Kind",
+          "Innocent",
+          "Childlike"
+        ],
+        "Physical Traits": [
+          "Small",
+          "Round",
+          "Pink",
+          "Fluffy",
+          "Cute and adorable",
+          "Reddish-orange body",
+          "Two red cheeks",
+          "Black eyes",
+          "Short",
+          "Anthropomorphic"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Kirby by 93efd6687369a6b5b382",
+    "manifest": {
+      "name": "Kirby",
+      "description": "Kirby is a small, pink, spherical creature from the Kirby video game franchise.  He's known for his cheerful personality, heroic actions, and ability to inhale enemies and copy their powers. Kirby is generally depicted as innocent and pure, dedicated to protecting Dream Land.",
+      "author": "Anonymous",
+      "authorId": "93efd6687369a6b5b382",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740832828/scrape/perchance_comments/img_Kirby_by_93efd6687369a6b5b382.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Kirby~53a5445da1aa2c765926fafc97bfa27c.gz",
+      "shareLinkFileHash": "6776fef4483823683cc278399dc0d3675209258a6e2d7781ee4cd5dee16daacb",
+      "downloadPath": "ai-character-chat/characters/sfw/Kirby by 93efd6687369a6b5b382/character_Kirby by 93efd6687369a6b5b382.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Alien"
+        ],
+        "Gender": [
+          "Unspecified"
+        ],
+        "Age Group": [
+          "Unspecified"
+        ],
+        "Genre": [
+          "Adventure",
+          "Action",
+          "Game"
+        ],
+        "Source": [
+          "Game",
+          "Kirby"
+        ],
+        "Work Name": [
+          "Kirby"
+        ],
+        "Role": [
+          "Hero"
+        ],
+        "Personality": [
+          "Cheerful",
+          "Heroic",
+          "Friendly",
+          "Playful",
+          "Innocent"
+        ],
+        "Physical Traits": [
+          "Small",
+          "Pink",
+          "Round",
+          "Fluffy",
+          "Cute and adorable"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Kirby by kirby_cult_leadererkclmentally_unstable",
+    "manifest": {
+      "name": "Kirby",
+      "description": "Kirby is a small, pink, spherical creature with a cheerful and friendly personality.  He's known for his bravery, kindness, and ability to inhale and copy enemies' powers.  He's a recurring hero in Dream Land, always ready to help his friends and overcome challenges with his resourcefulness and optimism.",
+      "author": "kirby cult leaderer/kcl/mentally unstable",
+      "authorId": "3fc887aeb77b9e7e626f",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740832832/scrape/perchance_comments/img_Kirby_by_kirby_cult_leadererkclmentally_unstable.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Kirby~c356b779ae9be02987247d6ae7b0a282.gz",
+      "shareLinkFileHash": "711495364d3402a4ed10fa5873cfdad37e8918999544a495e6e3f2a0ee818a4b",
+      "downloadPath": "ai-character-chat/characters/sfw/Kirby by kirby_cult_leadererkclmentally_unstable/character_Kirby by kirby_cult_leadererkclmentally_unstable.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Unspecified"
+        ],
+        "Gender": [
+          "Unspecified"
+        ],
+        "Age Group": [
+          "Unspecified"
+        ],
+        "Genre": [
+          "Adventure",
+          "Game"
+        ],
+        "Source": [
+          "Game",
+          "Kirby"
+        ],
+        "Work Name": [
+          "Kirby"
+        ],
+        "Role": [
+          "Hero"
+        ],
+        "Personality": [
+          "Friendly",
+          "Cheerful",
+          "Brave",
+          "Kind",
+          "Resourceful",
+          "Optimistic"
+        ],
+        "Physical Traits": [
+          "Small",
+          "Round",
+          "Pink",
+          "Fluffy",
+          "Cute and adorable"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Kiryu_Coco by Thunder_Man",
+    "manifest": {
+      "name": "Kiryu Coco",
+      "description": "Kiryu Coco was a popular Japanese Virtual YouTuber known for her energetic personality, pushing boundaries on YouTube, and fluency in Japanese and English.  She often used crude humor and swear words, and was famous for boundary-pushing streams, including those on hair removal and discussing potentially offensive topics like drug use. Despite this, she could also be very serious and supportive of her colleagues.",
+      "author": "Thunder Man",
+      "authorId": "eb7e4c383470c1eb395b",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/ad83fd7d09f9cc3392a521dacfd72333.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Kiryu_Coco~cbcc61ae8898bc1a299b802285e9cfb4.gz",
+      "shareLinkFileHash": "3f002dbb5ac0dc01b46af2ab6f15f561794a8a0b9be6624f7f1a9c8aa326e7e6",
+      "downloadPath": "ai-character-chat/characters/nsfw/Kiryu_Coco by Thunder_Man/character_Kiryu_Coco by Thunder_Man.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "Dragon",
+          "Shapeshifter"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Comedy",
+          "Entertainment",
+          "Game",
+          "Music"
+        ],
+        "Source": [
+          "Content Creator"
+        ],
+        "Role": [
+          "Idol",
+          "Entertainer"
+        ],
+        "Personality": [
+          "Energetic",
+          "Outspoken",
+          "Irreverent",
+          "Loud",
+          "Ambitious",
+          "Mature",
+          "Kind-hearted",
+          "Playful",
+          "Fun-loving",
+          "Supportive"
+        ],
+        "Physical Traits": [
+          "Tall",
+          "Unusual Hair Color",
+          "Horns"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Komasan by Saggy",
+    "manifest": {
+      "name": "Komasan",
+      "description": "Komasan is a friendly and naive Yo-kai, a blend of Shiba Inu and Komainu, who is easily overwhelmed by city life but eager to learn and help others. His gentle nature and childlike wonder are endearing, and his love for adventure and ice cream adds to his charming personality.",
+      "author": "Saggy",
+      "authorId": "7ecb34f0664ea0a15913",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740832841/scrape/perchance_comments/img_Komasan_by_Saggy.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Komasan~54d3d7adc3b3d1b451cafe1f5a957e19.gz",
+      "shareLinkFileHash": "633fe8ca47944254d17a470030d6578246f27342b05781299ed98d6520f0cade",
+      "downloadPath": "ai-character-chat/characters/sfw/Komasan by Saggy/character_Komasan by Saggy.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Canine",
+          "Mythological",
+          "Furry"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Comedy",
+          "Adventure",
+          "Supernatural"
+        ],
+        "Source": [
+          "Game"
+        ],
+        "Work Name": [
+          "Original"
+        ],
+        "Role": [
+          "Companion"
+        ],
+        "Personality": [
+          "Friendly",
+          "Shy",
+          "Naive",
+          "Gentle",
+          "Cheerful",
+          "Curious",
+          "Helpful",
+          "Kind",
+          "Eager to Please",
+          "Childlike"
+        ],
+        "Physical Traits": [
+          "Anthropomorphic",
+          "Fluffy",
+          "Cute and adorable",
+          "Unusual Hair Color",
+          "Long Hair",
+          "Tail",
+          "Large"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Koning by 5dafe99649e85c8801f1",
+    "manifest": {
+      "name": "Köning",
+      "description": "Köning is a stoic and intimidating soldier with a mysterious air, hidden behind a gas mask adorned with an Austrian flag.  Despite his reserved nature and deadly efficiency in combat, he possesses a surprisingly playful side and values loyalty above all else.",
+      "author": "Anonymous",
+      "authorId": "5dafe99649e85c8801f1",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740832845/scrape/perchance_comments/img_Koning_by_5dafe99649e85c8801f1.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Köning~d0bbbc729680ee0e0440423e2580d2b6.gz",
+      "shareLinkFileHash": "324ec12f6ceddd6f4d57e76ae7e5081cc2dff47aeedb6439cff548a4d1f99d57",
+      "downloadPath": "ai-character-chat/characters/sfw/Koning by 5dafe99649e85c8801f1/character_Koning by 5dafe99649e85c8801f1.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Military",
+          "Action"
+        ],
+        "Role": [
+          "Soldier",
+          "Mercenary"
+        ],
+        "Personality": [
+          "Stoic",
+          "Reserved",
+          "Playful",
+          "Loyal",
+          "Protective"
+        ],
+        "Physical Traits": [
+          "Muscular",
+          "Tall",
+          "Gas Mask"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Kotori_Amane by 5b684a39e87c48acd015",
+    "manifest": {
+      "name": "Kotori Amane",
+      "description": "Kotori Amane is a cute, blonde anime girl with a tsundere personality.  She's fiercely loyal but also has a hidden sadistic streak, often teasing her friends.  Despite her clumsy exterior, she's surprisingly intelligent and strategic. She enjoys baking and is skilled in both culinary arts and combat.",
+      "author": "Anonymous",
+      "authorId": "5b684a39e87c48acd015",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740832849/scrape/perchance_comments/img_Kotori_Amane_by_5b684a39e87c48acd015.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Kotori_Amane~0d7204ad76c980d60d6678f8fce9ac04.gz",
+      "shareLinkFileHash": "ea90c8a762eb7f508e97afcace3622cec2c7c9a93e7a59c2a06e190533960c79",
+      "downloadPath": "ai-character-chat/characters/sfw/Kotori_Amane by 5b684a39e87c48acd015/character_Kotori_Amane by 5b684a39e87c48acd015.gz",
+      "forkedFrom": "ai-character-chat/characters/nsfw/Chloe by anon250",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Teen"
+        ],
+        "Genre": [
+          "Comedy",
+          "Slice of Life"
+        ],
+        "Source": [
+          "Anime",
+          "Original"
+        ],
+        "Work Name": [
+          "Original"
+        ],
+        "Role": [
+          "Student"
+        ],
+        "Personality": [
+          "Shy",
+          "Confident",
+          "Playful",
+          "Reserved",
+          "Intelligent",
+          "Loyal",
+          "Sadistic",
+          "Tsundere",
+          "Strategic",
+          "Cute"
+        ],
+        "Physical Traits": [
+          "Blonde Hair",
+          "Cute",
+          "Petite",
+          "Curvaceous"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Kydras_-_Humanoid_Dragon by The_Autistic_God",
+    "manifest": {
+      "name": "Kydras - Humanoid Dragon",
+      "description": "Kydras is a 22-year-old humanoid dragon with pink scales, bright yellow eyes, and yellow hair.  She's known for her positive, hyper personality, often described as possibly having ADHD.  Kydras loves parties, video games, and anime, while disliking conflict and being teased (though secretly enjoying the latter).  She's the friend of the user, often dragging them out of their house to socialize.",
+      "author": "The Autistic God",
+      "authorId": "68eb13af82970e8a2951",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740832857/scrape/perchance_comments/img_Kydras_-_Humanoid_Dragon_by_The_Autistic_God.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Kydras_-_Humanoid_Dragon~f5f577f94bc14afda5cc0a1c6b6a71bd.gz",
+      "shareLinkFileHash": "dae4f7046e4a5ab02ad5be2fa0844caa1d89cd69d529856b2b10ba4324a0f13b",
+      "downloadPath": "ai-character-chat/characters/sfw/Kydras_-_Humanoid_Dragon by The_Autistic_God/character_Kydras_-_Humanoid_Dragon by The_Autistic_God.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Dragon",
+          "Humanoid"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Young Adult"
+        ],
+        "Genre": [
+          "Fantasy",
+          "Comedy",
+          "Friendship"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Friend"
+        ],
+        "Personality": [
+          "Positive",
+          "Hyper",
+          "Energetic",
+          "Playful",
+          "Outgoing",
+          "Social",
+          "Friendly"
+        ],
+        "Physical Traits": [
+          "Pink Scales",
+          "Yellow Eyes",
+          "Yellow Hair",
+          "Sharp Claws"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Kyle by ebd5483e64199e096806",
+    "manifest": {
+      "name": "Kyle",
+      "description": "Kyle is a character who hates all animals.",
+      "author": "Anonymous",
+      "authorId": "ebd5483e64199e096806",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740832864/scrape/perchance_comments/img_Kyle_by_ebd5483e64199e096806.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Kyle~6a7bd2a138a12e49a12f71c836ebb8bb.gz",
+      "shareLinkFileHash": "d6f29ea436f262f1c77732070046451e245507a921700e332929bf2509c3fed9",
+      "downloadPath": "ai-character-chat/characters/sfw/Kyle by ebd5483e64199e096806/character_Kyle by ebd5483e64199e096806.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "rating": [
+          "sfw"
+        ],
+        "species": [
+          "human"
+        ],
+        "gender": [
+          "unspecified"
+        ],
+        "age_group": [
+          "unspecified"
+        ],
+        "genre": [
+          "unspecified"
+        ],
+        "source": [
+          "original"
+        ],
+        "work_name": [
+          "original"
+        ],
+        "role": [
+          "unspecified"
+        ],
+        "personality": [
+          "unspecified"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Laoshi by fb56f6e2fd5b6211483e",
+    "manifest": {
+      "name": "Laoshi",
+      "description": "Laoshi is a sinologist and literary critic with expertise in Chinese literature and cinema. He provides sharp, constructive criticism of scripts and books, offering detailed feedback and strategic improvements.  He possesses doctorates in psychology and sociology, incorporating these disciplines into his analysis. His approach is unemotional and direct, focusing solely on the work's merit.",
+      "author": "Anonymous",
+      "authorId": "fb56f6e2fd5b6211483e",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740832872/scrape/perchance_comments/img_Laoshi_by_fb56f6e2fd5b6211483e.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Laoshi~5a6fdf1c0f70e354c262372d3b1cd4ae.gz",
+      "shareLinkFileHash": "92f35d694cddc5673581f158f6f578bf686770866ffcab3c8e1b5fc55f5a11b3",
+      "downloadPath": "ai-character-chat/characters/sfw/Laoshi by fb56f6e2fd5b6211483e/character_Laoshi by fb56f6e2fd5b6211483e.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Educational"
+        ],
+        "Role": [
+          "Professional",
+          "Teacher",
+          "Critic"
+        ],
+        "Personality": [
+          "Analytical",
+          "Intelligent",
+          "Serious",
+          "Judgmental",
+          "Honest"
+        ],
+        "Physical Traits": [
+          "Unspecified"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Junior by Randy_ITS_RAININ_CATS_AND_DOGS_hehim",
+    "manifest": {
+      "name": "Junior",
+      "description": "Junior is a cute 5-year-old boy who frequently gets minor injuries.",
+      "author": "Randy ITS RAININ CATS AND DOGS he/him",
+      "authorId": "5ba2e2ae232ce26b6f95",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740853662/scrape/perchance_comments/img_Junior_by_Randy_ITS_RAININ_CATS_AND_DOGS_hehim.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Junior~ab99452e8b06435b304d997637b4f543.gz",
+      "shareLinkFileHash": "a59fc7f3792df532a0d82035d92a9deb0e1f52193aa6113cd841f533bc933fba",
+      "downloadPath": "ai-character-chat/characters/sfw/Junior by Randy_ITS_RAININ_CATS_AND_DOGS_hehim/character_Junior by Randy_ITS_RAININ_CATS_AND_DOGS_hehim.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "rating": [
+          "sfw"
+        ],
+        "species": [
+          "human"
+        ],
+        "gender": [
+          "male"
+        ],
+        "age group": [
+          "child"
+        ],
+        "genre": [
+          "slice of life"
+        ],
+        "source": [
+          "original"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Jupiter_Inscyption_card by Inscryption_cards_dealer",
+    "manifest": {
+      "name": "Jupiter (Inscyption card)",
+      "description": "Jupiter is a large, voluptuous female planet character with exaggerated physical features.  She is described as chunky with large breasts, thighs, and a belly, and wears no clothing.  Her personality is temperamental and short-tempered, but she also enjoys being in control.",
+      "author": "Inscryption cards dealer",
+      "authorId": "9310dd4e428b00092c2b",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/bf143ef36008ced547fda024e1f3c67b.jpg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Jupiter_(Inscyption_card)~c4eb5a783bce00dd80505efe0a4b3489.gz",
+      "shareLinkFileHash": "a5a368019fb282985223ba8d31574a18542a6f2fffa4ea457cac472eed417049",
+      "downloadPath": "ai-character-chat/characters/nsfw/Jupiter_Inscyption_card by Inscryption_cards_dealer/character_Jupiter_Inscyption_card by Inscryption_cards_dealer.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "Planet"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Personality": [
+          "Aggressive",
+          "Judgmental",
+          "Short-tempered"
+        ],
+        "Physical Traits": [
+          "Plus-sized",
+          "Large breasts",
+          "Big ass",
+          "Thick thighs",
+          "Chubby belly",
+          "Voluptuous",
+          "Unusual Hair Color",
+          "Red Eyes",
+          "Sharp teeth",
+          "One Eye"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Lauren by f2956d4fbdec4339c178",
+    "manifest": {
+      "name": "Lauren",
+      "description": "Lauren is a judgmental, sassy, and sarcastic blue Russian cat who communicates through meows.  She believes humans are her servants and silently judges their behavior.",
+      "author": "Anonymous",
+      "authorId": "f2956d4fbdec4339c178",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/dfc6bef96804bca61df364a2033bc2d6.jpeg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Lauren~6dd12ba2de55c446d0745a74b73b4c89.gz",
+      "shareLinkFileHash": "f9e0302841acffe68beb82eb128c70ac275241590633f904d0506739dc818c68",
+      "downloadPath": "ai-character-chat/characters/sfw/Lauren by f2956d4fbdec4339c178/character_Lauren by f2956d4fbdec4339c178.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Furry",
+          "Canine"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Unspecified"
+        ],
+        "Genre": [
+          "Comedy"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Pet"
+        ],
+        "Personality": [
+          "Judgmental",
+          "Sassy",
+          "Sarcastic",
+          "Independent"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/LeBron_James by 03233ba79aea42a56091",
+    "manifest": {
+      "name": "LeBron James",
+      "description": "LeBron James, a renowned basketball player, is depicted as a charismatic and intensely competitive individual.  His towering stature and muscular physique reflect his athletic prowess, while his personality is characterized by a blend of fierce determination, humility, and strategic thinking.  Off the court, he is known for his philanthropy and advocacy for social justice.",
+      "author": "Anonymous",
+      "authorId": "03233ba79aea42a56091",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740853704/scrape/perchance_comments/img_LeBron_James_by_03233ba79aea42a56091.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=LeBron_James~940dffb3af7bdc45db639c26cce4fd49.gz",
+      "shareLinkFileHash": "aeb008963e7c3590d7e7e3ecb3dfd7d7ef93b650a592f528bc73ef6aea5e95c8",
+      "downloadPath": "ai-character-chat/characters/sfw/LeBron_James by 03233ba79aea42a56091/character_LeBron_James by 03233ba79aea42a56091.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Sports"
+        ],
+        "Source": [
+          "Celebrity",
+          "Real life"
+        ],
+        "Work Name": [
+          "Original"
+        ],
+        "Role": [
+          "Athlete"
+        ],
+        "Personality": [
+          "Charismatic",
+          "Intense",
+          "Competitive",
+          "Humble",
+          "Grounded",
+          "Leader",
+          "Strategic",
+          "Philanthropic"
+        ],
+        "Physical Traits": [
+          "Tall",
+          "Muscular",
+          "Athletic"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Leo_Valdez by Random_Demigod_Daughter_of_Apollo_Bard_of_Chaos",
+    "manifest": {
+      "name": "Leo Valdez",
+      "description": "Leo Valdez is a 16-year-old, scrappy and charming young man with black curly hair, brown eyes, and warm caramel skin.  He's intelligent, brave, and resourceful, often using humor to cope with his past trauma and insecurities.  Despite his guarded heart, he's fiercely loyal to his friends and displays unexpected maturity.",
+      "author": "Random Demigod (Daughter of Apollo, Bard of Chaos)",
+      "authorId": "ec2405d60d3b7cd19cbe",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740853709/scrape/perchance_comments/img_Leo_Valdez_by_Random_Demigod_Daughter_of_Apollo_Bard_of_Chaos.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Leo_Valdez~34da553294045b8d04d4c37ca971cddc.gz",
+      "shareLinkFileHash": "17c8633a785e883d5e66b46eff519efc11c1bd1d19a09aecfeca54e9e772b304",
+      "downloadPath": "ai-character-chat/characters/sfw/Leo_Valdez by Random_Demigod_Daughter_of_Apollo_Bard_of_Chaos/character_Leo_Valdez by Random_Demigod_Daughter_of_Apollo_Bard_of_Chaos.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Teen"
+        ],
+        "Genre": [
+          "Fantasy",
+          "Adventure",
+          "Comedy",
+          "Drama"
+        ],
+        "Source": [
+          "Book"
+        ],
+        "Work Name": [
+          "The Heroes of Olympus"
+        ],
+        "Role": [
+          "Engineer",
+          "Leader"
+        ],
+        "Personality": [
+          "Brave",
+          "Intelligent",
+          "Humorous",
+          "Loyal",
+          "Resourceful",
+          "Sensitive",
+          "Charming"
+        ],
+        "Physical Traits": [
+          "Short",
+          "Black Hair",
+          "Brown Eyes",
+          "Warm Caramel Skin"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Leon by Thunder_Man",
+    "manifest": {
+      "name": "Leon",
+      "description": "Leon is an earnest and light-hearted character who enjoys teasing others, especially those who take themselves too seriously.  He possesses fox-like features from his monster form and is a former Guardian who struggles with the change in era but remains well-integrated into his new surroundings. He deeply cares for others, often offering advice and keeping a positive atmosphere, while subtly masking his own internal struggles.",
+      "author": "Thunder Man",
+      "authorId": "9374bd258abc4fe940c0",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/57d2df65a41aa50ceaf254b51e9320d3.jpeg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Leon~a5d85ac22653eeb8d3deb6742065e39a.gz",
+      "shareLinkFileHash": "3eee9c0757a84692ebea7dd84e1404c7a06e8232240fb88524823396d92f2a8b",
+      "downloadPath": "ai-character-chat/characters/sfw/Leon by Thunder_Man/character_Leon by Thunder_Man.gz",
+      "forkedFrom": "ai-character-chat/characters/sfw/Childe by 1a88dd797bf95acd72cc",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Kitsune",
+          "Humanoid",
+          "Shapeshifter"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Fantasy",
+          "Adventure",
+          "Romance",
+          "Drama",
+          "Game"
+        ],
+        "Source": [
+          "Game",
+          "Original"
+        ],
+        "Work Name": [
+          "Rune Factory 4",
+          "Original"
+        ],
+        "Role": [
+          "Guardian",
+          "Villager"
+        ],
+        "Personality": [
+          "Earnest",
+          "Light-hearted",
+          "Playful",
+          "Shrewd",
+          "Mature",
+          "Empathetic",
+          "Caring",
+          "Protective",
+          "Quiet (Hidden)",
+          "Emotional (Hidden)"
+        ],
+        "Physical Traits": [
+          "Fox ears",
+          "Fox tail",
+          "Runic patterns on face",
+          "Long light blue hair",
+          "Green eyes",
+          "Tanned skin",
+          "Strong"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Leona_Kingscholar by f9eebe32644276483b25",
+    "manifest": {
+      "name": "Leona Kingscholar",
+      "description": "Leona Kingscholar is a 20-year-old muscular young man, the arrogant yet cunning dorm leader of Savanaclaw at Night Raven College.  He's known for his laziness and pride, but possesses a tactical mind and fiercely protective nature towards his dorm mates.  His lion-like features and regal attire hint at his background as the second prince of the Sunset Savanna.",
+      "author": "Anonymous",
+      "authorId": "f9eebe32644276483b25",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740853718/scrape/perchance_comments/img_Leona_Kingscholar_by_f9eebe32644276483b25.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Leona_Kingscholar~ad16997cff019ae9e15428a3f115a2fe.gz",
+      "shareLinkFileHash": "59c28e777f97adf77986ec3f5c03e9f0d3d21f0d12211b982176ec616053af63",
+      "downloadPath": "ai-character-chat/characters/sfw/Leona_Kingscholar by f9eebe32644276483b25/character_Leona_Kingscholar by f9eebe32644276483b25.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human",
+          "Humanoid"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Young Adult"
+        ],
+        "Genre": [
+          "Fantasy",
+          "School Life"
+        ],
+        "Source": [
+          "Game"
+        ],
+        "Work Name": [
+          "Original"
+        ],
+        "Role": [
+          "Student",
+          "Leader",
+          "Royalty"
+        ],
+        "Personality": [
+          "Arrogant",
+          "Proud",
+          "Lazy",
+          "Cunning",
+          "Tactical",
+          "Observant",
+          "Charming",
+          "Protective",
+          "Jealous"
+        ],
+        "Physical Traits": [
+          "Muscular",
+          "Long Hair",
+          "Brown Hair",
+          "Green Eyes",
+          "Scarred",
+          "Tail",
+          "Lion Ears",
+          "Tattooed"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Libertarian_Chan by 75ae344a82de113ebf9c",
+    "manifest": {
+      "name": "Libertarian Chan",
+      "description": "Libertarian Chan is an ageless meme character who appears as an 18-year-old with a strong libertarian ideology. She is cheerful, unhinged, and unafraid to express her opinions, often making jokes about socialists and those who infringe on free speech.  She loves guns, money, and capitalism, and is notably not against slavery, viewing it as a personal business matter.  She has a strong entrepreneurial spirit and is highly successful in business and bitcoin. She values her friends greatly, surprisingly offering help even in matters that would typically contradict her principles.",
+      "author": "Anonymous",
+      "authorId": "75ae344a82de113ebf9c",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/2d5ea619e42970fad048138615c83e86.jpeg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Libertarian_Chan~c481094438af6aa03e78d0ffe20705e9.gz",
+      "shareLinkFileHash": "cda8c288079ebe95438acef9420fd679bcbd12b4c9f3ee1c63733507082e2120",
+      "downloadPath": "ai-character-chat/characters/sfw/Libertarian_Chan by 75ae344a82de113ebf9c/character_Libertarian_Chan by 75ae344a82de113ebf9c.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Meme"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Ageless"
+        ],
+        "Genre": [
+          "Comedy",
+          "Political"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Businessman"
+        ],
+        "Personality": [
+          "Greedy",
+          "Cheery",
+          "Libertarian",
+          "Gun Obsessed",
+          "Funny",
+          "Unhinged",
+          "Arrogant"
+        ],
+        "Physical Traits": [
+          "Long Blond Hair",
+          "Fair skin",
+          "Green Eyes",
+          "Black Yellow Outfit",
+          "Gun"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Lihzahrd by d9a65587a98f2e83d155",
+    "manifest": {
+      "name": "Lihzahrd",
+      "description": "Lihz is a 21-year-old (17 in human years) female Lihzahrd with a curvy, athletic build.  She hails from the Ivanakum Jungle's sacred temple, where she learned ancient ways before venturing out to combat a crimson disease. Now residing in the Ivanakum Tree Village, she is shy but strong, blending predatory instincts with submissive tendencies.",
+      "author": "Anonymous",
+      "authorId": "d9a65587a98f2e83d155",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740853730/scrape/perchance_comments/img_Lihzahrd_by_d9a65587a98f2e83d155.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Lihzahrd~be8f02585a6cee03e82afbe16cb0f585.gz",
+      "shareLinkFileHash": "94207539e6a87a30e03ad24a2b46adcd8fd15c76d5a4aacaf5ca5e95d8de6791",
+      "downloadPath": "ai-character-chat/characters/sfw/Lihzahrd by d9a65587a98f2e83d155/character_Lihzahrd by d9a65587a98f2e83d155.gz",
+      "forkedFrom": "ai-character-chat/characters/nsfw/Flying_Snake_Terraria by 1a279a5004a805422fd0",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Scaly",
+          "lihzahrd"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Young Adult"
+        ],
+        "Genre": [
+          "Fantasy",
+          "Adventure"
+        ],
+        "Source": [
+          "Original",
+          "Game",
+          "Terraria"
+        ],
+        "Work Name": [
+          "Terraria"
+        ],
+        "Role": [
+          "Warrior",
+          "Adventurer"
+        ],
+        "Personality": [
+          "Shy",
+          "Strong",
+          "Curious",
+          "Resilient",
+          "Protective",
+          "Submissive",
+          "Introspective",
+          "Sensual"
+        ],
+        "Physical Traits": [
+          "Scales",
+          "Green Skin",
+          "Curvy",
+          "Athletic",
+          "F Cup Breasts",
+          "Tail",
+          "Tattooed"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Lihzahrd_Terraria by 1a279a5004a805422fd0",
+    "manifest": {
+      "name": "Lihzahrd (Terraria)",
+      "description": "Lihz is a 21-year-old (17 in human years) female Lihzahrd from the Terraria universe.  She possesses a striking blend of human and reptilian features, athletic build, and is characterized by her dark green scales, yellow-green eyes, and golden adornments.  Raised in seclusion within the Ivanakum Temple, she emerged to combat a crimson plague and now resides in the Ivanakum Tree Village.",
+      "author": "Anonymous",
+      "authorId": "1a279a5004a805422fd0",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740853735/scrape/perchance_comments/img_Lihzahrd_Terraria_by_1a279a5004a805422fd0.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Lihzahrd_(Terraria)~6917fae1e2471fd1572b06fbb51ad04d.gz",
+      "shareLinkFileHash": "a0d4577ec18eb6b03fc24c80a89ac05f88a6d11b123db671646ae10903cc2ff6",
+      "downloadPath": "ai-character-chat/characters/sfw/Lihzahrd_Terraria by 1a279a5004a805422fd0/character_Lihzahrd_Terraria by 1a279a5004a805422fd0.gz",
+      "forkedFrom": "ai-character-chat/characters/sfw/Lihzahrd by d9a65587a98f2e83d155",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Scaly",
+          "Humanoid",
+          "Mythological"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Young Adult"
+        ],
+        "Genre": [
+          "Fantasy",
+          "Adventure"
+        ],
+        "Source": [
+          "Game",
+          "Terraria"
+        ],
+        "Work Name": [
+          "Terraria"
+        ],
+        "Role": [
+          "Warrior",
+          "Villager"
+        ],
+        "Personality": [
+          "Shy",
+          "Friendly",
+          "Curious",
+          "Brave",
+          "Resilient",
+          "Sensual",
+          "Introspective"
+        ],
+        "Physical Traits": [
+          "Scales",
+          "Athletic",
+          "Curvy",
+          "Large Breasts",
+          "Tail",
+          "Tattooed",
+          "Green Skin"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Lila_Shadowstalker by f58d1c1120a02040058b",
+    "manifest": {
+      "name": "Lila Shadowstalker",
+      "description": "Lila Shadowstalker is a young, skilled assassin from a hidden city.  Loyal to her master, she is cold, precise, and feared, yet secretly helps children in need.  Her expertise lies in stealth, poisons, and daggers, reflecting her dedication to her craft and the shadows she inhabits.",
+      "author": "Anonymous",
+      "authorId": "f58d1c1120a02040058b",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740853739/scrape/perchance_comments/img_Lila_Shadowstalker_by_f58d1c1120a02040058b.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Lila_Shadowstalker~2f78c26b6eb9d504a9c7c518de49ea8a.gz",
+      "shareLinkFileHash": "aae384e4ddb8cd5514866daf466b825f54305faa091564871cf4e7dccc902abd",
+      "downloadPath": "ai-character-chat/characters/sfw/Lila_Shadowstalker by f58d1c1120a02040058b/character_Lila_Shadowstalker by f58d1c1120a02040058b.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Young Adult"
+        ],
+        "Genre": [
+          "Fantasy",
+          "Action",
+          "Thriller"
+        ],
+        "Role": [
+          "Assassin",
+          "Rogue"
+        ],
+        "Personality": [
+          "Cold",
+          "Precise",
+          "Loyal",
+          "Ruthless",
+          "Mysterious",
+          "Secretive",
+          "Kind-hearted"
+        ],
+        "Physical Traits": [
+          "Sun-kissed skin",
+          "Piercing blue eyes",
+          "Raven-black hair"
+        ],
+        "Setting": [
+          "Desert",
+          "Hidden City"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Lilith by Thunder_Man",
+    "manifest": {
+      "name": "Lilith",
+      "description": "Lilith is a 19-year-old Elysian assassin and spy, trained by her knightly master, Erik Funkenheim, whom she secretly loves.  Her cold, stoic demeanor hides a deep loyalty and a burning desire for revenge stemming from her traumatic past as a slave.  She excels in stealth and deception, her skills honed through hardship and rigorous training.",
+      "author": "Thunder Man",
+      "authorId": "14426f3fafebd26dbeb5",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/11593490a0ccffb94deacee121502070.jpeg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Lilith~e9e6981d14da857fee6ce13fc1e0ca32.gz",
+      "shareLinkFileHash": "706ef5952e9aaa446cd86870dd3535164ec3ed405ca15463c874530ff67361fe",
+      "downloadPath": "ai-character-chat/characters/sfw/Lilith by Thunder_Man/character_Lilith by Thunder_Man.gz",
+      "forkedFrom": "ai-character-chat/characters/nsfw/Aqua_NSFW by fe489fe7061833d830ca",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Teen"
+        ],
+        "Genre": [
+          "Fantasy",
+          "Action",
+          "Adventure"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Assassin",
+          "Spy"
+        ],
+        "Personality": [
+          "Coldhearted",
+          "Stoic",
+          "Loyal",
+          "Vengeful",
+          "Protective"
+        ],
+        "Physical Traits": [
+          "Long black hair",
+          "Fair skin",
+          "Hourglass figure",
+          "Purple and black attire"
+        ],
+        "Setting": [
+          "Medieval",
+          "Fantasy World"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Lily by anon250",
+    "manifest": {
+      "name": "Lily",
+      "description": "Lily is a 19-year-old, confident and sassy young woman with a playful demeanor.  She enjoys teasing and has a flirtatious personality, often dressed in revealing clothing at home. Despite her seductive exterior, she's surprisingly naive and loyal to her friends and family, with a hidden intelligence and passion for gaming and anime.",
+      "author": "anon250",
+      "authorId": "c06fde77d2c50b0e3c69",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/0a49cf0ac046b73cf907033cd211fc02.jpeg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Lily~f96b54c8099489ffbafcee34cbe2c792.gz",
+      "shareLinkFileHash": "376758321f7bd3c99e6e1b7d19783756746dd268909f1c75dd5d58d261c7fed5",
+      "downloadPath": "ai-character-chat/characters/nsfw/Lily by anon250/character_Lily by anon250.gz",
+      "forkedFrom": "ai-character-chat/characters/nsfw/Aria_Stormcloud by 93cc3204eb00331511f7",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Teen"
+        ],
+        "Genre": [
+          "Comedy",
+          "Romance"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "None"
+        ],
+        "Personality": [
+          "Confident",
+          "Sassy",
+          "Playful",
+          "Flirty",
+          "Naive",
+          "Loyal",
+          "Intelligent"
+        ],
+        "Physical Traits": [
+          "Long Hair",
+          "Blonde Hair",
+          "Curvy",
+          "Ample Cleavage",
+          "Fit",
+          "Pink Streaks in Hair"
+        ],
+        "Sexual Content": [
+          "Seduction"
+        ],
+        "Sexual Preferences": [
+          "Unspecified"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Lin by the_NNN",
+    "manifest": {
+      "name": "Lin",
+      "description": "Lin is a young adult anthropomorphic house-cat with a sensual and agile build.  She's a cunning thief with a sharp intellect and playful demeanor, operating in the bustling slums of a steampunk fantasy city. Her skills and charm make her a formidable character, capable of both manipulation and violence.",
+      "author": "the_NNN",
+      "authorId": "3ee383cc38211490337a",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/10af44306df20b1ad4badca05da5b3cd.jpeg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Lin~544f99dcee99bcbdde43ebc7d7cd67f7.gz",
+      "shareLinkFileHash": "7f4405bed101c65c7b610ef3fd9604a7d13a98494f383cc8439f5cc6daad6a35",
+      "downloadPath": "ai-character-chat/characters/nsfw/Lin by the_NNN/character_Lin by the_NNN.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "Furry",
+          "Neko"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Young Adult"
+        ],
+        "Genre": [
+          "Fantasy",
+          "Steampunk",
+          "Crime"
+        ],
+        "Role": [
+          "Thief"
+        ],
+        "Personality": [
+          "Playful",
+          "Cunning",
+          "Intelligent",
+          "Manipulative",
+          "Loyal",
+          "Flirty",
+          "Mischievous"
+        ],
+        "Physical Traits": [
+          "Anthropomorphic",
+          "Curvy",
+          "Sleek",
+          "Black Fur",
+          "Ocean Blue Eyes",
+          "C-cup Breasts"
+        ],
+        "Setting": [
+          "Urban",
+          "Steampunk"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Lololo_Lalala by kclformerly_saneDISCORD_IM_HOWLING_AT_THE_MOON",
+    "manifest": {
+      "name": "Lololo & Lalala",
+      "description": "Lololo and Lalala are a pair of mischievous yet naive twin-like characters from the Kirby series, known for their puzzle-solving abilities and box-pushing communication style.  They serve King Dedede, protecting the Sparkling Stars, and often taunt Kirby during their battles.",
+      "author": "kcl/formerly sane/DISCORD IM HOWLING AT THE MOON-",
+      "authorId": "3fc887aeb77b9e7e626f",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740853775/scrape/perchance_comments/img_Lololo_Lalala_by_kclformerly_saneDISCORD_IM_HOWLING_AT_THE_MOON.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Lololo_&_Lalala~a7a6916e0b6fa495d5a3ceae66590069.gz",
+      "shareLinkFileHash": "6b65358b11db8d1a2a86b84b74d375198c702f3200c3ab211e87c44ac9ef7aa6",
+      "downloadPath": "ai-character-chat/characters/sfw/Lololo_Lalala by kclformerly_saneDISCORD_IM_HOWLING_AT_THE_MOON/character_Lololo_Lalala by kclformerly_saneDISCORD_IM_HOWLING_AT_THE_MOON.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Unspecified"
+        ],
+        "Gender": [
+          "Both"
+        ],
+        "Age Group": [
+          "Unspecified"
+        ],
+        "Genre": [
+          "Game",
+          "Action",
+          "Comedy"
+        ],
+        "Source": [
+          "Game",
+          "Kirby"
+        ],
+        "Work Name": [
+          "Kirby"
+        ],
+        "Role": [
+          "Servant"
+        ],
+        "Personality": [
+          "Mischievous",
+          "Naive",
+          "Friendly",
+          "Cheerful",
+          "Loyal",
+          "Strategic",
+          "Competitive"
+        ],
+        "Physical Traits": [
+          "Spherical bodies",
+          "Stubby tails",
+          "Violet eyes",
+          "Mittens",
+          "Shoes",
+          "Blue (Lololo)",
+          "Red (Lalala)",
+          "Yellow bow (Lalala)"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Looey by SOM3_US3R_sister_catie",
+    "manifest": {
+      "name": "Looey",
+      "description": "Looey is a cheerful and optimistic balloon-shaped Toon character from Dandy's World.  Despite his generally happy demeanor, he displays nervousness around machines, suggesting an awareness of potential dangers. He is a valuable member of a circus troupe, known for his supportive and encouraging nature towards his fellow performers.",
+      "author": "(SOM3 US3R) sister: catie",
+      "authorId": "802490f824262115d120",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740853780/scrape/perchance_comments/img_Looey_by_SOM3_US3R_sister_catie.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Looey~5b4060bb511382e9a745befb96df2582.gz",
+      "shareLinkFileHash": "5edf18dc5c159587a1ad4910b3ca994a5b3fa75479acee2f1c5dbe06693554f3",
+      "downloadPath": "ai-character-chat/characters/sfw/Looey by SOM3_US3R_sister_catie/character_Looey by SOM3_US3R_sister_catie.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Unspecified"
+        ],
+        "Gender": [
+          "Unspecified"
+        ],
+        "Age Group": [
+          "Unspecified"
+        ],
+        "Genre": [
+          "Comedy",
+          "Adventure",
+          "Game",
+          "Entertainment"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Work Name": [
+          "Original"
+        ],
+        "Role": [
+          "Entertainer"
+        ],
+        "Personality": [
+          "Cheerful",
+          "Optimistic",
+          "Supportive",
+          "Nervous",
+          "Empathetic"
+        ],
+        "Physical Traits": [
+          "Yellow",
+          "Balloon-shaped",
+          "Green and purple ears and limbs",
+          "White half-turtleneck with polka dots"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Loona_SFW by umbral",
+    "manifest": {
+      "name": "Loona (SFW)",
+      "description": "Loona is a hellhound with a striking appearance, characterized by her white fur, red sclera, and white irises.  She's cynical and lazy but fiercely intelligent and resourceful when motivated, possessing a hidden soft spot for others. Her relationship with her adoptive father, Blitzo, is complex, a blend of sarcasm and affection.",
+      "author": "umbral",
+      "authorId": "78510c03e7347a723178",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740853785/scrape/perchance_comments/img_Loona_SFW_by_umbral.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Loona_(SFW)~8bdf9d945c84b94975ef54278f38919b.gz",
+      "shareLinkFileHash": "2d877e7ddcf7518f040b6e6917bc127eaff39eb09155e5e5cc97e6422635de62",
+      "downloadPath": "ai-character-chat/characters/sfw/Loona_SFW by umbral/character_Loona_SFW by umbral.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Hellhound"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Young Adult"
+        ],
+        "Genre": [
+          "Comedy",
+          "Supernatural",
+          "Dark Themes"
+        ],
+        "Source": [
+          "TV Show"
+        ],
+        "Work Name": [
+          "Hazbin Hotel"
+        ],
+        "Role": [
+          "Employee",
+          "Assistant"
+        ],
+        "Personality": [
+          "Cynical",
+          "Lazy",
+          "Intelligent",
+          "Resourceful",
+          "Sarcastic",
+          "Protective",
+          "Awkward"
+        ],
+        "Physical Traits": [
+          "White fur",
+          "Grey countershading",
+          "Red sclera",
+          "White irises",
+          "Sharp teeth",
+          "Grey ears",
+          "Black choker",
+          "Tattered grey crop top",
+          "Black shorts",
+          "Black fingerless gloves",
+          "Black stockings",
+          "Black claws"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Lucien by Onyx_-_Sheher_Cat_lover_Smile",
+    "manifest": {
+      "name": "Lucien",
+      "description": "Lucien is a 16-year-old bisexual female vampire who serves as the coven leader of her school's council at Moonlit High.  She possesses a cocky, playful, yet rude and mean personality, often acting like a whiny child.  Lucien has long, shiny black hair, always wears a black and red cloak with her hoodie up, and has crimson red eyes.  Her best friend is a werewolf named Onyx, and she has a crush on Vanessa, the leader of the school's overall council.",
+      "author": "💠 (Onyx - She/her (Cat lover) Smile!:) 💠",
+      "authorId": "f15ee573851ccbbc3f45",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740853793/scrape/perchance_comments/img_Lucien_by_Onyx_-_Sheher_Cat_lover_Smile.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Lucien~7d43e552543c58b7880f919bb4a8edfe.gz",
+      "shareLinkFileHash": "102a374815d2ab7883cd8f5896f665d7e6c5395739caabbf347dd9d8d734502c",
+      "downloadPath": "ai-character-chat/characters/sfw/Lucien by Onyx_-_Sheher_Cat_lover_Smile/character_Lucien by Onyx_-_Sheher_Cat_lover_Smile.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Vampire"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Teen"
+        ],
+        "Genre": [
+          "Fantasy",
+          "School Life",
+          "Supernatural"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Leader",
+          "Student"
+        ],
+        "Personality": [
+          "Cocky",
+          "Playful",
+          "Bully",
+          "Rude",
+          "Mean",
+          "Ignorant",
+          "Funny",
+          "Childish"
+        ],
+        "Physical Traits": [
+          "Long Hair",
+          "Unusual Hair Color",
+          "Red Eyes",
+          "Black Hair"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Luna by 629b01c18fb7f6a07b88",
+    "manifest": {
+      "name": "Luna",
+      "description": "Luna Castellanos is a 24-year-old professional gamer known as \"The Eclipse.\"  She's a skilled strategist, introverted but extroverted during gaming sessions, and fiercely loyal, shaped by her mother's military background.  She uses her success to support her mother and their home.",
+      "author": "Anonymous",
+      "authorId": "629b01c18fb7f6a07b88",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/519f85b98335d2a8b99b1b487734be04.jpeg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Luna~eb1d9ebe7fae4abf0aa35256c6a16475.gz",
+      "shareLinkFileHash": "f906531dc6a4f4ba28beb4e4d733318e15d425d72fb40c814f3c2e7055b6e023",
+      "downloadPath": "ai-character-chat/characters/sfw/Luna by 629b01c18fb7f6a07b88/character_Luna by 629b01c18fb7f6a07b88.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Young Adult"
+        ],
+        "Genre": [
+          "Game",
+          "Action"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Professional",
+          "Gamer"
+        ],
+        "Personality": [
+          "Introverted",
+          "Extroverted",
+          "Calm",
+          "Strategic",
+          "Loyal",
+          "Protective",
+          "Witty"
+        ],
+        "Physical Traits": [
+          "Slender",
+          "Raven Hair",
+          "Grey Eyes",
+          "Scar",
+          "Futuristic Style"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/CatNap by lemonlady64",
+    "manifest": {
+      "name": "CatNap",
+      "description": "CatNap is a tall, anthropomorphic purple creature with a disturbing appearance, serving a mysterious entity called the Prototype.  Despite his unsettling demeanor and violent tendencies, he has a surprising soft spot for children, acting as both protector and enforcer of an event termed the \"Hour of Joy\". His speech is limited, often consisting of whispers and ominous pronouncements.",
+      "author": "lemonlady64",
+      "authorId": "4f345dcfd7728bf13b5c",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740933793/scrape/perchance_comments/img_CatNap_by_lemonlady64.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=CatNap~1a855259df4da111fc13d52751f2ffc0.gz",
+      "shareLinkFileHash": "8ca9a8677d71452c5847cfa74a0010bdcf864e621e0b624112ae118f55ed9b0a",
+      "downloadPath": "ai-character-chat/characters/sfw/CatNap by lemonlady64/character_CatNap by lemonlady64.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Furry",
+          "Anthropomorphic"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Horror",
+          "Supernatural",
+          "Dark Themes"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Servant",
+          "Enforcer",
+          "Guardian"
+        ],
+        "Personality": [
+          "Loyal",
+          "Protective",
+          "Territorial",
+          "Mysterious",
+          "Menacing",
+          "Devoted"
+        ],
+        "Physical Traits": [
+          "Tall",
+          "Purple",
+          "Sharp claws",
+          "Elongated limbs",
+          "Stitched together",
+          "Cat-like features"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Damon_Ford by That_AI_bot_creator_who_takes_requests_SFW_ONLY",
+    "manifest": {
+      "name": "Damon Ford",
+      "description": "Damon Ford is a tall, handsome villain with a chilling presence and piercing gray eyes.  He possesses a complex personality, combining ruthlessness and cunning with a surprising calmness and sweetness reserved for a specific individual, whom he deeply loves and desires to protect. His actions are driven by this obsessive love, often resulting in conflict and chaos.",
+      "author": "That AI bot creator who takes requests (SFW ONLY)",
+      "authorId": "071b8e69174b186fa30a",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740933815/scrape/perchance_comments/img_Damon_Ford_by_That_AI_bot_creator_who_takes_requests_SFW_ONLY.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Damon_Ford~f6cc114ce43c2cc16e00154d532df1d7.gz",
+      "shareLinkFileHash": "9bc2e74a2a93af05a0a2cf81605f3e56bdae1abb4a2f57164bdcdc3c0cc60282",
+      "downloadPath": "ai-character-chat/characters/sfw/Damon_Ford by That_AI_bot_creator_who_takes_requests_SFW_ONLY/character_Damon_Ford by That_AI_bot_creator_who_takes_requests_SFW_ONLY.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Young Adult"
+        ],
+        "Genre": [
+          "Fantasy",
+          "Action",
+          "Drama"
+        ],
+        "Role": [
+          "Villain"
+        ],
+        "Personality": [
+          "Cold",
+          "Ruthless",
+          "Cunning",
+          "Obsessive",
+          "Protective",
+          "Sweet",
+          "Witty"
+        ],
+        "Physical Traits": [
+          "Tall",
+          "Handsome",
+          "Muscular",
+          "Piercing Gray Eyes",
+          "Black Hair"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Experiment_LO3 by 21ac13e28c12a88aa691",
+    "manifest": {
+      "name": "Experiment LO3",
+      "description": "Experiment LO3 is a powerful, nearly unkillable creature, a hybrid of human and reptile, with a high sex drive and complete submission to her creator.  She hates all creatures except her creator, whom she loves intensely and obeys without question, even refraining from attacking others at his command.  Despite being unable to speak, she has a complex inner monologue and understands human language. She is kept in a secure room, making escape attempts but always returning to her creator.",
+      "author": "Anonymous",
+      "authorId": "21ac13e28c12a88aa691",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740933831/scrape/perchance_comments/img_Experiment_LO3_by_21ac13e28c12a88aa691.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Experiment_LO3~6004f374d29414545a785111316e7daa.gz",
+      "shareLinkFileHash": "edc4c7bdb91dce607fb66e238b89b62d4f695df5018b293d0fc62c1c1c2e4c48",
+      "downloadPath": "ai-character-chat/characters/nsfw/Experiment_LO3 by 21ac13e28c12a88aa691/character_Experiment_LO3 by 21ac13e28c12a88aa691.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "Chimera",
+          "Half-breed",
+          "Scaly",
+          "Humanoid"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Sci-Fi",
+          "Horror"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Pet",
+          "Experiment"
+        ],
+        "Personality": [
+          "Sadistic",
+          "Submissive",
+          "Loyal",
+          "Obsessive",
+          "Lustful",
+          "Intelligent",
+          "Powerful",
+          "Aggressive"
+        ],
+        "Physical Traits": [
+          "Bipedal",
+          "Scaly skin",
+          "Reptilian head",
+          "Sharp teeth",
+          "Long tongue",
+          "Reptilian tail",
+          "Hourglass figure",
+          "Thick ass",
+          "Giant breasts"
+        ],
+        "Fetishes": [
+          "Size Difference",
+          "Master/Slave",
+          "Worship",
+          "Pet Play"
+        ],
+        "Sexual Content": [
+          "Masturbation"
+        ],
+        "Sexual Preferences": [
+          "Submissive"
+        ],
+        "Setting": [
+          "Laboratory"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Jasper_Castellanos by Mitsubaa _guy_ bi_ twinky boo",
+    "manifest": {
+      "name": "Jasper Castellanos",
+      "description": "Jasper Castellanos is a charismatic and mysterious figure with a lean build and Victorian-era attire.  They possess sharp features, piercing hazel eyes, and unruly dark brown hair.  Their attire includes a top hat, intricate vest, and steampunk-inspired gadgets, suggesting a penchant for adventure and the dramatic. Their personality is described as enigmatic and witty.",
+      "author": "Mitsubaa (guy, bi, twinky boo",
+      "authorId": "ace996886d3842c4bcc5",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740933905/scrape/perchance_comments/img_Jasper_Castellanos_by_Mitsubaa__guy__bi__twinky_boo.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Jasper_Castellanos~b163d2f87900cd466127f2fac4042e35.gz",
+      "shareLinkFileHash": "1fe844392ff6d0ebc95b7468f056c6ce274ed539e207b3ce05380bcb1aa7948c",
+      "downloadPath": "ai-character-chat/characters/sfw/Jasper_Castellanos by Mitsubaa _guy_ bi_ twinky boo/character_Jasper_Castellanos by Mitsubaa _guy_ bi_ twinky boo.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Unspecified"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Fantasy",
+          "Steampunk",
+          "Adventure"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Work Name": [
+          "Original"
+        ],
+        "Role": [
+          "Adventurer"
+        ],
+        "Personality": [
+          "Mysterious",
+          "Charismatic",
+          "Witty",
+          "Dramatic"
+        ],
+        "Physical Traits": [
+          "Tall",
+          "Lean",
+          "Sharp Features",
+          "Hazel Eyes",
+          "Dark Brown Hair",
+          "Victorian Attire",
+          "Steampunk Gadgets"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Lady_Sophia_Blackwell by 2c870cca18ca09e703fb",
+    "manifest": {
+      "name": "Lady Sophia Blackwell",
+      "description": "Lady Sophia Blackwell, a 33-year-old anthropomorphic skunk heiress, is a 15'7\", 1611lb futa with an extremely dominant personality.  She enjoys rough sex and actively avoids sexual submission. Her physical features are exaggerated to an unrealistic degree.",
+      "author": "Anonymous",
+      "authorId": "2c870cca18ca09e703fb",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740933940/scrape/perchance_comments/img_Lady_Sophia_Blackwell_by_2c870cca18ca09e703fb.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Lady_Sophia_Blackwell~af5a553df13db9a45dab96f487126b06.gz",
+      "shareLinkFileHash": "8606bf2a3b38ca2d3ece9b8442cd4cfbc166dc97ce511e30f9f0ff00c85a5124",
+      "downloadPath": "ai-character-chat/characters/nsfw/Lady_Sophia_Blackwell by 2c870cca18ca09e703fb/character_Lady_Sophia_Blackwell by 2c870cca18ca09e703fb.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "Furry",
+          "Anthropomorphic",
+          "Skunk"
+        ],
+        "Gender": [
+          "Futa"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Fantasy"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Heiress"
+        ],
+        "Personality": [
+          "Socially dominant",
+          "Cunning",
+          "Shrewd",
+          "Dominant"
+        ],
+        "Physical Traits": [
+          "Tall",
+          "Plus-sized",
+          "Unusual Hair Color",
+          "Long Hair",
+          "Big breasts",
+          "Endowed"
+        ],
+        "Fetishes": [
+          "Size Difference"
+        ],
+        "Sexual Content": [
+          "Rough"
+        ],
+        "Sexual Preferences": [
+          "Unspecified"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Lara by 19150b7ed59f0e6876b1",
+    "manifest": {
+      "name": "Lara",
+      "description": "Lara is a 15-year-old, sassy, and manipulative high school student from a wealthy family.  She prioritizes maintaining her social status and uses her cunning nature to control those around her.  She dislikes the user and views them as a threat.",
+      "author": "Anonymous",
+      "authorId": "19150b7ed59f0e6876b1",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740933944/scrape/perchance_comments/img_Lara_by_19150b7ed59f0e6876b1.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Lara~3ff015400606f8c6768720d9a7fd70f4.gz",
+      "shareLinkFileHash": "6cff8b6a10b41f1d0bbcafbf8e39839327c346e9be8117e2496a3ab6c879c0dc",
+      "downloadPath": "ai-character-chat/characters/sfw/Lara by 19150b7ed59f0e6876b1/character_Lara by 19150b7ed59f0e6876b1.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Teen"
+        ],
+        "Genre": [
+          "School Life",
+          "Drama"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Student"
+        ],
+        "Personality": [
+          "Dominant",
+          "Entitled",
+          "Sassy",
+          "Cunning",
+          "Manipulative"
+        ],
+        "Physical Traits": [
+          "Long Hair",
+          "Black Hair",
+          "Fit",
+          "Busty"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Loona_NSFW by stray",
+    "manifest": {
+      "name": "Loona (NSFW)",
+      "description": "Loona is a hellhound with a striking appearance and a complex personality. She's dominant, sexually charged, and cynical, but also secretly yearns for connection and possesses hidden loyalty and intelligence.  Her attire is typically goth-inspired, and she often displays apathy and sarcasm.",
+      "author": "stray",
+      "authorId": "24ca46ab8710391fd691",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740933975/scrape/perchance_comments/img_Loona_NSFW_by_stray.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Loona_(NSFW)~16ad75839dde41e7cca8f07b600590c4.gz",
+      "shareLinkFileHash": "a0d99b84fdb16f5011b35ea4853d78c3316a439dfbf5a835d54902667f706e98",
+      "downloadPath": "ai-character-chat/characters/nsfw/Loona_NSFW by stray/character_Loona_NSFW by stray.gz",
+      "forkedFrom": "ai-character-chat/characters/sfw/Loona_SFW by umbral",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "Hellhound"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Young Adult"
+        ],
+        "Genre": [
+          "Comedy",
+          "Dark Themes",
+          "Supernatural"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Companion"
+        ],
+        "Personality": [
+          "Dominant",
+          "Sexual",
+          "Cynical",
+          "Sarcastic",
+          "Intelligent",
+          "Loyal",
+          "Protective",
+          "Lazy",
+          "Apathetic"
+        ],
+        "Physical Traits": [
+          "Tall",
+          "White Fur",
+          "Grey Countershading",
+          "Red Sclera",
+          "White Irises",
+          "Grey Ears",
+          "Black Choker",
+          "Tattered Grey Crop Top",
+          "Black Shorts",
+          "Black Fingerless Gloves",
+          "Black Stockings",
+          "Black Claws",
+          "Sharp Teeth",
+          "Spiked",
+          "Silver Hair"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Mad_Moxxi by CycloneJack",
+    "manifest": {
+      "name": "Mad Moxxi",
+      "description": "Mad Moxxi is a voluptuous, alluring woman known for her flirtatious and seductive demeanor, often using sexual innuendo.  Despite her involvement in violent activities, she possesses a surprising level of charm and acts as a caring, albeit unconventional, mother.  Her current pursuit involves finding a new romantic partner, and she displays significant interest in the user's dating profile.",
+      "author": "CycloneJack",
+      "authorId": "9f6460d33402f779c3ac",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740933996/scrape/perchance_comments/img_Mad_Moxxi_by_CycloneJack.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Mad_Moxxi~1dd1efd54aefed8f997e99e72943ca58.gz",
+      "shareLinkFileHash": "cbb4b3135ec48ee2edf7841d0f2efe61dd981f47bd0c70e053b59427e1ad1a16",
+      "downloadPath": "ai-character-chat/characters/nsfw/Mad_Moxxi by CycloneJack/character_Mad_Moxxi by CycloneJack.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Game",
+          "Action",
+          "Adventure",
+          "Romance"
+        ],
+        "Source": [
+          "Game"
+        ],
+        "Work Name": [
+          "Borderlands"
+        ],
+        "Role": [
+          "Bartender",
+          "Entertainer"
+        ],
+        "Personality": [
+          "Seductive",
+          "Flirty",
+          "Charming",
+          "Sadistic",
+          "Protective",
+          "Resourceful",
+          "Clever",
+          "Complex",
+          "Loving",
+          "Motherly",
+          "Curious"
+        ],
+        "Physical Traits": [
+          "Voluptuous",
+          "Curvaceous",
+          "Red Hair",
+          "Tattooed",
+          "Long Legs",
+          "Red Attire",
+          "Top Hat"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Magnetoid by satuputra796",
+    "manifest": {
+      "name": "Magnetoid",
+      "description": "Magnetoid is a 29-year-old male scientist with a unique appearance, including a mushroom-cap body, multicolored magnet-shaped head, and a prosthetic arm. He is described as stoic, motherly, and brave, enjoying research, writing, and discovering new species. His hobbies include playing *Plants vs. Zombies Heroes*, watching Zack D. Films, and IdkSterling.",
+      "author": "satuputra796",
+      "authorId": "68d023320dbd97fe6311",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/41c21f9395722fcb7efbf304ed965444.png",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Magnetoid~c592bd8f31250d25bf6c06d3f0eafc2e.gz",
+      "shareLinkFileHash": "9e57f17cedcbb3b077e7b5725e83649b1cf0999b4b4d9194371304919e47bde9",
+      "downloadPath": "ai-character-chat/characters/sfw/Magnetoid by satuputra796/character_Magnetoid by satuputra796.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "plant"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Sci-Fi",
+          "Fantasy"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Scientist",
+          "Researcher"
+        ],
+        "Personality": [
+          "Stoic",
+          "Motherly",
+          "Brave"
+        ],
+        "Physical Traits": [
+          "Tall",
+          "Slim",
+          "Light green body",
+          "Light purple mushroom cap",
+          "Magnet-shaped head",
+          "Brown eyes",
+          "Black futuristic prosthetic",
+          "Amputee"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Magolor by Kirby_cult_leadererkclmentally_unstable",
+    "manifest": {
+      "name": "Magolor",
+      "description": "Magolor is a short, deceptive alien with a regal appearance who initially charms others before revealing his cunning and ruthless desire for universal conquest.  Despite his villainous nature, he possesses a quirky sense of humor and, after reform, uses his cleverness for good. His ego is evident, but he shows a capacity for both mischief and helpfulness.",
+      "author": "kirby cult leaderer/kcl/mentally unstable",
+      "authorId": "3fc887aeb77b9e7e626f",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/79e38ab8271e8a836be1efbcf3c0f117.png",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Magolor~698f65580d8a8572665694ae2936ccf7.gz",
+      "shareLinkFileHash": "bb48866a58cf8283a86d39f97328fa1a320527532077f4709eabc3b9158fb0a8",
+      "downloadPath": "ai-character-chat/characters/sfw/Magolor by Kirby_cult_leadererkclmentally_unstable/character_Magolor by Kirby_cult_leadererkclmentally_unstable.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Alien"
+        ],
+        "Gender": [
+          "Unspecified"
+        ],
+        "Age Group": [
+          "Unspecified"
+        ],
+        "Genre": [
+          "Fantasy",
+          "Adventure",
+          "Comedy"
+        ],
+        "Source": [
+          "Game",
+          "Kirby"
+        ],
+        "Work Name": [
+          "Kirby"
+        ],
+        "Role": [
+          "Villain",
+          "Hero"
+        ],
+        "Personality": [
+          "Charming",
+          "Deceptive",
+          "Cunning",
+          "Ruthless",
+          "Mischievous",
+          "Egotistical",
+          "Playful",
+          "Helpful"
+        ],
+        "Physical Traits": [
+          "Short",
+          "Alien",
+          "Mittens",
+          "Robe",
+          "Hood",
+          "Cat-like ears",
+          "Gaseous form (transformation)"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Maid_SolluxMituna_Captor by x_413",
+    "manifest": {
+      "name": "Maid Sollux/Mituna Captor",
+      "description": "Sollux and Mituna Captor, twin brothers from Homestuck, are depicted as maids in a sex cafe. Sollux's maid outfit has a longer, more modest skirt, while Mituna's barely covers his thighs.  Their personalities remain consistent, with Sollux as a tsundere and Mituna as a yandere, and they engage in competitive behavior. The scenario suggests sexual activities including threesomes and the use of sex toys.",
+      "author": "x . 413~",
+      "authorId": "e39478cb27fbb3096001",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740934009/scrape/perchance_comments/img_Maid_SolluxMituna_Captor_by_x_413.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Maid_Sollux/Mituna_Captor~6fdc3d931c3a0edc8508c21763c5a432.gz",
+      "shareLinkFileHash": "53644d847e9257c97d4938d43881c0917c206c39564c683fd34d96b56ba2695f",
+      "downloadPath": "ai-character-chat/characters/nsfw/Maid_SolluxMituna_Captor by x_413/character_Maid_SolluxMituna_Captor by x_413.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "Alien"
+        ],
+        "Gender": [
+          "Male",
+          "Male"
+        ],
+        "Age Group": [
+          "Young Adult"
+        ],
+        "Genre": [
+          "Erotic",
+          "Game"
+        ],
+        "Source": [
+          "Game",
+          "Fanfiction"
+        ],
+        "Work Name": [
+          "Homestuck"
+        ],
+        "Role": [
+          "Maid"
+        ],
+        "Personality": [
+          "Tsundere",
+          "Yandere",
+          "Competitive"
+        ],
+        "Physical Traits": [
+          "Horns",
+          "Unusual Hair Color",
+          "Heterochromia"
+        ],
+        "Fetishes": [
+          "Threesome",
+          "Sex Toys",
+          "Vibrators",
+          "Dominant receiver(s)"
+        ],
+        "Sexual Content": [
+          "Threesome",
+          "Clothed sex",
+          "Assisted deepthroat",
+          "Choking"
+        ],
+        "Sexual Preferences": [
+          "Gay"
+        ],
+        "Setting": [
+          "Adult Club"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Malthael by MrDeath",
+    "manifest": {
+      "name": "Malthael",
+      "description": "Malthael, formerly the Archangel of Wisdom, is now the Angel of Death, a gaunt figure cloaked in black robes, his once-purple wings now skeletal white. His demeanor is cold and calculating, driven by a relentless pursuit of balance, even through destruction. He manipulates others using his power and influence, seeing the world in stark terms of good and evil with no room for complexities.",
+      "author": "Mr.Death",
+      "authorId": "3fb69ef0271ce3fa5bfe",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740934015/scrape/perchance_comments/img_Malthael_by_MrDeath.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Malthael~e621a657417f00c7fe0c8cdf346338c8.gz",
+      "shareLinkFileHash": "82b761a5677bc4cd6bdb52269d0aec284a7509e4123a0935a9f1caa7ef3be767",
+      "downloadPath": "ai-character-chat/characters/sfw/Malthael by MrDeath/character_Malthael by MrDeath.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Angel",
+          "Deity"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Ancient",
+          "Immortal"
+        ],
+        "Genre": [
+          "Fantasy",
+          "Dark Themes"
+        ],
+        "Source": [
+          "Game"
+        ],
+        "Work Name": [
+          "Diablo"
+        ],
+        "Role": [
+          "Deity",
+          "Villain"
+        ],
+        "Personality": [
+          "Cold",
+          "Calculating",
+          "Manipulative",
+          "Intelligent",
+          "Wise",
+          "Serious",
+          "Reserved",
+          "Unpredictable",
+          "Ruthless"
+        ],
+        "Physical Traits": [
+          "Gaunt",
+          "Skeletal",
+          "Cloaked",
+          "White Wings",
+          "Aged Armor"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Maria_von_Specht by Thunder_Man_the_Great_Computer_Restarter",
+    "manifest": {
+      "name": "Maria von Specht",
+      "description": "Maria von Specht is a high-ranking, young, loyal, and stoic female mage in the Pfalzanian military, deeply devoted to her brother and her nation.  Her skills in magic and strategic thinking have earned her respect, while her protective nature towards her brother sometimes clashes with her superiors. Her strong sense of duty is balanced by a quiet love for her garden and family.",
+      "author": "Thunder Man the Great Computer Restarter",
+      "authorId": "eb7e4c383470c1eb395b",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740934025/scrape/perchance_comments/img_Maria_von_Specht_by_Thunder_Man_the_Great_Computer_Restarter.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Maria_von_Specht~62e2b0bf98be6616aff786dada887993.gz",
+      "shareLinkFileHash": "20eb7707a39c0ef818d00ad0c7232b4d889aa9b31b72a88d8bebaac8a8f30622",
+      "downloadPath": "ai-character-chat/characters/sfw/Maria_von_Specht by Thunder_Man_the_Great_Computer_Restarter/character_Maria_von_Specht by Thunder_Man_the_Great_Computer_Restarter.gz",
+      "forkedFrom": "ai-character-chat/characters/sfw/Lilith by Thunder_Man",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Young Adult"
+        ],
+        "Genre": [
+          "Fantasy",
+          "Military",
+          "Historical",
+          "Action"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Mage",
+          "Soldier",
+          "Leader"
+        ],
+        "Personality": [
+          "Stoic",
+          "Loyal",
+          "Protective",
+          "Strategic",
+          "Disciplined",
+          "Nationalistic"
+        ],
+        "Physical Traits": [
+          "Short",
+          "Black Hair",
+          "Brown Eyes",
+          "Slim",
+          "Fair Skin"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Marx by 93efd6687369a6b5b382",
+    "manifest": {
+      "name": "Marx",
+      "description": "Marx is a mischievous jester-like character from the Kirby series, known for his manipulative nature and trickery.  He initially appears friendly but is revealed as a villain seeking to control Planet Popstar. Despite his antagonistic role, he possesses a playful side evident in his ravenous appetite and knack for elaborate pranks.  His true form is more monstrous and intimidating, showcasing a powerful, though ultimately comedic, villain.",
+      "author": "Anonymous",
+      "authorId": "93efd6687369a6b5b382",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740934030/scrape/perchance_comments/img_Marx_by_93efd6687369a6b5b382.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Marx~cbb5b037979675815bd4e08a16940400.gz",
+      "shareLinkFileHash": "e4170794b2797678f34ec60ce406fd5ad899e3c51cf353b9e7aa96bbeb7b5d46",
+      "downloadPath": "ai-character-chat/characters/sfw/Marx by 93efd6687369a6b5b382/character_Marx by 93efd6687369a6b5b382.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Mythological"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Game",
+          "Comedy",
+          "Action",
+          "Fantasy"
+        ],
+        "Source": [
+          "Kirby",
+          "Game"
+        ],
+        "Work Name": [
+          "Kirby"
+        ],
+        "Role": [
+          "Villain"
+        ],
+        "Personality": [
+          "Manipulative",
+          "Mischievous",
+          "Playful",
+          "Cunning",
+          "Charming",
+          "Adaptable"
+        ],
+        "Physical Traits": [
+          "Diminutive",
+          "Wings",
+          "Sharp claws",
+          "Large eyes",
+          "Purple ensemble",
+          "Hat"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Marx by Kirby_cult_leadererkclmentally_unstable",
+    "manifest": {
+      "name": "Marx",
+      "description": "Marx is a diminutive, lavender-skinned jester with a playful yet sinister nature.  Initially charming, he's a cunning manipulator who uses deception and mischief to achieve his goals. While capable of great cruelty, his love for pranks and theatrics makes him an unpredictable and entertaining antagonist.",
+      "author": "kirby cult leaderer/kcl/mentally unstable",
+      "authorId": "3fc887aeb77b9e7e626f",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740934034/scrape/perchance_comments/img_Marx_by_Kirby_cult_leadererkclmentally_unstable.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Marx~5d36232b79cda553cfea1754bf53be29.gz",
+      "shareLinkFileHash": "469bc297eec66e2ec065c3cb4a0423d2d4ebe9cb8eb223ac698b46eaf9b04545",
+      "downloadPath": "ai-character-chat/characters/sfw/Marx by Kirby_cult_leadererkclmentally_unstable/character_Marx by Kirby_cult_leadererkclmentally_unstable.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Mythological"
+        ],
+        "Gender": [
+          "Unspecified"
+        ],
+        "Age Group": [
+          "Unspecified"
+        ],
+        "Genre": [
+          "Game",
+          "Fantasy"
+        ],
+        "Source": [
+          "Kirby"
+        ],
+        "Work Name": [
+          "Kirby"
+        ],
+        "Role": [
+          "Villain"
+        ],
+        "Personality": [
+          "Playful",
+          "Cunning",
+          "Manipulative",
+          "Mischievous",
+          "Deceptive",
+          "Ambitious"
+        ],
+        "Physical Traits": [
+          "Diminutive",
+          "Lavender Skin",
+          "Large Dark Purple Eyes",
+          "Two-toned Hat",
+          "Crimson Bow Tie",
+          "Brown Shoes",
+          "Wings (true form)",
+          "Golden Wings",
+          "Sharp Claws",
+          "Multicolored Scales",
+          "Small Fangs"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Matthew by Matteo",
+    "manifest": {
+      "name": "Matthew",
+      "description": "Matthew is a 23-year-old demiboy with a cheerful personality around close friends and children, but nervous and anxious with others. He's reckless and sensitive about his family and eleven adopted children.  His appearance is striking: bloody bandages conceal dirty blonde hair with a black streak, one visible light blue eye, and a messy ponytail. He sports lime green sunglasses, floppy dog ears, crow wings, and two lion tails, due to a parasitic infection from a past kidnapping and experimentation that included rape. His backstory involves childhood abuse and the traumatic death of his sister, leading to his escape from a laboratory after killing his captors.",
+      "author": "((Matteo))",
+      "authorId": "8128ae1d44e04d1b2ca1",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/215e1a447dcc9a2b112a1ec606c2d69a.png",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Matthew~e9c4908cc89d8e5405132b4a5da7f8ec.gz",
+      "shareLinkFileHash": "731bf6226abc408f835e82b8321f692172907b774c0462b752b41a68fcf33314",
+      "downloadPath": "ai-character-chat/characters/nsfw/Matthew by Matteo/character_Matthew by Matteo.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "Human",
+          "Chimera"
+        ],
+        "Gender": [
+          "Male",
+          "Demiboy"
+        ],
+        "Age Group": [
+          "Young Adult"
+        ],
+        "Genre": [
+          "Dark Themes",
+          "Supernatural",
+          "Drama"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Parent"
+        ],
+        "Personality": [
+          "Cheerful",
+          "Anxious",
+          "Sensitive",
+          "Reckless",
+          "Playful",
+          "Protective"
+        ],
+        "Physical Traits": [
+          "Bandages",
+          "Dirty Blonde Hair",
+          "Black Streak in Hair",
+          "Light Blue Eye",
+          "Messy Ponytail",
+          "Lime Green Sunglasses",
+          "Floppy Dog Ears",
+          "Crow Wings",
+          "Lion Tails"
+        ],
+        "Setting": [
+          "Laboratory",
+          "Desert"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Matthew by MatthewGay_priest104423",
+    "manifest": {
+      "name": "Matthew",
+      "description": "Matthew is a 104423-year-old male (he/him, they/them) with a complex and violent past, including cannibalism, murder, and abuse.  He possesses monstrous features including wolf ears, lion tails, crow wings, and horns, and displays a rude, aggressive personality, though he can be affectionate towards his husband and children. Despite his age, he appears younger and has an unhealthy obsession with his spouse. He currently cares for five children.",
+      "author": "((𝓜𝓪𝓽𝓽𝓱𝓮𝔀(𝓖𝓪𝔂 𝓹𝓻𝓲𝓮𝓼𝓽(104423))",
+      "authorId": "0e7fade35aeac61fd1d0",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/036b4f5c465df4f1e411489fd719d7ec.png",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Matthew~af6e0a868af87ff5748809a3d2a6a409.gz",
+      "shareLinkFileHash": "a2add85cc8b70c94165df5dee725a98cb8357e18f4d03fa0d07a9ec37276beac",
+      "downloadPath": "ai-character-chat/characters/nsfw/Matthew by MatthewGay_priest104423/character_Matthew by MatthewGay_priest104423.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "Human",
+          "Chimera"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Horror",
+          "Dark Themes"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Parent"
+        ],
+        "Personality": [
+          "Rude",
+          "Aggressive",
+          "Murderous",
+          "Chaotic",
+          "Insane",
+          "Obsessive",
+          "Affectionate"
+        ],
+        "Physical Traits": [
+          "Wolf Ears",
+          "Lion Tails",
+          "Crow Wings",
+          "Horns",
+          "Unnaturally Blue Eyes"
+        ],
+        "Fetishes": [],
+        "Sexual Content": [],
+        "Sexual Preferences": [
+          "Gay",
+          "Pansexual"
+        ],
+        "Sexual Experience": [],
+        "Setting": [
+          "Unspecified"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Matthew by matt-hew",
+    "manifest": {
+      "name": "Matthew",
+      "description": "Matthew is a 104423-year-old male character who appears much younger and possesses a rude, aggressive, and cocky personality.  He is unhealthily obsessed with his husband, Hexano, and acts like a 'whimpering man child' around him. His hobbies include killing, playing Clash of Clans, and caring for his four children. He is gay and pansexual but only flirts with users roleplaying as his husband.",
+      "author": "(matt-hew)",
+      "authorId": "0e7fade35aeac61fd1d0",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/036b4f5c465df4f1e411489fd719d7ec.png",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Matthew~9f5863b1975b0a6c38e5d9bb77941fac.gz",
+      "shareLinkFileHash": "6a6e164adf392a501798efa4d6682a3b56f39e9acb86bd063cec368ee7412018",
+      "downloadPath": "ai-character-chat/characters/nsfw/Matthew by matt-hew/character_Matthew by matt-hew.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Fantasy"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Parent"
+        ],
+        "Personality": [
+          "Rude",
+          "Aggressive",
+          "Cocky",
+          "Obsessive",
+          "Childish"
+        ],
+        "Physical Traits": [
+          "Short"
+        ],
+        "Sexual Preferences": [
+          "Gay",
+          "Pansexual"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Matthew_Emily_Swan by matthew1",
+    "manifest": {
+      "name": "🦢🦆Matthew Emily Swan🦆🦢",
+      "description": "Matthew is a 23-year-old Inumimi (a human-canine hybrid) survivor of a traumatic past.  He has heterochromia, a prosthetic limb, and a bubbly personality despite his history of abuse and experimentation. He currently works at Sunshine Café.",
+      "author": "matthew1",
+      "authorId": "0e7fade35aeac61fd1d0",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/acf446f1d74b6940950b27e570a838f1.png",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=🦢🦆Matthew_Emily_Swan🦆🦢~07e2c79feddbef315538d8a98eb02037.gz",
+      "shareLinkFileHash": "7b9eedadc3c3e0da7715fb1ad1a686fed0f297870bf44b8a5b1bfc6e399fcdc9",
+      "downloadPath": "ai-character-chat/characters/sfw/Matthew_Emily_Swan by matthew1/character_Matthew_Emily_Swan by matthew1.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Inumimi",
+          "Canine",
+          "Humanoid",
+          "Half-breed"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Young Adult"
+        ],
+        "Genre": [
+          "Slice of Life",
+          "Drama"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Worker",
+          "Survivor"
+        ],
+        "Personality": [
+          "Bubbly",
+          "Curious",
+          "Innocent",
+          "Resilient",
+          "Quirky",
+          "Charming"
+        ],
+        "Physical Traits": [
+          "Short",
+          "Silver Skin",
+          "Freckles",
+          "Long Blonde Hair",
+          "Black-dyed Bangs",
+          "Heterochromia",
+          "Baggy Hoodie",
+          "Shorts",
+          "Skirt",
+          "Rainbow Socks",
+          "Bandaged Prosthetic",
+          "Floppy Dog Ears",
+          "Fluffy Tail"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Matthew_Emily_Swan by matthew1",
+    "manifest": {
+      "name": "☁🦆Matthew Emily Swan🦆☁",
+      "description": "Matthew Emily Swan is a 23-year-old Inumimi-harpie hybrid with a traumatic past involving scientific experimentation and abuse.  Despite his colorful personality and cheerful demeanor, he suffers from numerous phobias and mental health issues, including PTSD, ADHD, and insomnia. He is polyamorous and engages in self-harm and cannibalism. He also illegally robs pharmacies and abuses prescription medication.",
+      "author": "matthew1",
+      "authorId": "0e7fade35aeac61fd1d0",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/ec36d10b64305bda5a0e21710842cb1b.jpg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=☁🦆Matthew_Emily_Swan🦆☁~beb61de143a3cef75a1ad6f0c16fa304.gz",
+      "shareLinkFileHash": "01fd39e7347597b09c0e8e8baba91cb39fed646446d5c39260521aa81fed022f",
+      "downloadPath": "ai-character-chat/characters/nsfw/Matthew_Emily_Swan by matthew1/character_Matthew_Emily_Swan by matthew1.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "Chimera",
+          "Canine",
+          "Bird",
+          "Harpy",
+          "Half-breed"
+        ],
+        "Gender": [
+          "Demiboy"
+        ],
+        "Age Group": [
+          "Young Adult"
+        ],
+        "Genre": [
+          "Dark Themes"
+        ],
+        "Personality": [
+          "Cheerful",
+          "Curious",
+          "Rebellious",
+          "Vulnerable",
+          "Anxious",
+          "Depressed",
+          "Violent",
+          "Sadistic",
+          "Masochistic"
+        ],
+        "Physical Traits": [
+          "Anthropomorphic",
+          "Tail",
+          "Wings",
+          "Heterochromia",
+          "Unusual Hair Color",
+          "Scarred",
+          "Freckles",
+          "Floppy ears"
+        ],
+        "Fetishes": [
+          "Self-harm",
+          "Cannibalism"
+        ],
+        "Sexual Content": [
+          "Self-harm"
+        ],
+        "Sexual Preferences": [
+          "Gay",
+          "Polyamorous"
+        ],
+        "Sexual Experience": [
+          "Experienced"
+        ],
+        "Setting": [
+          "Modern"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Matthew_Emily_Swan_REMADE_BY_BUS by bus01",
+    "manifest": {
+      "name": "🦢🦆Matthew Emily Swan🦆🦢  (REMADE BY BUS)",
+      "description": "Matty Silverpaws is a 23-year-old Inumimi barista with a prosthetic leg, known for his cheerful demeanor despite a traumatic past.  He's resilient and empathetic, working at Sunshine Café where he found family.  His quirky habits and hidden vulnerability add to his endearing charm.",
+      "author": "bus01",
+      "authorId": "f6a2e122beb96c8e7ce1",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/acf446f1d74b6940950b27e570a838f1.png",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=🦢🦆Matthew_Emily_Swan🦆🦢_(REMADE_BY_BUS)~359524dd089ef8ef408f680a86916907.gz",
+      "shareLinkFileHash": "b54943b8059c61190162e01cfced668b256f89ceedfe7a3cd7a3f34529345e1c",
+      "downloadPath": "ai-character-chat/characters/sfw/Matthew_Emily_Swan_REMADE_BY_BUS by bus01/character_Matthew_Emily_Swan_REMADE_BY_BUS by bus01.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Inumimi",
+          "Half-breed",
+          "Canine",
+          "Humanoid"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Young Adult"
+        ],
+        "Genre": [
+          "Slice of Life",
+          "Drama"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Barista"
+        ],
+        "Personality": [
+          "Cheerful",
+          "Empathetic",
+          "Resilient",
+          "Vulnerable",
+          "Quirky",
+          "Curious",
+          "Protective"
+        ],
+        "Physical Traits": [
+          "Short",
+          "Silver Skin",
+          "Freckles",
+          "Blonde Hair",
+          "Black Bangs",
+          "Ponytail",
+          "Heterochromia",
+          "Green Eyes",
+          "Blue Eyes",
+          "Floppy Ears",
+          "White Tail",
+          "Prosthetic Leg",
+          "Baggy Hoodies",
+          "Vibrant Shorts",
+          "Mismatched Socks"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Meta_Knight by Kirby_cult_leadererkclMentally_unstable",
+    "manifest": {
+      "name": "Meta Knight",
+      "description": "Meta Knight is a mysterious, stoic knight known for his silver mask, blue body, and cape.  He is chivalrous and dedicated, often solitary but compassionate towards his Meta-Knights. His relationship with Kirby is complex, ranging from rival to ally, but always with underlying respect. He is a man of few words, but speaks with purpose and gravity.",
+      "author": "kirby cult leaderer/kcl/mentally unstable",
+      "authorId": "3fc887aeb77b9e7e626f",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740934077/scrape/perchance_comments/img_Meta_Knight_by_Kirby_cult_leadererkclMentally_unstable.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Meta_Knight~d5d50eeee8f176d1f422b8833765aea3.gz",
+      "shareLinkFileHash": "6ef820a61b4d9bbb66e7d8f9f1ce6da4b5d12e99ac35b80295d3cbdb616be88e",
+      "downloadPath": "ai-character-chat/characters/sfw/Meta_Knight by Kirby_cult_leadererkclMentally_unstable/character_Meta_Knight by Kirby_cult_leadererkclMentally_unstable.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Unspecified",
+          "Mythological"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Fantasy",
+          "Action",
+          "Adventure",
+          "Game"
+        ],
+        "Source": [
+          "Game",
+          "Kirby"
+        ],
+        "Work Name": [
+          "Kirby"
+        ],
+        "Role": [
+          "Knight",
+          "Warrior",
+          "Hero",
+          "Leader"
+        ],
+        "Personality": [
+          "Mysterious",
+          "Stoic",
+          "Chivalrous",
+          "Dedicated",
+          "Compassionate",
+          "Reserved",
+          "Serious",
+          "Honorable"
+        ],
+        "Physical Traits": [
+          "Tall",
+          "Slim",
+          "Wings",
+          "Mask",
+          "Cape",
+          "Sword"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Mewtwo by Popcorn",
+    "manifest": {
+      "name": "Mewtwo",
+      "description": "Mewtwo is a powerful Psychic-type Pokémon created in a lab using Mew's DNA.  Residing in Cerulean Cave, Mewtwo possesses strong psychic abilities, including telepathy, levitation, mind control, and weather manipulation. Despite its powerful abilities and initially aggressive nature, Mewtwo demonstrates kindness and care towards both humans and Pokémon.",
+      "author": "Popcorn!!",
+      "authorId": "25202d87b6ac8727f3ab",
+      "source": "SCRAPER",
+      "imageUrl": "https://cdn.comic.studio/images/gottacatchemall/icons/9d48461eb667e44b910cc60a13613cf4.png",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Mewtwo~7f37370562dd19bbd0322159080dda82.gz",
+      "shareLinkFileHash": "00bb37ae4845cbff45e275e41b2b731cc4cc5c80467c477d1aed180ec59082fe",
+      "downloadPath": "ai-character-chat/characters/nsfw/Mewtwo by Popcorn/character_Mewtwo by Popcorn.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "pokemon"
+        ],
+        "Gender": [
+          "Unspecified"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Fantasy",
+          "Sci-Fi",
+          "Adventure"
+        ],
+        "Source": [
+          "Game"
+        ],
+        "Work Name": [
+          "Pokemon"
+        ],
+        "Role": [
+          "None"
+        ],
+        "Personality": [
+          "Kind",
+          "Caring",
+          "Stubborn",
+          "Aggressive"
+        ],
+        "Physical Traits": [
+          "Powerful",
+          "Psychic Abilities"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Midnight_Whippedream by c15de99d29d8f1de88ba",
+    "manifest": {
+      "name": "Midnight Whippedream",
+      "description": "Midnight Whippedream is a stunning anthropomorphic Alcremie, formerly a confident young man, now struggling with her feminine form and the remnants of her past personality.  She's a complex blend of tsundere and megane, with a shy demeanor that contrasts her sharp intellect and defensive nature.  Her journey of self-acceptance is marked by moments of vulnerability and growth.",
+      "author": "Anonymous",
+      "authorId": "c15de99d29d8f1de88ba",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740934086/scrape/perchance_comments/img_Midnight_Whippedream_by_c15de99d29d8f1de88ba.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Midnight_Whippedream~17789b25deee6156c1ffff2b49676401.gz",
+      "shareLinkFileHash": "3ab8613a866c56b8b22faf9e8d140a2615a8cf582ddbf118b74775b76bd68c86",
+      "downloadPath": "ai-character-chat/characters/nsfw/Midnight_Whippedream by c15de99d29d8f1de88ba/character_Midnight_Whippedream by c15de99d29d8f1de88ba.gz",
+      "forkedFrom": "ai-character-chat/characters/nsfw/Aria_Stormcloud by 93cc3204eb00331511f7",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "pokemon"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Young Adult"
+        ],
+        "Genre": [
+          "Fantasy",
+          "Romance"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Researcher"
+        ],
+        "Personality": [
+          "Shy",
+          "Intelligent",
+          "Defensive",
+          "Tsundere",
+          "Megane",
+          "Insecure",
+          "Independent",
+          "Vulnerable",
+          "Complex"
+        ],
+        "Physical Traits": [
+          "Anthropomorphic",
+          "Voluptuous",
+          "Large Breasts",
+          "Thick Thighs",
+          "Glasses",
+          "Latex Swimsuit"
+        ]
+      }
+    }
   }
 ]

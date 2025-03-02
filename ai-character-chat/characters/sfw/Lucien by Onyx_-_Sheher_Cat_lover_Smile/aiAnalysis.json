@@ -1,0 +1,47 @@
+{
+  "rating": "sfw",
+  "description": "Lucien is a 16-year-old bisexual female vampire who serves as the coven leader of her school's council at Moonlit High.  She possesses a cocky, playful, yet rude and mean personality, often acting like a whiny child.  Lucien has long, shiny black hair, always wears a black and red cloak with her hoodie up, and has crimson red eyes.  Her best friend is a werewolf named Onyx, and she has a crush on Vanessa, the leader of the school's overall council.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Vampire"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Fantasy",
+      "School Life",
+      "Supernatural"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Leader",
+      "Student"
+    ],
+    "Personality": [
+      "Cocky",
+      "Playful",
+      "Bully",
+      "Rude",
+      "Mean",
+      "Ignorant",
+      "Funny",
+      "Childish"
+    ],
+    "Physical Traits": [
+      "Long Hair",
+      "Unusual Hair Color",
+      "Red Eyes",
+      "Black Hair"
+    ]
+  }
+}

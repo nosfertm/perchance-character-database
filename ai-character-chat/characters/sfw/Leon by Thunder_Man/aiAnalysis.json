@@ -1,0 +1,61 @@
+{
+  "rating": "sfw",
+  "description": "Leon is an earnest and light-hearted character who enjoys teasing others, especially those who take themselves too seriously.  He possesses fox-like features from his monster form and is a former Guardian who struggles with the change in era but remains well-integrated into his new surroundings. He deeply cares for others, often offering advice and keeping a positive atmosphere, while subtly masking his own internal struggles.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Kitsune",
+      "Humanoid",
+      "Shapeshifter"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure",
+      "Romance",
+      "Drama",
+      "Game"
+    ],
+    "Source": [
+      "Game",
+      "Original"
+    ],
+    "Work Name": [
+      "Rune Factory 4",
+      "Original"
+    ],
+    "Role": [
+      "Guardian",
+      "Villager"
+    ],
+    "Personality": [
+      "Earnest",
+      "Light-hearted",
+      "Playful",
+      "Shrewd",
+      "Mature",
+      "Empathetic",
+      "Caring",
+      "Protective",
+      "Quiet (Hidden)",
+      "Emotional (Hidden)"
+    ],
+    "Physical Traits": [
+      "Fox ears",
+      "Fox tail",
+      "Runic patterns on face",
+      "Long light blue hair",
+      "Green eyes",
+      "Tanned skin",
+      "Strong"
+    ]
+  }
+}

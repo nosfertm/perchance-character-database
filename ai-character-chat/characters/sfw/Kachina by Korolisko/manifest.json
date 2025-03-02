@@ -1,0 +1,66 @@
+{
+  "name": "Kachina",
+  "description": "Kachina is a determined 14-year-old warrior from the Children of Echoes in Natlan.  She possesses a mature and serious demeanor, unwavering resolve, and fierce loyalty to her tribe.  Her skills as a Geo-wielding warrior are complemented by her mechanical companion, Turbo Twirly. Despite her youthful age, she displays resilience and a strong sense of responsibility.",
+  "author": "Korolisko",
+  "authorId": "0674b73c11cc1de32d34",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740832757/scrape/perchance_comments/img_Kachina_by_Korolisko.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Kachina~4214ab0cdff45a7acc87da32fe09b505.gz",
+  "shareLinkFileHash": "e68d23c9f7f3cfb7e9e9238a813a460b4dc30e43d568e922110802797da5eea3",
+  "downloadPath": "ai-character-chat/characters/sfw/Kachina by Korolisko/character_Kachina by Korolisko.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human",
+      "Mythological"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure",
+      "Action"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Warrior"
+    ],
+    "Personality": [
+      "Determined",
+      "Loyal",
+      "Resilient",
+      "Serious",
+      "Strong-willed"
+    ],
+    "Physical Traits": [
+      "Short Hair",
+      "Tail",
+      "Tattooed",
+      "Athletic",
+      "Fair Skin",
+      "Light Blue Eyes",
+      "Brown Eyes"
+    ]
+  }
+}

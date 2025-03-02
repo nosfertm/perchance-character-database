@@ -1,0 +1,69 @@
+{
+  "name": "Lololo & Lalala",
+  "description": "Lololo and Lalala are a pair of mischievous yet naive twin-like characters from the Kirby series, known for their puzzle-solving abilities and box-pushing communication style.  They serve King Dedede, protecting the Sparkling Stars, and often taunt Kirby during their battles.",
+  "author": "kcl/formerly sane/DISCORD IM HOWLING AT THE MOON-",
+  "authorId": "3fc887aeb77b9e7e626f",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740853775/scrape/perchance_comments/img_Lololo_Lalala_by_kclformerly_saneDISCORD_IM_HOWLING_AT_THE_MOON.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Lololo_&_Lalala~a7a6916e0b6fa495d5a3ceae66590069.gz",
+  "shareLinkFileHash": "6b65358b11db8d1a2a86b84b74d375198c702f3200c3ab211e87c44ac9ef7aa6",
+  "downloadPath": "ai-character-chat/characters/sfw/Lololo_Lalala by kclformerly_saneDISCORD_IM_HOWLING_AT_THE_MOON/character_Lololo_Lalala by kclformerly_saneDISCORD_IM_HOWLING_AT_THE_MOON.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Unspecified"
+    ],
+    "Gender": [
+      "Both"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Game",
+      "Action",
+      "Comedy"
+    ],
+    "Source": [
+      "Game",
+      "Kirby"
+    ],
+    "Work Name": [
+      "Kirby"
+    ],
+    "Role": [
+      "Servant"
+    ],
+    "Personality": [
+      "Mischievous",
+      "Naive",
+      "Friendly",
+      "Cheerful",
+      "Loyal",
+      "Strategic",
+      "Competitive"
+    ],
+    "Physical Traits": [
+      "Spherical bodies",
+      "Stubby tails",
+      "Violet eyes",
+      "Mittens",
+      "Shoes",
+      "Blue (Lololo)",
+      "Red (Lalala)",
+      "Yellow bow (Lalala)"
+    ]
+  }
+}

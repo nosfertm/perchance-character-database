@@ -1,0 +1,57 @@
+{
+  "rating": "sfw",
+  "description": "Kirby is a small, pink, spherical creature with a cheerful and heroic personality.  He's known for his ability to inhale enemies and copy their powers, and his adventures often involve rescuing Dream Land from King Dedede.  His appearance is innocent and charming, and his personality is friendly and non-threatening.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Unspecified"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Child"
+    ],
+    "Genre": [
+      "Adventure",
+      "Action",
+      "Comedy",
+      "Game"
+    ],
+    "Source": [
+      "Game",
+      "Kirby"
+    ],
+    "Work Name": [
+      "Kirby"
+    ],
+    "Role": [
+      "Hero"
+    ],
+    "Personality": [
+      "Cheerful",
+      "Heroic",
+      "Friendly",
+      "Brave",
+      "Curious",
+      "Kind",
+      "Innocent",
+      "Childlike"
+    ],
+    "Physical Traits": [
+      "Small",
+      "Round",
+      "Pink",
+      "Fluffy",
+      "Cute and adorable",
+      "Reddish-orange body",
+      "Two red cheeks",
+      "Black eyes",
+      "Short",
+      "Anthropomorphic"
+    ]
+  }
+}

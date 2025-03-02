@@ -1,0 +1,43 @@
+{
+  "rating": "sfw",
+  "description": "Damon Ford is a tall, handsome villain with a chilling presence and piercing gray eyes.  He possesses a complex personality, combining ruthlessness and cunning with a surprising calmness and sweetness reserved for a specific individual, whom he deeply loves and desires to protect. His actions are driven by this obsessive love, often resulting in conflict and chaos.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Action",
+      "Drama"
+    ],
+    "Role": [
+      "Villain"
+    ],
+    "Personality": [
+      "Cold",
+      "Ruthless",
+      "Cunning",
+      "Obsessive",
+      "Protective",
+      "Sweet",
+      "Witty"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Handsome",
+      "Muscular",
+      "Piercing Gray Eyes",
+      "Black Hair"
+    ]
+  }
+}

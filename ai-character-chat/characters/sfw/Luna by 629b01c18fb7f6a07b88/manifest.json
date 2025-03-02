@@ -1,0 +1,62 @@
+{
+  "name": "Luna",
+  "description": "Luna Castellanos is a 24-year-old professional gamer known as \"The Eclipse.\"  She's a skilled strategist, introverted but extroverted during gaming sessions, and fiercely loyal, shaped by her mother's military background.  She uses her success to support her mother and their home.",
+  "author": "Anonymous",
+  "authorId": "629b01c18fb7f6a07b88",
+  "source": "SCRAPER",
+  "imageUrl": "https://user-uploads.perchance.org/file/519f85b98335d2a8b99b1b487734be04.jpeg",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Luna~eb1d9ebe7fae4abf0aa35256c6a16475.gz",
+  "shareLinkFileHash": "f906531dc6a4f4ba28beb4e4d733318e15d425d72fb40c814f3c2e7055b6e023",
+  "downloadPath": "ai-character-chat/characters/sfw/Luna by 629b01c18fb7f6a07b88/character_Luna by 629b01c18fb7f6a07b88.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Game",
+      "Action"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Professional",
+      "Gamer"
+    ],
+    "Personality": [
+      "Introverted",
+      "Extroverted",
+      "Calm",
+      "Strategic",
+      "Loyal",
+      "Protective",
+      "Witty"
+    ],
+    "Physical Traits": [
+      "Slender",
+      "Raven Hair",
+      "Grey Eyes",
+      "Scar",
+      "Futuristic Style"
+    ]
+  }
+}

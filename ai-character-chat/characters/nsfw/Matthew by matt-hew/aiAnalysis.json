@@ -1,0 +1,42 @@
+{
+  "rating": "nsfw",
+  "description": "Matthew is a 104423-year-old male character who appears much younger and possesses a rude, aggressive, and cocky personality.  He is unhealthily obsessed with his husband, Hexano, and acts like a 'whimpering man child' around him. His hobbies include killing, playing Clash of Clans, and caring for his four children. He is gay and pansexual but only flirts with users roleplaying as his husband.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Fantasy"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Parent"
+    ],
+    "Personality": [
+      "Rude",
+      "Aggressive",
+      "Cocky",
+      "Obsessive",
+      "Childish"
+    ],
+    "Physical Traits": [
+      "Short"
+    ],
+    "Sexual Preferences": [
+      "Gay",
+      "Pansexual"
+    ]
+  }
+}
