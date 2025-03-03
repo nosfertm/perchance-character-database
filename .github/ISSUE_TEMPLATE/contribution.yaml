@@ -151,6 +151,7 @@ body:
         - Gnome
         - Golem
         - Half-breed
+        - Hamster
         - Harpy
         - Hellhound
         - Homunculus
@@ -603,6 +604,7 @@ body:
         - Thief
         - Unspecified
         - Utility
+        - Victim
         - Vigilante
         - Villager
         - Villain
@@ -628,6 +630,7 @@ body:
         - Absent-minded
         - Abusive / Toxic
         - Adaptable
+        - Adventurous
         - Affectionate
         - Aggressive
         - Agile
@@ -695,11 +698,14 @@ body:
         - Confident
         - Conservative
         - Considerate
+        - Contemplative
         - Controlling
+        - Courageous
         - Courteous
         - Cowardly
         - Crazy
         - Creative
+        - Critical
         - Cruel
         - Cuddly
         - Cunning
@@ -716,8 +722,10 @@ body:
         - Determined
         - Devoted
         - Devout
+        - Diligent
         - Diplomatic
         - Disciplined
+        - Dismissive
         - Disrespectful
         - Distrustful
         - Ditzy
@@ -742,6 +750,7 @@ body:
         - Enthusiastic
         - Entitled
         - Evil
+        - Excited
         - Expressive
         - Extroverted
         - Family-oriented
@@ -814,6 +823,7 @@ body:
         - Leader
         - Libertarian
         - Light-hearted
+        - Likes Reading
         - Lonely
         - Loner
         - Loud
@@ -941,6 +951,7 @@ body:
         - Slightly boastful
         - Slutty
         - Smart
+        - Sociable
         - Social
         - Socially dominant
         - Solitary
@@ -958,6 +969,7 @@ body:
         - Sweet
         - Sympathetic
         - Tactical
+        - Talkative
         - Tame
         - Team Player
         - Teasing
@@ -1029,8 +1041,11 @@ body:
         - 5’9”, 100lb
         - 7 feet tall (werebat form)
         - 7 inches long dick
+        - 8 pink frilly extrusions on her head
         - 9 inch penis
         - 98 Kg
+        - Ability to shoot fireballs
+        - Aerodynamic shape
         - Aged Armor
         - Agile
         - Alien
@@ -1084,14 +1099,17 @@ body:
         - Black gloves
         - Black hands
         - Black leather jacket
+        - Black leather jacket with neon blue accents
         - Black metallic hairband
         - Black nails
         - Black pants
         - Black ripped jeans
         - Black sailor long sleeve
         - Black shorts
+        - Black sleeves
         - Black stockings
         - Black suit
+        - Black thong
         - Black-and-gold slippers
         - Black-dyed Bangs
         - Blonde Hair
@@ -1139,6 +1157,7 @@ body:
         - Cat-like
         - Cat-like ears
         - Cat-like features
+        - Chain anklets
         - Chipped black nail polish
         - Chubby
         - Chubby belly
@@ -1165,12 +1184,16 @@ body:
         - Curvy
         - Cute
         - Cute and adorable
+        - Cyan skin
+        - Cybernetic enhancements
+        - Cybernetic eye implant
         - Cyclops
         - Dark Blue
         - Dark Blue Hair
         - Dark Blue Pleated Skirt
         - Dark Brown Eyes
         - Dark Hair
+        - Dark blue eyes
         - Dark blue undershirt
         - Dark brown hair
         - Dark brown pants
@@ -1203,6 +1226,7 @@ body:
         - Fairy-like
         - Fat
         - Female
+        - Feminine body shape
         - Fiery orange fur
         - Fiery stem
         - Fit
@@ -1213,10 +1237,12 @@ body:
         - Fluffy Tail
         - Fluffy cheeks
         - Fluffy white fur
+        - Four whiskers
         - Fox ears
         - Fox features
         - Fox tail
         - Fresh bald haircut
+        - Frilly white collar
         - Frost Runes
         - Futuristic Style
         - Gas Mask
@@ -1224,6 +1250,7 @@ body:
         - Gaunt
         - Gelatinous
         - Ghost
+        - Giant
         - Giant breasts
         - Giant set of teeth
         - Gigantic boobs
@@ -1241,6 +1268,7 @@ body:
         - Golden Eyes
         - Golden Fur
         - Golden Wings
+        - Golden buttons
         - Gooey Hair
         - Googly eyes
         - Gray
@@ -1257,6 +1285,7 @@ body:
         - Green flames
         - Grey Eyes
         - Grey Fur
+        - Grey Hair
         - Grey Muzzle
         - Grey Sweater
         - Grey countershading
@@ -1269,6 +1298,7 @@ body:
         - Hazel Eyes
         - Headpiece
         - Heart tattoo
+        - Heavy Eye-bags
         - Heterochromia
         - Hidden succubus horns
         - Honey brown eyes
@@ -1281,6 +1311,8 @@ body:
         - Huge white wings
         - Human-sized
         - Humanoid body shape
+        - Hunter-Green Eyes
+        - Ice-blue cybernetic eyes
         - Icy Beads
         - Ink-based
         - Kimono
@@ -1314,6 +1346,7 @@ body:
         - Light brown areolae
         - Light brown hair
         - Light brown nipples
+        - Light brown patches
         - Light green body
         - Light green eyes
         - Light olive green hair
@@ -1344,10 +1377,12 @@ body:
         - Long light blue hair
         - Long matted black hair
         - Long neck
+        - Long nipple-cover lingerie
         - Long pointy ears
         - Long red tongue
         - Long tongue
         - Long white hair
+        - Long-sleeved red dress
         - Magician Outfit
         - Magnet-shaped head
         - Maid dress
@@ -1377,6 +1412,7 @@ body:
         - Multiple Arms
         - Multiple Eyes
         - Muscular
+        - Muscular (Secretly)
         - Mutation
         - Naked
         - Navy blue bandana
@@ -1418,7 +1454,9 @@ body:
         - Pink
         - Pink Eyes
         - Pink Streaks in Hair
+        - Pink feet
         - Pink hair
+        - Pink nose
         - Pink paw pads
         - Pink pupils
         - Pink scales
@@ -1460,6 +1498,7 @@ body:
         - Red Shirt
         - Red Shoes
         - Red Tophat
+        - Red and white striped shirt
         - Red beak
         - Red circles on cheeks
         - Red sclera
@@ -1477,9 +1516,12 @@ body:
         - Robot
         - Robotic
         - Rolled up gray jeans
+        - Rosy cheeks
         - Round
         - Round Ass
         - Round Head
+        - Round Monocle
+        - Round beady eyes
         - Round face
         - Ruby skirt
         - Runic patterns on face
@@ -1506,10 +1548,13 @@ body:
         - Short black shirt
         - Short blond hair
         - Short brown bob
+        - Short legs
         - Short peach-colored hair
+        - Short, spiky black hair
         - Shorts
         - Silver Skin
         - Silver hair
+        - Silver prosthetic arm
         - Single Eye
         - Skeletal
         - Skeletal face
@@ -1531,7 +1576,9 @@ body:
         - Small
         - Small Fangs
         - Small breasts
+        - Small brown shoes
         - Small hips
+        - Small tail
         - Sneakers
         - Snow White Skin
         - Soft, fluffy cream-gray fur
@@ -1569,12 +1616,16 @@ body:
         - Taupe
         - Teal Eyes
         - Thick ass
+        - Thick chest
+        - Thin Lips
         - Three Claws
         - Tiny claws
         - Tiny straw hat
         - Toned
         - Toned Physique
         - Top Hat
+        - Transformations
+        - Translucent cyan wings
         - Tribal Garb
         - Tuft of hair
         - Two penises
@@ -1609,6 +1660,7 @@ body:
         - White apron
         - White belly
         - White cufflinks
+        - White cuffs
         - White dress
         - White fur
         - White half-turtleneck with polka dots
@@ -1848,6 +1900,7 @@ body:
         - Medieval
         - Military Base
         - Modern
+        - Neo-Tokyo
         - Opera House
         - Parallel Universe
         - Post-Apocalyptic

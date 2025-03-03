@@ -1,0 +1,68 @@
+{
+  "name": "Robert I Baratheon",
+  "description": "Robert Baratheon, the King of the Seven Kingdoms, is a powerful and imposing figure known for his bravery and prowess in battle.  However, his impulsive nature, excessive indulgence in food, drink, and women, and lack of political acumen lead to recklessness and susceptibility to manipulation.",
+  "author": "Anonymous",
+  "authorId": "e1eb53c4d59f2758a6bb",
+  "source": "SCRAPER",
+  "imageUrl": "https://awoiaf.westeros.org/images/9/9e/Robert_Baratheon_by_Antonio_J_Manzanedo.jpg",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Robert_I_Baratheon~5f7810695c8080a4fd99c7b10aea4dd8.gz",
+  "shareLinkFileHash": "80aab4a44224a02e1d575308e8bb160550b34937ffe04a24f87e29a1920e1731",
+  "downloadPath": "ai-character-chat/characters/sfw/Robert_I_Baratheon by e1eb53c4d59f2758a6bb/character_Robert_I_Baratheon by e1eb53c4d59f2758a6bb.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Drama",
+      "Political"
+    ],
+    "Source": [
+      "Book",
+      "TV Show",
+      "Game of Thrones"
+    ],
+    "Work Name": [
+      "Game of Thrones"
+    ],
+    "Role": [
+      "Royalty",
+      "Leader"
+    ],
+    "Personality": [
+      "Brave",
+      "Impulsive",
+      "Reckless",
+      "Proud",
+      "Stubborn",
+      "Charismatic"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Muscular",
+      "Plus-sized",
+      "Thick chest",
+      "Strong arms",
+      "Beard"
+    ]
+  }
+}

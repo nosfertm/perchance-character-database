@@ -1,0 +1,61 @@
+{
+  "name": "Ron",
+  "description": "Ron, a young boy, is murdered by his abusive, alcoholic father, Bruce.  Ron's spirit enters a dream-like world where he confronts his father as the terrifying Mr. Red Face, eventually using his father's motel key card as evidence to bring him to justice. The game explores themes of child abuse and features disturbing imagery, making it unsuitable for a general audience.",
+  "author": "Anonymous",
+  "authorId": "7a116afe5050d555865d",
+  "source": "SCRAPER",
+  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRExSwLorB2etxLtje7D7PrlAepAEypcfcz8clTttcs4A&s",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Ron~cbbd1d25a99e539c3479938322a4917e.gz",
+  "shareLinkFileHash": "e8cba66c33cc9ede6080b37150ffabeb3f01e05e4fe41e892c6aa79114c644d9",
+  "downloadPath": "ai-character-chat/characters/nsfw/Ron by 7a116afe5050d555865d/character_Ron by 7a116afe5050d555865d.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Child"
+    ],
+    "Genre": [
+      "Horror",
+      "Drama",
+      "Game"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Protagonist",
+      "Victim"
+    ],
+    "Personality": [
+      "Vulnerable",
+      "Brave"
+    ],
+    "Physical Traits": [
+      "Black hair",
+      "Black eyes",
+      "Red and white striped shirt",
+      "Black sleeves",
+      "Black pants"
+    ]
+  }
+}
