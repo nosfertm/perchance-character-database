@@ -31,7 +31,7 @@
                 <div v-if="selectedCharacter" class="modal-content" :class="{ 'bg-dark': isDarkMode }">
                     <!-- Title -->
                     <div class="modal-header" :class="{ 'bg-dark text-white border-secondary': isDarkMode }">
-                        <div class="d-flex align-items-center">
+                        <div class="d-flex align-items-center flex-wrap">
                             <h5 class="modal-title mb-0" id="characterModalLabel" :class="{ 'text-white': isDarkMode }">
                                 {{decodeText(this.selectedCharacter.manifest.name)}}</h5>
                             <small class="ms-2 text-truncate"
@@ -42,10 +42,10 @@
                         <div class="d-flex gap-2 align-items-center">
                             <a href="#" @click.prevent="downloadCharacterFile(selectedCharacter.manifest.downloadPath)"
                                 class="btn btn-success" target="_blank">
-                                <i class="bi bi-download"></i> Download
+                                <i class="bi bi-download"></i> <span class="button-text">Download</span>
                             </a>
                             <a :href="selectedCharacter.manifest?.shareUrl" class="btn btn-primary" target="_blank">
-                                <i class="bi bi-chat"></i> Chat
+                                <i class="bi bi-chat"></i> <span class="button-text">Chat</span>
                             </a>
                             <button type="button" class="btn-close" :class="{ 'btn-close-white': isDarkMode }"
                                 data-bs-dismiss="modal" aria-label="Close" @click="handleModalClose"></button>
@@ -309,8 +309,9 @@
         <!-- Page content -->
 
         <!-- Filter panel -->
-        <div class="offcanvas offcanvas-end offcanvas-push custom-scrollbar" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
-            :class="{ 'bg-dark text-white': isDarkMode }" id="filterPanel" aria-labelledby="filterPanelLabel">
+        <div class="offcanvas offcanvas-end offcanvas-push custom-scrollbar" data-bs-scroll="true"
+            data-bs-backdrop="false" tabindex="-1" :class="{ 'bg-dark text-white': isDarkMode }" id="filterPanel"
+            aria-labelledby="filterPanelLabel">
             <!-- Fixed part -->
             <div class="offcanvas-header" :class="{ 'bg-dark text-white': isDarkMode }">
                 <h5 class="offcanvas-title" id="filterPanelLabel">Filter Panel</h5>
@@ -322,12 +323,12 @@
                         @click="isFilterPanelOpen = !isFilterPanelOpen"></button>
                 </div>
             </div>
-            
+
             <div class="offcanvas-body custom-scrollbar" :class="{ 'bg-dark text-white': isDarkMode }">
-                
+
                 <!-- Fixed top section -->
                 <div class="filter-panel-fixed">
-                    
+
                     <!-- Search bar -->
                     <div class="input-group" :class="{ 'bg-dark text-white': isDarkMode }">
                         <input type="text" class="form-control" :class="{ 'bg-dark text-white': isDarkMode }"
@@ -489,11 +490,12 @@
 
                         <!-- Image Container with fixed dimensions -->
                         <div class="card-img-container position-relative">
-                            <img :src="character.manifest?.imageUrl" :class="{
-                            'card-img-top': true, 
-                            'nsfw-blur': isNsfwCharacter(character.manifest?.categories?.rating) && !showNsfwImages
-                        }" :alt="character.manifest?.name || 'Character Image'" @click="showCharacterModal(character)"
-                                data-bs-toggle="modal" data-bs-target="#characterModal">
+                            <img :src="character.manifest?.imageUrl" loading="lazy" :class="{
+                                    'card-img-top': true, 
+                                    'nsfw-blur': isNsfwCharacter(character.manifest?.categories?.rating) && !showNsfwImages
+                                 }" :alt="character.manifest?.name || 'Character Image'"
+                                @click="showCharacterModal(character)" data-bs-toggle="modal"
+                                data-bs-target="#characterModal">
 
                             <!-- Put an icon overlay for NSFW images -->
                             <div v-if="isNsfwCharacter(character.manifest?.categories?.rating) && !showNsfwImages"

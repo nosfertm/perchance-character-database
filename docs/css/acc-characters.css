@@ -45,6 +45,16 @@
         /* Reduce margins on small screens */
     }
 
+    .button-text {
+        display: none;
+        /* Hide button text */
+    }
+
+    .btn {
+        padding: 0.375rem 0.75rem;
+        /* Adjust padding for smaller buttons */
+    }
+
 }
 
 @media (min-width: 1400px) {
@@ -339,6 +349,10 @@ body.offcanvas-open {
     /* Center the overlay */
     color: white;
 }
+
+/* -------------------------------------------------------------------------- */
+/*                               CHARACTER MODAL                              */
+/* -------------------------------------------------------------------------- */
 
 /* Custom scrollbar styling for content column */
 .modal-content-col::-webkit-scrollbar {
