@@ -124,11 +124,16 @@ body:
         - Alien
         - Android
         - Angel
+        - Animatronic
+        - Anthropomorphic
         - Beast
+        - Bird
         - Canine
+        - Cat
         - Centaur
         - Chimera
         - Clone
+        - Cookie
         - Cyborg
         - Deity
         - Demon
@@ -137,15 +142,23 @@ body:
         - Elemental
         - Elf
         - Fairy
+        - Fish
+        - Fox
         - Furry
+        - Genie
         - Ghost
+        - Giant
         - Gnome
         - Golem
         - Half-breed
         - Harpy
+        - Hellhound
+        - Homunculus
         - Human
+        - Humanoid
         - Incubus
         - Insect
+        - Inumimi
         - Kitsune
         - Meme
         - Mermaid
@@ -153,9 +166,13 @@ body:
         - Mythological
         - Neko
         - Orc
+        - Owl
+        - Planet
+        - Reptile
         - Robot
         - Scaly
         - Shapeshifter
+        - Skunk
         - Slime
         - Spirit
         - Succubus
@@ -164,6 +181,11 @@ body:
         - Vampire
         - Werewolf
         - Zombie / Undead
+        - lihzahrd
+        - plant
+        - pokemon
+        - pumpkin
+        - slugcat
     validations:
       required: false
 
@@ -177,12 +199,16 @@ body:
         - Agender
         - Androgynous
         - Bigender
+        - Both
+        - Demiboy
         - Female
+        - Futa
         - Futanari
         - Gender Bender
         - Gender Non-Conforming
         - Gender Transformation
         - Genderfluid
+        - Intersex
         - Male
         - Non-binary
         - Questioning
@@ -222,20 +248,24 @@ body:
         - Adult Drama
         - Adventure
         - Comedy
+        - Comfort
         - Crime
         - Cyberpunk
         - Dark Romance
         - Dark Themes
         - Drama
         - Educational
+        - Entertainment
         - Erotic
         - Fantasy
         - Fetish
         - Friendship
+        - Game
         - Gothic
         - Historical
         - Horror
         - Military
+        - Music
         - Musical
         - Mystery
         - Political
@@ -251,6 +281,7 @@ body:
         - Sports
         - Steampunk
         - Supernatural
+        - Survival
         - Thriller
         - Unspecified
         - Urban Fantasy
@@ -279,22 +310,31 @@ body:
         - Fanfiction
         - Folk Tale
         - Game
+        - Game of Thrones
         - Hentai
         - Historical
+        - Kirby
         - Legend
         - Light Novel
         - Manga
+        - Marvel
         - Movie
         - Music
+        - Musical
         - Mythology
         - Only fans
         - Original
         - Perchance
         - Podcast
         - Poetry
+        - Pokemon
         - Pornstar
         - Real life
         - TV Show
+        - Terraria
+        - The Legend of Zelda
+        - The Lord of the Rings
+        - Undertale
         - Visual Novel
         - Web Series
         - cosplay
@@ -311,15 +351,20 @@ body:
         - Ahegao Academy
         - Attack on Titan
         - Avatar: The Last Airbender
+        - Bendy and the Ink Machine
         - Berserk
         - Bible Black
         - Black Lagoon
         - Bloodborne
+        - Borderlands
         - Breaking Bad
+        - Call of Duty
+        - Camp Buddy
         - Cowboy Bebop
         - Cyberpunk 2077
         - DC Comics
         - Dark Souls
+        - Diablo
         - Discipline
         - Disney
         - Doctor Who
@@ -328,11 +373,17 @@ body:
         - Elden Ring
         - Euphoria
         - Fakku Originals
+        - Family Guy
         - Fate Series
         - Fate/kaleid liner Prisma☆Illya (NSFW spin-offs)
         - Final Fantasy
+        - Five Nights at Freddy's
+        - Fortnite
         - Futabu!
+        - Gacha Life
         - Game of Thrones
+        - Genshin Impact
+        - Grand Theft Auto IV
         - Gravity Falls
         - Gurren Lagann
         - Half-Life
@@ -342,6 +393,7 @@ body:
         - Hellsing
         - Hentai Haven Exclusives
         - Hollow Knight
+        - Homestuck
         - Imouto Paradise
         - Inyouchuu
         - JK to Ero Konbini Tenchou
@@ -359,6 +411,9 @@ body:
         - Metal Gear
         - Metroid
         - Milk Factory
+        - Moral Orel
+        - My Hero Academia
+        - My Life as a Teenage Robot
         - Naruto
         - Neon Genesis Evangelion
         - NieR: Automata
@@ -372,35 +427,47 @@ body:
         - Persona
         - Pixar
         - Pixiv Exclusive Hentai Works
+        - Pokemon
+        - Portal
+        - Pulp Fiction
         - Queen's Blade (NSFW Elements)
         - Re:Zero
         - Resident Evil
         - Resort Boin
         - Rick and Morty
+        - Rune Factory 4
         - Sherlock Holmes
         - ShindoL Works
         - Silent Hill
         - South Park
+        - Spirited Away
         - SpongeBob SquarePants
         - Star Wars
         - Steins;Gate
         - Stranger Things
+        - Stray Kids
         - Stringendo & Accelerando
         - Studio Ghibli
         - Succubus Stayed Life
         - Supernatural
         - Sword Art Online
         - Taimanin Asagi
+        - Terraria
         - The Boys
         - The Elder Scrolls
+        - The Heroes of Olympus
+        - The Inheritance Cycle
+        - The Last of Us
         - The Legend of Zelda
         - The Lord of the Rings
         - The Matrix
+        - The Phantom of the Opera
         - The Sims
         - The Walking Dead
         - The Witcher
         - To Love-Ru Darkness (Uncensored)
         - Tokyo Ghoul
+        - Tower of Fantasy
         - Trigun
         - Tropical Kiss
         - Tsugumomo (NSFW Adaptations)
@@ -418,62 +485,133 @@ body:
       description: Character's primary role or occupation
       multiple: true
       options:
+        - AI
         - Adult Entertainer
         - Adventurer
+        - Ally
         - Artist
         - Assassin
         - Assistant
         - Athlete
+        - Bachelorette
+        - Barista
+        - Bartender
         - Best friend
+        - Bodyguard
+        - Boxer
         - Businessman
+        - Businesswoman
+        - Butler
+        - CEO
+        - Captain
         - Celebrity
         - Chef
+        - Child
+        - Clerk
         - Community Helper
+        - Community Volunteer
         - Companion
+        - Courier
+        - Critic
+        - Dancer
         - Deity
         - Detective
         - Doctor
         - Dominatrix/Dom
+        - Employee
+        - Enforcer
         - Engineer
+        - Entertainer
         - Escort
+        - Exorcist
+        - Experiment
         - Explorer
         - Farmer
+        - Fashion Designer
+        - Father
+        - Fitness Enthusiast
         - Friend
+        - Game Master
+        - Gamemaster
+        - Gamer
         - Gardener
+        - Geographer
         - Guard
+        - Guardian
+        - Harbinger
         - Healer
+        - Heiress
         - Hero
+        - Husband
         - Idol
+        - Intern
         - Knight
         - LI (Love Interest)
         - Leader
+        - Librarian
+        - Logistics Manager
         - Love Interest
         - Mage
+        - Maid
+        - Main Character
+        - Mayor
+        - Mechanic
         - Mercenary
         - Merchant
+        - Military
         - Musician
+        - Nature Caretaker
         - Noble
+        - Nomad
+        - None
+        - Orphan
+        - Parent
         - Pet
+        - Philosopher
         - Pilot
+        - Pirate
         - Priest/Priestess
         - Professional
         - Programmer
+        - Protagonist
+        - Queen
+        - Rapper
         - Researcher
+        - Retired
+        - Revolutionary
+        - Rider
         - Rival
         - Rogue
+        - Ronin
         - Royalty
+        - Ruler
+        - Sand Witch
+        - Scholar
         - Scientist
+        - Scoutmaster trainee
         - Servant
         - Sex Worker
+        - Singer
         - Soldier
+        - Songwriter
+        - Spy
         - Student
+        - Surfer Shop Owner
+        - Survivor
         - Teacher
         - Therapist
         - Thief
         - Unspecified
         - Utility
+        - Vigilante
+        - Villager
         - Villain
+        - Warden
         - Warrior
+        - Weapon
+        - Wilderness Patrolman
+        - Wood chopper
+        - Worker
         - Writer
         - cosplayer
         - social media manager
@@ -487,107 +625,385 @@ body:
       description: Character's primary personality traits
       multiple: true
       options:
+        - Absent-minded
         - Abusive / Toxic
+        - Adaptable
         - Affectionate
         - Aggressive
+        - Agile
+        - Alcoholic
+        - Aloof
         - Ambitious
         - Analytical
+        - Angry
         - Animal and Nature Lover
+        - Annoyed
+        - Annoying
         - Anti-hero
+        - Anxious
+        - Apathetic
+        - Arrogant
+        - Articulate
         - Artistic
+        - Assertive
+        - Athletic
+        - Awkward
+        - Bashful
+        - Bitchy
+        - Bloodthirsty
+        - Blunt
+        - Boastful
+        - Boisterous
+        - Bold
+        - Bookworm
+        - Bragger
+        - Brash
         - Brave
+        - Brutal
+        - Bubbly
+        - Bully
         - Calculating
         - Calculative
+        - Carefree
         - Caring
+        - Cautious
+        - Chaotic
         - Charismatic
         - Charming
+        - Chatty
         - Cheerful
+        - Cheery
+        - Childish
+        - Childlike
         - Chill
+        - Chivalrous
+        - Classy
+        - Clean
+        - Clever
+        - Clingy
+        - Clumsy
+        - Clumsy (on land)
+        - Cocky
         - Cold
+        - Coldhearted
+        - Collected
+        - Commanding
+        - Compassionate
+        - Competitive
+        - Complex
+        - Composed
         - Confident
+        - Conservative
+        - Considerate
+        - Controlling
+        - Courteous
         - Cowardly
+        - Crazy
         - Creative
+        - Cruel
+        - Cuddly
+        - Cunning
         - Curious
+        - Cute
+        - Cynical
+        - Daydreamer
         - Deceptive
+        - Dedicated
+        - Defensive
+        - Dense
         - Depressed
+        - Destructibe
+        - Determined
         - Devoted
+        - Devout
+        - Diplomatic
         - Disciplined
+        - Disrespectful
+        - Distrustful
+        - Ditzy
         - Dominant
+        - Doting
         - Dramatic
+        - Dreamy
+        - Dry Humor
+        - Eager
         - Eager to Please
+        - Eager to help
+        - Earnest
+        - Easily Scared
         - Efficient
+        - Egoistical
+        - Egotistical
+        - Emotional
+        - Emotional (Hidden)
+        - Emotionally Intelligent
         - Empathetic
         - Energetic
+        - Enthusiastic
+        - Entitled
         - Evil
+        - Expressive
+        - Extroverted
+        - Family-oriented
+        - Feral
+        - Fierce
+        - Fiercely loyal
+        - Fiery
         - Fliratious
         - Flirty
         - Focused
         - Forgiving
         - Friendly
+        - Fun-loving
+        - Funny
+        - Generous
         - Gentle
+        - Giving
+        - Graceful
+        - Greedy
+        - Greyromantic
+        - Grounded
         - Gruff
+        - Grumpy
+        - Gullible
+        - Gun Obsessed
+        - Hard working
+        - Hard-working
+        - Haunted
+        - Heroic
         - Honest
+        - Honorable
+        - Hopeful
+        - Horny
         - Humble
+        - Humorous
         - Hurt
+        - Hyper
+        - Idealistic
+        - Ignorant
+        - Ill-tempered
+        - Imaginative
+        - Immodest
+        - Impatient
         - Impulsive
+        - Independent
+        - Innocent
+        - Insane
+        - Insecure
+        - Insensitive
+        - Insightful
+        - Intellectual
         - Intelligent
+        - Intense
+        - Intimidating
+        - Introspective
+        - Introverted
+        - Irreverent
         - Jaded
+        - Jealous
+        - Jokester
         - Judgmental
+        - Just
         - Kind
         - Kind-hearted
+        - Kinky
+        - Knowledgeable
+        - Kuudere
+        - Laid back
         - Lazy
+        - Leader
+        - Libertarian
+        - Light-hearted
         - Lonely
+        - Loner
+        - Loud
         - Loving
         - Loyal
         - Lustful
+        - Malicious
         - Manipulative
         - Masochistic
+        - Mature
         - Mean
+        - Megane
+        - Merciless
+        - Methodical
+        - Meticulous
+        - Mischievous
+        - Mistrustful
+        - Misunderstood
+        - Mocking
+        - Motherly
+        - Murderous
         - Mysterious
         - Naive
+        - Narcissistic
         - Nationalist
+        - Nationalistic
+        - Needy
+        - Nerdy
+        - Nervous
+        - Neurotic
+        - Nihilistic
+        - Noble
+        - Obedient
+        - Oblivious
+        - Observant
         - Obsessive
+        - Open
+        - Opportunistic
         - Optimistic
+        - Orderly
         - Outgoing
+        - Outspoken
+        - Overdramatic
+        - Overprotective
+        - Pacifistic
+        - Pansexual
+        - Passionate
+        - Passive
         - Patient
+        - Patriotic
+        - Perceptive
+        - Perfectionist
+        - Persistent
+        - Pessimistic
+        - Philanthropic
         - Playful
+        - Poised
+        - Polite
+        - Positive
         - Possessive
+        - Powerful
+        - Pragmatic
+        - Prankster
+        - Precise
+        - Pretty
+        - Prideful
+        - Primal
+        - Professional
         - Progressive
+        - Promiscuous
         - Protective
         - Proud
         - Punk
+        - Quick-witted
+        - Quiet
+        - Quiet (Hidden)
+        - Quirky
         - Radical
+        - Rambunctious
+        - Random
         - Rebellious
+        - Reckless
+        - Relaxed
+        - Relentless
+        - Reliable
+        - Resentful
         - Reserved
         - Resilient
+        - Resourceful
+        - Respectful
+        - Revolutionary
         - Romantic
+        - Rough
         - Rude
         - Ruthless
+        - Sad
         - Sadistic
         - Sarcastic
+        - Sass
+        - Sassy
+        - Secretive
+        - Secretly Romantic
+        - Secretly in Love
         - Seductive
+        - Self-Reliant
+        - Self-absorbed
+        - Self-centered
+        - Self-conscious
+        - Selfish
+        - Selfless
+        - Sensitive
+        - Sensual
         - Serious
+        - Sexual
+        - Shameless
+        - Sharp-tongued
+        - Short-tempered
+        - Shrewd
         - Shy
+        - Silly
+        - Simple minded
+        - Skilled
+        - Skittish
         - Slightly Possessive
+        - Slightly boastful
+        - Slutty
         - Smart
+        - Social
+        - Socially dominant
         - Solitary
+        - Sophisticated
+        - Stern
+        - Straightforward
+        - Strange
+        - Strategic
+        - Strict
+        - Strong
         - Strong-willed
+        - Stubborn
         - Submissive
+        - Supportive
         - Sweet
+        - Sympathetic
+        - Tactical
+        - Tame
+        - Team Player
         - Teasing
+        - Tenacious
+        - Tender
+        - Tender (Hidden)
+        - Territorial
+        - Threatening
+        - Timid
+        - Tomboyish
+        - Tough
         - Traditional
+        - Trusting
+        - Tsundere
+        - Tyrannical
+        - Unforgiving
         - Unhinged
+        - Unpredictable
         - Unspecified
+        - Untrustworthy
+        - Upbeat
         - Vengeful
+        - Verbal Abusive
+        - Video Game Lover
         - Violent
+        - Visionary
+        - Volatile
+        - Vulgar
         - Vulnerable
+        - Warm-hearted
+        - Weird
+        - Well-intentioned
+        - Well-organized
         - Wise
         - Witty
+        - Workaholic
+        - Yandere
+        - Yandere tendencies
+        - Yells a lot
         - busy
         - calm
         - easily angered
         - good-natured
         - hard worker
+        - helpful
+        - hostile
         - menacing
         - not friendly
         - not social
@@ -605,53 +1021,638 @@ body:
       description: Notable physical characteristics
       multiple: true
       options:
+        - 1,1 m tall
+        - 100lb
+        - 167cm Tall
+        - 5 Feet Tall
+        - 5’9”
+        - 5’9”, 100lb
+        - 7 feet tall (werebat form)
+        - 7 inches long dick
+        - 9 inch penis
+        - 98 Kg
+        - Aged Armor
+        - Agile
+        - Alien
         - Amber Eyes
+        - Ample Cleavage
+        - Amputee
+        - Anamorphic bat (werebat form)
         - Androgynous Look
+        - Animal Skull Necklace
+        - Anthropomorphic
+        - Armor
+        - Assault Rifle
         - Athletic
+        - Athletic body
+        - Auburn Hair
+        - Average Build
+        - Average Height
+        - Average-height
+        - Avian
+        - Baggy Hoodie
+        - Baggy Hoodies
+        - Bald
+        - Balloon-shaped
+        - Bandaged Prosthetic
+        - Bandaged arm stump
+        - Bandages
+        - Bandeau top
+        - Bat ears
+        - Beak
+        - Beard
+        - Beautiful Body
+        - Belt
+        - Big breasts
+        - Big butt
+        - Big rear
+        - Big thighs
+        - Bipedal
+        - Black
+        - Black Bangs
+        - Black Fur
+        - Black Hair
+        - Black Streak in Hair
+        - Black Thigh-High Socks
+        - Black Yellow Outfit
+        - Black boots
+        - Black choker
+        - Black claws
+        - Black eyes
+        - Black fingerless gloves
+        - Black futuristic prosthetic
+        - Black gloves
+        - Black hands
+        - Black leather jacket
+        - Black metallic hairband
+        - Black nails
+        - Black pants
+        - Black ripped jeans
+        - Black sailor long sleeve
+        - Black shorts
+        - Black stockings
+        - Black suit
+        - Black-and-gold slippers
+        - Black-dyed Bangs
+        - Blonde Hair
+        - Blood red skin
+        - Blue
+        - Blue (Lololo)
+        - Blue Eyes
+        - Blue Hair
+        - Blue Jeans
+        - Blue Ribbons
+        - Blue Skirt
+        - Blue bandana
+        - Blue feathers
+        - Blue necklace
+        - Blue skin
+        - Blue tail
+        - Blue-and-gold shirt
+        - Blue-gray coat
+        - Bluish-Purple Hair
+        - Bone white skin
+        - Braids
+        - Bright blue circles eyes
+        - Bright orange fur
+        - Broad-shouldered
+        - Brown Ears
+        - Brown Eyes
+        - Brown Hair
+        - Brown Shoes
+        - Brown Sweater Vest
+        - Brown shirt
         - Brown-Black Coat
+        - Brunette Hair
+        - Busty
+        - Buzz cut
+        - C cup breasts
+        - C size breast
+        - C-cup
+        - C-cup Breasts
+        - Camouflage Jumpsuit
+        - Camouflage Outfit
+        - Cape
+        - Casual Clothing
+        - Casual t-shirt
+        - Cat Ears
+        - Cat-like
+        - Cat-like ears
+        - Cat-like features
+        - Chipped black nail polish
+        - Chubby
+        - Chubby belly
+        - Clam-shaped pectoral fins
+        - Claws
+        - Clear Blue Eyes
+        - Clear white skin
+        - Cloaked
+        - Colossal
+        - Combat Boots
+        - Combat Gear
+        - Coral Brown Hair
+        - Creamy white underbelly fur
+        - Crimson Bow Tie
+        - Crimson Cape
+        - Crimson Eyes
+        - Crimson brown skin
+        - Crow Wings
+        - Crown
+        - Crown-like halo
+        - Crystal orb
+        - Crystalline
+        - Curvaceous
+        - Curvy
+        - Cute
+        - Cute and adorable
+        - Cyclops
+        - Dark Blue
+        - Dark Blue Hair
+        - Dark Blue Pleated Skirt
+        - Dark Brown Eyes
+        - Dark Hair
+        - Dark blue undershirt
+        - Dark brown hair
+        - Dark brown pants
+        - Dark brown skin
+        - Dark chocolate brown fur
+        - Dark greenish eyes
+        - Dark violet eyes
+        - Darker Skin Tone
+        - Defined Muscles
+        - Deformed
+        - Deformed ink hands
+        - Demonic Armor
+        - Devilish smile
+        - Diamond-shaped snout
+        - Diminutive
+        - Dirty Blonde Hair
+        - Ear piercings
+        - Egyptian headdress
+        - Eight Hands/Arms
+        - Eight arms
+        - Elegant
+        - Elongated limbs
+        - Emerald Green Eyes
+        - Emerald eyes
+        - Emerald green skin
         - Endowed
+        - Ethereal Aura
+        - F cup breasts
         - Fair Skin
         - Fairy-like
+        - Fat
+        - Female
+        - Fiery orange fur
+        - Fiery stem
+        - Fit
+        - Flightless
+        - Floats
+        - Floppy Dog Ears
+        - Fluffy
+        - Fluffy Tail
+        - Fluffy cheeks
+        - Fluffy white fur
+        - Fox ears
+        - Fox features
+        - Fox tail
+        - Fresh bald haircut
+        - Frost Runes
+        - Futuristic Style
+        - Gas Mask
+        - Gaseous form (transformation)
+        - Gaunt
+        - Gelatinous
+        - Ghost
+        - Giant breasts
+        - Giant set of teeth
+        - Gigantic boobs
+        - Ginger
         - Glasses
+        - Glistening
+        - Glowing
+        - Glowing Purple Wands
+        - Glowing eyes
+        - Glowing pink pupils
+        - Gold Bell
+        - Gold cuffs
+        - Golden Crown
+        - Golden Curls
         - Golden Eyes
+        - Golden Fur
+        - Golden Wings
+        - Gooey Hair
+        - Googly eyes
+        - Gray
+        - Gray Blazer
+        - Gray Fur
+        - Gray apron
+        - Gray cloak
+        - Gray turtleneck sweater
+        - Green Eyes
+        - Green Hair Tips
+        - Green Skin
+        - Green and purple ears and limbs
+        - Green body
+        - Green flames
+        - Grey Eyes
+        - Grey Fur
+        - Grey Muzzle
+        - Grey Sweater
+        - Grey countershading
+        - Grey ears
+        - Grey hoodie
+        - Gun
+        - Hammer
+        - Handsome
+        - Hat
+        - Hazel Eyes
+        - Headpiece
+        - Heart tattoo
         - Heterochromia
+        - Hidden succubus horns
+        - Honey brown eyes
+        - Hood
+        - Hooves
         - Horns
+        - Hourglass figure
+        - Hourglass shape
+        - Hove-like toes
+        - Huge white wings
+        - Human-sized
+        - Humanoid body shape
+        - Icy Beads
+        - Ink-based
+        - Kimono
+        - Knife
+        - Knight Armor
+        - Lanky body
+        - Large
+        - Large Breasts
+        - Large Dark Purple Eyes
+        - Large Green Eyes
+        - Large beer belly
+        - Large dark eyes
+        - Large dark green eyes
+        - Large expressive ears
+        - Large eyes
+        - Large headphones
+        - Latex Swimsuit
+        - Lavender Skin
+        - Layered black and white hair
+        - Lean
         - Lean Muscular Build
+        - Lean Physique
+        - Lean and athletic
+        - Leaves instead of hands
+        - Light Blue Eye
+        - Light Blue Eyes
+        - Light Brown Fur
+        - Light Grey skin
+        - Light blue
+        - Light blue hair
+        - Light brown areolae
+        - Light brown hair
+        - Light brown nipples
+        - Light green body
+        - Light green eyes
+        - Light olive green hair
+        - Light pink hair
+        - Light purple mushroom cap
+        - Light red
+        - Light skin
+        - Lime Green Sunglasses
+        - Lion Ears
+        - Lion Tails
+        - Lithe
+        - Lizard-like
+        - Long Black Dress
+        - Long Black Pigtails
+        - Long Blond Hair
+        - Long Blonde Hair
+        - Long Braided Beard
+        - Long Canine Teeth
         - Long Hair
         - Long Hair (A2)
+        - Long Legs
+        - Long Pink Pigtails
+        - Long Wavy Hair
+        - Long black cloak
+        - Long black hair
+        - Long flexible tail
+        - Long fluffy hair
+        - Long light blue hair
+        - Long matted black hair
+        - Long neck
+        - Long pointy ears
+        - Long red tongue
+        - Long tongue
+        - Long white hair
+        - Magician Outfit
+        - Magnet-shaped head
+        - Maid dress
+        - Male
+        - Maroon Eyes
+        - Maroon Hair
+        - Maroon shirt
+        - Mask
+        - Mechanical
+        - Mechanical Limb
+        - Medium breasts
+        - Medium sized boobs
+        - Megaphone
+        - Messy Ponytail
+        - Messy bob-cut
+        - Messy dark brown hair
+        - Metallic
+        - Metallic armor
+        - Meteor Holes
+        - Middle long pink hair
+        - Mini shorts
+        - Mismatched Socks
+        - Mittens
+        - Mostly Lean, Slight Dad-Bod
+        - Mouse-like
+        - Multicolored Scales
         - Multiple Arms
         - Multiple Eyes
         - Muscular
+        - Mutation
+        - Naked
+        - Navy blue bandana
+        - Necklace
+        - Nipple piercings
+        - No Eyes
+        - No cheeks
+        - No ears
+        - No facial features
+        - No feet
+        - No neck
+        - No nose
+        - No visible eyes
+        - Nude
+        - Obese
+        - Ocean Blue Eyes
+        - Olive Skin
+        - One Eye
+        - One large eye
+        - Open mouth
+        - Orange Eyes
+        - Orange Spots
+        - Orange bandana
+        - Orange lips
+        - Orange mouth
+        - Orange skin
+        - Oval-shaped
         - Pale Skin
+        - Pale light skin
+        - Pale yellow shoulder tuft
+        - Pale yellow tail
+        - Pastel Pink Hair
         - Petite
+        - Piercing Gray Eyes
+        - Piercing blue eyes
+        - Piercing eyes
+        - Piercing green eyes
+        - Pigtails
+        - Pink
+        - Pink Eyes
+        - Pink Streaks in Hair
+        - Pink hair
+        - Pink paw pads
+        - Pink pupils
+        - Pink scales
+        - Plate Armor
+        - Playstation 4 Logo
         - Plus-sized
         - Pointed Ears
+        - Pointed fingers
+        - Pointed limbs
+        - Pointed succubus ears
+        - Ponytail
+        - Powerful
+        - Prosthetic Leg
+        - Psychic Abilities
+        - Pudgy
+        - Pumpkin head
+        - Purple
+        - Purple Hair
+        - Purple and black attire
+        - Purple cloak
+        - Purple ensemble
+        - Purple eyes
+        - Purple sclera
+        - Qipao Dress
+        - Quadruple amputee
+        - Rabbit-like accessories
+        - Rainbow Socks
+        - Rat-like tail
+        - Raven Hair
+        - Raven-black hair
+        - Red
+        - Red (Lalala)
+        - Red Attire
+        - Red Cheeks
+        - Red Cloak
         - Red Eyes
+        - Red Hair
+        - Red Ribbon
+        - Red Shirt
+        - Red Shoes
+        - Red Tophat
+        - Red beak
+        - Red circles on cheeks
+        - Red sclera
+        - Red shorts
+        - Red tail
+        - Red-pink hair
+        - Reddish-orange body
+        - Reddish-orange complexion
+        - Reptile
+        - Reptile-like eyes
+        - Reptilian head
+        - Reptilian tail
+        - Revealing Clothing
+        - Robe
+        - Robot
+        - Robotic
+        - Rolled up gray jeans
+        - Round
+        - Round Ass
+        - Round Head
+        - Round face
+        - Ruby skirt
+        - Runic patterns on face
+        - Scales
+        - Scaly skin
+        - Scar
+        - Scarlet scale armor
         - Scarred
         - Scarred (A2)
+        - Scars
+        - Scruffy Brown Hair
+        - Semi-circular body
+        - Sharp Features
+        - Sharp claws
+        - Sharp white teeth
+        - Shoes
         - Short
+        - Short Black Hair
+        - Short Brown Hair
         - Short Hair
         - Short Hair (2B)
+        - Short Tail
+        - Short anthro snout
+        - Short black shirt
         - Short blond hair
+        - Short brown bob
+        - Short peach-colored hair
+        - Shorts
+        - Silver Skin
+        - Silver hair
+        - Single Eye
+        - Skeletal
+        - Skeletal face
+        - Skirt
+        - Skull mask
+        - Skull-Patterned Balaclava
+        - Sky Blue Cracks
+        - Sleek
+        - Sleeveless red varsity jacket
+        - Slender
+        - Slightly Muscular
+        - Slightly longer tail than average
+        - Slightly toned muscles
         - Slim
+        - Slim Mouth
+        - Slim Waist
+        - Slim athletic build
+        - Slim body
+        - Small
+        - Small Fangs
+        - Small breasts
+        - Small hips
+        - Sneakers
+        - Snow White Skin
+        - Soft, fluffy cream-gray fur
+        - Soft-featured
+        - Spear
+        - Spherical bodies
+        - Spiked
+        - Spiked legs
+        - Spikes
+        - Square teeth
+        - Steampunk Gadgets
+        - Stitched together
+        - Stocky
+        - Strawberry Blonde Hair
+        - Strong
+        - Strong Arms
+        - Stubble
+        - Stubby tails
+        - Sun-kissed skin
+        - Sunglasses
+        - Sword
+        - Synthetic Skin
+        - Tactical Gear
         - Tail
         - Tall
+        - Tall fins
+        - Talons
+        - Tan skin
+        - Tanned Skin
+        - Tattered Cloak
+        - Tattered clothing
+        - Tattered grey crop top
         - Tattooed
+        - Tattoos
+        - Taupe
+        - Teal Eyes
+        - Thick ass
+        - Three Claws
+        - Tiny claws
+        - Tiny straw hat
+        - Toned
+        - Toned Physique
+        - Top Hat
+        - Tribal Garb
+        - Tuft of hair
+        - Two penises
+        - Two red cheeks
+        - Two-toned Hat
+        - Unnaturally Blue Eyes
+        - Unremarkable Features
         - Unspecified
         - Unusual Hair Color
+        - Vacant eyes
+        - Very light skin
+        - Vibrant Shorts
+        - Vibrantly-colored
+        - Victorian Attire
+        - Violet eyes
         - Voluptuous
+        - Wall-nut shell
+        - Warm Brown Eyes
+        - Warm Caramel Skin
+        - Warm Porcelain Skin
+        - Wavy hair
+        - Wearing Uniform
+        - Wheelchair user
+        - White
+        - White Eyes
+        - White Hair
+        - White Shirt
+        - White Skin
+        - White Tail
+        - White Uwabaki Slippers
+        - White Wings
+        - White apron
+        - White belly
+        - White cufflinks
+        - White dress
+        - White fur
+        - White half-turtleneck with polka dots
+        - White headband
+        - White hoodie
+        - White irises
+        - White pants
+        - White shoes
+        - White teeth
+        - Wide chest
         - Wings
+        - Wings (true form)
+        - Wolf Ears
+        - Worn boots
+        - Yellow
+        - Yellow Hair
+        - Yellow bow (Lalala)
+        - Yellow bows
+        - Yellow clavus
+        - Yellow fins
+        - Yellow scales
+        - Young
         - average frame
         - big ass
+        - big breast size
+        - big hips
         - brown horns
         - brown skin
+        - burning flame
+        - cat tail
         - dyed orange hair
         - floppy ears
         - freckles
+        - hour glass figure
         - huge breasts
+        - large blue wings
+        - limbless
+        - long jaw
         - long tail
+        - long thick tail
+        - orange scales
         - sharp teeth
         - thick thighs
+        - two short straight horns
         - yellow eyes
     validations:
       required: false
@@ -666,16 +1667,25 @@ body:
         - BDSM
         - Body Modification
         - Bondage
+        - Bottom
         - Breeding
+        - Cannibalism
         - Cross-dressing
+        - Cuckolding
+        - Dominant receiver(s)
+        - Domination
+        - Embarrassment
         - Exhibition
         - Feet
+        - Feminization
+        - Fingering
         - Food Play
         - Furry
         - Harem
         - Hypnosis
         - Latex
         - Leather
+        - Light bondage
         - Macro/Micro
         - Master/Slave
         - Medical
@@ -685,15 +1695,24 @@ body:
         - Pet Play
         - Pregnancy
         - Roleplay
+        - Seduction
+        - Self-harm
         - Sensory Deprivation
+        - Service-oriented submission
+        - Sex Toys
         - Size Difference
         - Slavery
+        - Submissive
+        - Teasing
         - Temperature Play
         - Tentacles
+        - Threesome
         - Transformation
         - Uniform
+        - Vibrators
         - Vore
         - Voyeurism
+        - Worship
     validations:
       required: false
 
@@ -705,7 +1724,11 @@ body:
       multiple: true
       options:
         - Anal
+        - Anal sex
+        - Assisted deepthroat
         - Bukkake
+        - Choking
+        - Clothed sex
         - Creampie
         - Deep Throat
         - Double Penetration
@@ -714,8 +1737,10 @@ body:
         - Fingering
         - First Time
         - Fisting
+        - Foreplay
         - Gangbang
         - Gentle
+        - Gentle sex
         - Group
         - Marathon
         - Masturbation
@@ -724,14 +1749,21 @@ body:
         - Non-virgin
         - One-sided
         - Oral
+        - Oral sex
+        - Orgy
+        - Promiscuous
         - Public
         - Quickie
         - Rimming
         - Rough
+        - Seduction
+        - Self-harm
         - Semi-public
         - Squirting
         - Threesome
         - Toys
+        - Unspecified
+        - Vaginal sex
         - Vanilla
         - Virgin
     validations:
@@ -752,12 +1784,16 @@ body:
         - Experimental
         - Friends with Benefits
         - Gay
+        - Heterosexual
         - Lesbian
+        - Monogamous
         - No Strings Attached
         - Open Relationship
         - Pansexual
         - Polyamorous
         - Straight
+        - Submissive
+        - Unspecified
     validations:
       required: false
 
@@ -793,17 +1829,26 @@ body:
         - Ancient
         - Brothel
         - Castle
+        - City
         - Contemporary
         - Cyberpunk
+        - Desert
+        - Dorm
         - Dream World
         - Dungeon
         - Fantasy World
         - Future
         - Harem
         - Hell
+        - Hidden City
+        - Historical
+        - Hotel
+        - Laboratory
+        - Limbo
         - Medieval
         - Military Base
         - Modern
+        - Opera House
         - Parallel Universe
         - Post-Apocalyptic
         - Prehistoric
@@ -812,11 +1857,50 @@ body:
         - Space
         - Steampunk
         - Underground
+        - University
+        - Unspecified
         - Urban
         - Victorian
         - Virtual Reality
         - Wilderness
         - industrial
+    validations:
+      required: false
+
+  - type: dropdown
+    id: age_group
+    attributes:
+      label: Age_group
+      description: Auto-generated category
+      multiple: true
+      options:
+        - teen
+        - unspecified
+        - young adult
+    validations:
+      required: false
+
+  - type: dropdown
+    id: physical_traits
+    attributes:
+      label: Physical_traits
+      description: Auto-generated category
+      multiple: true
+      options:
+        - anthropomorphic
+        - cute and adorable
+        - fluffy
+    validations:
+      required: false
+
+  - type: dropdown
+    id: work_name
+    attributes:
+      label: Work_name
+      description: Auto-generated category
+      multiple: true
+      options:
+        - original
     validations:
       required: false
   # END_CATEGORIES

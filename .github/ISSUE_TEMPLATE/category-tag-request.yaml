@@ -40,6 +40,9 @@ body:
         - Sexual Preferences
         - Sexual Experience
         - Setting
+        - Age_group
+        - Physical_traits
+        - Work_name
     validations:
       required: true
   # END_CATEGORIES_OPTIONS
