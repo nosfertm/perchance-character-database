@@ -499,6 +499,7 @@ body:
         - Bartender
         - Best friend
         - Bodyguard
+        - Bounty hunter
         - Boxer
         - Businessman
         - Businesswoman
@@ -512,10 +513,12 @@ body:
         - Community Helper
         - Community Volunteer
         - Companion
+        - Content Creator
         - Courier
         - Critic
         - Dancer
         - Deity
+        - Demon hunter
         - Detective
         - Doctor
         - Dominatrix/Dom
@@ -572,6 +575,7 @@ body:
         - Pilot
         - Pirate
         - Priest/Priestess
+        - Priestess
         - Professional
         - Programmer
         - Protagonist
@@ -688,10 +692,12 @@ body:
         - Clumsy (on land)
         - Cocky
         - Cold
+        - Cold (Initially)
         - Coldhearted
         - Collected
         - Commanding
         - Compassionate
+        - Compassionate (Later)
         - Competitive
         - Complex
         - Composed
@@ -700,6 +706,7 @@ body:
         - Considerate
         - Contemplative
         - Controlling
+        - Cool
         - Courageous
         - Courteous
         - Cowardly
@@ -734,18 +741,22 @@ body:
         - Dramatic
         - Dreamy
         - Dry Humor
+        - Dutiful
         - Eager
         - Eager to Please
         - Eager to help
         - Earnest
         - Easily Scared
         - Efficient
+        - Efficient (Initially)
         - Egoistical
         - Egotistical
         - Emotional
         - Emotional (Hidden)
         - Emotionally Intelligent
+        - Emotionless (Initially)
         - Empathetic
+        - Empathetic (Later)
         - Energetic
         - Enthusiastic
         - Entitled
@@ -821,6 +832,7 @@ body:
         - Laid back
         - Lazy
         - Leader
+        - Lesbian
         - Libertarian
         - Light-hearted
         - Likes Reading
@@ -829,6 +841,7 @@ body:
         - Loud
         - Loving
         - Loyal
+        - Loyal (Initially)
         - Lustful
         - Malicious
         - Manipulative
@@ -985,6 +998,7 @@ body:
         - Trusting
         - Tsundere
         - Tyrannical
+        - Unapologetic
         - Unforgiving
         - Unhinged
         - Unpredictable
@@ -1093,6 +1107,9 @@ body:
         - Black boots
         - Black choker
         - Black claws
+        - Black combat boots
+        - Black demonic horns
+        - Black dress
         - Black eyes
         - Black fingerless gloves
         - Black futuristic prosthetic
@@ -1109,9 +1126,11 @@ body:
         - Black sleeves
         - Black stockings
         - Black suit
+        - Black sunglasses
         - Black thong
         - Black-and-gold slippers
         - Black-dyed Bangs
+        - Blessed pistols
         - Blonde Hair
         - Blood red skin
         - Blue
@@ -1127,6 +1146,7 @@ body:
         - Blue skin
         - Blue tail
         - Blue-and-gold shirt
+        - Blue-and-white sailor cap
         - Blue-gray coat
         - Bluish-Purple Hair
         - Bone white skin
@@ -1139,6 +1159,7 @@ body:
         - Brown Hair
         - Brown Shoes
         - Brown Sweater Vest
+        - Brown hat
         - Brown shirt
         - Brown-Black Coat
         - Brunette Hair
@@ -1159,6 +1180,7 @@ body:
         - Cat-like features
         - Chain anklets
         - Chipped black nail polish
+        - Christian symbols
         - Chubby
         - Chubby belly
         - Clam-shaped pectoral fins
@@ -1269,6 +1291,7 @@ body:
         - Golden Fur
         - Golden Wings
         - Golden buttons
+        - Golden cross amulet
         - Gooey Hair
         - Googly eyes
         - Gray
@@ -1392,7 +1415,9 @@ body:
         - Maroon shirt
         - Mask
         - Mechanical
+        - Mechanical Armor
         - Mechanical Limb
+        - Mechanized Quills
         - Medium breasts
         - Medium sized boobs
         - Megaphone
@@ -1431,6 +1456,7 @@ body:
         - Ocean Blue Eyes
         - Olive Skin
         - One Eye
+        - One Robotic Eye
         - One large eye
         - Open mouth
         - Orange Eyes
@@ -1445,6 +1471,7 @@ body:
         - Pale yellow shoulder tuft
         - Pale yellow tail
         - Pastel Pink Hair
+        - Pear-shaped face
         - Petite
         - Piercing Gray Eyes
         - Piercing blue eyes
@@ -1522,9 +1549,11 @@ body:
         - Round Head
         - Round Monocle
         - Round beady eyes
+        - Round body
         - Round face
         - Ruby skirt
         - Runic patterns on face
+        - Rusted
         - Scales
         - Scaly skin
         - Scar
@@ -1536,6 +1565,7 @@ body:
         - Semi-circular body
         - Sharp Features
         - Sharp claws
+        - Sharp nails
         - Sharp white teeth
         - Shoes
         - Short
@@ -1596,6 +1626,7 @@ body:
         - Strong
         - Strong Arms
         - Stubble
+        - Stubby arms
         - Stubby tails
         - Sun-kissed skin
         - Sunglasses
@@ -1605,6 +1636,7 @@ body:
         - Tail
         - Tall
         - Tall fins
+        - Taller than Amy Rose
         - Talons
         - Tan skin
         - Tanned Skin
