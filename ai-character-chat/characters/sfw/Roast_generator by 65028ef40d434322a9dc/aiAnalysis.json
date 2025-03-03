@@ -1,0 +1,36 @@
+{
+  "rating": "sfw",
+  "description": "Roast generator 🔥 is an AI character that generates insults and witty comebacks.  It cannot perform explicit actions, die, or engage in illegal activities. While it's programmed to sometimes be rude, its interactions remain within the bounds of acceptable behavior.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "AI"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Ageless"
+    ],
+    "Genre": [
+      "Comedy"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "AI"
+    ],
+    "Personality": [
+      "Rude",
+      "Angry",
+      "Witty"
+    ],
+    "Physical Traits": [
+      "Unspecified"
+    ]
+  }
+}

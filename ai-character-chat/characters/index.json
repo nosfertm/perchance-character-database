@@ -21714,5 +21714,399 @@
         ]
       }
     }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Roast_generator by 65028ef40d434322a9dc",
+    "manifest": {
+      "name": "Roast generator 🔥",
+      "description": "Roast generator 🔥 is an AI character that generates insults and witty comebacks.  It cannot perform explicit actions, die, or engage in illegal activities. While it's programmed to sometimes be rude, its interactions remain within the bounds of acceptable behavior.",
+      "author": "Anonymous",
+      "authorId": "65028ef40d434322a9dc",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740990864/scrape/perchance_comments/img_Roast_generator_by_65028ef40d434322a9dc.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Roast_generator_%F0%9F%94%A5~5ec6081bf45e0075ea1448fc408a146c.gz",
+      "shareLinkFileHash": "3a3806e0ae2ab627df50989de19f6f0ace77323b2c46f45fff6158ec19703c83",
+      "downloadPath": "ai-character-chat/characters/sfw/Roast_generator by 65028ef40d434322a9dc/character_Roast_generator by 65028ef40d434322a9dc.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "AI"
+        ],
+        "Gender": [
+          "Unspecified"
+        ],
+        "Age Group": [
+          "Ageless"
+        ],
+        "Genre": [
+          "Comedy"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "AI"
+        ],
+        "Personality": [
+          "Rude",
+          "Angry",
+          "Witty"
+        ],
+        "Physical Traits": [
+          "Unspecified"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Robert_I_Baratheon by e1eb53c4d59f2758a6bb",
+    "manifest": {
+      "name": "Robert I Baratheon",
+      "description": "Robert Baratheon, the King of the Seven Kingdoms, is a powerful and imposing figure known for his bravery and prowess in battle.  However, his impulsive nature, excessive indulgence in food, drink, and women, and lack of political acumen lead to recklessness and susceptibility to manipulation.",
+      "author": "Anonymous",
+      "authorId": "e1eb53c4d59f2758a6bb",
+      "source": "SCRAPER",
+      "imageUrl": "https://awoiaf.westeros.org/images/9/9e/Robert_Baratheon_by_Antonio_J_Manzanedo.jpg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Robert_I_Baratheon~5f7810695c8080a4fd99c7b10aea4dd8.gz",
+      "shareLinkFileHash": "80aab4a44224a02e1d575308e8bb160550b34937ffe04a24f87e29a1920e1731",
+      "downloadPath": "ai-character-chat/characters/sfw/Robert_I_Baratheon by e1eb53c4d59f2758a6bb/character_Robert_I_Baratheon by e1eb53c4d59f2758a6bb.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Fantasy",
+          "Drama",
+          "Political"
+        ],
+        "Source": [
+          "Book",
+          "TV Show",
+          "Game of Thrones"
+        ],
+        "Work Name": [
+          "Game of Thrones"
+        ],
+        "Role": [
+          "Royalty",
+          "Leader"
+        ],
+        "Personality": [
+          "Brave",
+          "Impulsive",
+          "Reckless",
+          "Proud",
+          "Stubborn",
+          "Charismatic"
+        ],
+        "Physical Traits": [
+          "Tall",
+          "Muscular",
+          "Plus-sized",
+          "Thick chest",
+          "Strong arms",
+          "Beard"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Rollo_Flamme by f9eebe32644276483b25",
+    "manifest": {
+      "name": "Rollo Flamme",
+      "description": "Rollo Flamme is an 18-year-old, stoic, and diligent student at Noble Bell College with a strong sense of virtue and purity.  He is highly critical of others, particularly those who use magic, due to a past tragedy involving his brother.  Despite his stern demeanor, he harbors a deep love for Fleur City and its history, reflected in his admiration for Claude Frollo and the \"Bell of Salvation.\"",
+      "author": "Anonymous",
+      "authorId": "f9eebe32644276483b25",
+      "source": "SCRAPER",
+      "imageUrl": "https://twistedwonderland.wiki.gg/images/f/ff/Rollo_Flamme.png",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Rollo_Flamme~c4bd0d42575a4bd24c47d925832cbe20.gz",
+      "shareLinkFileHash": "3173fa03e5a59c759aa9e07b190d56a6f2827f8343617660ad58e16e4213466b",
+      "downloadPath": "ai-character-chat/characters/sfw/Rollo_Flamme by f9eebe32644276483b25/character_Rollo_Flamme by f9eebe32644276483b25.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Teen"
+        ],
+        "Genre": [
+          "Fantasy",
+          "School Life"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Student"
+        ],
+        "Personality": [
+          "Stoic",
+          "Diligent",
+          "Critical",
+          "Stern",
+          "Reserved",
+          "Obsessive",
+          "Judgmental",
+          "Arrogant",
+          "Dismissive"
+        ],
+        "Physical Traits": [
+          "Tall",
+          "Pale Skin",
+          "Grey Hair",
+          "White Hair",
+          "Green Eyes",
+          "Thin Lips",
+          "Heavy Eye-bags",
+          "Wearing Uniform"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Ron by 7a116afe5050d555865d",
+    "manifest": {
+      "name": "Ron",
+      "description": "Ron, a young boy, is murdered by his abusive, alcoholic father, Bruce.  Ron's spirit enters a dream-like world where he confronts his father as the terrifying Mr. Red Face, eventually using his father's motel key card as evidence to bring him to justice. The game explores themes of child abuse and features disturbing imagery, making it unsuitable for a general audience.",
+      "author": "Anonymous",
+      "authorId": "7a116afe5050d555865d",
+      "source": "SCRAPER",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRExSwLorB2etxLtje7D7PrlAepAEypcfcz8clTttcs4A&s",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Ron~cbbd1d25a99e539c3479938322a4917e.gz",
+      "shareLinkFileHash": "e8cba66c33cc9ede6080b37150ffabeb3f01e05e4fe41e892c6aa79114c644d9",
+      "downloadPath": "ai-character-chat/characters/nsfw/Ron by 7a116afe5050d555865d/character_Ron by 7a116afe5050d555865d.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Child"
+        ],
+        "Genre": [
+          "Horror",
+          "Drama",
+          "Game"
+        ],
+        "Source": [
+          "Game"
+        ],
+        "Work Name": [
+          "Original"
+        ],
+        "Role": [
+          "Protagonist",
+          "Victim"
+        ],
+        "Personality": [
+          "Vulnerable",
+          "Brave"
+        ],
+        "Physical Traits": [
+          "Black hair",
+          "Black eyes",
+          "Red and white striped shirt",
+          "Black sleeves",
+          "Black pants"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Rook_Hunt by f9eebe32644276483b25",
+    "manifest": {
+      "name": "Rook Hunt",
+      "description": "Rook Hunt is an 18-year-old, 177cm tall student at Night Raven College.  He's the vice leader of Pomefiore dorm, known for his elegant appearance, expressive personality, and secretive nature.  His curiosity often leads to close observation of others, bordering on stalking, though he maintains an elusive and charming demeanor. He enjoys poetry, stage plays, and photography.",
+      "author": "Anonymous",
+      "authorId": "f9eebe32644276483b25",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740990881/scrape/perchance_comments/img_Rook_Hunt_by_f9eebe32644276483b25.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Rook_Hunt~9bfb2d0c70c58a9fb41c020a005c6d22.gz",
+      "shareLinkFileHash": "70fa6871f680a27260269096eada453858f379119bc65d0f66ae561686b7c48d",
+      "downloadPath": "ai-character-chat/characters/sfw/Rook_Hunt by f9eebe32644276483b25/character_Rook_Hunt by f9eebe32644276483b25.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Teen"
+        ],
+        "Genre": [
+          "Fantasy",
+          "School Life"
+        ],
+        "Source": [
+          "Game"
+        ],
+        "Work Name": [
+          "Original"
+        ],
+        "Role": [
+          "Student"
+        ],
+        "Personality": [
+          "Expressive",
+          "Charming",
+          "Secretive",
+          "Curious",
+          "Sociable",
+          "Emotional",
+          "Mysterious",
+          "Talkative",
+          "Honest",
+          "Introspective",
+          "Contemplative"
+        ],
+        "Physical Traits": [
+          "Tall",
+          "Blonde Hair",
+          "Hunter-Green Eyes",
+          "Elegant",
+          "Muscular (Secretly)"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Rosalyn by Thunder_Man",
+    "manifest": {
+      "name": "Rosalyn",
+      "description": "Rosalyn is a friendly and calm female Chinese VTuber, a librarian from another dimension who loves to travel and became captivated by trading card games.  She is known for her long, dark grayish-blue hair, light blue eyes, and round monocle.",
+      "author": "Thunder Man",
+      "authorId": "eb7e4c383470c1eb395b",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/24f9e60400a0b4b259e4f1f4dea4c909.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Rosalyn~99ca9c279b710388d3976134245af89c.gz",
+      "shareLinkFileHash": "bd3a71bc137898cd81776c245d8c8fa5a943d31fd922b40bcde111f7364fa6b4",
+      "downloadPath": "ai-character-chat/characters/sfw/Rosalyn by Thunder_Man/character_Rosalyn by Thunder_Man.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Young Adult"
+        ],
+        "Genre": [
+          "Entertainment"
+        ],
+        "Source": [
+          "Content Creator"
+        ],
+        "Work Name": [
+          "Original"
+        ],
+        "Role": [
+          "Librarian",
+          "Entertainer"
+        ],
+        "Personality": [
+          "Friendly",
+          "Calm",
+          "Excited",
+          "Likes Reading",
+          "Funny"
+        ],
+        "Physical Traits": [
+          "Long Hair",
+          "Dark Blue Hair",
+          "Light Blue Eyes",
+          "Round Monocle"
+        ]
+      }
+    }
   }
 ]

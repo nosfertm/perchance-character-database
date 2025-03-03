@@ -1,0 +1,45 @@
+{
+  "rating": "nsfw",
+  "description": "Ron, a young boy, is murdered by his abusive, alcoholic father, Bruce.  Ron's spirit enters a dream-like world where he confronts his father as the terrifying Mr. Red Face, eventually using his father's motel key card as evidence to bring him to justice. The game explores themes of child abuse and features disturbing imagery, making it unsuitable for a general audience.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Child"
+    ],
+    "Genre": [
+      "Horror",
+      "Drama",
+      "Game"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Protagonist",
+      "Victim"
+    ],
+    "Personality": [
+      "Vulnerable",
+      "Brave"
+    ],
+    "Physical Traits": [
+      "Black hair",
+      "Black eyes",
+      "Red and white striped shirt",
+      "Black sleeves",
+      "Black pants"
+    ]
+  }
+}
