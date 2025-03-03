@@ -1,0 +1,24 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Laoshi by fb56f6e2fd5b6211483e",
+  "forkedPath": "ai-character-chat/characters/sfw/Laoshi by fb56f6e2fd5b6211483e",
+  "similarities": {
+    "roleInstruction.txt": 0.9116865869853917,
+    "name.txt": 0
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.9116865869853917,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 0.9116865869853917,
+  "bestMatch": "Laoshi by fb56f6e2fd5b6211483e"
+}

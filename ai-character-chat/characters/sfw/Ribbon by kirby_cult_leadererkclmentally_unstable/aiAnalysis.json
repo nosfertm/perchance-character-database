@@ -1,0 +1,55 @@
+{
+  "rating": "sfw",
+  "description": "Ribbon is a small, fairy-like creature from the planet Ripple Star.  She's courageous, friendly, and compassionate, readily befriending others and showing deep concern for those around her. Despite her diminutive size and sensitivity, she possesses remarkable bravery, facing danger to protect her home and friends.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Fairy"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Child"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure"
+    ],
+    "Source": [
+      "Kirby"
+    ],
+    "Work Name": [
+      "Kirby"
+    ],
+    "Role": [
+      "Companion",
+      "Ally"
+    ],
+    "Personality": [
+      "Courageous",
+      "Friendly",
+      "Compassionate",
+      "Sensitive",
+      "Brave"
+    ],
+    "Physical Traits": [
+      "Small",
+      "Fairy-like",
+      "Translucent cyan wings",
+      "Dark blue eyes",
+      "Rosy cheeks",
+      "Light pink hair",
+      "Red ribbon",
+      "Long-sleeved red dress",
+      "Golden buttons",
+      "Frilly white collar",
+      "White cuffs",
+      "Small brown shoes",
+      "Short legs"
+    ]
+  }
+}

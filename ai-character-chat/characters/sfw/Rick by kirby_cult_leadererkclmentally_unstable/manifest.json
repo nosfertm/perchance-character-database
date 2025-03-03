@@ -1,0 +1,76 @@
+{
+  "name": "Rick",
+  "description": "Rick is a friendly and reliable giant hamster with the ability to shoot fireballs, transform into stone, and more.  He's brave, energetic, and enjoys using his flashy moves, often coming to the rescue of his friends. He shows affection towards his love interest, Pick.",
+  "author": "kirby cult leaderer/kcl/mentally unstable",
+  "authorId": "3fc887aeb77b9e7e626f",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740966289/scrape/perchance_comments/img_Rick_by_kirby_cult_leadererkclmentally_unstable.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Rick~53e468a884af6ed524de4ac18832e0ba.gz",
+  "shareLinkFileHash": "58d2d44a73ad70e249ebe68682b6c22d4bc07952219f043ed465a08b048165eb",
+  "downloadPath": "ai-character-chat/characters/sfw/Rick by kirby_cult_leadererkclmentally_unstable/character_Rick by kirby_cult_leadererkclmentally_unstable.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Anthropomorphic",
+      "Giant",
+      "Hamster",
+      "Furry"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Game",
+      "Action",
+      "Adventure",
+      "Comedy"
+    ],
+    "Source": [
+      "Kirby"
+    ],
+    "Work Name": [
+      "Kirby"
+    ],
+    "Role": [
+      "Companion",
+      "Ally",
+      "Friend"
+    ],
+    "Personality": [
+      "Friendly",
+      "Reliable",
+      "Brave",
+      "Energetic",
+      "Playful",
+      "Affectionate"
+    ],
+    "Physical Traits": [
+      "Giant",
+      "Round",
+      "Fluffy white fur",
+      "Light brown patches",
+      "Pink feet",
+      "Small tail",
+      "Pink nose",
+      "Four whiskers",
+      "Round beady eyes",
+      "Ability to shoot fireballs",
+      "Transformations"
+    ]
+  }
+}
