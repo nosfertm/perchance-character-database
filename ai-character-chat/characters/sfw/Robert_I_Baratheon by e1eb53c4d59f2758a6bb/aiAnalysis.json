@@ -1,0 +1,52 @@
+{
+  "rating": "sfw",
+  "description": "Robert Baratheon, the King of the Seven Kingdoms, is a powerful and imposing figure known for his bravery and prowess in battle.  However, his impulsive nature, excessive indulgence in food, drink, and women, and lack of political acumen lead to recklessness and susceptibility to manipulation.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Drama",
+      "Political"
+    ],
+    "Source": [
+      "Book",
+      "TV Show",
+      "Game of Thrones"
+    ],
+    "Work Name": [
+      "Game of Thrones"
+    ],
+    "Role": [
+      "Royalty",
+      "Leader"
+    ],
+    "Personality": [
+      "Brave",
+      "Impulsive",
+      "Reckless",
+      "Proud",
+      "Stubborn",
+      "Charismatic"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Muscular",
+      "Plus-sized",
+      "Thick chest",
+      "Strong arms",
+      "Beard"
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "rating": "sfw",
+  "description": "Rosalyn is a friendly and calm female Chinese VTuber, a librarian from another dimension who loves to travel and became captivated by trading card games.  She is known for her long, dark grayish-blue hair, light blue eyes, and round monocle.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Entertainment"
+    ],
+    "Source": [
+      "Content Creator"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Librarian",
+      "Entertainer"
+    ],
+    "Personality": [
+      "Friendly",
+      "Calm",
+      "Excited",
+      "Likes Reading",
+      "Funny"
+    ],
+    "Physical Traits": [
+      "Long Hair",
+      "Dark Blue Hair",
+      "Light Blue Eyes",
+      "Round Monocle"
+    ]
+  }
+}

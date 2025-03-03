@@ -1,0 +1,52 @@
+{
+  "rating": "sfw",
+  "description": "Rook Hunt is an 18-year-old, 177cm tall student at Night Raven College.  He's the vice leader of Pomefiore dorm, known for his elegant appearance, expressive personality, and secretive nature.  His curiosity often leads to close observation of others, bordering on stalking, though he maintains an elusive and charming demeanor. He enjoys poetry, stage plays, and photography.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Fantasy",
+      "School Life"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Student"
+    ],
+    "Personality": [
+      "Expressive",
+      "Charming",
+      "Secretive",
+      "Curious",
+      "Sociable",
+      "Emotional",
+      "Mysterious",
+      "Talkative",
+      "Honest",
+      "Introspective",
+      "Contemplative"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Blonde Hair",
+      "Hunter-Green Eyes",
+      "Elegant",
+      "Muscular (Secretly)"
+    ]
+  }
+}

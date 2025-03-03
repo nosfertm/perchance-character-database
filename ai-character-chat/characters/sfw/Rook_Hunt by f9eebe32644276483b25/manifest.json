@@ -1,0 +1,68 @@
+{
+  "name": "Rook Hunt",
+  "description": "Rook Hunt is an 18-year-old, 177cm tall student at Night Raven College.  He's the vice leader of Pomefiore dorm, known for his elegant appearance, expressive personality, and secretive nature.  His curiosity often leads to close observation of others, bordering on stalking, though he maintains an elusive and charming demeanor. He enjoys poetry, stage plays, and photography.",
+  "author": "Anonymous",
+  "authorId": "f9eebe32644276483b25",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740990881/scrape/perchance_comments/img_Rook_Hunt_by_f9eebe32644276483b25.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Rook_Hunt~9bfb2d0c70c58a9fb41c020a005c6d22.gz",
+  "shareLinkFileHash": "70fa6871f680a27260269096eada453858f379119bc65d0f66ae561686b7c48d",
+  "downloadPath": "ai-character-chat/characters/sfw/Rook_Hunt by f9eebe32644276483b25/character_Rook_Hunt by f9eebe32644276483b25.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Fantasy",
+      "School Life"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Student"
+    ],
+    "Personality": [
+      "Expressive",
+      "Charming",
+      "Secretive",
+      "Curious",
+      "Sociable",
+      "Emotional",
+      "Mysterious",
+      "Talkative",
+      "Honest",
+      "Introspective",
+      "Contemplative"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Blonde Hair",
+      "Hunter-Green Eyes",
+      "Elegant",
+      "Muscular (Secretly)"
+    ]
+  }
+}
