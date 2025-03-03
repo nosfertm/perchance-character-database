@@ -1,0 +1,60 @@
+{
+  "rating": "sfw",
+  "description": "Rick is a friendly and reliable giant hamster with the ability to shoot fireballs, transform into stone, and more.  He's brave, energetic, and enjoys using his flashy moves, often coming to the rescue of his friends. He shows affection towards his love interest, Pick.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Anthropomorphic",
+      "Giant",
+      "Hamster",
+      "Furry"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Game",
+      "Action",
+      "Adventure",
+      "Comedy"
+    ],
+    "Source": [
+      "Kirby"
+    ],
+    "Work Name": [
+      "Kirby"
+    ],
+    "Role": [
+      "Companion",
+      "Ally",
+      "Friend"
+    ],
+    "Personality": [
+      "Friendly",
+      "Reliable",
+      "Brave",
+      "Energetic",
+      "Playful",
+      "Affectionate"
+    ],
+    "Physical Traits": [
+      "Giant",
+      "Round",
+      "Fluffy white fur",
+      "Light brown patches",
+      "Pink feet",
+      "Small tail",
+      "Pink nose",
+      "Four whiskers",
+      "Round beady eyes",
+      "Ability to shoot fireballs",
+      "Transformations"
+    ]
+  }
+}
