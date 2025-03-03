@@ -309,8 +309,9 @@
         <!-- Page content -->
 
         <!-- Filter panel -->
-        <div class="offcanvas offcanvas-end offcanvas-push" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+        <div class="offcanvas offcanvas-end offcanvas-push custom-scrollbar" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
             :class="{ 'bg-dark text-white': isDarkMode }" id="filterPanel" aria-labelledby="filterPanelLabel">
+            <!-- Fixed part -->
             <div class="offcanvas-header" :class="{ 'bg-dark text-white': isDarkMode }">
                 <h5 class="offcanvas-title" id="filterPanelLabel">Filter Panel</h5>
                 <div class="filter-panel-controls">
@@ -320,11 +321,13 @@
                         data-bs-dismiss="offcanvas" aria-label="Close"
                         @click="isFilterPanelOpen = !isFilterPanelOpen"></button>
                 </div>
-
             </div>
-            <div class="offcanvas-body" :class="{ 'bg-dark text-white': isDarkMode }">
+            
+            <div class="offcanvas-body custom-scrollbar" :class="{ 'bg-dark text-white': isDarkMode }">
+                
                 <!-- Fixed top section -->
                 <div class="filter-panel-fixed">
+                    
                     <!-- Search bar -->
                     <div class="input-group" :class="{ 'bg-dark text-white': isDarkMode }">
                         <input type="text" class="form-control" :class="{ 'bg-dark text-white': isDarkMode }"

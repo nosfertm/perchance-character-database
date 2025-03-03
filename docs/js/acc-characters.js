@@ -214,15 +214,28 @@ document.addEventListener('DOMContentLoaded', () => {
 
             isTagSelected(categoryName, tag, cat) {
                 // Exit early if data is loading or characters are not available
-                if (this.stateLoading || !this.categories) return [];
+                if (this.stateLoading || !this.categories) return false;
 
                 // Safety check for category and tag
                 const categoryLower = categoryName.toLowerCase();
-                return this.selectedFilters.categories[categoryLower]?.includes(tag) || false;
+
+                // Clean the current tag and get selected tags
+                const cleanTag = tag.replace(/\s*\(\d+\)$/, '');
+                const selectedTags = this.selectedFilters.categories[categoryLower];
+
+                if (!selectedTags) return false;
+
+                // Compare cleaned versions of tags
+                return selectedTags.some(selectedTag =>
+                    selectedTag.replace(/\s*\(\d+\)$/, '').toLowerCase() === cleanTag.toLowerCase()
+                );
             },
 
             handleTagSelection(e, category, tag) {
                 const categoryLower = category.name.toLowerCase();
+
+                // Clean the tag (remove count)
+                const cleanTag = tag.replace(/\s*\(\d+\)$/, '');
 
                 // Initialize category array if it doesn't exist
                 if (!this.selectedFilters.categories[categoryLower]) {
@@ -230,19 +243,21 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
 
                 // Handle NSFW visibility toggle
-                if (categoryLower === 'rating' && tag === 'NSFW') {
+                if (categoryLower === 'rating' && cleanTag.toLowerCase() === 'nsfw') {
                     this.showNsfwTags = e.target.checked;
                     this.showNsfwImages = e.target.checked;
                 }
 
                 // Update selected filters
                 if (e.target.checked) {
-                    if (!this.selectedFilters.categories[categoryLower].includes(tag)) {
-                        this.selectedFilters.categories[categoryLower].push(tag);
+                    if (!this.selectedFilters.categories[categoryLower].includes(cleanTag)) {
+                        this.selectedFilters.categories[categoryLower].push(cleanTag);
                     }
                 } else {
                     this.selectedFilters.categories[categoryLower] =
-                        this.selectedFilters.categories[categoryLower].filter(t => t !== tag);
+                        this.selectedFilters.categories[categoryLower].filter(t =>
+                            t.replace(/\s*\(\d+\)$/, '') !== cleanTag
+                        );
 
                     // If unchecking last Rating tag, re-enable SFW
                     if (categoryLower === 'rating' &&
@@ -289,7 +304,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     }
 
                     // 3. Special handling for NSFW content
-                    if (this.isNsfwCharacter(character.manifest.categories.rating) && !this.showNsfwCharacters &&
+                    if (this.isNsfwCharacter(character.manifest.categories.rating) &&
+                        !this.showNsfwCharacters &&
                         !this.selectedFilters.categories.rating?.includes('nsfw')) {
                         return false;
                     }
@@ -308,16 +324,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
                         if (category === 'rating' && this.showNsfwCharacters) return true;
 
-                        if (Array.isArray(charCategoryValue)) {
-                            return selectedTags.some(tag =>
-                                charCategoryValue.map(v => v?.toLowerCase() || '')
-                                    .includes(tag.toLowerCase())
-                            );
-                        }
+                        // Convert character tags to array and clean them
+                        const charTags = Array.isArray(charCategoryValue)
+                            ? charCategoryValue.map(v => v?.toLowerCase() || '')
+                            : [String(charCategoryValue || '').toLowerCase()];
 
-                        // Ensure charCategoryValue is a string before comparison
-                        const charValue = String(charCategoryValue || '').toLowerCase();
-                        return selectedTags.some(tag => tag.toLowerCase() === charValue);
+                        // Clean selected tags and check if ALL selected tags are present
+                        return selectedTags.every(tag => {
+                            const cleanTag = tag.replace(/\s*\(\d+\)$/, '').toLowerCase();
+                            return charTags.includes(cleanTag);
+                        });
                     });
                 });
             },
@@ -453,7 +469,49 @@ document.addEventListener('DOMContentLoaded', () => {
             // This avoids showing categories with no characters
             availableCategories() {
                 if (this.stateLoading) return [];
-                return this.categories;
+
+                // Get filtered characters first
+                const filteredChars = this.filteredCharacters;
+                if (!filteredChars.length) return this.categories;
+
+                // Process each category from the original categories array
+                return this.categories.map(category => {
+                    // Skip invalid categories
+                    if (!category?.name) return null;
+
+                    const categoryName = category.name.toLowerCase();
+                    const tagCounts = new Map();
+
+                    // Count occurrences of each tag in filtered characters
+                    filteredChars.forEach(char => {
+                        const charCategory = char.manifest?.categories?.[categoryName];
+                        if (!charCategory) return;
+
+                        const tags = Array.isArray(charCategory) ? charCategory : [charCategory];
+                        tags.forEach(tag => {
+                            const normalizedTag = tag.toLowerCase();
+                            tagCounts.set(normalizedTag, (tagCounts.get(normalizedTag) || 0) + 1);
+                        });
+                    });
+
+                    // Create new category object with same structure but filtered tags
+                    const filteredCategory = {
+                        ...category,
+                        tags: {
+                            general: category.tags?.general
+                                ?.filter(tag => tagCounts.has(tag.toLowerCase()))
+                                ?.map(tag => `${tag} (${tagCounts.get(tag.toLowerCase())})`),
+                            nsfw: this.showNsfwTags ? category.tags?.nsfw
+                                ?.filter(tag => tagCounts.has(tag.toLowerCase()))
+                                ?.map(tag => `${tag} (${tagCounts.get(tag.toLowerCase())})`) : []
+                        }
+                    };
+
+                    // Only return categories that have matching tags
+                    return (filteredCategory.tags.general?.length > 0 || filteredCategory.tags.nsfw?.length > 0)
+                        ? filteredCategory
+                        : null;
+                }).filter(Boolean); // Remove null entries
             },
 
             // Computed property to check if any filters are active
@@ -520,6 +578,15 @@ document.addEventListener('DOMContentLoaded', () => {
                 ToastUtils.showToast('Failed to load data!', 'Error', 'error');
             } finally {
                 this.stateLoading = false;
+
+                // Handle offcanvas events
+                const filterPanel = document.getElementById('filterPanel');
+                filterPanel.addEventListener('show.bs.offcanvas', () => {
+                    document.body.classList.add('offcanvas-open');
+                });
+                filterPanel.addEventListener('hide.bs.offcanvas', () => {
+                    document.body.classList.remove('offcanvas-open');
+                });
             }
         }
     }).mount('#app');

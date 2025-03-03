@@ -141,6 +141,13 @@
     column-gap: 0.75rem;
 }
 
+
+/* -------------------------------------------------------------------------- */
+/*                                FILTER PANEL                                */
+/* -------------------------------------------------------------------------- */
+
+/* ---------------------------------- PANEL --------------------------------- */
+
 .filter-panel-controls {
     display: flex;
     align-items: center;
@@ -177,6 +184,77 @@
 .filter-panel-fixed {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
+
+/* ---------------------------- OFFCANVAS SCROLL ---------------------------- */
+
+/* Prevent page scroll when offcanvas is open */
+body.offcanvas-open {
+    overflow: hidden !important;
+}
+
+/* Scrollbar styling */
+.custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(108, 117, 125, 0.3) transparent;
+}
+
+/* Webkit browsers (Chrome, Safari, etc) */
+.custom-scrollbar::-webkit-scrollbar {
+    width: 5px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: rgba(108, 117, 125, 0.3);
+    border-radius: 20px;
+    transition: background-color 0.2s ease;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(108, 117, 125, 0.5);
+}
+
+/* Dark mode scrollbar */
+.bg-dark.custom-scrollbar {
+    scrollbar-color: rgba(255, 255, 255, 0.2) transparent;
+}
+
+.bg-dark.custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.bg-dark.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Filter Panel Layout */
+.offcanvas-body {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+}
+
+.filter-panel-fixed {
+    padding: 1rem;
+    background-color: inherit;
+    z-index: 1;
+}
+
+.filter-panel-scroll {
+    flex: 1;
+    overflow-y: auto;
+    padding: 1rem;
+    padding-top: 0;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                               CHARACTER CARDS                              */
+/* -------------------------------------------------------------------------- */
 
 /* Main content transition */
 .character-cards-container {
