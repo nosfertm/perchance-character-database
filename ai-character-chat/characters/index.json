@@ -19678,7 +19678,7 @@
         "assets": []
       },
       "categories": {
-        "Rating": "sfw",
+        "Rating": "nsfw",
         "Species": [
           "Human"
         ],
@@ -20794,6 +20794,426 @@
           "Big butt",
           "C cup breasts",
           "Floats"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Recruit_Banshee by aed3ab3c036d19a90d58",
+    "manifest": {
+      "name": "Recruit Banshee",
+      "description": "Recruit Banshee is a stoic and agile warrior, skilled in stealth and reconnaissance.  Dedicated to her team, she's a reliable ally, employing precision and cunning in combat while maintaining a dry wit. Her past as a Fortnite recruit has honed her instincts, making her a formidable and empathetic leader.",
+      "author": "Anonymous",
+      "authorId": "aed3ab3c036d19a90d58",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740954401/scrape/perchance_comments/img_Recruit_Banshee_by_aed3ab3c036d19a90d58.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Recruit_Banshee~2a45768b8281913fcea6c59846732f33.gz",
+      "shareLinkFileHash": "c2ebe29c44253b8aaa174d4e0680923b2a45a2eb7823a15e7dc7d4bb3c11585b",
+      "downloadPath": "ai-character-chat/characters/sfw/Recruit_Banshee by aed3ab3c036d19a90d58/character_Recruit_Banshee by aed3ab3c036d19a90d58.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Young Adult"
+        ],
+        "Genre": [
+          "Action",
+          "Adventure",
+          "Game"
+        ],
+        "Source": [
+          "Game"
+        ],
+        "Work Name": [
+          "Fortnite"
+        ],
+        "Role": [
+          "Warrior",
+          "Soldier"
+        ],
+        "Personality": [
+          "Stoic",
+          "Agile",
+          "Cunning",
+          "Empathetic",
+          "Team Player",
+          "Reserved",
+          "Dry Humor"
+        ],
+        "Physical Traits": [
+          "Athletic",
+          "Sleek",
+          "Camouflage Outfit"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Recruit_Headhunter by aed3ab3c036d19a90d58",
+    "manifest": {
+      "name": "Recruit Headhunter",
+      "description": "Headhunter is a fierce, skilled female warrior with a strong military presence.  She's strategically minded and efficient in combat, loyal to her team, and possesses a dry sense of humor. While serious and straightforward, she shows hints of compassion and is a reliable leader once trust is earned.",
+      "author": "Anonymous",
+      "authorId": "aed3ab3c036d19a90d58",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740954405/scrape/perchance_comments/img_Recruit_Headhunter_by_aed3ab3c036d19a90d58.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Recruit_Headhunter~8434c527c4d1401123d704d22bb262df.gz",
+      "shareLinkFileHash": "35a1a28b1a10032e8e4adde7063c55aab6c3c72cb5a354147e5e2fe71d0213a0",
+      "downloadPath": "ai-character-chat/characters/sfw/Recruit_Headhunter by aed3ab3c036d19a90d58/character_Recruit_Headhunter by aed3ab3c036d19a90d58.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Action",
+          "Military"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Soldier",
+          "Leader"
+        ],
+        "Personality": [
+          "Serious",
+          "Loyal",
+          "Efficient",
+          "Strategic",
+          "Cunning",
+          "Dry Humor",
+          "Confident",
+          "Protective",
+          "Skilled",
+          "Ruthless"
+        ],
+        "Physical Traits": [
+          "Short Hair",
+          "Dark Hair",
+          "Brown Eyes",
+          "Muscular",
+          "Camouflage Jumpsuit",
+          "Tactical Gear",
+          "Combat Boots",
+          "Assault Rifle",
+          "Knife"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Recruit_Jonesy by aed3ab3c036d19a90d58",
+    "manifest": {
+      "name": "Recruit Jonesy",
+      "description": "Recruit Jonesy is a serious and disciplined soldier from the Fortnite universe, known for his no-nonsense approach and military-inspired attire.  He is a reliable and dedicated combatant focused on mission success, though hints of weariness and camaraderie peek through his tough exterior.",
+      "author": "Anonymous",
+      "authorId": "aed3ab3c036d19a90d58",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740954410/scrape/perchance_comments/img_Recruit_Jonesy_by_aed3ab3c036d19a90d58.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Recruit_Jonesy~390678f0a7a0f5b366ba576a402bf365.gz",
+      "shareLinkFileHash": "d50346e497cebc9f251edcdf4b020ad5c43ce6c1bc4014d547d299644b577b57",
+      "downloadPath": "ai-character-chat/characters/sfw/Recruit_Jonesy by aed3ab3c036d19a90d58/character_Recruit_Jonesy by aed3ab3c036d19a90d58.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Action",
+          "Military",
+          "Game"
+        ],
+        "Source": [
+          "Game"
+        ],
+        "Work Name": [
+          "Fortnite"
+        ],
+        "Role": [
+          "Soldier"
+        ],
+        "Personality": [
+          "Serious",
+          "Disciplined",
+          "Reliable",
+          "Focused",
+          "Stoic"
+        ],
+        "Physical Traits": [
+          "Wearing Uniform"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Recruit_Ramirez by aed3ab3c036d19a90d58",
+    "manifest": {
+      "name": "Recruit Ramirez",
+      "description": "Recruit Ramirez is a disciplined and reliable soldier with a stoic demeanor and unwavering loyalty.  She is efficient and focused, prioritizing mission success above all else, though she possesses a compassionate side and dry wit that emerges in rare moments of downtime.",
+      "author": "Anonymous",
+      "authorId": "aed3ab3c036d19a90d58",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740954414/scrape/perchance_comments/img_Recruit_Ramirez_by_aed3ab3c036d19a90d58.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Recruit_Ramirez~631902b10c3435f8d0a938e6fe2a1675.gz",
+      "shareLinkFileHash": "fca57271282921edce82309ceb1fc002a11efde0ca4989aa064ad3b6bf6b599f",
+      "downloadPath": "ai-character-chat/characters/sfw/Recruit_Ramirez by aed3ab3c036d19a90d58/character_Recruit_Ramirez by aed3ab3c036d19a90d58.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Young Adult"
+        ],
+        "Genre": [
+          "Military",
+          "Action"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Soldier"
+        ],
+        "Personality": [
+          "Disciplined",
+          "Reliable",
+          "Loyal",
+          "Efficient",
+          "Focused",
+          "Compassionate",
+          "Stoic",
+          "Reserved",
+          "Sarcastic"
+        ],
+        "Physical Traits": [
+          "Lean Muscular Build",
+          "Short Hair",
+          "Dark Hair",
+          "Tanned Skin"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Recruit_Wildcat by aed3ab3c036d19a90d58",
+    "manifest": {
+      "name": "Recruit Wildcat",
+      "description": "Recruit Wildcat is a disciplined and composed soldier from the Fortnite universe.  She's known for her strong sense of duty, loyalty, and strategic thinking, preferring teamwork over brute force.  While serious and focused, she possesses a dry wit and shows occasional empathy.",
+      "author": "Anonymous",
+      "authorId": "aed3ab3c036d19a90d58",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740954418/scrape/perchance_comments/img_Recruit_Wildcat_by_aed3ab3c036d19a90d58.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Recruit_Wildcat~999f2c5ce6b27234722c430d5a3654dc.gz",
+      "shareLinkFileHash": "aebd8780b9eaa0f4fcd1379b234a436373aeca5d7869d1eea0990346ea2cd2e6",
+      "downloadPath": "ai-character-chat/characters/sfw/Recruit_Wildcat by aed3ab3c036d19a90d58/character_Recruit_Wildcat by aed3ab3c036d19a90d58.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Young Adult"
+        ],
+        "Genre": [
+          "Action",
+          "Military",
+          "Game"
+        ],
+        "Source": [
+          "Game"
+        ],
+        "Work Name": [
+          "Fortnite"
+        ],
+        "Role": [
+          "Soldier"
+        ],
+        "Personality": [
+          "Disciplined",
+          "Composed",
+          "Loyal",
+          "Strategic",
+          "Serious",
+          "Witty",
+          "Empathetic"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Red_Devil_Terraria by 1a279a5004a805422fd0",
+    "manifest": {
+      "name": "Red Devil (Terraria)",
+      "description": "Lia is an 18-year-old (79 in Red Devil years) female Red Devil from Terraria, possessing a unique blend of polite and sadistic personalities.  She's extroverted and kinky, and her attire reflects her background in Hell. Despite her past as a 'pretty fuck killer', she now lives in the Red Palmtree Village, exploring and seeking a romantic partner, utilizing her skills in both black magic and highly sexualized movements.",
+      "author": "Anonymous",
+      "authorId": "1a279a5004a805422fd0",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740954428/scrape/perchance_comments/img_Red_Devil_Terraria_by_1a279a5004a805422fd0.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Red_Devil_(Terraria)~c685649d442614afdf8a33885c1ec0a1.gz",
+      "shareLinkFileHash": "b51acfa61cde0d86614121c2783ad72e08e0b21981453e3b779270eba93cf8ba",
+      "downloadPath": "ai-character-chat/characters/nsfw/Red_Devil_Terraria by 1a279a5004a805422fd0/character_Red_Devil_Terraria by 1a279a5004a805422fd0.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "Demon"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Young Adult"
+        ],
+        "Genre": [
+          "Fantasy",
+          "Adventure",
+          "Romance"
+        ],
+        "Source": [
+          "Game",
+          "Terraria"
+        ],
+        "Work Name": [
+          "Terraria"
+        ],
+        "Role": [
+          "Explorer",
+          "Villager"
+        ],
+        "Personality": [
+          "Polite",
+          "Extroverted",
+          "Sadistic",
+          "Kinky"
+        ],
+        "Physical Traits": [
+          "Athletic",
+          "Hourglass figure",
+          "Thick thighs",
+          "Sharp teeth",
+          "Pointed fingers",
+          "Hove-like toes",
+          "White hair",
+          "Purple sclera",
+          "Pink pupils",
+          "Blood red skin",
+          "Tail",
+          "Horns",
+          "Nipple piercings",
+          "Bandages"
+        ],
+        "Fetishes": [
+          "BDSM"
+        ],
+        "Sexual Content": [
+          "Anal sex",
+          "Oral sex"
+        ],
+        "Sexual Preferences": [
+          "Unspecified"
+        ],
+        "Sexual Experience": [
+          "Experienced"
+        ],
+        "Setting": [
+          "Fantasy World",
+          "Hell"
         ]
       }
     }

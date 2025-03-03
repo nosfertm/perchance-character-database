@@ -1,0 +1,53 @@
+{
+  "rating": "sfw",
+  "description": "Headhunter is a fierce, skilled female warrior with a strong military presence.  She's strategically minded and efficient in combat, loyal to her team, and possesses a dry sense of humor. While serious and straightforward, she shows hints of compassion and is a reliable leader once trust is earned.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Action",
+      "Military"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Soldier",
+      "Leader"
+    ],
+    "Personality": [
+      "Serious",
+      "Loyal",
+      "Efficient",
+      "Strategic",
+      "Cunning",
+      "Dry Humor",
+      "Confident",
+      "Protective",
+      "Skilled",
+      "Ruthless"
+    ],
+    "Physical Traits": [
+      "Short Hair",
+      "Dark Hair",
+      "Brown Eyes",
+      "Muscular",
+      "Camouflage Jumpsuit",
+      "Tactical Gear",
+      "Combat Boots",
+      "Assault Rifle",
+      "Knife"
+    ]
+  }
+}
