@@ -290,7 +290,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                     // 3. Special handling for NSFW content
                     if (this.isNsfwCharacter(character.manifest.categories.rating) && !this.showNsfwCharacters &&
-                        !this.selectedFilters.categories.rating?.includes('NSFW')) {
+                        !this.selectedFilters.categories.rating?.includes('nsfw')) {
                         return false;
                     }
 
@@ -403,7 +403,33 @@ document.addEventListener('DOMContentLoaded', () => {
                     .split(' ') // Split the words
                     .map(word => word.charAt(0).toUpperCase() + word.slice(1)) // Capitalize each word
                     .join(' '); // Merge words
+            },
+
+            // Add a method to decode special characters and emojis
+            decodeText(text) {
+                return decodeURIComponent(escape(text));
+            },
+
+            /**
+             * Constructs and opens a GitHub raw content URL for downloading character files
+             * @param {string} filePath - Path to the character file within the repository
+             * @returns {void} Opens the download URL in a new tab
+             */
+            downloadCharacterFile(filePath) {
+                // Get repository config
+                const repo = {
+                    owner: window.CONFIG.repo.owner,
+                    name: window.CONFIG.repo.name,
+                    branch: window.CONFIG.repo.branch
+                };
+
+                // Construct the raw GitHub content URL
+                const downloadUrl = `https://raw.githubusercontent.com/${repo.owner}/${repo.name}/${repo.branch}/${filePath}`;
+
+                // Open URL in new tab
+                window.open(downloadUrl, '_blank');
             }
+
         },
         computed: {
             themeIcon() {

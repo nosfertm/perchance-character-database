@@ -33,14 +33,15 @@
                     <div class="modal-header" :class="{ 'bg-dark text-white border-secondary': isDarkMode }">
                         <div class="d-flex align-items-center">
                             <h5 class="modal-title mb-0" id="characterModalLabel" :class="{ 'text-white': isDarkMode }">
-                                {{this.selectedCharacter.manifest.name}}</h5>
-                            <small class="ms-2 text-truncate" :class="{ 'text-secondary': isDarkMode, 'text-muted': !isDarkMode }">
-                                by {{this.selectedCharacter.manifest.author || 'Anonymous'}}
+                                {{decodeText(this.selectedCharacter.manifest.name)}}</h5>
+                            <small class="ms-2 text-truncate"
+                                :class="{ 'text-secondary': isDarkMode, 'text-muted': !isDarkMode }">
+                                by {{decodeText(selectedCharacter.manifest.author) || 'Anonymous'}}
                             </small>
                         </div>
                         <div class="d-flex gap-2 align-items-center">
-                            <!-- TODO FIX LINKS -->
-                            <a :href="selectedCharacter.manifest?.downloadUrl" class="btn btn-success" target="_blank">
+                            <a href="#" @click.prevent="downloadCharacterFile(selectedCharacter.manifest.downloadPath)"
+                                class="btn btn-success" target="_blank">
                                 <i class="bi bi-download"></i> Download
                             </a>
                             <a :href="selectedCharacter.manifest?.shareUrl" class="btn btn-primary" target="_blank">
@@ -158,6 +159,7 @@
                                                             <div class="fw-bold">{{char.name}}</div>
                                                             Reason: {{char.reason}}
                                                             <div class="mt-2 d-flex gap-2">
+                                                                <!-- TODO - FIX LINKS -->
                                                                 <a href="google.com" class="btn btn-success btn-sm"
                                                                     target="_blank">
                                                                     <i class="bi bi-download"></i> Download
@@ -231,7 +233,7 @@
         <!-- ----------------------------------------------------------------------- -->
 
         <!-- Navigation -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
                 <!-- Logo placeholder -->
                 <a class="navbar-brand" href="index.html">
@@ -248,7 +250,7 @@
                             <i class="fas fa-filter"></i>
                         </button>
 
-                        <button class="btn btn-primary" type="button-disabled">
+                        <button class="btn btn-primary" type="button" @click="loadCategories(true)">
                             <i class="fas fa-sync"></i>
                         </button>
                     </div>
@@ -307,9 +309,8 @@
         <!-- Page content -->
 
         <!-- Filter panel -->
-        <div class="offcanvas offcanvas-start offcanvas-push" data-bs-scroll="true" data-bs-backdrop="false"
-            tabindex="-1" :class="{ 'bg-dark text-white': isDarkMode }" id="filterPanel"
-            aria-labelledby="filterPanelLabel">
+        <div class="offcanvas offcanvas-end offcanvas-push" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+            :class="{ 'bg-dark text-white': isDarkMode }" id="filterPanel" aria-labelledby="filterPanelLabel">
             <div class="offcanvas-header" :class="{ 'bg-dark text-white': isDarkMode }">
                 <h5 class="offcanvas-title" id="filterPanelLabel">Filter Panel</h5>
                 <div class="filter-panel-controls">
@@ -322,102 +323,104 @@
 
             </div>
             <div class="offcanvas-body" :class="{ 'bg-dark text-white': isDarkMode }">
+                <!-- Fixed top section -->
+                <div class="filter-panel-fixed">
+                    <!-- Search bar -->
+                    <div class="input-group" :class="{ 'bg-dark text-white': isDarkMode }">
+                        <input type="text" class="form-control" :class="{ 'bg-dark text-white': isDarkMode }"
+                            v-model="searchInput" @keyup.enter="selectedFilters.searchText = searchInput"
+                            aria-label="Text input with segmented dropdown button">
+                        <button type="button" class="btn btn-outline-secondary" :class="{ 'btn-dark': isDarkMode }"
+                            data-bs-toggle="tooltip" title="For a full search, click the dropdown on the right."
+                            @click="selectedFilters.searchText = searchInput">
+                            <i class="fas fa-search"></i>
+                        </button>
+                        <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split"
+                            :class="{ 'btn-dark': isDarkMode }" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class="visually-hidden">Toggle Dropdown</span>
+                        </button>
+                        <ul class="dropdown-menu" :class="{ 'dropdown-menu-dark': isDarkMode }">
+                            <li><a class="dropdown-item" href="#">Normal Search</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Full search</a></li>
+                        </ul>
+                    </div>
 
-                <!-- ------------------------ Filter panel content ------------------------- -->
-
-                <!-- Seach bar -->
-                <div class="input-group" :class="{ 'bg-dark text-white': isDarkMode }">
-                    <input type="text" class="form-control" :class="{ 'bg-dark text-white': isDarkMode }"
-                        v-model="searchInput" @keyup.enter="selectedFilters.searchText = searchInput"
-                        aria-label="Text input with segmented dropdown button">
-                    <button type="button" class="btn btn-outline-secondary" :class="{ 'btn-dark': isDarkMode }"
-                        data-bs-toggle="tooltip" title="For a full search, click the dropdown on the right."
-                        @click="selectedFilters.searchText = searchInput">
-                        <i class="fas fa-search"></i>
-                    </button>
-                    <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split"
-                        :class="{ 'btn-dark': isDarkMode }" data-bs-toggle="dropdown" aria-expanded="false">
-                        <span class="visually-hidden">Toggle Dropdown</span>
-                    </button>
-                    <ul class="dropdown-menu" :class="{ 'dropdown-menu-dark': isDarkMode }">
-                        <li><a class="dropdown-item" href="#">Normal Search</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#">Full search</a></li>
-                    </ul>
+                    <!-- Filter results count -->
+                    <div class="divider-container d-flex align-items-center mt-3">
+                        <hr class="divider flex-grow-1 mx-2">
+                        <small v-if="filteredCharactersCount !== totalCharacters">
+                            Showing {{filteredCharactersCount}} of {{totalCharacters}} characters
+                        </small>
+                        <small v-if="filteredCharactersCount === totalCharacters">
+                            Showing all characters ({{totalCharacters}} total)
+                        </small>
+                        <hr class="divider flex-grow-1 mx-2">
+                    </div>
                 </div>
 
-                <!-- Filter results count -->
-                <br>
-                <div class="divider-container d-flex align-items-center">
-                    <hr class="divider flex-grow-1 mx-2">
-                    <small v-if="filteredCharactersCount !== totalCharacters">
-                        Showing {{filteredCharactersCount}} of {{totalCharacters}} characters
-                    </small>
-                    <small v-if="filteredCharactersCount === totalCharacters">
-                        Showing all characters ({{totalCharacters}} total)
-                    </small>
-                    <hr class="divider flex-grow-1 mx-2">
-                </div>
-                <br>
+                <!-- Scrollable categories section -->
+                <div class="filter-panel-scroll">
+                    <!-- Category Accordions Container -->
+                    <div class="accordion" id="categoryHeader">
 
-                <!-- Category Accordions Container -->
-                <div class="accordion" id="categoryHeader">
+                        <!-- Iterate through categories, showing NSFW ones only if showNsfwTags is true -->
+                        <div class="accordion-item" :class="{ 'bg-dark text-white': isDarkMode }"
+                            v-for="(category, index) in this.availableCategories" :key="index"
+                            v-show="!category?.nsfw_only || (category?.nsfw_only && showNsfwTags)">
 
-                    <!-- Iterate through categories, showing NSFW ones only if showNsfwTags is true -->
-                    <div class="accordion-item" :class="{ 'bg-dark text-white': isDarkMode }"
-                        v-for="(category, index) in this.availableCategories" :key="index"
-                        v-show="!category?.nsfw_only || (category?.nsfw_only && showNsfwTags)">
+                            <!-- Accordion Header -->
+                            <h2 class="accordion-header" :id="'heading' + index">
+                                <button class="accordion-button" :class="{ 'bg-dark text-white': isDarkMode }"
+                                    type="button" data-bs-toggle="collapse" :data-bs-target="'#collapse' + index"
+                                    aria-expanded="true" :aria-controls="'collapse' + index">
+                                    {{ category.name }}
+                                </button>
+                            </h2>
 
-                        <!-- Accordion Header -->
-                        <h2 class="accordion-header" :id="'heading' + index">
-                            <button class="accordion-button" :class="{ 'bg-dark text-white': isDarkMode }" type="button"
-                                data-bs-toggle="collapse" :data-bs-target="'#collapse' + index" aria-expanded="true"
-                                :aria-controls="'collapse' + index">
-                                {{ category.name }}
-                            </button>
-                        </h2>
+                            <!-- Accordion Content -->
+                            <div :id="'collapse' + index" class="accordion-collapse collapse"
+                                :aria-labelledby="'heading' + index" data-bs-parent="#categoryHeader">
+                                <div class="accordion-body">
 
-                        <!-- Accordion Content -->
-                        <div :id="'collapse' + index" class="accordion-collapse collapse"
-                            :aria-labelledby="'heading' + index" data-bs-parent="#categoryHeader">
-                            <div class="accordion-body">
-
-                                <!-- SFW Tags Section -->
-                                <div class="category-block">
-                                    <!-- General tags -->
-                                    <div v-if="!stateLoading" v-for="tag in category.tags.general" :key="tag"
-                                        class="form-check">
-                                        <input class="form-check-input" type="checkbox" :value="tag"
-                                            :id="'tag-' + category.name + '-' + tag"
-                                            :checked="isTagSelected(category.name, tag)"
-                                            @change="handleTagSelection($event, category, tag)">
-                                        <label class="form-check-label" :for="'tag-' + category.name + '-' + tag">
-                                            {{ tag }}
-                                        </label>
+                                    <!-- SFW Tags Section -->
+                                    <div class="category-block">
+                                        <!-- General tags -->
+                                        <div v-if="!stateLoading" v-for="tag in category.tags.general" :key="tag"
+                                            class="form-check">
+                                            <input class="form-check-input" type="checkbox" :value="tag"
+                                                :id="'tag-' + category.name + '-' + tag"
+                                                :checked="isTagSelected(category.name, tag)"
+                                                @change="handleTagSelection($event, category, tag)">
+                                            <label class="form-check-label" :for="'tag-' + category.name + '-' + tag">
+                                                {{ tag }}
+                                            </label>
+                                        </div>
                                     </div>
-                                </div>
 
-                                <!-- Divider -->
-                                <div v-if="showNsfwTags && category.tags.general.length && category.tags.nsfw.length"
-                                    class="divider-container d-flex align-items-center">
-                                    <hr class="divider flex-grow-1 mx-2">
-                                    <small>NSFW</small>
-                                    <hr class="divider flex-grow-1 mx-2">
-                                </div>
+                                    <!-- Divider -->
+                                    <div v-if="showNsfwTags && category.tags.general.length && category.tags.nsfw.length"
+                                        class="divider-container d-flex align-items-center">
+                                        <hr class="divider flex-grow-1 mx-2">
+                                        <small>NSFW</small>
+                                        <hr class="divider flex-grow-1 mx-2">
+                                    </div>
 
-                                <!-- NSFW tags -->
-                                <div class="category-block">
-                                    <div v-if="showNsfwTags && !stateLoading" v-for="tag in category.tags.nsfw"
-                                        :key="tag" class="form-check">
-                                        <input class="form-check-input" type="checkbox" :value="tag"
-                                            :id="'nsfw-tag-' + category.name + '-' + tag"
-                                            :checked="isTagSelected(category.name, tag, category)"
-                                            @change="handleTagSelection($event, category, tag)">
-                                        <label class="form-check-label" :for="'nsfw-tag-' + category.name + '-' + tag">
-                                            {{ tag }}
-                                        </label>
+                                    <!-- NSFW tags -->
+                                    <div class="category-block">
+                                        <div v-if="showNsfwTags && !stateLoading" v-for="tag in category.tags.nsfw"
+                                            :key="tag" class="form-check">
+                                            <input class="form-check-input" type="checkbox" :value="tag"
+                                                :id="'nsfw-tag-' + category.name + '-' + tag"
+                                                :checked="isTagSelected(category.name, tag, category)"
+                                                @change="handleTagSelection($event, category, tag)">
+                                            <label class="form-check-label"
+                                                :for="'nsfw-tag-' + category.name + '-' + tag">
+                                                {{ tag }}
+                                            </label>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -499,7 +502,7 @@
                         <!-- Card Footer with Title and Action Buttons -->
                         <div class="card-footer">
                             <div class="card-title text-truncate">
-                                {{ character.manifest?.name || 'Unnamed Character' }}
+                                {{ decodeText(character.manifest?.name) || 'Unnamed Character' }}
                             </div>
                             <div class="card-actions">
                                 <!-- Card action buttons -->
@@ -507,8 +510,8 @@
                                     :class="!character.manifest?.shareUrl ? 'disabled' : ''">
                                     <i class="fas fa-comment"></i>
                                 </a>
-                                <a :href="character.manifest?.downloadUrl" target="_blank" class="action-btn"
-                                    :class="!character.manifest?.downloadUrl ? 'disabled' : ''">
+                                <a href="#" @click.prevent="downloadCharacterFile(character.manifest.downloadPath)"
+                                    class="action-btn" :class="!character.manifest?.downloadPath ? 'disabled' : ''">
                                     <i class="fas fa-download"></i>
                                 </a>
                             </div>

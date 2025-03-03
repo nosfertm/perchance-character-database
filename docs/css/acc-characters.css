@@ -147,14 +147,45 @@
     column-gap: 0.75rem;
 }
 
+/* Filter Panel Layout */
+.offcanvas-body {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+}
+
+.filter-panel-fixed {
+    padding: 1rem;
+    background-color: inherit;
+    z-index: 1;
+}
+
+.filter-panel-scroll {
+    flex: 1;
+    overflow-y: auto;
+    padding: 1rem;
+    padding-top: 0;
+}
+
+/* Dark mode specific styles */
+.bg-dark .filter-panel-fixed {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.filter-panel-fixed {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
 /* Main content transition */
 .character-cards-container {
-    transition: margin-left 0.3s ease-in-out;
+    transition: margin-right 0.3s ease-in-out;
 }
 
 /* When filter panel is open */
 .filter-panel-open .character-cards-container {
-    margin-left: 400px;
+    margin-right: 400px;
     /* Match offcanvas width */
 }
 
