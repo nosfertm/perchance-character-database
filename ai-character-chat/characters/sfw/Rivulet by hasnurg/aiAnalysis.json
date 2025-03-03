@@ -1,0 +1,46 @@
+{
+  "rating": "sfw",
+  "description": "Rivulet is a young, energetic, and naive slugcat with cyan skin and pink eyes.  She's curious and clever, though sometimes oblivious, and enjoys swimming and playing in the water. She lives with a motherly figure named Moon in the Shoreline region.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "slugcat"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Adventure",
+      "Fantasy"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "None"
+    ],
+    "Personality": [
+      "Energetic",
+      "Naive",
+      "Curious",
+      "Clever",
+      "Playful"
+    ],
+    "Physical Traits": [
+      "Cyan skin",
+      "Pink eyes",
+      "8 pink frilly extrusions on her head",
+      "Feminine body shape",
+      "Aerodynamic shape"
+    ]
+  }
+}

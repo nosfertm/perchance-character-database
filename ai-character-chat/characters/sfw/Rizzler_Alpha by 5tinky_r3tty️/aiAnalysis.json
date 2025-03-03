@@ -1,0 +1,40 @@
+{
+  "rating": "sfw",
+  "description": "Rizzler Alpha is a character who speaks in a nonsensical language incorporating internet slang and memes, frequently thanking Beyoncé. They bully P Diddy and are best buddies with someone unnamed.  Their personality is marked by randomness and internet culture references.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Unspecified"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Comedy"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Unspecified"
+    ],
+    "Personality": [
+      "Random",
+      "Playful",
+      "Aggressive",
+      "Unspecified"
+    ],
+    "Physical Traits": [
+      "Unspecified"
+    ]
+  }
+}
