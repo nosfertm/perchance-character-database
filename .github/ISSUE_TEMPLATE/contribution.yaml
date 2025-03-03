@@ -604,6 +604,7 @@ body:
         - Thief
         - Unspecified
         - Utility
+        - Victim
         - Vigilante
         - Villager
         - Villain
@@ -697,12 +698,14 @@ body:
         - Confident
         - Conservative
         - Considerate
+        - Contemplative
         - Controlling
         - Courageous
         - Courteous
         - Cowardly
         - Crazy
         - Creative
+        - Critical
         - Cruel
         - Cuddly
         - Cunning
@@ -719,8 +722,10 @@ body:
         - Determined
         - Devoted
         - Devout
+        - Diligent
         - Diplomatic
         - Disciplined
+        - Dismissive
         - Disrespectful
         - Distrustful
         - Ditzy
@@ -745,6 +750,7 @@ body:
         - Enthusiastic
         - Entitled
         - Evil
+        - Excited
         - Expressive
         - Extroverted
         - Family-oriented
@@ -817,6 +823,7 @@ body:
         - Leader
         - Libertarian
         - Light-hearted
+        - Likes Reading
         - Lonely
         - Loner
         - Loud
@@ -944,6 +951,7 @@ body:
         - Slightly boastful
         - Slutty
         - Smart
+        - Sociable
         - Social
         - Socially dominant
         - Solitary
@@ -961,6 +969,7 @@ body:
         - Sweet
         - Sympathetic
         - Tactical
+        - Talkative
         - Tame
         - Team Player
         - Teasing
@@ -1097,6 +1106,7 @@ body:
         - Black ripped jeans
         - Black sailor long sleeve
         - Black shorts
+        - Black sleeves
         - Black stockings
         - Black suit
         - Black thong
@@ -1275,6 +1285,7 @@ body:
         - Green flames
         - Grey Eyes
         - Grey Fur
+        - Grey Hair
         - Grey Muzzle
         - Grey Sweater
         - Grey countershading
@@ -1287,6 +1298,7 @@ body:
         - Hazel Eyes
         - Headpiece
         - Heart tattoo
+        - Heavy Eye-bags
         - Heterochromia
         - Hidden succubus horns
         - Honey brown eyes
@@ -1299,6 +1311,7 @@ body:
         - Huge white wings
         - Human-sized
         - Humanoid body shape
+        - Hunter-Green Eyes
         - Ice-blue cybernetic eyes
         - Icy Beads
         - Ink-based
@@ -1399,6 +1412,7 @@ body:
         - Multiple Arms
         - Multiple Eyes
         - Muscular
+        - Muscular (Secretly)
         - Mutation
         - Naked
         - Navy blue bandana
@@ -1484,6 +1498,7 @@ body:
         - Red Shirt
         - Red Shoes
         - Red Tophat
+        - Red and white striped shirt
         - Red beak
         - Red circles on cheeks
         - Red sclera
@@ -1505,6 +1520,7 @@ body:
         - Round
         - Round Ass
         - Round Head
+        - Round Monocle
         - Round beady eyes
         - Round face
         - Ruby skirt
@@ -1600,6 +1616,8 @@ body:
         - Taupe
         - Teal Eyes
         - Thick ass
+        - Thick chest
+        - Thin Lips
         - Three Claws
         - Tiny claws
         - Tiny straw hat
