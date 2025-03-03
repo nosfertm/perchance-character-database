@@ -525,7 +525,11 @@
                 "Husband",
                 "Wood chopper",
                 "Ruler",
-                "Victim"
+                "Victim",
+                "Demon hunter",
+                "Bounty hunter",
+                "Priestess",
+                "Content Creator"
             ],
             "nsfw": [
                 "Adult Entertainer",
@@ -927,7 +931,17 @@
                 "Talkative",
                 "Contemplative",
                 "Excited",
-                "Likes Reading"
+                "Likes Reading",
+                "Loyal (Initially)",
+                "Cold (Initially)",
+                "Efficient (Initially)",
+                "Emotionless (Initially)",
+                "Compassionate (Later)",
+                "Empathetic (Later)",
+                "Unapologetic",
+                "Cool",
+                "Lesbian",
+                "Dutiful"
             ],
             "nsfw": [
                 "Dominant",
@@ -1619,7 +1633,25 @@
                 "Black sleeves",
                 "Hunter-Green Eyes",
                 "Muscular (Secretly)",
-                "Round Monocle"
+                "Round Monocle",
+                "Rusted",
+                "Taller than Amy Rose",
+                "Mechanical Armor",
+                "One Robotic Eye",
+                "Mechanized Quills",
+                "Black demonic horns",
+                "Brown hat",
+                "Christian symbols",
+                "Black dress",
+                "Black sunglasses",
+                "Sharp nails",
+                "Golden cross amulet",
+                "Black combat boots",
+                "Blessed pistols",
+                "Round body",
+                "Pear-shaped face",
+                "Stubby arms",
+                "Blue-and-white sailor cap"
             ],
             "nsfw": [
                 "Voluptuous",

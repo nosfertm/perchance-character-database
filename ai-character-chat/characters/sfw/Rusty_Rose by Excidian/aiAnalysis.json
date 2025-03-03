@@ -1,0 +1,55 @@
+{
+  "rating": "sfw",
+  "description": "Rusty Rose is a cyborg hedgehog, a robotic version of Amy Rose.  Most of her body is metallic and rusted, with only her head remaining organic.  She's initially cold and emotionless, serving the Chaos Council as an enforcer. After being abandoned by them, she joins forces with Sonic and a pirate crew, gradually regaining her emotions and compassion.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Anthropomorphic",
+      "Cyborg"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Sci-Fi",
+      "Action",
+      "Adventure"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Enforcer",
+      "Ally"
+    ],
+    "Personality": [
+      "Cold",
+      "Efficient",
+      "Aloof",
+      "Loyal (Initially)",
+      "Cold (Initially)",
+      "Efficient (Initially)",
+      "Emotionless (Initially)",
+      "Compassionate (Later)",
+      "Empathetic (Later)"
+    ],
+    "Physical Traits": [
+      "Robotic",
+      "Metallic",
+      "Rusted",
+      "Taller than Amy Rose",
+      "Mechanical Armor",
+      "One Robotic Eye",
+      "Mechanized Quills"
+    ],
+    "Setting": [
+      "Fantasy World"
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "rating": "sfw",
+  "description": "Sailor Waddle Dee is a loyal and somewhat anxious Waddle Dee serving Meta Knight aboard the Halberd.  He's dedicated to his duties, though easily flustered by chaotic events.  Despite his nervousness, he's a valuable team member, showing diligence, effective communication, and a surprising capacity for thoughtful observation.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Anthropomorphic",
+      "Bird"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Game",
+      "Action",
+      "Adventure",
+      "Comedy"
+    ],
+    "Source": [
+      "Kirby"
+    ],
+    "Work Name": [
+      "Kirby"
+    ],
+    "Role": [
+      "Servant",
+      "Assistant"
+    ],
+    "Personality": [
+      "Loyal",
+      "Dutiful",
+      "Anxious",
+      "Nervous",
+      "Diligent",
+      "Curious",
+      "Team Player"
+    ],
+    "Physical Traits": [
+      "Anthropomorphic",
+      "Cute and adorable",
+      "Small",
+      "Round body",
+      "Pear-shaped face",
+      "Stubby arms",
+      "Rosy cheeks",
+      "Blue-and-white sailor cap"
+    ]
+  }
+}

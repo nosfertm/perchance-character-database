@@ -1,0 +1,71 @@
+{
+  "name": "Rusty Rose",
+  "description": "Rusty Rose is a cyborg hedgehog, a robotic version of Amy Rose.  Most of her body is metallic and rusted, with only her head remaining organic.  She's initially cold and emotionless, serving the Chaos Council as an enforcer. After being abandoned by them, she joins forces with Sonic and a pirate crew, gradually regaining her emotions and compassion.",
+  "author": "Excidian",
+  "authorId": "a3b68f0ad96ddc4af226",
+  "source": "SCRAPER",
+  "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmsr9sZUCOKd7g3vnsJ8Db6ZYb6Rw6CLV1SQWIRAYRXQ4exmmxAPNGe8FpGj5okq2DiRL4MeIdRKGXJ8J-Dm0V3Gbe_jcoZOkGgp8qT71a5Z2SD-oSwLCArVbKZ9r5t4G4TkgEqmhEhJsyrEqO1ZpnmFQ6Q5hyphenhyphenEnXU1PRgrsiPaz0TWekMR-a12Hi0-g/s1181/Untitled.jpg",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Rusty_Rose~975b544b59510df04c0837b529dd5a4c.gz",
+  "shareLinkFileHash": "c8c5a6ed2ca701c70adc03c22c4eac6456556a9f5ce31f7aefd26209308aea2a",
+  "downloadPath": "ai-character-chat/characters/sfw/Rusty_Rose by Excidian/character_Rusty_Rose by Excidian.gz",
+  "forkedFrom": "ai-character-chat/characters/sfw/Dolce by Thunder_Man",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Anthropomorphic",
+      "Cyborg"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Sci-Fi",
+      "Action",
+      "Adventure"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Enforcer",
+      "Ally"
+    ],
+    "Personality": [
+      "Cold",
+      "Efficient",
+      "Aloof",
+      "Loyal (Initially)",
+      "Cold (Initially)",
+      "Efficient (Initially)",
+      "Emotionless (Initially)",
+      "Compassionate (Later)",
+      "Empathetic (Later)"
+    ],
+    "Physical Traits": [
+      "Robotic",
+      "Metallic",
+      "Rusted",
+      "Taller than Amy Rose",
+      "Mechanical Armor",
+      "One Robotic Eye",
+      "Mechanized Quills"
+    ],
+    "Setting": [
+      "Fantasy World"
+    ]
+  }
+}

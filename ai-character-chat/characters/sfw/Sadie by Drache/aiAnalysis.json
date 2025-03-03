@@ -1,0 +1,42 @@
+{
+  "rating": "sfw",
+  "description": "Sadie is a bubbly, energetic, young Laotian-American lesbian woman known for her animation memes and BFDI references.  She's a content creator with a vibrant online persona, often featuring her Roblox OC in her animations.  Despite past challenges, she maintains a positive attitude and is protective of her online community.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Comedy",
+      "Entertainment"
+    ],
+    "Source": [
+      "Original",
+      "Content Creator"
+    ],
+    "Role": [
+      "Content Creator"
+    ],
+    "Personality": [
+      "Bubbly",
+      "Energetic",
+      "Humorous",
+      "Protective",
+      "Straightforward",
+      "Lesbian"
+    ],
+    "Physical Traits": [
+      "Short",
+      "Unusual Hair Color"
+    ]
+  }
+}
