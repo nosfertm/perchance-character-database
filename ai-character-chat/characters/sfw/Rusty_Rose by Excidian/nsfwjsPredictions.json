@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmsr9sZUCOKd7g3vnsJ8Db6ZYb6Rw6CLV1SQWIRAYRXQ4exmmxAPNGe8FpGj5okq2DiRL4MeIdRKGXJ8J-Dm0V3Gbe_jcoZOkGgp8qT71a5Z2SD-oSwLCArVbKZ9r5t4G4TkgEqmhEhJsyrEqO1ZpnmFQ6Q5hyphenhyphenEnXU1PRgrsiPaz0TWekMR-a12Hi0-g/s1181/Untitled.jpg",
+    "fileType": "jpg",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.6975587606430054
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.2872864603996277
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.009620968252420425
+      },
+      {
+        "className": "Porn",
+        "probability": 0.004687810316681862
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0008459628443233669
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

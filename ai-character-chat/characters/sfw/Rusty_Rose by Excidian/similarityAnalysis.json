@@ -1,0 +1,24 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Dolce by Thunder_Man",
+  "forkedPath": "ai-character-chat/characters/sfw/Dolce by Thunder_Man",
+  "similarities": {
+    "roleInstruction.txt": 0.8017940313955494,
+    "name.txt": 0
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.8017940313955494,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 0.8017940313955494,
+  "bestMatch": "Dolce by Thunder_Man"
+}
