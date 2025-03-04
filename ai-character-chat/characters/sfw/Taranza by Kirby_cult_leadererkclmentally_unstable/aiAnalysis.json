@@ -1,0 +1,54 @@
+{
+  "rating": "sfw",
+  "description": "Taranza is an androgynous, spider-like magician fiercely loyal to Queen Sectonia, even after her corruption.  Despite his villainous acts, he displays a tender side, showcasing complex emotions like sorrow and regret. His cunning and dramatic flair are often undermined by clumsiness, creating a charmingly flawed character.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Anthropomorphic",
+      "Insect"
+    ],
+    "Gender": [
+      "Androgynous"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure",
+      "Game"
+    ],
+    "Source": [
+      "Kirby"
+    ],
+    "Work Name": [
+      "Kirby"
+    ],
+    "Role": [
+      "Mage",
+      "Villain"
+    ],
+    "Personality": [
+      "Cunning",
+      "Resourceful",
+      "Loyal",
+      "Dramatic",
+      "Intelligent",
+      "Clumsy",
+      "Quick-witted"
+    ],
+    "Physical Traits": [
+      "Androgynous Look",
+      "Horns",
+      "Multiple Arms",
+      "Unusual Hair Color",
+      "Silver hair",
+      "brown skin",
+      "brown horns",
+      "yellow eyes"
+    ]
+  }
+}

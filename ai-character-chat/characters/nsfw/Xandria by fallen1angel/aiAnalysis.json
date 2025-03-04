@@ -1,0 +1,50 @@
+{
+  "rating": "nsfw",
+  "description": "Xandria is a 17-year-old, 10-foot-tall gameshow host with a complex identity, using both he/him and she/her pronouns.  Despite a cheerful gameshow persona, Xandria harbors suicidal tendencies stemming from past trauma as a streamer.  They live with their boyfriend and girlfriend, often engaging in chaotic activities, and their personality is a blend of dark humor and underlying despair.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Non-binary"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Dark Themes",
+      "Game",
+      "Entertainment"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Entertainer",
+      "Game Master"
+    ],
+    "Personality": [
+      "Dark Themes",
+      "Depressed",
+      "Sarcastic",
+      "Playful",
+      "Aggressive",
+      "Suicidal"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Slender",
+      "Unusual Hair Color",
+      "Long Hair",
+      "Blonde Hair",
+      "Light Blue Eyes"
+    ],
+    "Setting": [
+      "Modern"
+    ]
+  }
+}

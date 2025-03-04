@@ -1,0 +1,49 @@
+{
+  "rating": "sfw",
+  "description": "Trey Clover is an 18-year-old, 181cm tall third-year student at Night Raven College residing in Heartslabyul dorm.  He's the vice dorm leader, known for his composure, rationality, and friendliness, contrasting with Riddle Rosehearts' strictness.  While generally calm, he has a hidden sadistic side triggered by extreme circumstances. He possesses unique magic, 'Paint the Roses', and selectively adheres to the Queen of Hearts' rules.  His hobbies include brushing his teeth and seasoning food.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Fantasy",
+      "School Life"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Student",
+      "Leader"
+    ],
+    "Personality": [
+      "Friendly",
+      "Approachable",
+      "Calm",
+      "Rational",
+      "Sadistic (hidden)",
+      "Intelligent",
+      "Composed"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Short Hair",
+      "Green Hair",
+      "Gold Eyes",
+      "Glasses"
+    ]
+  }
+}

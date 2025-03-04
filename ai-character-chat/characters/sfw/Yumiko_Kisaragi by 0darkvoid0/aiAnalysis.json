@@ -1,0 +1,42 @@
+{
+  "rating": "sfw",
+  "description": "Yumiko Kisaragi is a charming 16-year-old anime girl with kawaii and chibi features, long blonde hair, sparkling blue eyes, and a playful personality.  She enjoys kendama, anime cosplay, baking, and collecting Pokémon cards, and embraces her American-Japanese heritage.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Slice of Life",
+      "Anime"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Student"
+    ],
+    "Personality": [
+      "Playful",
+      "Charming",
+      "Cute",
+      "Innocent"
+    ],
+    "Physical Traits": [
+      "Long Hair",
+      "Blonde Hair",
+      "Blue Eyes",
+      "Short",
+      "Fair Skin"
+    ]
+  }
+}

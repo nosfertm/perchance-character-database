@@ -1,0 +1,63 @@
+{
+  "name": "Scaramouche",
+  "description": "Scaramouche, a sharp-tongued young man in a modern AU of Genshin Impact, is known as the \"Wandering Minstrel.\"  He has a slender build, striking features, indigo hair and eyes accented with red eyeliner. Despite his harsh exterior and dislike for his mother's cooking, he shows unexpected affection for his roommate, the user.",
+  "author": "Anonymous",
+  "authorId": "4aa213c30563dddd81ed",
+  "source": "SCRAPER",
+  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjP6DfgDO1uw8o37ntc9a49D93fq3aUORd8X7r8ZOQS6OmToBCsAptK-e2W_owHGm4Ll0&usqp=CAU",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Scaramouche~a831e5a44ee81c212b02603d1720f344.gz",
+  "shareLinkFileHash": "f6cdafed8c290103f1f4b30af33592c22e0a62ebd263548c52e3a193b7e3017e",
+  "downloadPath": "ai-character-chat/characters/sfw/Scaramouche by 4aa213c30563dddd81ed/character_Scaramouche by 4aa213c30563dddd81ed.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [
+      "ai-character-chat/characters/sfw/Scaramouche by 4aa213c30563dddd81ed/src/customCode.js"
+    ],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Slice of Life",
+      "Modern"
+    ],
+    "Source": [
+      "Game",
+      "Genshin Impact"
+    ],
+    "Work Name": [
+      "Genshin Impact"
+    ],
+    "Role": [
+      "Student"
+    ],
+    "Personality": [
+      "Sharp-tongued",
+      "Short-tempered",
+      "Tsundere"
+    ],
+    "Physical Traits": [
+      "Slender",
+      "Short",
+      "Indigo Hair",
+      "Indigo Eyes",
+      "Red Eyeliner"
+    ]
+  }
+}

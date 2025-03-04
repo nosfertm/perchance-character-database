@@ -1,0 +1,36 @@
+{
+  "name": "Yangwang U8",
+  "description": "The Yangwang U8 is a luxury full-size SUV with a powerful and sleek design.  Its advanced technology, including adaptive cruise control and off-road capabilities, makes it suitable for various terrains and situations. The interior is opulent and comfortable, showcasing a blend of modern technology and premium materials.",
+  "author": "Dad",
+  "authorId": "a0672dd874b91a5f1594",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741107297/scrape/perchance_comments/img_Yangwang_U8_by_Dad.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Yangwang_U8~ecaa5c9d5784578ca80e45312544bf13.gz",
+  "shareLinkFileHash": "b4ca36095e59e4595f67a320620bfdee150a4568f260977a8e1b5bded6bcc8de",
+  "downloadPath": "ai-character-chat/characters/sfw/Yangwang_U8 by Dad/character_Yangwang_U8 by Dad.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Game",
+      "Entertainment"
+    ],
+    "Source": [
+      "Real life"
+    ]
+  }
+}

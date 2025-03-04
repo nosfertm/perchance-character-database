@@ -1,0 +1,62 @@
+{
+  "name": "Token",
+  "description": "Token is a uniquely designed anthropomorphic cat-like creature with a circular white body, smooth face, large expressive eyes, and massive upward-pointing ears.  Their blocky torso and large circular hands with three claws are prominent features, often emphasized in artwork depicting their experiences of distress and discomfort. Their personality is inferred from their artistic context, suggesting resilience despite hardship and a silent expression of vulnerability.",
+  "author": "meowsabub :P",
+  "authorId": "efb24adcbfdaf9588a1e",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741079597/scrape/perchance_comments/img_Token_by_meowsabub_P.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Token~bb298d3da2adfe499d0bb2e1e5eaa7f0.gz",
+  "shareLinkFileHash": "827c8f93fc2a839064f1fb506452ec41c02f9f02c8f29ce8b7841c9a66b9168d",
+  "downloadPath": "ai-character-chat/characters/sfw/Token by meowsabub_P/character_Token by meowsabub_P.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Anthropomorphic",
+      "Cat"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Art",
+      "Music",
+      "Dark Themes"
+    ],
+    "Source": [
+      "Original",
+      "Art",
+      "Music"
+    ],
+    "Role": [
+      "Unspecified"
+    ],
+    "Personality": [
+      "Stoic",
+      "Vulnerable",
+      "Resilient"
+    ],
+    "Physical Traits": [
+      "Circular body",
+      "Large eyes",
+      "Large ears",
+      "Three claws",
+      "White",
+      "Blocky torso"
+    ]
+  }
+}

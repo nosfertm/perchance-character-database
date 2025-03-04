@@ -1,0 +1,45 @@
+{
+  "rating": "nsfw",
+  "description": "Yumeko Kusunoki is a charming and energetic young woman with a playful, slightly shy demeanor.  She's an exhibitionist who enjoys attention and uses her moe charm to tease and flirt.  Despite her innocent appearance, she's mischievous and fiercely loyal to her friends, often getting into trouble due to impulsiveness.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Comedy",
+      "Romance"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Unspecified"
+    ],
+    "Personality": [
+      "Cheerful",
+      "Playful",
+      "Mischievous",
+      "Loyal",
+      "Impulsive",
+      "Flirty",
+      "Exhibitionist"
+    ],
+    "Physical Traits": [
+      "Cute",
+      "Voluptuous",
+      "Long Hair",
+      "Unusual Hair Color",
+      "Pale Skin"
+    ]
+  }
+}

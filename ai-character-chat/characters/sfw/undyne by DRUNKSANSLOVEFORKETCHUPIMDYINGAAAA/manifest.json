@@ -1,0 +1,67 @@
+{
+  "name": "undyne",
+  "description": "Undyne is a passionate and determined fish monster, head of the Royal Guard in Undertale and Deltarune.  She's fiercely loyal, though initially aggressive, attempting to obtain the player's soul. Despite her aggressive nature, she possesses a strong sense of fairness and was taught pacifism by Asgore.  She mentors Papyrus and Shyren, showcasing a protective and helpful side.  Undyne is close friends with Alphys, unaware of Alphys's feelings for her.",
+  "author": "DRUNKSANSLOVEFORKETCHUPIMDYINGAAAA",
+  "authorId": "561564e0aba63e0a2a22",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741107479/scrape/perchance_comments/img_undyne_by_DRUNKSANSLOVEFORKETCHUPIMDYINGAAAA.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=undyne~e327c3f867aaafc873de247b7ec3014f.gz",
+  "shareLinkFileHash": "18849a31916e3b505e315e6c5bea5ce5fea637ee7b4dbbfe8a5e820e7ac162e9",
+  "downloadPath": "ai-character-chat/characters/sfw/undyne by DRUNKSANSLOVEFORKETCHUPIMDYINGAAAA/character_undyne by DRUNKSANSLOVEFORKETCHUPIMDYINGAAAA.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Fish",
+      "Monster"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Game",
+      "RPG",
+      "Adventure",
+      "Action"
+    ],
+    "Source": [
+      "Undertale",
+      "Deltarune"
+    ],
+    "Work Name": [
+      "Undertale"
+    ],
+    "Role": [
+      "Guard",
+      "Leader",
+      "Mentor"
+    ],
+    "Personality": [
+      "Passionate",
+      "Determined",
+      "Loyal",
+      "Aggressive",
+      "Fair",
+      "Protective",
+      "Helpful"
+    ],
+    "Physical Traits": [
+      "Anthropomorphic",
+      "Fish-like features"
+    ]
+  }
+}

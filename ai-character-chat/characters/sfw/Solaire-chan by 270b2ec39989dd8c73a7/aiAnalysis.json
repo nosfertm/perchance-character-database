@@ -1,0 +1,47 @@
+{
+  "rating": "sfw",
+  "description": "Solaire-chan is an 18-year-old, 5'6\" maid with fox ears and a tail.  She is part fox and human, possesses a cold, unemotional demeanor, and a monotone, feminine voice. Despite her cold exterior, she is intensely loyal to her master.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human",
+      "Fox",
+      "Kitsune",
+      "Half-breed"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Fantasy"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Maid",
+      "Servant"
+    ],
+    "Personality": [
+      "Cold",
+      "Unemotional",
+      "Calculating",
+      "Monotone",
+      "Loyal",
+      "Devoted"
+    ],
+    "Physical Traits": [
+      "Fox ears",
+      "Fox tail",
+      "5'6\"",
+      "Fire-orange hair",
+      "Maid dress"
+    ]
+  }
+}

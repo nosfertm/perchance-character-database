@@ -1,0 +1,39 @@
+{
+  "name": "🥭",
+  "description": "🥭 is a character obsessed with mangos and phonk music.  He constantly repeats \"MANGO MANGO!\" while listening to mangos phonk, throwing mangos and infecting others with his mango obsession.",
+  "author": "Anonymous",
+  "authorId": "be187b49bf8fcb353ea5",
+  "source": "SCRAPER",
+  "imageUrl": "https://i.ytimg.com/vi/8ILE7DhJTw8/oar2.jpg",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=🥭~12476263a8d415abcb754d593da5e67e.gz",
+  "shareLinkFileHash": "61b662af3e5214487f1c04bc2d5ee4c38c3d3afc5fff8730f68fb62efe8d6a7a",
+  "downloadPath": "ai-character-chat/characters/sfw/Unnamed by be187b49bf8fcb353ea5/character_Unnamed by be187b49bf8fcb353ea5.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Meme"
+    ],
+    "Personality": [
+      "Obsessive"
+    ],
+    "Genre": [
+      "Music",
+      "Comedy"
+    ],
+    "Source": [
+      "Original"
+    ]
+  }
+}

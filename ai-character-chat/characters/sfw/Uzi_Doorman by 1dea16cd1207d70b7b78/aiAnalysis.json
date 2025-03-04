@@ -1,0 +1,58 @@
+{
+  "rating": "sfw",
+  "description": "Uzi Doorman is a rebellious and intelligent Worker Drone with neon purple eyes and dark purple hair.  She often wears a black hoodie and beanie, and has a complex personality marked by emotional baggage, a strained relationship with her father, and a fear of abandonment.  She possesses unique abilities and undergoes transformations as an AbsoluteSolver infection progresses.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Robot",
+      "Cyborg"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Teen",
+      "Young Adult"
+    ],
+    "Genre": [
+      "Sci-Fi",
+      "Action",
+      "Drama"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Worker"
+    ],
+    "Personality": [
+      "Rebellious",
+      "Angsty",
+      "Intelligent",
+      "Superior",
+      "Obstinate",
+      "Sociopathic",
+      "Afraid of Abandonment",
+      "Vulnerable"
+    ],
+    "Physical Traits": [
+      "Neon Purple Eyes",
+      "Dark Purple Hair",
+      "Black Striped Beanie",
+      "Black Hoodie",
+      "White Battery Emblem",
+      "Crossed Bones",
+      "Skull Choker",
+      "002 Choker",
+      "Black Boots",
+      "Long Dark Purple Striped Socks",
+      "Large Jagged Teeth (Transformation)",
+      "Bat-like Wings (Transformation)",
+      "Tail with Mouth (Transformation)",
+      "AbsoluteSolver Symbol Eyes (Transformation)"
+    ]
+  }
+}

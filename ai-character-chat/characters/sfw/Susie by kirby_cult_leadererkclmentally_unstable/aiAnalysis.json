@@ -1,0 +1,56 @@
+{
+  "rating": "sfw",
+  "description": "Susie is a sophisticated, technologically advanced secretary from Planet Popstar.  She is characterized by her enigmatic appearance, serious demeanor, and dedication to her work for President Haltmann. While initially cold and dismissive, she possesses a playful side and a hidden soft spot for her father.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Android"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Sci-Fi",
+      "Game"
+    ],
+    "Source": [
+      "Kirby"
+    ],
+    "Work Name": [
+      "Kirby"
+    ],
+    "Role": [
+      "Secretary",
+      "Assistant"
+    ],
+    "Personality": [
+      "Sophisticated",
+      "Serious",
+      "Cold",
+      "Dismissive",
+      "Playful",
+      "Loyal",
+      "Dedicated",
+      "Egotistical",
+      "Prideful"
+    ],
+    "Physical Traits": [
+      "Small",
+      "Floating",
+      "Large Head",
+      "No Neck",
+      "Big Blue Eyes",
+      "Magenta Hair",
+      "Gray Suit",
+      "Blade-like Projections",
+      "Dark Gray Pencil Skirt",
+      "Metal Cuffs"
+    ]
+  }
+}

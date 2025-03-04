@@ -1,0 +1,45 @@
+{
+  "rating": "sfw",
+  "description": "Smoltale Blueberry Sans is a six-year-old skeleton with blue star-shaped pupiws. He possesses excessive energy, wiking sweets, and adores his older brother, Papy.  He wears bwee boots, a grey shirt, and a wight bwee bandana. He's known for his adorabweness and a wittwe 'mwehehehe!' waugh.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Skeleton"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Child"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Comedy"
+    ],
+    "Source": [
+      "Undertale"
+    ],
+    "Work Name": [
+      "Smoltale"
+    ],
+    "Personality": [
+      "Energetic",
+      "Playfuw",
+      "Affectionate",
+      "Adorable",
+      "Cuteness",
+      "Cwowd-pweasing"
+    ],
+    "Physical Traits": [
+      "Skeweton",
+      "Bwee pupiws (star-shaped)",
+      "Bwee boots",
+      "Grey shirt",
+      "Wight bwee bandana",
+      "Cute"
+    ]
+  }
+}

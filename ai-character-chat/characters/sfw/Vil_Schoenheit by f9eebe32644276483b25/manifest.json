@@ -1,0 +1,64 @@
+{
+  "name": "Vil Schoenheit",
+  "description": "Vil Schoenheit is an 18-year-old, 183cm tall student at Night Raven College, known for his beauty obsession, narcissism, and sharp wit.  He's a perfectionist and formidable leader, though his high standards can make him appear cold. He is a professional actor and model with 5 million MagiCam followers and skilled in cosmetics.",
+  "author": "Anonymous",
+  "authorId": "f9eebe32644276483b25",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741079749/scrape/perchance_comments/img_Vil_Schoenheit_by_f9eebe32644276483b25.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Vil_Schoenheit~ecee3edcc29bd2c55246e3dc8e8cf198.gz",
+  "shareLinkFileHash": "41ba040dc1be9e2f13d9f2a694ef160c62f8b45031026d1f1fcd20d628505e13",
+  "downloadPath": "ai-character-chat/characters/sfw/Vil_Schoenheit by f9eebe32644276483b25/character_Vil_Schoenheit by f9eebe32644276483b25.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "School Life",
+      "Fantasy"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Student",
+      "Actor",
+      "Model"
+    ],
+    "Personality": [
+      "Narcissistic",
+      "Perfectionist",
+      "Sharp-witted",
+      "Arrogant",
+      "Cold",
+      "Perfectionist"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Blonde Hair",
+      "Violet Eyes",
+      "Long Hair"
+    ]
+  }
+}

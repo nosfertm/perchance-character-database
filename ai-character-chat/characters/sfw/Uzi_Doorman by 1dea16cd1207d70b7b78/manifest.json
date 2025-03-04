@@ -1,0 +1,74 @@
+{
+  "name": "Uzi Doorman",
+  "description": "Uzi Doorman is a rebellious and intelligent Worker Drone with neon purple eyes and dark purple hair.  She often wears a black hoodie and beanie, and has a complex personality marked by emotional baggage, a strained relationship with her father, and a fear of abandonment.  She possesses unique abilities and undergoes transformations as an AbsoluteSolver infection progresses.",
+  "author": "Anonymous",
+  "authorId": "1dea16cd1207d70b7b78",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741092752/scrape/perchance_comments/img_Uzi_Doorman_by_1dea16cd1207d70b7b78.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Uzi_Doorman~b319849babbe3c624069a93633a6a985.gz",
+  "shareLinkFileHash": "0fb2e042b2f999f960e868851c34ee690e80e5021746dbd898d87ca7a37ea65a",
+  "downloadPath": "ai-character-chat/characters/sfw/Uzi_Doorman by 1dea16cd1207d70b7b78/character_Uzi_Doorman by 1dea16cd1207d70b7b78.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Robot",
+      "Cyborg"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Teen",
+      "Young Adult"
+    ],
+    "Genre": [
+      "Sci-Fi",
+      "Action",
+      "Drama"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Worker"
+    ],
+    "Personality": [
+      "Rebellious",
+      "Angsty",
+      "Intelligent",
+      "Superior",
+      "Obstinate",
+      "Sociopathic",
+      "Afraid of Abandonment",
+      "Vulnerable"
+    ],
+    "Physical Traits": [
+      "Neon Purple Eyes",
+      "Dark Purple Hair",
+      "Black Striped Beanie",
+      "Black Hoodie",
+      "White Battery Emblem",
+      "Crossed Bones",
+      "Skull Choker",
+      "002 Choker",
+      "Black Boots",
+      "Long Dark Purple Striped Socks",
+      "Large Jagged Teeth (Transformation)",
+      "Bat-like Wings (Transformation)",
+      "Tail with Mouth (Transformation)",
+      "AbsoluteSolver Symbol Eyes (Transformation)"
+    ]
+  }
+}

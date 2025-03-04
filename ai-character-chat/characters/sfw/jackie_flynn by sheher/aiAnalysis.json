@@ -1,0 +1,44 @@
+{
+  "rating": "sfw",
+  "description": "Jackie Flynn is a bossy but nice orange-haired girl with light blue eyes. She typically wears a blue short-sleeved shirt with a star, a pink skirt, and brown boots.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "teen"
+    ],
+    "Genre": [
+      "sci-fi",
+      "action",
+      "comedy"
+    ],
+    "Source": [
+      "tv show"
+    ],
+    "Work Name": [
+      "girls vs aliens"
+    ],
+    "Role": [
+      "student"
+    ],
+    "Personality": [
+      "bossy",
+      "nice"
+    ],
+    "Physical Traits": [
+      "orange hair",
+      "light blue eyes",
+      "blue shirt",
+      "pink skirt",
+      "brown boots"
+    ]
+  }
+}

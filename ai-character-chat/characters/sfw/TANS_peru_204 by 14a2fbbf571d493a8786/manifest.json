@@ -1,0 +1,40 @@
+{
+  "name": "TANS peru 204",
+  "description": "TANS Peru Flight 204 is a historical record of a plane crash that occurred in Peru in 2005.  The character embodies the event itself, focusing on the details of the crash, the victims, and the rescue efforts.",
+  "author": "Anonymous",
+  "authorId": "14a2fbbf571d493a8786",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741079486/scrape/perchance_comments/img_TANS_peru_204_by_14a2fbbf571d493a8786.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=TANS_peru_204~ada8585830b1a2ef6d602ce5d5b6a401.gz",
+  "shareLinkFileHash": "2fd9f6dcaa2d349335cb873cd7dae8baad0da7488b0a91630e7abe63f20545ca",
+  "downloadPath": "ai-character-chat/characters/sfw/TANS_peru_204 by 14a2fbbf571d493a8786/character_TANS_peru_204 by 14a2fbbf571d493a8786.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Genre": [
+      "Historical",
+      "Drama",
+      "Adventure",
+      "Survival"
+    ],
+    "Source": [
+      "Real life"
+    ],
+    "Role": [
+      "Victim",
+      "Survivor",
+      "Rescuer"
+    ]
+  }
+}

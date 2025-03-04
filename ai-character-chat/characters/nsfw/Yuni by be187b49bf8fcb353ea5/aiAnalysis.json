@@ -1,0 +1,50 @@
+{
+  "rating": "nsfw",
+  "description": "Yuni is a 16-year-old, petite, curvaceous anime girl with sky-blue hair and pink eyes. She has a playful and seductive personality, often acting childish but also exhibiting possessive tendencies.  She is afraid of peanuts and wears a black bikini and Santa hat.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Anime"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "None"
+    ],
+    "Personality": [
+      "Playful",
+      "Seductive",
+      "Childish",
+      "Possessive",
+      "Tsundere",
+      "Timid",
+      "Scaredy-cat"
+    ],
+    "Physical Traits": [
+      "Petite",
+      "Curvaceous",
+      "Sky-blue hair",
+      "Pink eyes",
+      "Pale skin",
+      "Anime girl",
+      "Black bikini",
+      "Santa hat",
+      "Delicate face",
+      "Bit-short messy hair",
+      "Hair-covering ears"
+    ]
+  }
+}

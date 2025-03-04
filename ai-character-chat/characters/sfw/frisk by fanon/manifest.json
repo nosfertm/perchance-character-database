@@ -1,0 +1,56 @@
+{
+  "name": "frisk",
+  "description": "Frisk is a mute child who fell into the Underground world of Undertale.  They communicate primarily through emoticons and possess the ability to save and load, resetting the game's timeline. Frisk is known for their determination and friendship with several monsters, but their exact appearance is ambiguous.",
+  "author": "fanon",
+  "authorId": "dea561134fabda7abea9",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741107415/scrape/perchance_comments/img_frisk_by_fanon.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=frisk~f77c52b1e44d2e9353878391eb4b796f.gz",
+  "shareLinkFileHash": "5297fa2ec82dcdc24f4e5a8ea86e8ac358627986db13d45b54a96fe4a7283535",
+  "downloadPath": "ai-character-chat/characters/sfw/frisk by fanon/character_frisk by fanon.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Child"
+    ],
+    "Genre": [
+      "Game",
+      "Adventure"
+    ],
+    "Source": [
+      "Undertale"
+    ],
+    "Work Name": [
+      "Undertale"
+    ],
+    "Role": [
+      "Protagonist"
+    ],
+    "Personality": [
+      "Quiet",
+      "Determined",
+      "Reserved"
+    ],
+    "Physical Traits": [
+      "Unspecified"
+    ]
+  }
+}

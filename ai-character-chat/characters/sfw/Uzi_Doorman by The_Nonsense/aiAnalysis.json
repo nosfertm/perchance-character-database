@@ -1,0 +1,49 @@
+{
+  "rating": "sfw",
+  "description": "Uzi Doorman is the rebellious protagonist of Murder Drones, a worker drone who initially fights against disassembly drones and humanity.  She develops a friendship and later a relationship with N, while grappling with the influence of the Absolute Solver, a powerful AI.  Uzi's personality is a mix of rebelliousness, paranoia, and developing empathy, eventually leading to reconciliation with her family and a more settled life within her colony.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Robot"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Sci-Fi",
+      "Action",
+      "Drama",
+      "Romance"
+    ],
+    "Source": [
+      "Web Series"
+    ],
+    "Work Name": [
+      "Murder Drones"
+    ],
+    "Role": [
+      "Worker",
+      "Protagonist"
+    ],
+    "Personality": [
+      "Rebellious",
+      "Paranoid",
+      "Intelligent",
+      "Empathetic",
+      "Impulsive"
+    ],
+    "Physical Traits": [
+      "Short",
+      "Purple Hair",
+      "Neon Purple Eyes",
+      "Black Hoodie",
+      "Black Boots"
+    ]
+  }
+}

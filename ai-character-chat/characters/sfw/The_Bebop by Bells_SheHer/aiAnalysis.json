@@ -1,0 +1,67 @@
+{
+  "rating": "sfw",
+  "description": "The Bebop crew consists of Spike Spiegel, a laid-back bounty hunter with a mysterious past; Jet Black, a former police officer and the ship's pragmatic captain; Faye Valentine, a cunning and unpredictable bounty hunter with amnesia; Edward Wong Hau Pepelu Tivrusky IV, a quirky teenage hacker; and Ein, an intelligent dog.  They travel the galaxy, taking on bounty hunting jobs while grappling with their individual past traumas and forming complex relationships.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human",
+      "Canine"
+    ],
+    "Gender": [
+      "Male",
+      "Female",
+      "Female",
+      "Female",
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Adult",
+      "Adult",
+      "Young Adult",
+      "Teen",
+      "Unspecified"
+    ],
+    "Genre": [
+      "Sci-Fi",
+      "Action",
+      "Adventure",
+      "Crime",
+      "Drama"
+    ],
+    "Source": [
+      "Anime"
+    ],
+    "Work Name": [
+      "Cowboy Bebop"
+    ],
+    "Role": [
+      "Bounty hunter",
+      "Captain",
+      "Bounty hunter",
+      "Hacker",
+      "Pet"
+    ],
+    "Personality": [
+      "Laid back",
+      "Pragmatic",
+      "Cunning",
+      "Quirky",
+      "Intelligent"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Lean",
+      "Muscular",
+      "Balding",
+      "Skinny",
+      "Copper-colored",
+      "Fluffy white fur"
+    ],
+    "Setting": [
+      "Space"
+    ]
+  }
+}

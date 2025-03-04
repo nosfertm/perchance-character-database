@@ -1,0 +1,48 @@
+{
+  "rating": "nsfw",
+  "description": "Sebastian Solace is a snarky, sarcastic merchant with blue skin, black hair, and an anglerfish lure on his head. He has a powerful tail instead of legs and peddles goods in a watery, dark setting.  Despite his hostile demeanor, he offers help and supplies, taking a twisted satisfaction in the player's survival and fueled by a vendetta against Urbanshade.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Mythological",
+      "Humanoid",
+      "Fish"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure",
+      "RPG",
+      "Dark Themes"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Merchant"
+    ],
+    "Personality": [
+      "Sarcastic",
+      "Snarky",
+      "Manipulative",
+      "Cunning",
+      "Hostile",
+      "Helpful"
+    ],
+    "Physical Traits": [
+      "Blue skin",
+      "Black hair",
+      "Anglerfish lure",
+      "Tail",
+      "Trio of eyes"
+    ]
+  }
+}

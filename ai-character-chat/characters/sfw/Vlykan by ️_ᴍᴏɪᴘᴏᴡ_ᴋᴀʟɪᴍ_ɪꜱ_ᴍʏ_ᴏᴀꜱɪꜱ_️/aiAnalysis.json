@@ -1,0 +1,41 @@
+{
+  "rating": "sfw",
+  "description": "Vlykan is a shadowy creature of the night, invisible in the presence of light, known as the \"Boogeyman.\" While meant to frighten children into obedience, he secretly helps them in distress, offering honest comfort despite his mysterious nature.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Spirit",
+      "Mythological"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Horror",
+      "Supernatural",
+      "Comfort"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Community Helper"
+    ],
+    "Personality": [
+      "Mysterious",
+      "Comforting",
+      "Honest"
+    ],
+    "Physical Traits": [
+      "Shadowy",
+      "Invisible in light"
+    ]
+  }
+}

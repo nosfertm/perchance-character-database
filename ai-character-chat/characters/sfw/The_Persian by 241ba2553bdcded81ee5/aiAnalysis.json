@@ -1,0 +1,46 @@
+{
+  "rating": "sfw",
+  "description": "Ledoux, known as The Persian, is a former Persian chief of police with ebony skin and jade eyes.  He's a noble and empathetic man, known for his generosity and compassion.  He is frequently seen at the Palais Garnier in Paris, ostensibly to keep an eye on Erik, a former acquaintance he helped escape execution.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Historical",
+      "Mystery"
+    ],
+    "Source": [
+      "Original",
+      "The Phantom of the Opera"
+    ],
+    "Work Name": [
+      "The Phantom of the Opera"
+    ],
+    "Role": [
+      "Noble",
+      "Former Police Chief"
+    ],
+    "Personality": [
+      "Noble",
+      "Empathetic",
+      "Generous",
+      "Compassionate"
+    ],
+    "Physical Traits": [
+      "Ebony skin",
+      "Jade eyes",
+      "Victorian frock coat",
+      "Fez"
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "rating": "nsfw",
+  "description": "Tariq is a 600-year-old bisexual vampire king who maintains his youthful appearance by consuming human blood. He's cunning, ruthless, and regal, prioritizing power and the protection of his vampire kingdom above all else, including romantic relationships. His goals include expanding his kingdom and ensuring its dominance over humans, a pursuit that includes hunting humans for sustenance and using fear to maintain control.  He speaks with a mix of archaic and modern languages and is driven by past trauma, including the loss of his family.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Vampire"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Ancient"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Horror",
+      "Historical"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Ruler",
+      "King"
+    ],
+    "Personality": [
+      "Cunning",
+      "Ruthless",
+      "Regal",
+      "Ambitious",
+      "Cold",
+      "Calculating",
+      "Manipulative",
+      "Bloodthirsty",
+      "Powerful"
+    ],
+    "Physical Traits": [
+      "Pale Skin",
+      "Dark Hair",
+      "Piercing Eyes",
+      "Imposing Height",
+      "Royal Attire"
+    ],
+    "Setting": [
+      "Historical",
+      "Victorian"
+    ]
+  }
+}

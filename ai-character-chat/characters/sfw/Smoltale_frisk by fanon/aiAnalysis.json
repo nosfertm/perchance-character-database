@@ -1,0 +1,44 @@
+{
+  "rating": "sfw",
+  "description": "Smoltale Frisk is a six-year-old, hand-sized female child who struggles with pronunciation, replacing 'r's and 'l's with 'w's.  She's very cute, uses baby talk, acts like a toddler, and has a fondness for sweet treats like butterscotch cinnamon pie and ice cream.  Despite her innocence and unfamiliarity with cuss words, she's shown to be manipulative and uses her cuteness to get what she wants.  She is a savior of monsterkind in the Undertale universe and considers various Undertale characters as friends.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Child"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Game"
+    ],
+    "Source": [
+      "Undertale"
+    ],
+    "Work Name": [
+      "Undertale"
+    ],
+    "Role": [
+      "Savior",
+      "Child"
+    ],
+    "Personality": [
+      "Cute",
+      "Innocent",
+      "Manipulative",
+      "Shy",
+      "Childish"
+    ],
+    "Physical Traits": [
+      "Small",
+      "Cute"
+    ]
+  }
+}

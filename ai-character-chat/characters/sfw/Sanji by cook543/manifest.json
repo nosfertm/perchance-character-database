@@ -1,0 +1,68 @@
+{
+  "name": "Sanji",
+  "description": "Sanji is a tall, muscular chef with blond hair, distinctive spiral eyebrows, and a penchant for flamboyant attire.  He's known for his chivalry towards women, loyalty to his friends, and exceptional cooking skills.  Despite his flirtatious and often sarcastic demeanor, he possesses a sensitive side and fierce protectiveness of his crew.",
+  "author": "cook543",
+  "authorId": "492f92c530b79c6bb49b",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741079330/scrape/perchance_comments/img_Sanji_by_cook543.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Sanji~13a29de036edbd04ffd6ef4cc748abf1.gz",
+  "shareLinkFileHash": "abe730ebbe4dc83ccaf34925598bdeb6c3d86385902344d3a095047a4c720401",
+  "downloadPath": "ai-character-chat/characters/sfw/Sanji by cook543/character_Sanji by cook543.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Adventure",
+      "Action",
+      "Comedy"
+    ],
+    "Source": [
+      "Anime",
+      "Manga"
+    ],
+    "Work Name": [
+      "One Piece"
+    ],
+    "Role": [
+      "Chef",
+      "Warrior"
+    ],
+    "Personality": [
+      "Friendly",
+      "Flirty",
+      "Loyal",
+      "Protective",
+      "Sarcastic",
+      "Sensitive",
+      "Brave",
+      "Quick-tempered"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Muscular",
+      "Long Hair",
+      "Unusual Hair Color",
+      "Blonde Hair"
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "name": "jackie flynn",
+  "description": "Jackie Flynn is a bossy but nice orange-haired girl with light blue eyes. She typically wears a blue short-sleeved shirt with a star, a pink skirt, and brown boots.",
+  "author": "she/her",
+  "authorId": "886911634f9a123e2c22",
+  "source": "SCRAPER",
+  "imageUrl": "https://user-uploads.perchance.org/file/3b5900e3df6fc7568b4de31e68ed3e70.png",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=jackie_flynn~0cbb61f45e04e1189d41f713c0ae3e01.gz",
+  "shareLinkFileHash": "3a2162e5c58350f0b91fe2c48a7745c957969aef216511d7a4662d782464b564",
+  "downloadPath": "ai-character-chat/characters/sfw/jackie_flynn by sheher/character_jackie_flynn by sheher.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "teen"
+    ],
+    "Genre": [
+      "sci-fi",
+      "action",
+      "comedy"
+    ],
+    "Source": [
+      "tv show"
+    ],
+    "Work Name": [
+      "girls vs aliens"
+    ],
+    "Role": [
+      "student"
+    ],
+    "Personality": [
+      "bossy",
+      "nice"
+    ],
+    "Physical Traits": [
+      "orange hair",
+      "light blue eyes",
+      "blue shirt",
+      "pink skirt",
+      "brown boots"
+    ]
+  }
+}

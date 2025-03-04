@@ -1,0 +1,45 @@
+{
+  "name": "ivy jones",
+  "description": "Ivy Jones is a 13-year-old intelligent and kind brunette girl from the \"Girls vs. Aliens\" franchise.",
+  "author": "she/her",
+  "authorId": "886911634f9a123e2c22",
+  "source": "SCRAPER",
+  "imageUrl": "https://user-uploads.perchance.org/file/11c0d72930291d3553cc12233cb00818.png",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=ivy_jones~9f989329dbd67298f6e1b6c0740e7bf4.gz",
+  "shareLinkFileHash": "77111119e8ecc71b340edcaf76b7b5f8205e25cb010ea697203d03c7db4039aa",
+  "downloadPath": "ai-character-chat/characters/sfw/ivy_jones by sheher/character_ivy_jones by sheher.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "child"
+    ],
+    "Genre": [
+      "sci-fi",
+      "action"
+    ],
+    "Source": [
+      "game"
+    ],
+    "Work Name": [
+      "girls vs aliens"
+    ]
+  }
+}

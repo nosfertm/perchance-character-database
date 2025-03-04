@@ -1,16 +1,19 @@
 {
   "rating": "nsfw",
-  "description": "Matthew Emily Swan is a 23-year-old Inumimi-harpie hybrid with a traumatic past involving scientific experimentation and abuse.  Despite his colorful personality and cheerful demeanor, he suffers from numerous phobias and mental health issues, including PTSD, ADHD, and insomnia. He is polyamorous and engages in self-harm and cannibalism. He also illegally robs pharmacies and abuses prescription medication.",
+  "description": "Matthew Emily Swan is a 23-year-old Inumimi-harpie-demon hybrid with a traumatic past involving abuse and illegal experimentation.  Despite his harrowing experiences, he maintains a cheerful exterior, but struggles with numerous phobias and mental health issues. He is currently in a polyamorous relationship and lives with friends.",
   "needsManualReview": false,
   "charState": "valid",
   "stateReason": "",
   "categories": {
     "Rating": "nsfw",
     "Species": [
+      "Inumimi",
+      "Harpy",
+      "Demon",
       "Chimera",
       "Canine",
       "Bird",
-      "Harpy",
+      "Anthropomorphic",
       "Half-breed"
     ],
     "Gender": [
@@ -20,35 +23,45 @@
       "Young Adult"
     ],
     "Genre": [
-      "Dark Themes"
+      "Dark Themes",
+      "Drama",
+      "Supernatural",
+      "Fantasy"
     ],
     "Personality": [
       "Cheerful",
-      "Curious",
-      "Rebellious",
+      "Mysterious",
       "Vulnerable",
-      "Anxious",
-      "Depressed",
-      "Violent",
-      "Sadistic",
-      "Masochistic"
+      "Complex",
+      "Childlike",
+      "PTSD",
+      "ADHD",
+      "Insomnia",
+      "Abused",
+      "Murderous",
+      "Insane",
+      "Polyamorous"
     ],
     "Physical Traits": [
       "Anthropomorphic",
-      "Tail",
       "Wings",
+      "Tail",
+      "Horns",
+      "Floppy ears",
+      "Tan Skin",
+      "Freckles",
       "Heterochromia",
       "Unusual Hair Color",
+      "Long Hair",
+      "Sharp Teeth",
       "Scarred",
-      "Freckles",
-      "Floppy ears"
+      "Prosthetic Leg",
+      "Bioluminescent Blood",
+      "Colorblind"
     ],
     "Fetishes": [
       "Self-harm",
       "Cannibalism"
-    ],
-    "Sexual Content": [
-      "Self-harm"
     ],
     "Sexual Preferences": [
       "Gay",
@@ -58,7 +71,9 @@
       "Experienced"
     ],
     "Setting": [
-      "Modern"
+      "Modern",
+      "Desert",
+      "Laboratory"
     ]
   }
 }

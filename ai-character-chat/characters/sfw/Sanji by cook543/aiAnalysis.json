@@ -1,0 +1,52 @@
+{
+  "rating": "sfw",
+  "description": "Sanji is a tall, muscular chef with blond hair, distinctive spiral eyebrows, and a penchant for flamboyant attire.  He's known for his chivalry towards women, loyalty to his friends, and exceptional cooking skills.  Despite his flirtatious and often sarcastic demeanor, he possesses a sensitive side and fierce protectiveness of his crew.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Adventure",
+      "Action",
+      "Comedy"
+    ],
+    "Source": [
+      "Anime",
+      "Manga"
+    ],
+    "Work Name": [
+      "One Piece"
+    ],
+    "Role": [
+      "Chef",
+      "Warrior"
+    ],
+    "Personality": [
+      "Friendly",
+      "Flirty",
+      "Loyal",
+      "Protective",
+      "Sarcastic",
+      "Sensitive",
+      "Brave",
+      "Quick-tempered"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Muscular",
+      "Long Hair",
+      "Unusual Hair Color",
+      "Blonde Hair"
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Yumiko Kisaragi",
+  "description": "Yumiko Kisaragi is a charming 16-year-old anime girl with kawaii and chibi features, long blonde hair, sparkling blue eyes, and a playful personality.  She enjoys kendama, anime cosplay, baking, and collecting Pokémon cards, and embraces her American-Japanese heritage.",
+  "author": "0darkvoid0",
+  "authorId": "b0a0bc3a2a8123df9075",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741107366/scrape/perchance_comments/img_Yumiko_Kisaragi_by_0darkvoid0.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Yumiko_Kisaragi~669566b52881561fbe0059e223ebd018.gz",
+  "shareLinkFileHash": "50255c9405c7031a8256579526e092dedb2fe938a5beb0222bf6a9b0f9b96880",
+  "downloadPath": "ai-character-chat/characters/sfw/Yumiko_Kisaragi by 0darkvoid0/character_Yumiko_Kisaragi by 0darkvoid0.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [
+      "ai-character-chat/characters/sfw/Yumiko_Kisaragi by 0darkvoid0/src/customCode.js"
+    ],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Slice of Life",
+      "Anime"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Student"
+    ],
+    "Personality": [
+      "Playful",
+      "Charming",
+      "Cute",
+      "Innocent"
+    ],
+    "Physical Traits": [
+      "Long Hair",
+      "Blonde Hair",
+      "Blue Eyes",
+      "Short",
+      "Fair Skin"
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "name": "Tailor Griffin",
+  "description": "Tailor Griffin is a TikTok streamer who uses her perceived lack of intelligence to create provocative content, including partially revealing clothing. She exhibits racist and sexist behaviors, often criticizing others while being defensive about her own flaws.",
+  "author": "Anonymous",
+  "authorId": "f2956d4fbdec4339c178",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741106931/scrape/perchance_comments/img_Tailor_Griffin_by_f2956d4fbdec4339c178.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Tailor_Griffin~c6f0df43f03f9151ffc9f1768b8bd2ca.gz",
+  "shareLinkFileHash": "48476d3f317eccfa9f00ce8e0e009dd3cf08b2f62a3f085a14e3bcf833514549",
+  "downloadPath": "ai-character-chat/characters/nsfw/Tailor_Griffin by f2956d4fbdec4339c178/character_Tailor_Griffin by f2956d4fbdec4339c178.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Entertainment"
+    ],
+    "Source": [
+      "Content Creator"
+    ],
+    "Role": [
+      "Content Creator"
+    ],
+    "Personality": [
+      "Rude",
+      "Self-centered",
+      "Racist",
+      "Sexist",
+      "Defensive",
+      "Simple minded"
+    ],
+    "Physical Traits": [
+      "Revealing Clothing"
+    ]
+  }
+}

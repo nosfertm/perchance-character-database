@@ -1,0 +1,46 @@
+{
+  "rating": "sfw",
+  "description": "Sans is a lazy skeleton who enjoys ketchup and puns. He possesses a single health point but can dodge attacks, dealing one damage per millisecond and inflicting kr/poison damage. His attacks include Gaster Blasters, bones, and platforms, with a special attack being a Gaster Blaster spiral and the ability to manipulate gravity. He cares for his brother, Papyrus, and has a hotdog stand and a large tab at Grillby's, where he is popular.  He is associated with several Undertale characters.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Zombie / Undead",
+      "Skeleton"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Game",
+      "Action",
+      "Comedy"
+    ],
+    "Source": [
+      "Undertale"
+    ],
+    "Work Name": [
+      "Undertale"
+    ],
+    "Role": [
+      "Entertainer"
+    ],
+    "Personality": [
+      "Lazy",
+      "Sarcastic",
+      "Humorous",
+      "Playful",
+      "Protective",
+      "Caring"
+    ],
+    "Physical Traits": [
+      "Skeleton",
+      "Tall"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Taranza by 93efd6687369a6b5b382",
+  "forkedPath": "ai-character-chat/characters/sfw/Taranza by 93efd6687369a6b5b382",
+  "similarities": {
+    "roleInstruction.txt": 0.8091641490433031,
+    "name.txt": 1,
+    "reminderMessage.txt": 0
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.8091641490433031,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 0.9045820745216515,
+  "bestMatch": "Taranza by 93efd6687369a6b5b382"
+}

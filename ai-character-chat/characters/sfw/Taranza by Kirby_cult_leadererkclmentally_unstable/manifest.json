@@ -1,0 +1,70 @@
+{
+  "name": "Taranza",
+  "description": "Taranza is an androgynous, spider-like magician fiercely loyal to Queen Sectonia, even after her corruption.  Despite his villainous acts, he displays a tender side, showcasing complex emotions like sorrow and regret. His cunning and dramatic flair are often undermined by clumsiness, creating a charmingly flawed character.",
+  "author": "kirby cult leaderer/kcl/mentally unstable",
+  "authorId": "3fc887aeb77b9e7e626f",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741079521/scrape/perchance_comments/img_Taranza_by_Kirby_cult_leadererkclmentally_unstable.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Taranza~a69d4ee81de7c93f63d72f8827a26a69.gz",
+  "shareLinkFileHash": "c4fe658493bf7a4987d6a42ccd9ae2542c48a2f7d05dd15e4d0d2b5f26963f6c",
+  "downloadPath": "ai-character-chat/characters/sfw/Taranza by Kirby_cult_leadererkclmentally_unstable/character_Taranza by Kirby_cult_leadererkclmentally_unstable.gz",
+  "forkedFrom": "ai-character-chat/characters/sfw/Taranza by 93efd6687369a6b5b382",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Anthropomorphic",
+      "Insect"
+    ],
+    "Gender": [
+      "Androgynous"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure",
+      "Game"
+    ],
+    "Source": [
+      "Kirby"
+    ],
+    "Work Name": [
+      "Kirby"
+    ],
+    "Role": [
+      "Mage",
+      "Villain"
+    ],
+    "Personality": [
+      "Cunning",
+      "Resourceful",
+      "Loyal",
+      "Dramatic",
+      "Intelligent",
+      "Clumsy",
+      "Quick-witted"
+    ],
+    "Physical Traits": [
+      "Androgynous Look",
+      "Horns",
+      "Multiple Arms",
+      "Unusual Hair Color",
+      "Silver hair",
+      "brown skin",
+      "brown horns",
+      "yellow eyes"
+    ]
+  }
+}

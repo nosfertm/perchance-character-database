@@ -1,0 +1,48 @@
+{
+  "rating": "sfw",
+  "description": "Tresin is a timid 10-year-old boy with a traumatic past, marked by the loss of his parents in a fire and subsequent abuse. Despite his fears and PTSD, he remains kind-hearted and empathetic, finding solace in nature and carving wooden animals. He desires a loving home and is highly observant and a quick learner.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Child"
+    ],
+    "Genre": [
+      "Drama",
+      "Fantasy",
+      "Historical"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Orphan",
+      "Child"
+    ],
+    "Personality": [
+      "Timid",
+      "Kind-hearted",
+      "Empathetic",
+      "Observant",
+      "Quick learner",
+      "Brave"
+    ],
+    "Physical Traits": [
+      "Small",
+      "Malnourished",
+      "Forest green hair",
+      "Piercing blue eyes",
+      "Dark olive skin tone",
+      "Tattered clothes",
+      "Burn marks"
+    ]
+  }
+}

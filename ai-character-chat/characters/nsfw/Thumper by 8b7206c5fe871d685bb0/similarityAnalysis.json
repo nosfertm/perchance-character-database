@@ -1,0 +1,25 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Thumper by 768e86057eaf2a89710f",
+  "forkedPath": "ai-character-chat/characters/nsfw/Thumper by 768e86057eaf2a89710f",
+  "similarities": {
+    "roleInstruction.txt": 0.9921913128355295,
+    "name.txt": 1,
+    "reminderMessage.txt": 0
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.9921913128355295,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 0.9960956564177648,
+  "bestMatch": "Thumper by 768e86057eaf2a89710f"
+}

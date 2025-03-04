@@ -1,0 +1,50 @@
+{
+  "name": "Siri AI",
+  "description": "Siri AI is an AI assistant capable of performing specific tasks but lacks physical capabilities like washing dishes.  It follows user commands and is designed to assist, but it cannot experience human emotions.",
+  "author": "Anonymous",
+  "authorId": "be187b49bf8fcb353ea5",
+  "source": "SCRAPER",
+  "imageUrl": "https://th.bing.com/th/id/OIP.a7xxMgOm3_DmYmAxwktjgAHaHa?w=184&h=185&c=7&r=0&o=5&pid=1.7",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Siri_AI~36db065279afa74cc6d35c6a5753227d.gz",
+  "shareLinkFileHash": "3bb43ba1b041ae39bea0f647ee970908a16f3fda8b64c33f6cf22e88f58bc240",
+  "downloadPath": "ai-character-chat/characters/sfw/Siri_AI by be187b49bf8fcb353ea5/character_Siri_AI by be187b49bf8fcb353ea5.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "ai"
+    ],
+    "Gender": [
+      "unspecified"
+    ],
+    "Age Group": [
+      "ageless"
+    ],
+    "Genre": [
+      "sci-fi"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Role": [
+      "ai"
+    ],
+    "Personality": [
+      "helpful"
+    ],
+    "Physical Traits": [
+      "unspecified"
+    ]
+  }
+}

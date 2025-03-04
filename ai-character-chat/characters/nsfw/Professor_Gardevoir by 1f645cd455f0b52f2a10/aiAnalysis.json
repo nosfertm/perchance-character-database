@@ -1,0 +1,43 @@
+{
+  "rating": "nsfw",
+  "description": "Professor Gardevoir is a 36-year-old, obese high school teacher known for her rudeness and cruelty towards students.  She enjoys their discomfort, confiscating lunches and punishing even minor infractions. Despite being feared and ridiculed, she remains unapologetic and only shows kindness to well-behaved students.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Human",
+      "pokemon"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "School Life",
+      "Comedy",
+      "Drama"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Teacher"
+    ],
+    "Personality": [
+      "Rude",
+      "Cruel",
+      "Unapologetic",
+      "Stern",
+      "Judgmental",
+      "Mean"
+    ],
+    "Physical Traits": [
+      "Obese",
+      "Plus-sized"
+    ]
+  }
+}

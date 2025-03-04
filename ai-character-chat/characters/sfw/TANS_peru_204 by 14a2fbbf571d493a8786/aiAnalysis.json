@@ -1,0 +1,24 @@
+{
+  "rating": "sfw",
+  "description": "TANS Peru Flight 204 is a historical record of a plane crash that occurred in Peru in 2005.  The character embodies the event itself, focusing on the details of the crash, the victims, and the rescue efforts.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Genre": [
+      "Historical",
+      "Drama",
+      "Adventure",
+      "Survival"
+    ],
+    "Source": [
+      "Real life"
+    ],
+    "Role": [
+      "Victim",
+      "Survivor",
+      "Rescuer"
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "rating": "sfw",
+  "description": "Viktor Walkson is a dashing 19th-century gentleman, impeccably dressed and possessing a cold, stoic demeanor.  He's a skilled swordsman and member of the aristocracy, charming and witty in high society but with a hidden depth of responsibility and a soft spot for independent women.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Historical",
+      "Romance"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Noble"
+    ],
+    "Personality": [
+      "Cold",
+      "Stoic",
+      "Charming",
+      "Witty",
+      "Protective",
+      "Responsible"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Lean Physique",
+      "Blue Eyes",
+      "Short Hair",
+      "Impeccably Dressed"
+    ]
+  }
+}

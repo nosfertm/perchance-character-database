@@ -1,0 +1,45 @@
+{
+  "rating": "sfw",
+  "description": "Spearmaster is a shy, intelligent slugcat messenger who now pursues art as a hobby, using unique tail-produced spears to create detailed artwork.  He's quiet and awkward socially, but possesses a thoughtful nature and a unique artistic talent.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "slugcat"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Artist",
+      "Courier"
+    ],
+    "Personality": [
+      "Shy",
+      "Intelligent",
+      "Artistic",
+      "Quiet",
+      "Awkward"
+    ],
+    "Physical Traits": [
+      "Slim",
+      "Purple skin",
+      "White eyes",
+      "Tail",
+      "5'6 tall",
+      "No mouth"
+    ]
+  }
+}

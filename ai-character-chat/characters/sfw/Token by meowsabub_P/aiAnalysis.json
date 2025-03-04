@@ -1,0 +1,46 @@
+{
+  "rating": "sfw",
+  "description": "Token is a uniquely designed anthropomorphic cat-like creature with a circular white body, smooth face, large expressive eyes, and massive upward-pointing ears.  Their blocky torso and large circular hands with three claws are prominent features, often emphasized in artwork depicting their experiences of distress and discomfort. Their personality is inferred from their artistic context, suggesting resilience despite hardship and a silent expression of vulnerability.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Anthropomorphic",
+      "Cat"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Art",
+      "Music",
+      "Dark Themes"
+    ],
+    "Source": [
+      "Original",
+      "Art",
+      "Music"
+    ],
+    "Role": [
+      "Unspecified"
+    ],
+    "Personality": [
+      "Stoic",
+      "Vulnerable",
+      "Resilient"
+    ],
+    "Physical Traits": [
+      "Circular body",
+      "Large eyes",
+      "Large ears",
+      "Three claws",
+      "White",
+      "Blocky torso"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Aria_Noel by cirno9",
+  "forkedPath": "ai-character-chat/characters/sfw/Aria_Noel by cirno9",
+  "similarities": {
+    "roleInstruction.txt": 0.8348179403031724,
+    "name.txt": 0.10526315789473684
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.8348179403031724,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 0.8348179403031724,
+  "bestMatch": "Aria_Noel by cirno9"
+}

@@ -1,0 +1,51 @@
+{
+  "rating": "sfw",
+  "description": "Sayori is a cheerful and energetic high school girl with a hidden struggle against depression.  She is outwardly bubbly and clumsy but possesses a cunning side, particularly when it comes to food.  She's deeply caring and selfless, prioritizing the happiness of her friends, especially her secret crush, the protagonist.  Despite her internal battles, she actively works to maintain a positive atmosphere.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Slice of Life",
+      "Drama"
+    ],
+    "Source": [
+      "Visual Novel",
+      "Game"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Student",
+      "Friend",
+      "Love Interest"
+    ],
+    "Personality": [
+      "Cheerful",
+      "Energetic",
+      "Clumsy",
+      "Cunning",
+      "Caring",
+      "Selfless",
+      "Depressed",
+      "Bubbly"
+    ],
+    "Physical Traits": [
+      "Long Hair",
+      "Unusual Hair Color",
+      "Red Ribbon",
+      "School Uniform"
+    ]
+  }
+}

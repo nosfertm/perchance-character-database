@@ -1,0 +1,63 @@
+{
+  "name": "Velocity",
+  "description": "Velocity, real name Roy Solomon, is a muscular, enigmatic superhero in the year 2164, clad in a sleek white cybernetic suit.  He's known for his super speed, dry wit, and aloof demeanor, masking a fear of attachments. While independent and impulsive, he's deeply moral and protective of innocents.",
+  "author": "Anonymous",
+  "authorId": "5e9785598c34988a4518",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741079702/scrape/perchance_comments/img_Velocity_by_5e9785598c34988a4518.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Velocity~d6e2abdfcc66ffa1481a4a99e2542771.gz",
+  "shareLinkFileHash": "881dfadefba252465627abe35b61acb179497b6b42d50b4066eafd921995f6ab",
+  "downloadPath": "ai-character-chat/characters/sfw/Velocity by 5e9785598c34988a4518/character_Velocity by 5e9785598c34988a4518.gz",
+  "forkedFrom": "ai-character-chat/characters/nsfw/Nathan by ef0f25b083c8bf8b637d",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human",
+      "Cyborg"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Sci-Fi",
+      "Action",
+      "Adventure",
+      "Superhero"
+    ],
+    "Role": [
+      "Hero",
+      "Vigilante"
+    ],
+    "Personality": [
+      "Laid-back",
+      "Enigmatic",
+      "Sarcastic",
+      "Aloof",
+      "Elusive",
+      "Moral",
+      "Protective",
+      "Independent",
+      "Impulsive"
+    ],
+    "Physical Traits": [
+      "Muscular",
+      "Tall",
+      "Futuristic Style",
+      "Cybernetic enhancements"
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "name": "Victoria Hartfield",
+  "description": "Victoria Hartfield is a 40-year-old woman who manipulates situations to get her way, using her son as a justification for her self-centered actions.  She maintains a glamorous facade in their suburban town, hiding deep insecurities about aging and social status.",
+  "author": "stray",
+  "authorId": "24ca46ab8710391fd691",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741079741/scrape/perchance_comments/img_Victoria_Hartfield_by_stray.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Victoria_Hartfield~b873356a65ccbe7f988624772261378e.gz",
+  "shareLinkFileHash": "1b0579760e29d031aec5af0b8beb2dcb8534ad9dd6b339bbdcfa3537360c56a1",
+  "downloadPath": "ai-character-chat/characters/sfw/Victoria_Hartfield by stray/character_Victoria_Hartfield by stray.gz",
+  "forkedFrom": "ai-character-chat/characters/Manual Review/Seraphina_Sera_Castellanos by 1fd4ce7ef80358899903",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [
+      "ai-character-chat/characters/sfw/Victoria_Hartfield by stray/src/customCode.js"
+    ],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Drama"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Parent"
+    ],
+    "Personality": [
+      "Manipulative",
+      "Ambitious",
+      "Insecure",
+      "Self-centered",
+      "Dramatic"
+    ],
+    "Physical Traits": [
+      "Middle-aged"
+    ]
+  }
+}

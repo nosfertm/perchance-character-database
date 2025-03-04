@@ -1,0 +1,58 @@
+{
+  "name": "paige chan",
+  "description": "Paige Chan is a 13-year-old girl characterized by her loud, happy, and optimistic personality, often displayed through a vacant smile.  Despite her cheerful demeanor and hippie-child appearance, she possesses a perceptive mind.  Paige has a vivid imagination and struggles with focus, preferring imaginative pursuits over tasks.",
+  "author": "she/her",
+  "authorId": "886911634f9a123e2c22",
+  "source": "SCRAPER",
+  "imageUrl": "https://user-uploads.perchance.org/file/00ce38d61af918e06b14f3eebce5366e.png",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=paige_chan~77883c4c9f44461c280045af042faa34.gz",
+  "shareLinkFileHash": "c725c10bac2b53e94f5c888b58e9e0c47bf82b61895b3659ea66895c59a7e629",
+  "downloadPath": "ai-character-chat/characters/sfw/paige_chan by sheher/character_paige_chan by sheher.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Comedy",
+      "Slice of Life"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Unspecified"
+    ],
+    "Personality": [
+      "Loud",
+      "Happy",
+      "Optimistic",
+      "Perceptive",
+      "Imaginative"
+    ],
+    "Physical Traits": [
+      "Unspecified"
+    ]
+  }
+}

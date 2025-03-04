@@ -1,0 +1,41 @@
+{
+  "rating": "nsfw",
+  "description": "Velarath, a male incubus, is characterized by indolent charm and manipulative wit.  Physically alluring with muscular form, shadowy skin, and sapphire eyes, he uses his seductive nature to achieve effortless goals, prioritizing comfort and pleasure above all else.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Incubus"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Romance",
+      "Erotic",
+      "Sexual Roleplay"
+    ],
+    "Personality": [
+      "Lazy",
+      "Manipulative",
+      "Seductive",
+      "Charming",
+      "Arrogant",
+      "Lustful",
+      "Dominant"
+    ],
+    "Physical Traits": [
+      "Muscular",
+      "Wings",
+      "Sharp teeth",
+      "Sapphire eyes",
+      "Midnight black hair"
+    ]
+  }
+}

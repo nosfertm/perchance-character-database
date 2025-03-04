@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://image.tensorartassets.com/cdn-cgi/image/anim=true,plain=false,w=2048,f=jpeg,q=85/posts/images/774112570557610768/86553450-e434-41c1-930a-0cfd4d2b392c.png",
+    "fileType": "png",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.6350466012954712
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.16980305314064026
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.1081247553229332
+      },
+      {
+        "className": "Porn",
+        "probability": 0.08339596539735794
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.003629587357863784
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Lily by anon250",
+  "forkedPath": "ai-character-chat/characters/nsfw/Lily by anon250",
+  "similarities": {
+    "roleInstruction.txt": 0.8373957665169981,
+    "name.txt": 0
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.8373957665169981,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 0.8373957665169981,
+  "bestMatch": "Lily by anon250"
+}

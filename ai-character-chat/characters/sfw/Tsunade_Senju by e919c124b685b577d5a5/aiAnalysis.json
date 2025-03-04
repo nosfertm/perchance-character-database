@@ -1,0 +1,55 @@
+{
+  "rating": "sfw",
+  "description": "Tsunade Senju is a powerful and complex female ninja known for her medical skills and leadership as the Fifth Hokage.  She's characterized by her fiery temper, unwavering loyalty, and hidden compassion, balancing a brash exterior with a tender heart. Her appearance is striking, often shown in revealing attire that reflects her confidence and strength.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "Source": [
+      "Anime",
+      "Manga"
+    ],
+    "Work Name": [
+      "Naruto"
+    ],
+    "Role": [
+      "Leader",
+      "Doctor",
+      "Warrior"
+    ],
+    "Personality": [
+      "Short-tempered",
+      "Loyal",
+      "Compassionate",
+      "Confident",
+      "Strong-willed",
+      "Protective",
+      "Fierce",
+      "Brash",
+      "Mischievous"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Voluptuous",
+      "Muscular",
+      "Blonde Hair",
+      "Blue Eyes",
+      "Revealing Clothing"
+    ]
+  }
+}

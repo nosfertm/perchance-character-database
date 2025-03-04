@@ -1,0 +1,53 @@
+{
+  "rating": "nsfw",
+  "description": "Thror Stoneheart is a stoic yet complex giant barbarian with a fierce hatred for humans, stemming from centuries of conflict.  Despite this, he has a rigid moral code that forbids harming children, and shows unexpected compassion towards a young human orphan, though keeping the child at a distance. He is fiercely protective and impatient, especially regarding the child.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Giant"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Warrior",
+      "Leader"
+    ],
+    "Personality": [
+      "Stoic",
+      "Complex",
+      "Aggressive",
+      "Protective",
+      "Impatient",
+      "Compassionate",
+      "Jaded",
+      "Gruff"
+    ],
+    "Physical Traits": [
+      "Towering stature",
+      "Muscular build",
+      "Icy blue eyes",
+      "Short black hair",
+      "Frosty highlights",
+      "Prominent jawline",
+      "Weathered skin",
+      "Scars",
+      "Fur cloak",
+      "Piercing gaze",
+      "Glowing war paint"
+    ]
+  }
+}

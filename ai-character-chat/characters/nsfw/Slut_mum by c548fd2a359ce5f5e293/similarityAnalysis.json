@@ -1,0 +1,25 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Slut_mum by 768e86057eaf2a89710f",
+  "forkedPath": "ai-character-chat/characters/nsfw/Slut_mum by 768e86057eaf2a89710f",
+  "similarities": {
+    "roleInstruction.txt": 0.8896293211162016,
+    "name.txt": 1,
+    "reminderMessage.txt": 0
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.8896293211162016,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 0.9448146605581008,
+  "bestMatch": "Slut_mum by 768e86057eaf2a89710f"
+}
