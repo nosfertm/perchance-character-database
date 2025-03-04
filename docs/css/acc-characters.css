@@ -5,7 +5,6 @@
 @media (max-width: 768px) {
     .card-img-container {
         height: 180px;
-        /* Reduz altura da imagem */
     }
 
     .card-footer {
@@ -287,6 +286,11 @@ body.offcanvas-open {
     width: 100%;
 } */
 
+
+/* -------------------------------------------------------------------------- */
+/*                                    MODAL                                   */
+/* -------------------------------------------------------------------------- */
+
 /* Modal Styles */
 /* Modal base size - sets the maximum width for extra large modal variant */
 .modal-xl {
@@ -331,6 +335,13 @@ body.offcanvas-open {
     /* Add spacing around content */
     padding-top: 1.5rem;
     /* Add spacing around content */
+}
+
+.author-credit {
+    max-width: 70%; /* Limit width of author credit */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 /* Individual content sections (description, categories, etc.) */

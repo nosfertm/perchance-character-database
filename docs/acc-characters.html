@@ -31,10 +31,11 @@
                 <div v-if="selectedCharacter" class="modal-content" :class="{ 'bg-dark': isDarkMode }">
                     <!-- Title -->
                     <div class="modal-header" :class="{ 'bg-dark text-white border-secondary': isDarkMode }">
-                        <div class="d-flex align-items-center flex-wrap">
+                        <div class="d-flex flex-column" style="max-width: 65%; padding-right: 5px;">
                             <h5 class="modal-title mb-0" id="characterModalLabel" :class="{ 'text-white': isDarkMode }">
-                                {{decodeText(this.selectedCharacter.manifest.name)}}</h5>
-                            <small class="ms-2 text-truncate"
+                                {{decodeText(this.selectedCharacter.manifest.name)}}
+                            </h5>
+                            <small class="text-truncate"
                                 :class="{ 'text-secondary': isDarkMode, 'text-muted': !isDarkMode }">
                                 by {{decodeText(selectedCharacter.manifest.author) || 'Anonymous'}}
                             </small>

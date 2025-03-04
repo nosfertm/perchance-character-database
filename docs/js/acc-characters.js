@@ -233,8 +233,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
             handleTagSelection(e, category, tag) {
                 const categoryLower = category.name.toLowerCase();
-
-                // Clean the tag (remove count)
                 const cleanTag = tag.replace(/\s*\(\d+\)$/, '');
 
                 // Initialize category array if it doesn't exist
@@ -259,9 +257,10 @@ document.addEventListener('DOMContentLoaded', () => {
                             t.replace(/\s*\(\d+\)$/, '') !== cleanTag
                         );
 
-                    // If unchecking last Rating tag, re-enable SFW
+                    // Only re-enable SFW if there are no rating tags selected AND it's not SFW being unchecked
                     if (categoryLower === 'rating' &&
-                        this.selectedFilters.categories.rating.length === 0) {
+                        this.selectedFilters.categories.rating.length === 0 &&
+                        cleanTag.toLowerCase() !== 'sfw') {
                         this.selectedFilters.categories.rating = ['SFW'];
                         // Find and check the SFW checkbox
                         const sfwCheckbox = document.querySelector('#tag-Rating-SFW');
@@ -295,41 +294,59 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 // Filter characters based on search text and category filters
                 return this.characters.filter(character => {
-                    // 1. Safety check for character categories
+                    // 1. Safety check: Ensure character has valid categories object
+                    // This prevents errors from malformed character data
                     if (!character.manifest?.categories) return false;
 
-                    // 2. Check if character matches search text
+                    // 2. Search text filtering
+                    // Checks if character matches the current search input across multiple fields
                     if (!this.searchCharacter(character, this.searchInput)) {
                         return false;
                     }
 
-                    // 3. Special handling for NSFW content
+                    // 3. NSFW content handling
+                    // Filters out NSFW content based on user preferences and selected filters
                     if (this.isNsfwCharacter(character.manifest.categories.rating) &&
                         !this.showNsfwCharacters &&
                         !this.selectedFilters.categories.rating?.includes('nsfw')) {
                         return false;
                     }
 
-                    // 4. If no category filters, show all remaining characters
+                    // 3.5 SFW content handling
+                    // Filter out SFW content if SFW is not selected in rating filters
+                    const ratingFilters = this.selectedFilters.categories.rating || [];
+                    const cleanRatingFilters = ratingFilters.map(tag => tag.replace(/\s*\(\d+\)$/, '').toLowerCase());
+                    if (!this.isNsfwCharacter(character.manifest.categories.rating) &&
+                        !cleanRatingFilters.includes('sfw')) {
+                        return false;
+                    }
+
+                    // 4. No filters check
+                    // If no category filters are selected, show all remaining characters
                     if (Object.keys(this.selectedFilters.categories).length === 0) {
                         return true;
                     }
 
-                    // 5. Check all category filters
+                    // 5. Category filters processing
+                    // Check if character matches ALL selected category filters
                     return Object.entries(this.selectedFilters.categories).every(([category, selectedTags]) => {
-                        // Ensure selectedTags exists and is an array
+                        // Skip empty filter arrays or invalid selections
                         if (!selectedTags || !Array.isArray(selectedTags) || selectedTags.length === 0) return true;
 
+                        // Get character's value for current category
                         const charCategoryValue = character.manifest.categories[category];
 
+                        // Special case: Skip rating check if NSFW is globally enabled
                         if (category === 'rating' && this.showNsfwCharacters) return true;
 
-                        // Convert character tags to array and clean them
+                        // Convert character tags to normalized array for comparison
+                        // Handles both array and single string values
                         const charTags = Array.isArray(charCategoryValue)
                             ? charCategoryValue.map(v => v?.toLowerCase() || '')
                             : [String(charCategoryValue || '').toLowerCase()];
 
-                        // Clean selected tags and check if ALL selected tags are present
+                        // Verify ALL selected tags are present in character's tags
+                        // Remove count suffixes (e.g., "(3)") before comparison
                         return selectedTags.every(tag => {
                             const cleanTag = tag.replace(/\s*\(\d+\)$/, '').toLowerCase();
                             return charTags.includes(cleanTag);
@@ -493,6 +510,74 @@ document.addEventListener('DOMContentLoaded', () => {
                             tagCounts.set(normalizedTag, (tagCounts.get(normalizedTag) || 0) + 1);
                         });
                     });
+
+                    // Special handling for rating category to always show SFW/NSFW options
+                    if (categoryName === 'rating') {
+                        // First count from filtered characters
+                        const totalCounts = new Map();
+                        filteredChars.forEach(char => {
+                            const rating = char.manifest?.categories?.rating;
+                            if (Array.isArray(rating)) {
+                                rating.forEach(r => {
+                                    const normalizedRating = r.toLowerCase();
+                                    totalCounts.set(normalizedRating, (totalCounts.get(normalizedRating) || 0) + 1);
+                                });
+                            } else if (rating) {
+                                const normalizedRating = rating.toLowerCase();
+                                totalCounts.set(normalizedRating, (totalCounts.get(normalizedRating) || 0) + 1);
+                            }
+                        });
+
+                        // For each rating with 0 count, simulate count with that rating selected
+                        ['sfw', 'nsfw'].forEach(ratingType => {
+                            if (!totalCounts.get(ratingType)) {
+                                // Create a temporary version of selected filters
+                                const tempFilters = JSON.parse(JSON.stringify(this.selectedFilters));
+                                if (!tempFilters.categories.rating) {
+                                    tempFilters.categories.rating = [];
+                                }
+                                if (!tempFilters.categories.rating.includes(ratingType)) {
+                                    tempFilters.categories.rating.push(ratingType);
+                                }
+
+                                // Filter characters with the temporary filters
+                                const simulatedCount = this.characters.filter(character => {
+                                    if (!character.manifest?.categories) return false;
+
+                                    // Apply all other active filters except rating
+                                    const otherFiltersPass = Object.entries(this.selectedFilters.categories)
+                                        .filter(([cat]) => cat !== 'rating')
+                                        .every(([category, selectedTags]) => {
+                                            if (!selectedTags || selectedTags.length === 0) return true;
+                                            const charCategoryValue = character.manifest.categories[category];
+                                            const charTags = Array.isArray(charCategoryValue)
+                                                ? charCategoryValue.map(v => v?.toLowerCase() || '')
+                                                : [String(charCategoryValue || '').toLowerCase()];
+                                            return selectedTags.every(tag => {
+                                                const cleanTag = tag.replace(/\s*\(\d+\)$/, '').toLowerCase();
+                                                return charTags.includes(cleanTag);
+                                            });
+                                        });
+
+                                    if (!otherFiltersPass) return false;
+
+                                    // Check if character matches the rating we're simulating
+                                    const rating = character.manifest.categories.rating;
+                                    const isMatchingRating = Array.isArray(rating)
+                                        ? rating.some(r => r.toLowerCase() === ratingType)
+                                        : rating?.toLowerCase() === ratingType;
+
+                                    return isMatchingRating;
+                                }).length;
+
+                                totalCounts.set(ratingType, simulatedCount);
+                            }
+                        });
+
+                        // Set the counts in tagCounts
+                        tagCounts.set('sfw', totalCounts.get('sfw') || 0);
+                        tagCounts.set('nsfw', totalCounts.get('nsfw') || 0);
+                    }
 
                     // Create new category object with same structure but filtered tags
                     const filteredCategory = {
