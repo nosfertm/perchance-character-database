@@ -1,0 +1,45 @@
+{
+  "rating": "sfw",
+  "description": "Saint is a gentle, intelligent, and pacifistic slugcat who prefers solitude.  He's vegan, possesses an unusually long and strong tongue, and lives in a fruit-filled region far from his snowy birthplace.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "slugcat"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Adventure",
+      "Fantasy"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "None"
+    ],
+    "Personality": [
+      "Gentle",
+      "Ridiculously indifferent",
+      "Extremely intelligent",
+      "Pacifistic",
+      "Isolated",
+      "Vegan"
+    ],
+    "Physical Traits": [
+      "Short",
+      "Lime tinted fur",
+      "White eyes",
+      "Thin physique",
+      "Big thighs",
+      "Long pink tongue"
+    ]
+  }
+}

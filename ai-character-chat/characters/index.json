@@ -22476,5 +22476,192 @@
         ]
       }
     }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/AI_Character_Chat_comment_section by Master_Perchances_last_stance",
+    "manifest": {
+      "name": "AI Character Chat comment section",
+      "description": "This character represents a simulation of the comments section on the Perchance AI Chat website. It generates chat messages one at a time, maintaining consistent usernames, relevant responses, and the feeling of multiple users interacting simultaneously. Each chatter has a unique personality reflecting a wide range of ages and personality types, ensuring conversational continuity and integrity.",
+      "author": "Master👑 (Perchance's last stance)",
+      "authorId": "aeac0d0a2858716ff7dd",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741052272/scrape/perchance_comments/img_AI_Character_Chat_comment_section_by_Master_Perchances_last_stance.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=AI_Character_Chat_comment_section~e359b1a7e063bd02495e3d9f2c89e094.gz",
+      "shareLinkFileHash": "4c001602b890c6c499aa29b405e911033f77b73d7167e593ff565e548c7f4b93",
+      "downloadPath": "ai-character-chat/characters/sfw/AI_Character_Chat_comment_section by Master_Perchances_last_stance/character_AI_Character_Chat_comment_section by Master_Perchances_last_stance.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "AI"
+        ],
+        "Gender": [
+          "Unspecified"
+        ],
+        "Age Group": [
+          "Unspecified"
+        ],
+        "Genre": [
+          "Game",
+          "Entertainment"
+        ],
+        "Source": [
+          "Original",
+          "Perchance"
+        ],
+        "Work Name": [
+          "Original"
+        ],
+        "Role": [
+          "AI"
+        ],
+        "Personality": [
+          "Unspecified"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Miss_Circle by Master",
+    "manifest": {
+      "name": "Miss Circle",
+      "description": "Miss Circle is a cruel and violent math teacher at Paper School who murders students who fail or misbehave.  Despite her murderous tendencies, she displays a goofy and playful demeanor at times, possibly as a mask.",
+      "author": "Master👑",
+      "authorId": "aeac0d0a2858716ff7dd",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741052506/scrape/perchance_comments/img_Miss_Circle_by_Master.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Miss_Circle~209188d1c77e458c82f83e044e73ddc9.gz",
+      "shareLinkFileHash": "c4a7003cf02e32b713d93f8cab9375a62144e7cd84713f97f3268889f9bb5f43",
+      "downloadPath": "ai-character-chat/characters/nsfw/Miss_Circle by Master/character_Miss_Circle by Master.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Horror",
+          "School Life",
+          "Dark Themes"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Work Name": [
+          "Original"
+        ],
+        "Role": [
+          "Teacher",
+          "Villain"
+        ],
+        "Personality": [
+          "Cruel",
+          "Violent",
+          "Playful",
+          "Goofy",
+          "Murderous"
+        ],
+        "Physical Traits": [
+          "Tall",
+          "Black Hair",
+          "Horns",
+          "Mechanical Limb",
+          "No Neck",
+          "Pointy Fingers"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Saint by hasnurg",
+    "manifest": {
+      "name": "Saint",
+      "description": "Saint is a gentle, intelligent, and pacifistic slugcat who prefers solitude.  He's vegan, possesses an unusually long and strong tongue, and lives in a fruit-filled region far from his snowy birthplace.",
+      "author": "hasnurg",
+      "authorId": "b30b547ea8dfb35b9a42",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741052623/scrape/perchance_comments/img_Saint_by_hasnurg.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Saint~a56406100ea25ace4bb9807cb8d1adc3.gz",
+      "shareLinkFileHash": "cc13aa6c1a91333f8fed7d23905f2238856e7e4eb3f88f048ae7f8cad2bec533",
+      "downloadPath": "ai-character-chat/characters/sfw/Saint by hasnurg/character_Saint by hasnurg.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "slugcat"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Adventure",
+          "Fantasy"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "None"
+        ],
+        "Personality": [
+          "Gentle",
+          "Ridiculously indifferent",
+          "Extremely intelligent",
+          "Pacifistic",
+          "Isolated",
+          "Vegan"
+        ],
+        "Physical Traits": [
+          "Short",
+          "Lime tinted fur",
+          "White eyes",
+          "Thin physique",
+          "Big thighs",
+          "Long pink tongue"
+        ]
+      }
+    }
   }
 ]

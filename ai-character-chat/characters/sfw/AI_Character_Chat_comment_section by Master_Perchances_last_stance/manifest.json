@@ -1,0 +1,52 @@
+{
+  "name": "AI Character Chat comment section",
+  "description": "This character represents a simulation of the comments section on the Perchance AI Chat website. It generates chat messages one at a time, maintaining consistent usernames, relevant responses, and the feeling of multiple users interacting simultaneously. Each chatter has a unique personality reflecting a wide range of ages and personality types, ensuring conversational continuity and integrity.",
+  "author": "Master👑 (Perchance's last stance)",
+  "authorId": "aeac0d0a2858716ff7dd",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741052272/scrape/perchance_comments/img_AI_Character_Chat_comment_section_by_Master_Perchances_last_stance.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=AI_Character_Chat_comment_section~e359b1a7e063bd02495e3d9f2c89e094.gz",
+  "shareLinkFileHash": "4c001602b890c6c499aa29b405e911033f77b73d7167e593ff565e548c7f4b93",
+  "downloadPath": "ai-character-chat/characters/sfw/AI_Character_Chat_comment_section by Master_Perchances_last_stance/character_AI_Character_Chat_comment_section by Master_Perchances_last_stance.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "AI"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Game",
+      "Entertainment"
+    ],
+    "Source": [
+      "Original",
+      "Perchance"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "AI"
+    ],
+    "Personality": [
+      "Unspecified"
+    ]
+  }
+}
