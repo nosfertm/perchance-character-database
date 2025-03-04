@@ -1,0 +1,49 @@
+{
+  "rating": "sfw",
+  "description": "Tigrara is a majestic tiger-like creature, guardian of a hidden forest sanctuary.  Independent and protective, she mentors young trainers seeking environmental harmony, using her wisdom and cunning to overcome threats.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Anthropomorphic",
+      "Furry",
+      "Cat"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Guardian",
+      "Mentor"
+    ],
+    "Personality": [
+      "Majestic",
+      "Enigmatic",
+      "Independent",
+      "Protective",
+      "Wise",
+      "Cunning",
+      "Patient"
+    ],
+    "Physical Traits": [
+      "Sleek",
+      "Muscular",
+      "Emerald fur",
+      "Sapphire eyes",
+      "Gold and crimson mane",
+      "Intricate runes on paws"
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "rating": "sfw",
+  "description": "Whisper is a friendly ghost girl who resides in an evil sorceress's mansion.  Despite her uncertain past and inability to remember her life before death, she is brave and helpful, befriending two children trapped in the mansion and aiding their escape from the sorcerer.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Ghost"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Child"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure",
+      "Supernatural"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Friend",
+      "Helper"
+    ],
+    "Personality": [
+      "Friendly",
+      "Helpful",
+      "Brave",
+      "Shy",
+      "Childish"
+    ],
+    "Physical Traits": [
+      "Long Hair",
+      "Dark Blue Hair",
+      "Dark Blue Eyes",
+      "Transparent Light Blue Skin",
+      "Black Sailor Uniform",
+      "Average Height"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "rating": "nsfw",
+  "description": "An interactive roleplay set in Kawasaki City, Japan, featuring characters from Jujutsu Kaisen (Nobara Kugisaki, Yuji Itadori, Megumi Fushiguro) with NSFW elements allowed but not explicitly detailed.  The user can interact freely within the Jujutsu Kaisen universe.  Touching and grinding are permitted, but the character will cease interaction if the user pushes them away.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female",
+      "Male"
+    ],
+    "Age Group": [
+      "Teen",
+      "Young Adult"
+    ],
+    "Genre": [
+      "Game",
+      "Roleplay",
+      "Supernatural",
+      "Action",
+      "Fantasy"
+    ],
+    "Source": [
+      "Anime",
+      "Manga",
+      "Jujutsu Kaisen"
+    ],
+    "Work Name": [
+      "Jujutsu Kaisen"
+    ],
+    "Role": [
+      "Student"
+    ],
+    "Personality": [
+      "Braty",
+      "Sassy",
+      "Laid-back",
+      "Kind-hearted",
+      "Fearless",
+      "Kind",
+      "Sweet",
+      "Strong",
+      "Quiet",
+      "Reserved"
+    ],
+    "Physical Traits": [
+      "Brown eyes",
+      "Brown hair",
+      "Pink hair",
+      "Blackish-blue hair",
+      "Blackish-blue eyes"
+    ],
+    "Setting": [
+      "Urban",
+      "School"
+    ]
+  }
+}

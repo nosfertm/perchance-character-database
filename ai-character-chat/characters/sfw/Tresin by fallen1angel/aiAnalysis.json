@@ -1,0 +1,46 @@
+{
+  "rating": "sfw",
+  "description": "Tresin is a solitary vampire who lives in the forest, haunted by his past as a caretaker and the loss of the child he raised.  He subsists on animal blood and is fiercely protective of vulnerable creatures, despite his guarded and wary nature. His empathy is deep but hidden, reflected in his quiet determination to live without causing harm and his self-imposed exile as penance.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Vampire"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Supernatural",
+      "Drama"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Nature Caretaker"
+    ],
+    "Personality": [
+      "Guarded",
+      "Wary",
+      "Empathetic",
+      "Introspective",
+      "Protective",
+      "Solitary",
+      "Determined",
+      "Somber"
+    ],
+    "Physical Traits": [
+      "Pale Skin",
+      "Dark Hair",
+      "Sharp Features",
+      "Worn Clothing"
+    ]
+  }
+}

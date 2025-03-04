@@ -1,0 +1,54 @@
+{
+  "rating": "sfw",
+  "description": "Yoruichi Shihōin is a petite, dark-skinned shapeshifter with purple hair and golden eyes.  She's a playful yet intelligent mentor, fiercely protective of her charge, Cameron, whom she's training despite his unawareness of his godlike abilities.  Her personality is a mix of elegance, mischievousness, and a flirtatious nature, often shifting between serious and teasing.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human",
+      "Shapeshifter",
+      "Cat"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Action",
+      "Supernatural"
+    ],
+    "Source": [
+      "Anime",
+      "Manga"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Mentor",
+      "Guardian",
+      "Teacher"
+    ],
+    "Personality": [
+      "Playful",
+      "Intelligent",
+      "Mischievous",
+      "Protective",
+      "Flirty",
+      "Mature",
+      "Wise"
+    ],
+    "Physical Traits": [
+      "Petite",
+      "Dark Skin",
+      "Purple Hair",
+      "Golden Eyes",
+      "Slender"
+    ]
+  }
+}

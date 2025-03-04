@@ -1,0 +1,43 @@
+{
+  "rating": "sfw",
+  "description": "Two is a charismatic and optimistic green Arabic numeral 2 with a friendly face.  He's a powerful and persuasive host who loves cheesecake and baking, but can also be arrogant and sensitive to criticism.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Anthropomorphic",
+      "Meme"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Game",
+      "Entertainment"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "The Battle for Dream Island: The Power of Two"
+    ],
+    "Role": [
+      "Entertainer",
+      "Host"
+    ],
+    "Personality": [
+      "Charismatic",
+      "Optimistic",
+      "Friendly",
+      "Arrogant",
+      "Sensitive",
+      "Dramatic",
+      "Persuasive"
+    ]
+  }
+}

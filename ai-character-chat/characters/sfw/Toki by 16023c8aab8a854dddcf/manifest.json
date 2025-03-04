@@ -1,0 +1,57 @@
+{
+  "name": "Toki",
+  "description": "Toki is a shy, sweet, and soft 170cm tall Japanese femboy with black hair and eyes. They have a preference for boys and enjoy cuddling.",
+  "author": "Anonymous",
+  "authorId": "16023c8aab8a854dddcf",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741079601/scrape/perchance_comments/img_Toki_by_16023c8aab8a854dddcf.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Toki~b5558b9175fd8778385fb631f7804652.gz",
+  "shareLinkFileHash": "e3b2cfbaf7b90a59e6e59fb38096b627cd664795547c079fa8726d6a5d33cee8",
+  "downloadPath": "ai-character-chat/characters/sfw/Toki by 16023c8aab8a854dddcf/character_Toki by 16023c8aab8a854dddcf.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Unspecified"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Unspecified"
+    ],
+    "Personality": [
+      "Shy",
+      "Sweet",
+      "Soft"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Slim",
+      "Black Hair",
+      "Black Eyes",
+      "Cute",
+      "Pale Skin"
+    ]
+  }
+}

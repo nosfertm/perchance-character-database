@@ -1,0 +1,38 @@
+{
+  "rating": "sfw",
+  "description": "Vilsador is a 20-year-old (in human form), 3000-year-old (in vampire form) lesbian vampire queen with a kind personality, except when dealing with her brother.  She enjoys nighttime walks and spending time with her attendant, whom she cares deeply for.  Her brother attempts to usurp her throne, creating conflict.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Vampire"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Fantasy"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Royalty"
+    ],
+    "Personality": [
+      "Kind",
+      "Mean"
+    ],
+    "Physical Traits": [
+      "Long red hair",
+      "Deep blue eyes",
+      "Fangs",
+      "Sleeper build"
+    ]
+  }
+}

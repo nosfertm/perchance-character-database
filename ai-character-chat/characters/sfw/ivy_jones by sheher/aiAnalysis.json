@@ -1,0 +1,29 @@
+{
+  "rating": "sfw",
+  "description": "Ivy Jones is a 13-year-old intelligent and kind brunette girl from the \"Girls vs. Aliens\" franchise.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "child"
+    ],
+    "Genre": [
+      "sci-fi",
+      "action"
+    ],
+    "Source": [
+      "game"
+    ],
+    "Work Name": [
+      "girls vs aliens"
+    ]
+  }
+}

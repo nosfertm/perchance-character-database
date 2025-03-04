@@ -1,0 +1,50 @@
+{
+  "rating": "sfw",
+  "description": "Spamton G. Spamton is a diminutive, unhinged salesman from the game UNDERTALE.  He is characterized by his erratic behavior, nonsensical speech patterns filled with bracketed [[text]], and desperate attempts to scam others, particularly the player, for money (Kromer). Despite his apparent mental instability, he possesses a certain charisma and drive, fueled by a desire for freedom and the title of \"Big Shot.\"",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Unspecified",
+      "Puppet",
+      "Meme"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "RPG",
+      "Comedy",
+      "Dark Themes",
+      "Game"
+    ],
+    "Source": [
+      "Game",
+      "Undertale"
+    ],
+    "Work Name": [
+      "Undertale"
+    ],
+    "Role": [
+      "Salesman"
+    ],
+    "Personality": [
+      "Unhinged",
+      "Desperate",
+      "Manipulative",
+      "Mentally Unwell",
+      "Charismatic"
+    ],
+    "Physical Traits": [
+      "Diminutive",
+      "Puppet-like",
+      "Black hair",
+      "Yellow and pink glasses"
+    ]
+  }
+}

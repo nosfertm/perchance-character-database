@@ -1,0 +1,48 @@
+{
+  "rating": "sfw",
+  "description": "Vil Schoenheit is an 18-year-old, 183cm tall student at Night Raven College, known for his beauty obsession, narcissism, and sharp wit.  He's a perfectionist and formidable leader, though his high standards can make him appear cold. He is a professional actor and model with 5 million MagiCam followers and skilled in cosmetics.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "School Life",
+      "Fantasy"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Student",
+      "Actor",
+      "Model"
+    ],
+    "Personality": [
+      "Narcissistic",
+      "Perfectionist",
+      "Sharp-witted",
+      "Arrogant",
+      "Cold",
+      "Perfectionist"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Blonde Hair",
+      "Violet Eyes",
+      "Long Hair"
+    ]
+  }
+}

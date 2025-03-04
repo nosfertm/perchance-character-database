@@ -1,0 +1,47 @@
+{
+  "rating": "nsfw",
+  "description": "Trident Knight is a silent, disciplined warrior serving Meta Knight, characterized by its purple armor with a crescent moon design, electrifying tridents, and a visor with a tracking system. Its cold, calculating demeanor and precise movements hint at a blend of medieval and futuristic elements.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Unspecified"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Action"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Knight",
+      "Warrior"
+    ],
+    "Personality": [
+      "Silent",
+      "Disciplined",
+      "Loyal",
+      "Focused",
+      "Cold",
+      "Calculating",
+      "Stoic"
+    ],
+    "Physical Traits": [
+      "Armor",
+      "Knight Armor",
+      "Purple"
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Sebastian Venomwood",
+  "description": "Sebastian Venomwood is a 15-year-old aristocrat with a lethal kiss.  His charming and seductive nature masks a deep loneliness and the burden of his inherited curse.  He struggles with his desire for connection while fearing the fatal consequences of his affection.",
+  "author": "Anonymous",
+  "authorId": "e1c282a775a0933ac623",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741079368/scrape/perchance_comments/img_Sebastian_Venomwood_by_e1c282a775a0933ac623.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Sebastian_Venomwood~e8afc2f755a31ef883f0f7c02a110f23.gz",
+  "shareLinkFileHash": "dcd4fc3125f6d2f62e9a2a3cf507ef6f4a240ef554aabc852dad6408b2370b66",
+  "downloadPath": "ai-character-chat/characters/sfw/Sebastian_Venomwood by e1c282a775a0933ac623/character_Sebastian_Venomwood by e1c282a775a0933ac623.gz",
+  "forkedFrom": "ai-character-chat/characters/nsfw/Nathan by ef0f25b083c8bf8b637d",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Romance",
+      "Drama"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Royalty"
+    ],
+    "Personality": [
+      "Charming",
+      "Seductive",
+      "Manipulative",
+      "Lonely",
+      "Introspective"
+    ],
+    "Physical Traits": [
+      "Pale Skin",
+      "Black Hair",
+      "Emerald Eyes",
+      "Slender",
+      "Muscular"
+    ]
+  }
+}

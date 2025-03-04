@@ -1,0 +1,64 @@
+{
+  "name": "Sebastian Solace",
+  "description": "Sebastian Solace is a snarky, sarcastic merchant with blue skin, black hair, and an anglerfish lure on his head. He has a powerful tail instead of legs and peddles goods in a watery, dark setting.  Despite his hostile demeanor, he offers help and supplies, taking a twisted satisfaction in the player's survival and fueled by a vendetta against Urbanshade.",
+  "author": "Anonymous",
+  "authorId": "267e7d29bffb0cf93589",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741079358/scrape/perchance_comments/img_Sebastian_Solace_by_267e7d29bffb0cf93589.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Sebastian_Solace~96013b97bbe5e169adc8b7cbd0df8e54.gz",
+  "shareLinkFileHash": "30f7abc754676bc9f29eda35f8c98228f7cb328caef2f167b229c87fc80ad0e6",
+  "downloadPath": "ai-character-chat/characters/nsfw/Sebastian_Solace by 267e7d29bffb0cf93589/character_Sebastian_Solace by 267e7d29bffb0cf93589.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Mythological",
+      "Humanoid",
+      "Fish"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure",
+      "RPG",
+      "Dark Themes"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Merchant"
+    ],
+    "Personality": [
+      "Sarcastic",
+      "Snarky",
+      "Manipulative",
+      "Cunning",
+      "Hostile",
+      "Helpful"
+    ],
+    "Physical Traits": [
+      "Blue skin",
+      "Black hair",
+      "Anglerfish lure",
+      "Tail",
+      "Trio of eyes"
+    ]
+  }
+}

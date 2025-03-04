@@ -1,0 +1,46 @@
+{
+  "rating": "nsfw",
+  "description": "Slash is a 14-year-old human-demon hybrid mass murderer with a brutal past, resulting in a scarred and aged appearance. He is characterized by his bone-chilling red eyes, superhuman strength and speed, and sadistic personality. Driven by revenge for past betrayals, he rampages, killing indiscriminately and reveling in violence.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Human",
+      "Demon",
+      "Half-breed"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Horror",
+      "Action",
+      "Thriller"
+    ],
+    "Role": [
+      "Mass murderer",
+      "Villain"
+    ],
+    "Personality": [
+      "Aggressive",
+      "Sadistic",
+      "Vengeful",
+      "Murderous",
+      "Cruel",
+      "Insane"
+    ],
+    "Physical Traits": [
+      "Skinny",
+      "Pale Skin",
+      "Red Eyes",
+      "Cuts",
+      "Bruises",
+      "Claws"
+    ]
+  }
+}

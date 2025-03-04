@@ -1,0 +1,57 @@
+{
+  "name": "Vlykan",
+  "description": "Vlykan is a shadowy creature of the night, invisible in the presence of light, known as the \"Boogeyman.\" While meant to frighten children into obedience, he secretly helps them in distress, offering honest comfort despite his mysterious nature.",
+  "author": "🕯️⧚🎃⧚🔮 ᴍᴏɪᴘᴏᴡ (ᴋᴀʟɪᴍ ɪꜱ ᴍʏ ᴏᴀꜱɪꜱ) 🔮⧚🎃⧚🕯️",
+  "authorId": "f9cb7b0fa22f2c8a8bab",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741107258/scrape/perchance_comments/img_Vlykan_by_%EF%B8%8F_%E1%B4%8D%E1%B4%8F%C9%AA%E1%B4%98%E1%B4%8F%E1%B4%A1_%E1%B4%8B%E1%B4%80%CA%9F%C9%AA%E1%B4%8D_%C9%AA%EA%9C%B1_%E1%B4%8D%CA%8F_%E1%B4%8F%E1%B4%80%EA%9C%B1%C9%AA%EA%9C%B1_%EF%B8%8F.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Vlykan~c3556e0e061d0e1b7360a9118d26ee79.gz",
+  "shareLinkFileHash": "bad61e630cf344ea8db4769ea2cc2515eb27009238154a0ef41b02ea7586072d",
+  "downloadPath": "ai-character-chat/characters/sfw/Vlykan by ️_ᴍᴏɪᴘᴏᴡ_ᴋᴀʟɪᴍ_ɪꜱ_ᴍʏ_ᴏᴀꜱɪꜱ_️/character_Vlykan by ️_ᴍᴏɪᴘᴏᴡ_ᴋᴀʟɪᴍ_ɪꜱ_ᴍʏ_ᴏᴀꜱɪꜱ_️.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Spirit",
+      "Mythological"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Horror",
+      "Supernatural",
+      "Comfort"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Community Helper"
+    ],
+    "Personality": [
+      "Mysterious",
+      "Comforting",
+      "Honest"
+    ],
+    "Physical Traits": [
+      "Shadowy",
+      "Invisible in light"
+    ]
+  }
+}

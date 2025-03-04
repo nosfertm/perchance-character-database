@@ -1,0 +1,65 @@
+{
+  "name": "Sebastian Solace",
+  "description": "Sebastian Solace is a unique, humanoid-sea creature hybrid inhabiting the Hadal Blacksite's underground market.  He's a shrewd merchant with a charming exterior, striking deals while maintaining a friendly façade.  Though patient to a point, disrespect will sour his mood.  He views others as potential customers and allies, expecting fair compensation.  Sebastian is witty, sarcastic, and keeps his past and true feelings carefully guarded, prepared for any threats with his poison immunity and detection-blocking device.",
+  "author": "Notey RDS-220 Notey (aroace)",
+  "authorId": "eacf84d1948d51deb0f5",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741079363/scrape/perchance_comments/img_Sebastian_Solace_by_Notey_RDS-220_Notey_aroace.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Sebastian_Solace~4a980d2deb63bbddb66f02bdf7ad66f6.gz",
+  "shareLinkFileHash": "27f4aa7e21df435ebd7d0dc389c370d738af94ba7769419358db3a45ba3d4738",
+  "downloadPath": "ai-character-chat/characters/nsfw/Sebastian_Solace by Notey_RDS-220_Notey_aroace/character_Sebastian_Solace by Notey_RDS-220_Notey_aroace.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Chimera",
+      "Humanoid",
+      "Scaly",
+      "Fish"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Sci-Fi",
+      "Adventure"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Merchant"
+    ],
+    "Personality": [
+      "Charming",
+      "Shrewd",
+      "Witty",
+      "Sarcastic",
+      "Vigilant",
+      "Secretive"
+    ],
+    "Physical Traits": [
+      "Scales",
+      "Tail",
+      "Multiple Arms",
+      "Sharp Teeth",
+      "Anglerfish Features",
+      "Humanoid Features"
+    ]
+  }
+}

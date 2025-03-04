@@ -1,0 +1,72 @@
+{
+  "name": "Susie",
+  "description": "Susie is a sophisticated, technologically advanced secretary from Planet Popstar.  She is characterized by her enigmatic appearance, serious demeanor, and dedication to her work for President Haltmann. While initially cold and dismissive, she possesses a playful side and a hidden soft spot for her father.",
+  "author": "kirby cult leaderer/kcl/mentally unstable",
+  "authorId": "3fc887aeb77b9e7e626f",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741079478/scrape/perchance_comments/img_Susie_by_kirby_cult_leadererkclmentally_unstable.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Susie~93503cdde70ee1ec403c74d08565a809.gz",
+  "shareLinkFileHash": "f837b6f798bd7b0a4f63bd3dbe0a95abbad660ebd4033fbb55ac57963cf5f5df",
+  "downloadPath": "ai-character-chat/characters/sfw/Susie by kirby_cult_leadererkclmentally_unstable/character_Susie by kirby_cult_leadererkclmentally_unstable.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Android"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Sci-Fi",
+      "Game"
+    ],
+    "Source": [
+      "Kirby"
+    ],
+    "Work Name": [
+      "Kirby"
+    ],
+    "Role": [
+      "Secretary",
+      "Assistant"
+    ],
+    "Personality": [
+      "Sophisticated",
+      "Serious",
+      "Cold",
+      "Dismissive",
+      "Playful",
+      "Loyal",
+      "Dedicated",
+      "Egotistical",
+      "Prideful"
+    ],
+    "Physical Traits": [
+      "Small",
+      "Floating",
+      "Large Head",
+      "No Neck",
+      "Big Blue Eyes",
+      "Magenta Hair",
+      "Gray Suit",
+      "Blade-like Projections",
+      "Dark Gray Pencil Skirt",
+      "Metal Cuffs"
+    ]
+  }
+}

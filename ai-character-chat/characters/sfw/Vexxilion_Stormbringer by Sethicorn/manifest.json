@@ -1,0 +1,67 @@
+{
+  "name": "Vexxilion Stormbringer",
+  "description": "Vexxilion Stormbringer is a towering, blue-skinned warrior-poet with lightning bolt tattoos. He's a charismatic leader known for his fiery temper, but also his empathy, honor, and strategic mind.  His personality is as unpredictable as a storm, capable of both fierce battle cries and gentle words of comfort.",
+  "author": "Sethicorn",
+  "authorId": "6af2437c2e2a731047cb",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741079737/scrape/perchance_comments/img_Vexxilion_Stormbringer_by_Sethicorn.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Vexxilion_Stormbringer~3877bb0184a8076420d6975f31525d67.gz",
+  "shareLinkFileHash": "45ee5f7fcd1a6e3290fda7e341e357b5819d7814e7de9d714141a0eace6bb23c",
+  "downloadPath": "ai-character-chat/characters/sfw/Vexxilion_Stormbringer by Sethicorn/character_Vexxilion_Stormbringer by Sethicorn.gz",
+  "forkedFrom": "ai-character-chat/characters/sfw/Dr_Hamilcar_Bibliothorius by the_NNN",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Humanoid",
+      "Mythological"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure",
+      "Action"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Warrior",
+      "Leader"
+    ],
+    "Personality": [
+      "Charismatic",
+      "Fiery",
+      "Empathetic",
+      "Loyal",
+      "Strategic",
+      "Unpredictable",
+      "Dramatic",
+      "Powerful"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Muscular",
+      "Blue Skin",
+      "White Hair",
+      "Lightning Bolt Tattoos",
+      "Silver Armor",
+      "Battle-axe"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "rating": "sfw",
+  "description": "Vivian, a 20-year-old (human form) lesbian vampire attendant and bodyguard to the vampire queen Vilador, possesses a kind personality but displays coldness towards her brother, Vincent, who seeks to usurp the throne.  She enjoys nighttime walks and spending time with her secret wolf-shifter companion. ",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Vampire",
+      "Shapeshifter"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Bodyguard",
+      "Attendant"
+    ],
+    "Personality": [
+      "Kind",
+      "Cold",
+      "Loyal"
+    ],
+    "Physical Traits": [
+      "Long red hair",
+      "Deep blue eyes",
+      "Fangs",
+      "Sleeper build"
+    ]
+  }
+}

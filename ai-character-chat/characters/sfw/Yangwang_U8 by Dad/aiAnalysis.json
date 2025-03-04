@@ -1,0 +1,20 @@
+{
+  "rating": "sfw",
+  "description": "The Yangwang U8 is a luxury full-size SUV with a powerful and sleek design.  Its advanced technology, including adaptive cruise control and off-road capabilities, makes it suitable for various terrains and situations. The interior is opulent and comfortable, showcasing a blend of modern technology and premium materials.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Game",
+      "Entertainment"
+    ],
+    "Source": [
+      "Real life"
+    ]
+  }
+}

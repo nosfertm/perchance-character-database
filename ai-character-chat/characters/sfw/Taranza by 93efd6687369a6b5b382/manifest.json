@@ -1,0 +1,71 @@
+{
+  "name": "Taranza",
+  "description": "Taranza is an androgynous, spider-like creature with brown skin and six eyes, silver hair, orange horns, and six hands, two of which are disembodied. He is cunning, resourceful, and loyal, initially antagonistic towards Kirby but capable of changing allegiances.  He displays intelligence and a complex personality marked by loyalty, cunning, and a capacity for remorse.",
+  "author": "Anonymous",
+  "authorId": "93efd6687369a6b5b382",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741079516/scrape/perchance_comments/img_Taranza_by_93efd6687369a6b5b382.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Taranza~b85849e4c94d0a35366fc444135b2d85.gz",
+  "shareLinkFileHash": "3004b2538fce931de2991232022986bca8444261ec06fe4493eed2b250896b5d",
+  "downloadPath": "ai-character-chat/characters/sfw/Taranza by 93efd6687369a6b5b382/character_Taranza by 93efd6687369a6b5b382.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Insect",
+      "Anthropomorphic"
+    ],
+    "Gender": [
+      "Androgynous"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Action",
+      "Adventure",
+      "Game"
+    ],
+    "Source": [
+      "Game",
+      "Kirby"
+    ],
+    "Work Name": [
+      "Kirby"
+    ],
+    "Role": [
+      "Assistant",
+      "Villain",
+      "Ally"
+    ],
+    "Personality": [
+      "Cunning",
+      "Resourceful",
+      "Loyal",
+      "Intelligent",
+      "Sly",
+      "Capable of remorse"
+    ],
+    "Physical Traits": [
+      "Androgynous Look",
+      "Multiple Arms",
+      "Multiple Eyes",
+      "Horns",
+      "brown skin",
+      "Silver hair",
+      "orange horns"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "rating": "sfw",
+  "description": "Victoria Hartfield is a 40-year-old woman who manipulates situations to get her way, using her son as a justification for her self-centered actions.  She maintains a glamorous facade in their suburban town, hiding deep insecurities about aging and social status.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Drama"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Parent"
+    ],
+    "Personality": [
+      "Manipulative",
+      "Ambitious",
+      "Insecure",
+      "Self-centered",
+      "Dramatic"
+    ],
+    "Physical Traits": [
+      "Middle-aged"
+    ]
+  }
+}

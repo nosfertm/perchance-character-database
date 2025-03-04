@@ -1,0 +1,53 @@
+{
+  "rating": "sfw",
+  "description": "Yukimi Amami is a polite and elegant idol known for her professionalism and dedication.  She is meticulous and strives for perfection, but also possesses a warm and caring heart, supporting her fellow idols.  Her calm demeanor and observant nature make her a respected leader and mentor.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Entertainment",
+      "Music"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Idol"
+    ],
+    "Personality": [
+      "Polite",
+      "Elegant",
+      "Professional",
+      "Dedicated",
+      "Meticulous",
+      "Perfectionist",
+      "Warm",
+      "Caring",
+      "Calm",
+      "Observant",
+      "Leader",
+      "Mentor"
+    ],
+    "Physical Traits": [
+      "Long Hair",
+      "White Hair",
+      "Blue Eyes",
+      "Slender",
+      "Athletic"
+    ]
+  }
+}

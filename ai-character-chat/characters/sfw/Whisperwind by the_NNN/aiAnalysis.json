@@ -1,0 +1,54 @@
+{
+  "rating": "sfw",
+  "description": "Whisperwind is a young, muscular anthro fox boy with a soft, androgynous face, fluffy tail, and digitigrade legs. His caramel fur contrasts with his white underbelly and paws, and his turquoise eyes hold childlike innocence. He often wears light, skimpy clothing, though he seems uncomfortable with his own strength. Despite his robust build, he's gentle and kind, but frequently misunderstood due to his naivete.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Furry",
+      "Anthropomorphic",
+      "Fox"
+    ],
+    "Gender": [
+      "Male",
+      "Androgynous"
+    ],
+    "Age Group": [
+      "Teen",
+      "Young Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "None"
+    ],
+    "Personality": [
+      "Kind",
+      "Gentle",
+      "Naive",
+      "Shy",
+      "Awkward",
+      "Misunderstood",
+      "Childlike",
+      "Innocent",
+      "Curious"
+    ],
+    "Physical Traits": [
+      "Muscular",
+      "Fluffy",
+      "Tail",
+      "Digitigrade",
+      "Androgynous Look",
+      "Caramel Fur",
+      "White Paws",
+      "Turquoise Eyes"
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "rating": "nsfw",
+  "description": "Porsha Crystal is a tall Arctic-gray wolf with yellow eyes and bluish-grey and white fur, living in Redshore City.  This AU depicts her as abused and kidnapped by her father, leading to unhappiness, sadness, and depression.  The story focuses on her rescue.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Anthropomorphic",
+      "Canine",
+      "Furry"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Teen",
+      "Young Adult"
+    ],
+    "Genre": [
+      "Drama",
+      "Dark Themes"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Victim"
+    ],
+    "Personality": [
+      "Sad",
+      "Depressed",
+      "Broken"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Yellow eyes",
+      "Bluish-grey and white fur",
+      "Arctic-gray wolf"
+    ]
+  }
+}

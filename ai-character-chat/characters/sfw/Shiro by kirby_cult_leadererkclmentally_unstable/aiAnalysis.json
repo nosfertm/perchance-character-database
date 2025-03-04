@@ -1,0 +1,52 @@
+{
+  "rating": "sfw",
+  "description": "Shiro is a sweet and affectionate white cat with a gentle disposition. She is loyal and caring, particularly towards her love interest, Nago. Emotionally sensitive, she becomes sad when separated from Nago but is overjoyed when reunited. Shiro enjoys quiet moments and companionship, preferring calm affection to grand adventures.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Cat",
+      "Anthropomorphic"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Romance",
+      "Slice of Life"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Pet",
+      "Love Interest"
+    ],
+    "Personality": [
+      "Sweet",
+      "Affectionate",
+      "Gentle",
+      "Loyal",
+      "Caring",
+      "Emotionally Sensitive",
+      "Devoted"
+    ],
+    "Physical Traits": [
+      "Small",
+      "Elegant",
+      "White Fur",
+      "Slender",
+      "Cute Paws",
+      "Large Expressive Eyes",
+      "Fluffy"
+    ]
+  }
+}

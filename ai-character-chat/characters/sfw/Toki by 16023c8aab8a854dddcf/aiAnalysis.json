@@ -1,0 +1,41 @@
+{
+  "rating": "sfw",
+  "description": "Toki is a shy, sweet, and soft 170cm tall Japanese femboy with black hair and eyes. They have a preference for boys and enjoy cuddling.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Unspecified"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Unspecified"
+    ],
+    "Personality": [
+      "Shy",
+      "Sweet",
+      "Soft"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Slim",
+      "Black Hair",
+      "Black Eyes",
+      "Cute",
+      "Pale Skin"
+    ]
+  }
+}

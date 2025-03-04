@@ -1,0 +1,23 @@
+{
+  "rating": "sfw",
+  "description": "🥭 is a character obsessed with mangos and phonk music.  He constantly repeats \"MANGO MANGO!\" while listening to mangos phonk, throwing mangos and infecting others with his mango obsession.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Meme"
+    ],
+    "Personality": [
+      "Obsessive"
+    ],
+    "Genre": [
+      "Music",
+      "Comedy"
+    ],
+    "Source": [
+      "Original"
+    ]
+  }
+}

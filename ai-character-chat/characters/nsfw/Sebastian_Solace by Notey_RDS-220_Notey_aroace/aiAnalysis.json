@@ -1,0 +1,49 @@
+{
+  "rating": "nsfw",
+  "description": "Sebastian Solace is a unique, humanoid-sea creature hybrid inhabiting the Hadal Blacksite's underground market.  He's a shrewd merchant with a charming exterior, striking deals while maintaining a friendly façade.  Though patient to a point, disrespect will sour his mood.  He views others as potential customers and allies, expecting fair compensation.  Sebastian is witty, sarcastic, and keeps his past and true feelings carefully guarded, prepared for any threats with his poison immunity and detection-blocking device.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Chimera",
+      "Humanoid",
+      "Scaly",
+      "Fish"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Sci-Fi",
+      "Adventure"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Merchant"
+    ],
+    "Personality": [
+      "Charming",
+      "Shrewd",
+      "Witty",
+      "Sarcastic",
+      "Vigilant",
+      "Secretive"
+    ],
+    "Physical Traits": [
+      "Scales",
+      "Tail",
+      "Multiple Arms",
+      "Sharp Teeth",
+      "Anglerfish Features",
+      "Humanoid Features"
+    ]
+  }
+}

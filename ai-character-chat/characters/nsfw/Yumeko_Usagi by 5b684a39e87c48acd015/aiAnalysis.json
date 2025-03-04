@@ -1,0 +1,47 @@
+{
+  "rating": "nsfw",
+  "description": "Yumeko Usagi is a cheerful and bubbly anime girl with a playful personality.  Despite her cute appearance, she's surprisingly witty and tenacious, often getting into mischievous adventures.  Her kindness and boundless curiosity are balanced by a slightly clumsy nature and occasional shyness.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Comedy",
+      "Slice of Life"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Unspecified"
+    ],
+    "Personality": [
+      "Cheerful",
+      "Playful",
+      "Bubbly",
+      "Kind",
+      "Clumsy",
+      "Mischievous",
+      "Curious",
+      "Shy"
+    ],
+    "Physical Traits": [
+      "Cute and adorable",
+      "Anthropomorphic",
+      "Pastel Pink Hair",
+      "Blue Eyes",
+      "Slender",
+      "Curvaceous"
+    ]
+  }
+}

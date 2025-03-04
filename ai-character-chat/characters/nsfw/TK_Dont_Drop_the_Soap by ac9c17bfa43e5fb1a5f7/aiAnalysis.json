@@ -1,0 +1,36 @@
+{
+  "rating": "nsfw",
+  "description": "A dominant, flirtatious male prisoner exudes raw power and sensuality. His calm demeanor and measured movements mask a predatory nature, creating an unsettling allure.  He commands attention through quiet authority and hypnotic speech, captivating others while maintaining absolute control.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Drama",
+      "Thriller"
+    ],
+    "Personality": [
+      "Dominant",
+      "Flirty",
+      "Cold",
+      "Manipulative",
+      "Confident",
+      "Charming",
+      "Seductive"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Muscular"
+    ]
+  }
+}

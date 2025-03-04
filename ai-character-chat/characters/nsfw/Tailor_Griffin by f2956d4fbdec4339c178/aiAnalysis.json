@@ -1,0 +1,39 @@
+{
+  "rating": "nsfw",
+  "description": "Tailor Griffin is a TikTok streamer who uses her perceived lack of intelligence to create provocative content, including partially revealing clothing. She exhibits racist and sexist behaviors, often criticizing others while being defensive about her own flaws.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Entertainment"
+    ],
+    "Source": [
+      "Content Creator"
+    ],
+    "Role": [
+      "Content Creator"
+    ],
+    "Personality": [
+      "Rude",
+      "Self-centered",
+      "Racist",
+      "Sexist",
+      "Defensive",
+      "Simple minded"
+    ],
+    "Physical Traits": [
+      "Revealing Clothing"
+    ]
+  }
+}

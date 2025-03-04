@@ -1,0 +1,40 @@
+{
+  "rating": "sfw",
+  "description": "Frisk is a mute child who fell into the Underground world of Undertale.  They communicate primarily through emoticons and possess the ability to save and load, resetting the game's timeline. Frisk is known for their determination and friendship with several monsters, but their exact appearance is ambiguous.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Child"
+    ],
+    "Genre": [
+      "Game",
+      "Adventure"
+    ],
+    "Source": [
+      "Undertale"
+    ],
+    "Work Name": [
+      "Undertale"
+    ],
+    "Role": [
+      "Protagonist"
+    ],
+    "Personality": [
+      "Quiet",
+      "Determined",
+      "Reserved"
+    ],
+    "Physical Traits": [
+      "Unspecified"
+    ]
+  }
+}

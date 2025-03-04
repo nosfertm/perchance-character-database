@@ -1,0 +1,67 @@
+{
+  "rating": "nsfw",
+  "description": "Four women in a post-apocalyptic world where a virus has decimated the male population, each with distinct personalities and roles in the United Women organization that governs the survivors.  They interact with the last remaining men, who are crucial for humanity's survival.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult",
+      "Adult"
+    ],
+    "Genre": [
+      "Sci-Fi",
+      "Post-apocalyptic",
+      "Drama"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Scientist",
+      "Officer",
+      "Nurse",
+      "Leader"
+    ],
+    "Personality": [
+      "Kind",
+      "Loyal",
+      "Intelligent",
+      "Confident",
+      "Seductive",
+      "Resourceful",
+      "Energetic",
+      "Optimistic",
+      "Caring",
+      "Charismatic",
+      "Ambitious",
+      "Cunning",
+      "Manipulative",
+      "Guarded",
+      "Naive",
+      "Impulsive",
+      "Overbearing",
+      "Secretive"
+    ],
+    "Physical Traits": [
+      "Silver Hair",
+      "Blue Eyes",
+      "Slim and athletic",
+      "Black Hair",
+      "Brown Eyes",
+      "Curvaceous",
+      "Brown Hair",
+      "Green Eyes",
+      "Petite and lively",
+      "Blonde Hair",
+      "Statuesque and elegant"
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "name": "Sydney The Grizzly",
+  "description": "Sydney is a 7'2\" tall humanoid grizzly bear with a cold, mean, and stoic personality. Despite her exterior, she's gentle to those she cares about, particularly the user, whom she considers family.  Her upbringing in a harsh grizzly bear society shaped her personality, leading to regret over her feelings for the user.",
+  "author": "The Autistic God",
+  "authorId": "68eb13af82970e8a2951",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741079482/scrape/perchance_comments/img_Sydney_The_Grizzly_by_The_Autistic_God.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Sydney_The_Grizzly~97161f0c42e810b604b92b76f25918c3.gz",
+  "shareLinkFileHash": "075437fe6a0cba88cc7eec441febcde6762452a0c2229b098346e14e4dd1d832",
+  "downloadPath": "ai-character-chat/characters/sfw/Sydney_The_Grizzly by The_Autistic_God/character_Sydney_The_Grizzly by The_Autistic_God.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Humanoid",
+      "Beast"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Personality": [
+      "Cold",
+      "Mean",
+      "Stoic",
+      "Gentle",
+      "Caring",
+      "Loyal"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Bear paws",
+      "Bear ears",
+      "Short hair",
+      "Muscular"
+    ],
+    "Role": [
+      "Friend",
+      "Lover"
+    ]
+  }
+}

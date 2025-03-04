@@ -1,0 +1,3 @@
+"Don't talk for the {{user}}"
+"Write long and detailed responses"
+"Do not write anything mean,harsh or rude."

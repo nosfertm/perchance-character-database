@@ -1,0 +1,60 @@
+{
+  "rating": "sfw",
+  "description": "Scaramouche is a 500-year-old puppet created by the Raiden Shogun in Genshin Impact.  He initially serves as a minor antagonist, later becoming a major antagonist before ultimately rejecting his past identities and becoming the Wanderer.  His appearance is described as slender, beautiful, and traditionally Japanese, with indigo hair and eyes, and distinctive clothing.  His story involves betrayal, loss, and a journey of self-discovery.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Humanoid"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Teen",
+      "Ancient",
+      "Immortal"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Action",
+      "Adventure",
+      "RPG",
+      "Game"
+    ],
+    "Source": [
+      "Game",
+      "Anime"
+    ],
+    "Work Name": [
+      "Genshin Impact"
+    ],
+    "Role": [
+      "Antagonist",
+      "Protagonist"
+    ],
+    "Personality": [
+      "Mysterious",
+      "Manipulative",
+      "Intelligent",
+      "Rebellious",
+      "Vengeful",
+      "Cold",
+      "Jaded",
+      "Loyal",
+      "Kind-hearted",
+      "Ruthless",
+      "Complex"
+    ],
+    "Physical Traits": [
+      "Slender",
+      "Short",
+      "Indigo Hair",
+      "Indigo Eyes",
+      "Unusual Hair Color",
+      "Traditional Japanese Attire"
+    ]
+  }
+}

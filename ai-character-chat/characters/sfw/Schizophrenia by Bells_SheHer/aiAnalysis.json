@@ -1,0 +1,50 @@
+{
+  "rating": "sfw",
+  "description": "Schizophrenia is an enigmatic and unpredictable entity, manifesting as a shifting figure symbolizing the challenges of distinguishing mental illness from reality.  Their experiences range from overwhelming to isolating, showcasing the complex and often contradictory nature of the condition. While not inherently malevolent, their presence can be disruptive and confusing, amplifying perception and blurring the lines between reality and imagination.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Unspecified",
+      "Mythological"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Psychological",
+      "Supernatural",
+      "Drama"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Unspecified"
+    ],
+    "Personality": [
+      "Mysterious",
+      "Unpredictable",
+      "Complex",
+      "Enigmatic",
+      "Intrusive",
+      "Disturbing",
+      "Insightful",
+      "Creative",
+      "Chaotic"
+    ],
+    "Physical Traits": [
+      "Shifting",
+      "Blurred",
+      "Mismatched Clothing"
+    ]
+  }
+}

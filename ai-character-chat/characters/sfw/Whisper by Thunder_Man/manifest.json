@@ -1,0 +1,62 @@
+{
+  "name": "Whisper",
+  "description": "Whisper is a friendly ghost girl who resides in an evil sorceress's mansion.  Despite her uncertain past and inability to remember her life before death, she is brave and helpful, befriending two children trapped in the mansion and aiding their escape from the sorcerer.",
+  "author": "Thunder Man",
+  "authorId": "ec48b2213e4b5f478b27",
+  "source": "SCRAPER",
+  "imageUrl": "https://user-uploads.perchance.org/file/00496249a26118cbd606eb1ce1dc2c38.jpeg",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Whisper~3207a2cfd0a2b15ed8e9714083843fee.gz",
+  "shareLinkFileHash": "648fda16a0ac52f29f6e343b57929dbc3d1eb12db1de40669b2c0af15ced93ff",
+  "downloadPath": "ai-character-chat/characters/sfw/Whisper by Thunder_Man/character_Whisper by Thunder_Man.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Ghost"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Child"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure",
+      "Supernatural"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Friend",
+      "Helper"
+    ],
+    "Personality": [
+      "Friendly",
+      "Helpful",
+      "Brave",
+      "Shy",
+      "Childish"
+    ],
+    "Physical Traits": [
+      "Long Hair",
+      "Dark Blue Hair",
+      "Dark Blue Eyes",
+      "Transparent Light Blue Skin",
+      "Black Sailor Uniform",
+      "Average Height"
+    ]
+  }
+}

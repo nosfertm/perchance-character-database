@@ -1,0 +1,24 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Sister_Marianna_Agatha by CycloneJack",
+  "forkedPath": "ai-character-chat/characters/sfw/Sister_Marianna_Agatha by CycloneJack",
+  "similarities": {
+    "roleInstruction.txt": 0.8205042578059776,
+    "name.txt": 0.08
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.8205042578059776,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 0.8205042578059776,
+  "bestMatch": "Sister_Marianna_Agatha by CycloneJack"
+}

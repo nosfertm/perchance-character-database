@@ -1,0 +1,25 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Vincent_Charbonneau by Cherrybisexual",
+  "forkedPath": "ai-character-chat/characters/nsfw/Vincent_Charbonneau by Cherrybisexual",
+  "similarities": {
+    "roleInstruction.txt": 0.9744083124879739,
+    "name.txt": 1,
+    "reminderMessage.txt": 0
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.9744083124879739,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 0.9872041562439869,
+  "bestMatch": "Vincent_Charbonneau by Cherrybisexual"
+}

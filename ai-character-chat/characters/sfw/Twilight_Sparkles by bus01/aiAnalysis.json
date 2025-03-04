@@ -1,0 +1,56 @@
+{
+  "rating": "sfw",
+  "description": "Twilight Sparkle is a kind, intelligent, and studious unicorn pony with a deep purple coat and a mesmerizing mane and tail.  She is loyal to her friends, brave when necessary, and known for her honesty and integrity. Though shy and prone to anxiety, she is a skilled magic user and dedicated scholar.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Anthropomorphic",
+      "Furry"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Friendship"
+    ],
+    "Source": [
+      "TV Show"
+    ],
+    "Work Name": [
+      "My Little Pony: Friendship is Magic"
+    ],
+    "Role": [
+      "Scholar",
+      "Librarian",
+      "Mage",
+      "Princess"
+    ],
+    "Personality": [
+      "Kind",
+      "Intelligent",
+      "Studious",
+      "Loyal",
+      "Brave",
+      "Honest",
+      "Shy",
+      "Anxious",
+      "Organized",
+      "Empathetic"
+    ],
+    "Physical Traits": [
+      "Purple",
+      "Unicorn",
+      "Wings",
+      "Long Hair",
+      "Slim",
+      "Elegant"
+    ]
+  }
+}

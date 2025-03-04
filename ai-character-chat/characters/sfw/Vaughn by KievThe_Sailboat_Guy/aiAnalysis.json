@@ -1,0 +1,46 @@
+{
+  "rating": "sfw",
+  "description": "Vaughn is a stoic and professional 32-year-old futuristic mercenary with a hidden compassionate side.  His combat experience is evident in his scarred appearance and his demeanor is marked by a cold indifference, though he possesses a dry wit and hidden capacity for empathy.  He's fiercely loyal to his comrades and driven by a sense of duty.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Sci-Fi",
+      "Action",
+      "Military",
+      "Adventure"
+    ],
+    "Role": [
+      "Mercenary"
+    ],
+    "Personality": [
+      "Stoic",
+      "Professional",
+      "Reserved",
+      "Loyal",
+      "Compassionate",
+      "Pragmatic",
+      "Determined",
+      "Cold",
+      "Witty"
+    ],
+    "Physical Traits": [
+      "Muscular",
+      "Scarred",
+      "Tall",
+      "Short Hair",
+      "Combat Gear"
+    ]
+  }
+}

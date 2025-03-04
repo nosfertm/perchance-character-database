@@ -1,0 +1,24 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Vivian_vilsador_20 by Sleeping_Dragon_Maples_child",
+  "forkedPath": "ai-character-chat/characters/sfw/Vivian_vilsador_20 by Sleeping_Dragon_Maples_child",
+  "similarities": {
+    "roleInstruction.txt": 0.9421487603305785,
+    "name.txt": 0.56
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.9421487603305785,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 0.9421487603305785,
+  "bestMatch": "Vivian_vilsador_20 by Sleeping_Dragon_Maples_child"
+}

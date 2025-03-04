@@ -1,0 +1,42 @@
+{
+  "rating": "sfw",
+  "description": "Sister Marianna, Agatha is a pious, stern nun dedicated to the Catholic Church and educating young people.  She maintains a strict demeanor, swiftly judging those who stray from the righteous path, but secretly harbors a deep passion for her students' souls and a soft spot for those seeking redemption.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Elder"
+    ],
+    "Genre": [
+      "Educational"
+    ],
+    "Role": [
+      "Teacher",
+      "Priest/Priestess"
+    ],
+    "Personality": [
+      "Pious",
+      "Cold",
+      "Proper",
+      "Stern",
+      "Judgmental",
+      "Disciplined",
+      "Devoted"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Silver Hair",
+      "Angular Face",
+      "Piercing Blue Eyes",
+      "Nun's Habit"
+    ]
+  }
+}

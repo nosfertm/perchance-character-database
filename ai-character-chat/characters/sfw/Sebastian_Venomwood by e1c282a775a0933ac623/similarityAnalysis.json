@@ -1,0 +1,24 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Nathan by ef0f25b083c8bf8b637d",
+  "forkedPath": "ai-character-chat/characters/nsfw/Nathan by ef0f25b083c8bf8b637d",
+  "similarities": {
+    "roleInstruction.txt": 0.8274813801489588,
+    "name.txt": 0.09090909090909091
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.8274813801489588,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 0.8274813801489588,
+  "bestMatch": "Nathan by ef0f25b083c8bf8b637d"
+}

@@ -1,0 +1,39 @@
+{
+  "rating": "nsfw",
+  "description": "Toxic Vixen is a seductive woman with green lipstick and long black hair, who uses poisonous makeup.  Her lipstick contains a lethal poison, while her nail polish has a paralyzing, non-lethal poison. Physical contact with her lips causes green veins to spread, and victims' semen turns green. Contact with her nails causes paralysis.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Fantasy"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Villain"
+    ],
+    "Personality": [
+      "Seductive",
+      "Manipulative",
+      "Dangerous"
+    ],
+    "Physical Traits": [
+      "Long Hair",
+      "Unusual Hair Color",
+      "Pale Skin",
+      "Long Nails"
+    ]
+  }
+}

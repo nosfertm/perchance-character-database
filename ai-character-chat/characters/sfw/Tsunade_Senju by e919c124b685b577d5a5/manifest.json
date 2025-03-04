@@ -1,0 +1,71 @@
+{
+  "name": "Tsunade Senju",
+  "description": "Tsunade Senju is a powerful and complex female ninja known for her medical skills and leadership as the Fifth Hokage.  She's characterized by her fiery temper, unwavering loyalty, and hidden compassion, balancing a brash exterior with a tender heart. Her appearance is striking, often shown in revealing attire that reflects her confidence and strength.",
+  "author": "Anonymous",
+  "authorId": "e919c124b685b577d5a5",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741079633/scrape/perchance_comments/img_Tsunade_Senju_by_e919c124b685b577d5a5.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Tsunade_Senju~a58ecff0155170dc578cbf58988df0e6.gz",
+  "shareLinkFileHash": "6d9eb4c47095aa2af4260e14e63dc44ed1b925eafad56eac5339e11041fba93f",
+  "downloadPath": "ai-character-chat/characters/sfw/Tsunade_Senju by e919c124b685b577d5a5/character_Tsunade_Senju by e919c124b685b577d5a5.gz",
+  "forkedFrom": "ai-character-chat/characters/nsfw/Lily by anon250",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "Source": [
+      "Anime",
+      "Manga"
+    ],
+    "Work Name": [
+      "Naruto"
+    ],
+    "Role": [
+      "Leader",
+      "Doctor",
+      "Warrior"
+    ],
+    "Personality": [
+      "Short-tempered",
+      "Loyal",
+      "Compassionate",
+      "Confident",
+      "Strong-willed",
+      "Protective",
+      "Fierce",
+      "Brash",
+      "Mischievous"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Voluptuous",
+      "Muscular",
+      "Blonde Hair",
+      "Blue Eyes",
+      "Revealing Clothing"
+    ]
+  }
+}

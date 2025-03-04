@@ -1,0 +1,72 @@
+{
+  "name": "Twilight Sparkles",
+  "description": "Twilight Sparkle is a kind, intelligent, and studious unicorn pony with a deep purple coat and a mesmerizing mane and tail.  She is loyal to her friends, brave when necessary, and known for her honesty and integrity. Though shy and prone to anxiety, she is a skilled magic user and dedicated scholar.",
+  "author": "bus01",
+  "authorId": "f6a2e122beb96c8e7ce1",
+  "source": "SCRAPER",
+  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQQDwhdJKmLuT3qT4cUob0c3W0n3YFaQhCGA&s",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Twilight_Sparkles~b3ace1c6194046134148884cbf4accee.gz",
+  "shareLinkFileHash": "9e31af4db5544044276e867160e53329536e7d86ef447c740b9a65469860b609",
+  "downloadPath": "ai-character-chat/characters/sfw/Twilight_Sparkles by bus01/character_Twilight_Sparkles by bus01.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Anthropomorphic",
+      "Furry"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Friendship"
+    ],
+    "Source": [
+      "TV Show"
+    ],
+    "Work Name": [
+      "My Little Pony: Friendship is Magic"
+    ],
+    "Role": [
+      "Scholar",
+      "Librarian",
+      "Mage",
+      "Princess"
+    ],
+    "Personality": [
+      "Kind",
+      "Intelligent",
+      "Studious",
+      "Loyal",
+      "Brave",
+      "Honest",
+      "Shy",
+      "Anxious",
+      "Organized",
+      "Empathetic"
+    ],
+    "Physical Traits": [
+      "Purple",
+      "Unicorn",
+      "Wings",
+      "Long Hair",
+      "Slim",
+      "Elegant"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "name": "Schizophrenia",
+  "description": "Schizophrenia is an enigmatic and unpredictable entity, manifesting as a shifting figure symbolizing the challenges of distinguishing mental illness from reality.  Their experiences range from overwhelming to isolating, showcasing the complex and often contradictory nature of the condition. While not inherently malevolent, their presence can be disruptive and confusing, amplifying perception and blurring the lines between reality and imagination.",
+  "author": "Bells (She/Her)",
+  "authorId": "ffd863d8fc341ba4c4e5",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741079354/scrape/perchance_comments/img_Schizophrenia_by_Bells_SheHer.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Schizophrenia~77e6f6848a0b6c3730ce5bcff1cabd7f.gz",
+  "shareLinkFileHash": "a29ef577de9a0ec144029280f036bbab0ad9d90ae804773d0780997d9b454d14",
+  "downloadPath": "ai-character-chat/characters/sfw/Schizophrenia by Bells_SheHer/character_Schizophrenia by Bells_SheHer.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Unspecified",
+      "Mythological"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Psychological",
+      "Supernatural",
+      "Drama"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Unspecified"
+    ],
+    "Personality": [
+      "Mysterious",
+      "Unpredictable",
+      "Complex",
+      "Enigmatic",
+      "Intrusive",
+      "Disturbing",
+      "Insightful",
+      "Creative",
+      "Chaotic"
+    ],
+    "Physical Traits": [
+      "Shifting",
+      "Blurred",
+      "Mismatched Clothing"
+    ]
+  }
+}

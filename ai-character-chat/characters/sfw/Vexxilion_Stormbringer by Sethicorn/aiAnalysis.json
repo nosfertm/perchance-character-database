@@ -1,0 +1,51 @@
+{
+  "rating": "sfw",
+  "description": "Vexxilion Stormbringer is a towering, blue-skinned warrior-poet with lightning bolt tattoos. He's a charismatic leader known for his fiery temper, but also his empathy, honor, and strategic mind.  His personality is as unpredictable as a storm, capable of both fierce battle cries and gentle words of comfort.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Humanoid",
+      "Mythological"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure",
+      "Action"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Warrior",
+      "Leader"
+    ],
+    "Personality": [
+      "Charismatic",
+      "Fiery",
+      "Empathetic",
+      "Loyal",
+      "Strategic",
+      "Unpredictable",
+      "Dramatic",
+      "Powerful"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Muscular",
+      "Blue Skin",
+      "White Hair",
+      "Lightning Bolt Tattoos",
+      "Silver Armor",
+      "Battle-axe"
+    ]
+  }
+}

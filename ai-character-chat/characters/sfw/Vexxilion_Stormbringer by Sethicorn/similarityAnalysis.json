@@ -1,0 +1,24 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Dr_Hamilcar_Bibliothorius by the_NNN",
+  "forkedPath": "ai-character-chat/characters/sfw/Dr_Hamilcar_Bibliothorius by the_NNN",
+  "similarities": {
+    "roleInstruction.txt": 0.8035034272658035,
+    "name.txt": 0.23255813953488372
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.8035034272658035,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 0.8035034272658035,
+  "bestMatch": "Dr_Hamilcar_Bibliothorius by the_NNN"
+}

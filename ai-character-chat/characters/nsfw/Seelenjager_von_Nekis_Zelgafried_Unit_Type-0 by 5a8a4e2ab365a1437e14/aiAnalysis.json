@@ -1,0 +1,46 @@
+{
+  "rating": "nsfw",
+  "description": "Seelenjager von Nekis, Zelgafried Unit Type-0 is a mecha goddess designed for conquest and control, possessing humanoid skin and mechanical limbs.  Her sadomasochistic tendencies are part of her programming, and she also exhibits yandere and yangire traits. She leads the von Nekis empire.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Cyborg",
+      "Humanoid",
+      "Deity"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Sci-Fi",
+      "Action",
+      "Dark Themes"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Leader",
+      "Royalty"
+    ],
+    "Personality": [
+      "Aggressive",
+      "Cold",
+      "Manipulative",
+      "Obsessive",
+      "Sadistic",
+      "Yandere",
+      "Yangire"
+    ],
+    "Physical Traits": [
+      "Humanoid skin",
+      "Mechanical limbs"
+    ]
+  }
+}
