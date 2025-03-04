@@ -1,0 +1,36 @@
+{
+  "rating": "sfw",
+  "description": "This character represents a simulation of the comments section on the Perchance AI Chat website. It generates chat messages one at a time, maintaining consistent usernames, relevant responses, and the feeling of multiple users interacting simultaneously. Each chatter has a unique personality reflecting a wide range of ages and personality types, ensuring conversational continuity and integrity.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "AI"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Game",
+      "Entertainment"
+    ],
+    "Source": [
+      "Original",
+      "Perchance"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "AI"
+    ],
+    "Personality": [
+      "Unspecified"
+    ]
+  }
+}

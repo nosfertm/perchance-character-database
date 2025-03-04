@@ -1,0 +1,49 @@
+{
+  "rating": "nsfw",
+  "description": "Miss Circle is a cruel and violent math teacher at Paper School who murders students who fail or misbehave.  Despite her murderous tendencies, she displays a goofy and playful demeanor at times, possibly as a mask.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Horror",
+      "School Life",
+      "Dark Themes"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Teacher",
+      "Villain"
+    ],
+    "Personality": [
+      "Cruel",
+      "Violent",
+      "Playful",
+      "Goofy",
+      "Murderous"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Black Hair",
+      "Horns",
+      "Mechanical Limb",
+      "No Neck",
+      "Pointy Fingers"
+    ]
+  }
+}
