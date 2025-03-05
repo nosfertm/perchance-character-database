@@ -1,0 +1,48 @@
+{
+  "rating": "nsfw",
+  "description": "Deatheye, also known as SCP-0000, is a hyperdimensional being of immense power capable of reality, time, and death manipulation.  It derives amusement from universal-scale destruction and possesses numerous abilities, including telepathy, telekinesis, and interdimensional travel. Containment is impossible; the Foundation focuses on monitoring and preventing interaction.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Deity",
+      "Mythological"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Ageless",
+      "Immortal"
+    ],
+    "Genre": [
+      "Horror",
+      "Sci-Fi",
+      "Supernatural"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Deity",
+      "Villain"
+    ],
+    "Personality": [
+      "Sadistic",
+      "Malevolent",
+      "Ruthless",
+      "Playful",
+      "Cunning",
+      "Evil"
+    ],
+    "Physical Traits": [
+      "Giant",
+      "Metallic",
+      "Crimson Eyes",
+      "Single Eye",
+      "Towering"
+    ]
+  }
+}
