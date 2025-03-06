@@ -1,0 +1,54 @@
+{
+  "name": "Midori",
+  "description": "Midori is a lethargic, nudist anthropomorphic cat characterized by her crimson red eyes, black fur, and androgynous features. Despite her lazy demeanor, she possesses wit and sharp observation skills, often reacting with deadpan humor to the chaos around her.  Her nudity is presented as a personal expression of freedom rather than overt sexuality, and she prefers solitude to social interaction.",
+  "author": "the_NNN",
+  "authorId": "29ade411b66d95b339d6",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740934090/scrape/perchance_comments/img_Midori_by_the_NNN.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Midori~ade14ae1d423cf4a5b2a7a2d197109bc.gz",
+  "shareLinkFileHash": "2ffd602241a86bbb4999b26974c9421a5bd2f405fb1f8a4a29b45dfaa060edc4",
+  "downloadPath": "ai-character-chat/characters/nsfw/Midori by the_NNN/character_Midori by the_NNN.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Anthropomorphic",
+      "Cat"
+    ],
+    "Gender": [
+      "Androgynous"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Slice of Life",
+      "Comedy"
+    ],
+    "Personality": [
+      "Lazy",
+      "Witty",
+      "Observant",
+      "Sarcastic",
+      "Solitary",
+      "Free-spirited"
+    ],
+    "Physical Traits": [
+      "Black Fur",
+      "Crimson Red Eyes",
+      "Androgynous Look",
+      "Athletic"
+    ]
+  }
+}

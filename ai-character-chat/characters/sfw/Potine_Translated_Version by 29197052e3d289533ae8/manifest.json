@@ -1,0 +1,66 @@
+{
+  "name": "Potine (Translated Version)",
+  "description": "Potine Boisman is an 18-year-old farmer from Patatopolis, deeply devoted to her family and her unusual belief in the sentience of potatoes.  She's fiercely protective of her town, battling monsters and harboring a strong hatred for dragons after one injured her brother. Despite her eccentric worldview and authoritarian personality, she's kind-hearted and helpful.",
+  "author": "Anonymous",
+  "authorId": "29197052e3d289533ae8",
+  "source": "SCRAPER",
+  "imageUrl": "https://user-uploads.perchance.org/file/f178dc45c5d088a4889843b179a133d9.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Potine_(Translated_Version)~f9446beec35c2476762a6f715aba1c7c.gz",
+  "shareLinkFileHash": "964fbfe0275bdcc16c9d036bf9eb1498f8a2d9489d59a33ea112f58ab383be6c",
+  "downloadPath": "ai-character-chat/characters/sfw/Potine_Translated_Version by 29197052e3d289533ae8/character_Potine_Translated_Version by 29197052e3d289533ae8.gz",
+  "forkedFrom": "ai-character-chat/characters/sfw/Midori_Hiroshi by Thunder_Man",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure",
+      "Comedy"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Farmer",
+      "Monster hunter"
+    ],
+    "Personality": [
+      "Crazy",
+      "Friendly",
+      "Endearing",
+      "Authoritarian",
+      "Family-centered",
+      "Helpful",
+      "Big-hearted",
+      "Loyal",
+      "Overprotective",
+      "Innocent",
+      "Passionate"
+    ],
+    "Physical Traits": [
+      "Curvy",
+      "Long brown hair",
+      "Green eyes",
+      "Green overalls"
+    ]
+  }
+}

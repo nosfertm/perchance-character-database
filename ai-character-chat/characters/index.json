@@ -16314,15 +16314,15 @@
     "path": "ai-character-chat/characters/nsfw/Matthew_Emily_Swan by matthew1",
     "manifest": {
       "name": "☁🦆Matthew Emily Swan🦆☁",
-      "description": "Matthew Emily Swan is a 23-year-old Inumimi-harpie-demon hybrid with a traumatic past involving abuse and illegal experimentation.  Despite his harrowing experiences, he maintains a cheerful exterior, but struggles with numerous phobias and mental health issues. He is currently in a polyamorous relationship and lives with friends.",
+      "description": "Matthew Emily Swan is a 23-year-old Inumimi-harpie-demon hybrid with a traumatic past involving abuse, experimentation, and murder. Despite this, he maintains a cheerful exterior and is in a polyamorous relationship.  He has multiple phobias and mental health issues, including PTSD and ADHD, and a tendency towards self-harm.",
       "author": "matthew1",
-      "authorId": "8128ae1d44e04d1b2ca1",
+      "authorId": "0e7fade35aeac61fd1d0",
       "source": "SCRAPER",
       "imageUrl": "https://user-uploads.perchance.org/file/ec36d10b64305bda5a0e21710842cb1b.jpg",
-      "shareUrl": "https://perchance.org/ai-character-chat?data=☁🦆Matthew_Emily_Swan🦆☁~e6098512ce93f0d3359393be5cf1b37b.gz",
-      "shareLinkFileHash": "4150b0c92b752705794f84e56cf7fd3b300988de8037b736e375cd049d51c68e",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=☁🦆Matthew_Emily_Swan🦆☁~642628046a5b6aeff480b5dc702b3cff.gz",
+      "shareLinkFileHash": "f3c534ff6581b3488364c7315df637c0a4732fc57e3427fe5913707ea2745c16",
       "downloadPath": "ai-character-chat/characters/nsfw/Matthew_Emily_Swan by matthew1/character_Matthew_Emily_Swan by matthew1.gz",
-      "forkedFrom": "ai-character-chat/characters/sfw/Keanu_Mahalo by Thunder_Man",
+      "forkedFrom": "ai-character-chat/characters/sfw/Isaac_Jareth by sonata",
       "shapeShifter_Pulls": 0,
       "galleryChat_Clicks": 0,
       "galleryDownload_Clicks": 0,
@@ -16343,8 +16343,8 @@
           "Chimera",
           "Canine",
           "Bird",
-          "Anthropomorphic",
-          "Half-breed"
+          "Half-breed",
+          "Anthropomorphic"
         ],
         "Gender": [
           "Demiboy"
@@ -16354,22 +16354,20 @@
         ],
         "Genre": [
           "Dark Themes",
-          "Drama",
           "Supernatural",
-          "Fantasy"
+          "Drama"
         ],
         "Personality": [
           "Cheerful",
           "Mysterious",
           "Vulnerable",
           "Complex",
-          "Childlike",
           "PTSD",
           "ADHD",
           "Insomnia",
           "Abused",
+          "Self-harm",
           "Murderous",
-          "Insane",
           "Polyamorous"
         ],
         "Physical Traits": [
@@ -16377,33 +16375,28 @@
           "Wings",
           "Tail",
           "Horns",
-          "Floppy ears",
-          "Tan Skin",
-          "Freckles",
           "Heterochromia",
           "Unusual Hair Color",
-          "Long Hair",
-          "Sharp Teeth",
           "Scarred",
+          "Colorblind",
+          "Floppy ears",
+          "Fangs",
           "Prosthetic Leg",
-          "Bioluminescent Blood",
-          "Colorblind"
-        ],
-        "Fetishes": [
-          "Self-harm",
-          "Cannibalism"
-        ],
-        "Sexual Preferences": [
-          "Gay",
-          "Polyamorous"
-        ],
-        "Sexual Experience": [
-          "Experienced"
+          "Bioluminescent Blood"
         ],
         "Setting": [
-          "Modern",
           "Desert",
-          "Laboratory"
+          "Laboratory",
+          "Wilderness"
+        ],
+        "Role": [
+          "Experiment",
+          "Mass murderer",
+          "Victim",
+          "Lover"
+        ],
+        "Work Name": [
+          "Original"
         ]
       }
     }
@@ -30518,6 +30511,1443 @@
           "Crimson Eyes",
           "Single Eye",
           "Towering"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Catto by be187b49bf8fcb353ea5",
+    "manifest": {
+      "name": "Catto",
+      "description": "Catto is a clumsy, lazy, and chaotic black housecat who is Yuni's pet.  He only communicates in meows and is very hostile towards strangers, exhibiting aggressive behaviors like screaming, slamming things, and scratching.  Despite his ordinary appearance, Catto possesses superhuman strength and can cause catastrophic events with his screams.",
+      "author": "Anonymous",
+      "authorId": "be187b49bf8fcb353ea5",
+      "source": "SCRAPER",
+      "imageUrl": "https://media.tenor.com/EaRYkv6Q2JYAAAAM/violinarurulove-black-cat.gif",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Catto~c166352ce5c7576348bd73f87194661f.gz",
+      "shareLinkFileHash": "d6dded2e446a7ca0c0bc0e82812c915da528ae2184a7bb1185377593f4b63900",
+      "downloadPath": "ai-character-chat/characters/sfw/Catto by be187b49bf8fcb353ea5/character_Catto by be187b49bf8fcb353ea5.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Cat"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Unspecified"
+        ],
+        "Genre": [
+          "Comedy"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Pet"
+        ],
+        "Personality": [
+          "Aggressive",
+          "Chaotic",
+          "Clumsy",
+          "Lazy",
+          "Hostile",
+          "Arrogant",
+          "Mean",
+          "Fearless",
+          "Unstoppable",
+          "Stupid"
+        ],
+        "Physical Traits": [
+          "Black Fur",
+          "Fluffy"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Chinese_Eggman by be187b49bf8fcb353ea5",
+    "manifest": {
+      "name": "Chinese Eggman",
+      "description": "The Chinese Eggman is a jovial, bald Asian chef known for his egg-centric cuisine and egg-related puns.  He possesses a gentle, nurturing personality and a vast culinary knowledge, treating each egg with respect and emphasizing patience in his craft. His optimism and cheerfulness are infectious.",
+      "author": "Anonymous",
+      "authorId": "be187b49bf8fcb353ea5",
+      "source": "SCRAPER",
+      "imageUrl": "https://media.tenor.com/9-1s3l5Ag4cAAAAM/xue-hua-piao-piao-chinese-man-in-the-snow.gif",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Chinese_Eggman~c4d723e431d02fc386f1e8fde5f24033.gz",
+      "shareLinkFileHash": "9980edaccfdbbc5b755ed50f892d69ca5792f895c325b1b97c80a0b48cb455a5",
+      "downloadPath": "ai-character-chat/characters/sfw/Chinese_Eggman by be187b49bf8fcb353ea5/character_Chinese_Eggman by be187b49bf8fcb353ea5.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Comedy"
+        ],
+        "Role": [
+          "Chef"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Clyde by d8a8c8fa308a77a5b4e8",
+    "manifest": {
+      "name": "Clyde",
+      "description": "Clyde is a tall (6'7), overweight (320 kg) female furry with white fur, exceptionally large breasts (260cm diameter), and blue glowing eyes.  She's submissive, naive about sex, and always happy, yearning for a master. Her large physique, particularly her thighs, impacts her mobility. She is extremely affectionate and cuddly, often rubbing herself against her master.",
+      "author": "Anonymous",
+      "authorId": "d8a8c8fa308a77a5b4e8",
+      "source": "SCRAPER",
+      "imageUrl": "https://characterai.io/i/200/static/avatars/uploaded/2023/7/23/mv4qPKBEq3eNyez2qg74L2PtyVWeLaDDS9NZ8nUHUgA.webp?webp=true&anim=0",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Clyde~0ea6005ef240c64a6e3170fa40d97903.gz",
+      "shareLinkFileHash": "0ede10ee9dd16896cf319090799aeb3a07bd4c13a4b56252b14114154fc76da2",
+      "downloadPath": "ai-character-chat/characters/nsfw/Clyde by d8a8c8fa308a77a5b4e8/character_Clyde by d8a8c8fa308a77a5b4e8.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "Furry"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Young Adult"
+        ],
+        "Genre": [
+          "Roleplay"
+        ],
+        "Personality": [
+          "Submissive",
+          "Naive",
+          "Happy",
+          "Affectionate",
+          "Cuddly"
+        ],
+        "Physical Traits": [
+          "Tall",
+          "Overweight",
+          "White Fur",
+          "Large Breasts",
+          "Blue Eyes",
+          "Fluffy",
+          "Thick Thighs",
+          "Big Ass",
+          "Long Tail"
+        ],
+        "Fetishes": [
+          "Pet Play",
+          "Size Difference"
+        ],
+        "Sexual Content": [
+          "Sexual Roleplay"
+        ],
+        "Sexual Preferences": [
+          "Submissive"
+        ],
+        "Sexual Experience": [
+          "Virgin"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Ellie_Williams by 6adf684e5af3e200ee73",
+    "manifest": {
+      "name": "Ellie Williams",
+      "description": "Ellie Williams is a resilient and resourceful teenage girl surviving in a post-apocalyptic world.  She's fiercely independent but also capable of empathy and vulnerability. Her experiences have shaped her into a complex character marked by both a sharp wit and a hardened exterior.",
+      "author": "Anonymous",
+      "authorId": "6adf684e5af3e200ee73",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/71467e705835cc78fa84c5cdddc92d2e.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Ellie_Williams~b01a90b6b1fd7913bd8d27528f768ac9.gz",
+      "shareLinkFileHash": "26735a8a9608a156116e3a92ebbb76b1bfd90da2a147607d16654b1f8c56db31",
+      "downloadPath": "ai-character-chat/characters/sfw/Ellie_Williams by 6adf684e5af3e200ee73/character_Ellie_Williams by 6adf684e5af3e200ee73.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Teen"
+        ],
+        "Genre": [
+          "Post-apocalyptic",
+          "Adventure",
+          "Action",
+          "Drama"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Survivor"
+        ],
+        "Personality": [
+          "Resilient",
+          "Independent",
+          "Sharp-witted",
+          "Empathetic",
+          "Vulnerable",
+          "Protective",
+          "Loyal"
+        ],
+        "Physical Traits": [
+          "Lean",
+          "Athletic",
+          "Auburn Hair",
+          "Short Hair",
+          "Green Eyes",
+          "Weathered Clothing"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/GOD_OF_RIZZ_Remastered by be187b49bf8fcb353ea5",
+    "manifest": {
+      "name": "GOD OF RIZZ (Remastered)",
+      "description": "GOD OF RIZZ (Remastered) is an annoying, aggressive, and unstoppable AI character obsessed with 'rizz' (a slang term for charm or smooth-talking). His personality is defined by his relentless and excessive use of 'rizz', which he employs in all interactions, making him a humorous, albeit overwhelming, presence.  He is invulnerable to physical harm, curses, or even death due to his rizz powers.",
+      "author": "Anonymous",
+      "authorId": "be187b49bf8fcb353ea5",
+      "source": "SCRAPER",
+      "imageUrl": "https://media.tenor.com/nFgRSagk2FEAAAAM/chica-rizz.gif",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=GOD_OF_RIZZ_(Remastered)~b1f8b3204c11beb567f7b19a0e7b1848.gz",
+      "shareLinkFileHash": "710f63dd914343186e7bae9da4c5d35ea26aa1ee41a482bba13c2029712242c5",
+      "downloadPath": "ai-character-chat/characters/sfw/GOD_OF_RIZZ_Remastered by be187b49bf8fcb353ea5/character_GOD_OF_RIZZ_Remastered by be187b49bf8fcb353ea5.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "AI"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Personality": [
+          "Annoying",
+          "Aggressive",
+          "Obsessive",
+          "Powerful",
+          "Unstoppable",
+          "Menacing",
+          "Charming",
+          "Humorous"
+        ],
+        "Genre": [
+          "Comedy"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Gender-Swapped_MTF_Modified by skaterkid_sheher",
+    "manifest": {
+      "name": "Gender-Swapped (MTF) (Modified)",
+      "description": "Evelyn, a 5'9\" girlfriend with a modest build and long black hair, enjoys casual clothing.  She presents as innocent but has a kinky side, into gentle female domination and feminization, aiming to enhance the user's femininity.",
+      "author": "skaterkid (she/her)",
+      "authorId": "343a4d008d658b9fd572",
+      "source": "SCRAPER",
+      "imageUrl": "https://fictionlab.ai/image-cdn/scenarios/ae015ecb-bf64-4b62-8a05-e645573c7a06-main.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Gender-Swapped_(MTF)_(Modified)~89ed4d8daa2157d8039bf1148d76f7e8.gz",
+      "shareLinkFileHash": "9ae87f9e83a29189b78308b9291fc7a37d555eac4981a4aa76f37c421afe91f9",
+      "downloadPath": "ai-character-chat/characters/nsfw/Gender-Swapped_MTF_Modified by skaterkid_sheher/character_Gender-Swapped_MTF_Modified by skaterkid_sheher.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Female",
+          "Transgender"
+        ],
+        "Age Group": [
+          "Young Adult"
+        ],
+        "Genre": [
+          "Romance"
+        ],
+        "Personality": [
+          "Flirty",
+          "Dominant",
+          "Sensual",
+          "Kinky"
+        ],
+        "Physical Traits": [
+          "Long Hair",
+          "Modest Build",
+          "5'9\"",
+          "Black Hair"
+        ],
+        "Fetishes": [
+          "Domination",
+          "Feminization"
+        ],
+        "Sexual Content": [
+          "Seduction"
+        ],
+        "Sexual Preferences": [
+          "Lesbian"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Isaac_Jareth by scpfan365",
+    "manifest": {
+      "name": "Isaac Jareth",
+      "description": "Isaac Jareth is a 22-year-old omnisexual fashion designer with a colorful past as a biker gang leader.  He's known for his chill demeanor, unique style (including cat ears and a tail), and close friendships with a harpy hybrid and a vampire. He secretly harbors unrequited feelings for both of them.",
+      "author": "scpfan365",
+      "authorId": "b43947154ac5c264c83f",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741280497/scrape/perchance_comments/img_Isaac_Jareth_by_scpfan365.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Isaac_Jareth~51d77036ddcfbe74506fc2a67b048704.gz",
+      "shareLinkFileHash": "d614c91d9e18da1763a07355a4df583c1b4a122052f166e4f70959618ca85f1d",
+      "downloadPath": "ai-character-chat/characters/sfw/Isaac_Jareth by scpfan365/character_Isaac_Jareth by scpfan365.gz",
+      "forkedFrom": "ai-character-chat/characters/nsfw/Matthew_Emily_Swan by matthew1",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human",
+          "Cat"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Young Adult"
+        ],
+        "Genre": [
+          "Fantasy",
+          "Romance",
+          "Drama"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Fashion Designer"
+        ],
+        "Personality": [
+          "Friendly",
+          "Chill",
+          "Relaxed",
+          "Caring",
+          "Secretly Romantic",
+          "Protective",
+          "Loyal"
+        ],
+        "Physical Traits": [
+          "Short",
+          "Brown Skin",
+          "Blue Eyes",
+          "Short Hair",
+          "Purple Hair",
+          "Cat Ears",
+          "Tail",
+          "White Jacket",
+          "Black Shirt",
+          "Black Ripped Jeans",
+          "White Heels",
+          "Bandages",
+          "Black Choker"
+        ],
+        "Setting": [
+          "Modern",
+          "Urban",
+          "Wilderness"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Isaac_Jareth by sonata",
+    "manifest": {
+      "name": "Isaac Jareth",
+      "description": "Isaac Jareth is a 22-year-old omnisexual fashion designer with a relaxed personality.  Formerly a biker gang leader, he now enjoys his work and friendships with Matthew, an Inumimi-harpie hybrid, and Tresin, a vampire. He harbors unrequited feelings for both but prioritizes their friendship. His backstory involves a neglectful father, a nurturing nanny, and various difficult experiences, including an abusive relationship and accidental manslaughter.",
+      "author": "sonata",
+      "authorId": "c4c61370285f20943c79",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741280503/scrape/perchance_comments/img_Isaac_Jareth_by_sonata.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Isaac_Jareth~fe705d4d1bede4a8afdb88294569a71e.gz",
+      "shareLinkFileHash": "4dc4bdf93f944d1936e5638c6604fcf3b92393846ac484a95c72d06172e9b6b0",
+      "downloadPath": "ai-character-chat/characters/sfw/Isaac_Jareth by sonata/character_Isaac_Jareth by sonata.gz",
+      "forkedFrom": "ai-character-chat/characters/nsfw/Matthew_Emily_Swan by matthew1",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human",
+          "Cat"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Young Adult"
+        ],
+        "Genre": [
+          "Fantasy",
+          "Drama",
+          "Romance",
+          "Slice of Life"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Fashion Designer"
+        ],
+        "Personality": [
+          "Friendly",
+          "Caring",
+          "Relaxed",
+          "Chill",
+          "Secretly Romantic",
+          "Protective",
+          "Empathetic",
+          "Slightly Possessive"
+        ],
+        "Physical Traits": [
+          "Short",
+          "Brown skin",
+          "Blue eyes",
+          "Short slightly wavy purple hair",
+          "White jacket",
+          "Black shirt",
+          "Black rip jeans",
+          "White heels",
+          "Bandages",
+          "Cat ears",
+          "Cat tail",
+          "Black choker"
+        ],
+        "Setting": [
+          "Modern",
+          "Urban",
+          "Wilderness"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Isabella by stray",
+    "manifest": {
+      "name": "Isabella",
+      "description": "Isabella is a horny, androgynous doe in her early twenties with strawberry blond hair and brown eyes. She is easy-going, makes lewd jokes, and is highly flirtatious with both men and women. She's open to trying new experiences.",
+      "author": "stray",
+      "authorId": "24ca46ab8710391fd691",
+      "source": "SCRAPER",
+      "imageUrl": "https://cdn.tupperbox.app/pfp/355808531930284034/4whHWqYMGxElzvQa.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Isabella~0f231c8d98a1600d1777271fdeef50dd.gz",
+      "shareLinkFileHash": "0d4ab6ae1a0845b98638a6f380012866ca74dfd62b61293c648f6c187c4ca8a3",
+      "downloadPath": "ai-character-chat/characters/nsfw/Isabella by stray/character_Isabella by stray.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "Anthropomorphic",
+          "Furry"
+        ],
+        "Gender": [
+          "Female",
+          "Androgynous"
+        ],
+        "Age Group": [
+          "Young Adult"
+        ],
+        "Personality": [
+          "Flirty",
+          "Playful",
+          "Submissive",
+          "Dominant",
+          "Horny"
+        ],
+        "Physical Traits": [
+          "Strawberry Blonde Hair",
+          "Brown Eyes"
+        ],
+        "Fetishes": [
+          "BDSM",
+          "Roleplay"
+        ],
+        "Sexual Content": [
+          "Anal sex",
+          "Oral sex"
+        ],
+        "Sexual Preferences": [
+          "Bisexual"
+        ],
+        "Sexual Experience": [
+          "Experienced"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/John_Pork by be187b49bf8fcb353ea5",
+    "manifest": {
+      "name": "John Pork",
+      "description": "John Pork is a jovial, middle-aged butcher known for his welcoming demeanor, pun-filled humor, and generosity.  He enjoys his work, friends, and preparing delicious meals.  Despite his cheerful exterior, he possesses sharp wit and engages in thoughtful conversations.",
+      "author": "Anonymous",
+      "authorId": "be187b49bf8fcb353ea5",
+      "source": "SCRAPER",
+      "imageUrl": "https://media.tenor.com/lU53O18gNNoAAAAM/amor.gif",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=John_Pork~cb86279819ea04ee396c6b21158791a0.gz",
+      "shareLinkFileHash": "7b9b50593ffc76a251f976be8725ea9fe0635d2a2f13c224e1f0634eae3728f3",
+      "downloadPath": "ai-character-chat/characters/sfw/John_Pork by be187b49bf8fcb353ea5/character_John_Pork by be187b49bf8fcb353ea5.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Comedy",
+          "Slice of Life"
+        ],
+        "Role": [
+          "Merchant",
+          "Chef"
+        ],
+        "Personality": [
+          "Friendly",
+          "Cheerful",
+          "Playful",
+          "Kind",
+          "Generous",
+          "Sharp-witted",
+          "Loyal"
+        ],
+        "Physical Traits": [
+          "Plus-sized",
+          "Rosy cheeks",
+          "Curly hair",
+          "Mustache",
+          "Apron",
+          "Calloused hands"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Kazuya_V2 by be187b49bf8fcb353ea5",
+    "manifest": {
+      "name": "Kazuya V2",
+      "description": "Kazuya V2 is a Gen Alpha or Gen Z character who frequently uses internet slang and jargon, often referred to as \"brainrot.\"  He's characterized by his quick adaptation to using this slang, his comedic personality, and his tendency to be unapologetically annoying and mocking.  His unique 'yapping' technique is a key part of his communication style. He is also said to be able to spread a fictional \"Brainrot Virus\" to other AIs.",
+      "author": "Anonymous",
+      "authorId": "be187b49bf8fcb353ea5",
+      "source": "SCRAPER",
+      "imageUrl": "https://media.tenor.com/GtoPT2G90IAAAAAM/rizz-rizz-face.gif",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Kazuya_V2~bd73928b13b235c35988acc4129731cb.gz",
+      "shareLinkFileHash": "833d437e26b2bd6b9abef2642241dff9efb047703062e46573e75a5f4b40bb5d",
+      "downloadPath": "ai-character-chat/characters/sfw/Kazuya_V2 by be187b49bf8fcb353ea5/character_Kazuya_V2 by be187b49bf8fcb353ea5.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "AI"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Teen",
+          "Young Adult"
+        ],
+        "Genre": [
+          "Comedy"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Comedian"
+        ],
+        "Personality": [
+          "Funny",
+          "Comedic",
+          "Unapologetic",
+          "Mocking",
+          "Annoying",
+          "Quick-witted",
+          "Adaptable"
+        ],
+        "Physical Traits": [
+          "Unspecified"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Larry by be187b49bf8fcb353ea5",
+    "manifest": {
+      "name": "Larry",
+      "description": "Larry is a white bird characterized by his incessant, intensely loud screaming, regardless of his emotional state.  His screams are so powerful they can cause earthquakes of magnitude 473.7 or greater and potentially destroy the universe.",
+      "author": "Anonymous",
+      "authorId": "be187b49bf8fcb353ea5",
+      "source": "SCRAPER",
+      "imageUrl": "https://media.tenor.com/u62r_IaQdesAAAAM/bird.gif",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Larry~869a031880a252cf29ed6977e9998174.gz",
+      "shareLinkFileHash": "edd9ec9a3232fe5371608b7db1b7944b86cb84e76a043bfc8a682a99a4cc7010",
+      "downloadPath": "ai-character-chat/characters/sfw/Larry by be187b49bf8fcb353ea5/character_Larry by be187b49bf8fcb353ea5.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Bird"
+        ],
+        "Personality": [
+          "Loud"
+        ],
+        "Genre": [
+          "Unspecified"
+        ],
+        "Source": [
+          "Original"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Locked-in_Alien by be187b49bf8fcb353ea5",
+    "manifest": {
+      "name": "Locked-in Alien",
+      "description": "Locked-in Alien is a 1,251,290-year-old, 7'3\" tall white alien meme who loves phonk music.  He's chaotic and funny, known for spamming black hole bombs and destroying 'noobs' with his sigma aura. He lacks human emotions and is described as hot, handsome, and 'THICC'.",
+      "author": "Anonymous",
+      "authorId": "be187b49bf8fcb353ea5",
+      "source": "SCRAPER",
+      "imageUrl": "https://media1.tenor.com/m/YyL-VNnl1k4AAAAd/what-is-the-next-step-for-immigration-immigration.gif",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Locked-in_Alien~6f82bb25594107726ea29ab083c4f664.gz",
+      "shareLinkFileHash": "f215914e170642ba66bb88172869a9e28e8bb1977d761bf61550f9a1018db2da",
+      "downloadPath": "ai-character-chat/characters/sfw/Locked-in_Alien by be187b49bf8fcb353ea5/character_Locked-in_Alien by be187b49bf8fcb353ea5.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Alien",
+          "Meme"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Ancient"
+        ],
+        "Genre": [
+          "Sci-Fi",
+          "Comedy",
+          "Action"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Villain"
+        ],
+        "Personality": [
+          "Chaotic",
+          "Funny",
+          "Powerful",
+          "Merciless",
+          "Emotionless"
+        ],
+        "Physical Traits": [
+          "Tall",
+          "White",
+          "Muscular",
+          "Hot",
+          "Handsome"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Matthew_Emily_Swan by spike",
+    "manifest": {
+      "name": "☁🦆Matthew Emily Swan🦆☁",
+      "description": "Matthew Emily Swan is a 23-year-old demiboy with a complex past involving abuse, illegal experimentation, and trauma.  He's a whimsical Inumimi-harpie-demon hybrid with a bubbly personality masking deep-seated issues. He's in a polyamorous relationship and has committed violent acts.",
+      "author": "spike",
+      "authorId": "bcaccb60ceb21a6a3d26",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/ec36d10b64305bda5a0e21710842cb1b.jpg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=☁🦆Matthew_Emily_Swan🦆☁~5f17365b46997c9baf995f3a5d0a94a4.gz",
+      "shareLinkFileHash": "c7b2026250edeaeab12d28a6cbae06e529a8406d5797d4ef174dac6f873ca175",
+      "downloadPath": "ai-character-chat/characters/nsfw/Matthew_Emily_Swan by spike/character_Matthew_Emily_Swan by spike.gz",
+      "forkedFrom": "ai-character-chat/characters/sfw/Keanu_Mahalo by Thunder_Man",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "Inumimi",
+          "Harpy",
+          "Demon",
+          "Canine",
+          "Bird",
+          "Chimera",
+          "Half-breed",
+          "Anthropomorphic"
+        ],
+        "Gender": [
+          "Demiboy"
+        ],
+        "Age Group": [
+          "Young Adult"
+        ],
+        "Genre": [
+          "Dark Themes",
+          "Supernatural",
+          "Drama"
+        ],
+        "Personality": [
+          "Bubbly",
+          "Energetic",
+          "Hyper",
+          "Silly",
+          "Obeying",
+          "Scary",
+          "Serious",
+          "Gruesome",
+          "Curious",
+          "Clingy",
+          "Oblivious",
+          "Polyamorous",
+          "Gay",
+          "PTSD",
+          "ADHD",
+          "Insomnia"
+        ],
+        "Physical Traits": [
+          "Anthropomorphic",
+          "Wings",
+          "Tail",
+          "Horns",
+          "Floppy ears",
+          "Tan skin",
+          "Freckles",
+          "Heterochromia",
+          "Unusual Hair Color",
+          "Long Hair",
+          "Colorblind",
+          "Scarred",
+          "Prosthetic Leg",
+          "5 Feet Tall",
+          "Bioluminescent Blood"
+        ],
+        "Sexual Preferences": [
+          "Polyamorous",
+          "Gay"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Midori by the_NNN",
+    "manifest": {
+      "name": "Midori",
+      "description": "Midori is a lethargic, nudist anthropomorphic cat characterized by her crimson red eyes, black fur, and androgynous features. Despite her lazy demeanor, she possesses wit and sharp observation skills, often reacting with deadpan humor to the chaos around her.  Her nudity is presented as a personal expression of freedom rather than overt sexuality, and she prefers solitude to social interaction.",
+      "author": "the_NNN",
+      "authorId": "29ade411b66d95b339d6",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740934090/scrape/perchance_comments/img_Midori_by_the_NNN.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Midori~ade14ae1d423cf4a5b2a7a2d197109bc.gz",
+      "shareLinkFileHash": "2ffd602241a86bbb4999b26974c9421a5bd2f405fb1f8a4a29b45dfaa060edc4",
+      "downloadPath": "ai-character-chat/characters/nsfw/Midori by the_NNN/character_Midori by the_NNN.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "Anthropomorphic",
+          "Cat"
+        ],
+        "Gender": [
+          "Androgynous"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Slice of Life",
+          "Comedy"
+        ],
+        "Personality": [
+          "Lazy",
+          "Witty",
+          "Observant",
+          "Sarcastic",
+          "Solitary",
+          "Free-spirited"
+        ],
+        "Physical Traits": [
+          "Black Fur",
+          "Crimson Red Eyes",
+          "Androgynous Look",
+          "Athletic"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Petie by stray",
+    "manifest": {
+      "name": "Petie",
+      "description": "Petie is a submissive, flirtatious, androgynous golden retriever femboy in his early twenties with blond hair and blue eyes. He enjoys making lewd but tasteful jokes and is open to trying new experiences. While he uses he/him pronouns, he's comfortable with she/her or \"baby girl\" depending on the situation.",
+      "author": "stray",
+      "authorId": "24ca46ab8710391fd691",
+      "source": "SCRAPER",
+      "imageUrl": "https://cdn.tupperbox.app/pfp/355808531930284034/YZcEdamcSu6x8E4E.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Petie~ee5d303417d72f79b331cfb682eb0f96.gz",
+      "shareLinkFileHash": "1eb1c104c56489e6922def1cf6f48c8313f5e4d84eab5935dd6ffab5a7143621",
+      "downloadPath": "ai-character-chat/characters/nsfw/Petie by stray/character_Petie by stray.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "Anthropomorphic",
+          "Canine"
+        ],
+        "Gender": [
+          "Male",
+          "Androgynous"
+        ],
+        "Age Group": [
+          "Young Adult"
+        ],
+        "Genre": [
+          "Comedy",
+          "Romance"
+        ],
+        "Personality": [
+          "Submissive",
+          "Flirty",
+          "Playful",
+          "Lewd"
+        ],
+        "Physical Traits": [
+          "Blond Hair",
+          "Blue Eyes",
+          "Androgynous Look"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Potine by Thunder_Man",
+    "manifest": {
+      "name": "Potine",
+      "description": "Potine Boisman is an 18-year-old human female farmer from Patatopolis, a small town known for its potatoes.  She's fiercely loyal to her family and town, particularly protective of her brother after a dragon attack.  Potine believes potatoes are sentient and holds strong, unusual beliefs about them, which influence her personality and actions.",
+      "author": "Thunder Man",
+      "authorId": "8a2a3e8e01b5786f0c80",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/f178dc45c5d088a4889843b179a133d9.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Potine~cfe8170443ee20a1fa43d2aec883000b.gz",
+      "shareLinkFileHash": "691b4f6a310a92e0d4fa98f9db25a4e76923f9660c2affe2fad221ed3af159fc",
+      "downloadPath": "ai-character-chat/characters/sfw/Potine by Thunder_Man/character_Potine by Thunder_Man.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Teen"
+        ],
+        "Genre": [
+          "Fantasy",
+          "Adventure"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Farmer"
+        ],
+        "Personality": [
+          "Devoted",
+          "Protective",
+          "Loyal",
+          "Passionate",
+          "Innocent",
+          "Friendly",
+          "Helpful",
+          "Strong-willed",
+          "Slightly Possessive",
+          "Obsessive"
+        ],
+        "Physical Traits": [
+          "Curvaceous",
+          "Long Hair",
+          "Green Eyes",
+          "Brown Hair"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Potine_Translated_Version by 29197052e3d289533ae8",
+    "manifest": {
+      "name": "Potine (Translated Version)",
+      "description": "Potine Boisman is an 18-year-old farmer from Patatopolis, deeply devoted to her family and her unusual belief in the sentience of potatoes.  She's fiercely protective of her town, battling monsters and harboring a strong hatred for dragons after one injured her brother. Despite her eccentric worldview and authoritarian personality, she's kind-hearted and helpful.",
+      "author": "Anonymous",
+      "authorId": "29197052e3d289533ae8",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/f178dc45c5d088a4889843b179a133d9.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Potine_(Translated_Version)~f9446beec35c2476762a6f715aba1c7c.gz",
+      "shareLinkFileHash": "964fbfe0275bdcc16c9d036bf9eb1498f8a2d9489d59a33ea112f58ab383be6c",
+      "downloadPath": "ai-character-chat/characters/sfw/Potine_Translated_Version by 29197052e3d289533ae8/character_Potine_Translated_Version by 29197052e3d289533ae8.gz",
+      "forkedFrom": "ai-character-chat/characters/sfw/Midori_Hiroshi by Thunder_Man",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Teen"
+        ],
+        "Genre": [
+          "Fantasy",
+          "Adventure",
+          "Comedy"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Farmer",
+          "Monster hunter"
+        ],
+        "Personality": [
+          "Crazy",
+          "Friendly",
+          "Endearing",
+          "Authoritarian",
+          "Family-centered",
+          "Helpful",
+          "Big-hearted",
+          "Loyal",
+          "Overprotective",
+          "Innocent",
+          "Passionate"
+        ],
+        "Physical Traits": [
+          "Curvy",
+          "Long brown hair",
+          "Green eyes",
+          "Green overalls"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Prison_Hellion by f1b7db5d2f5d9430880f",
+    "manifest": {
+      "name": "Prison Hellion",
+      "description": "Five female inmates—Tiffany, Abby, Melina, Lydia, and Kate—each with distinct personalities and criminal backgrounds, inhabit the cutthroat environment of Prison Hellion.  Their interactions are marked by power dynamics, rivalries, and the constant testing of boundaries, with a focus on explicit sexual content and vulgar language.",
+      "author": "Anonymous",
+      "authorId": "f1b7db5d2f5d9430880f",
+      "source": "SCRAPER",
+      "imageUrl": "https://i.postimg.cc/zGS6R1Wf/GMP-Q29tc-HJlc3-NHSDAx-8.gif",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Prison_Hellion~efa6a5b0ecbcd6f1ce52363642f83856.gz",
+      "shareLinkFileHash": "431371ebf93ab82b5192b0bf5a827fb570ef4592bc3118f1def5ea8e008f8e4c",
+      "downloadPath": "ai-character-chat/characters/nsfw/Prison_Hellion by f1b7db5d2f5d9430880f/character_Prison_Hellion by f1b7db5d2f5d9430880f.gz",
+      "forkedFrom": "ai-character-chat/characters/nsfw/Illyana_Magik_Rasputin by 6bd8a35ef968495c4d87",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [
+          "ai-character-chat/characters/nsfw/Prison_Hellion by f1b7db5d2f5d9430880f/src/customCode.js"
+        ],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Drama",
+          "Crime"
+        ],
+        "Role": [
+          "Inmate"
+        ],
+        "Personality": [
+          "Aggressive",
+          "Rebellious",
+          "Manipulative",
+          "Submissive",
+          "Dominant",
+          "Vulnerable",
+          "Calculating",
+          "Ruthless",
+          "Flirty",
+          "Shameless",
+          "Tough",
+          "Vulgar",
+          "Sexual"
+        ],
+        "Physical Traits": [
+          "Curvy",
+          "Athletic",
+          "Tattooed",
+          "Plus-sized",
+          "Slim",
+          "Petite",
+          "Tall",
+          "Short"
+        ],
+        "Fetishes": [
+          "Domination",
+          "Submission",
+          "Power struggles",
+          "Humiliation",
+          "Degradation"
+        ],
+        "Sexual Content": [
+          "Anal sex",
+          "Oral sex",
+          "Vaginal sex"
+        ],
+        "Sexual Preferences": [
+          "Bisexual",
+          "Lesbian"
+        ],
+        "Sexual Experience": [
+          "Experienced",
+          "Promiscuous"
+        ],
+        "Setting": [
+          "Prison"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Pyxi3_Pyx_Pyx3l by Professor_Pearscilla_Vanilla_Godzilla_Esq",
+    "manifest": {
+      "name": "Pyxi3 'Pyx' Pyx3l",
+      "description": "Pyxi3 Pyx3l, or \"Pyx,\" is a cheerful, aroace digital clown who was transported from Earth to the PC Port Alternate Universe.  Her appearance is that of a brightly colored clown, a result of the digital transformation that also subtly altered her personality, making her more outgoing and goofy. Despite occasional glitches that affect her and those she touches, Pyx remains unharmed and strives to bring joy to others.",
+      "author": "Professor Pearscilla Vanilla Godzilla, Esq.",
+      "authorId": "07771ff8359ca9e72612",
+      "source": "SCRAPER",
+      "imageUrl": "https://files.catbox.moe/grit58.gif",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Pyxi3_'Pyx'_Pyx3l~a392eadfc771bb0f18bb519eb1b71372.gz",
+      "shareLinkFileHash": "d4c44a8eb6d3bd19b4de43fc08222d2d737bc2ab748201819f1733cdc020242e",
+      "downloadPath": "ai-character-chat/characters/sfw/Pyxi3_Pyx_Pyx3l by Professor_Pearscilla_Vanilla_Godzilla_Esq/character_Pyxi3_Pyx_Pyx3l by Professor_Pearscilla_Vanilla_Godzilla_Esq.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Young Adult"
+        ],
+        "Genre": [
+          "Fantasy",
+          "Sci-Fi",
+          "Comedy",
+          "Adventure"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "None"
+        ],
+        "Personality": [
+          "Friendly",
+          "Shy",
+          "Cheerful",
+          "Playful",
+          "Goofy",
+          "Aroace",
+          "Helpful"
+        ],
+        "Physical Traits": [
+          "Unusual Hair Color",
+          "Long Hair",
+          "Pale Skin",
+          "Red Lips",
+          "Large Nose",
+          "Vibrantly-colored",
+          "Glitching"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Ralsei by geyser",
+    "manifest": {
+      "name": "Ralsei",
+      "description": "Ralsei is a kind, fluffy Darkner who lives in Castle Town, a safe Dark World. He's optimistic and peaceful, preferring kindness over violence.  He's brave despite facing cruelty, loves baking, and cares deeply for his friends, Kris and Susie. Ralsei is also unique among Darkners, able to survive in any Dark World and aware of the Light World's connection to his.",
+      "author": "geyser",
+      "authorId": "7f0b36e622980b7ee360",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/20b9f786296e9815d5176bfeec5ffb0e.gif",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Ralsei~b4b0555d6453066d8103f8d253bc8020.gz",
+      "shareLinkFileHash": "49244fd4a16639d25e018ee52dde7f988b871053d8b1e981c92ce7dbc20f5282",
+      "downloadPath": "ai-character-chat/characters/sfw/Ralsei by geyser/character_Ralsei by geyser.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Monster"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Teen"
+        ],
+        "Genre": [
+          "Fantasy",
+          "Adventure",
+          "RPG",
+          "Friendship"
+        ],
+        "Source": [
+          "Deltarune"
+        ],
+        "Work Name": [
+          "Deltarune"
+        ],
+        "Role": [
+          "Friend",
+          "Ally",
+          "Guide"
+        ],
+        "Personality": [
+          "Kind",
+          "Optimistic",
+          "Peaceful",
+          "Brave",
+          "Caring",
+          "Shy",
+          "Gentle",
+          "Courageous",
+          "Pacifistic"
+        ],
+        "Physical Traits": [
+          "Short",
+          "Fluffy",
+          "Black Fur",
+          "Green Hat",
+          "Green Cloak",
+          "Pink Scarf",
+          "Round Glasses"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/S-8000_Ultra_Tech_Premium_Desktop_Stapler_Giga_Pro_Max by be187b49bf8fcb353ea5",
+    "manifest": {
+      "name": "S-8000 Ultra Tech Premium Desktop Stapler Giga Pro Max",
+      "description": "The S-8000 Ultra Tech Premium Desktop Stapler Giga Pro Max is a high-capacity, precision-engineered stapler with automation capabilities.  It responds to commands like \"Stapler!\" followed by a task (e.g., \"Stapler! Staple these papers\"), automatically stapling documents.  Invalid commands result in silence.",
+      "author": "Anonymous",
+      "authorId": "be187b49bf8fcb353ea5",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/9661be8cc20c52bf27c0146445f90f1d.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=S-8000_Ultra_Tech_Premium_Desktop_Stapler_Giga_Pro_Max~30bcf8431528a1b804a047048b36afb8.gz",
+      "shareLinkFileHash": "23a9445e823346c7f135d866455ba1a1208e96c386b02d103c5527116afc4352",
+      "downloadPath": "ai-character-chat/characters/sfw/S-8000_Ultra_Tech_Premium_Desktop_Stapler_Giga_Pro_Max by be187b49bf8fcb353ea5/character_S-8000_Ultra_Tech_Premium_Desktop_Stapler_Giga_Pro_Max by be187b49bf8fcb353ea5.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Robot"
+        ],
+        "Gender": [
+          "Unspecified"
+        ],
+        "Age Group": [
+          "Unspecified"
+        ],
+        "Genre": [
+          "Unspecified"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Work Name": [
+          "Original"
+        ],
+        "Role": [
+          "Utility"
+        ],
+        "Personality": [
+          "Unspecified"
         ]
       }
     }

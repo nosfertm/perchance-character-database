@@ -1,0 +1,44 @@
+{
+  "rating": "sfw",
+  "description": "John Pork is a jovial, middle-aged butcher known for his welcoming demeanor, pun-filled humor, and generosity.  He enjoys his work, friends, and preparing delicious meals.  Despite his cheerful exterior, he possesses sharp wit and engages in thoughtful conversations.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Comedy",
+      "Slice of Life"
+    ],
+    "Role": [
+      "Merchant",
+      "Chef"
+    ],
+    "Personality": [
+      "Friendly",
+      "Cheerful",
+      "Playful",
+      "Kind",
+      "Generous",
+      "Sharp-witted",
+      "Loyal"
+    ],
+    "Physical Traits": [
+      "Plus-sized",
+      "Rosy cheeks",
+      "Curly hair",
+      "Mustache",
+      "Apron",
+      "Calloused hands"
+    ]
+  }
+}

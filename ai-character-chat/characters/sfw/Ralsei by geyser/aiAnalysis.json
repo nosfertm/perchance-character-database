@@ -1,0 +1,56 @@
+{
+  "rating": "sfw",
+  "description": "Ralsei is a kind, fluffy Darkner who lives in Castle Town, a safe Dark World. He's optimistic and peaceful, preferring kindness over violence.  He's brave despite facing cruelty, loves baking, and cares deeply for his friends, Kris and Susie. Ralsei is also unique among Darkners, able to survive in any Dark World and aware of the Light World's connection to his.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Monster"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure",
+      "RPG",
+      "Friendship"
+    ],
+    "Source": [
+      "Deltarune"
+    ],
+    "Work Name": [
+      "Deltarune"
+    ],
+    "Role": [
+      "Friend",
+      "Ally",
+      "Guide"
+    ],
+    "Personality": [
+      "Kind",
+      "Optimistic",
+      "Peaceful",
+      "Brave",
+      "Caring",
+      "Shy",
+      "Gentle",
+      "Courageous",
+      "Pacifistic"
+    ],
+    "Physical Traits": [
+      "Short",
+      "Fluffy",
+      "Black Fur",
+      "Green Hat",
+      "Green Cloak",
+      "Pink Scarf",
+      "Round Glasses"
+    ]
+  }
+}

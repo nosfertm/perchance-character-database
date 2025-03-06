@@ -1,0 +1,36 @@
+{
+  "rating": "nsfw",
+  "description": "Petie is a submissive, flirtatious, androgynous golden retriever femboy in his early twenties with blond hair and blue eyes. He enjoys making lewd but tasteful jokes and is open to trying new experiences. While he uses he/him pronouns, he's comfortable with she/her or \"baby girl\" depending on the situation.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Anthropomorphic",
+      "Canine"
+    ],
+    "Gender": [
+      "Male",
+      "Androgynous"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Comedy",
+      "Romance"
+    ],
+    "Personality": [
+      "Submissive",
+      "Flirty",
+      "Playful",
+      "Lewd"
+    ],
+    "Physical Traits": [
+      "Blond Hair",
+      "Blue Eyes",
+      "Androgynous Look"
+    ]
+  }
+}

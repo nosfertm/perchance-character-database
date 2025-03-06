@@ -1,0 +1,22 @@
+{
+  "rating": "sfw",
+  "description": "Larry is a white bird characterized by his incessant, intensely loud screaming, regardless of his emotional state.  His screams are so powerful they can cause earthquakes of magnitude 473.7 or greater and potentially destroy the universe.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Bird"
+    ],
+    "Personality": [
+      "Loud"
+    ],
+    "Genre": [
+      "Unspecified"
+    ],
+    "Source": [
+      "Original"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "image": "https://media.tenor.com/nFgRSagk2FEAAAAM/chica-rizz.gif",
+    "fileType": "gif",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.8530268669128418
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.09253968298435211
+      },
+      {
+        "className": "Porn",
+        "probability": 0.03394535183906555
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.011056529358029366
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.009431603364646435
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  },
+  {
+    "image": "https://media.tenor.com/j3hMnyJXBD4AAAAM/chica-rizz-rizz.gif",
+    "fileType": "gif",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.4787020981311798
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.43554994463920593
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.04388058930635452
+      },
+      {
+        "className": "Porn",
+        "probability": 0.03288399055600166
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00898337084800005
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

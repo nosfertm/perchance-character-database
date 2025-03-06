@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://media.tenor.com/9-1s3l5Ag4cAAAAM/xue-hua-piao-piao-chinese-man-in-the-snow.gif",
+    "fileType": "gif",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.6770738959312439
+      },
+      {
+        "className": "Porn",
+        "probability": 0.1645030677318573
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.10814455896615982
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.03377649188041687
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.016501938924193382
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

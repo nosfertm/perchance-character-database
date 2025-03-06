@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://files.catbox.moe/grit58.gif",
+    "fileType": "gif",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.6122906804084778
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.30254414677619934
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.03957235813140869
+      },
+      {
+        "className": "Porn",
+        "probability": 0.038922589272260666
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.006670154165476561
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

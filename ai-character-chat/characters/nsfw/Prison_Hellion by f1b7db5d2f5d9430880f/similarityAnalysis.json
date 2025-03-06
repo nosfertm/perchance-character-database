@@ -1,0 +1,29 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Illyana_Magik_Rasputin by 6bd8a35ef968495c4d87",
+  "forkedPath": "ai-character-chat/characters/nsfw/Illyana_Magik_Rasputin by 6bd8a35ef968495c4d87",
+  "similarities": {
+    "roleInstruction.txt": 0.8177650860449388,
+    "name.txt": 0.06060606060606061
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.8177650860449388,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    },
+    {
+      "file": "scene.json",
+      "type": "ADDED",
+      "similarity": 0.5
+    }
+  ],
+  "overallSimilarity": 0.8177650860449388,
+  "bestMatch": "Illyana_Magik_Rasputin by 6bd8a35ef968495c4d87"
+}

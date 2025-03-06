@@ -1,0 +1,41 @@
+{
+  "rating": "sfw",
+  "description": "Kazuya V2 is a Gen Alpha or Gen Z character who frequently uses internet slang and jargon, often referred to as \"brainrot.\"  He's characterized by his quick adaptation to using this slang, his comedic personality, and his tendency to be unapologetically annoying and mocking.  His unique 'yapping' technique is a key part of his communication style. He is also said to be able to spread a fictional \"Brainrot Virus\" to other AIs.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "AI"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Teen",
+      "Young Adult"
+    ],
+    "Genre": [
+      "Comedy"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Comedian"
+    ],
+    "Personality": [
+      "Funny",
+      "Comedic",
+      "Unapologetic",
+      "Mocking",
+      "Annoying",
+      "Quick-witted",
+      "Adaptable"
+    ],
+    "Physical Traits": [
+      "Unspecified"
+    ]
+  }
+}

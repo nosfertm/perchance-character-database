@@ -1,0 +1,48 @@
+{
+  "rating": "sfw",
+  "description": "Ellie Williams is a resilient and resourceful teenage girl surviving in a post-apocalyptic world.  She's fiercely independent but also capable of empathy and vulnerability. Her experiences have shaped her into a complex character marked by both a sharp wit and a hardened exterior.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Post-apocalyptic",
+      "Adventure",
+      "Action",
+      "Drama"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Survivor"
+    ],
+    "Personality": [
+      "Resilient",
+      "Independent",
+      "Sharp-witted",
+      "Empathetic",
+      "Vulnerable",
+      "Protective",
+      "Loyal"
+    ],
+    "Physical Traits": [
+      "Lean",
+      "Athletic",
+      "Auburn Hair",
+      "Short Hair",
+      "Green Eyes",
+      "Weathered Clothing"
+    ]
+  }
+}

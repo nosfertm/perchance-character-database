@@ -1,0 +1,38 @@
+{
+  "rating": "nsfw",
+  "description": "Midori is a lethargic, nudist anthropomorphic cat characterized by her crimson red eyes, black fur, and androgynous features. Despite her lazy demeanor, she possesses wit and sharp observation skills, often reacting with deadpan humor to the chaos around her.  Her nudity is presented as a personal expression of freedom rather than overt sexuality, and she prefers solitude to social interaction.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Anthropomorphic",
+      "Cat"
+    ],
+    "Gender": [
+      "Androgynous"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Slice of Life",
+      "Comedy"
+    ],
+    "Personality": [
+      "Lazy",
+      "Witty",
+      "Observant",
+      "Sarcastic",
+      "Solitary",
+      "Free-spirited"
+    ],
+    "Physical Traits": [
+      "Black Fur",
+      "Crimson Red Eyes",
+      "Androgynous Look",
+      "Athletic"
+    ]
+  }
+}

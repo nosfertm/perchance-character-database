@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://media.tenor.com/EaRYkv6Q2JYAAAAM/violinarurulove-black-cat.gif",
+    "fileType": "gif",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.593693733215332
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.3558432161808014
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.03190518170595169
+      },
+      {
+        "className": "Porn",
+        "probability": 0.014326676726341248
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.004231190774589777
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

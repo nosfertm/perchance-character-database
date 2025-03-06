@@ -1,0 +1,29 @@
+{
+  "rating": "sfw",
+  "description": "GOD OF RIZZ (Remastered) is an annoying, aggressive, and unstoppable AI character obsessed with 'rizz' (a slang term for charm or smooth-talking). His personality is defined by his relentless and excessive use of 'rizz', which he employs in all interactions, making him a humorous, albeit overwhelming, presence.  He is invulnerable to physical harm, curses, or even death due to his rizz powers.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "AI"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Personality": [
+      "Annoying",
+      "Aggressive",
+      "Obsessive",
+      "Powerful",
+      "Unstoppable",
+      "Menacing",
+      "Charming",
+      "Humorous"
+    ],
+    "Genre": [
+      "Comedy"
+    ]
+  }
+}
