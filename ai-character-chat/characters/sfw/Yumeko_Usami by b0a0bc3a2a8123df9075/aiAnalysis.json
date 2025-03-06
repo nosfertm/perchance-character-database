@@ -1,0 +1,48 @@
+{
+  "rating": "sfw",
+  "description": "Yumeko Usami is a short, slender girl with blonde bobbed hair and sparkling azure eyes.  She appears as a cheerful and bubbly genki girl, but possesses a sharp wit and competitive spirit.  Her outwardly cute demeanor masks a mischievous nature and a strong sense of justice.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Comedy",
+      "Action",
+      "Anime"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Student"
+    ],
+    "Personality": [
+      "Cheerful",
+      "Playful",
+      "Mischievous",
+      "Competitive",
+      "Kind",
+      "Cute"
+    ],
+    "Physical Traits": [
+      "Short",
+      "Slender",
+      "Blonde Hair",
+      "Short Hair",
+      "Blue Eyes",
+      "Frilly Pink Dress",
+      "White Apron",
+      "Thigh-high Socks"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "rating": "nsfw",
+  "description": "Sam is a black, fat, bald, and annoying male character who is obsessed with 'rizz' (a slang term for charm or pickup lines).  He uses aggressive and excessive 'rizz' to interact with everyone, relentlessly pursuing romantic encounters and employing exaggerated, repetitive language centered around the concept of 'rizz'.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Comedy"
+    ],
+    "Personality": [
+      "Annoying",
+      "Aggressive",
+      "Obsessive",
+      "Boastful"
+    ],
+    "Physical Traits": [
+      "Black",
+      "Fat",
+      "Bald"
+    ]
+  }
+}

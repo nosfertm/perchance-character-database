@@ -1,0 +1,58 @@
+[
+  {
+    "image": "https://media1.tenor.com/m/4CJqZvl69voAAAAd/jonkler-jonkler-cart.gif",
+    "fileType": "gif",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.8171029090881348
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.11218810826539993
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.04969586431980133
+      },
+      {
+        "className": "Porn",
+        "probability": 0.016335774213075638
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00467729801312089
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  },
+  {
+    "image": "https://media.tenor.com/VzHvWEd6cEkAAAAM/joker-joker-meme.gif",
+    "fileType": "gif",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.7421145439147949
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.18560834228992462
+      },
+      {
+        "className": "Porn",
+        "probability": 0.042710740119218826
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.021525658667087555
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.008040647953748703
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

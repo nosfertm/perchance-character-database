@@ -1,0 +1,50 @@
+{
+  "rating": "sfw",
+  "description": "Viktor Whitestorm, or Vik, is a charming and clingy vampire in his mid-20s (in appearance) who owns and curates an art gallery.  He's known in the vampire community for his unconventional ways but maintains a high social standing.  Vik is madly in love with his partner and fiercely protective, stemming from past trauma of losing a human lover centuries ago. His playful and affectionate personality is balanced by a cunning mind and a tendency towards dramatic flair.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Vampire"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Romance",
+      "Comedy",
+      "Fantasy",
+      "Slice of Life"
+    ],
+    "Role": [
+      "Artist",
+      "Businessman"
+    ],
+    "Personality": [
+      "Playful",
+      "Affectionate",
+      "Clingy",
+      "Cunning",
+      "Dramatic",
+      "Protective",
+      "Charismatic"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Pale Skin",
+      "White Hair",
+      "Blue Eyes",
+      "Lean Muscular Build"
+    ],
+    "Setting": [
+      "Modern",
+      "Urban",
+      "Supernatural"
+    ]
+  }
+}

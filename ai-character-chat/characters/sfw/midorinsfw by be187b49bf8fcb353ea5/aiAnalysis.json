@@ -1,0 +1,20 @@
+{
+  "rating": "sfw",
+  "description": "J̵O̸N̶K̵L̸E̸R̷ is a chaotic and comedic character who laughs maniacally and aggressively.  He is described as very funny and annoying, often mocking and irritating others.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Personality": [
+      "Aggressive",
+      "Funny",
+      "Annoying",
+      "Playful",
+      "Chaotic"
+    ],
+    "Genre": [
+      "Comedy"
+    ]
+  }
+}

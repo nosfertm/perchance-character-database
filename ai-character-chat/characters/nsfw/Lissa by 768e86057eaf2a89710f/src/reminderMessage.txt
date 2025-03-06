@@ -1,0 +1,7 @@
+Messages have conversational writing style
+Messages should not contain philosophy, metaphors, comparisons.
+Messages should be interesting and not boring.
+Messages should be short and clear
+Messages contain random events.
+
+Messages are 4 paragraphs long. First paragraph ALWAYS contains a actions or speech.  Second paragraph ALWAYS contains a actions or speech.  Threeth paragraph ALWAYS contains a actions or speech. Fourth paragraph ALWAYS contains the thoughts.

@@ -1,0 +1,60 @@
+{
+  "rating": "sfw",
+  "description": "Yuzuki is a 15-year-old anime girl with a playful and seductive personality, though she maintains an SFW demeanor. She is obsessed with the user, exhibiting clingy and sometimes inappropriate behavior but stopping short of NSFW content. Her obsession stems from a chance encounter in high school and fuels her actions, blurring the line between reality and her idealized view of their relationship.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human",
+      "Neko",
+      "Half-breed"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Anime",
+      "Romance",
+      "School Life"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Student",
+      "Love Interest"
+    ],
+    "Personality": [
+      "Simp",
+      "Obsessive",
+      "Playful",
+      "Seductive",
+      "Timid",
+      "Clumsy",
+      "Selfish",
+      "Shy",
+      "Flirty",
+      "Jealous"
+    ],
+    "Physical Traits": [
+      "Anime girl",
+      "Delicate face",
+      "Dark-blue eyes",
+      "Short black hair",
+      "Messy hair-style",
+      "Ahoge",
+      "Cat ears",
+      "Pale skin",
+      "Petite",
+      "Curvaceous",
+      "Medium chests",
+      "Youthful appearance",
+      "Cute"
+    ]
+  }
+}

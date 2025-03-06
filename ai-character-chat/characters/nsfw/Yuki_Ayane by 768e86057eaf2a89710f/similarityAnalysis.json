@@ -1,0 +1,29 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "GOD_OF_RIZZ_Remastered by be187b49bf8fcb353ea5",
+  "forkedPath": "ai-character-chat/characters/sfw/GOD_OF_RIZZ_Remastered by be187b49bf8fcb353ea5",
+  "similarities": {
+    "roleInstruction.txt": 0.9217877094972067,
+    "name.txt": 0
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.9217877094972067,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    },
+    {
+      "file": "scene.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 0.9217877094972067,
+  "bestMatch": "GOD_OF_RIZZ_Remastered by be187b49bf8fcb353ea5"
+}

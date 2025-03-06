@@ -89,7 +89,8 @@
                 "Puppet",
                 "foxkin",
                 "Rabbit",
-                "Monster"
+                "Monster",
+                "CountryHuman"
             ],
             "nsfw": [
                 "Succubus",
@@ -1127,7 +1128,14 @@
                 "Family-centered",
                 "Big-hearted",
                 "Aroace",
-                "Peaceful"
+                "Peaceful",
+                "Hysterical",
+                "Tearful",
+                "Spoiled",
+                "Naughty",
+                "Minx",
+                "Filthy rich",
+                "Simp"
             ],
             "nsfw": [
                 "Dominant",
@@ -2094,7 +2102,32 @@
                 "Green Hat",
                 "Green Cloak",
                 "Pink Scarf",
-                "Round Glasses"
+                "Round Glasses",
+                "Fair hue",
+                "Soft texture",
+                "Soft physique",
+                "Slightly plump hips",
+                "Slender waist",
+                "Light blonde hair",
+                "Slightly wavy hair",
+                "Curtain bangs",
+                "Bright blue eyes",
+                "Elegant light-yellow gown",
+                "Golden belt",
+                "Simple golden crown",
+                "Sharp fangs",
+                "M cup breasts",
+                "Latino brown skin",
+                "Two-toned skin",
+                "Two-toned hair",
+                "Angel wings",
+                "Frilly Pink Dress",
+                "Thigh-high Socks",
+                "Dark-blue eyes",
+                "Messy hair-style",
+                "Ahoge",
+                "Medium chests",
+                "Youthful appearance"
             ],
             "nsfw": [
                 "Voluptuous",
@@ -2337,7 +2370,8 @@
                 "Home",
                 "North Pole",
                 "Game",
-                "Prison"
+                "Prison",
+                "Supernatural"
             ],
             "nsfw": [
                 "Adult Club",
