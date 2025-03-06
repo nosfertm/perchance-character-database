@@ -134,6 +134,7 @@ body:
         - Chimera
         - Clone
         - Cookie
+        - CountryHuman
         - Cyborg
         - Deity
         - Demon
@@ -383,6 +384,7 @@ body:
         - Cyberpunk 2077
         - DC Comics
         - Dark Souls
+        - Deltarune
         - Diablo
         - Discipline
         - Disney
@@ -537,6 +539,7 @@ body:
         - Chef
         - Child
         - Clerk
+        - Comedian
         - Community Helper
         - Community Volunteer
         - Companion
@@ -583,6 +586,7 @@ body:
         - Host
         - Husband
         - Idol
+        - Inmate
         - Intern
         - Jujutsu Sorcerer
         - King
@@ -604,6 +608,7 @@ body:
         - Merchant
         - Military
         - Model
+        - Monster hunter
         - Musician
         - Nature Caretaker
         - Noble
@@ -708,14 +713,18 @@ body:
         - Anxious
         - Apathetic
         - Approachable
+        - Aroace
         - Arrogant
         - Articulate
         - Artistic
         - Assertive
         - Athletic
+        - Authoritarian
         - Autistic
         - Awkward
         - Bashful
+        - Benevolent
+        - Big-hearted
         - Bisexual
         - Bitchy
         - Blissfully happy
@@ -762,6 +771,7 @@ body:
         - Coldhearted
         - Collaborative
         - Collected
+        - Comedic
         - Comforting
         - Commanding
         - Compassionate
@@ -834,9 +844,11 @@ body:
         - Emotional (Hidden)
         - Emotionally Intelligent
         - Emotionally Sensitive
+        - Emotionless
         - Emotionless (Initially)
         - Empathetic
         - Empathetic (Later)
+        - Endearing
         - Energetic
         - Enigmatic
         - Enthusiastic
@@ -849,21 +861,25 @@ body:
         - Extroverted
         - Fair
         - Family Oriented
+        - Family-centered
         - Family-oriented
         - Fearless
         - Feral
         - Fierce
         - Fiercely loyal
         - Fiery
+        - Filthy rich
         - Firm
         - Fliratious
         - Flirty
         - Focused
         - Forgiving
+        - Free-spirited
         - Friendly
         - Fun-loving
         - Funny
         - Gambler
+        - Gay
         - Generous
         - Gentle
         - Giving
@@ -872,6 +888,7 @@ body:
         - Greedy
         - Greyromantic
         - Grounded
+        - Gruesome
         - Gruff
         - Grumpy
         - Guarded
@@ -892,6 +909,7 @@ body:
         - Humorous
         - Hurt
         - Hyper
+        - Hysterical
         - Idealistic
         - Ignorant
         - Ill-tempered
@@ -958,6 +976,7 @@ body:
         - Merciless
         - Methodical
         - Meticulous
+        - Minx
         - Mischievous
         - Mistrustful
         - Misunderstood
@@ -972,6 +991,7 @@ body:
         - Narcolepsy
         - Nationalist
         - Nationalistic
+        - Naughty
         - Needy
         - Nerdy
         - Nervous
@@ -979,6 +999,7 @@ body:
         - Nihilistic
         - Noble
         - Obedient
+        - Obeying
         - Oblivious
         - Observant
         - Obsessive
@@ -1002,6 +1023,7 @@ body:
         - Passive
         - Patient
         - Patriotic
+        - Peaceful
         - Perceptive
         - Perfectionist
         - Persistent
@@ -1071,6 +1093,7 @@ body:
         - Sass
         - Sassy
         - Scaredy-cat
+        - Scary
         - Secret
         - Secretive
         - Secretly Romantic
@@ -1080,6 +1103,7 @@ body:
         - Self-absorbed
         - Self-centered
         - Self-conscious
+        - Self-harm
         - Selfish
         - Selfless
         - Sensitive
@@ -1095,6 +1119,7 @@ body:
         - Shy
         - Silent
         - Silly
+        - Simp
         - Simple minded
         - Sinister
         - Skilled
@@ -1113,6 +1138,7 @@ body:
         - Solitary
         - Somber
         - Sophisticated
+        - Spoiled
         - Stern
         - Straightforward
         - Strange
@@ -1122,6 +1148,7 @@ body:
         - Strong-willed
         - Stubborn
         - Studious
+        - Stupid
         - Submissive
         - Suicidal
         - Superior
@@ -1132,6 +1159,7 @@ body:
         - Talkative
         - Tame
         - Team Player
+        - Tearful
         - Teasing
         - Tech-savvy
         - Tenacious
@@ -1151,12 +1179,14 @@ body:
         - Tyrannical
         - Unapologetic
         - Underdog
+        - Understanding
         - Unemotional
         - Unforgiving
         - Unhinged
         - Uninhibited
         - Unpredictable
         - Unspecified
+        - Unstoppable
         - Untrustworthy
         - Upbeat
         - Vegan
@@ -1224,8 +1254,10 @@ body:
         - 5'5"
         - 5'6 tall
         - 5'6"
+        - 5'9"
         - 5’9”
         - 5’9”, 100lb
+        - 6 feet 3 inches
         - 7 feet tall (werebat form)
         - 7 inches long dick
         - 8 pink frilly extrusions on her head
@@ -1236,6 +1268,7 @@ body:
         - Aerodynamic shape
         - Aged Armor
         - Agile
+        - Ahoge
         - Albino
         - Alien
         - Amber Eyes
@@ -1243,12 +1276,14 @@ body:
         - Amputee
         - Anamorphic bat (werebat form)
         - Androgynous Look
+        - Angel wings
         - Anglerfish Features
         - Anglerfish lure
         - Angular Face
         - Animal Skull Necklace
         - Anime girl
         - Anthropomorphic
+        - Apron
         - Arctic-gray wolf
         - Arm rings
         - Armor
@@ -1297,6 +1332,7 @@ body:
         - Black Hoodie
         - Black Leggings
         - Black Sailor Uniform
+        - Black Shirt
         - Black Streak in Hair
         - Black Striped Beanie
         - Black Thigh-High Socks
@@ -1319,6 +1355,7 @@ body:
         - Black nails
         - Black pants
         - Black pupil
+        - Black rip jeans
         - Black ripped jeans
         - Black sailor long sleeve
         - Black sclera
@@ -1335,6 +1372,7 @@ body:
         - Blade-like Projections
         - Blessed pistols
         - Blocky torso
+        - Blond Hair
         - Blonde Hair
         - Blood red skin
         - Blood stains
@@ -1361,6 +1399,7 @@ body:
         - Braids
         - Bright Green Eyes
         - Bright blue circles eyes
+        - Bright blue eyes
         - Bright orange fur
         - Broad-shouldered
         - Broken
@@ -1384,6 +1423,7 @@ body:
         - C size breast
         - C-cup
         - C-cup Breasts
+        - Calloused hands
         - Camouflage Jumpsuit
         - Camouflage Outfit
         - Cape
@@ -1394,6 +1434,7 @@ body:
         - Cat-like
         - Cat-like ears
         - Cat-like features
+        - Caucasian
         - Chain anklets
         - Chipped black nail polish
         - Christian symbols
@@ -1416,6 +1457,7 @@ body:
         - Crimson Bow Tie
         - Crimson Cape
         - Crimson Eyes
+        - Crimson Red Eyes
         - Crimson brown skin
         - Crossed Bones
         - Crow Wings
@@ -1423,6 +1465,8 @@ body:
         - Crown-like halo
         - Crystal orb
         - Crystalline
+        - Curly hair
+        - Curtain bangs
         - Curvaceous
         - Curvy
         - Curvy ass
@@ -1431,6 +1475,7 @@ body:
         - Cute Paws
         - Cute and adorable
         - Cuts
+        - Cyan eyes
         - Cyan skin
         - Cybernetic enhancements
         - Cybernetic eye implant
@@ -1453,6 +1498,7 @@ body:
         - Dark olive skin tone
         - Dark red nipples
         - Dark violet eyes
+        - Dark-blue eyes
         - Darker Skin Tone
         - Deep blue eyes
         - Deep brown eyes
@@ -1474,6 +1520,7 @@ body:
         - Eight arms
         - Electric blue
         - Elegant
+        - Elegant light-yellow gown
         - Elongated limbs
         - Emerald Green Eyes
         - Emerald eyes
@@ -1487,6 +1534,7 @@ body:
         - Eyepatch
         - F cup breasts
         - Fair Skin
+        - Fair hue
         - Fairy-like
         - Fangs
         - Fat
@@ -1514,6 +1562,7 @@ body:
         - Fox features
         - Fox tail
         - Fresh bald haircut
+        - Frilly Pink Dress
         - Frilly white collar
         - Frost Runes
         - Frosty highlights
@@ -1532,6 +1581,7 @@ body:
         - Ginger
         - Glasses
         - Glistening
+        - Glitching
         - Glowing
         - Glowing Purple Wands
         - Glowing eyes
@@ -1548,6 +1598,7 @@ body:
         - Golden Eyes
         - Golden Fur
         - Golden Wings
+        - Golden belt
         - Golden buttons
         - Golden cross amulet
         - Gooey Hair
@@ -1559,13 +1610,16 @@ body:
         - Gray apron
         - Gray cloak
         - Gray turtleneck sweater
+        - Green Cloak
         - Green Eyes
         - Green Hair
         - Green Hair Tips
+        - Green Hat
         - Green Skin
         - Green and purple ears and limbs
         - Green body
         - Green flames
+        - Green overalls
         - Grey Eyes
         - Grey Fur
         - Grey Hair
@@ -1593,6 +1647,7 @@ body:
         - Hood
         - Hooves
         - Horns
+        - Hot
         - Hour Glas Figure
         - Hourglass figure
         - Hourglass shape
@@ -1625,6 +1680,7 @@ body:
         - Large Green Eyes
         - Large Head
         - Large Jagged Teeth (Transformation)
+        - Large Nose
         - Large Rear End
         - Large Tail
         - Large ass
@@ -1638,6 +1694,7 @@ body:
         - Large eyes
         - Large headphones
         - Latex Swimsuit
+        - Latino brown skin
         - Lavender Skin
         - Layered black and white hair
         - Lean
@@ -1650,6 +1707,7 @@ body:
         - Light Blue Eyes
         - Light Brown Fur
         - Light Grey skin
+        - Light blonde hair
         - Light blue
         - Light blue hair
         - Light blue skin
@@ -1690,6 +1748,7 @@ body:
         - Long Wavy Hair
         - Long black cloak
         - Long black hair
+        - Long brown hair
         - Long flexible tail
         - Long fluffy hair
         - Long grey hair
@@ -1705,6 +1764,7 @@ body:
         - Long tongue
         - Long white hair
         - Long-sleeved red dress
+        - M cup breasts
         - Macabre jewelry
         - Magenta Hair
         - Magician Outfit
@@ -1724,11 +1784,13 @@ body:
         - Mechanized Quills
         - Medium Breast Size
         - Medium breasts
+        - Medium chests
         - Medium sized boobs
         - Megaphone
         - Messy Ponytail
         - Messy bob-cut
         - Messy dark brown hair
+        - Messy hair-style
         - Metal Cuffs
         - Metallic
         - Metallic armor
@@ -1740,6 +1802,7 @@ body:
         - Mismatched Clothing
         - Mismatched Socks
         - Mittens
+        - Modest Build
         - Mostly Lean, Slight Dad-Bod
         - Mouse-like
         - Multicolored Scales
@@ -1784,6 +1847,7 @@ body:
         - Orange mouth
         - Orange skin
         - Oval-shaped
+        - Overweight
         - Pale Skin
         - Pale light skin
         - Pale yellow shoulder tuft
@@ -1801,6 +1865,7 @@ body:
         - Pigtails
         - Pink
         - Pink Eyes
+        - Pink Scarf
         - Pink Streaks in Hair
         - Pink feet
         - Pink hair
@@ -1854,6 +1919,7 @@ body:
         - Red Eyeliner
         - Red Eyes
         - Red Hair
+        - Red Lips
         - Red Ribbon
         - Red Shirt
         - Red Shoes
@@ -1881,6 +1947,7 @@ body:
         - Rosy cheeks
         - Round
         - Round Ass
+        - Round Glasses
         - Round Head
         - Round Monocle
         - Round beady eyes
@@ -1908,6 +1975,7 @@ body:
         - Sharp Features
         - Sharp claws
         - Sharp edges
+        - Sharp fangs
         - Sharp nails
         - Sharp white teeth
         - Shifting
@@ -1925,12 +1993,14 @@ body:
         - Short brown bob
         - Short legs
         - Short peach-colored hair
+        - Short slightly wavy purple hair
         - Short, spiky black hair
         - Shorts
         - Silver Armor
         - Silver Skin
         - Silver hair
         - Silver prosthetic arm
+        - Simple golden crown
         - Single Eye
         - Skeletal
         - Skeletal face
@@ -1947,10 +2017,13 @@ body:
         - Sleeper build
         - Sleeveless red varsity jacket
         - Slender
+        - Slender waist
         - Slightly Chubby
         - Slightly Muscular
         - Slightly longer tail than average
+        - Slightly plump hips
         - Slightly toned muscles
+        - Slightly wavy hair
         - Slim
         - Slim Mouth
         - Slim Waist
@@ -1967,6 +2040,8 @@ body:
         - Sneakers
         - Snow White Skin
         - Snow White Skin/Fur Tone
+        - Soft physique
+        - Soft texture
         - Soft, fluffy cream-gray fur
         - Soft-featured
         - Spear
@@ -2013,6 +2088,7 @@ body:
         - Teal Eyes
         - Thick ass
         - Thick chest
+        - Thigh-high Socks
         - Thin Lips
         - Thin physique
         - Three Claws
@@ -2039,6 +2115,8 @@ body:
         - Two penises
         - Two red cheeks
         - Two-toned Hat
+        - Two-toned hair
+        - Two-toned skin
         - Unicorn
         - Unnaturally Blue Eyes
         - Unremarkable Features
@@ -2060,12 +2138,15 @@ body:
         - Wavy brown hair
         - Wavy hair
         - Wearing Uniform
+        - Weathered Clothing
         - Weathered skin
         - Wheelchair user
         - White
         - White Battery Emblem
         - White Eyes
         - White Hair
+        - White Heels
+        - White Jacket
         - White Knee-high Socks
         - White Paws
         - White Shirt
@@ -2106,6 +2187,7 @@ body:
         - Yellow pupil
         - Yellow scales
         - Young
+        - Youthful appearance
         - average frame
         - big ass
         - big breast size
@@ -2359,10 +2441,12 @@ body:
         - Parallel Universe
         - Post-Apocalyptic
         - Prehistoric
+        - Prison
         - Rural
         - School
         - Space
         - Steampunk
+        - Supernatural
         - Underground
         - University
         - Unspecified
