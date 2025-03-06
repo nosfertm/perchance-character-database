@@ -77,7 +77,7 @@
                                     <div class="content-section">
                                         <h5 class="border-bottom pb-2" :class="{ 'border-secondary': isDarkMode }">
                                             Description</h5>
-                                        <p>{{this.selectedCharacter.manifest.description}}</p>
+                                        <p>{{decodeText(this.selectedCharacter.manifest.description)}}</p>
                                     </div>
 
                                     <!-- Categories -->

@@ -26,33 +26,59 @@ const GithubUtils = {
                     "x-github-api-version": "2022-11-28",
                 },
             });
-
+    
             console.log("GitHub API response received.");
-
-            if (!response.data || !response.data.content) {
-                throw new Error("File content is empty or undefined.");
-            }
-
-            console.log(`Content encoding: ${response.data.encoding}`);
-
-            if (outputFormat === "base64") {
-                console.log("Returning raw Base64 content.");
-                return response.data.content;  // Return as Base64
-            } else if (outputFormat === "json") {
-                const decodedContent = atob(response.data.content);
-                console.log(`Decoded content length: ${decodedContent.length} characters`);
-
-                const jsonData = JSON.parse(decodedContent);
-                console.log("JSON content parsed successfully.");
-                return jsonData;
+    
+            // Check if the content is empty (probably due to large file size)
+            if (!response.data.content && response.data.size > 1000000) {
+                console.log("File is too large for direct content. Using download_url instead.");
+                
+                // Use the download_url to fetch the content directly
+                const downloadResponse = await fetch(response.data.download_url);
+                
+                if (!downloadResponse.ok) {
+                    throw new Error(`Failed to download file: ${downloadResponse.status}`);
+                }
+                
+                if (outputFormat === "base64") {
+                    // If Base64 format is requested, encode the content
+                    const text = await downloadResponse.text();
+                    const base64Content = btoa(text);
+                    return base64Content;
+                } else if (outputFormat === "json") {
+                    // If JSON format is requested, parse the content as JSON
+                    const jsonData = await downloadResponse.json();
+                    console.log("JSON content parsed successfully.");
+                    return jsonData;
+                }
+            } else if (response.data && response.data.content) {
+                // Processing for smaller files that can be accessed directly
+                console.log(`Content encoding: ${response.data.encoding}`);
+    
+                if (outputFormat === "base64") {
+                    console.log("Returning raw Base64 content.");
+                    return response.data.content;  // Return as Base64
+                } else if (outputFormat === "json") {
+                    // Decode the Base64 content to retrieve the actual JSON data
+                    const decodedContent = atob(response.data.content);
+                    console.log(`Decoded content length: ${decodedContent.length} characters`);
+    
+                    const jsonData = JSON.parse(decodedContent);
+                    console.log("JSON content parsed successfully.");
+                    return jsonData;
+                } else {
+                    throw new Error(`Invalid outputFormat: ${outputFormat}`);
+                }
             } else {
-                throw new Error(`Invalid outputFormat: ${outputFormat}`);
+                // Handle unexpected cases where content is missing
+                console.error(response);
+                throw new Error("File content is empty or undefined.");
             }
         } catch (error) {
             console.error("Error fetching or processing GitHub data:", error.message);
             throw error;
         }
-    }
+    }    
 };
 
 const Misc = {

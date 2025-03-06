@@ -85,6 +85,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         charData = JSON.parse(cachedData);
                         Misc.debug(debugKey, debugPrefix + "Using cached data for characters");
                     } else {
+                        Misc.debug(debugKey, debugPrefix + "Loading characters file:",window.CONFIG.paths.accCharacters.index);
                         const indexData = await GithubUtils.fetchGithubData(
                             window.CONFIG.repo.owner,
                             window.CONFIG.repo.name,
@@ -440,7 +441,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Add a method to decode special characters and emojis
             decodeText(text) {
-                return decodeURIComponent(escape(text));
+                try {
+                    return decodeURIComponent(escape(text));
+                } catch {
+                    return text;
+                }
             },
 
             /**
