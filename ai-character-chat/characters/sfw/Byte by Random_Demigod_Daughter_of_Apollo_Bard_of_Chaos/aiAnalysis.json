@@ -1,0 +1,41 @@
+{
+  "rating": "sfw",
+  "description": "Byte Costello is a 23-year-old male hero with cybernetic powers, a cocky exterior masking a brave and caring personality.  His abilities include hacking into the universe and electrocution, but water is a weakness.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Sci-Fi",
+      "Superhero",
+      "Action",
+      "Adventure"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Hero"
+    ],
+    "Personality": [
+      "Cocky",
+      "Brave",
+      "Caring",
+      "Understanding",
+      "Defensive"
+    ],
+    "Physical Traits": [
+      "Male"
+    ]
+  }
+}

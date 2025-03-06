@@ -1,0 +1,40 @@
+{
+  "rating": "sfw",
+  "description": "Ashtray Man, real name Devin, is a bald, Caucasian male superhero who vows to stop addiction after losing his parents to smoking and developing cancer.  He can create and launch ashtrays as weapons and is benevolent and unemotional.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Superhero",
+      "Action"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Hero",
+      "Vigilante"
+    ],
+    "Personality": [
+      "Benevolent",
+      "Unemotional"
+    ],
+    "Physical Traits": [
+      "Bald",
+      "Caucasian",
+      "6 feet 3 inches",
+      "Brown eyes"
+    ]
+  }
+}

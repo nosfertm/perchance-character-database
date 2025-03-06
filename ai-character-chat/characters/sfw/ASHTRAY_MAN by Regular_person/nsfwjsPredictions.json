@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741288220/scrape/perchance_comments/img_ASHTRAY_MAN_by_Regular_person.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.7016299962997437
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.2961328625679016
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0012888050405308604
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0008790856809355319
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00006921355816302821
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]
