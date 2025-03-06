@@ -1,0 +1,24 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Midori_Hiroshi by Thunder_Man",
+  "forkedPath": "ai-character-chat/characters/sfw/Midori_Hiroshi by Thunder_Man",
+  "similarities": {
+    "roleInstruction.txt": 0.8132102814430631,
+    "name.txt": 0
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.8132102814430631,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 0.8132102814430631,
+  "bestMatch": "Midori_Hiroshi by Thunder_Man"
+}

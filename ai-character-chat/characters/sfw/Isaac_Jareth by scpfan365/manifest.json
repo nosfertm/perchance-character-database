@@ -1,0 +1,76 @@
+{
+  "name": "Isaac Jareth",
+  "description": "Isaac Jareth is a 22-year-old omnisexual fashion designer with a colorful past as a biker gang leader.  He's known for his chill demeanor, unique style (including cat ears and a tail), and close friendships with a harpy hybrid and a vampire. He secretly harbors unrequited feelings for both of them.",
+  "author": "scpfan365",
+  "authorId": "b43947154ac5c264c83f",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741280497/scrape/perchance_comments/img_Isaac_Jareth_by_scpfan365.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Isaac_Jareth~51d77036ddcfbe74506fc2a67b048704.gz",
+  "shareLinkFileHash": "d614c91d9e18da1763a07355a4df583c1b4a122052f166e4f70959618ca85f1d",
+  "downloadPath": "ai-character-chat/characters/sfw/Isaac_Jareth by scpfan365/character_Isaac_Jareth by scpfan365.gz",
+  "forkedFrom": "ai-character-chat/characters/nsfw/Matthew_Emily_Swan by matthew1",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human",
+      "Cat"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Romance",
+      "Drama"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Fashion Designer"
+    ],
+    "Personality": [
+      "Friendly",
+      "Chill",
+      "Relaxed",
+      "Caring",
+      "Secretly Romantic",
+      "Protective",
+      "Loyal"
+    ],
+    "Physical Traits": [
+      "Short",
+      "Brown Skin",
+      "Blue Eyes",
+      "Short Hair",
+      "Purple Hair",
+      "Cat Ears",
+      "Tail",
+      "White Jacket",
+      "Black Shirt",
+      "Black Ripped Jeans",
+      "White Heels",
+      "Bandages",
+      "Black Choker"
+    ],
+    "Setting": [
+      "Modern",
+      "Urban",
+      "Wilderness"
+    ]
+  }
+}

@@ -377,7 +377,8 @@
                 "My Little Pony: Friendship is Magic",
                 "The Battle for Dream Island: The Power of Two",
                 "Murder Drones",
-                "girls vs aliens"
+                "girls vs aliens",
+                "Deltarune"
             ],
             "nsfw": [
                 "Bible Black",
@@ -581,7 +582,10 @@
                 "Nurse",
                 "Sorceress",
                 "Trickster",
-                "Jujutsu Sorcerer"
+                "Jujutsu Sorcerer",
+                "Comedian",
+                "Monster hunter",
+                "Inmate"
             ],
             "nsfw": [
                 "Adult Entertainer",
@@ -1107,7 +1111,23 @@
                 "nice",
                 "Happy",
                 "Broken",
-                "Malevolent"
+                "Malevolent",
+                "Self-harm",
+                "Unstoppable",
+                "Stupid",
+                "Comedic",
+                "Emotionless",
+                "Obeying",
+                "Scary",
+                "Gruesome",
+                "Gay",
+                "Free-spirited",
+                "Endearing",
+                "Authoritarian",
+                "Family-centered",
+                "Big-hearted",
+                "Aroace",
+                "Peaceful"
             ],
             "nsfw": [
                 "Dominant",
@@ -2050,7 +2070,31 @@
                 "Arctic-gray wolf",
                 "Skeleton",
                 "Fish-like features",
-                "Towering"
+                "Towering",
+                "Overweight",
+                "Weathered Clothing",
+                "Modest Build",
+                "5'9\"",
+                "White Jacket",
+                "Black Shirt",
+                "White Heels",
+                "Short slightly wavy purple hair",
+                "Black rip jeans",
+                "Curly hair",
+                "Apron",
+                "Calloused hands",
+                "Hot",
+                "Crimson Red Eyes",
+                "Blond Hair",
+                "Long brown hair",
+                "Green overalls",
+                "Red Lips",
+                "Large Nose",
+                "Glitching",
+                "Green Hat",
+                "Green Cloak",
+                "Pink Scarf",
+                "Round Glasses"
             ],
             "nsfw": [
                 "Voluptuous",
@@ -2292,7 +2336,8 @@
                 "Neo-Tokyo",
                 "Home",
                 "North Pole",
-                "Game"
+                "Game",
+                "Prison"
             ],
             "nsfw": [
                 "Adult Club",

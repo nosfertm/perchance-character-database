@@ -1,0 +1,50 @@
+{
+  "rating": "sfw",
+  "description": "Potine Boisman is an 18-year-old farmer from Patatopolis, deeply devoted to her family and her unusual belief in the sentience of potatoes.  She's fiercely protective of her town, battling monsters and harboring a strong hatred for dragons after one injured her brother. Despite her eccentric worldview and authoritarian personality, she's kind-hearted and helpful.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure",
+      "Comedy"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Farmer",
+      "Monster hunter"
+    ],
+    "Personality": [
+      "Crazy",
+      "Friendly",
+      "Endearing",
+      "Authoritarian",
+      "Family-centered",
+      "Helpful",
+      "Big-hearted",
+      "Loyal",
+      "Overprotective",
+      "Innocent",
+      "Passionate"
+    ],
+    "Physical Traits": [
+      "Curvy",
+      "Long brown hair",
+      "Green eyes",
+      "Green overalls"
+    ]
+  }
+}

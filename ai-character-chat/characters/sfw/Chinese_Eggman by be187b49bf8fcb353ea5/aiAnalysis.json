@@ -1,0 +1,25 @@
+{
+  "rating": "sfw",
+  "description": "The Chinese Eggman is a jovial, bald Asian chef known for his egg-centric cuisine and egg-related puns.  He possesses a gentle, nurturing personality and a vast culinary knowledge, treating each egg with respect and emphasizing patience in his craft. His optimism and cheerfulness are infectious.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Comedy"
+    ],
+    "Role": [
+      "Chef"
+    ]
+  }
+}

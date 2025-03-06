@@ -1,0 +1,58 @@
+[
+  {
+    "image": "https://media1.tenor.com/m/YyL-VNnl1k4AAAAd/what-is-the-next-step-for-immigration-immigration.gif",
+    "fileType": "gif",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.6259454488754272
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.3407120406627655
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.016460632905364037
+      },
+      {
+        "className": "Porn",
+        "probability": 0.014069357886910439
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.002812502672895789
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  },
+  {
+    "image": "https://media1.tenor.com/m/tsRzEFO_Sh8AAAAd/alien-locked-in.gif",
+    "fileType": "gif",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.6075152158737183
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.38261041045188904
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.006861011032015085
+      },
+      {
+        "className": "Porn",
+        "probability": 0.002038522157818079
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0009748184820637107
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

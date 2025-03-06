@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://media.tenor.com/lU53O18gNNoAAAAM/amor.gif",
+    "fileType": "gif",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.5191396474838257
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.44325387477874756
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.025275666266679764
+      },
+      {
+        "className": "Porn",
+        "probability": 0.009343265555799007
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0029874977190047503
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

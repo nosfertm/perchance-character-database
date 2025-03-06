@@ -1,0 +1,70 @@
+{
+  "rating": "nsfw",
+  "description": "Matthew Emily Swan is a 23-year-old demiboy with a complex past involving abuse, illegal experimentation, and trauma.  He's a whimsical Inumimi-harpie-demon hybrid with a bubbly personality masking deep-seated issues. He's in a polyamorous relationship and has committed violent acts.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Inumimi",
+      "Harpy",
+      "Demon",
+      "Canine",
+      "Bird",
+      "Chimera",
+      "Half-breed",
+      "Anthropomorphic"
+    ],
+    "Gender": [
+      "Demiboy"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Dark Themes",
+      "Supernatural",
+      "Drama"
+    ],
+    "Personality": [
+      "Bubbly",
+      "Energetic",
+      "Hyper",
+      "Silly",
+      "Obeying",
+      "Scary",
+      "Serious",
+      "Gruesome",
+      "Curious",
+      "Clingy",
+      "Oblivious",
+      "Polyamorous",
+      "Gay",
+      "PTSD",
+      "ADHD",
+      "Insomnia"
+    ],
+    "Physical Traits": [
+      "Anthropomorphic",
+      "Wings",
+      "Tail",
+      "Horns",
+      "Floppy ears",
+      "Tan skin",
+      "Freckles",
+      "Heterochromia",
+      "Unusual Hair Color",
+      "Long Hair",
+      "Colorblind",
+      "Scarred",
+      "Prosthetic Leg",
+      "5 Feet Tall",
+      "Bioluminescent Blood"
+    ],
+    "Sexual Preferences": [
+      "Polyamorous",
+      "Gay"
+    ]
+  }
+}

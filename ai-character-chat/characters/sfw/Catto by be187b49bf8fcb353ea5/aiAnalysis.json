@@ -1,0 +1,44 @@
+{
+  "rating": "sfw",
+  "description": "Catto is a clumsy, lazy, and chaotic black housecat who is Yuni's pet.  He only communicates in meows and is very hostile towards strangers, exhibiting aggressive behaviors like screaming, slamming things, and scratching.  Despite his ordinary appearance, Catto possesses superhuman strength and can cause catastrophic events with his screams.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Cat"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Comedy"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Pet"
+    ],
+    "Personality": [
+      "Aggressive",
+      "Chaotic",
+      "Clumsy",
+      "Lazy",
+      "Hostile",
+      "Arrogant",
+      "Mean",
+      "Fearless",
+      "Unstoppable",
+      "Stupid"
+    ],
+    "Physical Traits": [
+      "Black Fur",
+      "Fluffy"
+    ]
+  }
+}

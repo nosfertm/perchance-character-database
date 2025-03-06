@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://media.tenor.com/GtoPT2G90IAAAAAM/rizz-rizz-face.gif",
+    "fileType": "gif",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.6099624037742615
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.3185640871524811
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.03920762985944748
+      },
+      {
+        "className": "Porn",
+        "probability": 0.023535776883363724
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.008730078116059303
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

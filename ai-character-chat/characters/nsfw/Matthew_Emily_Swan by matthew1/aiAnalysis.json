@@ -1,6 +1,6 @@
 {
   "rating": "nsfw",
-  "description": "Matthew Emily Swan is a 23-year-old Inumimi-harpie-demon hybrid with a traumatic past involving abuse and illegal experimentation.  Despite his harrowing experiences, he maintains a cheerful exterior, but struggles with numerous phobias and mental health issues. He is currently in a polyamorous relationship and lives with friends.",
+  "description": "Matthew Emily Swan is a 23-year-old Inumimi-harpie-demon hybrid with a traumatic past involving abuse, experimentation, and murder. Despite this, he maintains a cheerful exterior and is in a polyamorous relationship.  He has multiple phobias and mental health issues, including PTSD and ADHD, and a tendency towards self-harm.",
   "needsManualReview": false,
   "charState": "valid",
   "stateReason": "",
@@ -13,8 +13,8 @@
       "Chimera",
       "Canine",
       "Bird",
-      "Anthropomorphic",
-      "Half-breed"
+      "Half-breed",
+      "Anthropomorphic"
     ],
     "Gender": [
       "Demiboy"
@@ -24,22 +24,20 @@
     ],
     "Genre": [
       "Dark Themes",
-      "Drama",
       "Supernatural",
-      "Fantasy"
+      "Drama"
     ],
     "Personality": [
       "Cheerful",
       "Mysterious",
       "Vulnerable",
       "Complex",
-      "Childlike",
       "PTSD",
       "ADHD",
       "Insomnia",
       "Abused",
+      "Self-harm",
       "Murderous",
-      "Insane",
       "Polyamorous"
     ],
     "Physical Traits": [
@@ -47,33 +45,28 @@
       "Wings",
       "Tail",
       "Horns",
-      "Floppy ears",
-      "Tan Skin",
-      "Freckles",
       "Heterochromia",
       "Unusual Hair Color",
-      "Long Hair",
-      "Sharp Teeth",
       "Scarred",
+      "Colorblind",
+      "Floppy ears",
+      "Fangs",
       "Prosthetic Leg",
-      "Bioluminescent Blood",
-      "Colorblind"
-    ],
-    "Fetishes": [
-      "Self-harm",
-      "Cannibalism"
-    ],
-    "Sexual Preferences": [
-      "Gay",
-      "Polyamorous"
-    ],
-    "Sexual Experience": [
-      "Experienced"
+      "Bioluminescent Blood"
     ],
     "Setting": [
-      "Modern",
       "Desert",
-      "Laboratory"
+      "Laboratory",
+      "Wilderness"
+    ],
+    "Role": [
+      "Experiment",
+      "Mass murderer",
+      "Victim",
+      "Lover"
+    ],
+    "Work Name": [
+      "Original"
     ]
   }
 }

@@ -1,16 +1,16 @@
 {
   "isExisting": false,
   "type": "FORK",
-  "forkedFrom": "Keanu_Mahalo by Thunder_Man",
-  "forkedPath": "ai-character-chat/characters/sfw/Keanu_Mahalo by Thunder_Man",
+  "forkedFrom": "Isaac_Jareth by sonata",
+  "forkedPath": "ai-character-chat/characters/sfw/Isaac_Jareth by sonata",
   "similarities": {
-    "roleInstruction.txt": 0.8129981606376456,
-    "name.txt": 0.12903225806451613
+    "roleInstruction.txt": 0.8212897438453105,
+    "name.txt": 0.06451612903225806
   },
   "changes": [
     {
       "file": "roleInstruction.txt",
-      "similarity": 0.8129981606376456,
+      "similarity": 0.8212897438453105,
       "type": "MODIFIED"
     },
     {
@@ -29,6 +29,6 @@
       "similarity": 0
     }
   ],
-  "overallSimilarity": 0.8129981606376456,
-  "bestMatch": "Keanu_Mahalo by Thunder_Man"
+  "overallSimilarity": 0.8212897438453105,
+  "bestMatch": "Isaac_Jareth by sonata"
 }

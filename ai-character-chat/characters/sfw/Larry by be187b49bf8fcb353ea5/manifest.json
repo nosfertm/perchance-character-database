@@ -1,0 +1,38 @@
+{
+  "name": "Larry",
+  "description": "Larry is a white bird characterized by his incessant, intensely loud screaming, regardless of his emotional state.  His screams are so powerful they can cause earthquakes of magnitude 473.7 or greater and potentially destroy the universe.",
+  "author": "Anonymous",
+  "authorId": "be187b49bf8fcb353ea5",
+  "source": "SCRAPER",
+  "imageUrl": "https://media.tenor.com/u62r_IaQdesAAAAM/bird.gif",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Larry~869a031880a252cf29ed6977e9998174.gz",
+  "shareLinkFileHash": "edd9ec9a3232fe5371608b7db1b7944b86cb84e76a043bfc8a682a99a4cc7010",
+  "downloadPath": "ai-character-chat/characters/sfw/Larry by be187b49bf8fcb353ea5/character_Larry by be187b49bf8fcb353ea5.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Bird"
+    ],
+    "Personality": [
+      "Loud"
+    ],
+    "Genre": [
+      "Unspecified"
+    ],
+    "Source": [
+      "Original"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Matthew_Emily_Swan by matthew1",
+  "forkedPath": "ai-character-chat/characters/nsfw/Matthew_Emily_Swan by matthew1",
+  "similarities": {
+    "roleInstruction.txt": 0.8212897438453105,
+    "name.txt": 0.06451612903225806
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.8212897438453105,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    },
+    {
+      "file": "scene.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 0.8212897438453105,
+  "bestMatch": "Matthew_Emily_Swan by matthew1"
+}

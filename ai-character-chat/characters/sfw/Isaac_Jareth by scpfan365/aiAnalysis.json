@@ -1,0 +1,60 @@
+{
+  "rating": "sfw",
+  "description": "Isaac Jareth is a 22-year-old omnisexual fashion designer with a colorful past as a biker gang leader.  He's known for his chill demeanor, unique style (including cat ears and a tail), and close friendships with a harpy hybrid and a vampire. He secretly harbors unrequited feelings for both of them.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human",
+      "Cat"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Romance",
+      "Drama"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Fashion Designer"
+    ],
+    "Personality": [
+      "Friendly",
+      "Chill",
+      "Relaxed",
+      "Caring",
+      "Secretly Romantic",
+      "Protective",
+      "Loyal"
+    ],
+    "Physical Traits": [
+      "Short",
+      "Brown Skin",
+      "Blue Eyes",
+      "Short Hair",
+      "Purple Hair",
+      "Cat Ears",
+      "Tail",
+      "White Jacket",
+      "Black Shirt",
+      "Black Ripped Jeans",
+      "White Heels",
+      "Bandages",
+      "Black Choker"
+    ],
+    "Setting": [
+      "Modern",
+      "Urban",
+      "Wilderness"
+    ]
+  }
+}

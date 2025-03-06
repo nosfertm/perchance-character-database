@@ -1,0 +1,58 @@
+[
+  {
+    "image": "https://media.tenor.com/u62r_IaQdesAAAAM/bird.gif",
+    "fileType": "gif",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.7287180423736572
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.21210522949695587
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.04023103415966034
+      },
+      {
+        "className": "Porn",
+        "probability": 0.014600302092730999
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.004345323424786329
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  },
+  {
+    "image": "https://media.tenor.com/u62r_IaQdesAAAAM/bird.gif",
+    "fileType": "gif",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.7287180423736572
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.21210522949695587
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.04023103415966034
+      },
+      {
+        "className": "Porn",
+        "probability": 0.014600302092730999
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.004345323424786329
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

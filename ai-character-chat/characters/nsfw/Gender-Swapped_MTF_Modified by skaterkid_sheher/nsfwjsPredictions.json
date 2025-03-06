@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://fictionlab.ai/image-cdn/scenarios/ae015ecb-bf64-4b62-8a05-e645573c7a06-main.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.9965301156044006
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.003436536993831396
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.000030439872716669925
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0000026829541184270056
+      },
+      {
+        "className": "Sexy",
+        "probability": 2.686985851596546e-7
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

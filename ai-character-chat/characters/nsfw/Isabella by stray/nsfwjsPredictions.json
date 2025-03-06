@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://cdn.tupperbox.app/pfp/355808531930284034/4whHWqYMGxElzvQa.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Sexy",
+        "probability": 0.4556174874305725
+      },
+      {
+        "className": "Porn",
+        "probability": 0.2338288575410843
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.14257405698299408
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.09122184664011002
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.07675773650407791
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]
