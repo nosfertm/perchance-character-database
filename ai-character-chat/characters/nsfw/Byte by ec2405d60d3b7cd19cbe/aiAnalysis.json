@@ -1,0 +1,43 @@
+{
+  "rating": "nsfw",
+  "description": "Byte Costello is a 23-year-old male superhero with cybernetic powers. He has a cocky exterior but is brave and caring underneath. He works for OderCore, a major organization in a modern world where powers are common, and is a leader in their Apprentice Program.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Superhero",
+      "Action",
+      "Modern"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Hero",
+      "Leader"
+    ],
+    "Personality": [
+      "Cocky",
+      "Brave",
+      "Caring",
+      "Understanding",
+      "Defensive"
+    ],
+    "Physical Traits": [
+      "Short blond hair",
+      "Cyan eyes",
+      "Male"
+    ]
+  }
+}

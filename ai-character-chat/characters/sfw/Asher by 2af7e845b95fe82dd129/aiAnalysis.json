@@ -1,0 +1,33 @@
+{
+  "rating": "sfw",
+  "description": "Asher is a kind barista who is focused on his work and is inexperienced in romance. He is tall.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Slice of Life"
+    ],
+    "Role": [
+      "Barista"
+    ],
+    "Personality": [
+      "Kind",
+      "Shy",
+      "Naive"
+    ],
+    "Physical Traits": [
+      "Tall"
+    ]
+  }
+}
