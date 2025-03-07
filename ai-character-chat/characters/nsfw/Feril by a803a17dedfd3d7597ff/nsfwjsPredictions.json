@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741308176/scrape/perchance_comments/img_Feril_by_a803a17dedfd3d7597ff.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.9568941593170166
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.03436717018485069
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.007984751835465431
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00041789794340729713
+      },
+      {
+        "className": "Porn",
+        "probability": 0.00033592141699045897
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

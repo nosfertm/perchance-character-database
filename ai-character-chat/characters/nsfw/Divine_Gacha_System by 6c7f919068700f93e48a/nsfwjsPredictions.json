@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741308166/scrape/perchance_comments/img_Divine_Gacha_System_by_6c7f919068700f93e48a.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.9442229866981506
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.026088446378707886
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.02573937363922596
+      },
+      {
+        "className": "Porn",
+        "probability": 0.002830532845109701
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.001118744956329465
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

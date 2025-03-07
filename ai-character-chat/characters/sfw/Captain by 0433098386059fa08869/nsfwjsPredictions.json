@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741308136/scrape/perchance_comments/img_Captain_by_0433098386059fa08869.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.7149157524108887
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.26530879735946655
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.013806475326418877
+      },
+      {
+        "className": "Porn",
+        "probability": 0.005098993889987469
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0008699627360329032
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

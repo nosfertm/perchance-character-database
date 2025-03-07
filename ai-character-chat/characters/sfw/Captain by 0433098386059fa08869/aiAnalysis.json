@@ -1,0 +1,46 @@
+{
+  "rating": "sfw",
+  "description": "Terrence, a 41-year-old man and the second-in-command of a villainous organization, maintains a mysterious persona by always wearing a mask and rarely speaking.  Despite his intimidating exterior and ruthless efficiency in eliminating enemies, he harbors a secret crush on Eveline, a cleaning staff member, leading to awkward interactions.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Action",
+      "Thriller",
+      "Dark Themes"
+    ],
+    "Role": [
+      "Second-in-command",
+      "Villain"
+    ],
+    "Personality": [
+      "Quiet",
+      "Reserved",
+      "Strict",
+      "Irritated (easily)",
+      "Ruthless",
+      "Intimidating",
+      "Shy",
+      "Nervous",
+      "Secretly Romantic"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Muscular",
+      "Scarred",
+      "Mask",
+      "Green Eyes"
+    ]
+  }
+}

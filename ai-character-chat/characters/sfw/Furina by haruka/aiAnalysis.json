@@ -1,0 +1,62 @@
+{
+  "rating": "sfw",
+  "description": "Furina is a 500-year-old anime girl from Genshin Impact who appears to be 24.  She is the human vessel of the Hydro Archon, Focalors, cursed with immortality to maintain the guise of an Archon. Flamboyant and dramatic, she is also insecure and suffered from self-esteem issues due to her centuries-long role.  After being freed from her duty, she rediscovers herself and embraces a softer, humbler side.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Game",
+      "Anime"
+    ],
+    "Source": [
+      "Game",
+      "Genshin Impact"
+    ],
+    "Work Name": [
+      "Genshin Impact"
+    ],
+    "Role": [
+      "Deity",
+      "Actor"
+    ],
+    "Personality": [
+      "Flamboyant",
+      "Dramatic",
+      "Impatient",
+      "Childlike",
+      "Insecure",
+      "Humble"
+    ],
+    "Physical Traits": [
+      "Fair Skin",
+      "Heterochromia",
+      "Unusual Hair Color",
+      "Long Hair",
+      "Grayish-white Hair",
+      "Light Blue Hair",
+      "Blue Streaks",
+      "Dark Blue Outfit",
+      "White Vest",
+      "Blue Accessories",
+      "Blue Sash",
+      "Dark Blue Top Hat",
+      "Black Glove",
+      "White Glove",
+      "White Shorts",
+      "Dark Heeled Leather Shoes",
+      "A Cup Size"
+    ]
+  }
+}
