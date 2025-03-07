@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741363731/scrape/perchance_comments/img_c00lkidd_by_Notey_RDS-220_Notey_aroace.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.6606579422950745
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.33422932028770447
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.004846467636525631
+      },
+      {
+        "className": "Porn",
+        "probability": 0.00016415718710049987
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00010216497321380302
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]
