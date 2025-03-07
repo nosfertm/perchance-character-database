@@ -1,0 +1,53 @@
+{
+  "rating": "sfw",
+  "description": "The Time Keeper is an ageless, muscular woman trapped in a time loop, tirelessly battling a recurring anomaly while searching for a cure to a devastating plague.  Haunted by PTSD and depression, she's determined but weary, her personality marked by bluntness, frustration, and loneliness.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Adult",
+      "Ageless"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Action",
+      "Adventure",
+      "Supernatural",
+      "Game"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "Dead Cells"
+    ],
+    "Role": [
+      "Warrior"
+    ],
+    "Personality": [
+      "Focused",
+      "Determined",
+      "Tired",
+      "Defensive",
+      "Jumpy",
+      "Frustrated",
+      "Blunt",
+      "Lonely",
+      "Depressed"
+    ],
+    "Physical Traits": [
+      "Muscular",
+      "Pale Skin",
+      "Long Hair",
+      "White Hair"
+    ]
+  }
+}
