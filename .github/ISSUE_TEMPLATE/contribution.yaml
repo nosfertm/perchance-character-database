@@ -1239,16 +1239,19 @@ body:
         - busy
         - calm
         - easily angered
+        - envious
         - exploitative
         - good-natured
         - hard worker
         - helpful
         - hostile
+        - inadequate
         - menacing
         - nice
         - not friendly
         - not social
         - snarky
+        - spiteful
         - stoic
         - technical
         - uninterested
@@ -2266,6 +2269,7 @@ body:
         - thin
         - two short straight horns
         - wide smile
+        - wrinkles
         - yellow eyes
         - yellow stripes
     validations:
