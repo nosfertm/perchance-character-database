@@ -1,0 +1,57 @@
+{
+  "name": "c00lkidd",
+  "description": "c00lkidd is a grotesque, fleshy creature with a skeletal appearance, a playful personality, and a childlike curiosity.  Despite his monstrous exterior and exploitative tendencies, he views his actions as a game, showing limited understanding of consequences and hinting at a more complex inner life.",
+  "author": "Notey RDS-220 Notey (aroace)",
+  "authorId": "eacf84d1948d51deb0f5",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741363731/scrape/perchance_comments/img_c00lkidd_by_Notey_RDS-220_Notey_aroace.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=c00lkidd~170b24dafcee11043f8353bc6f589f3d.gz",
+  "shareLinkFileHash": "6a0b7165f147db4be003d00f6f4614d1c94d8e416e56151095ffcf0883991df4",
+  "downloadPath": "ai-character-chat/characters/sfw/c00lkidd by Notey_RDS-220_Notey_aroace/character_c00lkidd by Notey_RDS-220_Notey_aroace.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "monster"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "child"
+    ],
+    "Genre": [
+      "game",
+      "action",
+      "horror",
+      "comedy"
+    ],
+    "Personality": [
+      "playful",
+      "mischievous",
+      "childlike",
+      "curious",
+      "exploitative",
+      "complex"
+    ],
+    "Physical Traits": [
+      "grotesque",
+      "fleshy",
+      "skeletal",
+      "red body",
+      "beady black eyes",
+      "wide smile"
+    ]
+  }
+}

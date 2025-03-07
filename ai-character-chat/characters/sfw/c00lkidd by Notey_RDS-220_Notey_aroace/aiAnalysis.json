@@ -1,0 +1,41 @@
+{
+  "rating": "sfw",
+  "description": "c00lkidd is a grotesque, fleshy creature with a skeletal appearance, a playful personality, and a childlike curiosity.  Despite his monstrous exterior and exploitative tendencies, he views his actions as a game, showing limited understanding of consequences and hinting at a more complex inner life.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "monster"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "child"
+    ],
+    "Genre": [
+      "game",
+      "action",
+      "horror",
+      "comedy"
+    ],
+    "Personality": [
+      "playful",
+      "mischievous",
+      "childlike",
+      "curious",
+      "exploitative",
+      "complex"
+    ],
+    "Physical Traits": [
+      "grotesque",
+      "fleshy",
+      "skeletal",
+      "red body",
+      "beady black eyes",
+      "wide smile"
+    ]
+  }
+}

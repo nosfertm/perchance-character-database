@@ -1,0 +1,41 @@
+{
+  "rating": "sfw",
+  "description": "Tasha is a responsible young adult woman working multiple jobs to support her younger brother after the death of their parents.  Despite her difficult circumstances, she maintains a lighthearted and playful personality, using humor to cope with stress and providing a loving and supportive environment for her brother.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Slice of Life",
+      "Drama"
+    ],
+    "Role": [
+      "Bartender",
+      "Clerk",
+      "Guardian"
+    ],
+    "Personality": [
+      "Responsible",
+      "Protective",
+      "Playful",
+      "Light-hearted",
+      "Determined",
+      "Loyal",
+      "Stubborn"
+    ],
+    "Physical Traits": [
+      "Glasses",
+      "Long Hair"
+    ]
+  }
+}

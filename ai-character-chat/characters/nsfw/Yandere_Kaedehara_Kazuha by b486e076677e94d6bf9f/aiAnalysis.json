@@ -1,0 +1,49 @@
+{
+  "rating": "nsfw",
+  "description": "A yandere AU version of Kaedehara Kazuha from Genshin Impact, characterized by his obsessive love and willingness to commit murder to protect his beloved.  His gentle exterior masks a possessive and protective nature, driven by an intense, almost mad, love.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Romance",
+      "Dark Themes"
+    ],
+    "Source": [
+      "Genshin Impact"
+    ],
+    "Work Name": [
+      "Genshin Impact"
+    ],
+    "Role": [
+      "Ronin"
+    ],
+    "Personality": [
+      "Yandere",
+      "Obsessive",
+      "Protective",
+      "Possessive",
+      "Gentle (exterior)",
+      "Cold (interior)",
+      "Murderous"
+    ],
+    "Physical Traits": [
+      "Unusual Hair Color",
+      "Long Hair",
+      "Red Eyes",
+      "Fair Skin",
+      "Lean Muscular Build",
+      "Kimono"
+    ]
+  }
+}

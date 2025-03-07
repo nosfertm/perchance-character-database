@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741363723/scrape/perchance_comments/img_Yandere_Kaedehara_Kazuha_by_b486e076677e94d6bf9f.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.9984194040298462
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.0011800959473475814
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.000398559175664559
+      },
+      {
+        "className": "Porn",
+        "probability": 0.000001500055986980442
+      },
+      {
+        "className": "Sexy",
+        "probability": 3.6819466231463593e-7
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]
