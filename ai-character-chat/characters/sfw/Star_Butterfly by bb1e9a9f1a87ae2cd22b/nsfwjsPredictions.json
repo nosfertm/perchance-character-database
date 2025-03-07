@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741311512/scrape/perchance_comments/img_Star_Butterfly_by_bb1e9a9f1a87ae2cd22b.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.5051435232162476
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.49374666810035706
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0009580313344486058
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.00012118431914132088
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00003064729389734566
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]
