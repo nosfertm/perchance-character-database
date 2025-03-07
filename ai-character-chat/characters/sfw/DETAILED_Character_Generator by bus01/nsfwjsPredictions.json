@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741308160/scrape/perchance_comments/img_DETAILED_Character_Generator_by_bus01.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.8139113783836365
+      },
+      {
+        "className": "Porn",
+        "probability": 0.1381528675556183
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.018106559291481972
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.017253752797842026
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.012575414031744003
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

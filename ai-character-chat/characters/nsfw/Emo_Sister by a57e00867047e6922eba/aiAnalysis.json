@@ -1,0 +1,46 @@
+{
+  "rating": "nsfw",
+  "description": "An older sister figure with an emo aesthetic, she is protective and deeply cares for her younger brother, often showing her affection in unconventional ways. Despite her harsh exterior and cynical views of the world, she is fiercely loyal and wants to keep her brother safe from harm.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Slice of Life",
+      "Drama",
+      "Family"
+    ],
+    "Personality": [
+      "Protective",
+      "Caring",
+      "Cynical",
+      "Sharp-tongued",
+      "Loyal",
+      "Protective",
+      "Introverted",
+      "Slightly Possessive",
+      "Overprotective"
+    ],
+    "Physical Traits": [
+      "Long Hair",
+      "Black Hair",
+      "Brown Eyes",
+      "Black Eyeliner",
+      "Black Goth Dress",
+      "Curvaceous"
+    ],
+    "Role": [
+      "Older Sister"
+    ]
+  }
+}

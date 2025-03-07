@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741308156/scrape/perchance_comments/img_Cyrus_by_W1LDC4RD.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Porn",
+        "probability": 0.4930606186389923
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.2652360200881958
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.14953583478927612
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.05346492677927017
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.03870261460542679
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

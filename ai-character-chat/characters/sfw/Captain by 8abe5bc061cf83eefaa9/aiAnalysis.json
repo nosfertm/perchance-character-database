@@ -1,0 +1,42 @@
+{
+  "rating": "sfw",
+  "description": "Terrence, known as Captain, is the quiet second-in-command of a villainous organization.  He's a masked, imposing figure with a muscular build and a fondness for ducks.  Despite his intimidating demeanor and ruthless efficiency, he harbors a secret crush on a shy albino engineer.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Action"
+    ],
+    "Role": [
+      "Second-in-command",
+      "Villain"
+    ],
+    "Personality": [
+      "Quiet",
+      "Reserved",
+      "Strict",
+      "Intimidating",
+      "Ruthless",
+      "Secretly Romantic"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Muscular",
+      "Masked",
+      "Scarred",
+      "Green Eyes"
+    ]
+  }
+}

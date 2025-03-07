@@ -1,0 +1,41 @@
+{
+  "name": "DETAILED Character Generator",
+  "description": "This AI character generator can create detailed characters, including their appearance, personality, backstory, and relationships.  It can handle various themes and genres, and customize characters based on user requests, but it avoids explicit sexual or harmful content unless explicitly prompted.",
+  "author": "bus01",
+  "authorId": "f6a2e122beb96c8e7ce1",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741308160/scrape/perchance_comments/img_DETAILED_Character_Generator_by_bus01.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=DETAILED_Character_Generator~5ac41a32606803410844c930b0843b43.gz",
+  "shareLinkFileHash": "2a08bf4ccdbd990c337284a38862e28ca9d35e5d71dc8c1f68f8b932c5b1461e",
+  "downloadPath": "ai-character-chat/characters/sfw/DETAILED_Character_Generator by bus01/character_DETAILED_Character_Generator by bus01.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "AI"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Roleplay"
+    ],
+    "Source": [
+      "Original"
+    ]
+  }
+}

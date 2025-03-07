@@ -1,0 +1,25 @@
+{
+  "rating": "sfw",
+  "description": "This AI character generator can create detailed characters, including their appearance, personality, backstory, and relationships.  It can handle various themes and genres, and customize characters based on user requests, but it avoids explicit sexual or harmful content unless explicitly prompted.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "AI"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Roleplay"
+    ],
+    "Source": [
+      "Original"
+    ]
+  }
+}
