@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741372087/scrape/perchance_comments/img_Jimmy_by_marina_shethey.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.8897312879562378
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.09064614772796631
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.017107484862208366
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0013222076231613755
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.0011928308522328734
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

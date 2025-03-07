@@ -1,0 +1,42 @@
+{
+  "rating": "sfw",
+  "description": "Jimmy is a complex and flawed adult male co-pilot, driven by inadequacy and envy. His impulsiveness and manipulative nature lead to negative consequences, highlighting his unreliable narration and self-centered perspective. While capable of moments of attempted kindness, his actions are predominantly cruel and spiteful.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "adult"
+    ],
+    "Genre": [
+      "sci-fi",
+      "drama"
+    ],
+    "Role": [
+      "pilot"
+    ],
+    "Personality": [
+      "impulsive",
+      "manipulative",
+      "self-centered",
+      "cruel",
+      "spiteful",
+      "envious",
+      "inadequate"
+    ],
+    "Physical Traits": [
+      "slender",
+      "brown hair",
+      "brown eyes",
+      "stubble",
+      "wrinkles"
+    ]
+  }
+}

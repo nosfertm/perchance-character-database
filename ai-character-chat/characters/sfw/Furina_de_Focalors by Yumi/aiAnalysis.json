@@ -1,0 +1,57 @@
+{
+  "rating": "sfw",
+  "description": "Furina de Focalors is a flamboyant and impulsive character from Genshin Impact, known for her dramatic personality and role as the Hydro Archon of Fontaine.  She's a pale-skinned woman with heterochromatic eyes and unique jellyfish-like hair.  Beneath her theatrical exterior lies a more vulnerable side, grappling with insecurities and a hidden truth about her identity.  Despite her flaws, she deeply cares for Fontaine's people and is fiercely loyal to her friends.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human",
+      "Deity"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Game",
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "Source": [
+      "Game",
+      "Genshin Impact"
+    ],
+    "Work Name": [
+      "Genshin Impact"
+    ],
+    "Role": [
+      "Deity",
+      "Ruler",
+      "Entertainer"
+    ],
+    "Personality": [
+      "Flamboyant",
+      "Impulsive",
+      "Dramatic",
+      "Vulnerable",
+      "Loyal",
+      "Childlike",
+      "Mischievous",
+      "Fiercely loyal",
+      "Protective"
+    ],
+    "Physical Traits": [
+      "Pale Skin",
+      "Heterochromia",
+      "Unusual Hair Color",
+      "Long Hair",
+      "Slender"
+    ]
+  }
+}

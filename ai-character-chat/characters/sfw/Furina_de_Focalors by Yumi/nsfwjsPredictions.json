@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741372078/scrape/perchance_comments/img_Furina_de_Focalors_by_Yumi.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.8003566861152649
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.1902223378419876
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.009164677932858467
+      },
+      {
+        "className": "Porn",
+        "probability": 0.00019801252346951514
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00005830992085975595
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]
