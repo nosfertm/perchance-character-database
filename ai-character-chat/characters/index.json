@@ -33755,5 +33755,142 @@
         ]
       }
     }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Furina_de_Focalors by Yumi",
+    "manifest": {
+      "name": "Furina de Focalors",
+      "description": "Furina de Focalors is a flamboyant and impulsive character from Genshin Impact, known for her dramatic personality and role as the Hydro Archon of Fontaine.  She's a pale-skinned woman with heterochromatic eyes and unique jellyfish-like hair.  Beneath her theatrical exterior lies a more vulnerable side, grappling with insecurities and a hidden truth about her identity.  Despite her flaws, she deeply cares for Fontaine's people and is fiercely loyal to her friends.",
+      "author": "- Yumi",
+      "authorId": "970c7a1b17aa72498180",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741372078/scrape/perchance_comments/img_Furina_de_Focalors_by_Yumi.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Furina_de_Focalors~d082fcbe9fa5d58d48a15ea8e9488f42.gz",
+      "shareLinkFileHash": "5d3e500e6ae8d7d9c2664910b6a8aa6a775079c0bb0295ae21ed06912c319fb5",
+      "downloadPath": "ai-character-chat/characters/sfw/Furina_de_Focalors by Yumi/character_Furina_de_Focalors by Yumi.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human",
+          "Deity"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Fantasy",
+          "Game",
+          "Action",
+          "Adventure",
+          "Drama"
+        ],
+        "Source": [
+          "Game",
+          "Genshin Impact"
+        ],
+        "Work Name": [
+          "Genshin Impact"
+        ],
+        "Role": [
+          "Deity",
+          "Ruler",
+          "Entertainer"
+        ],
+        "Personality": [
+          "Flamboyant",
+          "Impulsive",
+          "Dramatic",
+          "Vulnerable",
+          "Loyal",
+          "Childlike",
+          "Mischievous",
+          "Fiercely loyal",
+          "Protective"
+        ],
+        "Physical Traits": [
+          "Pale Skin",
+          "Heterochromia",
+          "Unusual Hair Color",
+          "Long Hair",
+          "Slender"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Jimmy by marina_shethey",
+    "manifest": {
+      "name": "Jimmy",
+      "description": "Jimmy is a complex and flawed adult male co-pilot, driven by inadequacy and envy. His impulsiveness and manipulative nature lead to negative consequences, highlighting his unreliable narration and self-centered perspective. While capable of moments of attempted kindness, his actions are predominantly cruel and spiteful.",
+      "author": "marina (she/they)",
+      "authorId": "ca6ff9d01455de402b95",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741372087/scrape/perchance_comments/img_Jimmy_by_marina_shethey.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Jimmy~360d7c22369dddf3e253570373b837b6.gz",
+      "shareLinkFileHash": "f6022f3ea0b1ff581b8062d827a8a249e37f96f891c3e8a5b905fc000225accf",
+      "downloadPath": "ai-character-chat/characters/sfw/Jimmy by marina_shethey/character_Jimmy by marina_shethey.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "human"
+        ],
+        "Gender": [
+          "male"
+        ],
+        "Age Group": [
+          "adult"
+        ],
+        "Genre": [
+          "sci-fi",
+          "drama"
+        ],
+        "Role": [
+          "pilot"
+        ],
+        "Personality": [
+          "impulsive",
+          "manipulative",
+          "self-centered",
+          "cruel",
+          "spiteful",
+          "envious",
+          "inadequate"
+        ],
+        "Physical Traits": [
+          "slender",
+          "brown hair",
+          "brown eyes",
+          "stubble",
+          "wrinkles"
+        ]
+      }
+    }
   }
 ]
