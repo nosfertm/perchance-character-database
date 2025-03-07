@@ -1,0 +1,29 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Potine_Translated_Version by 29197052e3d289533ae8",
+  "forkedPath": "ai-character-chat/characters/sfw/Potine_Translated_Version by 29197052e3d289533ae8",
+  "similarities": {
+    "roleInstruction.txt": 0.9178534073537694,
+    "name.txt": 0.14285714285714285
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.9178534073537694,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    },
+    {
+      "file": "scene.json",
+      "type": "ADDED",
+      "similarity": 0.5
+    }
+  ],
+  "overallSimilarity": 0.9178534073537694,
+  "bestMatch": "Potine_Translated_Version by 29197052e3d289533ae8"
+}
