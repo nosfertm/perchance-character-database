@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741342923/scrape/perchance_comments/img_The_Time_Keeper_Dead_Cells_by_f0f8b275b12fd693b93e.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.8605117201805115
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.13352607190608978
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.005556272808462381
+      },
+      {
+        "className": "Porn",
+        "probability": 0.00031245287391357124
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.000093423506768886
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]
