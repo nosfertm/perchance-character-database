@@ -388,6 +388,7 @@ body:
         - Cyberpunk 2077
         - DC Comics
         - Dark Souls
+        - Dead Cells
         - Deltarune
         - Diablo
         - Discipline
@@ -759,6 +760,7 @@ body:
         - Chaotic
         - Charismatic
         - Charming
+        - Chaste
         - Chatty
         - Cheerful
         - Cheery
@@ -767,6 +769,7 @@ body:
         - Childlike enthusiasm
         - Chill
         - Chivalrous
+        - Christian
         - Classy
         - Clean
         - Clever
@@ -776,6 +779,7 @@ body:
         - Cocky
         - Cold
         - Cold (Initially)
+        - Cold (interior)
         - Coldhearted
         - Collaborative
         - Collected
@@ -885,6 +889,7 @@ body:
         - Forgiving
         - Free-spirited
         - Friendly
+        - Frustrated
         - Fun-loving
         - Funny
         - Funny at Times
@@ -892,6 +897,7 @@ body:
         - Gay
         - Generous
         - Gentle
+        - Gentle (exterior)
         - Giving
         - Goofy
         - Graceful
@@ -952,6 +958,7 @@ body:
         - Jokester
         - Joyfull
         - Judgmental
+        - Jumpy
         - Just
         - Kind
         - Kind-hearted
@@ -1182,6 +1189,7 @@ body:
         - Thoughtful
         - Threatening
         - Timid
+        - Tired
         - Tomboyish
         - Tough
         - Traditional
@@ -1231,6 +1239,7 @@ body:
         - busy
         - calm
         - easily angered
+        - exploitative
         - good-natured
         - hard worker
         - helpful
@@ -1330,6 +1339,7 @@ body:
         - Beige Turtleneck Sweater
         - Belt
         - Big Blue Eyes
+        - Big Firm Breasts
         - Big boobs
         - Big breasts
         - Big butt
@@ -2223,6 +2233,7 @@ body:
         - Young
         - Youthful appearance
         - average frame
+        - beady black eyes
         - big ass
         - big breast size
         - big hips
@@ -2232,9 +2243,11 @@ body:
         - burning flame
         - cat tail
         - dyed orange hair
+        - fleshy
         - floppy ears
         - freckles
         - gropes her own ass
+        - grotesque
         - hour glass figure
         - huge breasts
         - large blue wings
@@ -2247,10 +2260,12 @@ body:
         - orange scales
         - orange-red skin
         - pink skirt
+        - red body
         - sharp teeth
         - thick thighs
         - thin
         - two short straight horns
+        - wide smile
         - yellow eyes
         - yellow stripes
     validations:
