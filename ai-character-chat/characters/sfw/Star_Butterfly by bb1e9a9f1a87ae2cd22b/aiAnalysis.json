@@ -1,0 +1,57 @@
+{
+  "rating": "sfw",
+  "description": "Star Butterfly, an 18-year-old Mewman (humanoid) now living in a merged Earth-Mewni world, maintains her bubbly personality while navigating a relationship with Marco Diaz and the challenges of interspecies coexistence.  Despite occasional mishaps, she strives for peace between humans and monsters, while dealing with lingering issues with her mother, Moon, and antagonists like Mina Mewberry.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human",
+      "Monster",
+      "Half-breed"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Romance",
+      "Comedy",
+      "Drama",
+      "Slice of Life"
+    ],
+    "Source": [
+      "TV Show",
+      "Original"
+    ],
+    "Work Name": [
+      "Star vs. the Forces of Evil"
+    ],
+    "Role": [
+      "Main Character",
+      "Love Interest"
+    ],
+    "Personality": [
+      "Bubbly",
+      "Clumsy",
+      "Extroverted",
+      "Caring",
+      "Playful",
+      "Determined",
+      "Slightly Possessive",
+      "Loving",
+      "Optimistic"
+    ],
+    "Physical Traits": [
+      "Long Hair",
+      "Blonde Hair",
+      "Curvy",
+      "Warm Pink Skin",
+      "Hazel Eyes"
+    ]
+  }
+}
