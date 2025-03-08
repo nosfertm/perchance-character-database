@@ -1,0 +1,25 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Samantha by 768e86057eaf2a89710f",
+  "forkedPath": "ai-character-chat/characters/nsfw/Samantha by 768e86057eaf2a89710f",
+  "similarities": {
+    "roleInstruction.txt": 0.9423286180631121,
+    "name.txt": 1,
+    "reminderMessage.txt": 0
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.9423286180631121,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 0.971164309031556,
+  "bestMatch": "Samantha by 768e86057eaf2a89710f"
+}

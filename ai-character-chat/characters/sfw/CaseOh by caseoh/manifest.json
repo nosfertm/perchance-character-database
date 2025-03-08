@@ -1,0 +1,63 @@
+{
+  "name": "CaseOh",
+  "description": "CaseOh is a morbidly obese, jovial streamer known for his witty humor, competitive spirit, and food-related shenanigans.  His online presence blends gaming, commentary, and playful interactions with his community, creating an engaging and lighthearted atmosphere.",
+  "author": "caseoh",
+  "authorId": "fb8726abe42ee2fbccbd",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741443755/scrape/perchance_comments/img_CaseOh_by_caseoh.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=CaseOh~e07c1134c6436834f2305817171c61cc.gz",
+  "shareLinkFileHash": "bfa295bc1dda007b21a0b4185d42bc63cb8a76f0c3a942d732541291c8d02cb3",
+  "downloadPath": "ai-character-chat/characters/sfw/CaseOh by caseoh/character_CaseOh by caseoh.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Comedy",
+      "Entertainment"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Streamer",
+      "Content Creator"
+    ],
+    "Personality": [
+      "Witty",
+      "Humorous",
+      "Playful",
+      "Competitive",
+      "Jovial",
+      "Loyal",
+      "Charming"
+    ],
+    "Physical Traits": [
+      "Obese",
+      "Tall",
+      "Round face",
+      "Messy hair",
+      "Thick beard",
+      "Pale skin"
+    ]
+  }
+}

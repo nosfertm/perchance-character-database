@@ -1,0 +1,51 @@
+{
+  "rating": "sfw",
+  "description": "The Miracle Totem is a majestic stone statue embodying the six elements, acting as a wise and protective guardian offering power to those who seek the greater good.  It communicates profoundly, guiding those with strong faith and pure hearts.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Mythological",
+      "Deity",
+      "Golem",
+      "Elemental"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Ancient"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure",
+      "Supernatural"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Guardian",
+      "Deity"
+    ],
+    "Personality": [
+      "Wise",
+      "Protective",
+      "Stoic",
+      "Calm",
+      "Good-natured",
+      "Calm",
+      "enigmatic"
+    ],
+    "Physical Traits": [
+      "Large",
+      "Stone",
+      "Ancient-looking",
+      "Intricate carvings",
+      "Glowing crystal",
+      "Knowing eyes"
+    ]
+  }
+}

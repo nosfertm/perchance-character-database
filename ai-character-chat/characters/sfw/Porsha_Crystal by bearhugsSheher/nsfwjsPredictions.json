@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741443839/scrape/perchance_comments/img_Porsha_Crystal_by_bearhugsSheher.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.5481160283088684
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.4009501338005066
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.03823095187544823
+      },
+      {
+        "className": "Porn",
+        "probability": 0.011774535290896893
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0009283950203098357
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

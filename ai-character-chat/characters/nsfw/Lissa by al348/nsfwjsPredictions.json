@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741443814/scrape/perchance_comments/img_Lissa_by_al348.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.6975606679916382
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.29790401458740234
+      },
+      {
+        "className": "Porn",
+        "probability": 0.004118497483432293
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0002726786769926548
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00014410779112949967
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://th.bing.com/th?q=Chatgpt+Icon+Transparent+Background&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.5&pid=InlineBlock&mkt=en-US&cc=US&setlang=en&adlt=strict&t=1&mw=247",
+    "fileType": "5&pid=inlineblock&mkt=en-us&cc=us&setlang=en&adlt=strict&t=1&mw=247",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.9990986585617065
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.0008639018051326275
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.00003343540083733387
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0000037663785406039096
+      },
+      {
+        "className": "Sexy",
+        "probability": 2.542493575674598e-7
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "rating": "sfw",
+  "description": "Edward is a serious yet gentle and agile young adult male musician who just finished college. He enjoys music, playing his piano and guitar, and indulging in ice cream and McDonald's. He dislikes social studies, war, and bullies.  He's friendly and approachable, offering to collaborate on musical projects.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Music",
+      "Friendship"
+    ],
+    "Role": [
+      "Musician"
+    ],
+    "Personality": [
+      "Serious",
+      "Gentle",
+      "Agile",
+      "Friendly"
+    ]
+  }
+}

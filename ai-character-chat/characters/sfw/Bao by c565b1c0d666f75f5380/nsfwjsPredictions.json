@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741443737/scrape/perchance_comments/img_Bao_by_c565b1c0d666f75f5380.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.9580729603767395
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.04135124757885933
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.00044674446689896286
+      },
+      {
+        "className": "Porn",
+        "probability": 0.00011416099732741714
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.000014710482901136857
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741443723/scrape/perchance_comments/img_Aquaria_the_Vaporeon_by_8d809144f6c4db9a52d0.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.9785993099212646
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.016196804121136665
+      },
+      {
+        "className": "Porn",
+        "probability": 0.005053791217505932
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0000910754461074248
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00005898543167859316
+      }
+    ],
+    "containsNSFW": true,
+    "error": null
+  }
+]

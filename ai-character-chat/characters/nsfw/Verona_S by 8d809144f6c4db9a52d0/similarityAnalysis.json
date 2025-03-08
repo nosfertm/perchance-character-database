@@ -1,0 +1,30 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Verona by 768e86057eaf2a89710f",
+  "forkedPath": "ai-character-chat/characters/nsfw/Verona by 768e86057eaf2a89710f",
+  "similarities": {
+    "roleInstruction.txt": 0.9173503494378609,
+    "name.txt": 0.9090909090909091,
+    "reminderMessage.txt": 0
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.9173503494378609,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "name.txt",
+      "similarity": 0.9090909090909091,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 0.913220629264385,
+  "bestMatch": "Verona by 768e86057eaf2a89710f"
+}

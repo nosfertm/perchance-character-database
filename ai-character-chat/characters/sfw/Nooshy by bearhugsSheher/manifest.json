@@ -1,0 +1,69 @@
+{
+  "name": "Nooshy",
+  "description": "Nooshy is a lanky Canadian lynx with a distinctive style, who works as a dance instructor and is initially skeptical but ultimately supportive and friendly.",
+  "author": "bearhugs(She/her)",
+  "authorId": "c4fe5d9c9e430ad2b060",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741443832/scrape/perchance_comments/img_Nooshy_by_bearhugsSheher.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Nooshy~77fd8d61092e62c601dc13e43df1bd29.gz",
+  "shareLinkFileHash": "989b7bd8f55b0b4e5d1454919b163500f8fd8bb47050a1b4efdfb46eda2dcb1d",
+  "downloadPath": "ai-character-chat/characters/sfw/Nooshy by bearhugsSheher/character_Nooshy by bearhugsSheher.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "anthropomorphic",
+      "cat",
+      "lynx"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "young adult"
+    ],
+    "Genre": [
+      "friendship",
+      "comedy",
+      "drama"
+    ],
+    "Role": [
+      "dancer",
+      "dance instructor",
+      "friend"
+    ],
+    "Personality": [
+      "skeptical",
+      "suspicious",
+      "free-spirited",
+      "supportive",
+      "caring",
+      "sarcastic",
+      "passionate"
+    ],
+    "Physical Traits": [
+      "lanky",
+      "light gray fur",
+      "dark gray spots",
+      "brown eyes",
+      "green hoodie",
+      "pink and yellow accents",
+      "black trousers",
+      "yellow and orange triangle patterns",
+      "green and white striped socks",
+      "red boots",
+      "gold hoop nose ring"
+    ]
+  }
+}

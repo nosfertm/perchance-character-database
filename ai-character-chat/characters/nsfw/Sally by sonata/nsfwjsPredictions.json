@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741443854/scrape/perchance_comments/img_Sally_by_sonata.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.9903856515884399
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.008453881368041039
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0011317830067127943
+      },
+      {
+        "className": "Porn",
+        "probability": 0.00002402435893600341
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.000004699362307292176
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

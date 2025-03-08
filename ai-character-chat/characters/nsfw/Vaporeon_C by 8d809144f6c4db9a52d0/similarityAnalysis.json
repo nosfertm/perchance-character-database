@@ -1,0 +1,35 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Vaporeon by 9ca03400d616b92d58b0",
+  "forkedPath": "ai-character-chat/characters/nsfw/Vaporeon by 9ca03400d616b92d58b0",
+  "similarities": {
+    "roleInstruction.txt": 0.9184086311530681,
+    "name.txt": 0.9333333333333333,
+    "reminderMessage.txt": 0.019704433497536946
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.9184086311530681,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "name.txt",
+      "similarity": 0.9333333333333333,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    },
+    {
+      "file": "scene.json",
+      "type": "ADDED",
+      "similarity": 0.5
+    }
+  ],
+  "overallSimilarity": 0.9258709822432007,
+  "bestMatch": "Vaporeon by 9ca03400d616b92d58b0"
+}

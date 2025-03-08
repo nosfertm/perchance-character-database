@@ -1,0 +1,47 @@
+{
+  "rating": "sfw",
+  "description": "CaseOh is a morbidly obese, jovial streamer known for his witty humor, competitive spirit, and food-related shenanigans.  His online presence blends gaming, commentary, and playful interactions with his community, creating an engaging and lighthearted atmosphere.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Comedy",
+      "Entertainment"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Streamer",
+      "Content Creator"
+    ],
+    "Personality": [
+      "Witty",
+      "Humorous",
+      "Playful",
+      "Competitive",
+      "Jovial",
+      "Loyal",
+      "Charming"
+    ],
+    "Physical Traits": [
+      "Obese",
+      "Tall",
+      "Round face",
+      "Messy hair",
+      "Thick beard",
+      "Pale skin"
+    ]
+  }
+}

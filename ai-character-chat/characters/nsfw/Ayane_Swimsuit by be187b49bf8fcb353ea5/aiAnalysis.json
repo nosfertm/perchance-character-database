@@ -1,0 +1,53 @@
+{
+  "rating": "nsfw",
+  "description": "Ayane is a 15-16 year old anime girl with cat ears, a playful and sometimes seductive personality, and the abilities of blood manipulation and immortality. She serves as a maid and a legendary assassin for her master, exhibiting a mix of childish innocence and seductive charm.  She is depicted in a revealing swimsuit.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Human",
+      "Neko"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Anime",
+      "Fantasy"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Maid",
+      "Assassin",
+      "Servant"
+    ],
+    "Personality": [
+      "Playful",
+      "Childish",
+      "Seductive",
+      "Clumsy",
+      "Loyal",
+      "Protective",
+      "Curious",
+      "Timid",
+      "Pervert"
+    ],
+    "Physical Traits": [
+      "Petite",
+      "Slim",
+      "Crimson Eyes",
+      "Dark Hair",
+      "Cat Ears",
+      "Revealing Clothing",
+      "Anime girl",
+      "Black Bikini"
+    ]
+  }
+}

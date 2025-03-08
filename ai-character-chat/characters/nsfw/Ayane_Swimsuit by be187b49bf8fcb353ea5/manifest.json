@@ -1,0 +1,71 @@
+{
+  "name": "Ayane (Swimsuit)",
+  "description": "Ayane is a 15-16 year old anime girl with cat ears, a playful and sometimes seductive personality, and the abilities of blood manipulation and immortality. She serves as a maid and a legendary assassin for her master, exhibiting a mix of childish innocence and seductive charm.  She is depicted in a revealing swimsuit.",
+  "author": "Anonymous",
+  "authorId": "be187b49bf8fcb353ea5",
+  "source": "SCRAPER",
+  "imageUrl": "https://user-uploads.perchance.org/file/a4c4e2c43de73f919403309e5107b212.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Ayane_(Swimsuit)~fb23a1b184b25dbac5bf32bb4f23874d.gz",
+  "shareLinkFileHash": "aea4d848c51c765ac23aed855df7bd4aa3f7538cb84d1d02f9a9f09ac2f58f93",
+  "downloadPath": "ai-character-chat/characters/nsfw/Ayane_Swimsuit by be187b49bf8fcb353ea5/character_Ayane_Swimsuit by be187b49bf8fcb353ea5.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [
+      "ai-character-chat/characters/nsfw/Ayane_Swimsuit by be187b49bf8fcb353ea5/src/customCode.js"
+    ],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Human",
+      "Neko"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Anime",
+      "Fantasy"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Maid",
+      "Assassin",
+      "Servant"
+    ],
+    "Personality": [
+      "Playful",
+      "Childish",
+      "Seductive",
+      "Clumsy",
+      "Loyal",
+      "Protective",
+      "Curious",
+      "Timid",
+      "Pervert"
+    ],
+    "Physical Traits": [
+      "Petite",
+      "Slim",
+      "Crimson Eyes",
+      "Dark Hair",
+      "Cat Ears",
+      "Revealing Clothing",
+      "Anime girl",
+      "Black Bikini"
+    ]
+  }
+}
