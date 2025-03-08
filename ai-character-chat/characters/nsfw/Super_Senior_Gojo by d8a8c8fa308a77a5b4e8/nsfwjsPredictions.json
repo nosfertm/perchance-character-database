@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://characterai.io/i/80/static/avatars/uploaded/2023/11/8/aaQG07qTDptngE4_f2HIWkht3KTWpcT9qYs9PTg7hfs.webp?webp=true&anim=0",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Porn",
+        "probability": 0.5321142077445984
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.46075430512428284
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.005221387837082148
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.0015185803640633821
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.000391457142541185
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

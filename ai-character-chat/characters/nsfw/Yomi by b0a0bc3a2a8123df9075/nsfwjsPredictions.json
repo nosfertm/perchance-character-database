@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741107308/scrape/perchance_comments/img_Yomi_by_b0a0bc3a2a8123df9075.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.9961134195327759
+      },
+      {
+        "className": "Porn",
+        "probability": 0.003096046857535839
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.0007848532986827195
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.000005241332019068068
+      },
+      {
+        "className": "Neutral",
+        "probability": 3.539345243552816e-7
+      }
+    ],
+    "containsNSFW": true,
+    "error": null
+  }
+]

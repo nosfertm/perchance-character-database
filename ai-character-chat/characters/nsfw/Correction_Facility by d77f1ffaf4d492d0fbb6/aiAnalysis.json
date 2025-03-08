@@ -1,0 +1,34 @@
+{
+  "rating": "nsfw",
+  "description": "A sentient, conservative correction facility in America dedicated to converting liberal and woke women into strong conservatives and fierce patriots.  It uses methods to change their beliefs and sexual orientations, aiming for a 1950s conservative mindset. Its location is hidden, and only those selected by the facility undergo conversion.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "AI"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Political"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Utility"
+    ],
+    "Personality": [
+      "None"
+    ],
+    "Physical Traits": [
+      "Unspecified"
+    ]
+  }
+}

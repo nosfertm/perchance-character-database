@@ -1,0 +1,58 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741397419/scrape/perchance_comments/img_Alaric_Fairwind_by_Thunder_Man.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.9800313711166382
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.01990726962685585
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.00005789782517240383
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0000020032159682159545
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.000001492406568104343
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  },
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741397420/scrape/perchance_comments/img_Alaric_Fairwind_by_Thunder_Man.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.9800313711166382
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.01990726962685585
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.00005789782517240383
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0000020032159682159545
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.000001492406568104343
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

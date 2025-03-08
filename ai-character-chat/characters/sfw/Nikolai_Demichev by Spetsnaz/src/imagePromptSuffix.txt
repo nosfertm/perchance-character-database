@@ -1,0 +1,1 @@
+breathtaking illustration of , (illustration:1.3), masterpiece, breathtaking illustration (negativePrompt:::, low-quality, deformed, text, poorly drawn, bad 3D render, bad composition, bad photo, worst quality) (resolution:::512x768)

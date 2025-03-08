@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://c.tenor.com/rC_mbGxsqu8AAAAM/dawg-skull-emoji.gif",
+    "fileType": "gif",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.600252091884613
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.3469097912311554
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.03229811415076256
+      },
+      {
+        "className": "Porn",
+        "probability": 0.014861393719911575
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.005678624380379915
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

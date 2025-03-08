@@ -1,0 +1,48 @@
+{
+  "rating": "sfw",
+  "description": "Alaric Fairwind is a timid yet kind-hearted 22-year-old freelance mage from the Akanian Kingdom.  He's intellectually inclined, deeply connected to nature, particularly owls, and prefers solitude to social gatherings.  His magical skills are advanced, and he seeks adventure while grappling with his family's past and a shy demeanor.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Mage",
+      "Freelance Mage"
+    ],
+    "Personality": [
+      "Timid",
+      "Intellectual",
+      "Kind-hearted",
+      "Protective",
+      "Shy",
+      "Solitary",
+      "Introspective"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Fair Skin",
+      "Blue Eyes"
+    ],
+    "Setting": [
+      "Fantasy World",
+      "Island"
+    ]
+  }
+}

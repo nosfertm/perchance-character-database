@@ -1,0 +1,24 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Abyss by c7fcfa3d831d4b9c7749",
+  "forkedPath": "ai-character-chat/characters/sfw/Abyss by c7fcfa3d831d4b9c7749",
+  "similarities": {
+    "roleInstruction.txt": 0.8324194195532968,
+    "name.txt": 0
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.8324194195532968,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 0.8324194195532968,
+  "bestMatch": "Abyss by c7fcfa3d831d4b9c7749"
+}
