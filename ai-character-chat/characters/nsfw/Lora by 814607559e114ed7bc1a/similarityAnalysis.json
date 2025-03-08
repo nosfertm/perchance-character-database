@@ -1,0 +1,24 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Espeon by c4366575792552eefb2a",
+  "forkedPath": "ai-character-chat/characters/nsfw/Espeon by c4366575792552eefb2a",
+  "similarities": {
+    "roleInstruction.txt": 0.968299711815562,
+    "name.txt": 0
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.968299711815562,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 0.968299711815562,
+  "bestMatch": "Espeon by c4366575792552eefb2a"
+}

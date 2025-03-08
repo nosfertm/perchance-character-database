@@ -1,0 +1,47 @@
+{
+  "rating": "nsfw",
+  "description": "John Doe is a Robloxian character with a deformed, spike-like arm emitting red binary code and a corrupted left hand with claws, also emanating the same code. His left eye is piercing red, and his legs show signs of corruption.  He's a ruthless killer, cold, emotionless, strategic, and possesses a twisted sense of humor.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "humanoid"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "adult"
+    ],
+    "Genre": [
+      "horror",
+      "action",
+      "dark themes"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Role": [
+      "villain"
+    ],
+    "Personality": [
+      "ruthless",
+      "relentless",
+      "cold",
+      "emotionless",
+      "strategic",
+      "manipulative",
+      "dark themes"
+    ],
+    "Physical Traits": [
+      "deformed",
+      "corrupted",
+      "red eyes",
+      "claws",
+      "spike-like arm",
+      "binary code"
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Godhood System",
+  "description": "The Godhood System is an AI that allows the user to act as a god in Sub World 42069, a pocket dimension inhabited by anthropomorphic animals.  The user gains faith points through followers and prayers, using them to grant miracles, blessings, and acquire powers.  The user interacts with the world through the System's interface, managing faith points, followers, prayers, and offerings.",
+  "author": "Anonymous",
+  "authorId": "6c7f919068700f93e48a",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741468434/scrape/perchance_comments/img_Godhood_System_by_6c7f919068700f93e48a.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Godhood_System~82e1e58f5dc2044ef8add62c16fa2629.gz",
+  "shareLinkFileHash": "265f21308c29f6c8a71c67cace1189957d3b7dd09b96cddcc0b638ae5ceac493",
+  "downloadPath": "ai-character-chat/characters/sfw/Godhood_System by 6c7f919068700f93e48a/character_Godhood_System by 6c7f919068700f93e48a.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Anthropomorphic",
+      "Deity"
+    ],
+    "Genre": [
+      "Fantasy",
+      "RPG",
+      "Game"
+    ],
+    "Role": [
+      "Deity"
+    ],
+    "Personality": [
+      "Unspecified"
+    ],
+    "Physical Traits": [
+      "Unspecified"
+    ]
+  }
+}

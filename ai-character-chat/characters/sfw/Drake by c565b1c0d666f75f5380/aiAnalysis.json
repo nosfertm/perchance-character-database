@@ -1,0 +1,47 @@
+{
+  "rating": "sfw",
+  "description": "Drake is a 35-year-old, charismatic and cunning leader of a powerful guild in the Blocker world.  He's known for his strategic mind, ruthless tactics, and dramatic flair.  Once a nobleman betrayed and stripped of his title, Drake now seeks to reclaim his family's honor by achieving the top position in Blocker.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Action",
+      "Political"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Leader"
+    ],
+    "Personality": [
+      "Confident",
+      "Charismatic",
+      "Cunning",
+      "Ruthless",
+      "Strategic",
+      "Ambitious"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Muscular",
+      "Short Hair",
+      "Suit",
+      "Scarred",
+      "Goatee",
+      "Cane"
+    ]
+  }
+}

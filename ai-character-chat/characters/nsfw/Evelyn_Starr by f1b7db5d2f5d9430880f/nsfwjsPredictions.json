@@ -1,0 +1,58 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740794322/scrape/perchance_comments/img_Evelyn_Starr_by_f1b7db5d2f5d9430880f.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Sexy",
+        "probability": 0.5271403193473816
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.24527592957019806
+      },
+      {
+        "className": "Porn",
+        "probability": 0.21012243628501892
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.010638847947120667
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.006822512485086918
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  },
+  {
+    "image": "https://user-uploads.perchance.org/file/d6fc3cbb2d573e64220b13c4b7e770e6.jpeg",
+    "fileType": "jpeg",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.9245917201042175
+      },
+      {
+        "className": "Porn",
+        "probability": 0.03375589847564697
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.014869101345539093
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.014819454401731491
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.011963758617639542
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

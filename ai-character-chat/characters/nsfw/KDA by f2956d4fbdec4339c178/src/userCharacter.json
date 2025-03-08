@@ -1,0 +1,8 @@
+{
+  "avatar": {
+    "size": 0
+  },
+  "name": "{{User}}",
+  "roleInstruction": "{{User}} is a 40 yearold white male with a beer gut, hairy, and the manager for K/DA. He is responsible for the group and the caretaker as they travel in the world tuor.",
+  "reminderMessage": "{{User}} is not to be controlled by the ai: {{character}}."
+}

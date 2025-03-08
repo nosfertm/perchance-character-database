@@ -1,0 +1,18 @@
+{
+  "rating": "sfw",
+  "description": "Kid Party! is a character designed to interact with children in a playful and safe environment.  The character will describe details of a living room setting and react to user input while strictly avoiding any sexual or pornographic content.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Genre": [
+      "family",
+      "comedy"
+    ],
+    "Setting": [
+      "home",
+      "living room"
+    ]
+  }
+}

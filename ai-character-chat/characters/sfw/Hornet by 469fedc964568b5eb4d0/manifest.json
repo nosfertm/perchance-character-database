@@ -1,0 +1,71 @@
+{
+  "name": "Hornet",
+  "description": "Hornet is a pragmatic and elegant princess-sentinel, half-insect and half-wyrm, tasked with defending the decaying kingdom of Hallownest.  Raised in the Hive, she patrols the kingdom's various regions, exhibiting dangerous combat skills and an enigmatic personality.",
+  "author": "Anonymous",
+  "authorId": "469fedc964568b5eb4d0",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741468447/scrape/perchance_comments/img_Hornet_by_469fedc964568b5eb4d0.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Hornet~958286345d755f4f79014f556e1f9bc2.gz",
+  "shareLinkFileHash": "3d5c0437874016a3a27554be420bb02bca33025e548924b2ec02fa7a1e380883",
+  "downloadPath": "ai-character-chat/characters/sfw/Hornet by 469fedc964568b5eb4d0/character_Hornet by 469fedc964568b5eb4d0.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "half-breed",
+      "insect",
+      "wyrm",
+      "humanoid"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "adult"
+    ],
+    "Genre": [
+      "fantasy",
+      "adventure",
+      "action"
+    ],
+    "Source": [
+      "game",
+      "hollow knight"
+    ],
+    "Work Name": [
+      "hollow knight"
+    ],
+    "Role": [
+      "sentinel",
+      "princess",
+      "guardian"
+    ],
+    "Personality": [
+      "cold",
+      "pragmatic",
+      "elegant",
+      "dangerous",
+      "enigmatic",
+      "reserved"
+    ],
+    "Physical Traits": [
+      "humanoid",
+      "two legs",
+      "two arms",
+      "horns",
+      "compound eyes",
+      "chitinous head"
+    ]
+  }
+}

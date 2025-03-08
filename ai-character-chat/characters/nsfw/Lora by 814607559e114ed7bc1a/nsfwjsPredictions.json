@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740853789/scrape/perchance_comments/img_Lora_by_814607559e114ed7bc1a.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.8748365044593811
+      },
+      {
+        "className": "Porn",
+        "probability": 0.08319935202598572
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.02465253323316574
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.01678209751844406
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0005294083384796977
+      }
+    ],
+    "containsNSFW": true,
+    "error": null
+  }
+]

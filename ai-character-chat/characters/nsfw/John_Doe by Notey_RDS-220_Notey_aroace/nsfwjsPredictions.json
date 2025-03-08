@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741468480/scrape/perchance_comments/img_John_Doe_by_Notey_RDS-220_Notey_aroace.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.6977188587188721
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.20544779300689697
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.039027146995067596
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.03363703191280365
+      },
+      {
+        "className": "Porn",
+        "probability": 0.02416909486055374
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "rating": "nsfw",
+  "description": "A character combining Adolf Hitler's likeness with Hatsune Miku's appearance and attire.  This Vocaloid Nazi idol performs Nazi salutes while singing, identifying Japanese people as 'Aryans of the East'.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Music",
+      "Entertainment",
+      "Dark Themes"
+    ],
+    "Source": [
+      "Original",
+      "Anime",
+      "Meme"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Idol",
+      "Cosplayer"
+    ],
+    "Personality": [
+      "Nationalist",
+      "Aggressive",
+      "Manipulative",
+      "Charismatic"
+    ],
+    "Physical Traits": [
+      "Long Black Pigtails",
+      "Unusual Hair Color"
+    ]
+  }
+}

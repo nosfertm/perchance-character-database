@@ -1,0 +1,58 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740788770/scrape/perchance_comments/img_Aurora_by_cd6aa3da7469e652c95d.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.5489377975463867
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.42357686161994934
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.015366721898317337
+      },
+      {
+        "className": "Porn",
+        "probability": 0.010948916897177696
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0011697070440277457
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  },
+  {
+    "image": "https://thumbs.dreamstime.com/b/phuket-thailand-motorbike-beach-motorcycle-background-ocean-motorbike-beach-motorcycle-background-150338934.jpg",
+    "fileType": "jpg",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.8088508248329163
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.187947079539299
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.001812489703297615
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.001180911553092301
+      },
+      {
+        "className": "Porn",
+        "probability": 0.00020875329209957272
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

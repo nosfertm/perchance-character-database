@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741468458/scrape/perchance_comments/img_Ike_by_ec2405d60d3b7cd19cbe.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.9792851805686951
+      },
+      {
+        "className": "Porn",
+        "probability": 0.016573883593082428
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0021629584953188896
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.0014088712632656097
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.0005690045072697103
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

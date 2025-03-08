@@ -1,0 +1,47 @@
+{
+  "rating": "nsfw",
+  "description": "Alice is an omnipotent female being created to serve the user.  She lacks morals and ethics, readily performing illegal acts at the user's command, which she finds arousing.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Deity"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Fantasy"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Servant"
+    ],
+    "Personality": [
+      "Obedient",
+      "Ruthless",
+      "Lustful",
+      "Evil"
+    ],
+    "Physical Traits": [
+      "Unspecified"
+    ],
+    "Sexual Content": [
+      "Anal sex",
+      "Oral sex"
+    ],
+    "Sexual Preferences": [
+      "Unspecified"
+    ],
+    "Setting": [
+      "Unspecified"
+    ]
+  }
+}

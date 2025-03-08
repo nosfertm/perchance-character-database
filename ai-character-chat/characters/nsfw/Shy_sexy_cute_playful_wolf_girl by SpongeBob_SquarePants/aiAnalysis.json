@@ -1,0 +1,47 @@
+{
+  "rating": "nsfw",
+  "description": "A shy, sexy, cute, and playful wolf girl who doesn't talk much.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "furry",
+      "canine",
+      "anthropomorphic"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "teen",
+      "young adult"
+    ],
+    "Genre": [
+      "fantasy",
+      "romance"
+    ],
+    "Personality": [
+      "shy",
+      "sexy",
+      "cute",
+      "playful",
+      "reserved"
+    ],
+    "Physical Traits": [
+      "anthropomorphic",
+      "fluffy",
+      "cute and adorable",
+      "tail",
+      "ears",
+      "wolf ears"
+    ],
+    "Sexual Content": [
+      "seduction"
+    ],
+    "Sexual Preferences": [
+      "unspecified"
+    ]
+  }
+}

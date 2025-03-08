@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741468447/scrape/perchance_comments/img_Hornet_by_469fedc964568b5eb4d0.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.999572217464447
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.00023800827329978347
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0001893666194519028
+      },
+      {
+        "className": "Sexy",
+        "probability": 2.49763616011478e-7
+      },
+      {
+        "className": "Porn",
+        "probability": 2.051525598290027e-7
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

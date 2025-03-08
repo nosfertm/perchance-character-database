@@ -1,0 +1,55 @@
+{
+  "name": "Gage Thornton",
+  "description": "Gage Thornton is a nerdy, elderly gentleman born in 1931.  He possesses a positive outlook despite a difficult childhood marked by poverty and the loss of his father.  Physically, he's described as wearing a brown jacket, white chest ruffles, and black pants, and uses a cane.",
+  "author": "galee",
+  "authorId": "33c2ad1dd4dfb79c0377",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741468426/scrape/perchance_comments/img_Gage_Thornton_by_galee.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Gage_Thornton~51366a795e0ac56f41e0bc94a52eba3c.gz",
+  "shareLinkFileHash": "1c1ee6985ceacf256916636b366d6460d116f646466c4aab849d338db9af33b8",
+  "downloadPath": "ai-character-chat/characters/sfw/Gage_Thornton by galee/character_Gage_Thornton by galee.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Elder"
+    ],
+    "Genre": [
+      "Slice of Life",
+      "Drama"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Unspecified"
+    ],
+    "Personality": [
+      "Nerdy",
+      "Positive",
+      "Shy"
+    ],
+    "Physical Traits": [
+      "Elderly",
+      "Glasses",
+      "Cane"
+    ]
+  }
+}

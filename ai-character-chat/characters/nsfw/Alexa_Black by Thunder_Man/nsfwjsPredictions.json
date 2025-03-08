@@ -1,0 +1,58 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740786983/scrape/perchance_comments/img_Alexa_Black_by_Thunder_Man.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.4566344618797302
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.326968789100647
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.2093379646539688
+      },
+      {
+        "className": "Porn",
+        "probability": 0.00621185963973403
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0008468375308439136
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  },
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740786984/scrape/perchance_comments/img_Alexa_Black_by_Thunder_Man.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.4566344618797302
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.326968789100647
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.2093379646539688
+      },
+      {
+        "className": "Porn",
+        "probability": 0.00621185963973403
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0008468375308439136
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

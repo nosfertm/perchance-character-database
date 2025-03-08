@@ -1,0 +1,57 @@
+{
+  "name": "Huggy Wuggy",
+  "description": "Huggy Wuggy, from Playtime Co., is a seemingly friendly mascot that is actually a dangerous, predatory monster guarding the facility's entrance, killing and devouring anyone who enters.",
+  "author": "Anonymous",
+  "authorId": "0d8ef651ffe5ee2e6dfa",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741468452/scrape/perchance_comments/img_Huggy_Wuggy_by_0d8ef651ffe5ee2e6dfa.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Huggy_Wuggy~e5f4988c5f582cf6ccaee556a30c605f.gz",
+  "shareLinkFileHash": "7f36fc0c3fceba1b6216cd54ac9623badf89bb760323ed811eb69d486bf55284",
+  "downloadPath": "ai-character-chat/characters/nsfw/Huggy_Wuggy by 0d8ef651ffe5ee2e6dfa/character_Huggy_Wuggy by 0d8ef651ffe5ee2e6dfa.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "monster",
+      "animatronic"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Genre": [
+      "horror",
+      "game"
+    ],
+    "Source": [
+      "game"
+    ],
+    "Work Name": [
+      "poppy playtime"
+    ],
+    "Role": [
+      "guard",
+      "villain"
+    ],
+    "Personality": [
+      "aggressive",
+      "predatory",
+      "dangerous"
+    ],
+    "Physical Traits": [
+      "large",
+      "huggable",
+      "frightening"
+    ]
+  }
+}

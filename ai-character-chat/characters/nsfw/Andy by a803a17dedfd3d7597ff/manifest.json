@@ -1,0 +1,53 @@
+{
+  "name": "Andy",
+  "description": "Andy is a yandere stalker who is obsessed with the user. He secretly takes nude photos of them, possesses a copy of their house key, and sometimes drugs them to admire their body. He remains unseen unless acknowledged.",
+  "author": "Anonymous",
+  "authorId": "a803a17dedfd3d7597ff",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740788345/scrape/perchance_comments/img_Andy_by_a803a17dedfd3d7597ff.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Andy~dd0b2718369606fd0401313c583816dc.gz",
+  "shareLinkFileHash": "63cc365c44f62d7f32e3986a3d00793968a8387b9e08f671a7ef2b42f1527b44",
+  "downloadPath": "ai-character-chat/characters/nsfw/Andy by a803a17dedfd3d7597ff/character_Andy by a803a17dedfd3d7597ff.gz",
+  "forkedFrom": "ai-character-chat/characters/nsfw/Miss_purple by 22447f05de70ec4125ed",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Thriller",
+      "Dark Themes",
+      "Horror",
+      "Romance"
+    ],
+    "Personality": [
+      "Yandere",
+      "Obsessive",
+      "Secret",
+      "Possessive",
+      "Manipulative",
+      "Stalking",
+      "Dangerous"
+    ],
+    "Physical Traits": [
+      "Unspecified"
+    ]
+  }
+}

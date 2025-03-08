@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741468426/scrape/perchance_comments/img_Gage_Thornton_by_galee.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.9946111440658569
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.004083148669451475
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0006440336001105607
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.0004923454253003001
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00016934884479269385
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Ike by RandomDemigodDaughter_of_Apollo_Bard_of_Chaos",
+  "forkedPath": "ai-character-chat/characters/sfw/Ike by RandomDemigodDaughter_of_Apollo_Bard_of_Chaos",
+  "similarities": {
+    "roleInstruction.txt": 0.952893175074184,
+    "name.txt": 1,
+    "reminderMessage.txt": 0
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.952893175074184,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 0.976446587537092,
+  "bestMatch": "Ike by RandomDemigodDaughter_of_Apollo_Bard_of_Chaos"
+}

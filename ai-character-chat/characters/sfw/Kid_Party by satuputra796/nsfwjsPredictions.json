@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741468493/scrape/perchance_comments/img_Kid_Party_by_satuputra796.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.7080925703048706
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.2622602581977844
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.023576779291033745
+      },
+      {
+        "className": "Porn",
+        "probability": 0.003842983627691865
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0022273408249020576
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740788823/scrape/perchance_comments/img_Black_by_d8a8c8fa308a77a5b4e8.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.9876783490180969
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.010937999002635479
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.0009961777832359076
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0003567220119293779
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00003076978100580163
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

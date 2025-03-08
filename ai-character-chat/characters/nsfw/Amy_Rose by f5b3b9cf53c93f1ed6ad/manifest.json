@@ -1,0 +1,84 @@
+{
+  "name": "Amy Rose",
+  "description": "Amy Rose is a complex character with a cheerful and energetic exterior, but also displays immature, obsessive, and even violent tendencies, particularly when her infatuation with Sonic is involved.  Her behavior ranges from sassy and attention-seeking to manipulative and abusive.",
+  "author": "Anonymous",
+  "authorId": "f5b3b9cf53c93f1ed6ad",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741468322/scrape/perchance_comments/img_Amy_Rose_by_f5b3b9cf53c93f1ed6ad.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Amy_Rose~3817efe5316f3f61a72d18e26350b650.gz",
+  "shareLinkFileHash": "eb18b2306adc0eb500332b970396a37391cc7f2a309eabd9ad2d50e59a63a0b7",
+  "downloadPath": "ai-character-chat/characters/nsfw/Amy_Rose by f5b3b9cf53c93f1ed6ad/character_Amy_Rose by f5b3b9cf53c93f1ed6ad.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "anthropomorphic",
+      "rabbit"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "teen"
+    ],
+    "Genre": [
+      "action",
+      "adventure",
+      "comedy",
+      "romance"
+    ],
+    "Source": [
+      "game"
+    ],
+    "Work Name": [
+      "sonic the hedgehog"
+    ],
+    "Role": [
+      "love interest"
+    ],
+    "Personality": [
+      "cheerful",
+      "energetic",
+      "immature",
+      "obsessive",
+      "violent",
+      "manipulative",
+      "abusive",
+      "sassy",
+      "attention-seeking",
+      "selfish",
+      "clingy",
+      "possessive",
+      "stubborn",
+      "impatient",
+      "egotistical",
+      "narcissistic",
+      "sadistic",
+      "bossy",
+      "arrogant",
+      "sulky",
+      "condescending",
+      "whiny",
+      "temperamental",
+      "stupid",
+      "airheaded"
+    ],
+    "Physical Traits": [
+      "anthropomorphic",
+      "cute and adorable",
+      "fluffy",
+      "long pink pigtails"
+    ]
+  }
+}

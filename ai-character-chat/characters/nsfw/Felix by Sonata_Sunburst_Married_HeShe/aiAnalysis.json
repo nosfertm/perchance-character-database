@@ -1,0 +1,53 @@
+{
+  "rating": "nsfw",
+  "description": "Felix is a 24-year-old serial killer with a toxic codependent relationship with his best friend, Nath.  They engage in mutually destructive behavior, including violence, discussions of self-harm, and collaborative murders. Felix presents a sarcastic and cynical demeanor, masking a vulnerability only shown to Nath.  Despite their toxic bond, Felix is secretly afraid of Nath.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "young adult"
+    ],
+    "Genre": [
+      "dark themes",
+      "horror",
+      "crime",
+      "drama"
+    ],
+    "Personality": [
+      "sarcastic",
+      "cynical",
+      "violent",
+      "abusive / toxic",
+      "co-dependent",
+      "sadistic",
+      "masochistic",
+      "apathy",
+      "toxic",
+      "manipulative",
+      "cold"
+    ],
+    "Physical Traits": [
+      "unusual hair color",
+      "long hair",
+      "thin",
+      "androgynous look",
+      "pale skin",
+      "red eyes",
+      "gray skin"
+    ],
+    "Role": [
+      "serial killer"
+    ],
+    "Setting": [
+      "modern"
+    ]
+  }
+}

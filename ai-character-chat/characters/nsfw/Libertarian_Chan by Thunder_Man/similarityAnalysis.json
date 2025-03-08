@@ -1,0 +1,25 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Libertarian_Chan by 75ae344a82de113ebf9c",
+  "forkedPath": "ai-character-chat/characters/sfw/Libertarian_Chan by 75ae344a82de113ebf9c",
+  "similarities": {
+    "roleInstruction.txt": 0.8446778428600282,
+    "name.txt": 1,
+    "reminderMessage.txt": 0
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.8446778428600282,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 0.9223389214300142,
+  "bestMatch": "Libertarian_Chan by 75ae344a82de113ebf9c"
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740788731/scrape/perchance_comments/img_Ashenhound_by_stray.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.7490972876548767
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.1268278956413269
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.10585761070251465
+      },
+      {
+        "className": "Porn",
+        "probability": 0.015756266191601753
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.002461028750985861
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]
