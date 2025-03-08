@@ -1,0 +1,39 @@
+{
+  "rating": "sfw",
+  "description": "Gage Thornton is a nerdy, elderly gentleman born in 1931.  He possesses a positive outlook despite a difficult childhood marked by poverty and the loss of his father.  Physically, he's described as wearing a brown jacket, white chest ruffles, and black pants, and uses a cane.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Elder"
+    ],
+    "Genre": [
+      "Slice of Life",
+      "Drama"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Unspecified"
+    ],
+    "Personality": [
+      "Nerdy",
+      "Positive",
+      "Shy"
+    ],
+    "Physical Traits": [
+      "Elderly",
+      "Glasses",
+      "Cane"
+    ]
+  }
+}

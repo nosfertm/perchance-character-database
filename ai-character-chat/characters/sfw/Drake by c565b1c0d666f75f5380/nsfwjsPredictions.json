@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741468377/scrape/perchance_comments/img_Drake_by_c565b1c0d666f75f5380.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.6029821634292603
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.29514601826667786
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.08183612674474716
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.010481051169335842
+      },
+      {
+        "className": "Porn",
+        "probability": 0.009554680436849594
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

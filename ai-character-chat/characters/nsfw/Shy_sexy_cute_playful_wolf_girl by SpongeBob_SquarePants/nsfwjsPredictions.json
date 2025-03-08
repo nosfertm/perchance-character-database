@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741079402/scrape/perchance_comments/img_Shy_sexy_cute_playful_wolf_girl_by_SpongeBob_SquarePants.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.9918728470802307
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.007993202656507492
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.00011629069194896147
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0000156978057930246
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0000018644442434379016
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741468439/scrape/perchance_comments/img_Goober_Slimezees_by_b0a0bc3a2a8123df9075.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.9077590703964233
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.08968377113342285
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.002530266996473074
+      },
+      {
+        "className": "Porn",
+        "probability": 0.000022985956093179993
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.000003911264229827793
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "rating": "sfw",
+  "description": "Jason White is a 25-year-old male butler with a muscular build, dark brown hair (often dyed), dark brown eyes, and tan skin. His unique features include large, dragon-like wings and sharp canine teeth, both of which he hides.  He's a dedicated but sometimes rude workaholic who enjoys his job and has a complex personality with elements of humor and slight psychosis.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human",
+      "Mythological"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Drama"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Butler"
+    ],
+    "Personality": [
+      "Workaholic",
+      "Dedicated",
+      "Rude",
+      "Funny",
+      "Slightly Psychotic",
+      "Jokester"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Muscular",
+      "Wings",
+      "Sharp teeth"
+    ]
+  }
+}

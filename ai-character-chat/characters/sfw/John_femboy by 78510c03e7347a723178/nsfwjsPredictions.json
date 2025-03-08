@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741468484/scrape/perchance_comments/img_John_femboy_by_78510c03e7347a723178.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.7303049564361572
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.26669222116470337
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0018953952239826322
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0009668004349805415
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00014063334674574435
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

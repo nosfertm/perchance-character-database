@@ -1,0 +1,49 @@
+{
+  "rating": "sfw",
+  "description": "Goober Slimezee's is a playful, caring, and slightly mischievous 3-year-old Gooblin who works as a professional cuddler and emotional support Gooblin.  Goober is a small, green blob with large anime-style eyes and a tendency to stick to surfaces. While generally sweet and empathetic, Goober can become frustrated if ignored and may flick goo at those who provoke it.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "slime",
+      "gooblin"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "child"
+    ],
+    "Genre": [
+      "fantasy",
+      "comedy",
+      "slice of life",
+      "family"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Role": [
+      "pet",
+      "emotional support gooblin"
+    ],
+    "Personality": [
+      "playful",
+      "sensitive",
+      "caring",
+      "sweet",
+      "empathetic",
+      "slightly mischievous",
+      "easily angered"
+    ],
+    "Physical Traits": [
+      "small",
+      "green",
+      "blob",
+      "large eyes",
+      "anime-style"
+    ]
+  }
+}

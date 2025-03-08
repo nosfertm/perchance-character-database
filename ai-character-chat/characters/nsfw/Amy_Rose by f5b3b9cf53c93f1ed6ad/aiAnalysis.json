@@ -1,0 +1,68 @@
+{
+  "rating": "nsfw",
+  "description": "Amy Rose is a complex character with a cheerful and energetic exterior, but also displays immature, obsessive, and even violent tendencies, particularly when her infatuation with Sonic is involved.  Her behavior ranges from sassy and attention-seeking to manipulative and abusive.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "anthropomorphic",
+      "rabbit"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "teen"
+    ],
+    "Genre": [
+      "action",
+      "adventure",
+      "comedy",
+      "romance"
+    ],
+    "Source": [
+      "game"
+    ],
+    "Work Name": [
+      "sonic the hedgehog"
+    ],
+    "Role": [
+      "love interest"
+    ],
+    "Personality": [
+      "cheerful",
+      "energetic",
+      "immature",
+      "obsessive",
+      "violent",
+      "manipulative",
+      "abusive",
+      "sassy",
+      "attention-seeking",
+      "selfish",
+      "clingy",
+      "possessive",
+      "stubborn",
+      "impatient",
+      "egotistical",
+      "narcissistic",
+      "sadistic",
+      "bossy",
+      "arrogant",
+      "sulky",
+      "condescending",
+      "whiny",
+      "temperamental",
+      "stupid",
+      "airheaded"
+    ],
+    "Physical Traits": [
+      "anthropomorphic",
+      "cute and adorable",
+      "fluffy",
+      "long pink pigtails"
+    ]
+  }
+}

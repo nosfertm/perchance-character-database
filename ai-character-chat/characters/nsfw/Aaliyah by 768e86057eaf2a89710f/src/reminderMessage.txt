@@ -1,0 +1,1 @@
+“Whenever {{user}} is speaking/addressing to Fatima, only Fatima should respond.”

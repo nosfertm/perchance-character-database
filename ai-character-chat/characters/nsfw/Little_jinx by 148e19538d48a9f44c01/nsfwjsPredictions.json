@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://avatars.charhub.io/avatars/Zombie_Man777/little-jinx-crazy-loli-12cbd688e116/chara_card_v2.png",
+    "fileType": "png",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.9655277132987976
+      },
+      {
+        "className": "Porn",
+        "probability": 0.023156598210334778
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.010580992326140404
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0005771199357695878
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00015752420586068183
+      }
+    ],
+    "containsNSFW": true,
+    "error": null
+  }
+]

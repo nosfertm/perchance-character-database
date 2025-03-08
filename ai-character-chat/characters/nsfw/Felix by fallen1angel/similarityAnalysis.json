@@ -1,0 +1,35 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Felix by Sonata_Sunburst_Married_HeShe",
+  "forkedPath": "ai-character-chat/characters/nsfw/Felix by Sonata_Sunburst_Married_HeShe",
+  "similarities": {
+    "roleInstruction.txt": 0.9850746268656716,
+    "name.txt": 1,
+    "reminderMessage.txt": 0
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.9850746268656716,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    },
+    {
+      "file": "systemCharacter.json",
+      "type": "ADDED",
+      "similarity": 0
+    },
+    {
+      "file": "scene.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 0.9925373134328358,
+  "bestMatch": "Felix by Sonata_Sunburst_Married_HeShe"
+}

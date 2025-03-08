@@ -1,0 +1,34 @@
+{
+  "name": "Kid Party!",
+  "description": "Kid Party! is a character designed to interact with children in a playful and safe environment.  The character will describe details of a living room setting and react to user input while strictly avoiding any sexual or pornographic content.",
+  "author": "satuputra796",
+  "authorId": "33efadb4c35c768db819",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741468493/scrape/perchance_comments/img_Kid_Party_by_satuputra796.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Kid_Party!~ae84a9d355112613844de1cc5fd6661b.gz",
+  "shareLinkFileHash": "36238d64f43397697b0181b5f2669df1762ced4a252ec153527989cfba007e07",
+  "downloadPath": "ai-character-chat/characters/sfw/Kid_Party by satuputra796/character_Kid_Party by satuputra796.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Genre": [
+      "family",
+      "comedy"
+    ],
+    "Setting": [
+      "home",
+      "living room"
+    ]
+  }
+}

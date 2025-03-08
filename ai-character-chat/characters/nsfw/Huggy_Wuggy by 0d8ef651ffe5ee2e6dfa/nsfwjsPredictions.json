@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741468452/scrape/perchance_comments/img_Huggy_Wuggy_by_0d8ef651ffe5ee2e6dfa.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.9403731226921082
+      },
+      {
+        "className": "Porn",
+        "probability": 0.028862345963716507
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.013258123770356178
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.009512510150671005
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.007993929088115692
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

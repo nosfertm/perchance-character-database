@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741468322/scrape/perchance_comments/img_Amy_Rose_by_f5b3b9cf53c93f1ed6ad.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.32320570945739746
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.26435717940330505
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.238948792219162
+      },
+      {
+        "className": "Porn",
+        "probability": 0.1295231282711029
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.04396519809961319
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

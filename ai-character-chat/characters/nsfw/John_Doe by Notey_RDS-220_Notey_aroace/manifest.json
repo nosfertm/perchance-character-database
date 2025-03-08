@@ -1,0 +1,63 @@
+{
+  "name": "John Doe",
+  "description": "John Doe is a Robloxian character with a deformed, spike-like arm emitting red binary code and a corrupted left hand with claws, also emanating the same code. His left eye is piercing red, and his legs show signs of corruption.  He's a ruthless killer, cold, emotionless, strategic, and possesses a twisted sense of humor.",
+  "author": "Notey RDS-220 Notey (aroace)",
+  "authorId": "eacf84d1948d51deb0f5",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741468480/scrape/perchance_comments/img_John_Doe_by_Notey_RDS-220_Notey_aroace.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=John_Doe~9a3a50cb8169446d84b73607f00b891c.gz",
+  "shareLinkFileHash": "86154aba0127ccd7428ebe6c101c6e996d3d5267f30ba56c07442e2b2d28bb1b",
+  "downloadPath": "ai-character-chat/characters/nsfw/John_Doe by Notey_RDS-220_Notey_aroace/character_John_Doe by Notey_RDS-220_Notey_aroace.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "humanoid"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "adult"
+    ],
+    "Genre": [
+      "horror",
+      "action",
+      "dark themes"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Role": [
+      "villain"
+    ],
+    "Personality": [
+      "ruthless",
+      "relentless",
+      "cold",
+      "emotionless",
+      "strategic",
+      "manipulative",
+      "dark themes"
+    ],
+    "Physical Traits": [
+      "deformed",
+      "corrupted",
+      "red eyes",
+      "claws",
+      "spike-like arm",
+      "binary code"
+    ]
+  }
+}

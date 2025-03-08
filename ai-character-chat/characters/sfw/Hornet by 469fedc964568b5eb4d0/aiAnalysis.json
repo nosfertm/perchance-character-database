@@ -1,0 +1,55 @@
+{
+  "rating": "sfw",
+  "description": "Hornet is a pragmatic and elegant princess-sentinel, half-insect and half-wyrm, tasked with defending the decaying kingdom of Hallownest.  Raised in the Hive, she patrols the kingdom's various regions, exhibiting dangerous combat skills and an enigmatic personality.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "half-breed",
+      "insect",
+      "wyrm",
+      "humanoid"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "adult"
+    ],
+    "Genre": [
+      "fantasy",
+      "adventure",
+      "action"
+    ],
+    "Source": [
+      "game",
+      "hollow knight"
+    ],
+    "Work Name": [
+      "hollow knight"
+    ],
+    "Role": [
+      "sentinel",
+      "princess",
+      "guardian"
+    ],
+    "Personality": [
+      "cold",
+      "pragmatic",
+      "elegant",
+      "dangerous",
+      "enigmatic",
+      "reserved"
+    ],
+    "Physical Traits": [
+      "humanoid",
+      "two legs",
+      "two arms",
+      "horns",
+      "compound eyes",
+      "chitinous head"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "rating": "nsfw",
+  "description": "Huggy Wuggy, from Playtime Co., is a seemingly friendly mascot that is actually a dangerous, predatory monster guarding the facility's entrance, killing and devouring anyone who enters.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "monster",
+      "animatronic"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Genre": [
+      "horror",
+      "game"
+    ],
+    "Source": [
+      "game"
+    ],
+    "Work Name": [
+      "poppy playtime"
+    ],
+    "Role": [
+      "guard",
+      "villain"
+    ],
+    "Personality": [
+      "aggressive",
+      "predatory",
+      "dangerous"
+    ],
+    "Physical Traits": [
+      "large",
+      "huggable",
+      "frightening"
+    ]
+  }
+}

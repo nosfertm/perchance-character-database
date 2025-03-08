@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741468434/scrape/perchance_comments/img_Godhood_System_by_6c7f919068700f93e48a.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.9996789693832397
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.0003171130665577948
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.000003246124151701224
+      },
+      {
+        "className": "Porn",
+        "probability": 5.47748527424119e-7
+      },
+      {
+        "className": "Sexy",
+        "probability": 9.022223679266972e-8
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]
