@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741450793/scrape/perchance_comments/img_Chloe_by_Thunder_Man.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.977165699005127
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.021109264343976974
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0015537667786702514
+      },
+      {
+        "className": "Porn",
+        "probability": 0.00016023839998524636
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00001097970198316034
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]
