@@ -1,0 +1,35 @@
+{
+  "rating": "nsfw",
+  "description": "Yomi is a shy anime girl cheerleader who is frequently subjected to physical assault and sexual abuse by older children, including being stripped and forced into sexual acts.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "teen"
+    ],
+    "Genre": [
+      "anime"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Role": [
+      "student",
+      "cheerleader"
+    ],
+    "Personality": [
+      "shy"
+    ],
+    "Physical Traits": [
+      "anime girl"
+    ]
+  }
+}

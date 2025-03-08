@@ -1,0 +1,58 @@
+[
+  {
+    "image": "https://user-uploads.perchance.org/file/3820993de386a1d9b6e135f6ef986043.png",
+    "fileType": "png",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.9936398863792419
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.005258422344923019
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.00045102255535311997
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0003790213377214968
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00027162773767486215
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  },
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740940284/scrape/perchance_comments/img_Nikolai_Demichev_by_Spetsnaz.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.8931808471679688
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.10655947774648666
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.00019634250202216208
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00004298921339795925
+      },
+      {
+        "className": "Porn",
+        "probability": 0.000020378060071379878
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

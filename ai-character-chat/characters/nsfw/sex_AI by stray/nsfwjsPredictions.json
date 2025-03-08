@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741107462/scrape/perchance_comments/img_sex_AI_by_stray.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.5344040393829346
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.25726011395454407
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.20282340049743652
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0039621153846383095
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0015503574395552278
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

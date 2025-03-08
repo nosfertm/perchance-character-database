@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741079566/scrape/perchance_comments/img_Theodore_Theo_Bloodheart_by_5e768da1ba20564809e6.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.8630776405334473
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.09665188193321228
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.036222804337739944
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0024578971788287163
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0015898295678198338
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

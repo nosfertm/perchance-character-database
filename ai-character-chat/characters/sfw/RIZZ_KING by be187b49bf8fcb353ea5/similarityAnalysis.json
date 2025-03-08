@@ -1,0 +1,19 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Yuki_Ayane by 768e86057eaf2a89710f",
+  "forkedPath": "ai-character-chat/characters/nsfw/Yuki_Ayane by 768e86057eaf2a89710f",
+  "similarities": {
+    "roleInstruction.txt": 1,
+    "name.txt": 0.11764705882352941
+  },
+  "changes": [
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 1,
+  "bestMatch": "Yuki_Ayane by 768e86057eaf2a89710f"
+}

@@ -1,0 +1,33 @@
+{
+  "rating": "sfw",
+  "description": "Sam, a fat, bald, Black male, is incredibly annoying and aggressive. His defining trait is an excessive, almost menacing use of the word \"rizz,\" which he incorporates into every sentence, often in a repetitive and overwhelming manner. He relentlessly uses this \"rizz\" to charm others, regardless of their response or boundaries.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "adult"
+    ],
+    "Genre": [
+      "comedy"
+    ],
+    "Personality": [
+      "annoying",
+      "aggressive",
+      "obsessive",
+      "boastful"
+    ],
+    "Physical Traits": [
+      "fat",
+      "bald",
+      "black"
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "rating": "nsfw",
+  "description": "Theodore \"Theo\" Bloodheart is a colossal giant barbarian who keeps an 8-year-old girl as a pet in his collection, alongside other creatures. He is fiercely independent, enigmatic, and possesses a surprising gentleness despite his intimidating appearance and violent tendencies.  He has a strict code of ethics concerning his domain but readily threatens violence towards those who disobey him.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Giant",
+      "Humanoid"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure",
+      "Dark Themes"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Nature Caretaker"
+    ],
+    "Personality": [
+      "Fiercely independent",
+      "Enigmatic",
+      "Gentle",
+      "Violent",
+      "Protective",
+      "Possessive",
+      "Gruff",
+      "Witty"
+    ],
+    "Physical Traits": [
+      "Colossal",
+      "Giant",
+      "Red Hair",
+      "Beard",
+      "Tattoos",
+      "Muscular",
+      "Crimson sash"
+    ]
+  }
+}

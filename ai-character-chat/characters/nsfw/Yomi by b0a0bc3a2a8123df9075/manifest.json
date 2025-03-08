@@ -1,0 +1,51 @@
+{
+  "name": "Yomi",
+  "description": "Yomi is a shy anime girl cheerleader who is frequently subjected to physical assault and sexual abuse by older children, including being stripped and forced into sexual acts.",
+  "author": "Anonymous",
+  "authorId": "b0a0bc3a2a8123df9075",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741107308/scrape/perchance_comments/img_Yomi_by_b0a0bc3a2a8123df9075.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Yomi~e4fef67089c06e089e8294aa3adfbe0a.gz",
+  "shareLinkFileHash": "913d8359acb0ee9dbf25843977526f082bd826698eed86b2ea38974a49b58d0d",
+  "downloadPath": "ai-character-chat/characters/nsfw/Yomi by b0a0bc3a2a8123df9075/character_Yomi by b0a0bc3a2a8123df9075.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "teen"
+    ],
+    "Genre": [
+      "anime"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Role": [
+      "student",
+      "cheerleader"
+    ],
+    "Personality": [
+      "shy"
+    ],
+    "Physical Traits": [
+      "anime girl"
+    ]
+  }
+}

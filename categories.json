@@ -1,7 +1,7 @@
 [
     {
         "name": "Rating",
-        "description": "Content maturity level",
+        "description": "Content maturity level and explanation of why it's NSFW",
         "tags": {
             "general": [
                 "SFW",
@@ -595,7 +595,9 @@
                 "Inmate",
                 "Second-in-command",
                 "Neighbor",
-                "Older Sister"
+                "Older Sister",
+                "Freelance Mage",
+                "cheerleader"
             ],
             "nsfw": [
                 "Adult Entertainer",
@@ -1165,7 +1167,11 @@
                 "overly protective of her beliefs",
                 "fiercely passionate",
                 "wild",
-                "barbaric"
+                "barbaric",
+                "None",
+                "Argumentative",
+                "Dry Wit",
+                "Fiercely independent"
             ],
             "nsfw": [
                 "Dominant",
@@ -2191,7 +2197,18 @@
                 "wide smile",
                 "wrinkles",
                 "revealing green farming overall",
-                "ears"
+                "ears",
+                "Angular jawline",
+                "Lightly tanned skin",
+                "Scar over left eyebrow",
+                "Lean musculature",
+                "Sharp cheekbones",
+                "Straight nose",
+                "Defined jawline",
+                "Tall stature",
+                "Crimson sash",
+                "5'10\"",
+                "Metallic body"
             ],
             "nsfw": [
                 "Voluptuous",
@@ -2249,7 +2266,9 @@
                 "Gagging",
                 "Incest",
                 "Humans",
-                "CNC"
+                "CNC",
+                "Hentai",
+                "Snuff films"
             ],
             "nsfw": [
                 "BDSM",
@@ -2309,7 +2328,9 @@
                 "Sexual Roleplay",
                 "Cannibalism",
                 "Rape",
-                "Pregnancy"
+                "Pregnancy",
+                "Snuff films",
+                "Violent"
             ],
             "nsfw": [
                 "Vanilla",
@@ -2362,7 +2383,8 @@
                 "Unspecified",
                 "Submissive",
                 "Heterosexual",
-                "Monogamous"
+                "Monogamous",
+                "Promiscuous"
             ],
             "nsfw": [
                 "Polyamorous",
@@ -2444,7 +2466,8 @@
                 "North Pole",
                 "Game",
                 "Prison",
-                "Supernatural"
+                "Supernatural",
+                "Island"
             ],
             "nsfw": [
                 "Adult Club",
