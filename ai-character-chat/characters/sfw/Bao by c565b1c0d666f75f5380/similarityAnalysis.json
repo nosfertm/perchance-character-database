@@ -1,0 +1,24 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Yumeko_Usagi by 5b684a39e87c48acd015",
+  "forkedPath": "ai-character-chat/characters/nsfw/Yumeko_Usagi by 5b684a39e87c48acd015",
+  "similarities": {
+    "roleInstruction.txt": 0.8387096774193549,
+    "name.txt": 0
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.8387096774193549,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 0.8387096774193549,
+  "bestMatch": "Yumeko_Usagi by 5b684a39e87c48acd015"
+}

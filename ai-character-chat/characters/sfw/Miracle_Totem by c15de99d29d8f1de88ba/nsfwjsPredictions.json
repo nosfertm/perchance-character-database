@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741443826/scrape/perchance_comments/img_Miracle_Totem_by_c15de99d29d8f1de88ba.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.9671522974967957
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.022257812321186066
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.010450285859405994
+      },
+      {
+        "className": "Porn",
+        "probability": 0.00009563422645442188
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.000043985597585560754
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

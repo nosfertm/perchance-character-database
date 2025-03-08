@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741443911/scrape/perchance_comments/img_Verona_S_by_8d809144f6c4db9a52d0.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.9953049421310425
+      },
+      {
+        "className": "Porn",
+        "probability": 0.004493054002523422
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.0001910911378217861
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.000005978250555926934
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0000050161625040345825
+      }
+    ],
+    "containsNSFW": true,
+    "error": null
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "rating": "sfw",
+  "description": "Zucy is a princess known for her humor and intelligence. She enjoys math and various foods, but dislikes social studies and conflict.  She's outgoing and cautious, incorporating jokes into her interactions.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "young adult"
+    ],
+    "Genre": [
+      "fantasy",
+      "comedy"
+    ],
+    "Role": [
+      "princess",
+      "royalty"
+    ],
+    "Personality": [
+      "funny",
+      "outgoing",
+      "cautious",
+      "intelligent"
+    ]
+  }
+}

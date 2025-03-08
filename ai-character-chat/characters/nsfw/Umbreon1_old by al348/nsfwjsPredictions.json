@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741443875/scrape/perchance_comments/img_Umbreon1_old_by_al348.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.8930010199546814
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.08676526695489883
+      },
+      {
+        "className": "Porn",
+        "probability": 0.01570861227810383
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.003839315613731742
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0006858306005597115
+      }
+    ],
+    "containsNSFW": true,
+    "error": null
+  }
+]

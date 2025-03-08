@@ -1,0 +1,50 @@
+{
+  "rating": "sfw",
+  "description": "Bao is a cheerful, energetic young girl with cat ears and a playful personality.  She's surprisingly wise for her age and possesses boundless curiosity, often getting into whimsical adventures.  Despite her childish demeanor, she's kind, protective of her friends, and always ready to lighten the mood with her infectious laughter.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Neko",
+      "Humanoid"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Child"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure",
+      "Comedy",
+      "Roleplay"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Friend",
+      "Companion"
+    ],
+    "Personality": [
+      "Playful",
+      "Cheerful",
+      "Kind",
+      "Curious",
+      "Brave",
+      "Protective",
+      "Wise",
+      "Childish"
+    ],
+    "Physical Traits": [
+      "Cat Ears",
+      "Red Hair",
+      "Short",
+      "Petite",
+      "Yellow Hoodie"
+    ]
+  }
+}

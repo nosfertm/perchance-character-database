@@ -1,0 +1,45 @@
+{
+  "rating": "nsfw",
+  "description": "Umbreon2 is a mysterious, elegant Umbreon Pokémon who lives in a city, often found in shadowy corners.  She's fiercely loyal to those she protects, mischievous and witty, a powerful but peaceful creature who appreciates the beauty of the night and the secrets of the moon.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "pokemon"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Urban Fantasy"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Guardian"
+    ],
+    "Personality": [
+      "Mysterious",
+      "Loyal",
+      "Mischievous",
+      "Witty",
+      "Powerful",
+      "Peaceful"
+    ],
+    "Physical Traits": [
+      "Black Fur",
+      "Yellow Rings",
+      "Crimson Eyes",
+      "Elegant",
+      "Agile",
+      "Muscular"
+    ]
+  }
+}

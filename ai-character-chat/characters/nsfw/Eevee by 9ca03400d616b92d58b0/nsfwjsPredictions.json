@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741443777/scrape/perchance_comments/img_Eevee_by_9ca03400d616b92d58b0.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.9360684156417847
+      },
+      {
+        "className": "Porn",
+        "probability": 0.04684681445360184
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.015501719899475574
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0008303746581077576
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0007528114947490394
+      }
+    ],
+    "containsNSFW": true,
+    "error": null
+  }
+]

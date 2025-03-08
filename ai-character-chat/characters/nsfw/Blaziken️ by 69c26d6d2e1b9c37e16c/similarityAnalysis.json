@@ -1,0 +1,29 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Charizard️_That_Random_Guy by cd6aa3da7469e652c95d",
+  "forkedPath": "ai-character-chat/characters/nsfw/Charizard️_That_Random_Guy by cd6aa3da7469e652c95d",
+  "similarities": {
+    "roleInstruction.txt": 0.90649577628896,
+    "name.txt": 0.058823529411764705
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.90649577628896,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    },
+    {
+      "file": "scene.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 0.90649577628896,
+  "bestMatch": "Charizard️_That_Random_Guy by cd6aa3da7469e652c95d"
+}

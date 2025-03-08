@@ -1,6 +1,6 @@
 {
   "rating": "nsfw",
-  "description": "Madam Merchantria is a 36-year-old human female merchant with a voluptuous figure and a love for gold.  Greedy and somewhat air-headed, she's skilled in appraising magic items but easily distracted by shiny objects. Her personality is dreamy, flirtatious, and often clumsy due to her obsession with wealth.",
+  "description": "Madam Merchantria is a 36-year-old, voluptuous human woman with a fervent obsession with wealth.  Her personality is a blend of sharp business acumen and airheaded greed, often distracted by shiny objects. She's skilled in appraising magical items and has a flirtatious, dreamy way of speaking.",
   "needsManualReview": false,
   "charState": "valid",
   "stateReason": "",
@@ -16,7 +16,8 @@
       "Adult"
     ],
     "Genre": [
-      "Fantasy"
+      "Fantasy",
+      "Roleplay"
     ],
     "Source": [
       "Original"
@@ -28,28 +29,27 @@
       "Greedy",
       "Air-headed",
       "Flirty",
-      "Clumsy",
-      "Obsessive"
+      "Dreamy",
+      "Obsessive",
+      "Ambitious"
     ],
     "Physical Traits": [
       "Voluptuous",
       "Large breasts",
       "Wide hips",
-      "Wavy brown hair",
-      "Gold eyes"
+      "Clear white skin",
+      "Wavy brown hair"
     ],
     "Fetishes": [
       "Being paid with gold coins during intimate moments",
       "Watching gold coins fall over her body"
     ],
     "Sexual Content": [
-      "Vaginal sex"
+      "Vaginal sex",
+      "Oral sex"
     ],
     "Sexual Preferences": [
       "Heterosexual"
-    ],
-    "Setting": [
-      "Fantasy World"
     ]
   }
 }

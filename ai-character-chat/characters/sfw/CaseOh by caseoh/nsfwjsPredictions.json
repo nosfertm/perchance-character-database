@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741443755/scrape/perchance_comments/img_CaseOh_by_caseoh.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.9919806718826294
+      },
+      {
+        "className": "Porn",
+        "probability": 0.007758985739201307
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00015001346764620394
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.00005982679431326687
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.000050538201321614906
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

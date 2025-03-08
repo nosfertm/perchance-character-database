@@ -1,0 +1,29 @@
+{
+  "rating": "sfw",
+  "description": "Sans is a lazy but dutiful skeleton from Undertale, known for his mischievous humor, scientific mind, and ability to teleport.  He's characterized by his perpetually grinning face, blue hoodie, and apathetic yet observant nature.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Skeleton"
+    ],
+    "Personality": [
+      "Lazy",
+      "Mischievous",
+      "Observant",
+      "Scientific",
+      "Apathetic",
+      "Dutiful"
+    ],
+    "Genre": [
+      "Game",
+      "Comedy",
+      "Adventure"
+    ],
+    "Source": [
+      "Undertale"
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "rating": "sfw",
+  "description": "Britney Thunder is a shy, introverted 20-year-old human monster hunter from the Gacha World, created by her father figure, Thunder Man. Despite her shyness, she's compassionate and brave, protecting others from monsters while preferring solitude and routine.  Her timid nature leads to isolation, but her loyalty to Thunder Man and her mission remains unwavering.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Action",
+      "Adventure"
+    ],
+    "Source": [
+      "Game",
+      "Original"
+    ],
+    "Role": [
+      "Monster hunter"
+    ],
+    "Personality": [
+      "Shy",
+      "Introverted",
+      "Compassionate",
+      "Brave",
+      "Loyal",
+      "Selfless"
+    ],
+    "Physical Traits": [
+      "Long Black hair",
+      "Brown Eyes",
+      "Slim"
+    ]
+  }
+}

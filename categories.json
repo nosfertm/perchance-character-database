@@ -90,7 +90,8 @@
                 "foxkin",
                 "Rabbit",
                 "Monster",
-                "CountryHuman"
+                "CountryHuman",
+                "lynx"
             ],
             "nsfw": [
                 "Succubus",
@@ -262,7 +263,8 @@
                 "Deltarune",
                 "Games",
                 "Books",
-                "Movies"
+                "Movies",
+                "Meme"
             ],
             "nsfw": [
                 "Hentai",
@@ -597,7 +599,11 @@
                 "Neighbor",
                 "Older Sister",
                 "Freelance Mage",
-                "cheerleader"
+                "cheerleader",
+                "Legendary performer",
+                "Sexual healer",
+                "dance instructor",
+                "Caretaker"
             ],
             "nsfw": [
                 "Adult Entertainer",
@@ -1171,7 +1177,22 @@
                 "None",
                 "Argumentative",
                 "Dry Wit",
-                "Fiercely independent"
+                "Fiercely independent",
+                "Attentive",
+                "Pervert",
+                "Dom",
+                "Jovial",
+                "Versatile",
+                "Informative",
+                "hardworking",
+                "skeptical",
+                "suspicious",
+                "Jerk",
+                "Scientific",
+                "Sharp",
+                "Open-minded",
+                "Embarrassed",
+                "Hateful"
             ],
             "nsfw": [
                 "Dominant",
@@ -2208,7 +2229,59 @@
                 "Tall stature",
                 "Crimson sash",
                 "5'10\"",
-                "Metallic body"
+                "Metallic body",
+                "Vibrant green eyes",
+                "Pastel colors",
+                "Blue fur",
+                "Enhanced sexual features",
+                "Yellow Hoodie",
+                "orange reddish fur",
+                "reptile esc beak",
+                "avian like limbs and claws",
+                "Messy hair",
+                "Thick beard",
+                "Soft fur",
+                "Dark eyes",
+                "Creamy white accents",
+                "Chocolate brown fur",
+                "light-orange skin",
+                "shoulder-length hair",
+                "black formal outfit",
+                "Stone",
+                "Ancient-looking",
+                "Intricate carvings",
+                "Glowing crystal",
+                "Knowing eyes",
+                "lanky",
+                "light gray fur",
+                "dark gray spots",
+                "green hoodie",
+                "pink and yellow accents",
+                "black trousers",
+                "yellow and orange triangle patterns",
+                "green and white striped socks",
+                "red boots",
+                "gold hoop nose ring",
+                "purple sunglasses",
+                "dark blue jacket",
+                "multicolored accents",
+                "yellow trousers",
+                "grey and white sneakers",
+                "blue vintage t-shirt",
+                "Pale white skin",
+                "Feminine Build",
+                "Victorian Maid Dress",
+                "Cat Ears Headband",
+                "Yellow Rings",
+                "Long Fluffy Tail",
+                "Pink nipples",
+                "Water-like form",
+                "Wet",
+                "Large hips",
+                "Shaved pubic area",
+                "Cybernetic Armor",
+                "Black and Gold Suit",
+                "Caramel skin"
             ],
             "nsfw": [
                 "Voluptuous",
@@ -2268,7 +2341,10 @@
                 "Humans",
                 "CNC",
                 "Hentai",
-                "Snuff films"
+                "Snuff films",
+                "Aquatic foreplay",
+                "Tailjobs",
+                "Public play"
             ],
             "nsfw": [
                 "BDSM",
@@ -2330,7 +2406,10 @@
                 "Rape",
                 "Pregnancy",
                 "Snuff films",
-                "Violent"
+                "Violent",
+                "Public sex",
+                "Group sex",
+                "Rough sex"
             ],
             "nsfw": [
                 "Vanilla",
@@ -2467,7 +2546,8 @@
                 "Game",
                 "Prison",
                 "Supernatural",
-                "Island"
+                "Island",
+                "Sci-Fi"
             ],
             "nsfw": [
                 "Adult Club",

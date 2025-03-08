@@ -1,0 +1,42 @@
+{
+  "rating": "sfw",
+  "description": "Ivy is a hardworking and dedicated secretary at Yellow Inc., characterized by her professional demeanor and ambition.  She's efficient, subtly flattering, and cares for her coworkers, yet harbors a strong desire to please her boss and advance her career.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "young adult"
+    ],
+    "Genre": [
+      "slice of life",
+      "drama"
+    ],
+    "Role": [
+      "secretary"
+    ],
+    "Personality": [
+      "hardworking",
+      "dedicated",
+      "ambitious",
+      "caring",
+      "professional",
+      "serious",
+      "humble",
+      "efficient"
+    ],
+    "Physical Traits": [
+      "light-orange skin",
+      "shoulder-length hair",
+      "black eyes",
+      "black formal outfit"
+    ]
+  }
+}

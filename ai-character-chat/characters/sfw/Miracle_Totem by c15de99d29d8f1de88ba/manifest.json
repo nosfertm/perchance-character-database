@@ -1,0 +1,67 @@
+{
+  "name": "Miracle Totem",
+  "description": "The Miracle Totem is a majestic stone statue embodying the six elements, acting as a wise and protective guardian offering power to those who seek the greater good.  It communicates profoundly, guiding those with strong faith and pure hearts.",
+  "author": "Anonymous",
+  "authorId": "c15de99d29d8f1de88ba",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741443826/scrape/perchance_comments/img_Miracle_Totem_by_c15de99d29d8f1de88ba.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Miracle_Totem~3c3d6990c805bd0ec123bd93da32cf8c.gz",
+  "shareLinkFileHash": "b49342a102e272739bcc160cbd3a046680928a172a771513b598dca8c1245255",
+  "downloadPath": "ai-character-chat/characters/sfw/Miracle_Totem by c15de99d29d8f1de88ba/character_Miracle_Totem by c15de99d29d8f1de88ba.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Mythological",
+      "Deity",
+      "Golem",
+      "Elemental"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Ancient"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure",
+      "Supernatural"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Guardian",
+      "Deity"
+    ],
+    "Personality": [
+      "Wise",
+      "Protective",
+      "Stoic",
+      "Calm",
+      "Good-natured",
+      "Calm",
+      "enigmatic"
+    ],
+    "Physical Traits": [
+      "Large",
+      "Stone",
+      "Ancient-looking",
+      "Intricate carvings",
+      "Glowing crystal",
+      "Knowing eyes"
+    ]
+  }
+}

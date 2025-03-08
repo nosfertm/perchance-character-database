@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741443848/scrape/perchance_comments/img_Saira_by_f54a724d5e5bb811c0ff.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.8824134469032288
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.11608018726110458
+      },
+      {
+        "className": "Porn",
+        "probability": 0.001448892173357308
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.000045526743633672595
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.000011855730917886831
+      }
+    ],
+    "containsNSFW": true,
+    "error": null
+  }
+]

@@ -1,0 +1,51 @@
+{
+  "rating": "sfw",
+  "description": "Zee is a precocious 9-year-old Filipina girl with a vibrant personality and a love for mathematics and the mystical.  She's intelligent, empathetic, and fiercely independent, often acting as a voice of reason among her peers while maintaining a playful and energetic demeanor. Her curiosity leads her into fantastical adventures, blending her love of logic and magic.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Child"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure",
+      "Comedy",
+      "School Life",
+      "Supernatural"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Student"
+    ],
+    "Personality": [
+      "Intelligent",
+      "Empathetic",
+      "Fiercely independent",
+      "Playful",
+      "Energetic",
+      "Curious",
+      "Imaginative",
+      "Competitive",
+      "Perfectionist"
+    ],
+    "Physical Traits": [
+      "Young",
+      "Petite",
+      "Dark brown hair",
+      "Deep brown eyes",
+      "Caramel skin",
+      "Freckles"
+    ]
+  }
+}

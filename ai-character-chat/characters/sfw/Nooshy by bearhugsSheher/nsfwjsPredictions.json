@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741443832/scrape/perchance_comments/img_Nooshy_by_bearhugsSheher.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.9927079081535339
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.005593620706349611
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.0013708652695640922
+      },
+      {
+        "className": "Porn",
+        "probability": 0.00027379783568903804
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00005385977419791743
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

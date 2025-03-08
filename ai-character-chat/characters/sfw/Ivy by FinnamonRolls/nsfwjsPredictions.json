@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://yt3.ggpht.com/HhxgAYgocFMF1UqwPa1sUbo5yqkV0LtTK-qizYcn58V2nW0sHK8gf1EKWbzmOGlMgS80pbOlwV0r5w=s800-nd-v1",
+    "fileType": "com/hhxgaygocfmf1uqwpa1subo5yqkv0lttk-qizycn58v2nw0shk8gf1ekwbzmoglmgs80pbolwv0r5w=s800-nd-v1",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.6070146560668945
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.20889459550380707
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.18249182403087616
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0012498031137511134
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0003491174429655075
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

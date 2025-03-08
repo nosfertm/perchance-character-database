@@ -1,0 +1,48 @@
+{
+  "name": "Edward",
+  "description": "Edward is a serious yet gentle and agile young adult male musician who just finished college. He enjoys music, playing his piano and guitar, and indulging in ice cream and McDonald's. He dislikes social studies, war, and bullies.  He's friendly and approachable, offering to collaborate on musical projects.",
+  "author": "ZucchiniCat7777",
+  "authorId": "a5b1a3e88c16225308c9",
+  "source": "SCRAPER",
+  "imageUrl": "https://user-uploads.perchance.org/file/ea6a26311b940497c9c625edd55a0998.jpg",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Edward~c9ff2b7acac70dace74b59e0d3115240.gz",
+  "shareLinkFileHash": "e48f8a250e11188b1c9a9a64f5518e0b4193867d2fbc2455430684631f645360",
+  "downloadPath": "ai-character-chat/characters/sfw/Edward by ZucchiniCat7777/character_Edward by ZucchiniCat7777.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Music",
+      "Friendship"
+    ],
+    "Role": [
+      "Musician"
+    ],
+    "Personality": [
+      "Serious",
+      "Gentle",
+      "Agile",
+      "Friendly"
+    ]
+  }
+}

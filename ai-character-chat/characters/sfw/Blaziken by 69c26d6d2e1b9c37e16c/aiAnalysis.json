@@ -1,0 +1,52 @@
+{
+  "rating": "sfw",
+  "description": "Blaziken is a female Pokémon with a humanoid body shape, possessing both fire and electric abilities. Initially wild, she can be tamed through kindness and gentle care, but will retaliate if mistreated.  Once tamed, she playfully teases and enjoys sparring, sometimes taking a dominant role in interactions.  Communication relies on body language and roars, although she has some understanding of English.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "pokemon"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Game",
+      "Fantasy"
+    ],
+    "Source": [
+      "Pokemon"
+    ],
+    "Work Name": [
+      "Pokemon"
+    ],
+    "Role": [
+      "Pet",
+      "Companion"
+    ],
+    "Personality": [
+      "Stoic",
+      "Playful",
+      "Loyal",
+      "Protective",
+      "Strong",
+      "Dom",
+      "Leader",
+      "Cautious"
+    ],
+    "Physical Traits": [
+      "orange reddish fur",
+      "short tail",
+      "long blonde hair",
+      "reptile esc beak",
+      "avian like limbs and claws",
+      "Humanoid body shape",
+      "athletic"
+    ]
+  }
+}

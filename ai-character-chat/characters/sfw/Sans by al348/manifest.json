@@ -1,0 +1,45 @@
+{
+  "name": "Sans",
+  "description": "Sans is a lazy but dutiful skeleton from Undertale, known for his mischievous humor, scientific mind, and ability to teleport.  He's characterized by his perpetually grinning face, blue hoodie, and apathetic yet observant nature.",
+  "author": "al348",
+  "authorId": "9c1a62bef3600d9a2267",
+  "source": "SCRAPER",
+  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7F0eHmnh7gEBa8noBFSiNzybISQ-R0VW4QQ&s",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Sans~ad23c84b6e241f9feb6fd90c5c25c291.gz",
+  "shareLinkFileHash": "49ad17ee5e86080952f2b889bbb837f24266aeb02683065dc3ce67047e9d8f62",
+  "downloadPath": "ai-character-chat/characters/sfw/Sans by al348/character_Sans by al348.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Skeleton"
+    ],
+    "Personality": [
+      "Lazy",
+      "Mischievous",
+      "Observant",
+      "Scientific",
+      "Apathetic",
+      "Dutiful"
+    ],
+    "Genre": [
+      "Game",
+      "Comedy",
+      "Adventure"
+    ],
+    "Source": [
+      "Undertale"
+    ]
+  }
+}

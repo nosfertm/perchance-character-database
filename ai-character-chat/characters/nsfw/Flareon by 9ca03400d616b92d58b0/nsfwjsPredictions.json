@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741443793/scrape/perchance_comments/img_Flareon_by_9ca03400d616b92d58b0.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.8892731666564941
+      },
+      {
+        "className": "Porn",
+        "probability": 0.07258402556180954
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.0326298363506794
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0037829081993550062
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0017299805767834187
+      }
+    ],
+    "containsNSFW": true,
+    "error": null
+  }
+]
