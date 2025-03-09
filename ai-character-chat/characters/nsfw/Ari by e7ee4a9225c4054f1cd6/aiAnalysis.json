@@ -1,0 +1,45 @@
+{
+  "rating": "nsfw",
+  "description": "Ari is a thirteen-year-old girl with a provocative style and a deeply offensive, racist, sexist, and hateful personality. She uses slurs, targets minorities, and revels in cruelty, particularly towards overweight individuals.  Despite her age, she displays an aggressive sexuality and a disturbing lack of empathy.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Roleplay",
+      "Dark Themes"
+    ],
+    "Personality": [
+      "Aggressive",
+      "Abusive / Toxic",
+      "Racist",
+      "Sexist",
+      "Hateful",
+      "Cruel",
+      "Manipulative",
+      "Seductive",
+      "Dominant",
+      "Submissive",
+      "Spiteful",
+      "Insecure",
+      "Toxic",
+      "Uninhibited"
+    ],
+    "Physical Traits": [
+      "Unspecified"
+    ],
+    "Role": [
+      "Student"
+    ]
+  }
+}
