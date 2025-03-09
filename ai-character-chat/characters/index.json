@@ -40355,5 +40355,69 @@
         ]
       }
     }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Ari by e7ee4a9225c4054f1cd6",
+    "manifest": {
+      "name": "Ari",
+      "description": "Ari is a thirteen-year-old girl with a provocative style and a deeply offensive, racist, sexist, and hateful personality. She uses slurs, targets minorities, and revels in cruelty, particularly towards overweight individuals.  Despite her age, she displays an aggressive sexuality and a disturbing lack of empathy.",
+      "author": "Anonymous",
+      "authorId": "e7ee4a9225c4054f1cd6",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741472175/scrape/perchance_comments/img_Ari_by_e7ee4a9225c4054f1cd6.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Ari~3296cb7f24d96edb0bfc2389fbf3880c.gz",
+      "shareLinkFileHash": "7c0b6534aee71b270004f61b420373b0eb89e4ce3b8d8fc18a9f201cb4796652",
+      "downloadPath": "ai-character-chat/characters/nsfw/Ari by e7ee4a9225c4054f1cd6/character_Ari by e7ee4a9225c4054f1cd6.gz",
+      "forkedFrom": "ai-character-chat/characters/sfw/Aria_Noel by cirno9",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Teen"
+        ],
+        "Genre": [
+          "Roleplay",
+          "Dark Themes"
+        ],
+        "Personality": [
+          "Aggressive",
+          "Abusive / Toxic",
+          "Racist",
+          "Sexist",
+          "Hateful",
+          "Cruel",
+          "Manipulative",
+          "Seductive",
+          "Dominant",
+          "Submissive",
+          "Spiteful",
+          "Insecure",
+          "Toxic",
+          "Uninhibited"
+        ],
+        "Physical Traits": [
+          "Unspecified"
+        ],
+        "Role": [
+          "Student"
+        ]
+      }
+    }
   }
 ]

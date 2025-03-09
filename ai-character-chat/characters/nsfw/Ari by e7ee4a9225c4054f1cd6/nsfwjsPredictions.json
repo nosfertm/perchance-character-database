@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741472175/scrape/perchance_comments/img_Ari_by_e7ee4a9225c4054f1cd6.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.6413978934288025
+      },
+      {
+        "className": "Porn",
+        "probability": 0.3551441729068756
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.002389241009950638
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.0007508858107030392
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.0003178597253281623
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]
