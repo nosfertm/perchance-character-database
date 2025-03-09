@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741523405/scrape/perchance_comments/img_Chenya_by_Yuliana_Rollos_Wife.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.9950708150863647
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.004841657821089029
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.00008451622124994174
+      },
+      {
+        "className": "Porn",
+        "probability": 0.000002759381231953739
+      },
+      {
+        "className": "Sexy",
+        "probability": 3.4461834275134606e-7
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

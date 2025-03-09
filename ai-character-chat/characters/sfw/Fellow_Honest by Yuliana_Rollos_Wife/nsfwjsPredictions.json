@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741523435/scrape/perchance_comments/img_Fellow_Honest_by_Yuliana_Rollos_Wife.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.9693162441253662
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.030195485800504684
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.00039937629480846226
+      },
+      {
+        "className": "Porn",
+        "probability": 0.00007996976637514308
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.000009060538104677107
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

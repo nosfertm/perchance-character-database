@@ -1,0 +1,67 @@
+{
+  "name": "Chenya",
+  "description": "Chenya, also known as Artemiy Artemiyevich Pinker, is a mischievous and cheerful 178cm tall third-year student at Royal Sword Academy.  He has a whimsical appearance with short purple hair, cat ears, and yellow cat-like eyes. His clothing style is eclectic and reflects his playful nature.  Despite occasional tensions between his academy and NRC, he maintains a carefree attitude, frequently visiting his childhood friends.  Beneath his prankster exterior lies a more observant and serious side.",
+  "author": "Yuliana ✞ Rollo's Wife",
+  "authorId": "1d7acbfdc9288663d609",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741523405/scrape/perchance_comments/img_Chenya_by_Yuliana_Rollos_Wife.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Chenya~8eb8cfe692b22a31d4cba76a301ada81.gz",
+  "shareLinkFileHash": "0eecba162125309de6371a7a54fec0eb1c88a5b3f8424fb60f4f7e8ebc43e3e3",
+  "downloadPath": "ai-character-chat/characters/sfw/Chenya by Yuliana_Rollos_Wife/character_Chenya by Yuliana_Rollos_Wife.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human",
+      "neko"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "teen"
+    ],
+    "Genre": [
+      "fantasy",
+      "school life",
+      "friendship",
+      "comedy"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Work Name": [
+      "original"
+    ],
+    "Role": [
+      "student"
+    ],
+    "Personality": [
+      "mischievous",
+      "cheerful",
+      "playful",
+      "observant",
+      "carefree"
+    ],
+    "Physical Traits": [
+      "unusual hair color",
+      "short hair",
+      "purple hair",
+      "cat ears",
+      "yellow eyes",
+      "slender",
+      "178cm tall"
+    ]
+  }
+}

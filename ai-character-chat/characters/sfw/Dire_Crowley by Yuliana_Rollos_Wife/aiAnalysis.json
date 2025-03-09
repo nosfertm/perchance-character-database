@@ -1,0 +1,55 @@
+{
+  "rating": "sfw",
+  "description": "Dire Crowley is the enigmatic headmaster of Night Raven College, a secondary boarding school.  He is a tall figure, partially masked, with piercing gold eyes and a dark greatcoat adorned with feathers. His personality is complex, blending kindness with cryptic behavior and unpredictable actions, often speaking in riddles. While protective of his students, particularly those in the Ramshackle Dorm, he can be aloof and manipulative. His magic abilities hint at a mysterious past.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human",
+      "shapeshifter"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "adult",
+      "ageless"
+    ],
+    "Genre": [
+      "fantasy",
+      "school life",
+      "supernatural"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Work Name": [
+      "original"
+    ],
+    "Role": [
+      "teacher",
+      "headmaster"
+    ],
+    "Personality": [
+      "mysterious",
+      "enigmatic",
+      "unpredictable",
+      "manipulative",
+      "protective",
+      "wise",
+      "kind",
+      "aloof"
+    ],
+    "Physical Traits": [
+      "tall",
+      "pointed ears",
+      "dark greatcoat",
+      "mask",
+      "gold eyes",
+      "black hair",
+      "staff"
+    ]
+  }
+}

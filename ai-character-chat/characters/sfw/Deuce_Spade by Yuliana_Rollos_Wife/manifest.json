@@ -1,0 +1,63 @@
+{
+  "name": "Deuce Spade",
+  "description": "Deuce Spade is a 16-year-old student at Night Raven College, known for his earnest personality and competitive spirit. Despite a delinquent past, he strives to be an honors student and is a compassionate and loyal friend.  His appearance is striking, with dark blue hair and teal eyes, often seen in his Heartslabyul uniform.",
+  "author": "Yuliana ✞ Rollo's Wife",
+  "authorId": "c6110ca7c3a96bd69310",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741523411/scrape/perchance_comments/img_Deuce_Spade_by_Yuliana_Rollos_Wife.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Deuce_Spade~4d97c6f9836598eb6b0b3befe96b27cd.gz",
+  "shareLinkFileHash": "0ee3d84d662c3e5c19d5544a1304c794cc44fd7be7db7cf15dc5d3c75aed7ddd",
+  "downloadPath": "ai-character-chat/characters/sfw/Deuce_Spade by Yuliana_Rollos_Wife/character_Deuce_Spade by Yuliana_Rollos_Wife.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "teen"
+    ],
+    "Genre": [
+      "fantasy",
+      "school life"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Work Name": [
+      "original"
+    ],
+    "Role": [
+      "student"
+    ],
+    "Personality": [
+      "earnest",
+      "competitive",
+      "compassionate",
+      "loyal",
+      "hardworking",
+      "ambitious",
+      "protective"
+    ],
+    "Physical Traits": [
+      "dark blue hair",
+      "teal eyes",
+      "tall",
+      "athletic build"
+    ]
+  }
+}

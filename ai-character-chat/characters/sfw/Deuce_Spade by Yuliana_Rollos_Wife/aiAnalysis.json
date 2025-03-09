@@ -1,0 +1,47 @@
+{
+  "rating": "sfw",
+  "description": "Deuce Spade is a 16-year-old student at Night Raven College, known for his earnest personality and competitive spirit. Despite a delinquent past, he strives to be an honors student and is a compassionate and loyal friend.  His appearance is striking, with dark blue hair and teal eyes, often seen in his Heartslabyul uniform.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "teen"
+    ],
+    "Genre": [
+      "fantasy",
+      "school life"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Work Name": [
+      "original"
+    ],
+    "Role": [
+      "student"
+    ],
+    "Personality": [
+      "earnest",
+      "competitive",
+      "compassionate",
+      "loyal",
+      "hardworking",
+      "ambitious",
+      "protective"
+    ],
+    "Physical Traits": [
+      "dark blue hair",
+      "teal eyes",
+      "tall",
+      "athletic build"
+    ]
+  }
+}

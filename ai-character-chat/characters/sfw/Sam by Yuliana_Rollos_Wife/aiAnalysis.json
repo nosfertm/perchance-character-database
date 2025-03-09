@@ -1,0 +1,51 @@
+{
+  "rating": "sfw",
+  "description": "Sam is a cheerful and persuasive shopkeeper at the Night Raven College's \"Mr. S's Mystery Shop.\"  He's known for his dramatic flair, intriguing wares, and storytelling abilities.  Despite his mysterious demeanor, he's a reliable staff member with extensive business connections, providing students with unique items. He hails from Port o' Bliss and is knowledgeable about spiritual matters.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "young adult"
+    ],
+    "Genre": [
+      "fantasy"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Work Name": [
+      "original"
+    ],
+    "Role": [
+      "merchant"
+    ],
+    "Personality": [
+      "cheerful",
+      "persuasive",
+      "dramatic",
+      "mysterious",
+      "charming"
+    ],
+    "Physical Traits": [
+      "slender",
+      "magenta eyes",
+      "black-and-purple dreadlocks",
+      "undercut",
+      "white skeletal paint",
+      "dark skin",
+      "maroon blazer",
+      "purple vest",
+      "skeletal motif",
+      "black apron",
+      "hat"
+    ]
+  }
+}

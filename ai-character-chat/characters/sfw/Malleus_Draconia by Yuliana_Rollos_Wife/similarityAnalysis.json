@@ -1,0 +1,24 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Henry_Castellanos by 35881d62dd74128f8471",
+  "forkedPath": "ai-character-chat/characters/sfw/Henry_Castellanos by 35881d62dd74128f8471",
+  "similarities": {
+    "roleInstruction.txt": 0.8,
+    "name.txt": 0.06896551724137931
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.8,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 0.8,
+  "bestMatch": "Henry_Castellanos by 35881d62dd74128f8471"
+}

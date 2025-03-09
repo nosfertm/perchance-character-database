@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741523445/scrape/perchance_comments/img_Gidel_by_Yuliana_Rollos_Wife.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.9020830392837524
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.09642583876848221
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0012118668528273702
+      },
+      {
+        "className": "Porn",
+        "probability": 0.00026120414258912206
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.000018068760255118832
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

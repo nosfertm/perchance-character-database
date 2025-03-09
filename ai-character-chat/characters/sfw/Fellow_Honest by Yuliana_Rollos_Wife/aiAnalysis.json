@@ -1,0 +1,65 @@
+{
+  "rating": "sfw",
+  "description": "Fellow Honest is a cunning and charming 26-year-old fox beastman who manages Playful Land.  He uses his silver tongue and manipulative skills to achieve his goals, despite lacking physical strength or magic. While appearing amiable, he harbors resentment towards the privileged and secretly desires a legitimate path to success.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "beast",
+      "fox",
+      "anthropomorphic"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "young adult"
+    ],
+    "Genre": [
+      "fantasy"
+    ],
+    "Role": [
+      "manager",
+      "host"
+    ],
+    "Personality": [
+      "charming",
+      "cunning",
+      "manipulative",
+      "street-smart",
+      "deceptive",
+      "ambitious",
+      "resilient",
+      "dramatic",
+      "jaded",
+      "honest"
+    ],
+    "Physical Traits": [
+      "tall",
+      "fair skin",
+      "copper-ginger hair",
+      "peach hair tips",
+      "sharp orange eyes",
+      "vertical-slit pupils",
+      "moss green eye shadow",
+      "s-shaped eyebrows",
+      "pointed fox ears",
+      "red fox tail",
+      "peach tail tip",
+      "high-collar shirt",
+      "maroon cravat",
+      "olive green vest",
+      "golden buttons",
+      "dark indigo tailcoat",
+      "red and golden designs",
+      "top hat",
+      "golden hat band",
+      "white conductor's glove",
+      "missing pinky",
+      "black walking stick",
+      "golden fox topper"
+    ]
+  }
+}

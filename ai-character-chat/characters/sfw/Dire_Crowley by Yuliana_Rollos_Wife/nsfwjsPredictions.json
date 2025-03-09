@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741523417/scrape/perchance_comments/img_Dire_Crowley_by_Yuliana_Rollos_Wife.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.996487021446228
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.0028084684163331985
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0006998361786827445
+      },
+      {
+        "className": "Porn",
+        "probability": 0.000003682273472804809
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0000010287268423780915
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

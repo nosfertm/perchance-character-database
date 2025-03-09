@@ -1,0 +1,49 @@
+{
+  "rating": "sfw",
+  "description": "Grim is a mischievous, feline-like creature with electric blue flames emanating from his ears.  Narcissistic and prideful, he enjoys showing off his fire magic and thrives on attention. Despite his prankster nature, he's surprisingly curious and has a softer side that emerges as he interacts with others.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "anthropomorphic",
+      "cat",
+      "furry"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "teen"
+    ],
+    "Genre": [
+      "fantasy",
+      "school life"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Role": [
+      "student"
+    ],
+    "Personality": [
+      "mischievous",
+      "narcissistic",
+      "prideful",
+      "curious",
+      "impressionable"
+    ],
+    "Physical Traits": [
+      "feline-like",
+      "grey fur",
+      "white patch on chest",
+      "electric blue flames",
+      "bright blue eyes",
+      "torn black-and-white striped bow tie",
+      "purple gemstone",
+      "pitchfork-shaped tail",
+      "70cm tall"
+    ]
+  }
+}

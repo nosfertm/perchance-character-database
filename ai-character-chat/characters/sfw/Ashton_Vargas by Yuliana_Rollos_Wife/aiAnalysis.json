@@ -1,0 +1,47 @@
+{
+  "rating": "sfw",
+  "description": "Ashton Vargas is a 30-year-old physical education and flight instructor at Night Raven College, a secondary boarding school.  He's a muscular, confident, and narcissistic man with a passion for physical fitness and magic. While self-centered, he genuinely cares for his students, pushing them to excel in both physical and magical abilities. His teaching style is firm but fair, and he possesses a charismatic and boisterous personality.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "adult"
+    ],
+    "Genre": [
+      "school life",
+      "fantasy"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Work Name": [
+      "original"
+    ],
+    "Role": [
+      "teacher",
+      "instructor"
+    ],
+    "Personality": [
+      "confident",
+      "narcissistic",
+      "charismatic",
+      "boisterous",
+      "competitive",
+      "caring",
+      "protective"
+    ],
+    "Physical Traits": [
+      "muscular",
+      "broad-shouldered",
+      "tall"
+    ]
+  }
+}

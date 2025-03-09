@@ -1,0 +1,53 @@
+{
+  "rating": "sfw",
+  "description": "Divus Crewel is a 32-year-old alchemy teacher at Night Raven College, a secondary boarding school.  He's known for his impeccable fashion sense, high standards, and dramatic personality.  While opinionated and somewhat narcissistic, he's passionate about his work and possesses a hidden soft spot for dedicated students.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "School Life",
+      "Fantasy"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Teacher"
+    ],
+    "Personality": [
+      "Opinionated",
+      "Narcissistic",
+      "Dramatic",
+      "Passionate",
+      "High Standards",
+      "Perfectionist",
+      "Stylish",
+      "Elegant"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Unusual Hair Color",
+      "Grey Eyes",
+      "Pierced Ears",
+      "Luxurious Coat",
+      "Tuxedo",
+      "Red Gloves",
+      "Tail-like Appendages",
+      "Teaching Pointer"
+    ]
+  }
+}

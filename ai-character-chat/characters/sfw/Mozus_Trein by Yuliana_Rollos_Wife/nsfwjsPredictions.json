@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741523467/scrape/perchance_comments/img_Mozus_Trein_by_Yuliana_Rollos_Wife.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.5713757276535034
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.42430830001831055
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0025038111489266157
+      },
+      {
+        "className": "Porn",
+        "probability": 0.001726794522255659
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00008530930062988773
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]
