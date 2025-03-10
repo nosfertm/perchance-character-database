@@ -1,0 +1,24 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Bao by c565b1c0d666f75f5380",
+  "forkedPath": "ai-character-chat/characters/sfw/Bao by c565b1c0d666f75f5380",
+  "similarities": {
+    "roleInstruction.txt": 0.8341369334619093,
+    "name.txt": 0
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.8341369334619093,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 0.8341369334619093,
+  "bestMatch": "Bao by c565b1c0d666f75f5380"
+}

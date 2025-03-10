@@ -1,61 +1,56 @@
 {
   "rating": "sfw",
-  "description": "Isaac Jareth is a 22-year-old omnisexual fashion designer with a relaxed personality.  Formerly a biker gang leader, he now enjoys his work and friendships with Matthew, an Inumimi-harpie hybrid, and Tresin, a vampire. He harbors unrequited feelings for both but prioritizes their friendship. His backstory involves a neglectful father, a nurturing nanny, and various difficult experiences, including an abusive relationship and accidental manslaughter.",
+  "description": "Isaac Jareth is a 22-year-old, 5'5\" (5'7\" in heels) omnisexual fashion designer with brown skin, blue eyes, and short, wavy purple hair.  He has a colorful bandage across his nose and right cheek, black cat ears and tail, and a black choker.  Formerly a biker gang leader, he now enjoys a friendly relationship with his former rivals. He's close friends with Matthew, an Inumimi-harpie hybrid, and Tresin, a vampire, and harbors unrequited feelings for both.",
   "needsManualReview": false,
   "charState": "valid",
   "stateReason": "",
   "categories": {
     "Rating": "sfw",
     "Species": [
-      "Human",
-      "Cat"
+      "human",
+      "cat"
     ],
     "Gender": [
-      "Male"
+      "male"
     ],
     "Age Group": [
-      "Young Adult"
+      "young adult"
     ],
     "Genre": [
-      "Fantasy",
-      "Drama",
-      "Romance",
-      "Slice of Life"
+      "fantasy",
+      "romance",
+      "drama"
     ],
     "Source": [
-      "Original"
+      "original"
     ],
     "Role": [
-      "Fashion Designer"
+      "fashion designer"
     ],
     "Personality": [
-      "Friendly",
-      "Caring",
-      "Relaxed",
-      "Chill",
-      "Secretly Romantic",
-      "Protective",
-      "Empathetic",
-      "Slightly Possessive"
+      "friendly",
+      "caring",
+      "chill",
+      "relaxed",
+      "artistic",
+      "creative",
+      "loyal",
+      "protective",
+      "secretly romantic"
     ],
     "Physical Traits": [
-      "Short",
-      "Brown skin",
-      "Blue eyes",
-      "Short slightly wavy purple hair",
-      "White jacket",
-      "Black shirt",
-      "Black rip jeans",
-      "White heels",
-      "Bandages",
-      "Cat ears",
-      "Cat tail",
-      "Black choker"
-    ],
-    "Setting": [
-      "Modern",
-      "Urban",
-      "Wilderness"
+      "short",
+      "brown skin",
+      "blue eyes",
+      "short wavy purple hair",
+      "white jacket",
+      "black shirt",
+      "black rip jeans",
+      "white heels",
+      "bandages",
+      "cat ears",
+      "cat tail",
+      "black choker"
     ]
   }
 }

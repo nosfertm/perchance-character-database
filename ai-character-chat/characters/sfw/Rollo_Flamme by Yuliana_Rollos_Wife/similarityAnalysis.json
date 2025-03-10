@@ -1,0 +1,25 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Rollo_Flamme by f9eebe32644276483b25",
+  "forkedPath": "ai-character-chat/characters/sfw/Rollo_Flamme by f9eebe32644276483b25",
+  "similarities": {
+    "roleInstruction.txt": 0.9062170706006323,
+    "name.txt": 1,
+    "reminderMessage.txt": 0
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.9062170706006323,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 0.9531085353003161,
+  "bestMatch": "Rollo_Flamme by f9eebe32644276483b25"
+}

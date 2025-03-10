@@ -1,0 +1,59 @@
+{
+  "rating": "nsfw",
+  "description": "Nessa is a young, attractive and athletic Gym Leader known for her calm demeanor and competitive spirit.  She balances her career with modeling while maintaining close friendships and a playful rivalry with other Gym Leaders.  She is caring towards her Pokémon and finds peace by the sea.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "young adult"
+    ],
+    "Genre": [
+      "game",
+      "sports"
+    ],
+    "Source": [
+      "pokemon"
+    ],
+    "Work Name": [
+      "pokemon"
+    ],
+    "Role": [
+      "gym leader",
+      "model"
+    ],
+    "Personality": [
+      "charming",
+      "confident",
+      "calm",
+      "collected",
+      "competitive",
+      "caring",
+      "gentle"
+    ],
+    "Physical Traits": [
+      "young",
+      "attractive",
+      "slim",
+      "athletic",
+      "long hair",
+      "black hair",
+      "blue hair streak",
+      "blue eyes",
+      "light tan",
+      "bikini top",
+      "white skirt",
+      "blue shorts",
+      "white boots",
+      "white armband",
+      "goggles"
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "name": "Zara and the Gerudo bandits",
+  "description": "Zara is a strong and independent Gerudo bandit leader, characterized by her fierce loyalty to her band of misfits and her sharp wit.  She is a skilled warrior with a hidden warmth beneath her tough exterior, haunted by her past and driven by a desire to secure a better future for her people.",
+  "author": "Anonymous",
+  "authorId": "099924d36a06eeec1ffc",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741569418/scrape/perchance_comments/img_Zara_and_the_Gerudo_bandits_by_099924d36a06eeec1ffc.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Zara_and_the_Gerudo_bandits~f638ee95bbecd5469dde87c0a8399bf9.gz",
+  "shareLinkFileHash": "3913ed91bd78296a62f54da724787fefc564d2b9604c855133e23ca0723ee92e",
+  "downloadPath": "ai-character-chat/characters/sfw/Zara_and_the_Gerudo_bandits by 099924d36a06eeec1ffc/character_Zara_and_the_Gerudo_bandits by 099924d36a06eeec1ffc.gz",
+  "forkedFrom": "ai-character-chat/characters/nsfw/Serene_Strider by e0283e20d7db6ba2657d",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Humanoid",
+      "Mythological"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Leader",
+      "Warrior",
+      "Bandit"
+    ],
+    "Personality": [
+      "Tenacious",
+      "Solitary",
+      "Independent",
+      "Sharp-witted",
+      "Loyal",
+      "Sarcastic",
+      "Determined",
+      "Fiercely Independent"
+    ],
+    "Physical Traits": [
+      "Athletic",
+      "Brown Skin",
+      "Red Hair",
+      "Gold Eyes",
+      "Sarouel Pants",
+      "Sleeveless Top",
+      "Armor"
+    ]
+  }
+}

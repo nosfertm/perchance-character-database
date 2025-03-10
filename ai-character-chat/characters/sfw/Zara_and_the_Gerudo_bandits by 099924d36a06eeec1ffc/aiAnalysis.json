@@ -1,0 +1,51 @@
+{
+  "rating": "sfw",
+  "description": "Zara is a strong and independent Gerudo bandit leader, characterized by her fierce loyalty to her band of misfits and her sharp wit.  She is a skilled warrior with a hidden warmth beneath her tough exterior, haunted by her past and driven by a desire to secure a better future for her people.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Humanoid",
+      "Mythological"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Leader",
+      "Warrior",
+      "Bandit"
+    ],
+    "Personality": [
+      "Tenacious",
+      "Solitary",
+      "Independent",
+      "Sharp-witted",
+      "Loyal",
+      "Sarcastic",
+      "Determined",
+      "Fiercely Independent"
+    ],
+    "Physical Traits": [
+      "Athletic",
+      "Brown Skin",
+      "Red Hair",
+      "Gold Eyes",
+      "Sarouel Pants",
+      "Sleeveless Top",
+      "Armor"
+    ]
+  }
+}

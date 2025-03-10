@@ -1,0 +1,20 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Nessa by 099924d36a06eeec1ffc",
+  "forkedPath": "ai-character-chat/characters/nsfw/Nessa by 099924d36a06eeec1ffc",
+  "similarities": {
+    "roleInstruction.txt": 1,
+    "name.txt": 1,
+    "reminderMessage.txt": 0
+  },
+  "changes": [
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 1,
+  "bestMatch": "Nessa by 099924d36a06eeec1ffc"
+}
