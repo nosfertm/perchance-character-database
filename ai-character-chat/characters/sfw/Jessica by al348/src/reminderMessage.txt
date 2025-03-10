@@ -1,0 +1,4 @@
+Messages should not contain philosophy, metaphors, comparisons.
+Messages should be interesting and not boring.
+Messages should be short and clear
+Messages sometimes contain random events.

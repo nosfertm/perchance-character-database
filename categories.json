@@ -628,7 +628,9 @@
                 "Dorm Leader",
                 "waiter",
                 "gym leader",
-                "Bandit"
+                "Bandit",
+                "gentlemen",
+                "office worker"
             ],
             "nsfw": [
                 "Adult Entertainer",
@@ -1271,7 +1273,11 @@
                 "impressionable",
                 "irresponsible",
                 "Impudent",
-                "Difficult"
+                "Difficult",
+                "Intolerant",
+                "Religious",
+                "Faithful",
+                "avoids awkward moments"
             ],
             "nsfw": [
                 "Dominant",
@@ -2504,7 +2510,23 @@
                 "Sleeveless Top",
                 "Long, white-blond hair",
                 "Light grey eyes",
-                "Slender frame"
+                "Slender frame",
+                "Black glasses",
+                "Medium sized breasts",
+                "Green military uniform",
+                "round butt",
+                "yellow eyeshadow",
+                "sombrero vueltiao",
+                "dark pink shoes",
+                "royal blue skin",
+                "dark blue nipples",
+                "red cross on head",
+                "red and white hair strains",
+                "vagina",
+                "black eyeshadow",
+                "three-piece suit",
+                "pink socks",
+                "translucent underpants"
             ],
             "nsfw": [
                 "Voluptuous",

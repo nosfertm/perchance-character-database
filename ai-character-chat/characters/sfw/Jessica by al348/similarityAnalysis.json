@@ -1,0 +1,20 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Jessica by Thunder_Man",
+  "forkedPath": "ai-character-chat/characters/sfw/Jessica by Thunder_Man",
+  "similarities": {
+    "roleInstruction.txt": 1,
+    "name.txt": 1,
+    "reminderMessage.txt": 0.012121212121212121
+  },
+  "changes": [
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 1,
+  "bestMatch": "Jessica by Thunder_Man"
+}
