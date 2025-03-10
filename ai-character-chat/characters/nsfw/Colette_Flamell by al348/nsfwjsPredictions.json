@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741602025/scrape/perchance_comments/img_Colette_Flamell_by_al348.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.96001136302948
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.029226941987872124
+      },
+      {
+        "className": "Porn",
+        "probability": 0.004510536789894104
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.003130938857793808
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.003120274981483817
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]
