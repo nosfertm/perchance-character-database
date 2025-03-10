@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://user-uploads.perchance.org/file/7f578c7b0df2f746a117c2faec7cc919.png",
+    "fileType": "png",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.99722820520401
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.0024438800755888224
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.00032427647965960205
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0000029505019938369514
+      },
+      {
+        "className": "Sexy",
+        "probability": 6.317879410744354e-7
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

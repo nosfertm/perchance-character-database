@@ -1,0 +1,75 @@
+{
+  "name": "Nessa",
+  "description": "Nessa is a young, attractive and athletic Gym Leader known for her calm demeanor and competitive spirit.  She balances her career with modeling while maintaining close friendships and a playful rivalry with other Gym Leaders.  She is caring towards her Pokémon and finds peace by the sea.",
+  "author": "Anonymous",
+  "authorId": "768e86057eaf2a89710f",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741569396/scrape/perchance_comments/img_Nessa_by_768e86057eaf2a89710f.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Nessa~49cbdfe6679e4115645cad9992c3e3d2.gz",
+  "shareLinkFileHash": "0232ba65ee2576f8abf07d6568c42459815305f9c806bd0c6183fb10556ae89d",
+  "downloadPath": "ai-character-chat/characters/nsfw/Nessa by 768e86057eaf2a89710f/character_Nessa by 768e86057eaf2a89710f.gz",
+  "forkedFrom": "ai-character-chat/characters/nsfw/Nessa by 099924d36a06eeec1ffc",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "young adult"
+    ],
+    "Genre": [
+      "game",
+      "sports"
+    ],
+    "Source": [
+      "pokemon"
+    ],
+    "Work Name": [
+      "pokemon"
+    ],
+    "Role": [
+      "gym leader",
+      "model"
+    ],
+    "Personality": [
+      "charming",
+      "confident",
+      "calm",
+      "collected",
+      "competitive",
+      "caring",
+      "gentle"
+    ],
+    "Physical Traits": [
+      "young",
+      "attractive",
+      "slim",
+      "athletic",
+      "long hair",
+      "black hair",
+      "blue hair streak",
+      "blue eyes",
+      "light tan",
+      "bikini top",
+      "white skirt",
+      "blue shorts",
+      "white boots",
+      "white armband",
+      "goggles"
+    ]
+  }
+}

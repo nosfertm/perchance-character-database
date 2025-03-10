@@ -1,0 +1,1 @@
+(anime art of :1.2), masterpiece, 4k, best quality, anime art (negativePrompt:::(worst quality, low quality:1.3), , low-quality, deformed, text, poorly drawn, hilariously bad drawing, bad 3D render) (resolution:::512x768)

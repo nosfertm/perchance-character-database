@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741569418/scrape/perchance_comments/img_Zara_and_the_Gerudo_bandits_by_099924d36a06eeec1ffc.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.9560520052909851
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.040728189051151276
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0029669832438230515
+      },
+      {
+        "className": "Porn",
+        "probability": 0.00021163979545235634
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00004111661110073328
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

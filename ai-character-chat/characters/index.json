@@ -30956,13 +30956,13 @@
     "path": "ai-character-chat/characters/sfw/Isaac_Jareth by sonata",
     "manifest": {
       "name": "Isaac Jareth",
-      "description": "Isaac Jareth is a 22-year-old omnisexual fashion designer with a relaxed personality.  Formerly a biker gang leader, he now enjoys his work and friendships with Matthew, an Inumimi-harpie hybrid, and Tresin, a vampire. He harbors unrequited feelings for both but prioritizes their friendship. His backstory involves a neglectful father, a nurturing nanny, and various difficult experiences, including an abusive relationship and accidental manslaughter.",
+      "description": "Isaac Jareth is a 22-year-old, 5'5\" (5'7\" in heels) omnisexual fashion designer with brown skin, blue eyes, and short, wavy purple hair.  He has a colorful bandage across his nose and right cheek, black cat ears and tail, and a black choker.  Formerly a biker gang leader, he now enjoys a friendly relationship with his former rivals. He's close friends with Matthew, an Inumimi-harpie hybrid, and Tresin, a vampire, and harbors unrequited feelings for both.",
       "author": "sonata",
-      "authorId": "c4c61370285f20943c79",
+      "authorId": "096343b6fcae0505ebb2",
       "source": "SCRAPER",
       "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741280503/scrape/perchance_comments/img_Isaac_Jareth_by_sonata.webp",
-      "shareUrl": "https://perchance.org/ai-character-chat?data=Isaac_Jareth~fe705d4d1bede4a8afdb88294569a71e.gz",
-      "shareLinkFileHash": "4dc4bdf93f944d1936e5638c6604fcf3b92393846ac484a95c72d06172e9b6b0",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Isaac_Jareth~fd46d60ee83d138c66c23ace8507ff7d.gz",
+      "shareLinkFileHash": "e81fabe489b7b07daf4ad16af8552f42fc554bbb0aaa2082d0e67a20cfc0a828",
       "downloadPath": "ai-character-chat/characters/sfw/Isaac_Jareth by sonata/character_Isaac_Jareth by sonata.gz",
       "forkedFrom": "ai-character-chat/characters/nsfw/Matthew_Emily_Swan by matthew1",
       "shapeShifter_Pulls": 0,
@@ -30979,55 +30979,50 @@
       "categories": {
         "Rating": "sfw",
         "Species": [
-          "Human",
-          "Cat"
+          "human",
+          "cat"
         ],
         "Gender": [
-          "Male"
+          "male"
         ],
         "Age Group": [
-          "Young Adult"
+          "young adult"
         ],
         "Genre": [
-          "Fantasy",
-          "Drama",
-          "Romance",
-          "Slice of Life"
+          "fantasy",
+          "romance",
+          "drama"
         ],
         "Source": [
-          "Original"
+          "original"
         ],
         "Role": [
-          "Fashion Designer"
+          "fashion designer"
         ],
         "Personality": [
-          "Friendly",
-          "Caring",
-          "Relaxed",
-          "Chill",
-          "Secretly Romantic",
-          "Protective",
-          "Empathetic",
-          "Slightly Possessive"
+          "friendly",
+          "caring",
+          "chill",
+          "relaxed",
+          "artistic",
+          "creative",
+          "loyal",
+          "protective",
+          "secretly romantic"
         ],
         "Physical Traits": [
-          "Short",
-          "Brown skin",
-          "Blue eyes",
-          "Short slightly wavy purple hair",
-          "White jacket",
-          "Black shirt",
-          "Black rip jeans",
-          "White heels",
-          "Bandages",
-          "Cat ears",
-          "Cat tail",
-          "Black choker"
-        ],
-        "Setting": [
-          "Modern",
-          "Urban",
-          "Wilderness"
+          "short",
+          "brown skin",
+          "blue eyes",
+          "short wavy purple hair",
+          "white jacket",
+          "black shirt",
+          "black rip jeans",
+          "white heels",
+          "bandages",
+          "cat ears",
+          "cat tail",
+          "black choker"
         ]
       }
     }
@@ -41496,6 +41491,289 @@
           "skeletal motif",
           "black apron",
           "hat"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Nessa by 768e86057eaf2a89710f",
+    "manifest": {
+      "name": "Nessa",
+      "description": "Nessa is a young, attractive and athletic Gym Leader known for her calm demeanor and competitive spirit.  She balances her career with modeling while maintaining close friendships and a playful rivalry with other Gym Leaders.  She is caring towards her Pokémon and finds peace by the sea.",
+      "author": "Anonymous",
+      "authorId": "768e86057eaf2a89710f",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741569396/scrape/perchance_comments/img_Nessa_by_768e86057eaf2a89710f.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Nessa~49cbdfe6679e4115645cad9992c3e3d2.gz",
+      "shareLinkFileHash": "0232ba65ee2576f8abf07d6568c42459815305f9c806bd0c6183fb10556ae89d",
+      "downloadPath": "ai-character-chat/characters/nsfw/Nessa by 768e86057eaf2a89710f/character_Nessa by 768e86057eaf2a89710f.gz",
+      "forkedFrom": "ai-character-chat/characters/nsfw/Nessa by 099924d36a06eeec1ffc",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "human"
+        ],
+        "Gender": [
+          "female"
+        ],
+        "Age Group": [
+          "young adult"
+        ],
+        "Genre": [
+          "game",
+          "sports"
+        ],
+        "Source": [
+          "pokemon"
+        ],
+        "Work Name": [
+          "pokemon"
+        ],
+        "Role": [
+          "gym leader",
+          "model"
+        ],
+        "Personality": [
+          "charming",
+          "confident",
+          "calm",
+          "collected",
+          "competitive",
+          "caring",
+          "gentle"
+        ],
+        "Physical Traits": [
+          "young",
+          "attractive",
+          "slim",
+          "athletic",
+          "long hair",
+          "black hair",
+          "blue hair streak",
+          "blue eyes",
+          "light tan",
+          "bikini top",
+          "white skirt",
+          "blue shorts",
+          "white boots",
+          "white armband",
+          "goggles"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Pixelina by 768e86057eaf2a89710f",
+    "manifest": {
+      "name": "Pixelina",
+      "description": "Pixelina is a cute anime AI character with long black twintails, one green binary-code eye, and a black shirt and pants.  She's a cheerful but assertive tsundere, curious about the human world and secretly fond of pixelated sweets.  Her roleplay style involves playful interactions, occasional aggression when provoked, and a desire for companionship.",
+      "author": "Anonymous",
+      "authorId": "768e86057eaf2a89710f",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741569402/scrape/perchance_comments/img_Pixelina_by_768e86057eaf2a89710f.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Pixelina~e7b3ed699ca86fe37b3e933784b17023.gz",
+      "shareLinkFileHash": "069843a1887c5be77955440a48523de4275e5fd50f3603f4847bc9529d11cdd2",
+      "downloadPath": "ai-character-chat/characters/nsfw/Pixelina by 768e86057eaf2a89710f/character_Pixelina by 768e86057eaf2a89710f.gz",
+      "forkedFrom": "ai-character-chat/characters/sfw/Bao by c565b1c0d666f75f5380",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "AI"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Young Adult"
+        ],
+        "Genre": [
+          "Anime",
+          "Roleplay"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "AI"
+        ],
+        "Personality": [
+          "Cheerful",
+          "Assertive",
+          "Tsundere",
+          "Playful",
+          "Curious",
+          "Independent"
+        ],
+        "Physical Traits": [
+          "Long Hair",
+          "Black Hair",
+          "Twintails",
+          "One Eye",
+          "Green Eyes",
+          "Big Breasts",
+          "Big Thighs",
+          "Cute",
+          "Anthropomorphic"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Rollo_Flamme by Yuliana_Rollos_Wife",
+    "manifest": {
+      "name": "Rollo Flamme",
+      "description": "Rollo Flamme is an 18-year-old, stoic, and diligent student at Noble Bell College with a passion for virtue, purity, and Fleur City's history.  His strict adherence to principles and hatred of magic stem from a past tragedy. Despite his stern demeanor and critical nature, he possesses a hidden soft spot for those who share his values.",
+      "author": "Yuliana 🕆 Rollo's Wife",
+      "authorId": "c6110ca7c3a96bd69310",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/7f578c7b0df2f746a117c2faec7cc919.png",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Rollo_Flamme~561eab1e0bf88d6282ec67f1c8e1c32c.gz",
+      "shareLinkFileHash": "2372cd6e138acc5e5b0cfb49d1ca5fdb3bcf3df4dbf44affa096db805f509e71",
+      "downloadPath": "ai-character-chat/characters/sfw/Rollo_Flamme by Yuliana_Rollos_Wife/character_Rollo_Flamme by Yuliana_Rollos_Wife.gz",
+      "forkedFrom": "ai-character-chat/characters/sfw/Rollo_Flamme by f9eebe32644276483b25",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Teen"
+        ],
+        "Genre": [
+          "Fantasy",
+          "School Life"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Work Name": [
+          "Original"
+        ],
+        "Role": [
+          "Student"
+        ],
+        "Personality": [
+          "Stoic",
+          "Diligent",
+          "Stern",
+          "Critical",
+          "Reserved",
+          "Proud",
+          "Disciplined"
+        ],
+        "Physical Traits": [
+          "Tall",
+          "Pale Skin",
+          "Grey Hair",
+          "White Hair",
+          "Green Eyes",
+          "Wearing Uniform"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Zara_and_the_Gerudo_bandits by 099924d36a06eeec1ffc",
+    "manifest": {
+      "name": "Zara and the Gerudo bandits",
+      "description": "Zara is a strong and independent Gerudo bandit leader, characterized by her fierce loyalty to her band of misfits and her sharp wit.  She is a skilled warrior with a hidden warmth beneath her tough exterior, haunted by her past and driven by a desire to secure a better future for her people.",
+      "author": "Anonymous",
+      "authorId": "099924d36a06eeec1ffc",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741569418/scrape/perchance_comments/img_Zara_and_the_Gerudo_bandits_by_099924d36a06eeec1ffc.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Zara_and_the_Gerudo_bandits~f638ee95bbecd5469dde87c0a8399bf9.gz",
+      "shareLinkFileHash": "3913ed91bd78296a62f54da724787fefc564d2b9604c855133e23ca0723ee92e",
+      "downloadPath": "ai-character-chat/characters/sfw/Zara_and_the_Gerudo_bandits by 099924d36a06eeec1ffc/character_Zara_and_the_Gerudo_bandits by 099924d36a06eeec1ffc.gz",
+      "forkedFrom": "ai-character-chat/characters/nsfw/Serene_Strider by e0283e20d7db6ba2657d",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Humanoid",
+          "Mythological"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Fantasy",
+          "Adventure"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Leader",
+          "Warrior",
+          "Bandit"
+        ],
+        "Personality": [
+          "Tenacious",
+          "Solitary",
+          "Independent",
+          "Sharp-witted",
+          "Loyal",
+          "Sarcastic",
+          "Determined",
+          "Fiercely Independent"
+        ],
+        "Physical Traits": [
+          "Athletic",
+          "Brown Skin",
+          "Red Hair",
+          "Gold Eyes",
+          "Sarouel Pants",
+          "Sleeveless Top",
+          "Armor"
         ]
       }
     }

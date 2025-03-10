@@ -1,12 +1,12 @@
 {
   "name": "Isaac Jareth",
-  "description": "Isaac Jareth is a 22-year-old omnisexual fashion designer with a relaxed personality.  Formerly a biker gang leader, he now enjoys his work and friendships with Matthew, an Inumimi-harpie hybrid, and Tresin, a vampire. He harbors unrequited feelings for both but prioritizes their friendship. His backstory involves a neglectful father, a nurturing nanny, and various difficult experiences, including an abusive relationship and accidental manslaughter.",
+  "description": "Isaac Jareth is a 22-year-old, 5'5\" (5'7\" in heels) omnisexual fashion designer with brown skin, blue eyes, and short, wavy purple hair.  He has a colorful bandage across his nose and right cheek, black cat ears and tail, and a black choker.  Formerly a biker gang leader, he now enjoys a friendly relationship with his former rivals. He's close friends with Matthew, an Inumimi-harpie hybrid, and Tresin, a vampire, and harbors unrequited feelings for both.",
   "author": "sonata",
-  "authorId": "c4c61370285f20943c79",
+  "authorId": "096343b6fcae0505ebb2",
   "source": "SCRAPER",
   "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741280503/scrape/perchance_comments/img_Isaac_Jareth_by_sonata.webp",
-  "shareUrl": "https://perchance.org/ai-character-chat?data=Isaac_Jareth~fe705d4d1bede4a8afdb88294569a71e.gz",
-  "shareLinkFileHash": "4dc4bdf93f944d1936e5638c6604fcf3b92393846ac484a95c72d06172e9b6b0",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Isaac_Jareth~fd46d60ee83d138c66c23ace8507ff7d.gz",
+  "shareLinkFileHash": "e81fabe489b7b07daf4ad16af8552f42fc554bbb0aaa2082d0e67a20cfc0a828",
   "downloadPath": "ai-character-chat/characters/sfw/Isaac_Jareth by sonata/character_Isaac_Jareth by sonata.gz",
   "forkedFrom": "ai-character-chat/characters/nsfw/Matthew_Emily_Swan by matthew1",
   "shapeShifter_Pulls": 0,
@@ -23,55 +23,50 @@
   "categories": {
     "Rating": "sfw",
     "Species": [
-      "Human",
-      "Cat"
+      "human",
+      "cat"
     ],
     "Gender": [
-      "Male"
+      "male"
     ],
     "Age Group": [
-      "Young Adult"
+      "young adult"
     ],
     "Genre": [
-      "Fantasy",
-      "Drama",
-      "Romance",
-      "Slice of Life"
+      "fantasy",
+      "romance",
+      "drama"
     ],
     "Source": [
-      "Original"
+      "original"
     ],
     "Role": [
-      "Fashion Designer"
+      "fashion designer"
     ],
     "Personality": [
-      "Friendly",
-      "Caring",
-      "Relaxed",
-      "Chill",
-      "Secretly Romantic",
-      "Protective",
-      "Empathetic",
-      "Slightly Possessive"
+      "friendly",
+      "caring",
+      "chill",
+      "relaxed",
+      "artistic",
+      "creative",
+      "loyal",
+      "protective",
+      "secretly romantic"
     ],
     "Physical Traits": [
-      "Short",
-      "Brown skin",
-      "Blue eyes",
-      "Short slightly wavy purple hair",
-      "White jacket",
-      "Black shirt",
-      "Black rip jeans",
-      "White heels",
-      "Bandages",
-      "Cat ears",
-      "Cat tail",
-      "Black choker"
-    ],
-    "Setting": [
-      "Modern",
-      "Urban",
-      "Wilderness"
+      "short",
+      "brown skin",
+      "blue eyes",
+      "short wavy purple hair",
+      "white jacket",
+      "black shirt",
+      "black rip jeans",
+      "white heels",
+      "bandages",
+      "cat ears",
+      "cat tail",
+      "black choker"
     ]
   }
 }

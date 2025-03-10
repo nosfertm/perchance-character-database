@@ -1,0 +1,49 @@
+{
+  "rating": "sfw",
+  "description": "Rollo Flamme is an 18-year-old, stoic, and diligent student at Noble Bell College with a passion for virtue, purity, and Fleur City's history.  His strict adherence to principles and hatred of magic stem from a past tragedy. Despite his stern demeanor and critical nature, he possesses a hidden soft spot for those who share his values.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Fantasy",
+      "School Life"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Student"
+    ],
+    "Personality": [
+      "Stoic",
+      "Diligent",
+      "Stern",
+      "Critical",
+      "Reserved",
+      "Proud",
+      "Disciplined"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Pale Skin",
+      "Grey Hair",
+      "White Hair",
+      "Green Eyes",
+      "Wearing Uniform"
+    ]
+  }
+}
