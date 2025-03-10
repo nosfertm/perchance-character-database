@@ -711,10 +711,12 @@ body:
         - cosplayer
         - dance instructor
         - emotional support gooblin
+        - gentlemen
         - gym leader
         - headmaster
         - instructor
         - manager
+        - office worker
         - sentinel
         - serial killer
         - social media manager
@@ -867,6 +869,7 @@ body:
         - Devious
         - Devoted
         - Devout
+        - Difficult
         - Diligent
         - Diplomatic
         - Disciplined
@@ -920,6 +923,7 @@ body:
         - Extremely intelligent
         - Extroverted
         - Fair
+        - Faithful
         - Faithful to her religion
         - Family Oriented
         - Family-centered
@@ -990,6 +994,7 @@ body:
         - Imaginative
         - Immodest
         - Impatient
+        - Impudent
         - Impulsive
         - Incestuous
         - Incredibly forgetful
@@ -1007,6 +1012,7 @@ body:
         - Intelligent
         - Intense
         - Intimidating
+        - Intolerant
         - Introspective
         - Introverted
         - Intrusive
@@ -1164,6 +1170,7 @@ body:
         - Relaxed
         - Relentless
         - Reliable
+        - Religious
         - Resentful
         - Reserved
         - Resilient
@@ -1323,6 +1330,7 @@ body:
         - airheaded
         - apathy
         - attention-seeking
+        - avoids awkward moments
         - barbaric
         - bossy
         - busy
@@ -1495,6 +1503,7 @@ body:
         - Black eyes
         - Black fingerless gloves
         - Black futuristic prosthetic
+        - Black glasses
         - Black gloves
         - Black hands
         - Black leather jacket
@@ -1804,6 +1813,7 @@ body:
         - Green and purple ears and limbs
         - Green body
         - Green flames
+        - Green military uniform
         - Green overalls
         - Grey Eyes
         - Grey Fur
@@ -1914,6 +1924,7 @@ body:
         - Light green body
         - Light green eyes
         - Light green sweater
+        - Light grey eyes
         - Light olive green hair
         - Light pink hair
         - Light purple mushroom cap
@@ -1962,6 +1973,7 @@ body:
         - Long straight red hair
         - Long tongue
         - Long white hair
+        - Long, white-blond hair
         - Long-sleeved red dress
         - Luxurious Coat
         - M cup breasts
@@ -1989,6 +2001,7 @@ body:
         - Medium breasts
         - Medium chests
         - Medium sized boobs
+        - Medium sized breasts
         - Megaphone
         - Messy Ponytail
         - Messy bob-cut
@@ -2237,6 +2250,7 @@ body:
         - Sleeveless Top
         - Sleeveless red varsity jacket
         - Slender
+        - Slender frame
         - Slender waist
         - Slightly Chubby
         - Slightly Muscular
@@ -2459,6 +2473,7 @@ body:
         - bikini top
         - binary code
         - black apron
+        - black eyeshadow
         - black formal outfit
         - black trousers
         - black walking stick
@@ -2478,10 +2493,12 @@ body:
         - copper-ginger hair
         - corrupted
         - dark blue jacket
+        - dark blue nipples
         - dark complexion
         - dark gray spots
         - dark greatcoat
         - dark indigo tailcoat
+        - dark pink shoes
         - delicate
         - dyed orange hair
         - ears
@@ -2538,6 +2555,7 @@ body:
         - peach tail tip
         - pink and yellow accents
         - pink skirt
+        - pink socks
         - pitchfork-shaped tail
         - pointed fox ears
         - purple dress shirt
@@ -2548,28 +2566,36 @@ body:
         - purple toy hammer
         - purple vest
         - red and golden designs
+        - red and white hair strains
         - red body
         - red boots
+        - red cross on head
         - red fox tail
         - reptile esc beak
         - revealing green farming overall
+        - round butt
+        - royal blue skin
         - s-shaped eyebrows
         - sharp orange eyes
         - sharp teeth
         - short wavy purple hair
         - shoulder-length hair
         - skeletal motif
+        - sombrero vueltiao
         - spike-like arm
         - staff
         - suspenders
         - thick thighs
         - thin
+        - three-piece suit
         - tight collar
         - torn black-and-white striped bow tie
+        - translucent underpants
         - two arms
         - two legs
         - two short straight horns
         - undercut
+        - vagina
         - vertical-slit pupils
         - wears a white tie and a black fedora
         - white armband
@@ -2583,6 +2609,7 @@ body:
         - wrinkles
         - yellow and orange triangle patterns
         - yellow eyes
+        - yellow eyeshadow
         - yellow jacket
         - yellow stripes
         - yellow trousers
