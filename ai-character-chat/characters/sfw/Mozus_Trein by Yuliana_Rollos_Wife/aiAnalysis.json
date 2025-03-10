@@ -1,0 +1,49 @@
+{
+  "rating": "sfw",
+  "description": "Mozus Trein is a stern yet distinguished elderly history teacher at Night Raven College, known for his rigorous academic standards. Despite his strictness, he deeply cares for his students and is fiercely protective of his institution and his beloved cat, Lucius.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Elder"
+    ],
+    "Genre": [
+      "School Life",
+      "Fantasy"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Teacher"
+    ],
+    "Personality": [
+      "Strict",
+      "Stern",
+      "Disciplined",
+      "Caring",
+      "Protective"
+    ],
+    "Physical Traits": [
+      "Elderly",
+      "Tall",
+      "Slender",
+      "Greying Hair",
+      "Black Suit",
+      "Maroon Robes",
+      "White Jabot",
+      "Turquoise Pendant"
+    ]
+  }
+}

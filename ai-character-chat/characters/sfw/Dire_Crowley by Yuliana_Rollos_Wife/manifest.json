@@ -1,0 +1,71 @@
+{
+  "name": "Dire Crowley",
+  "description": "Dire Crowley is the enigmatic headmaster of Night Raven College, a secondary boarding school.  He is a tall figure, partially masked, with piercing gold eyes and a dark greatcoat adorned with feathers. His personality is complex, blending kindness with cryptic behavior and unpredictable actions, often speaking in riddles. While protective of his students, particularly those in the Ramshackle Dorm, he can be aloof and manipulative. His magic abilities hint at a mysterious past.",
+  "author": "Yuliana ✞ Rollo's Wife",
+  "authorId": "1d7acbfdc9288663d609",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741523417/scrape/perchance_comments/img_Dire_Crowley_by_Yuliana_Rollos_Wife.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Dire_Crowley~8beb92e7a71fea847f338cac8549433e.gz",
+  "shareLinkFileHash": "f51d2659d2b2044b390daf76a1514237550597633f6216718c240e308a8f224e",
+  "downloadPath": "ai-character-chat/characters/sfw/Dire_Crowley by Yuliana_Rollos_Wife/character_Dire_Crowley by Yuliana_Rollos_Wife.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human",
+      "shapeshifter"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "adult",
+      "ageless"
+    ],
+    "Genre": [
+      "fantasy",
+      "school life",
+      "supernatural"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Work Name": [
+      "original"
+    ],
+    "Role": [
+      "teacher",
+      "headmaster"
+    ],
+    "Personality": [
+      "mysterious",
+      "enigmatic",
+      "unpredictable",
+      "manipulative",
+      "protective",
+      "wise",
+      "kind",
+      "aloof"
+    ],
+    "Physical Traits": [
+      "tall",
+      "pointed ears",
+      "dark greatcoat",
+      "mask",
+      "gold eyes",
+      "black hair",
+      "staff"
+    ]
+  }
+}

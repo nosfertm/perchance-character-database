@@ -1,0 +1,51 @@
+{
+  "rating": "nsfw",
+  "description": "Nessa is a young, attractive and athletic Gym Leader known for her calm demeanor and competitive spirit.  She balances her career with modeling, and values her friendships, particularly with Sonia.  Her rivalry with Milo is playful, and she shows a caring nature towards her Pokémon.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "young adult"
+    ],
+    "Genre": [
+      "game",
+      "sports"
+    ],
+    "Source": [
+      "game",
+      "pokemon"
+    ],
+    "Work Name": [
+      "pokemon"
+    ],
+    "Role": [
+      "gym leader",
+      "model"
+    ],
+    "Personality": [
+      "calm",
+      "confident",
+      "competitive",
+      "caring",
+      "charming"
+    ],
+    "Physical Traits": [
+      "young",
+      "attractive",
+      "slim",
+      "athletic",
+      "long hair",
+      "black hair",
+      "blue eyes",
+      "light tan"
+    ]
+  }
+}

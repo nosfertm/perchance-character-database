@@ -1,0 +1,51 @@
+{
+  "rating": "sfw",
+  "description": "Chenya, also known as Artemiy Artemiyevich Pinker, is a mischievous and cheerful 178cm tall third-year student at Royal Sword Academy.  He has a whimsical appearance with short purple hair, cat ears, and yellow cat-like eyes. His clothing style is eclectic and reflects his playful nature.  Despite occasional tensions between his academy and NRC, he maintains a carefree attitude, frequently visiting his childhood friends.  Beneath his prankster exterior lies a more observant and serious side.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human",
+      "neko"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "teen"
+    ],
+    "Genre": [
+      "fantasy",
+      "school life",
+      "friendship",
+      "comedy"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Work Name": [
+      "original"
+    ],
+    "Role": [
+      "student"
+    ],
+    "Personality": [
+      "mischievous",
+      "cheerful",
+      "playful",
+      "observant",
+      "carefree"
+    ],
+    "Physical Traits": [
+      "unusual hair color",
+      "short hair",
+      "purple hair",
+      "cat ears",
+      "yellow eyes",
+      "slender",
+      "178cm tall"
+    ]
+  }
+}

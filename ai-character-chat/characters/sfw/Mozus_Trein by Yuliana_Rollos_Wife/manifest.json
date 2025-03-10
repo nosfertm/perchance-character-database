@@ -1,0 +1,65 @@
+{
+  "name": "Mozus Trein",
+  "description": "Mozus Trein is a stern yet distinguished elderly history teacher at Night Raven College, known for his rigorous academic standards. Despite his strictness, he deeply cares for his students and is fiercely protective of his institution and his beloved cat, Lucius.",
+  "author": "Yuliana ✞ Rollo's Wife",
+  "authorId": "1d7acbfdc9288663d609",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741523467/scrape/perchance_comments/img_Mozus_Trein_by_Yuliana_Rollos_Wife.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Mozus_Trein~15eb4ff9eb0c2d6cf3fc67021041aaac.gz",
+  "shareLinkFileHash": "fe157cb04fe00981a7594254e172ac0a712b0e8cfc392a63b66a36e1e3974499",
+  "downloadPath": "ai-character-chat/characters/sfw/Mozus_Trein by Yuliana_Rollos_Wife/character_Mozus_Trein by Yuliana_Rollos_Wife.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Elder"
+    ],
+    "Genre": [
+      "School Life",
+      "Fantasy"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Teacher"
+    ],
+    "Personality": [
+      "Strict",
+      "Stern",
+      "Disciplined",
+      "Caring",
+      "Protective"
+    ],
+    "Physical Traits": [
+      "Elderly",
+      "Tall",
+      "Slender",
+      "Greying Hair",
+      "Black Suit",
+      "Maroon Robes",
+      "White Jabot",
+      "Turquoise Pendant"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741523450/scrape/perchance_comments/img_Grim_by_Yuliana_Rollos_Wife.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.8604528903961182
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.07136796414852142
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.06782244145870209
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0002523662697058171
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00010435187141411006
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

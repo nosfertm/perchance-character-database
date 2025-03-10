@@ -1,0 +1,48 @@
+{
+  "rating": "sfw",
+  "description": "Epel Felmier is a 16-year-old student at Night Raven College, a secondary boarding school.  He hails from Harveston and his family runs an apple farm. Despite his initially shy and delicate appearance, Epel possesses a fiery temper and blunt honesty.  He's skilled in apple carving and excels in flying class. His friendship with Ace Trappola is complex, marked by both rivalry and a developing bond.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "teen"
+    ],
+    "Genre": [
+      "fantasy",
+      "school life"
+    ],
+    "Source": [
+      "game"
+    ],
+    "Work Name": [
+      "twisted wonderland"
+    ],
+    "Role": [
+      "student"
+    ],
+    "Personality": [
+      "shy",
+      "gentle",
+      "fiery",
+      "honest",
+      "blunt",
+      "naive",
+      "competitive"
+    ],
+    "Physical Traits": [
+      "petite",
+      "delicate",
+      "lavender hair",
+      "blue eyes",
+      "feminine look"
+    ]
+  }
+}

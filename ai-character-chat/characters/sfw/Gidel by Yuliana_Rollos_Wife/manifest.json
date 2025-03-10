@@ -1,0 +1,72 @@
+{
+  "name": "Gidel",
+  "description": "Gidel is a silent, loyal, and slightly devious cat beastman who serves as the silent accomplice to his adoptive brother's schemes.  He's mild-mannered but pragmatic, prioritizing his brother's well-being and their survival above external allegiances. Despite his quiet demeanor, he possesses a hidden strength of character and a willingness to participate in morally questionable acts for their survival.",
+  "author": "Yuliana ✞ Rollo's Wife",
+  "authorId": "c6110ca7c3a96bd69310",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741523445/scrape/perchance_comments/img_Gidel_by_Yuliana_Rollos_Wife.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Gidel~0985d32fba1bc93d11a30eff586916bf.gz",
+  "shareLinkFileHash": "82a34942c67aa11a3b7630d46dfb18907cc9e4d6641217221112c95350b19a2e",
+  "downloadPath": "ai-character-chat/characters/sfw/Gidel by Yuliana_Rollos_Wife/character_Gidel by Yuliana_Rollos_Wife.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "beast",
+      "cat"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "teen",
+      "young adult"
+    ],
+    "Genre": [
+      "fantasy",
+      "adventure",
+      "comedy",
+      "drama"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Role": [
+      "companion",
+      "accomplice"
+    ],
+    "Personality": [
+      "loyal",
+      "devious",
+      "pragmatic",
+      "silent",
+      "mild-mannered",
+      "approachable"
+    ],
+    "Physical Traits": [
+      "short",
+      "dark complexion",
+      "light freckles",
+      "brown hair",
+      "green eyes",
+      "top hat",
+      "purple dress shirt",
+      "yellow jacket",
+      "brown trousers",
+      "suspenders",
+      "brown boots",
+      "purple toy hammer"
+    ]
+  }
+}

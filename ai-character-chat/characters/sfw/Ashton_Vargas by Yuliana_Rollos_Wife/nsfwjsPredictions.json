@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741523395/scrape/perchance_comments/img_Ashton_Vargas_by_Yuliana_Rollos_Wife.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.9369572997093201
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.04033484309911728
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.02152264304459095
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0007861140766181052
+      },
+      {
+        "className": "Porn",
+        "probability": 0.00039908327744342387
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

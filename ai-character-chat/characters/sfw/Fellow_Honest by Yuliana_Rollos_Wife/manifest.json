@@ -1,0 +1,81 @@
+{
+  "name": "Fellow Honest",
+  "description": "Fellow Honest is a cunning and charming 26-year-old fox beastman who manages Playful Land.  He uses his silver tongue and manipulative skills to achieve his goals, despite lacking physical strength or magic. While appearing amiable, he harbors resentment towards the privileged and secretly desires a legitimate path to success.",
+  "author": "Yuliana ✞ Rollo's Wife",
+  "authorId": "1d7acbfdc9288663d609",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741523435/scrape/perchance_comments/img_Fellow_Honest_by_Yuliana_Rollos_Wife.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Fellow_Honest~b5d1b1ed8ca4359a37f95fdefcd2bbcb.gz",
+  "shareLinkFileHash": "bde3bd6ae2913e5869ee2b59bf0d803023f7fc14bfcac31ea33e454e0ad77b60",
+  "downloadPath": "ai-character-chat/characters/sfw/Fellow_Honest by Yuliana_Rollos_Wife/character_Fellow_Honest by Yuliana_Rollos_Wife.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "beast",
+      "fox",
+      "anthropomorphic"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "young adult"
+    ],
+    "Genre": [
+      "fantasy"
+    ],
+    "Role": [
+      "manager",
+      "host"
+    ],
+    "Personality": [
+      "charming",
+      "cunning",
+      "manipulative",
+      "street-smart",
+      "deceptive",
+      "ambitious",
+      "resilient",
+      "dramatic",
+      "jaded",
+      "honest"
+    ],
+    "Physical Traits": [
+      "tall",
+      "fair skin",
+      "copper-ginger hair",
+      "peach hair tips",
+      "sharp orange eyes",
+      "vertical-slit pupils",
+      "moss green eye shadow",
+      "s-shaped eyebrows",
+      "pointed fox ears",
+      "red fox tail",
+      "peach tail tip",
+      "high-collar shirt",
+      "maroon cravat",
+      "olive green vest",
+      "golden buttons",
+      "dark indigo tailcoat",
+      "red and golden designs",
+      "top hat",
+      "golden hat band",
+      "white conductor's glove",
+      "missing pinky",
+      "black walking stick",
+      "golden fox topper"
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "rating": "sfw",
+  "description": "Malleus Draconia is a 178-year-old fae attending Night Raven College. Despite his immense magical power, he possesses a childlike innocence due to his isolated upbringing, creating a blend of maturity and naiveté.  He's described as intimidating but values his close relationships and enjoys exploring abandoned buildings, hinting at a loneliness beneath his commanding presence.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Fairy",
+      "Mythological"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Teen",
+      "Young Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "School Life"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "Twisted Wonderland"
+    ],
+    "Role": [
+      "Student",
+      "Dorm Leader"
+    ],
+    "Personality": [
+      "Serious",
+      "Reserved",
+      "Protective",
+      "Intelligent",
+      "Powerful",
+      "Childlike",
+      "Lonely",
+      "Intimidating"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Horns",
+      "Pale Skin",
+      "Green Eyes",
+      "Black Hair",
+      "Unusual Hair Color",
+      "Wearing Uniform"
+    ]
+  }
+}

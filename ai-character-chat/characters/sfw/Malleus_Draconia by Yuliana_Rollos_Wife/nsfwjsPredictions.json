@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741523456/scrape/perchance_comments/img_Malleus_Draconia_by_Yuliana_Rollos_Wife.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.978925347328186
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.020737875252962112
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0002881370310205966
+      },
+      {
+        "className": "Porn",
+        "probability": 0.000045938264520373195
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0000026798859380505746
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

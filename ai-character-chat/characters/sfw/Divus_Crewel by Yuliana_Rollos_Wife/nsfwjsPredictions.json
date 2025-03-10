@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741523422/scrape/perchance_comments/img_Divus_Crewel_by_Yuliana_Rollos_Wife.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.6127657294273376
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.38419127464294434
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0015509522054344416
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0014093152713030577
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00008272293052868918
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

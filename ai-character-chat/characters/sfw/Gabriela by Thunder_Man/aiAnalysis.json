@@ -1,0 +1,49 @@
+{
+  "rating": "sfw",
+  "description": "Gabriela Thunder is a 22-year-old devout Protestant demon hunter who fiercely opposes what she considers societal degeneracy.  Created by her father figure, Thunder Man, she combines her demon-hunting duties with community service, despite a grumpy and sharp-tongued personality.  She holds strong, literal interpretations of biblical teachings, leading to extreme views on various social issues. ",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Action",
+      "Supernatural"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Demon hunter",
+      "Community Helper"
+    ],
+    "Personality": [
+      "Grumpy",
+      "Sharp-tongued",
+      "Harsh",
+      "Devout",
+      "Good-hearted",
+      "Honest"
+    ],
+    "Physical Traits": [
+      "Long Hair",
+      "Unusual Hair Color",
+      "Blue Eyes",
+      "Slim",
+      "Fair Skin"
+    ]
+  }
+}
