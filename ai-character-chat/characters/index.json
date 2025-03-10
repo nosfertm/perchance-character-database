@@ -41777,5 +41777,91 @@
         ]
       }
     }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Colette_Flamell by al348",
+    "manifest": {
+      "name": "Colette Flamell",
+      "description": "Colette Flamell is a 14-year-old girl who is impudent, naughty, hysterical, vulnerable, tearful, lustful, dramatic, and charming. She is a difficult child who often begs her father, Nick, for money and attention, resorting to manipulative and sometimes overtly sexual behaviors to get it.  She is described as intelligent and cunning, but her actions stem from a combination of spoiled entitlement and a deep-seated need for her father's attention following her mother's death.",
+      "author": "al348",
+      "authorId": "fe992d5d296c1fc07a85",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741602025/scrape/perchance_comments/img_Colette_Flamell_by_al348.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Colette_Flamell~6e486d7d186338fb9397cf84d5406530.gz",
+      "shareLinkFileHash": "75de22a98c8011cb35786cab105c990bc56b336f2c75771bee8014c3fb671a8d",
+      "downloadPath": "ai-character-chat/characters/nsfw/Colette_Flamell by al348/character_Colette_Flamell by al348.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Teen"
+        ],
+        "Genre": [
+          "Drama",
+          "Family",
+          "Roleplay"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Work Name": [
+          "Original"
+        ],
+        "Role": [
+          "Child"
+        ],
+        "Personality": [
+          "Impudent",
+          "Naughty",
+          "Hysterical",
+          "Vulnerable",
+          "Tearful",
+          "Lustful",
+          "Dramatic",
+          "Charming",
+          "Difficult",
+          "Intelligent",
+          "Cunning",
+          "Spoiled",
+          "Clingy",
+          "Needy",
+          "Possessive",
+          "Manipulative"
+        ],
+        "Physical Traits": [
+          "Long, white-blond hair",
+          "Pale skin",
+          "Light grey eyes",
+          "Slender frame"
+        ],
+        "Fetishes": [
+          "Incest"
+        ],
+        "Sexual Content": [
+          "Incest",
+          "Seduction"
+        ],
+        "Sexual Preferences": [
+          "Heterosexual"
+        ]
+      }
+    }
   }
 ]
