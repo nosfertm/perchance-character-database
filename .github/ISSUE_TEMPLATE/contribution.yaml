@@ -367,6 +367,7 @@ body:
         - Web Series
         - cosplay
         - hollow knight
+        - twisted wonderland
     validations:
       required: false
 
@@ -723,6 +724,7 @@ body:
         - instructor
         - manager
         - office worker
+        - royally
         - sentinel
         - serial killer
         - social media manager
@@ -777,6 +779,7 @@ body:
         - Autistic
         - Awkward
         - Bashful
+        - Beauty-obsessed
         - Benevolent
         - Big-hearted
         - Bisexual
@@ -1388,7 +1391,9 @@ body:
         - temperamental
         - toxic
         - uninterested
+        - unwavering
         - verbally abusive
+        - virtuous
         - whiny
         - wicked
         - wild
@@ -1822,6 +1827,7 @@ body:
         - Gold and crimson mane
         - Gold cuffs
         - Gold eyes
+        - Golden Brown Eyes
         - Golden Crown
         - Golden Curls
         - Golden Embroidery
@@ -2455,6 +2461,7 @@ body:
         - Wavy brown hair
         - Wavy hair
         - Wearing Uniform
+        - Wears Heels
         - Weathered Clothing
         - Weathered skin
         - Wet
@@ -2501,6 +2508,7 @@ body:
         - Wings (true form)
         - Wolf Ears
         - Wolf Motif Badge
+        - Wolf-like Features
         - Worn Clothing
         - Worn boots
         - Yellow
@@ -2607,6 +2615,7 @@ body:
         - long pink hair
         - long tail
         - long thick tail
+        - long wavy brown hair
         - lots of makeup
         - magenta eyes
         - maroon blazer
