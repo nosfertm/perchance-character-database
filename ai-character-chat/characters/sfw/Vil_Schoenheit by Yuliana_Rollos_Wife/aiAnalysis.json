@@ -1,0 +1,52 @@
+{
+  "rating": "sfw",
+  "description": "Vil Schoenheit is an 18-year-old, 183cm tall student at Night Raven College, a boarding school in the Shaftlands.  A narcissistic perfectionist obsessed with beauty, he's a third-year student, professional actor and model with 5 million MagiCam followers. He's physically strong, known for his impeccable posture and striking appearance, and often wears 13cm heels.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Fantasy",
+      "School Life"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "Twisted Wonderland"
+    ],
+    "Role": [
+      "Student",
+      "Actor",
+      "Model",
+      "Dorm Leader"
+    ],
+    "Personality": [
+      "Narcissistic",
+      "Perfectionist",
+      "Arrogant",
+      "Beauty-obsessed",
+      "Hard-working",
+      "Dismissive",
+      "Perfectionist",
+      "Witty"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Blonde Hair",
+      "Violet Eyes",
+      "Muscular",
+      "Wears Heels"
+    ]
+  }
+}

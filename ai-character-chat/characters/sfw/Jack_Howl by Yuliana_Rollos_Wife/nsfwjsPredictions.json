@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741748200/scrape/perchance_comments/img_Jack_Howl_by_Yuliana_Rollos_Wife.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.9275253415107727
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.06876564025878906
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.003363944822922349
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0002834494225680828
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00006151017441879958
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

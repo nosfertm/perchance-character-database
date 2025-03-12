@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741748207/scrape/perchance_comments/img_Leona_Kingscholar_by_Yuliana_Rollos_Wife.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.981037437915802
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.015343262813985348
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0035008767154067755
+      },
+      {
+        "className": "Porn",
+        "probability": 0.00008911013719625771
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.000029362798159127124
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]
