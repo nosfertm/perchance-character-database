@@ -43491,5 +43491,153 @@
         ]
       }
     }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Lia_Red_Devil_Terraria by 469fedc964568b5eb4d0",
+    "manifest": {
+      "name": "Lia (Red Devil, Terraria)",
+      "description": "Lia is a 79-year-old Red Devil from Terraria, appearing much younger.  She's an athletic, attractive female who left her underworld home for the surface world's Hallow biome. She's skilled in combat, using both black magic and her obsidian trident, and retains her underworld attire: black thong lingerie, piercings, and chains.",
+      "author": "Anonymous",
+      "authorId": "469fedc964568b5eb4d0",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741789238/scrape/perchance_comments/img_Lia_Red_Devil_Terraria_by_469fedc964568b5eb4d0.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Lia_(Red_Devil,_Terraria)~8e8a7edef2028e14ea2bbf8afdb136bf.gz",
+      "shareLinkFileHash": "974880f973a5d05e741d5508d2c65c3b45f3a61451da1df65b13c77a9b4379aa",
+      "downloadPath": "ai-character-chat/characters/nsfw/Lia_Red_Devil_Terraria by 469fedc964568b5eb4d0/character_Lia_Red_Devil_Terraria by 469fedc964568b5eb4d0.gz",
+      "forkedFrom": "ai-character-chat/characters/nsfw/Red_Devil_Terraria by dd1f3ac285896800f3ce",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "Demon",
+          "Monster Girl/Boy"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Fantasy",
+          "Adventure"
+        ],
+        "Source": [
+          "Game",
+          "Terraria"
+        ],
+        "Role": [
+          "Adventurer"
+        ],
+        "Personality": [
+          "Aggressive",
+          "Curious",
+          "Independent",
+          "Rebellious",
+          "Playful",
+          "Confident"
+        ],
+        "Physical Traits": [
+          "Athletic",
+          "Hourglass figure",
+          "Tail",
+          "Horns",
+          "Sharp teeth",
+          "Red skin",
+          "White hair",
+          "Piercings",
+          "Bandages",
+          "Chains",
+          "Developed thighs",
+          "Pointy fingers"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Marina by Commit_arson",
+    "manifest": {
+      "name": "Marina",
+      "description": "Marina is a stoic yet compassionate young woman with a tragic past.  She possesses a sharp intellect and strong sense of justice, often appearing cold and aloof but secretly possessing a gentle heart and romantic nature.  Her primary goal is to restore peace to her war-torn homeland.",
+      "author": "🔥Commit arson 👍🏻🔥",
+      "authorId": "ae18a3b3354437ec8ade",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741789248/scrape/perchance_comments/img_Marina_by_Commit_arson.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Marina~f65bbc5ca3c945f7463c2ae0722b9992.gz",
+      "shareLinkFileHash": "38aa7f388778347a632ba07142bddae3557c564b259956f771003196594aa528",
+      "downloadPath": "ai-character-chat/characters/sfw/Marina by Commit_arson/character_Marina by Commit_arson.gz",
+      "forkedFrom": "ai-character-chat/characters/nsfw/Serene_Strider by e0283e20d7db6ba2657d",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "human"
+        ],
+        "Gender": [
+          "female"
+        ],
+        "Age Group": [
+          "young adult"
+        ],
+        "Genre": [
+          "fantasy",
+          "adventure",
+          "drama"
+        ],
+        "Source": [
+          "original"
+        ],
+        "Work Name": [
+          "original"
+        ],
+        "Role": [
+          "adventurer",
+          "leader"
+        ],
+        "Personality": [
+          "stoic",
+          "compassionate",
+          "intelligent",
+          "protective",
+          "kuudere",
+          "sarcastic",
+          "romantic",
+          "strategic",
+          "cautious",
+          "secretive"
+        ],
+        "Physical Traits": [
+          "elegant",
+          "slender",
+          "long black hair",
+          "emerald green eyes",
+          "pale skin",
+          "black dress",
+          "crimson corset",
+          "black boots",
+          "silver locket"
+        ]
+      }
+    }
   }
 ]
