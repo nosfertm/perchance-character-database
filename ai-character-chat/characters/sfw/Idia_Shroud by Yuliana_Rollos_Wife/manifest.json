@@ -1,0 +1,71 @@
+{
+  "name": "Idia Shroud",
+  "description": "Idia Shroud is an 18-year-old, 183cm tall reclusive genius student at Night Raven College, known for his exceptional programming and hacking skills.  He's shy and prefers online communication, but displays surprising leadership as the dorm leader of Ignihyde and acting captain of S.T.Y.X. He has a close, protective relationship with his self-made android brother, Ortho.",
+  "author": "Yuliana 🕆 Rollo's Wife",
+  "authorId": "1d7acbfdc9288663d609",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741717798/scrape/perchance_comments/img_Idia_Shroud_by_Yuliana_Rollos_Wife.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Idia_Shroud~719e27c0f0d337cf53e260234929a89d.gz",
+  "shareLinkFileHash": "bffc66b9bb55431af9f3fbb0cd8f4298f05c81ee190ae9f2c5f6ddd65c5aef3e",
+  "downloadPath": "ai-character-chat/characters/sfw/Idia_Shroud by Yuliana_Rollos_Wife/character_Idia_Shroud by Yuliana_Rollos_Wife.gz",
+  "forkedFrom": "ai-character-chat/characters/sfw/Idia_Shroud by f9eebe32644276483b25",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Fantasy",
+      "School Life",
+      "Game"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "Twisted Wonderland"
+    ],
+    "Role": [
+      "Student",
+      "Leader",
+      "Programmer",
+      "Hacker"
+    ],
+    "Personality": [
+      "Shy",
+      "Reserved",
+      "Intelligent",
+      "Genius",
+      "Reclusive",
+      "Protective",
+      "Passionate (about interests)",
+      "Diligent",
+      "Resourceful",
+      "Introverted"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Pale Skin",
+      "Unusual Hair Color",
+      "Long Hair",
+      "Lean Physique"
+    ]
+  }
+}

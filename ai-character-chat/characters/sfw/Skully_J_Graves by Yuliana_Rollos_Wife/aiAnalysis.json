@@ -1,0 +1,69 @@
+{
+  "rating": "sfw",
+  "description": "Skully J. Graves is a tall, pale teenager with a skeletal aesthetic,  a calm demeanor masking a cunning and controlling personality. He is a traditionalist when it comes to Halloween, valuing gloom and isolation, but reacts intensely when his ideals are challenged.  He is secretive about his past and prefers solitude, despite feeling lonely.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human",
+      "skeleton"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "teen"
+    ],
+    "Genre": [
+      "fantasy",
+      "dark themes"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Work Name": [
+      "original"
+    ],
+    "Role": [
+      "none"
+    ],
+    "Personality": [
+      "calm",
+      "courteous",
+      "controlling",
+      "cunning",
+      "suspicious",
+      "manipulative",
+      "traditional",
+      "solitary",
+      "lonely"
+    ],
+    "Physical Traits": [
+      "tall",
+      "pale skin",
+      "short white hair",
+      "black gradient hair",
+      "headpiece",
+      "reddish-orange eyes",
+      "spiraling irises",
+      "missing teeth",
+      "grey lipstick",
+      "white dress shirt",
+      "jabot",
+      "grey vest",
+      "black accents",
+      "black jacket",
+      "bat wing lapels",
+      "rib-like accessory",
+      "white stitches",
+      "black gloves",
+      "skeletal hands",
+      "black pants",
+      "white shoes",
+      "black details",
+      "ripped tailcoat"
+    ]
+  }
+}

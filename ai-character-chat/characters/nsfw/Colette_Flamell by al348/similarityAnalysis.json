@@ -1,5 +1,24 @@
 {
   "isExisting": false,
-  "type": "NEW",
-  "bestMatch": "None"
+  "type": "FORK",
+  "forkedFrom": "Aurora by cd6aa3da7469e652c95d",
+  "forkedPath": "ai-character-chat/characters/nsfw/Aurora by cd6aa3da7469e652c95d",
+  "similarities": {
+    "roleInstruction.txt": 0.8003250812703175,
+    "name.txt": 0
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.8003250812703175,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 0.8003250812703175,
+  "bestMatch": "Aurora by cd6aa3da7469e652c95d"
 }

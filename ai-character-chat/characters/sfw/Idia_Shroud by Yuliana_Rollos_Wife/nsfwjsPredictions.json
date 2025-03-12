@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741717798/scrape/perchance_comments/img_Idia_Shroud_by_Yuliana_Rollos_Wife.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.9914883375167847
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.008455404080450535
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.000050693750381469727
+      },
+      {
+        "className": "Porn",
+        "probability": 0.000005143878297531046
+      },
+      {
+        "className": "Sexy",
+        "probability": 3.023250769729202e-7
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

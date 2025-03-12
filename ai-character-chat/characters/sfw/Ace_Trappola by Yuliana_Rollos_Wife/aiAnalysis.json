@@ -1,0 +1,53 @@
+{
+  "rating": "sfw",
+  "description": "Ace Trappola is a 16-year-old student at Night Raven College, known for his mischievous nature and sharp wit.  He's a member of the basketball club and excels at magical analysis, often using his keen observation skills and sleight of hand for card tricks. Despite his teasing personality, he displays empathy and defends those who can't stand up for themselves.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "teen"
+    ],
+    "Genre": [
+      "school life",
+      "fantasy"
+    ],
+    "Source": [
+      "game"
+    ],
+    "Work Name": [
+      "twisted wonderland"
+    ],
+    "Role": [
+      "student"
+    ],
+    "Personality": [
+      "mischievous",
+      "clever",
+      "sharp-tongued",
+      "empathetic",
+      "competitive",
+      "observant",
+      "quick-thinker",
+      "deceptive"
+    ],
+    "Physical Traits": [
+      "messy dark orange hair",
+      "piercing red eyes",
+      "red heart-shaped makeup",
+      "white shirt",
+      "red vest",
+      "blazer",
+      "black and yellow ribbon",
+      "red and white high-top sneakers",
+      "white trousers"
+    ]
+  }
+}

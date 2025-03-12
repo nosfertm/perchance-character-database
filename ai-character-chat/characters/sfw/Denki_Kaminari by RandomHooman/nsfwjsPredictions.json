@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741717793/scrape/perchance_comments/img_Denki_Kaminari_by_RandomHooman.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.8128786683082581
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.1565568745136261
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.029769686982035637
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0006017370033077896
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00019298290135338902
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

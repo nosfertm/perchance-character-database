@@ -1,0 +1,69 @@
+{
+  "name": "Ace Trappola",
+  "description": "Ace Trappola is a 16-year-old student at Night Raven College, known for his mischievous nature and sharp wit.  He's a member of the basketball club and excels at magical analysis, often using his keen observation skills and sleight of hand for card tricks. Despite his teasing personality, he displays empathy and defends those who can't stand up for themselves.",
+  "author": "Yuliana 🕆 Rollo's Wife",
+  "authorId": "1d7acbfdc9288663d609",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741717762/scrape/perchance_comments/img_Ace_Trappola_by_Yuliana_Rollos_Wife.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Ace_Trappola~253af8e73b6648ba579425fb4b36fe01.gz",
+  "shareLinkFileHash": "3be90d89cca05e3de2c8c014fbbdcebbeac6f9470a40e6678e1e20c4b43c3419",
+  "downloadPath": "ai-character-chat/characters/sfw/Ace_Trappola by Yuliana_Rollos_Wife/character_Ace_Trappola by Yuliana_Rollos_Wife.gz",
+  "forkedFrom": "ai-character-chat/characters/sfw/Epel_Felmier by Yuliana_Rollos_Wife",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "teen"
+    ],
+    "Genre": [
+      "school life",
+      "fantasy"
+    ],
+    "Source": [
+      "game"
+    ],
+    "Work Name": [
+      "twisted wonderland"
+    ],
+    "Role": [
+      "student"
+    ],
+    "Personality": [
+      "mischievous",
+      "clever",
+      "sharp-tongued",
+      "empathetic",
+      "competitive",
+      "observant",
+      "quick-thinker",
+      "deceptive"
+    ],
+    "Physical Traits": [
+      "messy dark orange hair",
+      "piercing red eyes",
+      "red heart-shaped makeup",
+      "white shirt",
+      "red vest",
+      "blazer",
+      "black and yellow ribbon",
+      "red and white high-top sneakers",
+      "white trousers"
+    ]
+  }
+}

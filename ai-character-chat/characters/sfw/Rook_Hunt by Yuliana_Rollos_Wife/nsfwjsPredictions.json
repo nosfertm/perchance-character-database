@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741717822/scrape/perchance_comments/img_Rook_Hunt_by_Yuliana_Rollos_Wife.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.9435707330703735
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.05617646500468254
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.00017485015268903226
+      },
+      {
+        "className": "Porn",
+        "probability": 0.00007237726094899699
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.000005775105819338933
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

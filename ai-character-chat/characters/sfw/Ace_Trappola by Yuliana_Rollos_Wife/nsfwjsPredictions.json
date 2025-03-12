@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741717762/scrape/perchance_comments/img_Ace_Trappola_by_Yuliana_Rollos_Wife.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.9755797982215881
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.024381360039114952
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.00002501427661627531
+      },
+      {
+        "className": "Porn",
+        "probability": 0.000013190851859690156
+      },
+      {
+        "className": "Sexy",
+        "probability": 6.632609483858687e-7
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]
