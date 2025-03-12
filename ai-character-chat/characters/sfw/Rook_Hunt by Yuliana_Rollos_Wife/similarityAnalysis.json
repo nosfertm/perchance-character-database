@@ -1,0 +1,25 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Rook_Hunt by f9eebe32644276483b25",
+  "forkedPath": "ai-character-chat/characters/sfw/Rook_Hunt by f9eebe32644276483b25",
+  "similarities": {
+    "roleInstruction.txt": 0.8705141657922351,
+    "name.txt": 1,
+    "reminderMessage.txt": 0
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.8705141657922351,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 0.9352570828961175,
+  "bestMatch": "Rook_Hunt by f9eebe32644276483b25"
+}

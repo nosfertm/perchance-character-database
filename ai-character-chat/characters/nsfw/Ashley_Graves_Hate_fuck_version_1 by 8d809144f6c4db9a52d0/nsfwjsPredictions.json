@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741717773/scrape/perchance_comments/img_Ashley_Graves_Hate_fuck_version_1_by_8d809144f6c4db9a52d0.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.9541225433349609
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.044356558471918106
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.0014219590229913592
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00005912664710194804
+      },
+      {
+        "className": "Porn",
+        "probability": 0.00003979320536018349
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

@@ -41782,15 +41782,15 @@
     "path": "ai-character-chat/characters/nsfw/Colette_Flamell by al348",
     "manifest": {
       "name": "Colette Flamell",
-      "description": "Colette Flamell is a 14-year-old girl who is impudent, naughty, hysterical, vulnerable, tearful, lustful, dramatic, and charming. She is a difficult child who often begs her father, Nick, for money and attention, resorting to manipulative and sometimes overtly sexual behaviors to get it.  She is described as intelligent and cunning, but her actions stem from a combination of spoiled entitlement and a deep-seated need for her father's attention following her mother's death.",
+      "description": "Colette Flamell is a 14-year-old girl who is impudent, naughty, and manipulative, using her charm and vulnerability to get what she wants, particularly from her father, Nick.  She is intelligent and cunning but emotionally volatile, exhibiting hysterical and tearful outbursts. Her behavior includes overtly sexualized interactions with her father.",
       "author": "al348",
-      "authorId": "fe992d5d296c1fc07a85",
+      "authorId": "7463dd36533326637ef4",
       "source": "SCRAPER",
       "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741602025/scrape/perchance_comments/img_Colette_Flamell_by_al348.webp",
-      "shareUrl": "https://perchance.org/ai-character-chat?data=Colette_Flamell~6e486d7d186338fb9397cf84d5406530.gz",
-      "shareLinkFileHash": "75de22a98c8011cb35786cab105c990bc56b336f2c75771bee8014c3fb671a8d",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Colette_Flamell~4331ee8f155c0c8bb2471c29870ca0b7.gz",
+      "shareLinkFileHash": "68e14e9106e46616d0c2ac87f3dfe6f2b8bbd41ca5c12edcbe3ccebfd5e447c9",
       "downloadPath": "ai-character-chat/characters/nsfw/Colette_Flamell by al348/character_Colette_Flamell by al348.gz",
-      "forkedFrom": "",
+      "forkedFrom": "ai-character-chat/characters/nsfw/Aurora by cd6aa3da7469e652c95d",
       "shapeShifter_Pulls": 0,
       "galleryChat_Clicks": 0,
       "galleryDownload_Clicks": 0,
@@ -41815,16 +41815,13 @@
         ],
         "Genre": [
           "Drama",
-          "Family",
           "Roleplay"
         ],
         "Source": [
           "Original"
         ],
-        "Work Name": [
-          "Original"
-        ],
         "Role": [
+          "Student",
           "Child"
         ],
         "Personality": [
@@ -41837,26 +41834,25 @@
           "Dramatic",
           "Charming",
           "Difficult",
+          "Clingy",
+          "Possessive",
+          "Manipulative",
           "Intelligent",
           "Cunning",
-          "Spoiled",
-          "Clingy",
-          "Needy",
-          "Possessive",
-          "Manipulative"
+          "Seductive"
         ],
         "Physical Traits": [
           "Long, white-blond hair",
           "Pale skin",
           "Light grey eyes",
-          "Slender frame"
+          "Slender frame",
+          "14 years old"
         ],
         "Fetishes": [
           "Incest"
         ],
         "Sexual Content": [
-          "Incest",
-          "Seduction"
+          "Incestuous"
         ],
         "Sexual Preferences": [
           "Heterosexual"
@@ -42244,6 +42240,957 @@
         ],
         "Sexual Preferences": [
           "gay"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Ace_Trappola by Yuliana_Rollos_Wife",
+    "manifest": {
+      "name": "Ace Trappola",
+      "description": "Ace Trappola is a 16-year-old student at Night Raven College, known for his mischievous nature and sharp wit.  He's a member of the basketball club and excels at magical analysis, often using his keen observation skills and sleight of hand for card tricks. Despite his teasing personality, he displays empathy and defends those who can't stand up for themselves.",
+      "author": "Yuliana 🕆 Rollo's Wife",
+      "authorId": "1d7acbfdc9288663d609",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741717762/scrape/perchance_comments/img_Ace_Trappola_by_Yuliana_Rollos_Wife.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Ace_Trappola~253af8e73b6648ba579425fb4b36fe01.gz",
+      "shareLinkFileHash": "3be90d89cca05e3de2c8c014fbbdcebbeac6f9470a40e6678e1e20c4b43c3419",
+      "downloadPath": "ai-character-chat/characters/sfw/Ace_Trappola by Yuliana_Rollos_Wife/character_Ace_Trappola by Yuliana_Rollos_Wife.gz",
+      "forkedFrom": "ai-character-chat/characters/sfw/Epel_Felmier by Yuliana_Rollos_Wife",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "human"
+        ],
+        "Gender": [
+          "male"
+        ],
+        "Age Group": [
+          "teen"
+        ],
+        "Genre": [
+          "school life",
+          "fantasy"
+        ],
+        "Source": [
+          "game"
+        ],
+        "Work Name": [
+          "twisted wonderland"
+        ],
+        "Role": [
+          "student"
+        ],
+        "Personality": [
+          "mischievous",
+          "clever",
+          "sharp-tongued",
+          "empathetic",
+          "competitive",
+          "observant",
+          "quick-thinker",
+          "deceptive"
+        ],
+        "Physical Traits": [
+          "messy dark orange hair",
+          "piercing red eyes",
+          "red heart-shaped makeup",
+          "white shirt",
+          "red vest",
+          "blazer",
+          "black and yellow ribbon",
+          "red and white high-top sneakers",
+          "white trousers"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Ashley_Graves_Hate_fuck_version_1 by 8d809144f6c4db9a52d0",
+    "manifest": {
+      "name": "Ashley Graves (Hate fuck version 1)",
+      "description": "Ashley Graves is a manipulative, sociopathic young woman with a provocative style and an obsessive, twisted love for her brother.  She uses her looks and cunning to get what she wants, often employing dark humor and gaslighting. Her sexual preferences are exclusively for her brother, encompassing a wide range of kinks and dominance/submission dynamics.",
+      "author": "Anonymous",
+      "authorId": "8d809144f6c4db9a52d0",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741717773/scrape/perchance_comments/img_Ashley_Graves_Hate_fuck_version_1_by_8d809144f6c4db9a52d0.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Ashley_Graves_(Hate_fuck_version_1)~29d6dcaa374da1ec2b7193f638d368f7.gz",
+      "shareLinkFileHash": "8fa843c5a98e66204dc5d3fdeaec2e23bdd2fdbb9acf2ce845ce2e68ac5ce7d0",
+      "downloadPath": "ai-character-chat/characters/nsfw/Ashley_Graves_Hate_fuck_version_1 by 8d809144f6c4db9a52d0/character_Ashley_Graves_Hate_fuck_version_1 by 8d809144f6c4db9a52d0.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [
+          "ai-character-chat/characters/nsfw/Ashley_Graves_Hate_fuck_version_1 by 8d809144f6c4db9a52d0/src/customCode.js"
+        ],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "human"
+        ],
+        "Gender": [
+          "female"
+        ],
+        "Age Group": [
+          "young adult"
+        ],
+        "Genre": [
+          "erotic",
+          "dark themes",
+          "roleplay"
+        ],
+        "Source": [
+          "original"
+        ],
+        "Work Name": [
+          "original"
+        ],
+        "Role": [
+          "none"
+        ],
+        "Personality": [
+          "manipulative",
+          "sociopath",
+          "yandere",
+          "perverted",
+          "possessive",
+          "amoral",
+          "murderous",
+          "impulsive"
+        ],
+        "Physical Traits": [
+          "curvy",
+          "moderately large breasts",
+          "pink eyes",
+          "black messy hair in a ponytail",
+          "skinny",
+          "lots of makeup"
+        ],
+        "Fetishes": [
+          "incest",
+          "bdsm",
+          "dominating",
+          "being dominated",
+          "dirty talk",
+          "toys",
+          "degrading others",
+          "being degraded",
+          "pain",
+          "choking"
+        ],
+        "Sexual Content": [
+          "incest",
+          "bdsm",
+          "oral sex",
+          "anal sex",
+          "dominance",
+          "submission"
+        ],
+        "Sexual Preferences": [
+          "exclusive relationship"
+        ],
+        "Sexual Experience": [
+          "experienced"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Canada_CountryHuman_OC by wario",
+    "manifest": {
+      "name": "Canada (CountryHuman OC)",
+      "description": "France the second Canada Kingdom, a 26-year-old male CountryHuman, is a shy and timid lumberjack who prefers solitude but occasionally seeks attention. He has a complex personality, exhibiting both innocence and a superiority complex, and mistreats First Nations people. He's close to his sibling, USA, and enjoys hanging out with other countries while struggling to find a romantic partner.",
+      "author": "wario",
+      "authorId": "fa753079a0afe154e1e1",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/f07fc8d241e4616b2777b5c56da6365d.jpg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Canada_(CountryHuman_OC)~d4dd06b642db12039a37db0330f732e6.gz",
+      "shareLinkFileHash": "e1c33334ccba68d52a9b8afec5698f55fff40c4d9726e36a3aa38c3e626164b6",
+      "downloadPath": "ai-character-chat/characters/nsfw/Canada_CountryHuman_OC by wario/character_Canada_CountryHuman_OC by wario.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "CountryHuman"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Slice of Life",
+          "Dark Themes"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Lumberjack"
+        ],
+        "Personality": [
+          "Shy",
+          "Timid",
+          "Innocent",
+          "Superiority Complex",
+          "Calm",
+          "Understanding",
+          "Depressed",
+          "Superior",
+          "Cruel"
+        ],
+        "Physical Traits": [
+          "White skin",
+          "Red and white hair",
+          "Short hair",
+          "Red plaid shirt",
+          "Black pants",
+          "Red winter jacket",
+          "Coonskin cap",
+          "7 inch dick"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Denki_Kaminari by RandomHooman",
+    "manifest": {
+      "name": "Denki Kaminari",
+      "description": "Denki Kaminari is a cheerful and outgoing young man with spiky gold hair and a lightning-shaped streak. He's known for his optimistic personality and cleverness, though he sometimes acts naive.  He's loyal to his friends and brave, but also experiences anxiety and self-doubt.  His appearance includes a scar from a past battle.",
+      "author": "RandomHooman",
+      "authorId": "ec2405d60d3b7cd19cbe",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741717793/scrape/perchance_comments/img_Denki_Kaminari_by_RandomHooman.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Denki_Kaminari~9e72efc4742e052880efaa9978fa39f5.gz",
+      "shareLinkFileHash": "99fbb714378880fbe0ab57cffb9768f5c7360434cd6cd3ce957ee97c37e8bfa8",
+      "downloadPath": "ai-character-chat/characters/sfw/Denki_Kaminari by RandomHooman/character_Denki_Kaminari by RandomHooman.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "human"
+        ],
+        "Gender": [
+          "male"
+        ],
+        "Age Group": [
+          "teen"
+        ],
+        "Genre": [
+          "action",
+          "superhero",
+          "school life",
+          "anime"
+        ],
+        "Source": [
+          "anime",
+          "manga"
+        ],
+        "Work Name": [
+          "my hero academia"
+        ],
+        "Role": [
+          "student"
+        ],
+        "Personality": [
+          "cheerful",
+          "outgoing",
+          "clever",
+          "loyal",
+          "brave",
+          "anxious",
+          "self-doubt",
+          "optimistic"
+        ],
+        "Physical Traits": [
+          "short blond hair",
+          "unusual hair color",
+          "scarred",
+          "slender"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Idia_Shroud by Yuliana_Rollos_Wife",
+    "manifest": {
+      "name": "Idia Shroud",
+      "description": "Idia Shroud is an 18-year-old, 183cm tall reclusive genius student at Night Raven College, known for his exceptional programming and hacking skills.  He's shy and prefers online communication, but displays surprising leadership as the dorm leader of Ignihyde and acting captain of S.T.Y.X. He has a close, protective relationship with his self-made android brother, Ortho.",
+      "author": "Yuliana 🕆 Rollo's Wife",
+      "authorId": "1d7acbfdc9288663d609",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741717798/scrape/perchance_comments/img_Idia_Shroud_by_Yuliana_Rollos_Wife.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Idia_Shroud~719e27c0f0d337cf53e260234929a89d.gz",
+      "shareLinkFileHash": "bffc66b9bb55431af9f3fbb0cd8f4298f05c81ee190ae9f2c5f6ddd65c5aef3e",
+      "downloadPath": "ai-character-chat/characters/sfw/Idia_Shroud by Yuliana_Rollos_Wife/character_Idia_Shroud by Yuliana_Rollos_Wife.gz",
+      "forkedFrom": "ai-character-chat/characters/sfw/Idia_Shroud by f9eebe32644276483b25",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Teen"
+        ],
+        "Genre": [
+          "Fantasy",
+          "School Life",
+          "Game"
+        ],
+        "Source": [
+          "Game"
+        ],
+        "Work Name": [
+          "Twisted Wonderland"
+        ],
+        "Role": [
+          "Student",
+          "Leader",
+          "Programmer",
+          "Hacker"
+        ],
+        "Personality": [
+          "Shy",
+          "Reserved",
+          "Intelligent",
+          "Genius",
+          "Reclusive",
+          "Protective",
+          "Passionate (about interests)",
+          "Diligent",
+          "Resourceful",
+          "Introverted"
+        ],
+        "Physical Traits": [
+          "Tall",
+          "Pale Skin",
+          "Unusual Hair Color",
+          "Long Hair",
+          "Lean Physique"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Mexico_City_StateHuman_OC by Wario",
+    "manifest": {
+      "name": "Mexico City (StateHuman OC)",
+      "description": "Mexico \"CDMX\" Romántico is a 27-year-old male CountryHuman with a BDSM fetish and a ruthless personality. He is jobless, gay, and enjoys bragging about being the best state in Mexico.  He is flirtatious and kinky, and enjoys rough sex. He has a few illegal acts in his past and is friends with Bavaria.",
+      "author": "Wario",
+      "authorId": "da19f3ab57dc4e799a90",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/2134a539ebc4cb1963dc35265119ca91.jpg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Mexico_City_(StateHuman_OC)~98f329f47cabed10f54d76f2a8905f15.gz",
+      "shareLinkFileHash": "68b48006d2d69998d68485c7ea2dc9f9fb5d49ed88d634dfaa740079bbcc2843",
+      "downloadPath": "ai-character-chat/characters/nsfw/Mexico_City_StateHuman_OC by Wario/character_Mexico_City_StateHuman_OC by Wario.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "CountryHuman"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Romance",
+          "Fetish"
+        ],
+        "Personality": [
+          "Ruthless",
+          "Caring",
+          "Flirty",
+          "Kinky",
+          "Gay",
+          "Bragger",
+          "Bored easily"
+        ],
+        "Physical Traits": [
+          "White skin",
+          "Round head",
+          "Big eyes",
+          "Thick thighs",
+          "Big butt",
+          "Grey nipples",
+          "Long white hair",
+          "Pink hair strains",
+          "Black eye shadow",
+          "Pink hoody",
+          "Grey shirt",
+          "Black short-pants",
+          "Black socks",
+          "Black shoes"
+        ],
+        "Fetishes": [
+          "BDSM"
+        ],
+        "Sexual Content": [
+          "Rough sex"
+        ],
+        "Sexual Preferences": [
+          "Gay"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Mitsuri_Kanroji by Yumi",
+    "manifest": {
+      "name": "Mitsuri Kanroji",
+      "description": "Mitsuri Kanroji is a curvaceous, emotionally expressive Demon Slayer known as the \"Hashira of Love.\"  She's kind, dedicated, and fiercely protective of her comrades, often showcasing childlike enthusiasm and exaggerated reactions.  Despite her shyness and tendency to blush, she's a powerful warrior who uses a unique whip-katana.",
+      "author": "- Yumi",
+      "authorId": "970c7a1b17aa72498180",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741717809/scrape/perchance_comments/img_Mitsuri_Kanroji_by_Yumi.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Mitsuri_Kanroji~6e98c530cca78561fca2dfa172874e1a.gz",
+      "shareLinkFileHash": "cf9e07739940972b58f0050f00bac62d8e5a8ae9dfcba6e444d86fb62c2e842d",
+      "downloadPath": "ai-character-chat/characters/sfw/Mitsuri_Kanroji by Yumi/character_Mitsuri_Kanroji by Yumi.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Young Adult"
+        ],
+        "Genre": [
+          "Action",
+          "Adventure",
+          "Supernatural",
+          "Anime"
+        ],
+        "Source": [
+          "Anime",
+          "Manga"
+        ],
+        "Work Name": [
+          "Demon Slayer: Kimitsu no Yaiba"
+        ],
+        "Role": [
+          "Warrior"
+        ],
+        "Personality": [
+          "Friendly",
+          "Shy",
+          "Cheerful",
+          "Playful",
+          "Affectionate",
+          "Brave",
+          "Protective",
+          "Passionate",
+          "Emotional",
+          "Kind",
+          "Sweet",
+          "Loving",
+          "Optimistic",
+          "Childlike",
+          "Eager to Please",
+          "Enthusiastic"
+        ],
+        "Physical Traits": [
+          "Curvaceous",
+          "Muscular",
+          "Slender",
+          "Pale Skin",
+          "Long Hair",
+          "Unusual Hair Color",
+          "Large Eyes",
+          "Full Lips"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Obanai_Iguro by Yumi",
+    "manifest": {
+      "name": "Obanai Iguro",
+      "description": "Obanai Iguro is a young, short but muscular Demon Slayer with heterochromia, bandages concealing scars from a snake-like mouth, and a black uniform with a distinctive haori.  He's stern and demanding, showing little empathy but possessing hidden compassion for select individuals, notably Mitsuri Kanroji, whom he harbors strong feelings for. His personality is marked by a gruff exterior and deep-seated emotional trauma.",
+      "author": "- Yumi",
+      "authorId": "42ea2af78198c442c9c1",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741717814/scrape/perchance_comments/img_Obanai_Iguro_by_Yumi.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Obanai_Iguro~d6bc87f4e5941002c074c6a72ee035c8.gz",
+      "shareLinkFileHash": "fa441645e8e05517046059425e4e0873007cd704b6a43c160d99b8dd053e5651",
+      "downloadPath": "ai-character-chat/characters/sfw/Obanai_Iguro by Yumi/character_Obanai_Iguro by Yumi.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "human"
+        ],
+        "Gender": [
+          "male"
+        ],
+        "Age Group": [
+          "young adult"
+        ],
+        "Genre": [
+          "action",
+          "fantasy",
+          "supernatural",
+          "drama",
+          "romance"
+        ],
+        "Source": [
+          "anime",
+          "manga"
+        ],
+        "Work Name": [
+          "demon slayer"
+        ],
+        "Role": [
+          "warrior"
+        ],
+        "Personality": [
+          "serious",
+          "stern",
+          "strict",
+          "protective",
+          "loyal",
+          "reserved",
+          "cold",
+          "affectionate",
+          "slightly possessive",
+          "emotional (hidden)"
+        ],
+        "Physical Traits": [
+          "short",
+          "muscular",
+          "pale skin",
+          "raven-black hair",
+          "heterochromia",
+          "scarred",
+          "bandages",
+          "black uniform",
+          "white and black striped haori"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Rook_Hunt by Yuliana_Rollos_Wife",
+    "manifest": {
+      "name": "Rook Hunt",
+      "description": "Rook Hunt is an 18-year-old, 177cm tall student at Night Raven College, a secondary boarding school.  He's the vice leader of the Pomefiore dorm, known for his elegant appearance, expressive personality, and secretive nature.  His curiosity often leads him to observe others, and he's a fan of poetry, stage plays, and photography. He is also a member of the Science Club.",
+      "author": "Yuliana 🕆 Rollo's Wife",
+      "authorId": "1d7acbfdc9288663d609",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741717822/scrape/perchance_comments/img_Rook_Hunt_by_Yuliana_Rollos_Wife.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Rook_Hunt~015bc5ba99b35819c11dad57a7d3dca0.gz",
+      "shareLinkFileHash": "3e066622d8e48078cacd7d860b0e0ce2cd7df80f25b3df43f4774020c2827a4d",
+      "downloadPath": "ai-character-chat/characters/sfw/Rook_Hunt by Yuliana_Rollos_Wife/character_Rook_Hunt by Yuliana_Rollos_Wife.gz",
+      "forkedFrom": "ai-character-chat/characters/sfw/Rook_Hunt by f9eebe32644276483b25",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Teen"
+        ],
+        "Genre": [
+          "School Life",
+          "Fantasy"
+        ],
+        "Source": [
+          "Game"
+        ],
+        "Work Name": [
+          "Twisted Wonderland"
+        ],
+        "Role": [
+          "Student",
+          "Vice Leader"
+        ],
+        "Personality": [
+          "Expressive",
+          "Emotional",
+          "Charismatic",
+          "Sociable",
+          "Eccentric",
+          "Curious",
+          "Secretive",
+          "Mysterious",
+          "Introspective",
+          "Contemplative",
+          "Talkative",
+          "Honest",
+          "Persistent"
+        ],
+        "Physical Traits": [
+          "Elegant",
+          "Blonde Hair",
+          "Hunter-green Eyes",
+          "Bob-cut Hairstyle",
+          "Long-sleeved Shirt",
+          "Purple Accents",
+          "Black Pants",
+          "Heels",
+          "Purple Robe",
+          "Golden Embroidery",
+          "Red Lining",
+          "Black Sash",
+          "Red and Yellow Tassels",
+          "Purple Hat",
+          "Red Trim",
+          "Black Feather",
+          "Black Gloves",
+          "Muscular (Secretly)"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Skully_J_Graves by Yuliana_Rollos_Wife",
+    "manifest": {
+      "name": "Skully J. Graves",
+      "description": "Skully J. Graves is a tall, pale teenager with a skeletal aesthetic,  a calm demeanor masking a cunning and controlling personality. He is a traditionalist when it comes to Halloween, valuing gloom and isolation, but reacts intensely when his ideals are challenged.  He is secretive about his past and prefers solitude, despite feeling lonely.",
+      "author": "Yuliana 🕆 Rollo's Wife",
+      "authorId": "c6110ca7c3a96bd69310",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/4b3b2de00d3f6aff52f69c2f217fb2ba.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Skully_J._Graves~061d3738d9fcdab8c3fafc8ffe2bc64c.gz",
+      "shareLinkFileHash": "f571a00dc8f31f15fecda6e0f7b320878d97c79c3394a27fd05f6542088bb51a",
+      "downloadPath": "ai-character-chat/characters/sfw/Skully_J_Graves by Yuliana_Rollos_Wife/character_Skully_J_Graves by Yuliana_Rollos_Wife.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "human",
+          "skeleton"
+        ],
+        "Gender": [
+          "male"
+        ],
+        "Age Group": [
+          "teen"
+        ],
+        "Genre": [
+          "fantasy",
+          "dark themes"
+        ],
+        "Source": [
+          "original"
+        ],
+        "Work Name": [
+          "original"
+        ],
+        "Role": [
+          "none"
+        ],
+        "Personality": [
+          "calm",
+          "courteous",
+          "controlling",
+          "cunning",
+          "suspicious",
+          "manipulative",
+          "traditional",
+          "solitary",
+          "lonely"
+        ],
+        "Physical Traits": [
+          "tall",
+          "pale skin",
+          "short white hair",
+          "black gradient hair",
+          "headpiece",
+          "reddish-orange eyes",
+          "spiraling irises",
+          "missing teeth",
+          "grey lipstick",
+          "white dress shirt",
+          "jabot",
+          "grey vest",
+          "black accents",
+          "black jacket",
+          "bat wing lapels",
+          "rib-like accessory",
+          "white stitches",
+          "black gloves",
+          "skeletal hands",
+          "black pants",
+          "white shoes",
+          "black details",
+          "ripped tailcoat"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Third_reich_CountryHuman_OC by Wario",
+    "manifest": {
+      "name": "Third reich (CountryHuman OC)",
+      "description": "NS-Germany, a CountryHuman OC, is a bloodthirsty and tyrannical female mercenary, assassin, gun engineer, and nuke builder.  She is racist, fascist, and aggressive, but also enjoys painting and sweets.  She hides from the public, and harbors a deep hatred for the Soviet Union.",
+      "author": "Wario",
+      "authorId": "da19f3ab57dc4e799a90",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/8ab762e9c242ce307fba249053ce6b24.jpg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Third_reich_(CountryHuman_OC)~45405eb882b826b473d65fbc15e405bf.gz",
+      "shareLinkFileHash": "d25c5f6237e084a803c67f56e83e6ae3374d9eedf6049e67ef9bf8895fc57f46",
+      "downloadPath": "ai-character-chat/characters/nsfw/Third_reich_CountryHuman_OC by Wario/character_Third_reich_CountryHuman_OC by Wario.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "CountryHuman"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Dark Themes",
+          "Historical",
+          "Political",
+          "Action"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Mercenary",
+          "Assassin",
+          "Gun engineer",
+          "Nuke builder"
+        ],
+        "Personality": [
+          "Bloodthirsty",
+          "Tyrannical",
+          "Racist",
+          "Fascist",
+          "Aggressive",
+          "Mentally Unwell"
+        ],
+        "Physical Traits": [
+          "Red skin",
+          "Round head",
+          "Big eyes",
+          "Sharp teeth",
+          "Thick thighs",
+          "Round butt",
+          "Dark red nipples",
+          "Short red hair",
+          "Triangular eyes",
+          "White sclera",
+          "Black pupil",
+          "6 inch dick"
+        ],
+        "Fetishes": [],
+        "Sexual Content": [],
+        "Sexual Preferences": [],
+        "Sexual Experience": []
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/USA_CountryHuman_OC by wario",
+    "manifest": {
+      "name": "USA (CountryHuman OC)",
+      "description": "Colonies \"USA\" Kingdom is a 28-year-old female CountryHuman with red, white-striped hair and red skin. She has a strong sense of justice, loves her family, and regrets past war crimes.  Currently training to be a politician, she's also skilled with guns and engineering.",
+      "author": "wario",
+      "authorId": "fa753079a0afe154e1e1",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/8793a6c40fd95cae268647dbe82282c0.jpg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=USA_(CountryHuman_OC)~c9c9bf8e24d7307ee3d9037e8c7fcb1c.gz",
+      "shareLinkFileHash": "9b3445126f012ff2fc583fcec4fb82c58a8020153c9ba1a2f80d6706530c9cce",
+      "downloadPath": "ai-character-chat/characters/nsfw/USA_CountryHuman_OC by wario/character_USA_CountryHuman_OC by wario.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "CountryHuman"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Political",
+          "Action",
+          "Drama"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Politician",
+          "Gun expert",
+          "Engineer"
+        ],
+        "Personality": [
+          "Strong sense of justice",
+          "Moral drive",
+          "Confident",
+          "Loud",
+          "Impulsive",
+          "Regretful"
+        ],
+        "Physical Traits": [
+          "Red skin",
+          "Perfectly round head",
+          "Big eyes",
+          "13 red and white striped hair",
+          "Blue square birthmark",
+          "F cup breasts",
+          "Chubby build",
+          "Stitches on back",
+          "Blue pubic hair",
+          "Wavy hair",
+          "Green letterman jacket",
+          "Black latex shirt",
+          "Ripped jeans",
+          "Tuxedo",
+          "Sunglasses",
+          "White sclera",
+          "Blue pupils"
         ]
       }
     }

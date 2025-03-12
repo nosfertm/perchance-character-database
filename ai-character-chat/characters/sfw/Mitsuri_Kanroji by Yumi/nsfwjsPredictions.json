@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741717809/scrape/perchance_comments/img_Mitsuri_Kanroji_by_Yumi.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.6947095990180969
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.264741450548172
+      },
+      {
+        "className": "Porn",
+        "probability": 0.03223176673054695
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.006832714658230543
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0014844615943729877
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

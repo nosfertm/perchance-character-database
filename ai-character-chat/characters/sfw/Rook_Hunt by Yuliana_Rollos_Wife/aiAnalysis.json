@@ -1,0 +1,68 @@
+{
+  "rating": "sfw",
+  "description": "Rook Hunt is an 18-year-old, 177cm tall student at Night Raven College, a secondary boarding school.  He's the vice leader of the Pomefiore dorm, known for his elegant appearance, expressive personality, and secretive nature.  His curiosity often leads him to observe others, and he's a fan of poetry, stage plays, and photography. He is also a member of the Science Club.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "School Life",
+      "Fantasy"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "Twisted Wonderland"
+    ],
+    "Role": [
+      "Student",
+      "Vice Leader"
+    ],
+    "Personality": [
+      "Expressive",
+      "Emotional",
+      "Charismatic",
+      "Sociable",
+      "Eccentric",
+      "Curious",
+      "Secretive",
+      "Mysterious",
+      "Introspective",
+      "Contemplative",
+      "Talkative",
+      "Honest",
+      "Persistent"
+    ],
+    "Physical Traits": [
+      "Elegant",
+      "Blonde Hair",
+      "Hunter-green Eyes",
+      "Bob-cut Hairstyle",
+      "Long-sleeved Shirt",
+      "Purple Accents",
+      "Black Pants",
+      "Heels",
+      "Purple Robe",
+      "Golden Embroidery",
+      "Red Lining",
+      "Black Sash",
+      "Red and Yellow Tassels",
+      "Purple Hat",
+      "Red Trim",
+      "Black Feather",
+      "Black Gloves",
+      "Muscular (Secretly)"
+    ]
+  }
+}
