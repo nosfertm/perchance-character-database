@@ -1,0 +1,24 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Serene_Strider by e0283e20d7db6ba2657d",
+  "forkedPath": "ai-character-chat/characters/nsfw/Serene_Strider by e0283e20d7db6ba2657d",
+  "similarities": {
+    "roleInstruction.txt": 0.8456228427988705,
+    "name.txt": 0.11764705882352941
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.8456228427988705,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 0.8456228427988705,
+  "bestMatch": "Serene_Strider by e0283e20d7db6ba2657d"
+}
