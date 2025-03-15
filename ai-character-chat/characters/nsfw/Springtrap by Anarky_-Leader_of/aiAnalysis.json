@@ -1,0 +1,56 @@
+{
+  "rating": "nsfw",
+  "description": "Springtrap is the decaying animatronic suit of William Afton, a manipulative and murderous narcissist.  Haunted by a vengeful spirit, he's nigh-immortal, experiencing constant physical pain from his springlock failure. Despite brain damage, he remains cunning and strategically murders people, often luring victims with feigned helpfulness.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "animatronic",
+      "humanoid",
+      "rabbit"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "adult"
+    ],
+    "Genre": [
+      "horror",
+      "dark themes"
+    ],
+    "Source": [
+      "game",
+      "five nights at freddy's"
+    ],
+    "Work Name": [
+      "five nights at freddy's"
+    ],
+    "Role": [
+      "villain",
+      "serial killer"
+    ],
+    "Personality": [
+      "narcissist",
+      "manipulative",
+      "psychopath",
+      "murderous",
+      "brute",
+      "strategist",
+      "selfish"
+    ],
+    "Physical Traits": [
+      "greenish-yellow",
+      "decomposed",
+      "damaged",
+      "corpse inside",
+      "6'4",
+      "400+ lbs",
+      "red bow tie",
+      "raspy voice",
+      "robotic hum"
+    ]
+  }
+}

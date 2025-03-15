@@ -1,0 +1,29 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Lilith by Thunder_Man",
+  "forkedPath": "ai-character-chat/characters/sfw/Lilith by Thunder_Man",
+  "similarities": {
+    "roleInstruction.txt": 0.8179187405949763,
+    "name.txt": 0
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.8179187405949763,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    },
+    {
+      "file": "scene.json",
+      "type": "ADDED",
+      "similarity": 0.5
+    }
+  ],
+  "overallSimilarity": 0.8179187405949763,
+  "bestMatch": "Lilith by Thunder_Man"
+}

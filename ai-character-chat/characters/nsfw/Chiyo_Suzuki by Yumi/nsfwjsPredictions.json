@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741940786/scrape/perchance_comments/img_Chiyo_Suzuki_by_Yumi.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Porn",
+        "probability": 0.8393752574920654
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.13798417150974274
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.012058224529027939
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.008973740041255951
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.0016086766263470054
+      }
+    ],
+    "containsNSFW": true,
+    "error": null
+  }
+]
