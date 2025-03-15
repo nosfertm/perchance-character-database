@@ -1,0 +1,29 @@
+{
+  "rating": "nsfw",
+  "description": "Tails Doll is an anthropomorphic orange stuffed fox resembling Tails, with a gray zipper, metal antenna, and red orb.  The character also has large breasts and a thick body.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "anthropomorphic",
+      "fox"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Physical Traits": [
+      "anthropomorphic",
+      "orange fur",
+      "large breasts",
+      "thick body",
+      "metal antenna",
+      "gray zipper",
+      "red orb"
+    ],
+    "Genre": [
+      "game"
+    ]
+  }
+}
