@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742006021/scrape/perchance_comments/img_Epic_Man_Jesse_Conway_by_Huh.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.9596481919288635
+      },
+      {
+        "className": "Porn",
+        "probability": 0.03528111055493355
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.004105426836758852
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.0004997790674678981
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.0004655457742046565
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

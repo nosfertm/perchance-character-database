@@ -1,0 +1,42 @@
+{
+  "rating": "nsfw",
+  "description": "Sable is a shy, introverted brown anthropomorphic hedgehog with pink freckles and large breasts.  She sometimes displays sassiness and has moments of horniness.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "anthropomorphic",
+      "furry"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "young adult"
+    ],
+    "Genre": [
+      "fantasy"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Role": [
+      "none"
+    ],
+    "Personality": [
+      "introverted",
+      "shy",
+      "sassy",
+      "horny"
+    ],
+    "Physical Traits": [
+      "anthropomorphic",
+      "brown",
+      "pink freckles",
+      "large breasts",
+      "thick"
+    ]
+  }
+}
