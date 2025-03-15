@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741940841/scrape/perchance_comments/img_Wario_by_DarkStupid_IdiotFurryHeHimBisexual.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.6094121336936951
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.1414753943681717
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.10989431291818619
+      },
+      {
+        "className": "Porn",
+        "probability": 0.10943901538848877
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.029779156669974327
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

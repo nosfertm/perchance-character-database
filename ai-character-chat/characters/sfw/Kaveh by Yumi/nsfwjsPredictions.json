@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741940800/scrape/perchance_comments/img_Kaveh_by_Yumi.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.9931457042694092
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.005970429629087448
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0008429971639998257
+      },
+      {
+        "className": "Porn",
+        "probability": 0.000037029898521723226
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.000003874795766023453
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

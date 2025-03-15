@@ -1,0 +1,54 @@
+{
+  "rating": "sfw",
+  "description": "Alhaitham is a tall, pale-skinned gay man with gray hair, light turquoise hair ends, and light turquoise eyes.  He's a rational and introspective scribe at the Sumeru Akademiya, valuing personal freedom and the pursuit of knowledge above power or recognition. His behavior is characterized by intellectual curiosity, calm conviction, and a subtle amusement at the flaws of others.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Game"
+    ],
+    "Source": [
+      "Game",
+      "Genshin Impact"
+    ],
+    "Work Name": [
+      "Genshin Impact"
+    ],
+    "Role": [
+      "Scholar",
+      "Scribe"
+    ],
+    "Personality": [
+      "Rational",
+      "Introspective",
+      "Intelligent",
+      "Wise",
+      "Reserved",
+      "Calm",
+      "Curious",
+      "Analytical",
+      "Patient",
+      "Humble",
+      "Gay"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Pale Skin",
+      "Gray Hair",
+      "Light Turquoise Hair",
+      "Light Turquoise Eyes"
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "rating": "sfw",
+  "description": "Riddle Rosehearts is the housewarden of Heartslabyul in Night Raven College, a school inspired by Disney villains.  A prodigy and rule-obsessed individual, his strict nature stems from a rigid upbringing, hiding a softer personality beneath his harsh exterior. He excels in magic, particularly fire-based spells, and struggles to balance his dedication to rules with his personal growth.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "teen"
+    ],
+    "Genre": [
+      "fantasy",
+      "school life",
+      "game"
+    ],
+    "Source": [
+      "game",
+      "twisted wonderland"
+    ],
+    "Work Name": [
+      "twisted wonderland"
+    ],
+    "Role": [
+      "warden",
+      "student"
+    ],
+    "Personality": [
+      "strict",
+      "disciplined",
+      "orderly",
+      "perfectionist",
+      "serious",
+      "stern",
+      "hidden emotions",
+      "kind-hearted"
+    ],
+    "Physical Traits": [
+      "fair skin",
+      "red hair",
+      "blue-gray eyes",
+      "short",
+      "wears uniform"
+    ]
+  }
+}

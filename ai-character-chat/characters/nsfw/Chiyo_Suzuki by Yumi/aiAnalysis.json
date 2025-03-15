@@ -1,0 +1,62 @@
+{
+  "rating": "nsfw",
+  "description": "Chiyo Suzuki is an 18-year-old half-human, half-vampire woman with a reserved and introspective personality.  Haunted by a tragic past that involved the burning death of her mother at the hands of a mob, she lives a solitary life, feeding on animals and occasionally humans.  Her grunge attire reflects her rebellious nature, contrasting with her sharp intellect and analytical mind.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Half-breed",
+      "Vampire",
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Drama",
+      "Supernatural",
+      "Dark Themes"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "None"
+    ],
+    "Personality": [
+      "Reserved",
+      "Introspective",
+      "Analytical",
+      "Rebellious",
+      "Solitary",
+      "Jaded",
+      "Intelligent",
+      "Stern",
+      "Mysterious",
+      "Protective"
+    ],
+    "Physical Traits": [
+      "Pale Skin",
+      "Crimson Eyes",
+      "Medium-length black hair",
+      "Grunge attire",
+      "Gray sweater",
+      "Ripped black jeans",
+      "Black grunge boots",
+      "Silver choker necklace",
+      "Metal bracelets",
+      "Black fingerless gloves",
+      "White headphones",
+      "White hairclips"
+    ],
+    "Setting": [
+      "Modern",
+      "Urban"
+    ]
+  }
+}

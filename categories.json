@@ -204,7 +204,8 @@
                 "Art",
                 "Superhero",
                 "Anime",
-                "Family"
+                "Family",
+                "original"
             ],
             "nsfw": [
                 "Erotic",
@@ -268,7 +269,8 @@
                 "Movies",
                 "Meme",
                 "hollow knight",
-                "twisted wonderland"
+                "twisted wonderland",
+                "five nights at freddy's"
             ],
             "nsfw": [
                 "Hentai",
@@ -396,7 +398,8 @@
                 "poppy playtime",
                 "twisted wonderland",
                 "Demon Slayer: Kimitsu no Yaiba",
-                "demon slayer"
+                "demon slayer",
+                "mario"
             ],
             "nsfw": [
                 "Bible Black",
@@ -638,7 +641,10 @@
                 "Vice Leader",
                 "Politician",
                 "Gun expert",
-                "royally"
+                "royally",
+                "magician",
+                "Scribe",
+                "Architect"
             ],
             "nsfw": [
                 "Adult Entertainer",
@@ -1301,7 +1307,17 @@
                 "Moral drive",
                 "unwavering",
                 "virtuous",
-                "Beauty-obsessed"
+                "Beauty-obsessed",
+                "hidden emotions",
+                "Solemn",
+                "Troubled",
+                "narcissist",
+                "psychopath",
+                "brute",
+                "strategist",
+                "simple-minded",
+                "Creepy",
+                "Unsettling"
             ],
             "nsfw": [
                 "Dominant",
@@ -2625,7 +2641,53 @@
                 "Chains",
                 "Developed thighs",
                 "crimson corset",
-                "silver locket"
+                "silver locket",
+                "Mesomorph",
+                "Curvy thighs",
+                "10.16 cm dick",
+                "4 cm balls",
+                "No pubic hair",
+                "Brown turtleneck",
+                "Cherry red underwear",
+                "Hypnotic white pattern underwear",
+                "White socks",
+                "Purple shirt",
+                "blue-gray eyes",
+                "wears uniform",
+                "Gray Hair",
+                "Light Turquoise Hair",
+                "Light Turquoise Eyes",
+                "Medium-length black hair",
+                "Grunge attire",
+                "Gray sweater",
+                "Ripped black jeans",
+                "Black grunge boots",
+                "Silver choker necklace",
+                "Metal bracelets",
+                "White headphones",
+                "White hairclips",
+                "thick",
+                "red fur tuft",
+                "black shoulder bands",
+                "v-neck",
+                "red haunches",
+                "black legs",
+                "red toes",
+                "greenish-yellow",
+                "decomposed",
+                "damaged",
+                "corpse inside",
+                "6'4",
+                "400+ lbs",
+                "red bow tie",
+                "raspy voice",
+                "robotic hum",
+                "green fur",
+                "pink bandanna",
+                "white muzzle",
+                "mint green tail",
+                "blue tool belt",
+                "blue boots"
             ],
             "nsfw": [
                 "Voluptuous",
@@ -2704,7 +2766,10 @@
                 "toys",
                 "degrading others",
                 "being degraded",
-                "pain"
+                "pain",
+                "Top",
+                "all kinks/fetishes",
+                "exploring taboos"
             ],
             "nsfw": [
                 "BDSM",
@@ -2831,7 +2896,8 @@
                 "Heterosexual",
                 "Monogamous",
                 "Promiscuous",
-                "exclusive relationship"
+                "exclusive relationship",
+                "Switch"
             ],
             "nsfw": [
                 "Polyamorous",
