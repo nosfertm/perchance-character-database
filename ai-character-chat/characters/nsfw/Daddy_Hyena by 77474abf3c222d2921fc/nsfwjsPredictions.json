@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742094817/scrape/perchance_comments/img_Daddy_Hyena_by_77474abf3c222d2921fc.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.8582540154457092
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.1212518960237503
+      },
+      {
+        "className": "Porn",
+        "probability": 0.01133334543555975
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.008747925981879234
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0004127326246816665
+      }
+    ],
+    "containsNSFW": true,
+    "error": null
+  }
+]
