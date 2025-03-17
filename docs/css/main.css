@@ -1,8 +1,8 @@
 /* Hide elements with v-cloak attribute until Vue is ready */
 [v-cloak] {
-    display: none;
-  }
-  
+    display: none !important;
+}
+
 /* Global styles for Perchance Character Database */
 
 body {
@@ -15,11 +15,11 @@ body {
     .navbar {
         padding: 0.5rem 1rem;
     }
-    
+
     .navbar-brand {
         font-size: 1.1rem;
     }
-    
+
     .nav-link {
         padding: 0.5rem 0.75rem;
     }
@@ -32,7 +32,7 @@ body {
 
 .card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 /* Footer styling */

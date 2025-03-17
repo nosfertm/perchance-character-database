@@ -21,11 +21,12 @@
 
 <body>
     <!-- Vue 3 App Container -->
-    <div id="app" v-cloak>
-        
+    <div id="app" v-cloak class="d-flex flex-column min-vh-100">
+
+
         <!-- Navigation bar component -->
         <navbar-component></navbar-component>
-        
+
         <!-- Main Content -->
         <div class="container-fluid px-4">
             <!-- Reduced horizontal padding -->
@@ -33,7 +34,8 @@
                 <div class="row">
                     <div class="col-md-8 offset-md-2 text-center">
                         <h1 class="display-4">Welcome to Perchance Character Database</h1>
-                        <p class="lead">A community-driven platform for sharing and discovering characters, lore books,
+                        <p class="lead">A community-driven platform for sharing and discovering characters, lore
+                            books,
                             and resources for Perchance.org generators.</p>
                         <div class="row mt-4 g-3">
                             <div v-for="section in site.featuredSections" :key="section.title" class="col-md-4">
@@ -59,6 +61,7 @@
 
         <!-- Footer component -->
         <footer-component></footer-component>
+
     </div>
 
     <!-- Vue 3 and Bootstrap JS -->
