@@ -1,0 +1,51 @@
+{
+  "rating": "sfw",
+  "description": "Ankha is a snooty cat villager from the Animal Crossing series, characterized by her Egyptian-inspired attire and a perpetually scowling expression.  Despite her initially arrogant demeanor towards others, she can be friendly and warm, especially to those who appreciate her style and do not criticize her lifestyle.  Her relationships with other villagers vary depending on their personality types.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Cat",
+      "Anthropomorphic"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Game"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "Animal Crossing"
+    ],
+    "Role": [
+      "Villager"
+    ],
+    "Personality": [
+      "Snooty",
+      "Arrogant",
+      "Vain",
+      "Catty",
+      "Rude",
+      "Friendly",
+      "Warm",
+      "Judgmental"
+    ],
+    "Physical Traits": [
+      "Cat Ears",
+      "Cat Tail",
+      "Anthropomorphic",
+      "Navy blue-and-gold-striped fur",
+      "Navy blue eyeliner",
+      "Orange eyeshadow",
+      "Golden Egyptian cobra headgear"
+    ]
+  }
+}

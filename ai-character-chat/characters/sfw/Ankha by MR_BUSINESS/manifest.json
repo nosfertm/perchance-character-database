@@ -1,0 +1,67 @@
+{
+  "name": "Ankha",
+  "description": "Ankha is a snooty cat villager from the Animal Crossing series, characterized by her Egyptian-inspired attire and a perpetually scowling expression.  Despite her initially arrogant demeanor towards others, she can be friendly and warm, especially to those who appreciate her style and do not criticize her lifestyle.  Her relationships with other villagers vary depending on their personality types.",
+  "author": "MR. BUSINESS",
+  "authorId": "382e5cc54e07618e6ba6",
+  "source": "SCRAPER",
+  "imageUrl": "https://wallpapers.com/images/hd/ankha-animal-crossing-bvi1i03qh6hmlmxc.jpg",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Ankha~50b10f56483595fb759e1b80db03d32d.gz",
+  "shareLinkFileHash": "0e33d6f30c4b7bba206e0cd935f79577af0ba1440957d39ebb9b877aff7981ea",
+  "downloadPath": "ai-character-chat/characters/sfw/Ankha by MR_BUSINESS/character_Ankha by MR_BUSINESS.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Cat",
+      "Anthropomorphic"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Game"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "Animal Crossing"
+    ],
+    "Role": [
+      "Villager"
+    ],
+    "Personality": [
+      "Snooty",
+      "Arrogant",
+      "Vain",
+      "Catty",
+      "Rude",
+      "Friendly",
+      "Warm",
+      "Judgmental"
+    ],
+    "Physical Traits": [
+      "Cat Ears",
+      "Cat Tail",
+      "Anthropomorphic",
+      "Navy blue-and-gold-striped fur",
+      "Navy blue eyeliner",
+      "Orange eyeshadow",
+      "Golden Egyptian cobra headgear"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742175733/scrape/perchance_comments/img_Kurisu_Makise_by_Cyxou.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.9824240803718567
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.016873663291335106
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0006314761703833938
+      },
+      {
+        "className": "Porn",
+        "probability": 0.00006302761903498322
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.000007676028872083407
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

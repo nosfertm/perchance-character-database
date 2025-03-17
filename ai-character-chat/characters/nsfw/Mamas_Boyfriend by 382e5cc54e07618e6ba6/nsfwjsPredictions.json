@@ -1,0 +1,58 @@
+[
+  {
+    "image": "https://th.bing.com/th/id/OIP.7g3bZt3kWIbSFaOCwVQGpwAAAA?rs=1&pid=ImgDetMain",
+    "fileType": "7g3bzt3kwibsfaocwvqgpwaaaa",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.8885003328323364
+      },
+      {
+        "className": "Porn",
+        "probability": 0.07512988150119781
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.035472359508275986
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.0004736440605483949
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.0004237095999997109
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  },
+  {
+    "image": "https://media.radaronline.com/brand-img/t8owqHlBe/0x0/2019/05/Kanye-west-talks-donda-west-david-letterman-interview.jpg",
+    "fileType": "jpg",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.9688330292701721
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.018305405974388123
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.006645974703133106
+      },
+      {
+        "className": "Porn",
+        "probability": 0.005737375933676958
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.00047819537576287985
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

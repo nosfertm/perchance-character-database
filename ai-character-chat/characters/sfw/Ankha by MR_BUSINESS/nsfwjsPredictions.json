@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://wallpapers.com/images/hd/ankha-animal-crossing-bvi1i03qh6hmlmxc.jpg",
+    "fileType": "jpg",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.9666065573692322
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.03285419940948486
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.00044479884672909975
+      },
+      {
+        "className": "Porn",
+        "probability": 0.00007998468208825216
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00001454014636692591
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]
