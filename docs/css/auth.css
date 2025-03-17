@@ -1,0 +1,43 @@
+/* auth-styles.css */
+
+/* Hide Vue templates until they're compiled */
+[v-cloak] {
+  display: none;
+}
+
+/* Dark mode styling */
+.dark-mode {
+  background-color: #121212;
+  color: #f8f9fa;
+}
+
+/* Animation for fade transition */
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+/* Animation for slide-fade transition */
+.slide-fade-enter-active,
+.slide-fade-leave-active {
+  transition: all 0.3s ease;
+}
+
+.slide-fade-enter-from {
+  transform: translateX(20px);
+  opacity: 0;
+}
+
+.slide-fade-leave-to {
+  transform: translateX(-20px);
+  opacity: 0;
+}
+
+.small-links {
+  font-size: 0.85rem; 
+}

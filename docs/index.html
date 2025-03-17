@@ -21,64 +21,10 @@
 
 <body>
     <!-- Vue 3 App Container -->
-    <div id="app" class="d-flex flex-column min-vh-100">
-        <!-- Navigation -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
-
-                <!-- Logo placeholder -->
-                <a class="navbar-brand" href="index.html">
-                    <img src="assets/logo.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
-                    {{ site.pageTitle }}
-                </a>
-
-                <!-- Collapse navbar menu -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <!-- Navbar items -->
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav me-auto">
-                        <!-- Home menu -->
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                        <!-- Dynamic menu links -->
-                        <li v-for="section in site.featuredSections" :key="section.title" class="nav-item">
-                            <a class="nav-link" :class="section.link ? '': 'disabled'" :href="section.link">{{
-                                section.title }}</a>
-                        </li>
-                    </ul>
-
-                    <!-- Theme toggle dropdown -->
-                    <div class="dropdown">
-                        <button class="btn dropdown-toggle btn-outline-light" type="button"
-                            id="themeToggleDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-                            <i :class="themeIcon"></i>
-                        </button>
-                        <ul class="dropdown-menu dropdown-menu-end" :class="{ 'dropdown-menu-dark': isDarkMode }"
-                            aria-labelledby="themeToggleDropdown">
-                            <li>
-                                <a class="dropdown-item" href="#" @click.prevent="setTheme('light')">
-                                    <i class="fas fa-sun"></i> Light
-                                </a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#" @click.prevent="setTheme('dark')">
-                                    <i class="fas fa-moon"></i> Dark
-                                </a>
-                            </li>
-                            <!-- <li>
-                                <a class="dropdown-item" href="#" @click.prevent="setTheme('auto')">
-                                    <i class="fas fa-circle-half-stroke"></i> Auto
-                                </a>
-                            </li> -->
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </nav>
+    <div id="app" v-cloak>
+        
+        <!-- Navigation bar component -->
+        <navbar-component></navbar-component>
         
         <!-- Main Content -->
         <div class="container-fluid px-4">
@@ -111,18 +57,8 @@
             </div>
         </div>
 
-        <!-- Footer with fixed bottom positioning -->
-        <footer class="bg-dark text-white text-center py-3 mt-auto">
-            <div class="container">
-                <p class="mb-0">
-                    © 2024 Perchance Character Database |
-                    <a href="https://github.com/nosfertm/perchance-character-database" class="text-white"
-                        target="_blank">
-                        View on GitHub
-                    </a>
-                </p>
-            </div>
-        </footer>
+        <!-- Footer component -->
+        <footer-component></footer-component>
     </div>
 
     <!-- Vue 3 and Bootstrap JS -->

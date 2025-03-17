@@ -21,7 +21,7 @@
 </head>
 
 <body>
-    <div id="app" v-cloak class="d-flex flex-column min-vh-100">
+    <div id="app" v-cloak>
 
 
         <!-- MODAL CHARACTER DETAIL -->
@@ -234,78 +234,23 @@
         <!-- ----------------------------------------------------------------------- -->
 
         <!-- Navigation -->
-        <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
-                <!-- Logo placeholder -->
-                <a class="navbar-brand" href="index.html">
-                    <img src="assets/logo.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
-                    {{ site.pageTitle }}
-                </a>
+        <navbar-component>
+            <!-- Gallery Controls - Outside collapse -->
+            <div class="d-flex align-items-center order-lg-last ms-2">
+                <div class="d-flex gap-2 me-2">
+                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#filterPanel" aria-controls="filterPanel"
+                        @click="isFilterPanelOpen = !isFilterPanelOpen">
+                        <i class="fas fa-filter"></i> <span class="d-none d-xl-inline">Filter</span>
+                    </button>
 
-                <!-- Gallery Controls - Outside collapse -->
-                <div class="d-flex align-items-center order-lg-last ms-2">
-                    <div class="d-flex gap-2 me-2">
-                        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
-                            data-bs-target="#filterPanel" aria-controls="filterPanel"
-                            @click="isFilterPanelOpen = !isFilterPanelOpen">
-                            <i class="fas fa-filter"></i>
-                        </button>
-
-                        <button class="btn btn-primary" type="button" @click="loadCategories(true)">
-                            <i class="fas fa-sync"></i>
-                        </button>
-                    </div>
-
-
+                    <button class="btn btn-primary" type="button" @click="loadCategories(true)">
+                        <i class="fas fa-sync"></i> <span class="d-none d-xl-inline">Reload</span>
+                    </button>
                 </div>
-
-                <!-- Collapse navbar menu -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <!-- Navbar items -->
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav me-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                        <li v-for="section in site.featuredSections" :key="section.title" class="nav-item">
-                            <a class="nav-link" :class="section.link ? '': 'disabled'" :href="section.link">
-                                {{ section.title }}
-                            </a>
-                        </li>
-                    </ul>
-
-                    <!-- Theme toggle dropdown -->
-                    <div class="dropdown">
-                        <button class="btn dropdown-toggle btn-outline-light" type="button" id="themeToggleDropdown"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            <i :class="themeIcon"></i>
-                        </button>
-                        <ul class="dropdown-menu dropdown-menu-end" :class="{ 'dropdown-menu-dark': isDarkMode }">
-                            <li>
-                                <a class="dropdown-item" href="#" @click.prevent="setTheme('light')">
-                                    <i class="fas fa-sun"></i> Light
-                                </a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#" @click.prevent="setTheme('dark')">
-                                    <i class="fas fa-moon"></i> Dark
-                                </a>
-                            </li>
-                            <!-- <li>
-                        <a class="dropdown-item" href="#" @click.prevent="setTheme('auto')">
-                            <i class="fas fa-circle-half-stroke"></i> Auto
-                        </a>
-                    </li> -->
-                        </ul>
-                    </div>
-                </div>
-
-
             </div>
-        </nav>
+        </navbar-component>
+
 
         <!-- Page content -->
 
@@ -527,18 +472,8 @@
             </div>
         </div>
 
-        <!-- Footer with fixed bottom positioning -->
-        <footer class="bg-dark text-white text-center py-3 mt-auto">
-            <div class="container">
-                <p class="mb-0">
-                    © 2024 Perchance Character Database |
-                    <a href="https://github.com/nosfertm/perchance-character-database" class="text-white"
-                        target="_blank">
-                        View on GitHub
-                    </a>
-                </p>
-            </div>
-        </footer>
+        <!-- Footer component -->
+        <footer-component></footer-component>
 
     </div>
 

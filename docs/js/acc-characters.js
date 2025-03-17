@@ -2,10 +2,29 @@ import { ThemeManager } from './theme.js';
 import { GithubUtils, Misc, ToastUtils } from './utils.js';
 
 // ACC Characters Vue.js Application
-document.addEventListener('DOMContentLoaded', () => {
-    const { createApp, ref, computed } = Vue;
+document.addEventListener('DOMContentLoaded', async () => {
+    const { createApp } = Vue;
 
-    createApp({
+    // Function to load external templates
+    async function loadTemplate(url) {
+       const response = await fetch(url);
+       return await response.text();
+   }
+
+   // Load templates before starting VUE
+   const navbarTemplate = await loadTemplate('components/navbar.html');
+   const footerTemplate = await loadTemplate('components/footer.html');
+
+    const app = createApp({
+        // Data and functions to inject to the page
+        provide() {
+            return {
+                site: this.site,
+                themeIcon: this.themeIcon,
+                isDarkMode: this.isDarkMode,
+                setTheme: this.setTheme
+            };
+        },
         data() {
             return {
                 // Site configuration from global CONFIG
@@ -679,5 +698,23 @@ document.addEventListener('DOMContentLoaded', () => {
                 });
             }
         }
-    }).mount('#app');
+    });
+
+    /* --------------------------- Register components -------------------------- */
+
+    // Register the navbar component
+    app.component('navbar-component', {
+        template: navbarTemplate,
+        inject: ['site', 'themeIcon', 'isDarkMode', 'setTheme']
+    });
+
+    // Register the footer component
+    app.component('footer-component', {
+        template: footerTemplate
+    });
+
+    /* -------------------------------- Mount APP ------------------------------- */
+
+    // Mount app at #app
+    app.mount('#app');
 });

@@ -1,0 +1,29 @@
+<template>
+  <div>
+    <h1>Teste Disqus</h1>
+    <div id="disqus_thread"></div>
+  </div>
+</template>
+
+<script>
+export default {
+  mounted() {
+    // Configura o Disqus
+    const script = document.createElement('script');
+    script.src = `https://example.disqus.com/embed.js`; // Substitua "example" pelo seu identificador do Disqus
+    script.setAttribute('data-timestamp', +new Date());
+    document.body.appendChild(script);
+  },
+  beforeDestroy() {
+    // Limpa o script do Disqus quando o componente for destruído
+    const script = document.querySelector('script[src*="embed.js"]');
+    if (script) {
+      script.remove();
+    }
+  }
+};
+</script>
+
+<style scoped>
+/* Estilos do seu componente */
+</style>

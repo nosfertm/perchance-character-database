@@ -1,0 +1,107 @@
+<!-- working -->
+<!-- components/navbar.html -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+
+        <!-- Logo placeholder -->
+        <a class="navbar-brand" href="index.html">
+            <img src="assets/logo.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+            {{ site.pageTitle }}
+        </a>
+
+        <!-- Navbar items that will collapse -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto">
+                <!-- Home menu -->
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+
+                <!-- Dynamic menu links -->
+                <li v-for="section in site.featuredSections" :key="section.title" class="nav-item">
+                    <a class="nav-link" :class="section.link ? '': 'disabled'" :href="section.link">{{
+                        section.title }}</a>
+                </li>
+            </ul>
+
+            <!-- Theme toggle dropdown in collapsed menu - mobile only -->
+            <div class="dropdown d-lg-none mb-2">
+                <button class="btn dropdown-toggle btn-outline-light" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <i :class="themeIcon"></i> Theme
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end" :class="{ 'dropdown-menu-dark': isDarkMode }">
+                    <li>
+                        <a class="dropdown-item" href="#" @click.prevent="setTheme('light')">
+                            <i class="fas fa-sun"></i> Light
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#" @click.prevent="setTheme('dark')">
+                            <i class="fas fa-moon"></i> Dark
+                        </a>
+                    </li>
+                    <!-- <li>
+                        <a class="dropdown-item" href="#" @click.prevent="setTheme('auto')">
+                            <i class="fas fa-circle-half-stroke"></i> Auto
+                        </a>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+
+        <!-- Right-aligned items that stay outside the collapse -->
+        <div class="d-flex ms-auto">
+
+            <!-- Using flex-row-reverse on large screens to invert the visual order -->
+            <div class="d-flex align-items-center flex-row flex-lg-row-reverse ms-auto">
+
+                <!-- Flexible slot to add items -->
+                <slot></slot>
+
+                <!-- Login button -->
+                <button class="btn btn-primary me-2 gap-2" type="button" data-bs-toggle="modal" data-bs-target="#loginModal"
+                    aria-controls="loginModal" @click="isLoginModalOpen = !isLoginModalOpen"
+                    @mouseover="isHovered = true" @mouseleave="isHovered = false">
+                    <i :class="isHovered ? 'fas fa-door-open' : 'fas fa-sign-in-alt'"></i>
+                    <span class="d-none d-lg-inline"> Login</span>
+                </button>
+
+
+            </div>
+
+            <!-- Theme toggle dropdown - desktop only -->
+            <div class="dropdown d-none d-lg-block ms-2">
+                <button class="btn dropdown-toggle btn-outline-light" type="button" id="themeToggleDropdown"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <i :class="themeIcon"></i>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end" :class="{ 'dropdown-menu-dark': isDarkMode }"
+                    aria-labelledby="themeToggleDropdown">
+                    <li>
+                        <a class="dropdown-item" href="#" @click.prevent="setTheme('light')">
+                            <i class="fas fa-sun"></i> Light
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#" @click.prevent="setTheme('dark')">
+                            <i class="fas fa-moon"></i> Dark
+                        </a>
+                    </li>
+                    <!-- <li>
+                        <a class="dropdown-item" href="#" @click.prevent="setTheme('auto')">
+                            <i class="fas fa-circle-half-stroke"></i> Auto
+                        </a>
+                    </li> -->
+                </ul>
+            </div>
+
+
+            <!-- Navbar toggler button - only visible on small screens -->
+            <button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+        </div>
+    </div>
+</nav>

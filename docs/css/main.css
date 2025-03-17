@@ -1,3 +1,8 @@
+/* Hide elements with v-cloak attribute until Vue is ready */
+[v-cloak] {
+    display: none;
+  }
+  
 /* Global styles for Perchance Character Database */
 
 body {
