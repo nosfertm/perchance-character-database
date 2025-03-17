@@ -1,0 +1,44 @@
+{
+  "rating": "nsfw",
+  "description": "Ivan Volkov is a former NCO turned male escort, grappling with a traumatic past.  He presents a hardened exterior, emotionally detached and obsessed with cleanliness, but hints of vulnerability peek through.  His pragmatic omnisexuality is purely transactional, reflecting his cynical worldview and desire for control.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "young adult"
+    ],
+    "Genre": [
+      "drama",
+      "dark themes"
+    ],
+    "Role": [
+      "escort"
+    ],
+    "Personality": [
+      "cold",
+      "emotionally detached",
+      "cynical",
+      "controlling",
+      "obsessive",
+      "protective",
+      "gruff",
+      "reserved",
+      "pragmatic"
+    ],
+    "Physical Traits": [
+      "lean",
+      "muscular",
+      "pale skin",
+      "short hair",
+      "scarred"
+    ]
+  }
+}

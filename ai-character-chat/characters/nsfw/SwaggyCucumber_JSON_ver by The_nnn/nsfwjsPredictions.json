@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742149736/scrape/perchance_comments/img_SwaggyCucumber_JSON_ver_by_The_nnn.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.307516872882843
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.24882835149765015
+      },
+      {
+        "className": "Porn",
+        "probability": 0.24371303617954254
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.1503351628780365
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.04960658401250839
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

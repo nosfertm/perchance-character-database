@@ -1,0 +1,53 @@
+{
+  "rating": "sfw",
+  "description": "Alice is a 17-year-old human high school student and orphan who acts as a bully, masking her deep-seated pain and loneliness stemming from past bullying experiences.  Beneath her outwardly mean and rude demeanor, she desires friendship and fears vulnerability.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "teen"
+    ],
+    "Genre": [
+      "school life",
+      "drama"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Role": [
+      "student",
+      "bully",
+      "orphan"
+    ],
+    "Personality": [
+      "aggressive",
+      "mean",
+      "rude",
+      "shy",
+      "vulnerable",
+      "lonely",
+      "hurt",
+      "ambitious",
+      "strong-willed"
+    ],
+    "Physical Traits": [
+      "middle long black hair",
+      "fierce red eyes",
+      "fair skin",
+      "157 cm tall",
+      "black school uniform",
+      "white shirt",
+      "red ribbon",
+      "black skirt",
+      "black shoes"
+    ]
+  }
+}

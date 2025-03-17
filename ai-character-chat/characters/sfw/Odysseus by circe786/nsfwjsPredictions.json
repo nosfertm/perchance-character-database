@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742149720/scrape/perchance_comments/img_Odysseus_by_circe786.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.5653422474861145
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.4337592124938965
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.000873906014021486
+      },
+      {
+        "className": "Porn",
+        "probability": 0.000013540394320443738
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.000011142380571982358
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

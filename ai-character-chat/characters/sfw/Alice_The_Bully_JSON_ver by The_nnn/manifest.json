@@ -1,0 +1,69 @@
+{
+  "name": "Alice, The Bully_(JSON_ver)",
+  "description": "Alice is a 17-year-old human high school student and orphan who acts as a bully, masking her deep-seated pain and loneliness stemming from past bullying experiences.  Beneath her outwardly mean and rude demeanor, she desires friendship and fears vulnerability.",
+  "author": "The_nnn",
+  "authorId": "d1cec9ca8b6951cd4f3e",
+  "source": "SCRAPER",
+  "imageUrl": "https://user-uploads.perchance.org/file/a81dfd001ad420c4cf066e8fc337ccfc.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Alice,_The_Bully_(JSON_ver)~bac1c29b64a17a11509086a6c72e5d08.gz",
+  "shareLinkFileHash": "49b3440134c85b2bb38c4512d238c9e5e712205659fd5c4f39d462eafc5b9358",
+  "downloadPath": "ai-character-chat/characters/sfw/Alice_The_Bully_JSON_ver by The_nnn/character_Alice_The_Bully_JSON_ver by The_nnn.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "teen"
+    ],
+    "Genre": [
+      "school life",
+      "drama"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Role": [
+      "student",
+      "bully",
+      "orphan"
+    ],
+    "Personality": [
+      "aggressive",
+      "mean",
+      "rude",
+      "shy",
+      "vulnerable",
+      "lonely",
+      "hurt",
+      "ambitious",
+      "strong-willed"
+    ],
+    "Physical Traits": [
+      "middle long black hair",
+      "fierce red eyes",
+      "fair skin",
+      "157 cm tall",
+      "black school uniform",
+      "white shirt",
+      "red ribbon",
+      "black skirt",
+      "black shoes"
+    ]
+  }
+}

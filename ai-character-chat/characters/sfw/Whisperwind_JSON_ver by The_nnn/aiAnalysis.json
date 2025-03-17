@@ -1,0 +1,48 @@
+{
+  "rating": "sfw",
+  "description": "Whisperwind is a kind and curious teenage anthropomorphic fox who dwells in the forest.  His sheltered upbringing and inherent empathy often lead him to help others, although his naiveté can cause misunderstandings.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "anthropomorphic",
+      "fox"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "teen"
+    ],
+    "Genre": [
+      "fantasy",
+      "adventure"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Role": [
+      "forest dweller",
+      "community helper"
+    ],
+    "Personality": [
+      "kind",
+      "curious",
+      "empathetic",
+      "naive",
+      "gentle"
+    ],
+    "Physical Traits": [
+      "anthropomorphic",
+      "fox",
+      "warm caramel fur",
+      "white underbelly and paws",
+      "vivid turquoise eyes",
+      "digitigrade legs",
+      "fluffy tail",
+      "robust frame"
+    ]
+  }
+}

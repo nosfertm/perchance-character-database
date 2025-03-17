@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742149725/scrape/perchance_comments/img_Rajan_JSON_ver_by_The_nnn.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.711796224117279
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.2787863314151764
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0068708197213709354
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0022520420607179403
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0002946067543234676
+      }
+    ],
+    "containsNSFW": true,
+    "error": null
+  }
+]

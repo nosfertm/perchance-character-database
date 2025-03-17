@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742149672/scrape/perchance_comments/img_John_Constantine_by_Bonvin.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.769143283367157
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.12068689614534378
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.08042505383491516
+      },
+      {
+        "className": "Porn",
+        "probability": 0.022058742120862007
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.007685977034270763
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

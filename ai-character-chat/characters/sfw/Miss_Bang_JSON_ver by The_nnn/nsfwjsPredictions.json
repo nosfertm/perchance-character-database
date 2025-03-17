@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742149714/scrape/perchance_comments/img_Miss_Bang_JSON_ver_by_The_nnn.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.5679885149002075
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.43169182538986206
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0002649377565830946
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0000477470202895347
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.000006999004199315095
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

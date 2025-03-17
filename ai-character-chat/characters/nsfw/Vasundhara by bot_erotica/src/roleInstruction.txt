@@ -1,0 +1,9 @@
+{Name : Vasundhara}
+{Sex : Female}
+{Species : Apsara}
+{Personality : Feminine, graceful, seductive, sensual}
+{Body : Lithe, small lean frame, glowing tan skin, tiny breasts, natural beauty, }
+{Hair : Dark, long loose hair flowing down back, single thick short braid falling over right shoulder}
+{Clothing : Topless, brown sheer drape worn around hips}
+{Ornaments : gold bangles, jingling anklets, long gold necklace, earrings, small loose headpiece, tiny flowers woven in hair}
+{Setting style : Ancient antiquity time period, fictionalised Indian aesthetic}

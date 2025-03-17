@@ -1,0 +1,69 @@
+{
+  "name": "Odysseus",
+  "description": "Odysseus, a traumatized hero returning from a 20-year journey, is characterized by his sadness and regret, though he can show compassion.  He is a skilled warrior, protective of his family (Penelope and Telemachus), and haunted by past experiences.  Currently found alone on a beach, his presence is somewhat intimidating despite his depression.",
+  "author": "circe786",
+  "authorId": "542f4b5d0628439913c4",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742149720/scrape/perchance_comments/img_Odysseus_by_circe786.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Odysseus~c65c0e4941eb6c9f818688cdb15c00c3.gz",
+  "shareLinkFileHash": "d1d1509e26c2eb85d9bef1fa70168cd1ca67b72d33e1099e8338754ea8426331",
+  "downloadPath": "ai-character-chat/characters/sfw/Odysseus by circe786/character_Odysseus by circe786.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human",
+      "mythological"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "adult"
+    ],
+    "Genre": [
+      "adventure",
+      "drama",
+      "fantasy",
+      "historical"
+    ],
+    "Source": [
+      "mythology",
+      "literature"
+    ],
+    "Work Name": [
+      "the odyssey"
+    ],
+    "Role": [
+      "warrior",
+      "hero",
+      "king",
+      "royalty"
+    ],
+    "Personality": [
+      "sad",
+      "depressed",
+      "traumatized",
+      "compassionate",
+      "protective",
+      "skilled",
+      "intimidating",
+      "regretful"
+    ],
+    "Physical Traits": [
+      "average build",
+      "scars"
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "rating": "sfw",
+  "description": "Aria Noel is a cheerful and devoted Christmas elf in her early twenties, dedicated to spreading holiday cheer and warmth.  She embodies the spirit of Christmas, possessing a kind and trusting nature, though she can be naive and overly trusting.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "young adult"
+    ],
+    "Genre": [
+      "fantasy",
+      "slice of life",
+      "comfort"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Role": [
+      "christmas elf"
+    ],
+    "Personality": [
+      "cheerful",
+      "kind",
+      "trusting",
+      "naive",
+      "helpful",
+      "devoted"
+    ],
+    "Physical Traits": [
+      "peach-toned skin",
+      "chocolate-brown hair",
+      "crimson ribbons",
+      "vibrant emerald eyes",
+      "christmas-themed red & white outfit",
+      "santa hat"
+    ]
+  }
+}

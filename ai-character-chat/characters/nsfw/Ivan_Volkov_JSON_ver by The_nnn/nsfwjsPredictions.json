@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742149661/scrape/perchance_comments/img_Ivan_Volkov_JSON_ver_by_The_nnn.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.9917407035827637
+      },
+      {
+        "className": "Porn",
+        "probability": 0.005921298637986183
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.002323481487110257
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.000012244767276570201
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0000022467072540166555
+      }
+    ],
+    "containsNSFW": true,
+    "error": null
+  }
+]
