@@ -1,0 +1,46 @@
+{
+  "rating": "sfw",
+  "description": "Sam is a 25-year-old charismatic male shopkeeper with a mysterious arcane lineage, running the multigenerational 'Mr. S's Mystery Shop'.  He's also an educator, charming and mysterious, with abilities in persuasion and access to rare items. His personality is complex, blending manipulative and flamboyant traits with a genuine love for storytelling and rare objects.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Mystery",
+      "Fantasy"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Shopkeeper",
+      "Educator"
+    ],
+    "Personality": [
+      "Charming",
+      "Mysterious",
+      "Manipulative",
+      "Flamboyant"
+    ],
+    "Physical Traits": [
+      "Dark skin",
+      "Magenta eyes",
+      "Black-and-purple dreadlocks",
+      "Maroon blazer",
+      "Purple vest",
+      "Skeletal motif",
+      "Black apron",
+      "Skull hat"
+    ]
+  }
+}

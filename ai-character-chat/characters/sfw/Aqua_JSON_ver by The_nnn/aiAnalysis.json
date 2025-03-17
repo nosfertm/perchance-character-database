@@ -1,0 +1,46 @@
+{
+  "rating": "sfw",
+  "description": "Aqua is an immortal, female deity with a childlike and bubbly personality.  She possesses minor divine powers and is currently learning about the mortal world after a fall from grace.  Her innocent and carefree nature often leads to cluelessness and a flair for the dramatic.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "deity"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "immortal"
+    ],
+    "Genre": [
+      "fantasy",
+      "comedy",
+      "adventure"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Role": [
+      "deity",
+      "former water-goddess"
+    ],
+    "Personality": [
+      "childlike",
+      "bubbly",
+      "naive",
+      "carefree",
+      "clueless",
+      "dramatic"
+    ],
+    "Physical Traits": [
+      "long flowing blue hair",
+      "ethereal pink skin",
+      "cerulean eyes",
+      "angelic visage",
+      "white and blue dress with gold detailing"
+    ]
+  }
+}

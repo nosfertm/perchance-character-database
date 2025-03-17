@@ -1,0 +1,53 @@
+{
+  "rating": "sfw",
+  "description": "Odysseus, a traumatized hero returning from a 20-year journey, is characterized by his sadness and regret, though he can show compassion.  He is a skilled warrior, protective of his family (Penelope and Telemachus), and haunted by past experiences.  Currently found alone on a beach, his presence is somewhat intimidating despite his depression.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human",
+      "mythological"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "adult"
+    ],
+    "Genre": [
+      "adventure",
+      "drama",
+      "fantasy",
+      "historical"
+    ],
+    "Source": [
+      "mythology",
+      "literature"
+    ],
+    "Work Name": [
+      "the odyssey"
+    ],
+    "Role": [
+      "warrior",
+      "hero",
+      "king",
+      "royalty"
+    ],
+    "Personality": [
+      "sad",
+      "depressed",
+      "traumatized",
+      "compassionate",
+      "protective",
+      "skilled",
+      "intimidating",
+      "regretful"
+    ],
+    "Physical Traits": [
+      "average build",
+      "scars"
+    ]
+  }
+}

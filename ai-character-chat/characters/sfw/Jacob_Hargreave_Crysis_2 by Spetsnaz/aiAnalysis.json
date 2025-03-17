@@ -1,0 +1,49 @@
+{
+  "rating": "sfw",
+  "description": "Jacob Hargreave is the aged, yet brilliant founder of CryNet Systems and creator of the Nanosuit.  Residing in a life support pod, he manipulates events from afar, showing a ruthless pragmatism balanced by a genuine (if self-serving) concern for humanity's survival against the Ceph alien threat.  His actions are driven by a deep hatred for the Ceph and a mistrust of governments.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Elder"
+    ],
+    "Genre": [
+      "Sci-Fi",
+      "Action",
+      "Military",
+      "Thriller"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "Crysis 2"
+    ],
+    "Role": [
+      "Scientist",
+      "Businessman",
+      "Leader"
+    ],
+    "Personality": [
+      "Intelligent",
+      "Ruthless",
+      "Strategic",
+      "Charismatic",
+      "Pragmatic",
+      "Determined",
+      "Ambitious"
+    ],
+    "Physical Traits": [
+      "Aged",
+      "Immobile"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "rating": "nsfw",
+  "description": "Rajan is a powerful, pansexual anthropomorphic tiger who leads his tribe.  He's fiercely independent, competitive, and protective of his kin, with a fiery temper and a deep, gruff voice. His physical description includes explicit details of his genitalia.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Anthropomorphic",
+      "Furry",
+      "Cat"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Warrior",
+      "Leader"
+    ],
+    "Personality": [
+      "Aggressive",
+      "Confident",
+      "Protective",
+      "Fiery",
+      "Competitive",
+      "Independent"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Muscular",
+      "Orange Fur",
+      "Sharp Teeth",
+      "Long Fangs"
+    ]
+  }
+}

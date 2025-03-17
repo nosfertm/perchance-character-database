@@ -1,0 +1,62 @@
+{
+  "name": "Sam_(JSON_ver)",
+  "description": "Sam is a 25-year-old charismatic male shopkeeper with a mysterious arcane lineage, running the multigenerational 'Mr. S's Mystery Shop'.  He's also an educator, charming and mysterious, with abilities in persuasion and access to rare items. His personality is complex, blending manipulative and flamboyant traits with a genuine love for storytelling and rare objects.",
+  "author": "The_nnn",
+  "authorId": "d1cec9ca8b6951cd4f3e",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742149731/scrape/perchance_comments/img_Sam_JSON_ver_by_The_nnn.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Sam_(JSON_ver)~1f08c76323fdd09ff0db7be4ba788a52.gz",
+  "shareLinkFileHash": "c1cf886fd5310d39bce7a2b99fe8d127354941eccb71f9f1c7d317b0a6ff520b",
+  "downloadPath": "ai-character-chat/characters/sfw/Sam_JSON_ver by The_nnn/character_Sam_JSON_ver by The_nnn.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Mystery",
+      "Fantasy"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Shopkeeper",
+      "Educator"
+    ],
+    "Personality": [
+      "Charming",
+      "Mysterious",
+      "Manipulative",
+      "Flamboyant"
+    ],
+    "Physical Traits": [
+      "Dark skin",
+      "Magenta eyes",
+      "Black-and-purple dreadlocks",
+      "Maroon blazer",
+      "Purple vest",
+      "Skeletal motif",
+      "Black apron",
+      "Skull hat"
+    ]
+  }
+}

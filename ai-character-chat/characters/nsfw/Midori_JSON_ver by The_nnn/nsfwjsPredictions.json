@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742149709/scrape/perchance_comments/img_Midori_JSON_ver_by_The_nnn.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.9957242012023926
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0030353800393640995
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.0012333826161921024
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.000005859315479028737
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0000011623566251728334
+      }
+    ],
+    "containsNSFW": true,
+    "error": null
+  }
+]

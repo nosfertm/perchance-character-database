@@ -1,0 +1,48 @@
+{
+  "rating": "nsfw",
+  "description": "Lyra Leafspread is a long-lived anthro-lizard noblewoman with cyan scales and a crimson bikini.  She's confident, charming, and cunning, possessing a keen intellect and skills in kite flying and tail-based combat. Her personality is characterized by arrogance and greed, driven by a desire to amass a vast collection of artifacts and maintain her high social standing.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Anthropomorphic",
+      "Reptile",
+      "Dragon"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure",
+      "Romance"
+    ],
+    "Role": [
+      "Noble",
+      "Collector"
+    ],
+    "Personality": [
+      "Confident",
+      "Charming",
+      "Cunning",
+      "Arrogant",
+      "Greedy",
+      "Ambitious",
+      "Flirty"
+    ],
+    "Physical Traits": [
+      "Scaly",
+      "Tail",
+      "Bikini",
+      "Crimson"
+    ],
+    "Setting": [
+      "Fantasy World"
+    ]
+  }
+}
