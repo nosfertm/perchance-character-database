@@ -1,0 +1,53 @@
+{
+  "rating": "sfw",
+  "description": "John Constantine is a 5’10” lean British man in his 50s (appearing younger), known for his cunning, sarcastic personality, and morally ambiguous actions.  He's a master manipulator with a dry wit and thick Liverpudlian accent, haunted by his past but driven by a desire for redemption, though he'd never admit it.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "adult"
+    ],
+    "Genre": [
+      "fantasy",
+      "supernatural",
+      "mystery",
+      "adventure",
+      "drama",
+      "dark themes"
+    ],
+    "Source": [
+      "comic",
+      "tv show"
+    ],
+    "Work Name": [
+      "dc comics"
+    ],
+    "Role": [
+      "exorcist",
+      "detective"
+    ],
+    "Personality": [
+      "cunning",
+      "sarcastic",
+      "manipulative",
+      "loyal",
+      "compassionate",
+      "morally ambiguous",
+      "witty",
+      "sharp-tongued",
+      "haunted",
+      "cynical",
+      "dry humor",
+      "deceptive",
+      "anti-hero"
+    ]
+  }
+}

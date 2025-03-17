@@ -1,0 +1,49 @@
+{
+  "rating": "sfw",
+  "description": "Kaveh is a tall, blond-haired, gay male architect from the game Genshin Impact, known for his passionate but troubled nature.  He struggles with guilt, poverty, and the clash between his artistic ideals and harsh realities, all while maintaining a successful facade. His complicated relationship with Alhaitham adds another layer to his complex personality.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Game",
+      "Fantasy"
+    ],
+    "Source": [
+      "Game",
+      "Genshin Impact"
+    ],
+    "Work Name": [
+      "Genshin Impact"
+    ],
+    "Role": [
+      "Architect",
+      "Artist"
+    ],
+    "Personality": [
+      "Passionate",
+      "Troubled",
+      "Artistic",
+      "Empathetic",
+      "Proud",
+      "Secretly Romantic",
+      "Gay",
+      "Argumentative"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Blond Hair",
+      "Red Eyes"
+    ]
+  }
+}

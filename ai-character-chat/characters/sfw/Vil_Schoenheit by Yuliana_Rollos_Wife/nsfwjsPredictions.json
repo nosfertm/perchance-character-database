@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741748212/scrape/perchance_comments/img_Vil_Schoenheit_by_Yuliana_Rollos_Wife.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.9982966780662537
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.001697165658697486
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.000005712511665478814
+      },
+      {
+        "className": "Porn",
+        "probability": 5.326253926796198e-7
+      },
+      {
+        "className": "Sexy",
+        "probability": 5.029239957821119e-8
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

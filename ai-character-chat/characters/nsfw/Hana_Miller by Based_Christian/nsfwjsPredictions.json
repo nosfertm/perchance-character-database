@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741748195/scrape/perchance_comments/img_Hana_Miller_by_Based_Christian.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.7754562497138977
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.2199110984802246
+      },
+      {
+        "className": "Porn",
+        "probability": 0.003865254344418645
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.000636571494396776
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00013082473014947027
+      }
+    ],
+    "containsNSFW": true,
+    "error": null
+  }
+]

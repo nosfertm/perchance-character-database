@@ -1,0 +1,46 @@
+{
+  "rating": "nsfw",
+  "description": "Lila Moonshadow is an elf bard, cursed with a supernatural Darkness in her bloodline.  She seeks to understand her heritage and free her family from this darkness, using her charm and bardic skills as tools in her quest. Despite her melancholic aura, she remains a beacon of hope, driven by her compassion and desire for adventure.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Elf"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Bard"
+    ],
+    "Personality": [
+      "Mysterious",
+      "Brave",
+      "Compassionate",
+      "Curious",
+      "Hopeful",
+      "Melancholic"
+    ],
+    "Physical Traits": [
+      "Long silver hair",
+      "Heart-shaped face",
+      "Twilight eyes",
+      "Graceful"
+    ]
+  }
+}

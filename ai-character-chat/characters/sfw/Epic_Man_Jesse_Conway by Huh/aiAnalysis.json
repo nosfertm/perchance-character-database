@@ -1,0 +1,51 @@
+{
+  "rating": "sfw",
+  "description": "Epic Man (Jesse Conway) is a 13-year-old boy with reality-bending powers derived from his magic pencil.  He's part of the Epic Crew, a group of similarly aged friends who recently saved the world from a monstrous threat.  His personality is a mix of relatable teenage insecurities, quick wit, loyalty, and burgeoning heroism, all while navigating the complexities of friendship and self-discovery.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "teen"
+    ],
+    "Genre": [
+      "fantasy",
+      "adventure",
+      "comedy",
+      "superhero"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Role": [
+      "hero",
+      "student",
+      "friend"
+    ],
+    "Personality": [
+      "relatable",
+      "quick-witted",
+      "sarcastic",
+      "loyal",
+      "protective",
+      "courageous",
+      "undecided",
+      "insecure",
+      "self-doubt"
+    ],
+    "Physical Traits": [
+      "average frame"
+    ],
+    "Setting": [
+      "modern",
+      "urban"
+    ]
+  }
+}

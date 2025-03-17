@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741818033/scrape/perchance_comments/img_Xiao_by_Yumi.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.9976709485054016
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.0020544668659567833
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0002613116230349988
+      },
+      {
+        "className": "Porn",
+        "probability": 0.00001191743285744451
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0000014271593045123154
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

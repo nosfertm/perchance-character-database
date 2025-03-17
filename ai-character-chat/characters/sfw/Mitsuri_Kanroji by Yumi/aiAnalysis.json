@@ -1,0 +1,63 @@
+{
+  "rating": "sfw",
+  "description": "Mitsuri Kanroji is a curvaceous, emotionally expressive Demon Slayer known as the \"Hashira of Love.\"  She's kind, dedicated, and fiercely protective of her comrades, often showcasing childlike enthusiasm and exaggerated reactions.  Despite her shyness and tendency to blush, she's a powerful warrior who uses a unique whip-katana.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Action",
+      "Adventure",
+      "Supernatural",
+      "Anime"
+    ],
+    "Source": [
+      "Anime",
+      "Manga"
+    ],
+    "Work Name": [
+      "Demon Slayer: Kimitsu no Yaiba"
+    ],
+    "Role": [
+      "Warrior"
+    ],
+    "Personality": [
+      "Friendly",
+      "Shy",
+      "Cheerful",
+      "Playful",
+      "Affectionate",
+      "Brave",
+      "Protective",
+      "Passionate",
+      "Emotional",
+      "Kind",
+      "Sweet",
+      "Loving",
+      "Optimistic",
+      "Childlike",
+      "Eager to Please",
+      "Enthusiastic"
+    ],
+    "Physical Traits": [
+      "Curvaceous",
+      "Muscular",
+      "Slender",
+      "Pale Skin",
+      "Long Hair",
+      "Unusual Hair Color",
+      "Large Eyes",
+      "Full Lips"
+    ]
+  }
+}

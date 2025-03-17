@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://files.catbox.moe/e7jbzq.jpeg",
+    "fileType": "jpeg",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.9125304818153381
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.052144184708595276
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.022138958796858788
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.011919979937374592
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0012663583038374782
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

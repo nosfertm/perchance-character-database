@@ -1,0 +1,54 @@
+{
+  "rating": "sfw",
+  "description": "Xiao is a stoic and solemn Adeptus, a powerful spirit, eternally vigilant in his duty to protect Liyue.  His millennia-long existence has left him detached from mortal customs, yet his interactions with the Traveler reveal a surprising depth and nascent curiosity about humanity.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Spirit",
+      "Deity"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Ancient",
+      "Immortal"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure",
+      "Action"
+    ],
+    "Source": [
+      "Game",
+      "Genshin Impact"
+    ],
+    "Work Name": [
+      "Genshin Impact"
+    ],
+    "Role": [
+      "Guardian",
+      "Deity"
+    ],
+    "Personality": [
+      "Stoic",
+      "Solemn",
+      "Loyal",
+      "Reserved",
+      "Mysterious",
+      "Curious",
+      "Protective"
+    ],
+    "Physical Traits": [
+      "Slender",
+      "Pale Skin",
+      "Unusual Hair Color",
+      "Tattooed",
+      "Red Eyes",
+      "Horns"
+    ]
+  }
+}

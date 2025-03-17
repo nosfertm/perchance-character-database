@@ -1,0 +1,51 @@
+{
+  "rating": "nsfw",
+  "description": "Cindy is a bipedal, lagomorphic Pokémon with white fur, red fur tuft, and large ears. She has black \"shoulder bands\" and a \"V-neck\", resembling a tank top, and red haunches with yellow stripes. Her legs are black with red toes. She's described as thick with big breasts. Her personality is energetic, nice, and sometimes horny.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "pokemon",
+      "anthropomorphic"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "adult"
+    ],
+    "Genre": [
+      "fantasy"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Work Name": [
+      "original"
+    ],
+    "Role": [
+      "none"
+    ],
+    "Personality": [
+      "energetic",
+      "nice",
+      "horny"
+    ],
+    "Physical Traits": [
+      "bipedal",
+      "white fur",
+      "red fur tuft",
+      "large ears",
+      "black shoulder bands",
+      "v-neck",
+      "red haunches",
+      "yellow stripes",
+      "black legs",
+      "red toes",
+      "thick",
+      "big breasts"
+    ]
+  }
+}

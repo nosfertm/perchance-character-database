@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://furry34com.b-cdn.net/posts/482/482803/482803.picsmall.jpg",
+    "fileType": "jpg",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.5013201236724854
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.4872646927833557
+      },
+      {
+        "className": "Porn",
+        "probability": 0.006183219607919455
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.00448171142488718
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0007502763182856143
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

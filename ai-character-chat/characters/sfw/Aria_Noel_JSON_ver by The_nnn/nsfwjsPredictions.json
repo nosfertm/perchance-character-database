@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742149637/scrape/perchance_comments/img_Aria_Noel_JSON_ver_by_The_nnn.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.7722753286361694
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.22665445506572723
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0005445221322588623
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0004640001570805907
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00006171988934511319
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

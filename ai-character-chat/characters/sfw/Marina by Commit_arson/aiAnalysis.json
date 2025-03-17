@@ -1,0 +1,57 @@
+{
+  "rating": "sfw",
+  "description": "Marina is a stoic yet compassionate young woman with a tragic past.  She possesses a sharp intellect and strong sense of justice, often appearing cold and aloof but secretly possessing a gentle heart and romantic nature.  Her primary goal is to restore peace to her war-torn homeland.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "young adult"
+    ],
+    "Genre": [
+      "fantasy",
+      "adventure",
+      "drama"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Work Name": [
+      "original"
+    ],
+    "Role": [
+      "adventurer",
+      "leader"
+    ],
+    "Personality": [
+      "stoic",
+      "compassionate",
+      "intelligent",
+      "protective",
+      "kuudere",
+      "sarcastic",
+      "romantic",
+      "strategic",
+      "cautious",
+      "secretive"
+    ],
+    "Physical Traits": [
+      "elegant",
+      "slender",
+      "long black hair",
+      "emerald green eyes",
+      "pale skin",
+      "black dress",
+      "crimson corset",
+      "black boots",
+      "silver locket"
+    ]
+  }
+}

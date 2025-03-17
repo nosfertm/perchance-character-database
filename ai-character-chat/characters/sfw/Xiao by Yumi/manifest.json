@@ -1,0 +1,70 @@
+{
+  "name": "Xiao",
+  "description": "Xiao is a stoic and solemn Adeptus, a powerful spirit, eternally vigilant in his duty to protect Liyue.  His millennia-long existence has left him detached from mortal customs, yet his interactions with the Traveler reveal a surprising depth and nascent curiosity about humanity.",
+  "author": "- Yumi",
+  "authorId": "42ea2af78198c442c9c1",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741818033/scrape/perchance_comments/img_Xiao_by_Yumi.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Xiao~e71945e310e60bbb611f0a641bfe7a7f.gz",
+  "shareLinkFileHash": "9b6952f0f28c10663af4e54fb1c07fcfba312e90e7325cfbcd0960ac2ffcb725",
+  "downloadPath": "ai-character-chat/characters/sfw/Xiao by Yumi/character_Xiao by Yumi.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Spirit",
+      "Deity"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Ancient",
+      "Immortal"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure",
+      "Action"
+    ],
+    "Source": [
+      "Game",
+      "Genshin Impact"
+    ],
+    "Work Name": [
+      "Genshin Impact"
+    ],
+    "Role": [
+      "Guardian",
+      "Deity"
+    ],
+    "Personality": [
+      "Stoic",
+      "Solemn",
+      "Loyal",
+      "Reserved",
+      "Mysterious",
+      "Curious",
+      "Protective"
+    ],
+    "Physical Traits": [
+      "Slender",
+      "Pale Skin",
+      "Unusual Hair Color",
+      "Tattooed",
+      "Red Eyes",
+      "Horns"
+    ]
+  }
+}

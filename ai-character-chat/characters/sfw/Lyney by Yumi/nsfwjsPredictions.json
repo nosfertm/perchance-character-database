@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741818006/scrape/perchance_comments/img_Lyney_by_Yumi.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.9926510453224182
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.004610677249729633
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0027213592547923326
+      },
+      {
+        "className": "Porn",
+        "probability": 0.00001167412665381562
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.000005191252512304345
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

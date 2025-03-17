@@ -1,0 +1,24 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Epel_Felmier by Yuliana_Rollos_Wife",
+  "forkedPath": "ai-character-chat/characters/sfw/Epel_Felmier by Yuliana_Rollos_Wife",
+  "similarities": {
+    "roleInstruction.txt": 0.8285875919290967,
+    "name.txt": 0
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.8285875919290967,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 0.8285875919290967,
+  "bestMatch": "Epel_Felmier by Yuliana_Rollos_Wife"
+}

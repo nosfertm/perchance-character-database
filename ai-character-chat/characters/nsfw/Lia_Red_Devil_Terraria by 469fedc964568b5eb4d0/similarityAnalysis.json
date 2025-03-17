@@ -1,0 +1,29 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Red_Devil_Terraria by dd1f3ac285896800f3ce",
+  "forkedPath": "ai-character-chat/characters/nsfw/Red_Devil_Terraria by dd1f3ac285896800f3ce",
+  "similarities": {
+    "roleInstruction.txt": 0.8429328944962516,
+    "name.txt": 0.7894736842105263
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.8429328944962516,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    },
+    {
+      "file": "systemCharacter.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 0.8429328944962516,
+  "bestMatch": "Red_Devil_Terraria by dd1f3ac285896800f3ce"
+}

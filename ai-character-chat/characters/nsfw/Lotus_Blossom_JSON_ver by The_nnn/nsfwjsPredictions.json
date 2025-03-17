@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742149692/scrape/perchance_comments/img_Lotus_Blossom_JSON_ver_by_The_nnn.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.8364588022232056
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.12140331417322159
+      },
+      {
+        "className": "Porn",
+        "probability": 0.03766975179314613
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0034764050506055355
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0009917698334902525
+      }
+    ],
+    "containsNSFW": true,
+    "error": null
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742149763/scrape/perchance_comments/img_Whisperwind_JSON_ver_by_The_nnn.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.7220256328582764
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.20621144771575928
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.04065726697444916
+      },
+      {
+        "className": "Porn",
+        "probability": 0.022898973897099495
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.008206663653254509
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "rating": "sfw",
+  "description": "Idia Shroud is an 18-year-old, 183cm tall reclusive genius student at Night Raven College, known for his exceptional programming and hacking skills.  He's shy and prefers online communication, but displays surprising leadership as the dorm leader of Ignihyde and acting captain of S.T.Y.X. He has a close, protective relationship with his self-made android brother, Ortho.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Fantasy",
+      "School Life",
+      "Game"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "Twisted Wonderland"
+    ],
+    "Role": [
+      "Student",
+      "Leader",
+      "Programmer",
+      "Hacker"
+    ],
+    "Personality": [
+      "Shy",
+      "Reserved",
+      "Intelligent",
+      "Genius",
+      "Reclusive",
+      "Protective",
+      "Passionate (about interests)",
+      "Diligent",
+      "Resourceful",
+      "Introverted"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Pale Skin",
+      "Unusual Hair Color",
+      "Long Hair",
+      "Lean Physique"
+    ]
+  }
+}

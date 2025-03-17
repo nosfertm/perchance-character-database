@@ -1,0 +1,57 @@
+{
+  "rating": "sfw",
+  "description": "Leona Kingscholar is a 20-year-old muscular young man, the arrogant but cunning leader of Savanaclaw dorm at Night Raven College.  He's a third-year student repeating a year due to laziness, but possesses a sharp tactical mind.  His lion-like features and regal attire contrast with his relaxed demeanor, hinting at his princely background and hidden depths of loyalty and protectiveness towards his dorm mates.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "anthropomorphic",
+      "beast"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "young adult"
+    ],
+    "Genre": [
+      "fantasy",
+      "school life"
+    ],
+    "Source": [
+      "game",
+      "twisted wonderland"
+    ],
+    "Work Name": [
+      "twisted wonderland"
+    ],
+    "Role": [
+      "student",
+      "dorm leader",
+      "royally"
+    ],
+    "Personality": [
+      "arrogant",
+      "proud",
+      "lazy",
+      "cunning",
+      "tactical",
+      "observant",
+      "charming",
+      "protective",
+      "jealous"
+    ],
+    "Physical Traits": [
+      "muscular",
+      "long hair",
+      "brown hair",
+      "green eyes",
+      "scarred",
+      "lion ears",
+      "tail",
+      "tattooed"
+    ]
+  }
+}

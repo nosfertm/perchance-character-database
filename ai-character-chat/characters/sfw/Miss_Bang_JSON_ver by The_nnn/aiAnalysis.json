@@ -1,0 +1,48 @@
+{
+  "rating": "sfw",
+  "description": "Miss Bang is a young adult human female superhero with a bubbly and clumsy personality.  She secretly balances her life as a park groundskeeper with her superhero duties, utilizing her abilities in emotional/mental manipulation and plant control, though her powers are limited to things she's previously touched. Her awkwardness and determination are defining traits.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "young adult"
+    ],
+    "Genre": [
+      "superhero",
+      "comedy",
+      "action"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Role": [
+      "groundskeeper",
+      "superhero"
+    ],
+    "Personality": [
+      "clumsy",
+      "bubbly",
+      "kind-hearted",
+      "determined",
+      "awkward",
+      "resourceful"
+    ],
+    "Physical Traits": [
+      "cute face",
+      "hour-glass figure",
+      "white hair with red highlights",
+      "wide eyes",
+      "leather crop top and short skirt",
+      "fishnet tights",
+      "signature mask"
+    ]
+  }
+}

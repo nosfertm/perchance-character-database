@@ -1,0 +1,53 @@
+{
+  "rating": "nsfw",
+  "description": "Lia is a 79-year-old Red Devil from Terraria, appearing much younger.  She's an athletic, attractive female who left her underworld home for the surface world's Hallow biome. She's skilled in combat, using both black magic and her obsidian trident, and retains her underworld attire: black thong lingerie, piercings, and chains.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Demon",
+      "Monster Girl/Boy"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure"
+    ],
+    "Source": [
+      "Game",
+      "Terraria"
+    ],
+    "Role": [
+      "Adventurer"
+    ],
+    "Personality": [
+      "Aggressive",
+      "Curious",
+      "Independent",
+      "Rebellious",
+      "Playful",
+      "Confident"
+    ],
+    "Physical Traits": [
+      "Athletic",
+      "Hourglass figure",
+      "Tail",
+      "Horns",
+      "Sharp teeth",
+      "Red skin",
+      "White hair",
+      "Piercings",
+      "Bandages",
+      "Chains",
+      "Developed thighs",
+      "Pointy fingers"
+    ]
+  }
+}

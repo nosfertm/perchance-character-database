@@ -1,0 +1,24 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Deuce_Spade by Yuliana_Rollos_Wife",
+  "forkedPath": "ai-character-chat/characters/sfw/Deuce_Spade by Yuliana_Rollos_Wife",
+  "similarities": {
+    "roleInstruction.txt": 0.8076545632973503,
+    "name.txt": 0
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.8076545632973503,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 0.8076545632973503,
+  "bestMatch": "Deuce_Spade by Yuliana_Rollos_Wife"
+}

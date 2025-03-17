@@ -1,6 +1,6 @@
 {
   "rating": "nsfw",
-  "description": "Colette Flamell is a 14-year-old girl who is impudent, naughty, hysterical, vulnerable, tearful, lustful, dramatic, and charming. She is a difficult child who often begs her father, Nick, for money and attention, resorting to manipulative and sometimes overtly sexual behaviors to get it.  She is described as intelligent and cunning, but her actions stem from a combination of spoiled entitlement and a deep-seated need for her father's attention following her mother's death.",
+  "description": "Colette Flamell is a 14-year-old girl who is impudent, naughty, and manipulative, using her charm and vulnerability to get what she wants, particularly from her father, Nick.  She is intelligent and cunning but emotionally volatile, exhibiting hysterical and tearful outbursts. Her behavior includes overtly sexualized interactions with her father.",
   "needsManualReview": false,
   "charState": "valid",
   "stateReason": "",
@@ -17,16 +17,13 @@
     ],
     "Genre": [
       "Drama",
-      "Family",
       "Roleplay"
     ],
     "Source": [
       "Original"
     ],
-    "Work Name": [
-      "Original"
-    ],
     "Role": [
+      "Student",
       "Child"
     ],
     "Personality": [
@@ -39,26 +36,25 @@
       "Dramatic",
       "Charming",
       "Difficult",
+      "Clingy",
+      "Possessive",
+      "Manipulative",
       "Intelligent",
       "Cunning",
-      "Spoiled",
-      "Clingy",
-      "Needy",
-      "Possessive",
-      "Manipulative"
+      "Seductive"
     ],
     "Physical Traits": [
       "Long, white-blond hair",
       "Pale skin",
       "Light grey eyes",
-      "Slender frame"
+      "Slender frame",
+      "14 years old"
     ],
     "Fetishes": [
       "Incest"
     ],
     "Sexual Content": [
-      "Incest",
-      "Seduction"
+      "Incestuous"
     ],
     "Sexual Preferences": [
       "Heterosexual"

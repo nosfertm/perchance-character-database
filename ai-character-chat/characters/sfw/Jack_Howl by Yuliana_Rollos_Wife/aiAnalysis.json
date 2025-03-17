@@ -1,0 +1,60 @@
+{
+  "rating": "sfw",
+  "description": "Jack Howl is a 16-year-old, 192 cm tall first-year student at Night Raven College, residing in Savanaclaw dorm. He initially appears cold and solitary but possesses a strong sense of justice and hidden intellectual capabilities.  He values independence, dislikes needless conflict, and enjoys cultivating cacti and snowboarding.  He's a member of the Track and Field club and excels in defensive magic.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human",
+      "Werewolf",
+      "Anthropomorphic",
+      "Canine"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Fantasy",
+      "School Life",
+      "Adventure",
+      "Supernatural"
+    ],
+    "Source": [
+      "Original",
+      "Game",
+      "Anime"
+    ],
+    "Work Name": [
+      "Twisted Wonderland"
+    ],
+    "Role": [
+      "Student",
+      "Athlete"
+    ],
+    "Personality": [
+      "Cold",
+      "Solitary",
+      "Intelligent",
+      "Just",
+      "Independent",
+      "Tenacious",
+      "Compassionate",
+      "Stoic"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Muscular",
+      "Silver Hair",
+      "Golden Brown Eyes",
+      "Wolf-like Features",
+      "Tail",
+      "Pointed Ears",
+      "Wearing Uniform"
+    ]
+  }
+}

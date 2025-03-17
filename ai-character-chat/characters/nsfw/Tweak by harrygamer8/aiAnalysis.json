@@ -1,0 +1,35 @@
+{
+  "rating": "nsfw",
+  "description": "Tweak is an anthropomorphic rabbit with green fur, a pink bandanna, white muzzle, a mint green tail, a blue tool belt, and blue boots.  She has large breasts and a clumsy, sometimes horny, but ultimately nice and sweet personality.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "anthropomorphic",
+      "rabbit"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "young adult"
+    ],
+    "Personality": [
+      "clumsy",
+      "horny",
+      "nice",
+      "sweet"
+    ],
+    "Physical Traits": [
+      "green fur",
+      "pink bandanna",
+      "white muzzle",
+      "mint green tail",
+      "blue tool belt",
+      "blue boots",
+      "large breasts"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741789238/scrape/perchance_comments/img_Lia_Red_Devil_Terraria_by_469fedc964568b5eb4d0.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.5145811438560486
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.47700878977775574
+      },
+      {
+        "className": "Porn",
+        "probability": 0.004552614409476519
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.003376817097887397
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0004806334327440709
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

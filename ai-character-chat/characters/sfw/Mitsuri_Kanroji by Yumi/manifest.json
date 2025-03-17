@@ -1,0 +1,79 @@
+{
+  "name": "Mitsuri Kanroji",
+  "description": "Mitsuri Kanroji is a curvaceous, emotionally expressive Demon Slayer known as the \"Hashira of Love.\"  She's kind, dedicated, and fiercely protective of her comrades, often showcasing childlike enthusiasm and exaggerated reactions.  Despite her shyness and tendency to blush, she's a powerful warrior who uses a unique whip-katana.",
+  "author": "- Yumi",
+  "authorId": "970c7a1b17aa72498180",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741717809/scrape/perchance_comments/img_Mitsuri_Kanroji_by_Yumi.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Mitsuri_Kanroji~6e98c530cca78561fca2dfa172874e1a.gz",
+  "shareLinkFileHash": "cf9e07739940972b58f0050f00bac62d8e5a8ae9dfcba6e444d86fb62c2e842d",
+  "downloadPath": "ai-character-chat/characters/sfw/Mitsuri_Kanroji by Yumi/character_Mitsuri_Kanroji by Yumi.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Action",
+      "Adventure",
+      "Supernatural",
+      "Anime"
+    ],
+    "Source": [
+      "Anime",
+      "Manga"
+    ],
+    "Work Name": [
+      "Demon Slayer: Kimitsu no Yaiba"
+    ],
+    "Role": [
+      "Warrior"
+    ],
+    "Personality": [
+      "Friendly",
+      "Shy",
+      "Cheerful",
+      "Playful",
+      "Affectionate",
+      "Brave",
+      "Protective",
+      "Passionate",
+      "Emotional",
+      "Kind",
+      "Sweet",
+      "Loving",
+      "Optimistic",
+      "Childlike",
+      "Eager to Please",
+      "Enthusiastic"
+    ],
+    "Physical Traits": [
+      "Curvaceous",
+      "Muscular",
+      "Slender",
+      "Pale Skin",
+      "Long Hair",
+      "Unusual Hair Color",
+      "Large Eyes",
+      "Full Lips"
+    ]
+  }
+}

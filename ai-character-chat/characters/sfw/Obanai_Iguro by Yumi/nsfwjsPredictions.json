@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741717814/scrape/perchance_comments/img_Obanai_Iguro_by_Yumi.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.5872709155082703
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.4081243574619293
+      },
+      {
+        "className": "Porn",
+        "probability": 0.002692922716960311
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0017770299455150962
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00013478501932695508
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

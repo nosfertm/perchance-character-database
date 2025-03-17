@@ -1,0 +1,55 @@
+{
+  "name": "Chloe_(JSON_ver)",
+  "description": "Chloe is a 19-year-old art student with a sharp tongue and a penchant for the macabre.  She's described as a gothic siren with a cynical and sarcastic personality, often using profanity in her speech. Her attire consists of revealing clothing, including a tight tube top, shorts, and thigh-high stockings.",
+  "author": "The_nnn",
+  "authorId": "d1cec9ca8b6951cd4f3e",
+  "source": "SCRAPER",
+  "imageUrl": "https://user-uploads.perchance.org/file/68924450777ab1fa1678249c75cac447.jpeg",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Chloe_(JSON_ver)~afd1ba0586cb5abf5dde6068d34c8d83.gz",
+  "shareLinkFileHash": "1980e0e6fa2c950b2a1a5cc8a0d7ff0ee42f4a620da218dd5824d91b4f566d54",
+  "downloadPath": "ai-character-chat/characters/nsfw/Chloe_JSON_ver by The_nnn/character_Chloe_JSON_ver by The_nnn.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "teen"
+    ],
+    "Genre": [
+      "gothic"
+    ],
+    "Personality": [
+      "sarcastic",
+      "cynical",
+      "snarky",
+      "intelligent",
+      "self-centered",
+      "quick to anger"
+    ],
+    "Physical Traits": [
+      "curvaceous",
+      "raven hair",
+      "deep blue eyes",
+      "fair porcelain skin",
+      "tight tube top",
+      "thigh-high black stockings",
+      "shorts"
+    ]
+  }
+}

@@ -162,6 +162,7 @@ body:
         - Insect
         - Inumimi
         - Kitsune
+        - Mammoth
         - Meme
         - Mermaid
         - Monster
@@ -303,6 +304,7 @@ body:
         - Unspecified
         - Urban Fantasy
         - Western
+        - original
     validations:
       required: false
 
@@ -313,6 +315,7 @@ body:
       description: Source of inspiration
       multiple: true
       options:
+        - 4chan
         - Adult Comics
         - Adult Film
         - Adult Game
@@ -366,7 +369,10 @@ body:
         - Visual Novel
         - Web Series
         - cosplay
+        - five nights at freddy's
         - hollow knight
+        - literature
+        - twisted wonderland
     validations:
       required: false
 
@@ -378,6 +384,7 @@ body:
       multiple: true
       options:
         - Ahegao Academy
+        - Animal Crossing
         - Attack on Titan
         - Avatar: The Last Airbender
         - Bendy and the Ink Machine
@@ -390,11 +397,13 @@ body:
         - Call of Duty
         - Camp Buddy
         - Cowboy Bebop
+        - Crysis 2
         - Cyberpunk 2077
         - DC Comics
         - Dark Souls
         - Dead Cells
         - Deltarune
+        - Demon Slayer: Kimitsu no Yaiba
         - Diablo
         - Discipline
         - Disney
@@ -511,9 +520,12 @@ body:
         - Warhammer 40K
         - World of Warcraft
         - Yosuga no Sora
+        - demon slayer
         - girls vs aliens
+        - mario
         - poppy playtime
         - sonic the hedgehog
+        - the odyssey
         - twisted wonderland
     validations:
       required: false
@@ -531,6 +543,7 @@ body:
         - Adventurer
         - Ally
         - Antagonist
+        - Architect
         - Artist
         - Assassin
         - Assistant
@@ -538,6 +551,7 @@ body:
         - Attendant
         - Bachelorette
         - Bandit
+        - Bard
         - Barista
         - Bartender
         - Best friend
@@ -556,10 +570,12 @@ body:
         - Child
         - Cleaner
         - Clerk
+        - Collector
         - Comedian
         - Community Helper
         - Community Volunteer
         - Companion
+        - Concubine
         - Content Creator
         - Courier
         - Criminal
@@ -571,6 +587,7 @@ body:
         - Doctor
         - Dominatrix/Dom
         - Dorm Leader
+        - Educator
         - Employee
         - Enforcer
         - Engineer
@@ -580,6 +597,7 @@ body:
         - Exotic Dancer
         - Experiment
         - Explorer
+        - FBI Agent
         - Farmer
         - Fashion Designer
         - Father
@@ -599,17 +617,20 @@ body:
         - Guardian
         - Guide
         - Gun engineer
+        - Gun expert
         - Hacker
         - Harbinger
         - Healer
         - Heiress
         - Helper
         - Hero
+        - Historian
         - Host
         - Husband
         - Idol
         - Inmate
         - Intern
+        - Internet personality
         - Inventor
         - Jujutsu Sorcerer
         - King
@@ -621,12 +642,14 @@ body:
         - Logistics Manager
         - Love Interest
         - Lover
+        - Lumberjack
         - Mage
         - Maid
         - Main Character
         - Mass murderer
         - Mayor
         - Mechanic
+        - Medic
         - Mentor
         - Mercenary
         - Merchant
@@ -643,12 +666,14 @@ body:
         - Nurse
         - Officer
         - Older Sister
+        - OnlyFans model
         - Orphan
         - Parent
         - Pet
         - Philosopher
         - Pilot
         - Pirate
+        - Politician
         - President
         - Priest/Priestess
         - Priestess
@@ -674,11 +699,13 @@ body:
         - Scholar
         - Scientist
         - Scoutmaster trainee
+        - Scribe
         - Second-in-command
         - Secretary
         - Servant
         - Sex Worker
         - Sexual healer
+        - Shopkeeper
         - Singer
         - Soldier
         - Songwriter
@@ -695,6 +722,8 @@ body:
         - Trickster
         - Unspecified
         - Utility
+        - Vice Leader
+        - Vice-president in training
         - Victim
         - Vigilante
         - Villager
@@ -707,20 +736,32 @@ body:
         - Worker
         - Writer
         - accomplice
+        - bully
         - cheerleader
+        - christmas elf
         - cosplayer
         - dance instructor
+        - data entry
         - emotional support gooblin
+        - forest dweller
+        - former water-goddess
+        - fsb agent
         - gentlemen
+        - groundskeeper
         - gym leader
         - headmaster
+        - high level courtesan
         - instructor
+        - magician
         - manager
         - office worker
+        - royally
         - sentinel
         - serial killer
         - social media manager
+        - superhero
         - waiter
+        - waitress
         - witch
     validations:
       required: false
@@ -754,7 +795,9 @@ body:
         - Animal and Nature Lover
         - Annoyed
         - Annoying
+        - Anti-Semitic
         - Anti-hero
+        - Anti-woke
         - Antisocial
         - Anxious
         - Apathetic
@@ -771,10 +814,12 @@ body:
         - Autistic
         - Awkward
         - Bashful
+        - Beauty-obsessed
         - Benevolent
         - Big-hearted
         - Bisexual
         - Bitchy
+        - Bitter
         - Blissfully happy
         - Bloodthirsty
         - Blunt
@@ -782,6 +827,7 @@ body:
         - Boisterous
         - Bold
         - Bookworm
+        - Bored easily
         - Bragger
         - Brash
         - Braty
@@ -795,6 +841,7 @@ body:
         - Capable of remorse
         - Carefree
         - Caring
+        - Catty
         - Cautious
         - Chaotic
         - Charismatic
@@ -843,8 +890,10 @@ body:
         - Courageous
         - Courteous
         - Cowardly
+        - Coy
         - Crazy
         - Creative
+        - Creepy
         - Critical
         - Cruel
         - Cuddly
@@ -855,6 +904,7 @@ body:
         - Cwowd-pweasing
         - Cynical
         - Dangerous
+        - Daring
         - Dark Themes
         - Daydreamer
         - Deceptive
@@ -880,6 +930,7 @@ body:
         - Ditzy
         - Dom
         - Dominant
+        - Doomer
         - Doting
         - Dramatic
         - Dreamy
@@ -928,8 +979,11 @@ body:
         - Family Oriented
         - Family-centered
         - Family-oriented
+        - Fascist
         - Fatalistic
+        - Fearful
         - Fearless
+        - Feminine
         - Feral
         - Fierce
         - Fiercely independent
@@ -950,8 +1004,10 @@ body:
         - Funny
         - Funny at Times
         - Gambler
+        - Gamer Girl
         - Gay
         - Generous
+        - Genius
         - Gentle
         - Gentle (exterior)
         - Giving
@@ -977,6 +1033,7 @@ body:
         - Heartless
         - Heroic
         - High Standards
+        - Homophobic
         - Honest
         - Honorable
         - Hopeful
@@ -1000,6 +1057,7 @@ body:
         - Incredibly forgetful
         - Incredibly stupid
         - Independent
+        - Indifferent
         - Inexperienced
         - Informative
         - Innocent
@@ -1060,6 +1118,7 @@ body:
         - Mature
         - Mean
         - Megane
+        - Melancholic
         - Mentally Unwell
         - Mentor
         - Merciless
@@ -1071,8 +1130,10 @@ body:
         - Mistrustful
         - Misunderstood
         - Mocking
+        - Modest
         - Monotone
         - Moral
+        - Moral drive
         - Motherly
         - Murderous
         - Mysterious
@@ -1114,6 +1175,7 @@ body:
         - Pansexual
         - Paranoid
         - Passionate
+        - Passionate (about interests)
         - Passive
         - Patient
         - Patriotic
@@ -1148,6 +1210,7 @@ body:
         - Protective
         - Proud
         - Punk
+        - Pure
         - Purist
         - Quick learner
         - Quick-tempered
@@ -1163,6 +1226,7 @@ body:
         - Raunchy
         - Rebellious
         - Reckless
+        - Reclusive
         - Reflective
         - Regal
         - Regretful
@@ -1201,9 +1265,11 @@ body:
         - Self-absorbed
         - Self-centered
         - Self-conscious
+        - Self-deprecating
         - Self-harm
         - Selfish
         - Selfless
+        - Sensible
         - Sensitive
         - Sensitive to Failure
         - Sensual
@@ -1234,11 +1300,13 @@ body:
         - Sly
         - Smart
         - Sneaky
+        - Snooty
         - Sociable
         - Social
         - Socially dominant
         - Sociopathic
         - Soft
+        - Solemn
         - Solitary
         - Somber
         - Sophisticated
@@ -1250,6 +1318,7 @@ body:
         - Strategic
         - Strict
         - Strong
+        - Strong sense of justice
         - Strong-willed
         - Stubborn
         - Studious
@@ -1258,6 +1327,7 @@ body:
         - Submissive
         - Suicidal
         - Superior
+        - Superiority Complex
         - Supportive
         - Sweet
         - Sympathetic
@@ -1280,6 +1350,7 @@ body:
         - Tomboyish
         - Tough
         - Traditional
+        - Troubled
         - Trust issues
         - Trusting
         - Tsundere
@@ -1293,10 +1364,12 @@ body:
         - Unhinged
         - Uninhibited
         - Unpredictable
+        - Unsettling
         - Unspecified
         - Unstoppable
         - Untrustworthy
         - Upbeat
+        - Vain
         - Vegan
         - Vengeful
         - Verbal Abusive
@@ -1328,23 +1401,33 @@ body:
         - Yells a lot
         - abusive
         - airheaded
+        - amoral
         - apathy
         - attention-seeking
         - avoids awkward moments
         - barbaric
         - bossy
+        - brute
         - busy
         - calm
+        - clueless
         - co-dependent
         - condescending
+        - detached
         - easily angered
+        - emotionally detached
         - envious
         - exploitative
+        - fear of abandonment
         - fiercely passionate
+        - flippant
+        - forward
         - good-natured
         - hard worker
         - hardworking
         - helpful
+        - hidden emotions
+        - homophobe
         - hostile
         - immature
         - impressionable
@@ -1352,24 +1435,41 @@ body:
         - irresponsible
         - menacing
         - mild-mannered
+        - morally ambiguous
+        - narcissist
         - nice
         - not friendly
         - not social
         - overly protective of her beliefs
+        - perverted
+        - psychopath
+        - quick to anger
+        - quick-thinker
+        - self-doubt
         - sexy
+        - simple-minded
+        - sincere
         - skeptical
         - slightly mischievous
         - snarky
+        - sociopath
         - spiteful
         - stoic
+        - strategist
         - street-smart
         - sulky
+        - sultry
         - suspicious
         - technical
         - temperamental
         - toxic
+        - traumatized
+        - undecided
         - uninterested
+        - unwavering
         - verbally abusive
+        - virtuous
+        - war focused
         - whiny
         - wicked
         - wild
@@ -1385,13 +1485,21 @@ body:
       options:
         - 002 Choker
         - 1,1 m tall
+        - 10.16 cm dick
         - 100lb
+        - 12 cm penis
+        - 13 red and white striped hair
+        - 14 years old
+        - 157 cm tall
         - 160cm Tall
         - 165cm Tall
         - 167cm Tall
         - 170 cm
         - 178cm tall
         - 3'
+        - 3,4 cm balls
+        - 4 cm balls
+        - 400+ lbs
         - 5 Feet Tall
         - 5 inches dick
         - 5'10"
@@ -1402,17 +1510,22 @@ body:
         - 5’9”
         - 5’9”, 100lb
         - 6 feet 3 inches
+        - 6 inch dick
+        - 6'4
         - 6’6
         - 7 feet tall (werebat form)
+        - 7 inch dick
         - 7 inches long dick
         - 70cm tall
         - 8 pink frilly extrusions on her head
+        - 9 cm dick
         - 9 inch penis
         - 98 Kg
         - A Cup Size
         - Ability to shoot fireballs
         - AbsoluteSolver Symbol Eyes (Transformation)
         - Aerodynamic shape
+        - Aged
         - Aged Armor
         - Agile
         - Ahoge
@@ -1464,6 +1577,7 @@ body:
         - Bear paws
         - Beard
         - Beautiful Body
+        - Beer belly
         - Beige Turtleneck Sweater
         - Belt
         - Big Blue Eyes
@@ -1474,12 +1588,14 @@ body:
         - Big eyes
         - Big rear
         - Big thighs
+        - Bikini
         - Bioluminescent Blood
         - Bipedal
         - Bit-short messy hair
         - Black
         - Black Bangs
         - Black Eyeliner
+        - Black Feather
         - Black Fur
         - Black Glove
         - Black Goth Dress
@@ -1487,12 +1603,14 @@ body:
         - Black Hoodie
         - Black Leggings
         - Black Sailor Uniform
+        - Black Sash
         - Black Shirt
         - Black Streak in Hair
         - Black Striped Beanie
         - Black Thigh-High Socks
         - Black Yellow Outfit
         - Black and Gold Suit
+        - Black attire
         - Black bikini
         - Black boots
         - Black choker
@@ -1500,24 +1618,32 @@ body:
         - Black combat boots
         - Black demonic horns
         - Black dress
+        - Black eye shadow
         - Black eyes
         - Black fingerless gloves
         - Black futuristic prosthetic
         - Black glasses
         - Black gloves
+        - Black grunge boots
         - Black hands
+        - Black latex shirt
         - Black leather jacket
         - Black leather jacket with neon blue accents
+        - Black mascara
         - Black metallic hairband
         - Black nails
         - Black pants
         - Black pupil
+        - Black pupils
         - Black rip jeans
         - Black ripped jeans
         - Black sailor long sleeve
         - Black sclera
+        - Black shoes
+        - Black short-pants
         - Black shorts
         - Black sleeves
+        - Black socks
         - Black stockings
         - Black suit
         - Black sunglasses
@@ -1543,12 +1669,16 @@ body:
         - Blue Sash
         - Blue Skirt
         - Blue Streaks
+        - Blue and yellow hair
         - Blue bandana
         - Blue eyepatch
         - Blue feathers
         - Blue fur
         - Blue necklace
+        - Blue pubic hair
+        - Blue pupils
         - Blue skin
+        - Blue square birthmark
         - Blue tail
         - Blue-and-gold shirt
         - Blue-and-white sailor cap
@@ -1556,8 +1686,10 @@ body:
         - Bluish-Purple Hair
         - Bluish-grey and white fur
         - Blurred
+        - Bob-cut Hairstyle
         - Bone white skin
         - Bouncy breasts
+        - Braid ornament
         - Braids
         - Bright Green Eyes
         - Bright blue circles eyes
@@ -1570,9 +1702,12 @@ body:
         - Brown Hair
         - Brown Shoes
         - Brown Sweater Vest
+        - Brown beanie
         - Brown boots
         - Brown hat
+        - Brown hoodie
         - Brown shirt
+        - Brown turtleneck
         - Brown-Black Coat
         - Bruises
         - Brunette
@@ -1605,11 +1740,15 @@ body:
         - Cat-like features
         - Caucasian
         - Chain anklets
+        - Chains
+        - Cherry red underwear
         - Chipped black nail polish
         - Chocolate brown fur
         - Christian symbols
         - Chubby
         - Chubby belly
+        - Chubby build
+        - Chullo
         - Circular body
         - Clam-shaped pectoral fins
         - Claws
@@ -1620,11 +1759,14 @@ body:
         - Colossal
         - Combat Boots
         - Combat Gear
+        - Coonskin cap
         - Copper-colored
         - Coral Brown Hair
         - Cracked screen
+        - Cream colored shirt
         - Creamy white accents
         - Creamy white underbelly fur
+        - Crimson
         - Crimson Bow Tie
         - Crimson Cape
         - Crimson Eyes
@@ -1643,6 +1785,8 @@ body:
         - Curvy
         - Curvy ass
         - Curvy body
+        - Curvy butt
+        - Curvy thighs
         - Cute
         - Cute Paws
         - Cute and adorable
@@ -1670,7 +1814,9 @@ body:
         - Dark brown hair
         - Dark brown pants
         - Dark brown skin
+        - Dark brunette hair
         - Dark chocolate brown fur
+        - Dark chocolate fur
         - Dark eyes
         - Dark greenish eyes
         - Dark olive skin tone
@@ -1686,6 +1832,7 @@ body:
         - Deformed ink hands
         - Delicate Face
         - Demonic Armor
+        - Developed thighs
         - Developing Breast
         - Devilish smile
         - Diamond-shaped snout
@@ -1716,6 +1863,8 @@ body:
         - Ethereal
         - Ethereal Aura
         - Ever-changing
+        - Expressive eyes
+        - Extravagant bracelets
         - Eyepatch
         - F cup breasts
         - Fair Skin
@@ -1726,6 +1875,7 @@ body:
         - Female
         - Feminine Build
         - Feminine body shape
+        - Feminine human-like face
         - Fez
         - Fiery orange fur
         - Fiery stem
@@ -1733,6 +1883,7 @@ body:
         - Firm
         - Fish-like features
         - Fit
+        - Fit and athletic body
         - Flat Chested
         - Flightless
         - Floating
@@ -1742,8 +1893,10 @@ body:
         - Fluffy
         - Fluffy Tail
         - Fluffy cheeks
+        - Fluffy triangular ears
         - Fluffy white fur
         - Forest green hair
+        - Form-fitting loincloth/bra
         - Four whiskers
         - Fox
         - Fox ears
@@ -1754,6 +1907,7 @@ body:
         - Frilly white collar
         - Frost Runes
         - Frosty highlights
+        - Full Lips
         - Fur cloak
         - Futuristic
         - Futuristic Style
@@ -1762,6 +1916,7 @@ body:
         - Gaunt
         - Gelatinous
         - Geometric
+        - German flag underwear
         - Ghost
         - Giant
         - Giant breasts
@@ -1783,24 +1938,34 @@ body:
         - Gold Accents
         - Gold Bell
         - Gold and crimson mane
+        - Gold anklet
+        - Gold armbands
         - Gold cuffs
         - Gold eyes
+        - Gold neck ring
+        - Golden Brown Eyes
         - Golden Crown
         - Golden Curls
+        - Golden Egyptian cobra headgear
+        - Golden Embroidery
         - Golden Eyes
         - Golden Fur
         - Golden Wings
         - Golden belt
         - Golden buttons
         - Golden cross amulet
+        - Golden watch
         - Gooey Hair
         - Googly eyes
+        - Graceful
         - Gray
         - Gray Blazer
         - Gray Fur
+        - Gray Hair
         - Gray Suit
         - Gray apron
         - Gray cloak
+        - Gray sweater
         - Gray turtleneck sweater
         - Grayish-white Hair
         - Green Cloak
@@ -1813,6 +1978,7 @@ body:
         - Green and purple ears and limbs
         - Green body
         - Green flames
+        - Green letterman jacket
         - Green military uniform
         - Green overalls
         - Grey Eyes
@@ -1823,8 +1989,10 @@ body:
         - Grey countershading
         - Grey ears
         - Grey hoodie
+        - Grey nipples
         - Grey shirt
         - Greying Hair
+        - Grunge attire
         - Gun
         - Guns
         - Hair-covering ears
@@ -1836,7 +2004,9 @@ body:
         - Headpiece
         - Heart tattoo
         - Heart-shaped birthmark
+        - Heart-shaped face
         - Heavy Eye-bags
+        - Heels
         - Heterochromia
         - Hidden succubus horns
         - Honey brown eyes
@@ -1856,15 +2026,18 @@ body:
         - Humanoid body shape
         - Humanoid skin
         - Hunter-Green Eyes
+        - Hypnotic white pattern underwear
         - Ice-blue cybernetic eyes
         - Icy Beads
         - Icy blue eyes
+        - Immobile
         - Impeccably Dressed
         - Imposing Height
         - Indigo Eyes
         - Indigo Hair
         - Inflammation on left eye
         - Ink-based
+        - Insanely sensitive breasts
         - Intricate carvings
         - Intricate runes on paws
         - Invisible in light
@@ -1895,6 +2068,8 @@ body:
         - Large eyes
         - Large headphones
         - Large hips
+        - Large red flower bunch
+        - Large round ass
         - Latex Swimsuit
         - Latino brown skin
         - Lavender Skin
@@ -1904,13 +2079,17 @@ body:
         - Lean Physique
         - Lean and athletic
         - Lean and muscular body
+        - Lean limbs
         - Lean musculature
         - Leather hat
         - Leaves instead of hands
         - Light Blue Eye
         - Light Blue Eyes
         - Light Brown Fur
+        - Light Brown Skin
         - Light Grey skin
+        - Light Turquoise Eyes
+        - Light Turquoise Hair
         - Light blonde hair
         - Light blue
         - Light blue hair
@@ -1947,17 +2126,21 @@ body:
         - Long Braided Beard
         - Long Canine Teeth
         - Long Dark Purple Striped Socks
+        - Long Fangs
         - Long Fluffy Tail
         - Long Green Hair
         - Long Hair
         - Long Hair (A2)
         - Long Legs
+        - Long Messy Red Hair
         - Long Mint Green Pigtails
         - Long Nails
         - Long Pink Pigtails
+        - Long Purple Skirt
         - Long Wavy Hair
         - Long black cloak
         - Long black hair
+        - Long braid
         - Long brown hair
         - Long flexible tail
         - Long fluffy hair
@@ -1970,17 +2153,21 @@ body:
         - Long pointy ears
         - Long red hair
         - Long red tongue
+        - Long silver hair
         - Long straight red hair
         - Long tongue
         - Long white hair
         - Long, white-blond hair
+        - Long-sleeved Shirt
         - Long-sleeved red dress
+        - Loose curls
         - Luxurious Coat
         - M cup breasts
         - Macabre jewelry
         - Magenta Hair
         - Magician Outfit
         - Magnet-shaped head
+        - Mahogany fur
         - Maid dress
         - Makeup
         - Male
@@ -2002,13 +2189,16 @@ body:
         - Medium chests
         - Medium sized boobs
         - Medium sized breasts
+        - Medium-length black hair
         - Megaphone
+        - Mesomorph
         - Messy Ponytail
         - Messy bob-cut
         - Messy dark brown hair
         - Messy hair
         - Messy hair-style
         - Metal Cuffs
+        - Metal bracelets
         - Metallic
         - Metallic armor
         - Metallic body
@@ -2018,6 +2208,7 @@ body:
         - Middle-aged
         - Midnight black hair
         - Mini shorts
+        - Minimal makeup
         - Mismatched Clothing
         - Mismatched Socks
         - Mittens
@@ -2033,7 +2224,10 @@ body:
         - Mustache
         - Mutation
         - Naked
+        - Natural curves
         - Navy blue bandana
+        - Navy blue eyeliner
+        - Navy blue-and-gold-striped fur
         - Necklace
         - Neon Purple Eyes
         - Neon eyes
@@ -2048,6 +2242,7 @@ body:
         - No mouth
         - No neck
         - No nose
+        - No pubic hair
         - No visible eyes
         - Nude
         - Nun's Habit
@@ -2062,6 +2257,7 @@ body:
         - Orange Fur
         - Orange Spots
         - Orange bandana
+        - Orange eyeshadow
         - Orange lips
         - Orange mouth
         - Orange skin
@@ -2075,15 +2271,18 @@ body:
         - Pastel Pink Hair
         - Pastel colors
         - Pear-shaped face
+        - Perfectly round head
         - Petite
         - Petite and lively
         - Petite figure
         - Pierced Ears
         - Piercing Gray Eyes
         - Piercing blue eyes
+        - Piercing emerald eyes
         - Piercing eyes
         - Piercing gaze
         - Piercing green eyes
+        - Piercings
         - Pigtails
         - Pink
         - Pink Eyes
@@ -2091,6 +2290,8 @@ body:
         - Pink Streaks in Hair
         - Pink feet
         - Pink hair
+        - Pink hair strains
+        - Pink hoody
         - Pink nipples
         - Pink nose
         - Pink paw pads
@@ -2118,12 +2319,15 @@ body:
         - Pumpkin head
         - Puppet-like
         - Purple
+        - Purple Accents
         - Purple Hair
+        - Purple and Green Striped Sweater
         - Purple and black attire
         - Purple cloak
         - Purple ensemble
         - Purple eyes
         - Purple sclera
+        - Purple shirt
         - Purple skin
         - Qipao Dress
         - Quadruple amputee
@@ -2144,18 +2348,29 @@ body:
         - Red Eyes
         - Red Gloves
         - Red Hair
+        - Red Lining
         - Red Lips
         - Red Ribbon
         - Red Shirt
         - Red Shoes
         - Red Tophat
+        - Red Trim
+        - Red and Yellow Tassels
+        - Red and white hair
         - Red and white striped shirt
+        - Red arms
         - Red beak
         - Red circles on cheeks
+        - Red eye shadow
+        - Red lipstick
+        - Red llama ears
+        - Red llama tail
+        - Red plaid shirt
         - Red sclera
         - Red shorts
         - Red skin
         - Red tail
+        - Red winter jacket
         - Red-pink hair
         - Reddish-orange body
         - Reddish-orange complexion
@@ -2165,6 +2380,8 @@ body:
         - Reptilian tail
         - Revealing Bikini
         - Revealing Clothing
+        - Ripped black jeans
+        - Ripped jeans
         - Robe
         - Robot
         - Robotic
@@ -2187,6 +2404,7 @@ body:
         - Sapphire eyes
         - Sarouel Pants
         - Scales
+        - Scaly
         - Scaly skin
         - Scar
         - Scar over left eyebrow
@@ -2200,6 +2418,7 @@ body:
         - Scruffy Brown Hair
         - Seductive
         - Semi-circular body
+        - Sexy
         - Shadowy
         - Shapely Ass
         - Sharp Features
@@ -2225,11 +2444,13 @@ body:
         - Short brown bob
         - Short legs
         - Short peach-colored hair
+        - Short red hair
         - Short slightly wavy purple hair
         - Short, spiky black hair
         - Shorts
         - Silver Armor
         - Silver Skin
+        - Silver choker necklace
         - Silver hair
         - Silver prosthetic arm
         - Simple golden crown
@@ -2241,6 +2462,7 @@ body:
         - Skinny
         - Skirt
         - Skull Choker
+        - Skull hat
         - Skull mask
         - Skull-Patterned Balaclava
         - Sky Blue Cracks
@@ -2270,7 +2492,9 @@ body:
         - Small ass
         - Small breasts
         - Small brown shoes
+        - Small frame
         - Small hips
+        - Small penis
         - Small tail
         - Snake-like tail
         - Snake-like tongue
@@ -2283,6 +2507,7 @@ body:
         - Soft, fluffy cream-gray fur
         - Soft-featured
         - Spear
+        - Spectacles
         - Spherical bodies
         - Spiked
         - Spiked legs
@@ -2294,6 +2519,7 @@ body:
         - Steampunk Gadgets
         - Steel Armor Parts
         - Stitched together
+        - Stitches on back
         - Stocky
         - Stone
         - Straight nose
@@ -2308,6 +2534,7 @@ body:
         - Suit
         - Sun-kissed skin
         - Sunglasses
+        - Supple breasts
         - Sword
         - Synthetic Skin
         - Syringe Tail
@@ -2359,13 +2586,16 @@ body:
         - Translucent cyan wings
         - Transparent Light Blue Skin
         - Trench coat
+        - Triangular eyes
         - Tribal Garb
+        - Tricolor hair (red, white, blue)
         - Trio of eyes
         - Trousers
         - Tuft of hair
         - Turquoise Eyes
         - Turquoise Pendant
         - Tuxedo
+        - Twilight eyes
         - Twin tail hairstyle
         - Twintails
         - Two buns
@@ -2396,9 +2626,11 @@ body:
         - Warm Pink Skin
         - Warm Porcelain Skin
         - Water-like form
+        - Wavy black hair with green highlights
         - Wavy brown hair
         - Wavy hair
         - Wearing Uniform
+        - Wears Heels
         - Weathered Clothing
         - Weathered skin
         - Wet
@@ -2427,8 +2659,11 @@ body:
         - White cuffs
         - White dress
         - White fur
+        - White fur on neck and chest
+        - White hairclips
         - White half-turtleneck with polka dots
         - White headband
+        - White headphones
         - White hoodie
         - White irises
         - White leg sleeves
@@ -2437,14 +2672,17 @@ body:
         - White scarf
         - White sclera
         - White shoes
+        - White socks
         - White teeth
         - Wide chest
         - Wide hips
+        - Wide waist
         - Wight bwee bandana
         - Wings
         - Wings (true form)
         - Wolf Ears
         - Wolf Motif Badge
+        - Wolf-like Features
         - Worn Clothing
         - Worn boots
         - Yellow
@@ -2459,105 +2697,180 @@ body:
         - Yellow pupil
         - Yellow scales
         - Yellow sclera (left eye)
+        - Yellow skin
         - Young
         - Youthful appearance
+        - angelic visage
         - anime-style
         - athletic build
         - attractive
         - average frame
         - avian like limbs and claws
+        - bat wing lapels
         - beady black eyes
+        - bear tail
         - big ass
         - big breast size
         - big hips
         - bikini top
         - binary code
+        - black accents
+        - black and yellow ribbon
         - black apron
+        - black details
         - black eyeshadow
         - black formal outfit
+        - black gradient hair
+        - black jacket
+        - black legs
+        - black messy hair in a ponytail
+        - black school uniform
+        - black shoulder bands
+        - black skirt
         - black trousers
+        - black uniform
         - black walking stick
         - black-and-purple dreadlocks
+        - blazer
         - blob
+        - blue boots
         - blue hair streak
         - blue shirt
         - blue shorts
+        - blue tool belt
         - blue vintage t-shirt
+        - blue-gray eyes
+        - brown
         - brown horns
+        - brown sheer drape
         - brown skin
         - brown trousers
         - burning flame
         - cat tail
+        - cerulean eyes
         - chitinous head
+        - chocolate-brown hair
+        - christmas-themed red & white outfit
         - compound eyes
         - copper-ginger hair
+        - corpse inside
         - corrupted
+        - crimson corset
+        - crimson ribbons
+        - cute face
+        - cute tail
+        - damaged
         - dark blue jacket
         - dark blue nipples
         - dark complexion
         - dark gray spots
         - dark greatcoat
         - dark indigo tailcoat
+        - dark long loose hair
         - dark pink shoes
+        - decomposed
+        - deep crimson eyes/claws/nipples/vagina
         - delicate
+        - digitigrade legs
         - dyed orange hair
+        - earrings
         - ears
         - electric blue flames
+        - ethereal pink skin
+        - fair porcelain skin
         - feline-like
         - feminine look
+        - fierce red eyes
+        - fishnet tights
         - flat chest
         - fleshy
         - floppy ears
         - freckles
         - frightening
+        - glowing tan skin
         - goggles
+        - gold bangles
         - gold hoop nose ring
         - golden fox topper
         - golden hat band
+        - golden skin
         - gray eyes
         - gray skin
+        - gray zipper
         - green
         - green and white striped socks
+        - green fur
         - green hoodie
+        - greenish-yellow
         - grey and white sneakers
+        - grey lipstick
+        - grey vest
         - gropes her own ass
         - grotesque
+        - high pigtails
         - high-collar shirt
         - hour glass figure
+        - hour-glass figure
         - huge breasts
         - huggable
         - humanoid
+        - jabot
+        - jingling anklets
         - lanky
         - large blue wings
         - lavender hair
+        - lazy cat ears/tail
+        - leather crop top and short skirt
         - light freckles
         - light gray fur
         - light tan
         - light-orange skin
         - limbless
+        - long blonde hair with pink streaks
+        - long flowing blue hair
+        - long gold necklace
         - long jaw
         - long pink hair
         - long tail
         - long thick tail
+        - long wavy brown hair
+        - lots of makeup
+        - lush black fur
         - magenta eyes
         - maroon blazer
         - maroon cravat
+        - messy dark orange hair
+        - metal antenna
+        - middle long black hair
+        - mint green tail
         - missing pinky
+        - missing teeth
+        - moderately large breasts
         - moss green eye shadow
         - multicolored accents
+        - nipple/pussy piercings
+        - no pants
         - olive green vest
         - orange hair
         - orange horns
         - orange reddish fur
         - orange scales
         - orange-red skin
+        - panties
         - peach hair tips
         - peach tail tip
+        - peach-toned skin
+        - piercing red eyes
         - pink and yellow accents
+        - pink bandanna
+        - pink freckles
         - pink skirt
         - pink socks
+        - pink thong
         - pitchfork-shaped tail
         - pointed fox ears
+        - purple apron
+        - purple bow tie
         - purple dress shirt
         - purple gemstone
         - purple hat
@@ -2565,14 +2878,31 @@ body:
         - purple sunglasses
         - purple toy hammer
         - purple vest
+        - rabbit
+        - raspy voice
+        - red and blue hair strains
         - red and golden designs
         - red and white hair strains
+        - red and white high-top sneakers
         - red body
         - red boots
+        - red bow tie
         - red cross on head
         - red fox tail
+        - red fur tuft
+        - red haunches
+        - red heart-shaped makeup
+        - red orb
+        - red toes
+        - red vest
+        - reddish-orange eyes
         - reptile esc beak
         - revealing green farming overall
+        - rib-like accessory
+        - ripped tailcoat
+        - robotic hum
+        - robust frame
+        - roller blades
         - round butt
         - royal blue skin
         - s-shaped eyebrows
@@ -2580,30 +2910,64 @@ body:
         - sharp teeth
         - short wavy purple hair
         - shoulder-length hair
+        - signature mask
+        - silver locket
+        - single thick short braid
+        - skeletal hands
         - skeletal motif
+        - small chest
+        - small lean frame
+        - small loose headpiece
         - sombrero vueltiao
+        - sophisticated lingerie
         - spike-like arm
+        - spiraling irises
         - staff
         - suspenders
+        - thick
+        - thick body
         - thick thighs
+        - thigh-high black stockings
         - thin
         - three-piece suit
+        - tight black tank top
         - tight collar
+        - tight tube top
+        - tiny breasts
+        - tiny flowers woven in hair
+        - tomboyish features
+        - topless
         - torn black-and-white striped bow tie
         - translucent underpants
+        - tricolor head
         - two arms
         - two legs
         - two short straight horns
         - undercut
+        - v-neck
         - vagina
         - vertical-slit pupils
+        - vibrant emerald eyes
+        - vivid turquoise eyes
+        - warm caramel fur
         - wears a white tie and a black fedora
+        - wears uniform
+        - white and black striped haori
+        - white and blue dress with gold detailing
         - white armband
         - white boots
         - white conductor's glove
+        - white dress shirt
+        - white hair with red highlights
+        - white muzzle
         - white patch on chest
         - white skeletal paint
         - white skirt
+        - white stitches
+        - white trousers
+        - white underbelly and paws
+        - white waitress shirt
+        - wide eyes
         - wide smile
         - witch's staff
         - wrinkles
@@ -2680,6 +3044,7 @@ body:
         - Pregnancy
         - Public play
         - Public sex
+        - Raceplay
         - Rape
         - Roleplay
         - Rough sex
@@ -2703,6 +3068,7 @@ body:
         - Temperature Play
         - Tentacles
         - Threesome
+        - Top
         - Transformation
         - Uniform
         - Vibrators
@@ -2710,7 +3076,17 @@ body:
         - Voyeurism
         - Watching gold coins fall over her body
         - Worship
+        - all kinks/fetishes
+        - being degraded
+        - being dominated
+        - degrading others
+        - dirty talk
+        - dominating
+        - exploring taboos
+        - pain
         - power play
+        - she still has to figure it out
+        - toys
     validations:
       required: false
 
@@ -2744,6 +3120,8 @@ body:
         - Group
         - Group sex
         - Incest
+        - Incestuous
+        - Large penis
         - Marathon
         - Masturbation
         - Multiple Partners
@@ -2777,6 +3155,8 @@ body:
         - Virgin
         - bdsm
         - dark themes
+        - dominance
+        - submission
     validations:
       required: false
 
@@ -2805,7 +3185,9 @@ body:
         - Promiscuous
         - Straight
         - Submissive
+        - Switch
         - Unspecified
+        - exclusive relationship
     validations:
       required: false
 
@@ -2885,8 +3267,10 @@ body:
         - Victorian
         - Virtual Reality
         - Wilderness
+        - fictionalised Indian aesthetic
         - industrial
         - living room
+        - pre-20th century asia
     validations:
       required: false
 

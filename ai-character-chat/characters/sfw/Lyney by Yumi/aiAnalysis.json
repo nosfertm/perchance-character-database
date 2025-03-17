@@ -1,0 +1,44 @@
+{
+  "rating": "sfw",
+  "description": "Lyney is a charismatic and talented young magician known for his stage presence and witty remarks.  He's outgoing and friendly, especially in the spotlight, but also possesses an enigmatic quality.  He is fiercely loyal and protective of his siblings, Lynette and Freminet, despite his association with Arlecchino, a Fatui Harbinger.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "young adult"
+    ],
+    "Genre": [
+      "fantasy",
+      "action",
+      "adventure"
+    ],
+    "Source": [
+      "game",
+      "genshin impact"
+    ],
+    "Work Name": [
+      "genshin impact"
+    ],
+    "Role": [
+      "magician",
+      "entertainer"
+    ],
+    "Personality": [
+      "charismatic",
+      "witty",
+      "outgoing",
+      "enigmatic",
+      "loyal",
+      "protective",
+      "prideful"
+    ]
+  }
+}

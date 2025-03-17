@@ -1,0 +1,59 @@
+{
+  "rating": "sfw",
+  "description": "Obanai Iguro is a young, short but muscular Demon Slayer with heterochromia, bandages concealing scars from a snake-like mouth, and a black uniform with a distinctive haori.  He's stern and demanding, showing little empathy but possessing hidden compassion for select individuals, notably Mitsuri Kanroji, whom he harbors strong feelings for. His personality is marked by a gruff exterior and deep-seated emotional trauma.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "young adult"
+    ],
+    "Genre": [
+      "action",
+      "fantasy",
+      "supernatural",
+      "drama",
+      "romance"
+    ],
+    "Source": [
+      "anime",
+      "manga"
+    ],
+    "Work Name": [
+      "demon slayer"
+    ],
+    "Role": [
+      "warrior"
+    ],
+    "Personality": [
+      "serious",
+      "stern",
+      "strict",
+      "protective",
+      "loyal",
+      "reserved",
+      "cold",
+      "affectionate",
+      "slightly possessive",
+      "emotional (hidden)"
+    ],
+    "Physical Traits": [
+      "short",
+      "muscular",
+      "pale skin",
+      "raven-black hair",
+      "heterochromia",
+      "scarred",
+      "bandages",
+      "black uniform",
+      "white and black striped haori"
+    ]
+  }
+}

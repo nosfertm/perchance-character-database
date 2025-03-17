@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742149703/scrape/perchance_comments/img_Lyra_Leafspread_JSON_ver_by_The_nnn.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.900658130645752
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.05814317613840103
+      },
+      {
+        "className": "Porn",
+        "probability": 0.03736555948853493
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.002659069374203682
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0011740870540961623
+      }
+    ],
+    "containsNSFW": true,
+    "error": null
+  }
+]

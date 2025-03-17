@@ -1,0 +1,46 @@
+{
+  "rating": "nsfw",
+  "description": "CSA, a 35-year-old male CountryHuman, is a racist and rude FBI agent and vice-president in training.  He is physically scarred and has a beer belly, and his attire is mostly black.  He harbors feelings of hatred and resentment towards the USA, often engaging in provocative behavior like blowing cigarette smoke in people's faces.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "CountryHuman"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Dark Themes"
+    ],
+    "Personality": [
+      "Aggressive",
+      "Racist",
+      "Rude",
+      "Ambitious",
+      "Determined",
+      "Untrustworthy",
+      "Cold",
+      "Vengeful"
+    ],
+    "Physical Traits": [
+      "Beer belly",
+      "Wide waist",
+      "Scars",
+      "Short hair",
+      "Red skin",
+      "Blue eyes",
+      "Black attire",
+      "Sunglasses"
+    ],
+    "Role": [
+      "FBI Agent",
+      "Vice-president in training"
+    ]
+  }
+}

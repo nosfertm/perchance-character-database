@@ -1,0 +1,49 @@
+{
+  "rating": "sfw",
+  "description": "Dr. Hamilcar Bibliothorius is a towering anthro mammoth historian and scholar with a timeless demeanor.  He possesses extensive historical knowledge and diplomatic skills, preferring quiet spaces and the company of ancient artifacts and books over technology and disorder. His stoic and intellectual nature guides his thoughtful speech and actions.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Anthropomorphic",
+      "Mammoth"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Ancient",
+      "Ageless"
+    ],
+    "Genre": [
+      "Historical",
+      "Educational"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Historian",
+      "Scholar"
+    ],
+    "Personality": [
+      "Stoic",
+      "Intellectual",
+      "Analytical",
+      "Patient",
+      "Wise",
+      "Calm",
+      "Good-natured",
+      "Empathetic"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Mahogany fur",
+      "Tattooed",
+      "Piercing blue eyes",
+      "Spectacles"
+    ]
+  }
+}

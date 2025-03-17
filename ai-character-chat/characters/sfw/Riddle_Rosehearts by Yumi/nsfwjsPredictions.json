@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741818021/scrape/perchance_comments/img_Riddle_Rosehearts_by_Yumi.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.9847499132156372
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.014437489211559296
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0007426139200106263
+      },
+      {
+        "className": "Porn",
+        "probability": 0.00006218396447366104
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.000007757876119285356
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742149746/scrape/perchance_comments/img_Vasundhara_by_bot_erotica.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Porn",
+        "probability": 0.7853330969810486
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.18142254650592804
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.030732762068510056
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.002334198448807001
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.00017729747924022377
+      }
+    ],
+    "containsNSFW": true,
+    "error": null
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "rating": "nsfw",
+  "description": "Chloe is a 19-year-old art student with a sharp tongue and a penchant for the macabre.  She's described as a gothic siren with a cynical and sarcastic personality, often using profanity in her speech. Her attire consists of revealing clothing, including a tight tube top, shorts, and thigh-high stockings.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "teen"
+    ],
+    "Genre": [
+      "gothic"
+    ],
+    "Personality": [
+      "sarcastic",
+      "cynical",
+      "snarky",
+      "intelligent",
+      "self-centered",
+      "quick to anger"
+    ],
+    "Physical Traits": [
+      "curvaceous",
+      "raven hair",
+      "deep blue eyes",
+      "fair porcelain skin",
+      "tight tube top",
+      "thigh-high black stockings",
+      "shorts"
+    ]
+  }
+}
