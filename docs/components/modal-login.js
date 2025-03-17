@@ -299,11 +299,11 @@ export default {
             }
         },
 
-        async signInWithApple() {
+        async signInWithGitHub() {
             try {
-                // Call Supabase auth API to sign in with Apple
+                // Call Supabase auth API to sign in with Github
                 const { error } = await supabase.auth.signInWithOAuth({
-                    provider: 'apple',
+                    provider: 'github',
                     options: {
                         redirectTo: window.location.origin // Redirect to the same page after auth
                     }
@@ -313,7 +313,7 @@ export default {
                     this.error = error.message;
                 }
             } catch (err) {
-                this.error = 'Failed to sign in with Apple.';
+                this.error = 'Failed to sign in with Github.';
                 console.error(err);
             }
         },
