@@ -1,7 +1,8 @@
-import { supabase } from './supabase.js'
+import { supabase } from '../js/supabase.js'
 
-// Create Vue application
-const app = Vue.createApp({
+export default {
+    props: ['isDarkMode'],
+
     // Data properties for the application
     data() {
         return {
@@ -356,7 +357,4 @@ const app = Vue.createApp({
             }
         });
     }
-});
-
-// Mount the Vue app
-app.mount('#auth-app');
+};

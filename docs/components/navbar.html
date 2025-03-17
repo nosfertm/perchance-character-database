@@ -61,9 +61,8 @@
 
                 <!-- Login button -->
                 <button class="btn btn-primary me-2 gap-2" type="button" data-bs-toggle="modal" data-bs-target="#loginModal"
-                    aria-controls="loginModal" @click="isLoginModalOpen = !isLoginModalOpen"
-                    @mouseover="isHovered = true" @mouseleave="isHovered = false">
-                    <i :class="isHovered ? 'fas fa-door-open' : 'fas fa-sign-in-alt'"></i>
+                    aria-controls="loginModal" @click="isLoginModalOpen = !isLoginModalOpen">
+                    <i class="fas fa-sign-in-alt"></i>
                     <span class="d-none d-lg-inline"> Login</span>
                 </button>
 

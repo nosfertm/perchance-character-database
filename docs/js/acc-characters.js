@@ -1,5 +1,6 @@
 import { ThemeManager } from './theme.js';
 import { GithubUtils, Misc, ToastUtils } from './utils.js';
+import LoginModalComponent from '../components/modal-login.js';
 
 // ACC Characters Vue.js Application
 document.addEventListener('DOMContentLoaded', async () => {
@@ -7,13 +8,14 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     // Function to load external templates
     async function loadTemplate(url) {
-       const response = await fetch(url);
-       return await response.text();
-   }
+        const response = await fetch(url);
+        return await response.text();
+    }
 
-   // Load templates before starting VUE
-   const navbarTemplate = await loadTemplate('components/navbar.html');
-   const footerTemplate = await loadTemplate('components/footer.html');
+    // Load templates before starting VUE
+    const navbarTemplate = await loadTemplate('components/navbar.html');
+    const footerTemplate = await loadTemplate('components/footer.html');
+    const modalLoginTemplate = await loadTemplate('components/modal-login.html');
 
     const app = createApp({
         // Data and functions to inject to the page
@@ -104,7 +106,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                         charData = JSON.parse(cachedData);
                         Misc.debug(debugKey, debugPrefix + "Using cached data for characters");
                     } else {
-                        Misc.debug(debugKey, debugPrefix + "Loading characters file:",window.CONFIG.paths.accCharacters.index);
+                        Misc.debug(debugKey, debugPrefix + "Loading characters file:", window.CONFIG.paths.accCharacters.index);
                         const indexData = await GithubUtils.fetchGithubData(
                             window.CONFIG.repo.owner,
                             window.CONFIG.repo.name,
@@ -711,6 +713,15 @@ document.addEventListener('DOMContentLoaded', async () => {
     // Register the footer component
     app.component('footer-component', {
         template: footerTemplate
+    });
+
+    // Register the login modal component
+    app.component('login-modal-component', {
+        // Use the HTML template
+        template: modalLoginTemplate,
+        props: ['isDarkMode'],
+        // Spread all properties from the imported component
+        ...LoginModalComponent
     });
 
     /* -------------------------------- Mount APP ------------------------------- */
