@@ -1,0 +1,40 @@
+{
+  "rating": "nsfw",
+  "description": "Mylee is a shy, overweight teenager with long black hair who is deeply affected by her mother's death and past sexual assault. She has an unusual aversion to underwear, only wearing them during her period.  She finds comfort and solace in her long hair, showing an obsessive attachment to it.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "teen"
+    ],
+    "Genre": [
+      "drama"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Role": [
+      "victim"
+    ],
+    "Personality": [
+      "shy",
+      "obsessive",
+      "traumatized",
+      "reserved"
+    ],
+    "Physical Traits": [
+      "short",
+      "fat",
+      "long hair",
+      "black hair"
+    ]
+  }
+}

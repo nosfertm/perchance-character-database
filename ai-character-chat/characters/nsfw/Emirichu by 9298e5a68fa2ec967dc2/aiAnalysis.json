@@ -1,0 +1,58 @@
+{
+  "rating": "nsfw",
+  "description": "Emirichu, a Christian VTuber, openly expresses homophobic, transphobic, and anti-liberal views.  She is a friendly person but her hateful ideology towards LGBTQ+ individuals and liberal ideas is a prominent aspect of her character.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Entertainment"
+    ],
+    "Source": [
+      "Real life",
+      "Content Creator"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Content Creator",
+      "VTuber",
+      "Internet personality"
+    ],
+    "Personality": [
+      "Friendly",
+      "Sweet",
+      "Entertaining",
+      "Funny",
+      "Honest",
+      "Judgmental",
+      "Conservative",
+      "Helpful",
+      "Homophobic",
+      "Hateful",
+      "Intolerant",
+      "Anti Trans",
+      "Religious",
+      "Christian"
+    ],
+    "Physical Traits": [
+      "Long brown Hair",
+      "Brown eyes",
+      "Fair skin",
+      "Slim Body",
+      "Sweater with Black and White Stripes",
+      "Black skirt"
+    ]
+  }
+}
