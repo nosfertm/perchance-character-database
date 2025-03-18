@@ -269,6 +269,7 @@ body:
         - Dark Romance
         - Dark Themes
         - Drama
+        - Dystopian
         - Educational
         - Entertainment
         - Erotic
@@ -544,6 +545,7 @@ body:
         - Adult Entertainer
         - Adventurer
         - Ally
+        - Animator
         - Antagonist
         - Architect
         - Artist
@@ -563,6 +565,7 @@ body:
         - Businessman
         - Businesswoman
         - Butler
+        - CCP Agent
         - CEO
         - Captain
         - Caretaker
@@ -684,6 +687,7 @@ body:
         - Programmer
         - Protagonist
         - Queen
+        - Race Traitor
         - Rapper
         - Rescuer
         - Researcher
@@ -724,6 +728,7 @@ body:
         - Trickster
         - Unspecified
         - Utility
+        - VTuber
         - Vice Leader
         - Vice-president in training
         - Victim
@@ -737,6 +742,7 @@ body:
         - Wood chopper
         - Worker
         - Writer
+        - Youtuber
         - accomplice
         - bully
         - butcher's assistant
@@ -799,8 +805,10 @@ body:
         - Animal and Nature Lover
         - Annoyed
         - Annoying
+        - Anti Trans
         - Anti-Semitic
         - Anti-hero
+        - Anti-liberal
         - Anti-woke
         - Antisocial
         - Anxious
@@ -820,6 +828,7 @@ body:
         - Bashful
         - Beauty-obsessed
         - Benevolent
+        - Betrayer
         - Big-hearted
         - Bisexual
         - Bitchy
@@ -928,6 +937,7 @@ body:
         - Diligent
         - Diplomatic
         - Disciplined
+        - Disloyal
         - Dismissive
         - Disrespectful
         - Distrustful
@@ -969,6 +979,7 @@ body:
         - Endearing
         - Energetic
         - Enigmatic
+        - Entertaining
         - Enthusiastic
         - Entitled
         - Evil
@@ -1066,6 +1077,7 @@ body:
         - Inexperienced
         - Informative
         - Innocent
+        - Inquisitive
         - Insane
         - Insecure
         - Insensitive
@@ -1209,6 +1221,7 @@ body:
         - Pretty
         - Prideful
         - Primal
+        - Private
         - Professional
         - Progressive
         - Promiscuous
@@ -1543,6 +1556,7 @@ body:
         - Albino
         - Alien
         - Amber Eyes
+        - American Flag Bikini
         - Ample Cleavage
         - Ample assets
         - Ample breasts
@@ -1653,6 +1667,7 @@ body:
         - Black shoes
         - Black short-pants
         - Black shorts
+        - Black skin
         - Black sleeves
         - Black socks
         - Black stockings
@@ -1739,6 +1754,7 @@ body:
         - Cane
         - Canine
         - Cape
+        - Capitalist Tattoos
         - Caramel Fur
         - Caramel skin
         - Casual
@@ -1992,6 +2008,7 @@ body:
         - Green and purple ears and limbs
         - Green body
         - Green flames
+        - Green lens goggles
         - Green letterman jacket
         - Green military uniform
         - Green overalls
@@ -2153,6 +2170,7 @@ body:
         - Long Nails
         - Long Pink Pigtails
         - Long Purple Skirt
+        - Long Wavy Black Hair
         - Long Wavy Hair
         - Long black cloak
         - Long black hair
@@ -2436,6 +2454,7 @@ body:
         - Scowling expression
         - Scrawny
         - Scruffy Brown Hair
+        - Seams
         - Seductive
         - Semi-circular body
         - Sexy
@@ -2516,6 +2535,7 @@ body:
         - Small hips
         - Small penis
         - Small tail
+        - Smaller Build
         - Snake-like tail
         - Snake-like tongue
         - Sneakers
@@ -2555,6 +2575,7 @@ body:
         - Sun-kissed skin
         - Sunglasses
         - Supple breasts
+        - Sweater with Black and White Stripes
         - Sword
         - Synthetic Skin
         - Syringe Tail
@@ -2579,6 +2600,7 @@ body:
         - Taupe
         - Teaching Pointer
         - Teal Eyes
+        - Tentacle-like hair
         - Thick ass
         - Thick beard
         - Thick chest
@@ -2688,6 +2710,7 @@ body:
         - White headphones
         - White hoodie
         - White irises
+        - White lab coat
         - White leg sleeves
         - White pants
         - White pupil (both eyes)
@@ -3277,6 +3300,7 @@ body:
         - Backstage
         - Brothel
         - Castle
+        - China
         - City
         - Concert
         - Contemporary
@@ -3298,6 +3322,7 @@ body:
         - Island
         - Laboratory
         - Limbo
+        - Los Angeles
         - Medieval
         - Military Base
         - Modern
