@@ -28,7 +28,7 @@
         <login-modal-component :is-dark-mode="isDarkMode" @login-changed="user = $event"></login-modal-component>
 
         <!-- Navigation bar component -->
-        <navbar-component :user="user"></navbar-component>
+        <navbar-component :user="user" :loading="loading" :is-dark-mode="isDarkMode"></navbar-component>
 
         <!-- Main Content -->
         <div class="container-fluid px-4">

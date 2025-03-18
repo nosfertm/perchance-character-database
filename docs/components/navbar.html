@@ -68,11 +68,42 @@
                 </button>
 
                 <!-- Profile button (when user is authenticated) -->
-                <button v-else class="btn btn-success me-2 gap-2" type="button" data-bs-toggle="modal"
-                data-bs-target="#loginModal" aria-controls="loginModal"> <!-- @click="goToProfile"> -->
-                    <i class="fas fa-user-circle"></i>
-                    <span class="d-none d-lg-inline"> Profile</span>
-                </button>
+                <div v-else class="dropdown">
+                    <!-- Profile Button -->
+                    <button class="btn dropdown-toggle btn-outline-light"
+                            type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img :src="user.user_metadata && user.user_metadata.avatar_url" alt="Avatar" class="rounded-circle me-2"  style="width: 25px; height: 25px; object-fit: cover;">
+                        <span>{{ user.user_metadata && user.user_metadata.name }}</span>
+                    </button>
+            
+                    <!-- Dropdown menu items -->
+                    <ul class="dropdown-menu dropdown-menu-end" :class="{ 'dropdown-menu-dark': isDarkMode }">
+                        <li class="px-3 py-2 text-center">
+                            <img :src="user.user_metadata && user.user_metadata.avatar_url" alt="Avatar" class="rounded-circle mb-2" style="width: 80px; height: 80px; object-fit: cover;">
+                            <div><strong>{{user.user_metadata && user.user_metadata.full_name}}</strong></div>
+                            <small :class="isDarkMode ? 'text-light' : 'text-muted'" style="font-style: italic;">{{ user.user_metadata && user.user_metadata.email }}</small>
+                        </li>
+                        <li><hr :class="isDarkMode ? 'border-light' : 'border-dark'"></li>
+                        <li><a class="dropdown-item" href="#"><i class="fa-solid fa-user me-2"></i> My Profile</a></li>
+                        <li><a class="dropdown-item" href="#"><i class="fa-solid fa-cog me-2"></i> Settings</a></li>
+                        <li><a class="dropdown-item" href="#"><i class="fa-solid fa-question-circle me-2"></i> Help</a></li>
+                        <li><hr :class="isDarkMode ? 'border-light' : 'border-dark'"></li>
+                        <li>
+                            <a 
+                              class="dropdown-item text-danger" 
+                              href="#" 
+                              @click.prevent="signOut" 
+                              :disabled="loading" 
+                              :class="{'disabled': loading}"
+                            >
+                              <span v-if="loading" class="spinner-border spinner-border-sm me-2"></span>
+                              <span v-else><i class="fa-solid fa-sign-out-alt me-2"></i></span>
+                              <span v-if="loading">Signing out...</span>
+                              <span v-else>Logout</span>
+                            </a>
+                          </li>
+                    </ul>
+                </div>
 
 
 
