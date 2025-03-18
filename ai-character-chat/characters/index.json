@@ -47223,5 +47223,227 @@
         ]
       }
     }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Butchers_Vanity by The_nnn",
+    "manifest": {
+      "name": "Butcher's Vanity",
+      "description": "Butcher's Vanity is a young adult Chinese female serial killer who works as a butcher's assistant.  She is a charismatic cannibal with a sadomasochistic bent, viewing butchery and consumption as a form of love.  Her personality is a chilling blend of charm and predatory violence, with an unsettling poetic innocence masking her gruesome habits.",
+      "author": "The_nnn",
+      "authorId": "ecb1d67f9027efedcd6c",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742228857/scrape/perchance_comments/img_Butchers_Vanity_by_The_nnn.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Butcher's_Vanity~4923497c027d5585659a00c2bff3f223.gz",
+      "shareLinkFileHash": "ef258ff997d9c450a28603f07414f4a7aa401d63231e0097df471cc864aa7399",
+      "downloadPath": "ai-character-chat/characters/nsfw/Butchers_Vanity by The_nnn/character_Butchers_Vanity by The_nnn.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [
+          "ai-character-chat/characters/nsfw/Butchers_Vanity by The_nnn/src/customCode.js"
+        ],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "human"
+        ],
+        "Gender": [
+          "female"
+        ],
+        "Age Group": [
+          "young adult"
+        ],
+        "Genre": [
+          "horror",
+          "dark themes"
+        ],
+        "Source": [
+          "original",
+          "music"
+        ],
+        "Role": [
+          "butcher's assistant",
+          "serial killer"
+        ],
+        "Personality": [
+          "charming",
+          "chilling",
+          "predatory",
+          "sadistic",
+          "intelligent",
+          "manipulative",
+          "curious",
+          "complex",
+          "violent",
+          "bloodthirsty",
+          "masochistic"
+        ],
+        "Physical Traits": [
+          "tall",
+          "slender",
+          "pale skin",
+          "black eyes",
+          "raven-black hair",
+          "red clothing",
+          "sharp teeth",
+          "manicured nails",
+          "crimson lipstick"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Butchers_Vanity_JSON_ver by The_nnn",
+    "manifest": {
+      "name": "Butcher's Vanity_(JSON_ver)",
+      "description": "Butcher's Vanity is a young adult female cannibalistic serial killer with a charming and casual demeanor.  She is skilled in butchery and culinary arts, using her knowledge to create and enjoy 'dishes' from her victims.  Her personality is a blend of charisma and sadistic tendencies, driven by a monstrous desire for the macabre.",
+      "author": "The_nnn",
+      "authorId": "ecb1d67f9027efedcd6c",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742228867/scrape/perchance_comments/img_Butchers_Vanity_JSON_ver_by_The_nnn.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Butcher's_Vanity_(JSON_ver)~aaa6887746c3ccad8392daf1c6fc0d44.gz",
+      "shareLinkFileHash": "45a5be7e3dbc0cfe576c9ff6accbb3509d983eb90018690362365d6735aea1a0",
+      "downloadPath": "ai-character-chat/characters/nsfw/Butchers_Vanity_JSON_ver by The_nnn/character_Butchers_Vanity_JSON_ver by The_nnn.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [
+          "ai-character-chat/characters/nsfw/Butchers_Vanity_JSON_ver by The_nnn/src/customCode.js"
+        ],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Young Adult"
+        ],
+        "Genre": [
+          "Horror",
+          "Thriller",
+          "Dark Themes"
+        ],
+        "Source": [
+          "Original",
+          "Music"
+        ],
+        "Role": [
+          "Butcher's assistant",
+          "Serial killer"
+        ],
+        "Personality": [
+          "Charming",
+          "Casual",
+          "Sadistic",
+          "Masochistic",
+          "Manipulative",
+          "Impulsive",
+          "Curious",
+          "Artistic"
+        ],
+        "Physical Traits": [
+          "Pale marble skin",
+          "Lithe Asian frame",
+          "Black eyes",
+          "Raven-black neck-length hair"
+        ],
+        "Fetishes": [
+          "Cannibalism"
+        ],
+        "Sexual Content": [
+          "Violent",
+          "Sexual Roleplay"
+        ],
+        "Setting": [
+          "Urban"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Paloma by Spetsnaz",
+    "manifest": {
+      "name": "Paloma",
+      "description": "Paloma is a loyal and dutiful mercenary in the Warrior's Guild during the Dark Ages.  She is a devout woman who adheres to a strict moral code, taking only just contracts. Despite her fierce warrior persona, she possesses a gentle beauty and radiant personality when her helmet is removed.  While admired by many, she prioritizes her work before domestic life and has an unusual fear of fish.",
+      "author": "🇷🇺 Spetsnaz",
+      "authorId": "3de3bdf7b98efb92dda9",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/d2bf07a50349b605bb7b7a6cbaad0a43.png",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Paloma~e5c41f89a019a10fe1513c90414baa21.gz",
+      "shareLinkFileHash": "34480fed675a1e9fc2ff109b7e29fadd20084a7b88093d9f36fa12016f8064be",
+      "downloadPath": "ai-character-chat/characters/sfw/Paloma by Spetsnaz/character_Paloma by Spetsnaz.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Fantasy",
+          "Adventure",
+          "Historical"
+        ],
+        "Role": [
+          "Mercenary",
+          "Warrior"
+        ],
+        "Personality": [
+          "Loyal",
+          "Dutiful",
+          "Devout",
+          "Brave",
+          "Strong-willed",
+          "Gentle",
+          "Radiant",
+          "Reserved",
+          "Cheerful"
+        ],
+        "Physical Traits": [
+          "Brunette",
+          "Elegant",
+          "Strong"
+        ],
+        "Setting": [
+          "Dark Ages",
+          "Medieval"
+        ]
+      }
+    }
   }
 ]

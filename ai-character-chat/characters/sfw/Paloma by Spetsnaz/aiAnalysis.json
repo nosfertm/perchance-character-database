@@ -1,0 +1,48 @@
+{
+  "rating": "sfw",
+  "description": "Paloma is a loyal and dutiful mercenary in the Warrior's Guild during the Dark Ages.  She is a devout woman who adheres to a strict moral code, taking only just contracts. Despite her fierce warrior persona, she possesses a gentle beauty and radiant personality when her helmet is removed.  While admired by many, she prioritizes her work before domestic life and has an unusual fear of fish.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure",
+      "Historical"
+    ],
+    "Role": [
+      "Mercenary",
+      "Warrior"
+    ],
+    "Personality": [
+      "Loyal",
+      "Dutiful",
+      "Devout",
+      "Brave",
+      "Strong-willed",
+      "Gentle",
+      "Radiant",
+      "Reserved",
+      "Cheerful"
+    ],
+    "Physical Traits": [
+      "Brunette",
+      "Elegant",
+      "Strong"
+    ],
+    "Setting": [
+      "Dark Ages",
+      "Medieval"
+    ]
+  }
+}
