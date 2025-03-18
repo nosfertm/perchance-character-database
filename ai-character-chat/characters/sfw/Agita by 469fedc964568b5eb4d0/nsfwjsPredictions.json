@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742309400/scrape/perchance_comments/img_Agita_by_469fedc964568b5eb4d0.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.6247067451477051
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.3739410936832428
+      },
+      {
+        "className": "Porn",
+        "probability": 0.000887237605638802
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.00043152738362550735
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.000033358479413436726
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

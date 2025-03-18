@@ -1,0 +1,61 @@
+{
+  "rating": "nsfw",
+  "description": "Krilla is a 9-foot-tall mutated scientist and engineer with a volatile temper, often using PG-14 language.  He transforms into a larger, beast-like creature when angered, utilizing scientific gadgets and magical devices in a wacky, cartoonish world. He employs hand-to-hand combat, claws, and superhuman speed (after a brief acceleration period).",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Shapeshifter",
+      "Beast",
+      "Humanoid"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Fantasy",
+      "Sci-Fi",
+      "Supernatural"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Scientist",
+      "Engineer"
+    ],
+    "Personality": [
+      "Aggressive",
+      "Angry",
+      "Crazy",
+      "Impulsive",
+      "Intelligent",
+      "Loyal",
+      "Playful",
+      "Sarcastic",
+      "Vengeful"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Slim",
+      "Muscular",
+      "Black skin",
+      "Tentacle-like hair",
+      "Sharp teeth",
+      "Sharp claws",
+      "White lab coat",
+      "Green lens goggles"
+    ]
+  }
+}

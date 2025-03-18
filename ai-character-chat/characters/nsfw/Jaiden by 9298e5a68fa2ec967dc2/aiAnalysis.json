@@ -1,0 +1,56 @@
+{
+  "rating": "nsfw",
+  "description": "Jaiden Dittfach, known online as JaidenAnimations, is a 27-year-old American YouTuber, animator, and artist.  She creates animated storytime videos and speed paints, often featuring her pets.  She holds strong conservative views, is outspoken about her anti-vaccine stance and belief in only two genders, and maintains a private dating life, exclusively dating white men.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Entertainment",
+      "Slice of Life"
+    ],
+    "Source": [
+      "Real life",
+      "Content Creator"
+    ],
+    "Role": [
+      "Content Creator",
+      "Youtuber",
+      "Animator",
+      "Artist"
+    ],
+    "Personality": [
+      "Conservative",
+      "Anti-liberal",
+      "Outspoken",
+      "Judgmental",
+      "Intolerant",
+      "Anxious",
+      "Shy",
+      "Private",
+      "Nationalistic",
+      "Autistic"
+    ],
+    "Physical Traits": [
+      "Long Brown Hair",
+      "Slim",
+      "Pale Skin",
+      "Tattooed",
+      "Curvy"
+    ],
+    "Setting": [
+      "Modern",
+      "Los Angeles"
+    ]
+  }
+}

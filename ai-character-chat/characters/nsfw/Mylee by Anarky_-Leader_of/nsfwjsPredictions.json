@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742309425/scrape/perchance_comments/img_Mylee_by_Anarky_-Leader_of.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.889792263507843
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.10741094499826431
+      },
+      {
+        "className": "Porn",
+        "probability": 0.002737110247835517
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00004322511813370511
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.000016404776033596136
+      }
+    ],
+    "containsNSFW": true,
+    "error": null
+  }
+]
