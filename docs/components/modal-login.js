@@ -332,6 +332,7 @@ export default {
                 // If there's an active session, get the user details
                 if (data.session) {
                     this.user = data.session.user;
+                    this.$emit('login-changed', data.session.user || null);
                 }
             } catch (err) {
                 console.error('Error checking user:', err);

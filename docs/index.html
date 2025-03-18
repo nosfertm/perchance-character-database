@@ -25,10 +25,10 @@
     <div id="app" v-cloak class="d-flex flex-column min-vh-100">
 
         <!-- Login modal component -->
-        <login-modal-component :is-dark-mode="isDarkMode"></login-modal-component>
+        <login-modal-component :is-dark-mode="isDarkMode" @login-changed="user = $event"></login-modal-component>
 
         <!-- Navigation bar component -->
-        <navbar-component></navbar-component>
+        <navbar-component :user="user"></navbar-component>
 
         <!-- Main Content -->
         <div class="container-fluid px-4">

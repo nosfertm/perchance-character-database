@@ -34,6 +34,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 site: window.CONFIG.site,       // General configuration
                 isDarkMode: localStorage.getItem('siteTheme') === 'dark',
                 currentTheme: localStorage.getItem('siteTheme') === 'dark',
+                user: ''
             };
         },
         methods: {
@@ -69,18 +70,14 @@ document.addEventListener('DOMContentLoaded', async () => {
     // Register the navbar component
     app.component('navbar-component', {
         template: navbarTemplate,
-        inject: ['site', 'themeIcon', 'isDarkMode', 'setTheme']
+        inject: ['site', 'themeIcon', 'isDarkMode', 'setTheme'],
+        props: ['user']
     });
 
     // Register the footer component
     app.component('footer-component', {
         template: footerTemplate
     });
-
-    // Register the login modal component
-    // app.component('login-modal-component', {
-    //     template: modalLoginTemplate
-    // });
 
     // Register the login modal component
     app.component('login-modal-component', {

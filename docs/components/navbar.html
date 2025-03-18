@@ -60,11 +60,20 @@
                 <slot></slot>
 
                 <!-- Login button -->
-                <button class="btn btn-primary me-2 gap-2" type="button" data-bs-toggle="modal" data-bs-target="#loginModal"
-                    aria-controls="loginModal" @click="isLoginModalOpen = !isLoginModalOpen">
+                <button v-if="!user" class="btn btn-primary me-2 gap-2" type="button" data-bs-toggle="modal"
+                    data-bs-target="#loginModal" aria-controls="loginModal"
+                    @click="isLoginModalOpen = !isLoginModalOpen">
                     <i class="fas fa-sign-in-alt"></i>
                     <span class="d-none d-lg-inline"> Login</span>
                 </button>
+
+                <!-- Profile button (when user is authenticated) -->
+                <button v-else class="btn btn-success me-2 gap-2" type="button" data-bs-toggle="modal"
+                data-bs-target="#loginModal" aria-controls="loginModal"> <!-- @click="goToProfile"> -->
+                    <i class="fas fa-user-circle"></i>
+                    <span class="d-none d-lg-inline"> Profile</span>
+                </button>
+
 
 
             </div>

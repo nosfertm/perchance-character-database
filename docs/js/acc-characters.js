@@ -34,6 +34,9 @@ document.addEventListener('DOMContentLoaded', async () => {
                 isDarkMode: localStorage.getItem('siteTheme') === 'dark',
                 currentTheme: localStorage.getItem('siteTheme'),
 
+                // User variables
+                user: '',
+
                 // Variables for user interaction
                 isFilterPanelOpen: false,       // Flag to control filter panel visibility and page responsiveness
                 selectedCharacter: null,        // Object to store selected character details to show on modal
@@ -707,7 +710,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     // Register the navbar component
     app.component('navbar-component', {
         template: navbarTemplate,
-        inject: ['site', 'themeIcon', 'isDarkMode', 'setTheme']
+        inject: ['site', 'themeIcon', 'isDarkMode', 'setTheme'],
+        props: ['user']
     });
 
     // Register the footer component

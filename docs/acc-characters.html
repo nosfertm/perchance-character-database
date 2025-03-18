@@ -25,7 +25,7 @@
     <div id="app" v-cloak>
 
         <!-- Login modal component -->
-        <login-modal-component :is-dark-mode="isDarkMode"></login-modal-component>
+        <login-modal-component :is-dark-mode="isDarkMode" @login-changed="user = $event"></login-modal-component>
 
         <!-- MODAL CHARACTER DETAIL -->
         <div class="modal fade" id="characterModal" tabindex="-1" aria-labelledby="characterModalLabel"
@@ -237,7 +237,7 @@
         <!-- ----------------------------------------------------------------------- -->
 
         <!-- Navigation -->
-        <navbar-component>
+        <navbar-component :user="user">
             <!-- Gallery Controls - Outside collapse -->
             <div class="d-flex align-items-center order-lg-last ms-2">
                 <div class="d-flex gap-2 me-2">

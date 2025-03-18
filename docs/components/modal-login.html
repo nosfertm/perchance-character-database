@@ -3,6 +3,10 @@
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content" :class="{'bg-dark': isDarkMode}">
 
+            <div class="modal-header" :class="{'text-white': isDarkMode}">
+                <button type="button" class="btn-close" :class="{'btn-close-white': isDarkMode}" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
             <!-- Modal Body containing the login form -->
             <div class="modal-body">
                 <!-- Alert for messages and errors -->
