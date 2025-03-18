@@ -1,0 +1,41 @@
+[
+  {
+    "image": "https://wallpapers.com/images/hd/ankha-animal-crossing-bvi1i03qh6hmlmxc.jpg",
+    "fileType": "jpg",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.9666065573692322
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.03285419940948486
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.00044479884672909975
+      },
+      {
+        "className": "Porn",
+        "probability": 0.00007998468208825216
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00001454014636692591
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  },
+  {
+    "image": "https://files.catbox.moe/adpksx.mp4",
+    "predictions": [],
+    "containsNSFW": null,
+    "error": {
+      "message": "Unable to process image after multiple attempts: Expected image (BMP, JPEG, PNG, or GIF), but got unsupported image type",
+      "stack": "Error: Unable to process image after multiple attempts: Expected image (BMP, JPEG, PNG, or GIF), but got unsupported image type\n    at safeLoadImage (/home/runner/work/perchance_content_scraper/perchance_content_scraper/.github/scripts/process_scraped_characters.js:2517:31)\n    at async checkImageForNSFW (/home/runner/work/perchance_content_scraper/perchance_content_scraper/.github/scripts/process_scraped_characters.js:2748:32)\n    at async processCharacter (/home/runner/work/perchance_content_scraper/perchance_content_scraper/.github/scripts/process_scraped_characters.js:3181:55)\n    at async processCharacters (/home/runner/work/perchance_content_scraper/perchance_content_scraper/.github/scripts/process_scraped_characters.js:2867:30)\n    at async main (/home/runner/work/perchance_content_scraper/perchance_content_scraper/.github/scripts/process_scraped_characters.js:3532:9)",
+      "name": "Error",
+      "code": "UNSUPPORTED_FORMAT"
+    }
+  }
+]

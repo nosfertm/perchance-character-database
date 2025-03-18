@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742301035/scrape/perchance_comments/img_Eight_Foot_Joe_by_Veils_Infatuation.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.7280008792877197
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.24120311439037323
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.01822352036833763
+      },
+      {
+        "className": "Porn",
+        "probability": 0.008032087236642838
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.004540350288152695
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

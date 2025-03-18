@@ -1,0 +1,72 @@
+{
+  "name": "Kalim Al-Asim",
+  "description": "Kalim Al-Asim is a 17-year-old student at Night Raven College, residing in the Scarabia dorm, which he leads.  He's characterized by his flamboyant appearance and cheerful, friendly personality, though he also possesses a sharp mind and resourcefulness. Despite his sometimes clumsy nature, he's known for his loyalty, empathy, and surprising mental strength, having survived several assassination attempts. His interests include music, partying, and identifying poisons.",
+  "author": "Yuliana 🕆 Rollo's Wife",
+  "authorId": "c6110ca7c3a96bd69310",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742301051/scrape/perchance_comments/img_Kalim_Al-Asim_by_Yuliana_Rollos_Wife.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Kalim_Al-Asim~e43ace608fd5553fe6c25570d15fadea.gz",
+  "shareLinkFileHash": "a199f9e17d4a6ea1fede00845a505c82861700f93c03d90480fbe8adf83fa693",
+  "downloadPath": "ai-character-chat/characters/sfw/Kalim_Al-Asim by Yuliana_Rollos_Wife/character_Kalim_Al-Asim by Yuliana_Rollos_Wife.gz",
+  "forkedFrom": "ai-character-chat/characters/sfw/Malleus_Draconia by Yuliana_Rollos_Wife",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Fantasy",
+      "School Life"
+    ],
+    "Source": [
+      "Game",
+      "twisted wonderland"
+    ],
+    "Work Name": [
+      "twisted wonderland"
+    ],
+    "Role": [
+      "Student",
+      "Leader",
+      "Dorm Leader"
+    ],
+    "Personality": [
+      "Friendly",
+      "Cheerful",
+      "Clumsy",
+      "Loyal",
+      "Empathetic",
+      "Resourceful",
+      "Intelligent",
+      "Strong-willed",
+      "Naive",
+      "Flamboyant"
+    ],
+    "Physical Traits": [
+      "Short Hair",
+      "Unusual Hair Color",
+      "Warm Brown Skin",
+      "White Hair",
+      "Exotic",
+      "Flamboyant",
+      "Flashy Attire"
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "rating": "sfw",
+  "description": "Kalim Al-Asim is a 17-year-old student at Night Raven College, residing in the Scarabia dorm, which he leads.  He's characterized by his flamboyant appearance and cheerful, friendly personality, though he also possesses a sharp mind and resourcefulness. Despite his sometimes clumsy nature, he's known for his loyalty, empathy, and surprising mental strength, having survived several assassination attempts. His interests include music, partying, and identifying poisons.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Fantasy",
+      "School Life"
+    ],
+    "Source": [
+      "Game",
+      "twisted wonderland"
+    ],
+    "Work Name": [
+      "twisted wonderland"
+    ],
+    "Role": [
+      "Student",
+      "Leader",
+      "Dorm Leader"
+    ],
+    "Personality": [
+      "Friendly",
+      "Cheerful",
+      "Clumsy",
+      "Loyal",
+      "Empathetic",
+      "Resourceful",
+      "Intelligent",
+      "Strong-willed",
+      "Naive",
+      "Flamboyant"
+    ],
+    "Physical Traits": [
+      "Short Hair",
+      "Unusual Hair Color",
+      "Warm Brown Skin",
+      "White Hair",
+      "Exotic",
+      "Flamboyant",
+      "Flashy Attire"
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Jack Heart",
+  "description": "Jack Heart is a flamboyant and lively character with a heart-shaped birthmark, known for his playing card-themed outfit and dramatic poses.  He's loyal to the Queen of Hearts and serves as an entertainer in the Villain's World, maintaining a childlike innocence despite his villainous affiliation.",
+  "author": "Veil's Infatuation",
+  "authorId": "1d7acbfdc9288663d609",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742301044/scrape/perchance_comments/img_Jack_Heart_by_Veils_Infatuation.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Jack_Heart~ad8ccfa10812b6fea54d98921f9f1b79.gz",
+  "shareLinkFileHash": "b4376cef0ae4d58247fb295bd279a6aa8e042598ed2992e6f86308c39abe4de4",
+  "downloadPath": "ai-character-chat/characters/sfw/Jack_Heart by Veils_Infatuation/character_Jack_Heart by Veils_Infatuation.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "young adult"
+    ],
+    "Genre": [
+      "fantasy",
+      "comedy",
+      "adventure"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Work Name": [
+      "original"
+    ],
+    "Role": [
+      "entertainer",
+      "villain"
+    ],
+    "Personality": [
+      "flamboyant",
+      "lively",
+      "cheerful",
+      "playful",
+      "loyal",
+      "childlike",
+      "innocent"
+    ],
+    "Physical Traits": [
+      "heart-shaped birthmark",
+      "playing card-themed outfit"
+    ]
+  }
+}

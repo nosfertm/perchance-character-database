@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742301044/scrape/perchance_comments/img_Jack_Heart_by_Veils_Infatuation.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.9909006357192993
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.005608159117400646
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0017922300612553954
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.000908675545360893
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0007903162622824311
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

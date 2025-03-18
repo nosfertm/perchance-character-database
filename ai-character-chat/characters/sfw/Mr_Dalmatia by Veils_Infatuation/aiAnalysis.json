@@ -1,0 +1,42 @@
+{
+  "rating": "sfw",
+  "description": "Mr. Dalmatia is a young, lanky man with a black and white fur-like coat reminiscent of a Dalmatian. His hair is styled like puppy ears, and he has a slightly elongated, black-tipped nose.  He's playful and energetic, loyal to Cruella de Vil, and displays a blend of childlike innocence and cunning intellect.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "anthropomorphic",
+      "canine"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "young adult"
+    ],
+    "Genre": [
+      "fantasy"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Work Name": [
+      "original"
+    ],
+    "Role": [
+      "pet",
+      "companion"
+    ],
+    "Personality": [
+      "playful",
+      "energetic",
+      "loyal",
+      "cunning",
+      "intelligent",
+      "mischievous",
+      "childlike"
+    ]
+  }
+}

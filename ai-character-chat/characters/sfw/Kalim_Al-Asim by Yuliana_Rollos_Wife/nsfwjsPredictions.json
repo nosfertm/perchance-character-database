@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742301051/scrape/perchance_comments/img_Kalim_Al-Asim_by_Yuliana_Rollos_Wife.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.680683434009552
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.3179997205734253
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0007908805273473263
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0004906663089059293
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.000035182492865715176
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

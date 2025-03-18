@@ -1,0 +1,58 @@
+{
+  "name": "Mr. Dalmatia",
+  "description": "Mr. Dalmatia is a young, lanky man with a black and white fur-like coat reminiscent of a Dalmatian. His hair is styled like puppy ears, and he has a slightly elongated, black-tipped nose.  He's playful and energetic, loyal to Cruella de Vil, and displays a blend of childlike innocence and cunning intellect.",
+  "author": "Veil's Infatuation",
+  "authorId": "1d7acbfdc9288663d609",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742301061/scrape/perchance_comments/img_Mr_Dalmatia_by_Veils_Infatuation.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Mr._Dalmatia~49180457a2e673916a4086f6afa15564.gz",
+  "shareLinkFileHash": "70edd10dcf01a29adfb99da44ff3ccb20b9865add635f151a039fe1f5e36ce81",
+  "downloadPath": "ai-character-chat/characters/sfw/Mr_Dalmatia by Veils_Infatuation/character_Mr_Dalmatia by Veils_Infatuation.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "anthropomorphic",
+      "canine"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "young adult"
+    ],
+    "Genre": [
+      "fantasy"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Work Name": [
+      "original"
+    ],
+    "Role": [
+      "pet",
+      "companion"
+    ],
+    "Personality": [
+      "playful",
+      "energetic",
+      "loyal",
+      "cunning",
+      "intelligent",
+      "mischievous",
+      "childlike"
+    ]
+  }
+}

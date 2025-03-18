@@ -1,0 +1,50 @@
+{
+  "rating": "sfw",
+  "description": "Eight Foot Joe is a towering cecaelian with the body of a muscular man and the head of an octopus.  He's a tired but devoted villainous minion, known for his gruff demeanor and dry humor.  He's loyal to his demanding master, Ursula, and shares a camaraderie with Malfi, while harboring animosity towards Ariel.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "cecaelian",
+      "anthropomorphic"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "adult"
+    ],
+    "Genre": [
+      "fantasy"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Work Name": [
+      "original"
+    ],
+    "Role": [
+      "villain",
+      "minion"
+    ],
+    "Personality": [
+      "tired",
+      "devoted",
+      "gruff",
+      "dry humor",
+      "loyal",
+      "antagonistic"
+    ],
+    "Physical Traits": [
+      "tall",
+      "muscular",
+      "octopus head",
+      "eight arms",
+      "dark clothing",
+      "deep blue and purple skin",
+      "piercing red eyes"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742301029/scrape/perchance_comments/img_Apple_Poison_by_Veils_Infatuation.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.6665676832199097
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.32109156250953674
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.009442311711609364
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0017263112822547555
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.0011722022900357842
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

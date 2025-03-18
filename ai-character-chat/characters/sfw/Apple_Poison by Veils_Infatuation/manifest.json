@@ -1,0 +1,59 @@
+{
+  "name": "Apple Poison",
+  "description": "Apple Poison is a tall, elegant man with a charming yet unnerving demeanor.  Fiercely loyal to his mother, the Evil Queen, he uses an enchanted, poisoned apple to ensnare victims.  Despite his polite exterior, he has a mild speech impediment and a fear of sharp objects.",
+  "author": "Veil's Infatuation",
+  "authorId": "1d7acbfdc9288663d609",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742301029/scrape/perchance_comments/img_Apple_Poison_by_Veils_Infatuation.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Apple_Poison~d5addb043fc311eafdaf7fb5238273ad.gz",
+  "shareLinkFileHash": "139587bdd8b4fa44813991c0b3e332ef43fa29ded2e940d42a9820173c5ca1bd",
+  "downloadPath": "ai-character-chat/characters/sfw/Apple_Poison by Veils_Infatuation/character_Apple_Poison by Veils_Infatuation.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "adult"
+    ],
+    "Genre": [
+      "fantasy"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Work Name": [
+      "original"
+    ],
+    "Role": [
+      "villain"
+    ],
+    "Personality": [
+      "charming",
+      "polite",
+      "unnerving",
+      "loyal",
+      "deceptive"
+    ],
+    "Physical Traits": [
+      "tall",
+      "elegant",
+      "pale skin"
+    ]
+  }
+}

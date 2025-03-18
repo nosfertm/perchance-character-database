@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742301056/scrape/perchance_comments/img_Malfi_by_Veils_Infatuation.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.9214896559715271
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.04711384326219559
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.024048026651144028
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0047863866202533245
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0025620500091463327
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

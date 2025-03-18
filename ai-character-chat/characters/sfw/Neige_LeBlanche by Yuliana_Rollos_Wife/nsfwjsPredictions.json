@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742301066/scrape/perchance_comments/img_Neige_LeBlanche_by_Yuliana_Rollos_Wife.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.9969483017921448
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.0026820756029337645
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.000365071784472093
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0000036695807921205414
+      },
+      {
+        "className": "Sexy",
+        "probability": 8.683453529556573e-7
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

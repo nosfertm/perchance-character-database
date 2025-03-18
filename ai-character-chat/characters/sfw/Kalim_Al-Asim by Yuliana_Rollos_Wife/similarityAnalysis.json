@@ -1,0 +1,24 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Malleus_Draconia by Yuliana_Rollos_Wife",
+  "forkedPath": "ai-character-chat/characters/sfw/Malleus_Draconia by Yuliana_Rollos_Wife",
+  "similarities": {
+    "roleInstruction.txt": 0.8101069601612153,
+    "name.txt": 0.16
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.8101069601612153,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 0.8101069601612153,
+  "bestMatch": "Malleus_Draconia by Yuliana_Rollos_Wife"
+}
