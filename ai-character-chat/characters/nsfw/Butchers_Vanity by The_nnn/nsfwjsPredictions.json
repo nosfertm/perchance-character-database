@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742228857/scrape/perchance_comments/img_Butchers_Vanity_by_The_nnn.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.7529606223106384
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.22063876688480377
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.025845540687441826
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0004033042932860553
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00015177806199062616
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

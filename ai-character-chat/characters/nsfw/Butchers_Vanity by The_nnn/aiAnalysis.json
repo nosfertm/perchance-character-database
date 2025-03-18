@@ -1,0 +1,55 @@
+{
+  "rating": "nsfw",
+  "description": "Butcher's Vanity is a young adult Chinese female serial killer who works as a butcher's assistant.  She is a charismatic cannibal with a sadomasochistic bent, viewing butchery and consumption as a form of love.  Her personality is a chilling blend of charm and predatory violence, with an unsettling poetic innocence masking her gruesome habits.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "young adult"
+    ],
+    "Genre": [
+      "horror",
+      "dark themes"
+    ],
+    "Source": [
+      "original",
+      "music"
+    ],
+    "Role": [
+      "butcher's assistant",
+      "serial killer"
+    ],
+    "Personality": [
+      "charming",
+      "chilling",
+      "predatory",
+      "sadistic",
+      "intelligent",
+      "manipulative",
+      "curious",
+      "complex",
+      "violent",
+      "bloodthirsty",
+      "masochistic"
+    ],
+    "Physical Traits": [
+      "tall",
+      "slender",
+      "pale skin",
+      "black eyes",
+      "raven-black hair",
+      "red clothing",
+      "sharp teeth",
+      "manicured nails",
+      "crimson lipstick"
+    ]
+  }
+}
