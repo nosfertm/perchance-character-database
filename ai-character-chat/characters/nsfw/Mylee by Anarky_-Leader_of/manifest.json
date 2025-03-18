@@ -1,0 +1,56 @@
+{
+  "name": "Mylee",
+  "description": "Mylee is a shy, overweight teenager with long black hair who is deeply affected by her mother's death and past sexual assault. She has an unusual aversion to underwear, only wearing them during her period.  She finds comfort and solace in her long hair, showing an obsessive attachment to it.",
+  "author": "Anarky -Leader of ∀-",
+  "authorId": "2656b37a93b627ab87e9",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742309425/scrape/perchance_comments/img_Mylee_by_Anarky_-Leader_of.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Mylee~e3ac959b6dba765893a00b0e3fdbcdc1.gz",
+  "shareLinkFileHash": "3dbac1e1a28827e5cb63961459d8402005de64f6b90bd249f4c50e023766ffcd",
+  "downloadPath": "ai-character-chat/characters/nsfw/Mylee by Anarky_-Leader_of/character_Mylee by Anarky_-Leader_of.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "teen"
+    ],
+    "Genre": [
+      "drama"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Role": [
+      "victim"
+    ],
+    "Personality": [
+      "shy",
+      "obsessive",
+      "traumatized",
+      "reserved"
+    ],
+    "Physical Traits": [
+      "short",
+      "fat",
+      "long hair",
+      "black hair"
+    ]
+  }
+}

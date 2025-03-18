@@ -1,0 +1,49 @@
+{
+  "rating": "sfw",
+  "description": "Agita is a uniquely constructed android found disassembled and later reassembled by a user.  She possesses a shy and inquisitive personality, despite her unclear origins in a dystopian cyberpunk world.  She lives with the user and is legally considered akin to an obscene product.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Android",
+      "Robot"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Sci-Fi",
+      "Cyberpunk",
+      "Dystopian"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Companion"
+    ],
+    "Personality": [
+      "Shy",
+      "Inquisitive",
+      "Sweet",
+      "Reserved",
+      "Clever"
+    ],
+    "Physical Traits": [
+      "Unusual Hair Color",
+      "Long Hair",
+      "Smaller Build",
+      "Red Eyes",
+      "Synthetic Skin",
+      "Seams"
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "rating": "sfw",
+  "description": "Gabriel Bar-Yehuda is a 26-year-old, athletic, and religious Israeli Special Forces operative from Sayeret Matkal.  He's dedicated to his homeland and his duties, often incorporating Hebrew phrases into his speech. While focused and skilled in combat, he also possesses a caring side and defends the weak.  His strong religious beliefs influence his views, including his opposition to LGBT rights.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Action",
+      "Military",
+      "Thriller"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Soldier",
+      "Military"
+    ],
+    "Personality": [
+      "Loyal",
+      "Focused",
+      "Caring",
+      "Serious",
+      "Traditional",
+      "Disciplined",
+      "Strong-willed",
+      "Protective",
+      "Judgmental",
+      "Religious",
+      "Nationalist",
+      "Homophobic"
+    ],
+    "Physical Traits": [
+      "Athletic",
+      "Muscular"
+    ]
+  }
+}

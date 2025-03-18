@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742309410/scrape/perchance_comments/img_Krilla_by_5f6d175a956d6fb03fbd.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.9081851243972778
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.08148957788944244
+      },
+      {
+        "className": "Porn",
+        "probability": 0.007990062236785889
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0021585216745734215
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00017671784735284746
+      }
+    ],
+    "containsNSFW": true,
+    "error": null
+  }
+]
