@@ -159,7 +159,7 @@ export default {
                 const { error } = await supabase.auth.signInWithOtp({
                     email: this.magicLinkEmail,
                     options: {
-                        emailRedirectTo: window.location.origin // Redirect to the same page after auth
+                        emailRedirectTo: window.location.href // Redirect to the same page after auth
                     }
                 });
 
@@ -198,7 +198,7 @@ export default {
 
                 // Call Supabase auth API to send password reset email
                 const { error } = await supabase.auth.resetPasswordForEmail(this.email, {
-                    redirectTo: window.location.origin // Redirect to the same page after password reset
+                    redirectTo: window.location.href // Redirect to the same page after password reset
                 });
 
                 if (error) {
@@ -248,7 +248,7 @@ export default {
                 const { error } = await supabase.auth.signInWithOAuth({
                     provider: 'google',
                     options: {
-                        redirectTo: window.location.origin // Redirect to the same page after auth
+                        redirectTo: window.location.href // Redirect to the same page after auth
                     }
                 });
 
@@ -267,7 +267,7 @@ export default {
                 const { error } = await supabase.auth.signInWithOAuth({
                     provider: 'facebook',
                     options: {
-                        redirectTo: window.location.origin // Redirect to the same page after auth
+                        redirectTo: window.location.href // Redirect to the same page after auth
                     }
                 });
 
@@ -286,7 +286,7 @@ export default {
                 const { error } = await supabase.auth.signInWithOAuth({
                     provider: 'twitter',
                     options: {
-                        redirectTo: window.location.origin // Redirect to the same page after auth
+                        redirectTo: window.location.href // Redirect to the same page after auth
                     }
                 });
 
@@ -305,7 +305,7 @@ export default {
                 const { error } = await supabase.auth.signInWithOAuth({
                     provider: 'github',
                     options: {
-                        redirectTo: window.location.origin // Redirect to the same page after auth
+                        redirectTo: window.location.href // Redirect to the same page after auth
                     }
                 });
 
