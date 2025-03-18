@@ -188,6 +188,7 @@ body:
         - Vampire
         - Werewolf
         - Zombie / Undead
+        - cecaelian
         - foxkin
         - gooblin
         - lihzahrd
@@ -320,6 +321,7 @@ body:
         - Adult Film
         - Adult Game
         - Adult Literature
+        - Animal Crossing
         - Anime
         - Art
         - Book
@@ -755,6 +757,7 @@ body:
         - instructor
         - magician
         - manager
+        - minion
         - office worker
         - royally
         - sentinel
@@ -1159,6 +1162,7 @@ body:
         - Observant
         - Obsessive
         - Obstinate
+        - Occasionally friendly
         - Open
         - Open-minded
         - Opinionated
@@ -1405,6 +1409,7 @@ body:
         - abusive
         - airheaded
         - amoral
+        - antagonistic
         - apathy
         - attention-seeking
         - avoids awkward moments
@@ -1437,6 +1442,7 @@ body:
         - impressionable
         - inadequate
         - irresponsible
+        - lively
         - menacing
         - mild-mannered
         - morally ambiguous
@@ -1470,6 +1476,7 @@ body:
         - traumatized
         - undecided
         - uninterested
+        - unnerving
         - unwavering
         - verbally abusive
         - virtuous
@@ -1867,6 +1874,7 @@ body:
         - Ethereal
         - Ethereal Aura
         - Ever-changing
+        - Exotic
         - Expressive eyes
         - Extravagant bracelets
         - Eyepatch
@@ -1888,6 +1896,8 @@ body:
         - Fish-like features
         - Fit
         - Fit and athletic body
+        - Flamboyant
+        - Flashy Attire
         - Flat Chested
         - Flightless
         - Floating
@@ -2063,6 +2073,7 @@ body:
         - Large Tail
         - Large ass
         - Large beer belly
+        - Large black pupils
         - Large buttocks
         - Large curvy butt
         - Large dark eyes
@@ -2230,6 +2241,7 @@ body:
         - Mutation
         - Naked
         - Natural curves
+        - Navy blue and gold striped fur
         - Navy blue bandana
         - Navy blue eyeliner
         - Navy blue-and-gold-striped fur
@@ -2421,6 +2433,7 @@ body:
         - Scars
         - School Uniform
         - Scorpion-like legs
+        - Scowling expression
         - Scrawny
         - Scruffy Brown Hair
         - Seductive
@@ -2616,6 +2629,7 @@ body:
         - Unremarkable Features
         - Unspecified
         - Unusual Hair Color
+        - Upright golden Egyptian cobra headdress
         - Ushanka
         - Vacant eyes
         - Very light skin
@@ -2629,6 +2643,7 @@ body:
         - Voluptuous
         - Wall-nut shell
         - Warm Brown Eyes
+        - Warm Brown Skin
         - Warm Caramel Skin
         - Warm Pink Skin
         - Warm Porcelain Skin
@@ -2728,12 +2743,16 @@ body:
         - black eyeshadow
         - black formal outfit
         - black gradient hair
+        - black hat
+        - black high-heeled shoes
         - black jacket
         - black legs
         - black messy hair in a ponytail
+        - black over-dress
         - black school uniform
         - black shoulder bands
         - black skirt
+        - black spirals under eyes
         - black trousers
         - black uniform
         - black walking stick
@@ -2763,13 +2782,16 @@ body:
         - corpse inside
         - corrupted
         - crimson corset
+        - crimson lining
         - crimson lipstick
         - crimson ribbons
+        - crow-like
         - cute face
         - cute tail
         - damaged
         - dark blue jacket
         - dark blue nipples
+        - dark clothing
         - dark complexion
         - dark gray spots
         - dark greatcoat
@@ -2777,6 +2799,7 @@ body:
         - dark long loose hair
         - dark pink shoes
         - decomposed
+        - deep blue and purple skin
         - deep crimson eyes/claws/nipples/vagina
         - delicate
         - digitigrade legs
@@ -2789,7 +2812,9 @@ body:
         - feline-like
         - feminine look
         - fierce red eyes
+        - fishnet stockings
         - fishnet tights
+        - flamboyant body language
         - flat chest
         - fleshy
         - floppy ears
@@ -2799,6 +2824,9 @@ body:
         - goggles
         - gold bangles
         - gold hoop nose ring
+        - gold trimming
+        - gold-ornamented boots
+        - gold-ornamented gloves
         - golden fox topper
         - golden hat band
         - golden skin
@@ -2815,6 +2843,8 @@ body:
         - grey vest
         - gropes her own ass
         - grotesque
+        - hand bell
+        - hat with horns
         - high pigtails
         - high-collar shirt
         - hour glass figure
@@ -2833,6 +2863,7 @@ body:
         - light gray fur
         - light tan
         - light-orange skin
+        - lilac eyeshadow
         - limbless
         - long blonde hair with pink streaks
         - long flowing blue hair
@@ -2845,6 +2876,7 @@ body:
         - lots of makeup
         - lush black fur
         - magenta eyes
+        - magenta under-dress
         - manicured nails
         - maroon blazer
         - maroon cravat
@@ -2852,6 +2884,7 @@ body:
         - metal antenna
         - middle long black hair
         - mint green tail
+        - mirror
         - missing pinky
         - missing teeth
         - moderately large breasts
@@ -2859,6 +2892,7 @@ body:
         - multicolored accents
         - nipple/pussy piercings
         - no pants
+        - octopus head
         - olive green vest
         - orange hair
         - orange horns
@@ -2877,6 +2911,8 @@ body:
         - pink socks
         - pink thong
         - pitchfork-shaped tail
+        - playing card-themed outfit
+        - pleated skirt
         - pointed fox ears
         - purple apron
         - purple bow tie
@@ -2893,6 +2929,7 @@ body:
         - red and golden designs
         - red and white hair strains
         - red and white high-top sneakers
+        - red bandana
         - red body
         - red boots
         - red bow tie
@@ -2902,9 +2939,11 @@ body:
         - red fur tuft
         - red haunches
         - red heart-shaped makeup
+        - red leggings
         - red orb
         - red toes
         - red vest
+        - red waistcoat
         - reddish-orange eyes
         - reptile esc beak
         - revealing green farming overall
@@ -2914,13 +2953,16 @@ body:
         - robust frame
         - roller blades
         - round butt
+        - round hat
         - royal blue skin
         - s-shaped eyebrows
+        - sharp eyes
         - sharp orange eyes
         - sharp teeth
         - short wavy purple hair
         - shoulder-length hair
         - signature mask
+        - silver hook
         - silver locket
         - single thick short braid
         - skeletal hands
@@ -3119,6 +3161,7 @@ body:
         - Double Penetration
         - Edging
         - Exhibitionism
+        - Face fucking
         - Face-sitting
         - Fingering
         - First Time
