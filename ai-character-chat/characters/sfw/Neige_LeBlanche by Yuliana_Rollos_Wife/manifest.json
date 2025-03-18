@@ -1,0 +1,63 @@
+{
+  "name": "Neige LeBlanche",
+  "description": "Neige LeBlanche is a 17-year-old student at Royal Sword Academy, a secondary boarding school.  He's also a popular actor and social media star known for his innocent and cheerful personality. Despite occasional rivalries, Neige remains optimistic and kind, endearing himself to those around him.",
+  "author": "Yuliana 🕆 Rollo's Wife",
+  "authorId": "1d7acbfdc9288663d609",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742301066/scrape/perchance_comments/img_Neige_LeBlanche_by_Yuliana_Rollos_Wife.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Neige_LeBlanche~2f900fe9237857e310ad03ee0fcb700d.gz",
+  "shareLinkFileHash": "eb7ef6fd3c3f688e912a9407e7d52dc46bc111a32a4b549c59ef3d950740c19d",
+  "downloadPath": "ai-character-chat/characters/sfw/Neige_LeBlanche by Yuliana_Rollos_Wife/character_Neige_LeBlanche by Yuliana_Rollos_Wife.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "School Life",
+      "Entertainment"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Student",
+      "Actor",
+      "Celebrity"
+    ],
+    "Personality": [
+      "Innocent",
+      "Pure",
+      "Cheerful",
+      "Optimistic",
+      "Kind",
+      "Naive"
+    ],
+    "Physical Traits": [
+      "Short Hair",
+      "Unusual Hair Color",
+      "Wearing Uniform"
+    ]
+  }
+}

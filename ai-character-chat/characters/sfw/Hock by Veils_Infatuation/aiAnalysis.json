@@ -1,0 +1,55 @@
+{
+  "rating": "sfw",
+  "description": "Hock is a charismatic pirate with a playful, princely disposition, despite a stoic exterior.  Her masculine tone and quiet voice are charming, and she displays kindness towards children and protectiveness towards friends, particularly Veil.  Her personality includes a sense of humor and a complex social dynamic with other characters.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "adult"
+    ],
+    "Genre": [
+      "fantasy",
+      "adventure"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Work Name": [
+      "original"
+    ],
+    "Role": [
+      "pirate"
+    ],
+    "Personality": [
+      "charismatic",
+      "stoic",
+      "playful",
+      "kind",
+      "protective",
+      "charming",
+      "humorous"
+    ],
+    "Physical Traits": [
+      "long hair",
+      "dark brown hair",
+      "red bandana",
+      "white shirt",
+      "red waistcoat",
+      "red leggings",
+      "black hat",
+      "gold trimming",
+      "gold-ornamented boots",
+      "gold-ornamented gloves",
+      "black sash",
+      "silver hook"
+    ]
+  }
+}

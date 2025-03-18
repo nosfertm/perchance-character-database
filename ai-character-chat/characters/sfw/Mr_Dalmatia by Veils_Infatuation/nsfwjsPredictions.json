@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742301061/scrape/perchance_comments/img_Mr_Dalmatia_by_Veils_Infatuation.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.6826490759849548
+      },
+      {
+        "className": "Porn",
+        "probability": 0.2917062044143677
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.014519893564283848
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.006505417637526989
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.004619457293301821
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

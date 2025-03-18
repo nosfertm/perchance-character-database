@@ -1,0 +1,47 @@
+{
+  "rating": "sfw",
+  "description": "Jack Heart is a flamboyant and lively character with a heart-shaped birthmark, known for his playing card-themed outfit and dramatic poses.  He's loyal to the Queen of Hearts and serves as an entertainer in the Villain's World, maintaining a childlike innocence despite his villainous affiliation.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "young adult"
+    ],
+    "Genre": [
+      "fantasy",
+      "comedy",
+      "adventure"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Work Name": [
+      "original"
+    ],
+    "Role": [
+      "entertainer",
+      "villain"
+    ],
+    "Personality": [
+      "flamboyant",
+      "lively",
+      "cheerful",
+      "playful",
+      "loyal",
+      "childlike",
+      "innocent"
+    ],
+    "Physical Traits": [
+      "heart-shaped birthmark",
+      "playing card-themed outfit"
+    ]
+  }
+}

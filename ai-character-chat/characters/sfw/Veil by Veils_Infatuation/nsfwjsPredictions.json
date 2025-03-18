@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742301072/scrape/perchance_comments/img_Veil_by_Veils_Infatuation.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.9860923886299133
+      },
+      {
+        "className": "Porn",
+        "probability": 0.005858298856765032
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.005676653236150742
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.0013929312117397785
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0009797756792977452
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

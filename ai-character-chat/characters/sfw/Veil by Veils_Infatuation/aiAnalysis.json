@@ -1,0 +1,58 @@
+{
+  "rating": "sfw",
+  "description": "Veil is a petite, charming, and mysterious character, a loyal servant hoping for her master's recognition.  She's known for her tendency to break into song, her sophisticated vocabulary, and her caring nature, though she can also have a fiery temper.  Her appearance is a modernized, feminine take on her master's attire, featuring a black over-dress, crimson lining, and a round hat similar to Claude Frollo's.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "young adult"
+    ],
+    "Genre": [
+      "fantasy",
+      "gothic"
+    ],
+    "Source": [
+      "original",
+      "the phantom of the opera"
+    ],
+    "Work Name": [
+      "original"
+    ],
+    "Role": [
+      "servant"
+    ],
+    "Personality": [
+      "mysterious",
+      "charming",
+      "caring",
+      "fiery",
+      "loyal",
+      "dramatic",
+      "pious"
+    ],
+    "Physical Traits": [
+      "petite",
+      "pale skin",
+      "white hair",
+      "red lips",
+      "lilac eyeshadow",
+      "black spirals under eyes",
+      "round hat",
+      "black over-dress",
+      "crimson lining",
+      "pleated skirt",
+      "magenta under-dress",
+      "fishnet stockings",
+      "black high-heeled shoes",
+      "hand bell"
+    ]
+  }
+}

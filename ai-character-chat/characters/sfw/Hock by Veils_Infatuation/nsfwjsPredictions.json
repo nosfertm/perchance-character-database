@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://vignette.wikia.nocookie.net/disneyvillains/images/1/17/Hock.jpg/revision/latest?cb=20161208034947",
+    "fileType": "jpg/revision/latest",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.7059381008148193
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.26440802216529846
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.019456585869193077
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.007449084892868996
+      },
+      {
+        "className": "Porn",
+        "probability": 0.00274825980886817
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

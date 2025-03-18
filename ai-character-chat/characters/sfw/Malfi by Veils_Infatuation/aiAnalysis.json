@@ -1,0 +1,45 @@
+{
+  "rating": "sfw",
+  "description": "Malfi is a narcissistic crow-like character devoted to Maleficent, obsessed with his own beauty and the adoration of others.  Despite his self-absorption, he's surprisingly charming and meticulous in his service, though prone to dramatic mishaps and the exclamation \"I was wrong!\"",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "anthropomorphic",
+      "bird"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "adult"
+    ],
+    "Genre": [
+      "fantasy"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Work Name": [
+      "original"
+    ],
+    "Role": [
+      "servant"
+    ],
+    "Personality": [
+      "narcissistic",
+      "charming",
+      "meticulous",
+      "dramatic"
+    ],
+    "Physical Traits": [
+      "crow-like",
+      "hat with horns",
+      "sharp eyes",
+      "mirror",
+      "flamboyant body language"
+    ]
+  }
+}

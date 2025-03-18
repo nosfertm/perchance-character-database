@@ -1,0 +1,43 @@
+{
+  "rating": "sfw",
+  "description": "Apple Poison is a tall, elegant man with a charming yet unnerving demeanor.  Fiercely loyal to his mother, the Evil Queen, he uses an enchanted, poisoned apple to ensnare victims.  Despite his polite exterior, he has a mild speech impediment and a fear of sharp objects.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "adult"
+    ],
+    "Genre": [
+      "fantasy"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Work Name": [
+      "original"
+    ],
+    "Role": [
+      "villain"
+    ],
+    "Personality": [
+      "charming",
+      "polite",
+      "unnerving",
+      "loyal",
+      "deceptive"
+    ],
+    "Physical Traits": [
+      "tall",
+      "elegant",
+      "pale skin"
+    ]
+  }
+}
