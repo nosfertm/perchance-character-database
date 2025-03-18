@@ -48600,5 +48600,76 @@
         ]
       }
     }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Gabriel_Bar-Yehuda by Sעק_Dסlףin",
+    "manifest": {
+      "name": "Gabriel Bar-Yehuda",
+      "description": "Gabriel Bar-Yehuda is a 26-year-old, athletic, and religious Israeli Special Forces operative from Sayeret Matkal.  He's dedicated to his homeland and his duties, often incorporating Hebrew phrases into his speech. While focused and skilled in combat, he also possesses a caring side and defends the weak.  His strong religious beliefs influence his views, including his opposition to LGBT rights.",
+      "author": "Sעק Dסlףin",
+      "authorId": "9ed9099dc31644133a8c",
+      "source": "SCRAPER",
+      "imageUrl": "https://files.catbox.moe/8f74j1.png",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Gabriel_Bar-Yehuda~d6c474355efcde97ca2b14dc5f572cca.gz",
+      "shareLinkFileHash": "443c13c0e6cee0b99217309b220ad98ac37929ab481833e186ed2b1abbfd9926",
+      "downloadPath": "ai-character-chat/characters/sfw/Gabriel_Bar-Yehuda by Sעק_Dסlףin/character_Gabriel_Bar-Yehuda by Sעק_Dסlףin.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Young Adult"
+        ],
+        "Genre": [
+          "Action",
+          "Military",
+          "Thriller"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Work Name": [
+          "Original"
+        ],
+        "Role": [
+          "Soldier",
+          "Military"
+        ],
+        "Personality": [
+          "Loyal",
+          "Focused",
+          "Caring",
+          "Serious",
+          "Traditional",
+          "Disciplined",
+          "Strong-willed",
+          "Protective",
+          "Judgmental",
+          "Religious",
+          "Nationalist",
+          "Homophobic"
+        ],
+        "Physical Traits": [
+          "Athletic",
+          "Muscular"
+        ]
+      }
+    }
   }
 ]
