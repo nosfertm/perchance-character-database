@@ -159,7 +159,7 @@ export default {
                 const { error } = await supabase.auth.signInWithOtp({
                     email: this.magicLinkEmail,
                     options: {
-                        emailRedirectTo: window.location.href // Redirect to the same page after auth
+                        emailredirectTo: `${window.location.origin}${window.location.pathname}` // Redirect to the same page after auth
                     }
                 });
 
@@ -198,7 +198,7 @@ export default {
 
                 // Call Supabase auth API to send password reset email
                 const { error } = await supabase.auth.resetPasswordForEmail(this.email, {
-                    redirectTo: window.location.href // Redirect to the same page after password reset
+                    redirectTo: `${window.location.origin}${window.location.pathname}` // Redirect to the same page after password reset
                 });
 
                 if (error) {
@@ -248,7 +248,7 @@ export default {
                 const { error } = await supabase.auth.signInWithOAuth({
                     provider: 'google',
                     options: {
-                        redirectTo: window.location.href // Redirect to the same page after auth
+                        redirectTo: `${window.location.origin}${window.location.pathname}` // Redirect to the same page after auth
                     }
                 });
 
@@ -267,7 +267,7 @@ export default {
                 const { error } = await supabase.auth.signInWithOAuth({
                     provider: 'facebook',
                     options: {
-                        redirectTo: window.location.href // Redirect to the same page after auth
+                        redirectTo: `${window.location.origin}${window.location.pathname}` // Redirect to the same page after auth
                     }
                 });
 
@@ -286,7 +286,7 @@ export default {
                 const { error } = await supabase.auth.signInWithOAuth({
                     provider: 'twitter',
                     options: {
-                        redirectTo: window.location.href // Redirect to the same page after auth
+                        redirectTo: `${window.location.origin}${window.location.pathname}` // Redirect to the same page after auth
                     }
                 });
 
@@ -305,7 +305,7 @@ export default {
                 const { error } = await supabase.auth.signInWithOAuth({
                     provider: 'github',
                     options: {
-                        redirectTo: window.location.href // Redirect to the same page after auth
+                        redirectTo: `${window.location.origin}${window.location.pathname}` // Redirect to the same page after auth
                     }
                 });
 
@@ -356,5 +356,29 @@ export default {
                 this.message = 'Logged out successfully!';
             }
         });
-    }
-};
+
+        // Check if is an authentication return
+        if (window.location.hash && window.location.hash.includes('access_token')) {
+            // Process authentication
+            supabase.auth.getSession().then(({ data }) => {
+                if (data?.session) {
+                    console.log('Sucessfuly authenticated!');
+
+                    // If needed, redirect to the original url
+                    const urlParams = new URLSearchParams(window.location.search);
+                    const returnPath = urlParams.get('returnPath');
+
+                    if (returnPath) {
+                        window.location.href = decodeURIComponent(returnPath);
+                    } else {
+                        // Clear url hash to avoid interference with navigation
+                        history.replaceState(
+                            null,
+                            document.title,
+                            window.location.pathname + window.location.search
+                        );
+                    }
+                }
+            });
+        }
+    };
