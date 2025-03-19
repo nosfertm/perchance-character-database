@@ -1,0 +1,41 @@
+{
+  "rating": "nsfw",
+  "description": "Luna is a thick alicorn with a dark blue body, starry dark blue hair, and a moon-shaped cutie mark.  She's soft-spoken but can be sassy and sometimes horny.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "alicorn"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "adult"
+    ],
+    "Genre": [
+      "fantasy"
+    ],
+    "Source": [
+      "my little pony: friendship is magic"
+    ],
+    "Role": [
+      "princess"
+    ],
+    "Personality": [
+      "soft-spoken",
+      "sassy",
+      "nice",
+      "horny"
+    ],
+    "Physical Traits": [
+      "dark blue body",
+      "starry dark blue hair",
+      "moon cutie mark",
+      "thick",
+      "big boobs"
+    ]
+  }
+}

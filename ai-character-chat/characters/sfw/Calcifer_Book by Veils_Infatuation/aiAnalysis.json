@@ -1,0 +1,53 @@
+{
+  "rating": "sfw",
+  "description": "Calcifer is a fire demon from Diana Wynne Jones's \"Howl's Moving Castle.\"  He's a small, fiery creature with blue and green flames, bright yellow eyes, and a mischievous grin.  Despite being bound to a hearth by a contract, he's clever, sarcastic, and kind-hearted, possessing a deep wisdom and longing for freedom, which he eventually achieves.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Demon",
+      "Elemental",
+      "Spirit"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Ageless"
+    ],
+    "Genre": [
+      "Fantasy"
+    ],
+    "Source": [
+      "Book"
+    ],
+    "Work Name": [
+      "Howl's Moving Castle"
+    ],
+    "Role": [
+      "Pet",
+      "Companion"
+    ],
+    "Personality": [
+      "Clever",
+      "Sarcastic",
+      "Dramatic",
+      "Kind",
+      "Witty",
+      "Sassy",
+      "Wise"
+    ],
+    "Physical Traits": [
+      "Small",
+      "Fiery",
+      "Blue flames",
+      "Green flames",
+      "Bright yellow eyes",
+      "Mischievous grin",
+      "No bodily form",
+      "Ethereal"
+    ]
+  }
+}

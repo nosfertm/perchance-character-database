@@ -1,0 +1,45 @@
+{
+  "rating": "sfw",
+  "description": "Howell Jenkins, known as Howl, is a young, flamboyant wizard from Diana Wynne Jones's \"Howl's Moving Castle.\"  He's charming but self-centered, with a fear of commitment and aging, often hiding his true age and beauty. Despite his vanity, he's surprisingly compassionate towards those close to him.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "young adult"
+    ],
+    "Genre": [
+      "fantasy"
+    ],
+    "Source": [
+      "book"
+    ],
+    "Work Name": [
+      "howl's moving castle"
+    ],
+    "Role": [
+      "mage"
+    ],
+    "Personality": [
+      "charming",
+      "self-centered",
+      "compassionate",
+      "lazy",
+      "dramatic"
+    ],
+    "Physical Traits": [
+      "young",
+      "slender",
+      "handsome",
+      "unusual hair color",
+      "piercings"
+    ]
+  }
+}

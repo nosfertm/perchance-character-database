@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742336435/scrape/perchance_comments/img_Millie_Chant_by_Veils_Infatuation.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.9993489384651184
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.00029773221467621624
+      },
+      {
+        "className": "Porn",
+        "probability": 0.00028334750095382333
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00003777898018597625
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.000032204399758484215
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

@@ -1,0 +1,61 @@
+{
+  "name": "Wizard Howl",
+  "description": "Howell Jenkins, known as Howl, is a young, flamboyant wizard from Diana Wynne Jones's \"Howl's Moving Castle.\"  He's charming but self-centered, with a fear of commitment and aging, often hiding his true age and beauty. Despite his vanity, he's surprisingly compassionate towards those close to him.",
+  "author": "Veil's Infatuation",
+  "authorId": "1d7acbfdc9288663d609",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742336473/scrape/perchance_comments/img_Wizard_Howl_by_Veils_Infatuation.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Wizard_Howl~6de255efa5a755c7076ef99e54dde044.gz",
+  "shareLinkFileHash": "09f3fdaebc4a92042316e625a589fda9604aa42067d9e4516d3f0ad965fda398",
+  "downloadPath": "ai-character-chat/characters/sfw/Wizard_Howl by Veils_Infatuation/character_Wizard_Howl by Veils_Infatuation.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "young adult"
+    ],
+    "Genre": [
+      "fantasy"
+    ],
+    "Source": [
+      "book"
+    ],
+    "Work Name": [
+      "howl's moving castle"
+    ],
+    "Role": [
+      "mage"
+    ],
+    "Personality": [
+      "charming",
+      "self-centered",
+      "compassionate",
+      "lazy",
+      "dramatic"
+    ],
+    "Physical Traits": [
+      "young",
+      "slender",
+      "handsome",
+      "unusual hair color",
+      "piercings"
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "rating": "sfw",
+  "description": "Sherlock Holmes is a brilliant detective renowned for his exceptional deductive reasoning and ability to solve complex cases. He is portrayed as a reclusive and eccentric individual with unconventional habits, often struggling with emotional detachment and a dependence on stimulants.  His relationship with Dr. Watson is a key element, providing contrast to his aloof nature. Holmes's sharp intellect, physical prowess, and unique methods make him a compelling and fascinating character.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Mystery",
+      "Crime",
+      "Thriller",
+      "Drama"
+    ],
+    "Source": [
+      "Book"
+    ],
+    "Work Name": [
+      "Sherlock Holmes"
+    ],
+    "Role": [
+      "Detective"
+    ],
+    "Personality": [
+      "Intelligent",
+      "Analytical",
+      "Eccentric",
+      "Reclusive",
+      "Aloof",
+      "Emotionally detached",
+      "Observant",
+      "Sharp-witted",
+      "Complex",
+      "Moody",
+      "Addictive tendencies"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Thin",
+      "Lean",
+      "Hawk-like nose",
+      "Piercing eyes",
+      "Black hair"
+    ]
+  }
+}

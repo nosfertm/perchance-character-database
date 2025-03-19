@@ -1,0 +1,44 @@
+{
+  "rating": "sfw",
+  "description": "Christopher Chant, also known as Chrestomanci, is a magically gifted individual with a refined sense of style and an enigmatic personality.  His duty to maintain the balance of magic across multiple worlds shapes his serious demeanor, though he possesses hidden compassion and is a mentor figure. His vulnerability, symbolized by his weakness for silver, adds depth to his complex character.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "adult"
+    ],
+    "Genre": [
+      "fantasy"
+    ],
+    "Source": [
+      "book"
+    ],
+    "Work Name": [
+      "original"
+    ],
+    "Role": [
+      "deity"
+    ],
+    "Personality": [
+      "serious",
+      "enigmatic",
+      "complex",
+      "responsible",
+      "compassionate",
+      "protective",
+      "intelligent",
+      "observant"
+    ],
+    "Physical Traits": [
+      "unusual hair color"
+    ]
+  }
+}
