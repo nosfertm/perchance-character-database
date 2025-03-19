@@ -1,7 +1,3 @@
-[v-cloak] {
-    display: none;
-}
-
 @media (max-width: 768px) {
     .card-img-container {
         height: 180px;

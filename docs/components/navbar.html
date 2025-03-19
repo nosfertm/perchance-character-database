@@ -4,9 +4,9 @@
     <div class="container-fluid">
 
         <!-- Logo placeholder -->
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
             <img src="assets/logo.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
-            {{ site.pageTitle }}
+            <span class="d-none d-lg-block"> {{ site.pageTitle }}</span>
         </a>
 
         <!-- Navbar items that will collapse -->
@@ -19,8 +19,9 @@
 
                 <!-- Dynamic menu links -->
                 <li v-for="section in site.featuredSections" :key="section.title" class="nav-item">
-                    <a class="nav-link" :class="section.link ? '': 'disabled'" :href="section.link">{{
-                        section.title }}</a>
+                    <a class="nav-link" :class="section.link ? '': 'disabled'" :href="section.link">
+                        {{section.title }}
+                    </a>
                 </li>
             </ul>
 

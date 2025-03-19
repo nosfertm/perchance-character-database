@@ -261,11 +261,11 @@ export default {
             }
         },
 
-        async signInWithFacebook() {
+        async signInWithDiscord() {
             try {
-                // Call Supabase auth API to sign in with Facebook
+                // Call Supabase auth API to sign in with discord
                 const { error } = await supabase.auth.signInWithOAuth({
-                    provider: 'facebook',
+                    provider: 'discord',
                     options: {
                         redirectTo: `${window.location.origin}${window.location.pathname}` // Redirect to the same page after auth
                     }
@@ -275,7 +275,7 @@ export default {
                     this.error = error.message;
                 }
             } catch (err) {
-                this.error = 'Failed to sign in with Facebook.';
+                this.error = 'Failed to sign in with Discord.';
                 console.error(err);
             }
         },
