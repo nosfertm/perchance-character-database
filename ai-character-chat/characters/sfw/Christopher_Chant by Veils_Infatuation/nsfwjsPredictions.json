@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742336405/scrape/perchance_comments/img_Christopher_Chant_by_Veils_Infatuation.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.9646777510643005
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.01339896023273468
+      },
+      {
+        "className": "Porn",
+        "probability": 0.012617919594049454
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.00793522223830223
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0013701716670766473
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

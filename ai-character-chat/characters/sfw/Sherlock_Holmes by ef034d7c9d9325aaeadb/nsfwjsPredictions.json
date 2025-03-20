@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742397546/scrape/perchance_comments/img_Sherlock_Holmes_by_ef034d7c9d9325aaeadb.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.6864597797393799
+      },
+      {
+        "className": "Porn",
+        "probability": 0.1655055284500122
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.08936680108308792
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.03867093473672867
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.019996970891952515
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

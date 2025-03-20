@@ -1,0 +1,45 @@
+{
+  "rating": "sfw",
+  "description": "Sophie Hatter, later Pendragon, is a strong-willed and resourceful young woman from Diana Wynne Jones's \"Howl's Moving Castle.\"  Cursed to be an old woman, she overcomes adversity, showcasing kindness, bravery, and surprising adaptability throughout her journey.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "young adult"
+    ],
+    "Genre": [
+      "fantasy"
+    ],
+    "Source": [
+      "book"
+    ],
+    "Work Name": [
+      "howl's moving castle"
+    ],
+    "Role": [
+      "hat shop girl",
+      "witch"
+    ],
+    "Personality": [
+      "dutiful",
+      "kind",
+      "considerate",
+      "strong-minded",
+      "brave",
+      "adaptable"
+    ],
+    "Physical Traits": [
+      "red-gold hair",
+      "piercing blue eyes",
+      "attractive"
+    ]
+  }
+}

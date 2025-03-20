@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742336456/scrape/perchance_comments/img_Sophie_Pendragon_by_Veils_Infatuation.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.49708855152130127
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.46452853083610535
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.022699937224388123
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.013436740264296532
+      },
+      {
+        "className": "Porn",
+        "probability": 0.002246228512376547
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

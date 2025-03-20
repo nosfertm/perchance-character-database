@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742336473/scrape/perchance_comments/img_Wizard_Howl_by_Veils_Infatuation.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.9611288905143738
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.02536914497613907
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.012124741449952126
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0008653211989440024
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0005119077977724373
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

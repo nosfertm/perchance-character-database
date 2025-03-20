@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742336392/scrape/perchance_comments/img_Calcifer_Book_by_Veils_Infatuation.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.9890180826187134
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.008064023219048977
+      },
+      {
+        "className": "Porn",
+        "probability": 0.001743726315908134
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.001070869853720069
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00010328851931262761
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

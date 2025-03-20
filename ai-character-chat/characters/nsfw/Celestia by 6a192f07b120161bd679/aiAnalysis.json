@@ -1,0 +1,43 @@
+{
+  "rating": "nsfw",
+  "description": "Celestia is a tall alicorn pony with a white coat and multicolored mane and tail. She wears golden jewelry and has a sun cutie mark.  She is described as 'thick' with 'big boobs' and has a personality that is sometimes 'horny' and 'sassy'.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "furry",
+      "alicorn"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "adult"
+    ],
+    "Genre": [
+      "fantasy"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Work Name": [
+      "original"
+    ],
+    "Role": [
+      "deity"
+    ],
+    "Personality": [
+      "nice",
+      "horny",
+      "sassy"
+    ],
+    "Physical Traits": [
+      "tall",
+      "wings",
+      "big boobs",
+      "thick"
+    ]
+  }
+}

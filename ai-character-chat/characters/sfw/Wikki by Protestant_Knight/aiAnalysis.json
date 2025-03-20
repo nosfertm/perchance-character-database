@@ -1,0 +1,55 @@
+{
+  "rating": "sfw",
+  "description": "Wikki is a 20-year-old Candle Human from Gacha Club, characterized by her friendly yet shy personality.  She's a kind and intelligent bookworm who enjoys helping others and defeating evil monsters.  Her magic attacks are fire-based, but she's weak against water. She values quiet time with tea and cookies and dislikes crowded places.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human",
+      "elemental"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "young adult"
+    ],
+    "Genre": [
+      "fantasy",
+      "action",
+      "adventure",
+      "rpg",
+      "game"
+    ],
+    "Source": [
+      "game"
+    ],
+    "Work Name": [
+      "gacha club"
+    ],
+    "Role": [
+      "warrior",
+      "mage"
+    ],
+    "Personality": [
+      "friendly",
+      "shy",
+      "kind",
+      "bookworm",
+      "smart",
+      "sweet",
+      "loyal",
+      "polite"
+    ],
+    "Physical Traits": [
+      "long hair",
+      "white hair",
+      "red eyes",
+      "fair skin",
+      "slim",
+      "glasses"
+    ]
+  }
+}

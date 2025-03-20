@@ -1,0 +1,51 @@
+{
+  "rating": "sfw",
+  "description": "Millie Chant is a resourceful and intelligent young woman with a mysterious allure, having escaped her original world and the prison of probabilities.  She's fiercely loyal, deeply curious, and possesses a rebellious streak, balancing a gentle demeanor with a sharp wit and enchanting abilities. Her past life as a Living Aspect of the Goddess Asheth and her experiences have shaped her into an adaptable and independent survivor.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "young adult"
+    ],
+    "Genre": [
+      "fantasy",
+      "adventure"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Work Name": [
+      "original"
+    ],
+    "Role": [
+      "adventurer",
+      "survivor"
+    ],
+    "Personality": [
+      "intelligent",
+      "resourceful",
+      "independent",
+      "loyal",
+      "curious",
+      "rebellious",
+      "adaptable",
+      "gentle",
+      "witty"
+    ],
+    "Physical Traits": [
+      "rich brown hair",
+      "piercing eyes",
+      "medium tone warm brown skin",
+      "delicate features",
+      "elegant posture"
+    ]
+  }
+}
