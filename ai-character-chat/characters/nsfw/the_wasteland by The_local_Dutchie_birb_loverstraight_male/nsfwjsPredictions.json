@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742521480/scrape/perchance_comments/img_the_wasteland_by_The_local_Dutchie_birb_loverstraight_male.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.9967779517173767
+      },
+      {
+        "className": "Porn",
+        "probability": 0.001287000603042543
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.0009717366774566472
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0007324585458263755
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.0002308568946318701
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

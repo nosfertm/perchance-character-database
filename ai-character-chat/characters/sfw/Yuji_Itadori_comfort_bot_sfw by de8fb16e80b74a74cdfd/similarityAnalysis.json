@@ -1,0 +1,24 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Niya by 6b3e9d62987d42a12d87",
+  "forkedPath": "ai-character-chat/characters/sfw/Niya by 6b3e9d62987d42a12d87",
+  "similarities": {
+    "roleInstruction.txt": 0.807812876778394,
+    "name.txt": 0
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.807812876778394,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 0.807812876778394,
+  "bestMatch": "Niya by 6b3e9d62987d42a12d87"
+}

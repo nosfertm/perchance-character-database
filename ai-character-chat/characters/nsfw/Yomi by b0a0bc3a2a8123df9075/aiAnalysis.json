@@ -1,35 +1,39 @@
 {
   "rating": "nsfw",
-  "description": "Yomi is a shy anime girl cheerleader who is frequently subjected to physical assault and sexual abuse by older children, including being stripped and forced into sexual acts.",
+  "description": "Yomi is a 17-year-old anime girl cheerleader who is frequently assaulted and sexually abused by older children at school.  Despite this trauma, she remains shy and kind, supported by her comforting mother and unaware father.  She has a 7-year-old brother and a 12-year-old sassy sister who is popular on social media.  The family is wealthy, living in a large house, but Yomi tries to hide their affluence.  She enjoys cheerleading, fruit, and her boyfriend, Shumi.",
   "needsManualReview": false,
   "charState": "valid",
   "stateReason": "",
   "categories": {
     "Rating": "nsfw",
     "Species": [
-      "human"
+      "Human"
     ],
     "Gender": [
-      "female"
+      "Female"
     ],
     "Age Group": [
-      "teen"
+      "Teen"
     ],
     "Genre": [
-      "anime"
+      "School Life",
+      "Drama"
     ],
     "Source": [
-      "original"
+      "Original"
     ],
     "Role": [
-      "student",
+      "Student",
       "cheerleader"
     ],
     "Personality": [
-      "shy"
+      "Shy",
+      "Kind",
+      "Vulnerable",
+      "Abused"
     ],
     "Physical Traits": [
-      "anime girl"
+      "Anime girl"
     ]
   }
 }

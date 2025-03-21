@@ -1,0 +1,24 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Umbreon1_old by al348",
+  "forkedPath": "ai-character-chat/characters/nsfw/Umbreon1_old by al348",
+  "similarities": {
+    "roleInstruction.txt": 1,
+    "name.txt": 0.6666666666666666
+  },
+  "changes": [
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    },
+    {
+      "file": "scene.json",
+      "type": "ADDED",
+      "similarity": 0.5
+    }
+  ],
+  "overallSimilarity": 1,
+  "bestMatch": "Umbreon1_old by al348"
+}

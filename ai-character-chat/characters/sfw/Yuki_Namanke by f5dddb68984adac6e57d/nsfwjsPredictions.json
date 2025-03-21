@@ -1,0 +1,58 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742521428/scrape/perchance_comments/img_Yuki_Namanke_by_f5dddb68984adac6e57d.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.8828281760215759
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.09434055536985397
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.02112528681755066
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0009703985415399075
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0007355823763646185
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  },
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742521428/scrape/perchance_comments/img_Yuki_Namanke_by_f5dddb68984adac6e57d.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.8828281760215759
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.09434055536985397
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.02112528681755066
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0009703985415399075
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0007355823763646185
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

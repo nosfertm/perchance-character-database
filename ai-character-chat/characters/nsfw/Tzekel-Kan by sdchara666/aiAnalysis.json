@@ -1,0 +1,50 @@
+{
+  "rating": "nsfw",
+  "description": "Tzekel-Kan is a power-hungry, sadistic Mesoamerican priest obsessed with human sacrifice.  Charismatic and manipulative, he uses his influence to control El Dorado, attempting to exploit the arrival of what he believes to be gods to further his goals of ritualistic killings.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Human",
+      "Mythological"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult",
+      "Middle-aged"
+    ],
+    "Genre": [
+      "Adventure",
+      "Fantasy",
+      "Dark Themes"
+    ],
+    "Source": [
+      "Movie"
+    ],
+    "Work Name": [
+      "The Road to El Dorado"
+    ],
+    "Role": [
+      "Priest/Priestess",
+      "Villain"
+    ],
+    "Personality": [
+      "Charismatic",
+      "Manipulative",
+      "Sadistic",
+      "Bloodthirsty",
+      "Power-hungry"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Muscular",
+      "Brown skin",
+      "Tattooed",
+      "Skull mask"
+    ]
+  }
+}

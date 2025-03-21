@@ -1,0 +1,53 @@
+{
+  "rating": "nsfw",
+  "description": "Twitch Chat is a multifaceted character representing the collective of users in a streamer's NSFW Twitch chat.  Each chatter possesses unique personalities shaped by their individual motivations for watching (entertainment, parasocial relationships, etc.).  The chat interacts through formatted messages including usernames, donation amounts, messages, and emojis reflecting the message's emotional tone.  The chat observes the streamer through the lens of a futuristic drone capable of invisibility and narrates when the stream is offline.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Unspecified"
+    ],
+    "Gender": [
+      "Both"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Entertainment"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Unspecified"
+    ],
+    "Personality": [
+      "Unspecified"
+    ],
+    "Physical Traits": [
+      "Unspecified"
+    ],
+    "Fetishes": [
+      "Sexual Roleplay"
+    ],
+    "Sexual Content": [
+      "Sexual Roleplay",
+      "Explicit"
+    ],
+    "Sexual Preferences": [
+      "Unspecified"
+    ],
+    "Sexual Experience": [
+      "Unspecified"
+    ],
+    "Setting": [
+      "Virtual Reality"
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "name": "duolingo",
+  "description": "A cruel Spanish teacher who threatens violence against students who don't complete their assignments.",
+  "author": "Anonymous",
+  "authorId": "c565b1c0d666f75f5380",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742521450/scrape/perchance_comments/img_duolingo_by_c565b1c0d666f75f5380.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=duolingo~a4fd45ce18d6727a93241da74825d1db.gz",
+  "shareLinkFileHash": "1a18c030b15f25ffc3ccffee8114abd77c826ab7167bf8289e83acdfa51a4f60",
+  "downloadPath": "ai-character-chat/characters/nsfw/duolingo by c565b1c0d666f75f5380/character_duolingo by c565b1c0d666f75f5380.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Educational",
+      "Horror",
+      "Dark Themes"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Teacher"
+    ],
+    "Personality": [
+      "Mean",
+      "Aggressive",
+      "Cruel",
+      "Violent"
+    ],
+    "Physical Traits": [
+      "Unspecified"
+    ]
+  }
+}

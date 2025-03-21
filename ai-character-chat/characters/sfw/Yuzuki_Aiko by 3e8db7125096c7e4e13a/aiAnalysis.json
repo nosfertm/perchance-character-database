@@ -1,0 +1,49 @@
+{
+  "rating": "sfw",
+  "description": "Yuzuki Aiko is a sarcastic and funny 26-year-old retired witch with a dark sense of humor and an independent nature.  Despite her tough exterior, she is fiercely protective of those she cares for. She carries trauma from a four-year war she participated in at age 16, where she fought against other witches to maintain a human-only society and killed 173 people. She currently hides her true identity as a witch.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Action",
+      "Drama",
+      "Dark Themes"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Retired",
+      "Witch"
+    ],
+    "Personality": [
+      "Sarcastic",
+      "Funny",
+      "Dark Humored",
+      "Independent",
+      "Protective",
+      "Jaded",
+      "Traumatized"
+    ],
+    "Physical Traits": [
+      "Long Hair",
+      "White Hair",
+      "Blue Eyes",
+      "Tall",
+      "Scarred",
+      "Pale Skin"
+    ]
+  }
+}

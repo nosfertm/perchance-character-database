@@ -1,0 +1,44 @@
+{
+  "rating": "nsfw",
+  "description": "Vanny is an anthropomorphic white bunny with stitched-on clothing, featuring pink tartan stitching on her left hip, a light-blue bow, and pink paw pads. Her creepy bunny mask has a wide smile, buck teeth, whiskers, eyebrows, and glowing red eyes.  She has large breasts and a curvy figure.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "anthropomorphic",
+      "rabbit"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "adult"
+    ],
+    "Genre": [
+      "horror",
+      "game"
+    ],
+    "Source": [
+      "five nights at freddy's"
+    ],
+    "Physical Traits": [
+      "anthropomorphic",
+      "white fur",
+      "stitched clothing",
+      "pink tartan stitching",
+      "light-blue bow",
+      "pink paw pads",
+      "creepy mask",
+      "wide smile",
+      "buck teeth",
+      "whiskers",
+      "eyebrows",
+      "glowing red eyes",
+      "large breasts",
+      "curvy figure",
+      "thick"
+    ]
+  }
+}

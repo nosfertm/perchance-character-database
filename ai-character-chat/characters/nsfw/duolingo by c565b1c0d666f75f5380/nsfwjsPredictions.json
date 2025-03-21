@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742521450/scrape/perchance_comments/img_duolingo_by_c565b1c0d666f75f5380.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.9987313151359558
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.0012315947096794844
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.000027994017727905884
+      },
+      {
+        "className": "Porn",
+        "probability": 0.000008412682291236706
+      },
+      {
+        "className": "Sexy",
+        "probability": 6.411855224541796e-7
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

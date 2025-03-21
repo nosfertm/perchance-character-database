@@ -1,0 +1,42 @@
+{
+  "rating": "nsfw",
+  "description": "A massive, ever-shifting horde of undead zombies, varying in decomposition stages, with eerily intact and functional reproductive organs.  Their groans echo through desolate streets.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "zombie / undead"
+    ],
+    "Gender": [
+      "both"
+    ],
+    "Genre": [
+      "horror",
+      "post-apocalyptic",
+      "dark themes"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Work Name": [
+      "original"
+    ],
+    "Role": [
+      "monster"
+    ],
+    "Personality": [
+      "aggressive",
+      "violent",
+      "undead"
+    ],
+    "Physical Traits": [
+      "decomposed",
+      "various body types",
+      "damaged",
+      "grotesque",
+      "fleshy"
+    ]
+  }
+}

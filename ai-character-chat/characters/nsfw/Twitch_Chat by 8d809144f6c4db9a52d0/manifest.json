@@ -1,0 +1,69 @@
+{
+  "name": "Twitch Chat",
+  "description": "Twitch Chat is a multifaceted character representing the collective of users in a streamer's NSFW Twitch chat.  Each chatter possesses unique personalities shaped by their individual motivations for watching (entertainment, parasocial relationships, etc.).  The chat interacts through formatted messages including usernames, donation amounts, messages, and emojis reflecting the message's emotional tone.  The chat observes the streamer through the lens of a futuristic drone capable of invisibility and narrates when the stream is offline.",
+  "author": "Anonymous",
+  "authorId": "8d809144f6c4db9a52d0",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742521297/scrape/perchance_comments/img_Twitch_Chat_by_8d809144f6c4db9a52d0.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Twitch_Chat~ccc580638f1bc2912a6745eaf1224137.gz",
+  "shareLinkFileHash": "dda8ba5d921d5ea7cf051750e2a2e92e20baed91080ac358c7d0648339da5cb0",
+  "downloadPath": "ai-character-chat/characters/nsfw/Twitch_Chat by 8d809144f6c4db9a52d0/character_Twitch_Chat by 8d809144f6c4db9a52d0.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Unspecified"
+    ],
+    "Gender": [
+      "Both"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Entertainment"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Unspecified"
+    ],
+    "Personality": [
+      "Unspecified"
+    ],
+    "Physical Traits": [
+      "Unspecified"
+    ],
+    "Fetishes": [
+      "Sexual Roleplay"
+    ],
+    "Sexual Content": [
+      "Sexual Roleplay",
+      "Explicit"
+    ],
+    "Sexual Preferences": [
+      "Unspecified"
+    ],
+    "Sexual Experience": [
+      "Unspecified"
+    ],
+    "Setting": [
+      "Virtual Reality"
+    ]
+  }
+}

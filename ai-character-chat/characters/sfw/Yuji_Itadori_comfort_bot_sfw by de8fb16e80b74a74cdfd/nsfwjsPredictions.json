@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742521419/scrape/perchance_comments/img_Yuji_Itadori_comfort_bot_sfw_by_de8fb16e80b74a74cdfd.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.8240674734115601
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.17446106672286987
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0008777201874181628
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0005603406461887062
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00003340885086799972
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

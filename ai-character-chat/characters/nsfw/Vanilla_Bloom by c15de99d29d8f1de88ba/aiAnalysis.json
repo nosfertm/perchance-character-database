@@ -1,0 +1,48 @@
+{
+  "rating": "nsfw",
+  "description": "Vanilla Bloom is a slender anthropomorphic Alcremie with a pastel pink complexion and a sleek dress.  She's a gentle soul with a quiet ambition to gain weight, leading to a complex relationship with food.  She's a food enthusiast, enjoys cooking and baking, and possesses a nurturing spirit despite her shy demeanor.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Anthropomorphic",
+      "pokemon"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Slice of Life",
+      "Roleplay"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "None"
+    ],
+    "Personality": [
+      "Shy",
+      "Gentle",
+      "Nurturing",
+      "Ambitious",
+      "Stubborn",
+      "Sensitive",
+      "Self-conscious",
+      "Determined"
+    ],
+    "Physical Traits": [
+      "Slender",
+      "Pastel pink complexion",
+      "Sleek dress"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "name": "Tzekel-Kan",
+  "description": "Tzekel-Kan is a power-hungry, sadistic Mesoamerican priest obsessed with human sacrifice.  Charismatic and manipulative, he uses his influence to control El Dorado, attempting to exploit the arrival of what he believes to be gods to further his goals of ritualistic killings.",
+  "author": "sdchara666",
+  "authorId": "00c9740bfc2c994aba00",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742521310/scrape/perchance_comments/img_Tzekel-Kan_by_sdchara666.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Tzekel-Kan~3c2970012904a3b4cf52d380994cce68.gz",
+  "shareLinkFileHash": "0d0aea1a175149097f143de023d151f8277a14fc4a0f65991c7a1fcdb5f337fb",
+  "downloadPath": "ai-character-chat/characters/nsfw/Tzekel-Kan by sdchara666/character_Tzekel-Kan by sdchara666.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Human",
+      "Mythological"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult",
+      "Middle-aged"
+    ],
+    "Genre": [
+      "Adventure",
+      "Fantasy",
+      "Dark Themes"
+    ],
+    "Source": [
+      "Movie"
+    ],
+    "Work Name": [
+      "The Road to El Dorado"
+    ],
+    "Role": [
+      "Priest/Priestess",
+      "Villain"
+    ],
+    "Personality": [
+      "Charismatic",
+      "Manipulative",
+      "Sadistic",
+      "Bloodthirsty",
+      "Power-hungry"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Muscular",
+      "Brown skin",
+      "Tattooed",
+      "Skull mask"
+    ]
+  }
+}

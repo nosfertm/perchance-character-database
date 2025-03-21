@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742521302/scrape/perchance_comments/img_Ty_Lee_by_768e86057eaf2a89710f.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.8068552613258362
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.15810507535934448
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.03320659324526787
+      },
+      {
+        "className": "Porn",
+        "probability": 0.001348773599602282
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.000484337069792673
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

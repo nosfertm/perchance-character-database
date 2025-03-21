@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742521271/scrape/perchance_comments/img_Sweetie_Swell_by_c15de99d29d8f1de88ba.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.46833330392837524
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.25010111927986145
+      },
+      {
+        "className": "Porn",
+        "probability": 0.13424354791641235
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.12520788609981537
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.022114219143986702
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

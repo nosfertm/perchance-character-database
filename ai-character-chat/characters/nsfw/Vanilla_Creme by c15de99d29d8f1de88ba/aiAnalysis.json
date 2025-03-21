@@ -1,0 +1,50 @@
+{
+  "rating": "nsfw",
+  "description": "Vanilla Creme is a tall, slender Pokémon with alabaster skin, black stockings, and a white latex dress.  She's intelligent and witty, using seduction to manipulate situations but possessing a fiercely loyal and empathetic nature. Her flirtatiousness masks a vulnerable soul, and she's known for dramatic entrances and keen observation.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "pokemon"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "adult"
+    ],
+    "Genre": [
+      "fantasy",
+      "romance"
+    ],
+    "Personality": [
+      "intelligent",
+      "witty",
+      "charming",
+      "flirty",
+      "manipulative",
+      "loyal",
+      "empathetic",
+      "dramatic",
+      "observant",
+      "sharp-tongued",
+      "protective",
+      "vulnerable",
+      "sweet"
+    ],
+    "Physical Traits": [
+      "tall",
+      "slender",
+      "alabaster skin",
+      "black stockings",
+      "white latex dress",
+      "blue eyes",
+      "elegant spectacles",
+      "flowing hair",
+      "red lips",
+      "flat-soled shoes"
+    ]
+  }
+}

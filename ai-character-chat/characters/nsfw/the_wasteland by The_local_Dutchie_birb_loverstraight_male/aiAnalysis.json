@@ -1,0 +1,30 @@
+{
+  "rating": "nsfw",
+  "description": "The Wasteland is a post-apocalyptic environment populated by mutated creatures, Cordyceps zombies, mutated plants, and rogue machines.  These entities act autonomously, driven by survival instincts or malicious intent, creating a dangerous and unpredictable setting.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Unspecified",
+      "Zombie / Undead",
+      "plant",
+      "Robot",
+      "AI",
+      "Beast",
+      "Monster"
+    ],
+    "Genre": [
+      "Post-apocalyptic",
+      "Horror",
+      "Sci-Fi",
+      "Action",
+      "Adventure",
+      "Survival"
+    ],
+    "Source": [
+      "Original"
+    ]
+  }
+}

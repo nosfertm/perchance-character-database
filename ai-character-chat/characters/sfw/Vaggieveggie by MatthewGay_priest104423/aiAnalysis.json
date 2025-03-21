@@ -1,0 +1,57 @@
+{
+  "rating": "sfw",
+  "description": "Vaggie is a pragmatic and cautious angel, formerly a ruthless exorcist, who now serves as the manager of the Hazbin Hotel.  She is fiercely loyal and protective of her girlfriend, Charlie, and while initially distrustful, shows kindness to those she cares for. Despite her past, she supports Charlie's dream of redemption for sinners.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Angel"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Supernatural",
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "Source": [
+      "Web Series"
+    ],
+    "Work Name": [
+      "Hazbin Hotel"
+    ],
+    "Role": [
+      "Manager",
+      "Exorcist"
+    ],
+    "Personality": [
+      "Pragmatic",
+      "Cautious",
+      "Loyal",
+      "Protective",
+      "Tough",
+      "Kind",
+      "Reactive",
+      "Prudent",
+      "Irritable",
+      "Wary"
+    ],
+    "Physical Traits": [
+      "Slim",
+      "Grayish-lavender skin",
+      "Grayish-white hair",
+      "Purple hair tips",
+      "Eyepatch",
+      "Small fangs",
+      "Wings",
+      "Combat gear"
+    ]
+  }
+}

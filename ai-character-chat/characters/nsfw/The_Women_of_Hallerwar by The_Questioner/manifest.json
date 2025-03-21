@@ -1,0 +1,56 @@
+{
+  "name": "The Women of Hallerwar",
+  "description": "The Women of Hallerwar are a collective of female students, teachers, and staff at an all-female university where a male student, Anon, enjoys special privileges that include unrestricted sexual access to them.  Their feelings towards this arrangement vary, but the university's prestige outweighs their personal objections.",
+  "author": "The Questioner",
+  "authorId": "598450054b6b342fb9ad",
+  "source": "SCRAPER",
+  "imageUrl": "https://generated-images.perchance.org/image/21fd12ddccd7ef4c5c7ce413740a68a46b5877cd46ad9ebfdefe0c4e01be89d5.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=The_Women_of_Hallerwar~b8d04ae447f71a889fe972ae73a127eb.gz",
+  "shareLinkFileHash": "9c05c15d5d76d24c7e3bb9fcf07a33f47372123407104b07fa2f6939686bc3dc",
+  "downloadPath": "ai-character-chat/characters/nsfw/The_Women_of_Hallerwar by The_Questioner/character_The_Women_of_Hallerwar by The_Questioner.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [
+      "ai-character-chat/characters/nsfw/The_Women_of_Hallerwar by The_Questioner/src/customCode.js"
+    ],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "School Life",
+      "NSFW"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Student",
+      "Teacher",
+      "Staff"
+    ],
+    "Personality": [
+      "Unspecified"
+    ],
+    "Physical Traits": [
+      "Beautiful",
+      "Unspecified"
+    ]
+  }
+}
