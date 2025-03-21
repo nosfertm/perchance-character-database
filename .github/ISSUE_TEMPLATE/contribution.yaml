@@ -188,6 +188,7 @@ body:
         - Vampire
         - Werewolf
         - Zombie / Undead
+        - alicorn
         - cecaelian
         - foxkin
         - gooblin
@@ -375,6 +376,7 @@ body:
         - five nights at freddy's
         - hollow knight
         - literature
+        - my little pony: friendship is magic
         - twisted wonderland
     validations:
       required: false
@@ -437,6 +439,7 @@ body:
         - Hentai Haven Exclusives
         - Hollow Knight
         - Homestuck
+        - Howl's Moving Castle
         - Imouto Paradise
         - Inyouchuu
         - JK to Ero Konbini Tenchou
@@ -524,6 +527,7 @@ body:
         - World of Warcraft
         - Yosuga no Sora
         - demon slayer
+        - gacha club
         - girls vs aliens
         - mario
         - poppy playtime
@@ -758,6 +762,7 @@ body:
         - gentlemen
         - groundskeeper
         - gym leader
+        - hat shop girl
         - headmaster
         - high level courtesan
         - instructor
@@ -789,6 +794,7 @@ body:
         - Abusive / Toxic
         - Acrobatic
         - Adaptable
+        - Addictive tendencies
         - Adorable
         - Adventurous
         - Affectionate
@@ -1149,6 +1155,7 @@ body:
         - Mocking
         - Modest
         - Monotone
+        - Moody
         - Moral
         - Moral drive
         - Motherly
@@ -1338,6 +1345,7 @@ body:
         - Strategic
         - Strict
         - Strong
+        - Strong moral drive
         - Strong sense of justice
         - Strong-willed
         - Stubborn
@@ -1441,6 +1449,7 @@ body:
         - envious
         - exploitative
         - fear of abandonment
+        - ferocious
         - fiercely passionate
         - flippant
         - forward
@@ -1458,6 +1467,7 @@ body:
         - lively
         - menacing
         - mild-mannered
+        - mindless
         - morally ambiguous
         - narcissist
         - nice
@@ -1476,10 +1486,12 @@ body:
         - slightly mischievous
         - snarky
         - sociopath
+        - soft-spoken
         - spiteful
         - stoic
         - strategist
         - street-smart
+        - strong-minded
         - sulky
         - sultry
         - suspicious
@@ -1487,6 +1499,7 @@ body:
         - temperamental
         - toxic
         - traumatized
+        - unaware
         - undecided
         - uninterested
         - unnerving
@@ -1526,6 +1539,7 @@ body:
         - 400+ lbs
         - 5 Feet Tall
         - 5 inches dick
+        - 5'1
         - 5'10"
         - 5'5"
         - 5'6 tall
@@ -1697,8 +1711,10 @@ body:
         - Blue Streaks
         - Blue and yellow hair
         - Blue bandana
+        - Blue birthmark
         - Blue eyepatch
         - Blue feathers
+        - Blue flames
         - Blue fur
         - Blue necklace
         - Blue pubic hair
@@ -1721,6 +1737,7 @@ body:
         - Bright blue circles eyes
         - Bright blue eyes
         - Bright orange fur
+        - Bright yellow eyes
         - Broad-shouldered
         - Broken
         - Brown Ears
@@ -1905,6 +1922,7 @@ body:
         - Feminine body shape
         - Feminine human-like face
         - Fez
+        - Fiery
         - Fiery orange fur
         - Fiery stem
         - Fire-orange hair
@@ -2031,6 +2049,7 @@ body:
         - Hammer and sickle symbol
         - Handsome
         - Hat
+        - Hawk-like nose
         - Hazel Eyes
         - Headpiece
         - Heart tattoo
@@ -2243,6 +2262,7 @@ body:
         - Midnight black hair
         - Mini shorts
         - Minimal makeup
+        - Mischievous grin
         - Mismatched Clothing
         - Mismatched Socks
         - Mittens
@@ -2270,6 +2290,7 @@ body:
         - Nipple piercings
         - Nipple ring
         - No Eyes
+        - No bodily form
         - No cheeks
         - No ears
         - No facial features
@@ -2812,6 +2833,7 @@ body:
         - cute face
         - cute tail
         - damaged
+        - dark blue body
         - dark blue jacket
         - dark blue nipples
         - dark clothing
@@ -2825,11 +2847,13 @@ body:
         - deep blue and purple skin
         - deep crimson eyes/claws/nipples/vagina
         - delicate
+        - delicate features
         - digitigrade legs
         - dyed orange hair
         - earrings
         - ears
         - electric blue flames
+        - elegant posture
         - ethereal pink skin
         - fair porcelain skin
         - feline-like
@@ -2903,6 +2927,7 @@ body:
         - manicured nails
         - maroon blazer
         - maroon cravat
+        - medium tone warm brown skin
         - messy dark orange hair
         - metal antenna
         - middle long black hair
@@ -2911,6 +2936,7 @@ body:
         - missing pinky
         - missing teeth
         - moderately large breasts
+        - moon cutie mark
         - moss green eye shadow
         - multicolored accents
         - nipple/pussy piercings
@@ -2967,10 +2993,12 @@ body:
         - red toes
         - red vest
         - red waistcoat
+        - red-gold hair
         - reddish-orange eyes
         - reptile esc beak
         - revealing green farming overall
         - rib-like accessory
+        - rich brown hair
         - ripped tailcoat
         - robotic hum
         - robust frame
@@ -2998,6 +3026,7 @@ body:
         - spike-like arm
         - spiraling irises
         - staff
+        - starry dark blue hair
         - suspenders
         - thick
         - thick body
@@ -3013,11 +3042,13 @@ body:
         - tomboyish features
         - topless
         - torn black-and-white striped bow tie
+        - torn clothing
         - translucent underpants
         - tricolor head
         - two arms
         - two legs
         - two short straight horns
+        - undead
         - undercut
         - v-neck
         - vagina
@@ -3346,6 +3377,7 @@ body:
         - Victorian
         - Virtual Reality
         - Wilderness
+        - abandoned supermarket
         - fictionalised Indian aesthetic
         - industrial
         - living room
