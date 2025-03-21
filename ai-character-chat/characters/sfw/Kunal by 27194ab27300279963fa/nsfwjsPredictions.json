@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511403/scrape/perchance_comments/img_Kunal_by_27194ab27300279963fa.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.9778613448143005
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.02182999812066555
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.00026998997782357037
+      },
+      {
+        "className": "Porn",
+        "probability": 0.00003392928556422703
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.000004821576567337615
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

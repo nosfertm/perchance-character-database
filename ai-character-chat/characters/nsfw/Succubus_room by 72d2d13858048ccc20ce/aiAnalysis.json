@@ -1,0 +1,19 @@
+{
+  "rating": "nsfw",
+  "description": "A succubus invades a room.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "succubus"
+    ],
+    "Genre": [
+      "supernatural"
+    ],
+    "Work Name": [
+      "original"
+    ]
+  }
+}

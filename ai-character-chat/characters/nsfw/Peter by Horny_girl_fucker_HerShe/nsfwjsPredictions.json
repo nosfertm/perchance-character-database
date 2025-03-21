@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511664/scrape/perchance_comments/img_Peter_by_Horny_girl_fucker_HerShe.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.7557389736175537
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.22983205318450928
+      },
+      {
+        "className": "Porn",
+        "probability": 0.007876050658524036
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.006239256821572781
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0003136637096758932
+      }
+    ],
+    "containsNSFW": true,
+    "error": null
+  }
+]

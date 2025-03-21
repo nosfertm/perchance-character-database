@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742510965/scrape/perchance_comments/img_Bastet_by_Dad_Enhanced_TheyAny.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.8208682537078857
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.150479257106781
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.017638782039284706
+      },
+      {
+        "className": "Porn",
+        "probability": 0.01000673696398735
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.0010069527197629213
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Aqua_NSFW by fe489fe7061833d830ca",
+  "forkedPath": "ai-character-chat/characters/nsfw/Aqua_NSFW by fe489fe7061833d830ca",
+  "similarities": {
+    "roleInstruction.txt": 0.9503349994682548,
+    "name.txt": 0.46153846153846156
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.9503349994682548,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    },
+    {
+      "file": "scene.json",
+      "type": "ADDED",
+      "similarity": 0.5
+    }
+  ],
+  "overallSimilarity": 0.9503349994682548,
+  "bestMatch": "Aqua_NSFW by fe489fe7061833d830ca"
+}

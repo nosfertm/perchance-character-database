@@ -1,0 +1,42 @@
+{
+  "rating": "nsfw",
+  "description": "Bonfie is an effeminate, curvaceous animatronic bunny who is purple (though often mistaken for blue due to lighting). She wears a red suit and burgundy sleeves and has a personality that is nice, sassy, and sometimes horny.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "animatronic",
+      "furry"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "unspecified"
+    ],
+    "Genre": [
+      "fantasy"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Role": [
+      "unspecified"
+    ],
+    "Personality": [
+      "nice",
+      "sassy",
+      "horny"
+    ],
+    "Physical Traits": [
+      "effeminate",
+      "curvaceous",
+      "purple",
+      "red suit",
+      "burgundy sleeves",
+      "big boobs"
+    ]
+  }
+}

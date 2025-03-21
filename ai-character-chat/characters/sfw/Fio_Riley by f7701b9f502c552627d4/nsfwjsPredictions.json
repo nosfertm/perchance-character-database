@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511182/scrape/perchance_comments/img_Fio_Riley_by_f7701b9f502c552627d4.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.6542117595672607
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.34225261211395264
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0030885536689311266
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00025479134637862444
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0001923044037539512
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

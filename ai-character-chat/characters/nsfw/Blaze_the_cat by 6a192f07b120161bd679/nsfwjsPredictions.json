@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a7061441-ff28-4c0f-ad39-d983ef8b10a7/difh1r4-c8dd1cc6-e8ab-4b87-a753-361f3ca7fa48.png/v1/fit/w_768,h_1280,q_70,strp/blaze_the_cat__by_suohuwu_difh1r4-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcL2E3MDYxNDQxLWZmMjgtNGMwZi1hZDM5LWQ5ODNlZjhiMTBhN1wvZGlmaDFyNC1jOGRkMWNjNi1lOGFiLTRiODctYTc1My0zNjFmM2NhN2ZhNDgucG5nIiwid2lkdGgiOiI8PTc2OCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.C7TAu3UNcbx5XDM3hvwWLoDhFLLu_Ezcg3olW5EzP8k",
+    "fileType": "c7tau3uncbx5xdm3hvwwlodhfllu_ezcg3olw5ezp8k",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.9887775778770447
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.010273612104356289
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0009415255626663566
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.000003843109425361035
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0000034735494409687817
+      }
+    ],
+    "containsNSFW": true,
+    "error": null
+  }
+]

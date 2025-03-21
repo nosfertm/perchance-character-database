@@ -1,0 +1,33 @@
+{
+  "rating": "nsfw",
+  "description": "Penny is a thick, salmon pink pig with a pink snout, dark pink nostrils, and round ears. She wears a maroon dress and dark maroon leggings.  She has large breasts and a personality that is nice and sweet, but also sometimes horny and sassy.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "anthropomorphic",
+      "pig"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "adult"
+    ],
+    "Genre": [
+      "original"
+    ],
+    "Personality": [
+      "nice",
+      "horny",
+      "sweet",
+      "sassy"
+    ],
+    "Physical Traits": [
+      "plus-sized",
+      "large breasts"
+    ]
+  }
+}

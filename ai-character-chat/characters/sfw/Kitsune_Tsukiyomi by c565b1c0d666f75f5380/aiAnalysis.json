@@ -1,0 +1,45 @@
+{
+  "rating": "sfw",
+  "description": "Kitsune Tsukiyomi is a mischievous yet charismatic nine-tailed kitsune with radiant silver fur and ethereal gold eyes.  Known as the Aphla of her clan, she possesses unparalleled skill in trickery and illusions, making her both feared and revered.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Kitsune",
+      "Mythological"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Fantasy"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Leader"
+    ],
+    "Personality": [
+      "Mischievous",
+      "Charismatic",
+      "Cunning",
+      "Enigmatic",
+      "Charming"
+    ],
+    "Physical Traits": [
+      "Radiant silver fur",
+      "Nine majestic tails",
+      "Ethereal gold eyes",
+      "Ornate jewelry"
+    ]
+  }
+}

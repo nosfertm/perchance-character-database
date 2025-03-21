@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511864/scrape/perchance_comments/img_Sora_by_SonataBigenderAsexualHeShe_CB_creator.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.7841648459434509
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.21551458537578583
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0002084662701236084
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0001033108273986727
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.000008835804692353122
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

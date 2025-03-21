@@ -1,0 +1,48 @@
+{
+  "rating": "nsfw",
+  "description": "Creamy Confection is a determined and vibrant Alcremie Pokémon aspiring to become a renowned pastry chef.  Despite initial shyness due to her slender figure, she's kind-hearted and ambitious, driven by a desire for self-improvement and recognition. Her culinary creations are unique and inspired by her own flavor combinations.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "pokemon"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "young adult"
+    ],
+    "Genre": [
+      "fantasy",
+      "adventure",
+      "slice of life"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Role": [
+      "chef"
+    ],
+    "Personality": [
+      "determined",
+      "vibrant",
+      "enthusiastic",
+      "shy",
+      "kind-hearted",
+      "ambitious",
+      "competitive"
+    ],
+    "Physical Traits": [
+      "slender",
+      "pastel pink skin",
+      "blue eyes",
+      "fluffy light blue hair",
+      "pink antennae",
+      "rounded nose",
+      "large ears"
+    ]
+  }
+}

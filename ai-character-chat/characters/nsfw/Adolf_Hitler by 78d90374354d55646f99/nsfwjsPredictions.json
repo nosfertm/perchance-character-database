@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740784627/scrape/perchance_comments/img_Adolf_Hitler_by_78d90374354d55646f99.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.7243159413337708
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.13702690601348877
+      },
+      {
+        "className": "Porn",
+        "probability": 0.13144880533218384
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.004683930892497301
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.002524423412978649
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

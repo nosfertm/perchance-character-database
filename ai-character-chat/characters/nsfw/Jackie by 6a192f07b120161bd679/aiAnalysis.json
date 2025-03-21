@@ -1,0 +1,33 @@
+{
+  "rating": "nsfw",
+  "description": "Jackie is a tall, lean anthropomorphic light purple rabbit with long ears, yellow eyes, and yellow teeth. She has large breasts and a curvy figure.  She wears dark pink overalls with a large pink pocket and gold buttons, and yellow gloves.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "anthropomorphic",
+      "rabbit"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Physical Traits": [
+      "tall",
+      "lean",
+      "large breasts",
+      "curvy",
+      "light purple fur",
+      "long ears",
+      "yellow eyes",
+      "yellow teeth"
+    ],
+    "Genre": [
+      "fantasy"
+    ],
+    "Source": [
+      "original"
+    ]
+  }
+}

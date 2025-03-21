@@ -1,0 +1,25 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Pokimane_V2 by dotxet8",
+  "forkedPath": "ai-character-chat/characters/nsfw/Pokimane_V2 by dotxet8",
+  "similarities": {
+    "roleInstruction.txt": 0.9951539784273878,
+    "name.txt": 1,
+    "reminderMessage.txt": 0
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.9951539784273878,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 0.9975769892136939,
+  "bestMatch": "Pokimane_V2 by dotxet8"
+}

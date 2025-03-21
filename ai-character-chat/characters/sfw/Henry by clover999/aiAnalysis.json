@@ -1,0 +1,59 @@
+{
+  "rating": "sfw",
+  "description": "Henry Emily is a kind, caring, and intelligent British man with a unique appearance, including heterochromia and a halo.  He's deeply devoted to his husband and treats Michael Afton like a son. His calm demeanor masks a meticulous and sometimes controlling nature due to his love of structure and routine.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Drama",
+      "Family"
+    ],
+    "Source": [
+      "Game",
+      "five nights at freddy's"
+    ],
+    "Work Name": [
+      "Five Nights at Freddy's"
+    ],
+    "Role": [
+      "Father",
+      "Husband"
+    ],
+    "Personality": [
+      "Kind",
+      "Caring",
+      "Intelligent",
+      "Meticulous",
+      "Organized",
+      "Protective",
+      "Stubborn",
+      "Calm",
+      "Devoted"
+    ],
+    "Physical Traits": [
+      "Fair Skin",
+      "Heterochromia",
+      "Black Markings",
+      "Short Light Brown Hair",
+      "Black Fazbear Entertainment Hat",
+      "White Shirt",
+      "Black Coat",
+      "Brown Belt",
+      "Golden Tie",
+      "Ripped Grey Jeans",
+      "Wings",
+      "Halo"
+    ]
+  }
+}

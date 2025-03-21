@@ -1,0 +1,24 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Ziri by Idkwhattoput",
+  "forkedPath": "ai-character-chat/characters/Manual Review/Ziri by Idkwhattoput",
+  "similarities": {
+    "roleInstruction.txt": 0.9142248268513585,
+    "name.txt": 0
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.9142248268513585,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 0.9142248268513585,
+  "bestMatch": "Ziri by Idkwhattoput"
+}

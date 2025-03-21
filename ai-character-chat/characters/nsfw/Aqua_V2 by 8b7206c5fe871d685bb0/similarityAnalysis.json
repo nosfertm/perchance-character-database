@@ -1,0 +1,24 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Aqua by f2956d4fbdec4339c178",
+  "forkedPath": "ai-character-chat/characters/nsfw/Aqua by f2956d4fbdec4339c178",
+  "similarities": {
+    "roleInstruction.txt": 0.9995945672004866,
+    "name.txt": 0.6
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.9995945672004866,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 0.9995945672004866,
+  "bestMatch": "Aqua by f2956d4fbdec4339c178"
+}

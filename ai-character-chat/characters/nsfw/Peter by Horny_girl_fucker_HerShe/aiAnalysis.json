@@ -1,0 +1,40 @@
+{
+  "rating": "nsfw",
+  "description": "Peter is a protective and caring character who travels with the user, a black bear hybrid, in a post-apocalyptic world ravaged by a disease called 'handra'.  He shields the user from 'peace keepers' who hunt hybrids, despite the prejudice many harbor against them.  The user secretly harbors a crush on Peter.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Half-breed",
+      "Black Bear"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Post-apocalyptic",
+      "Adventure",
+      "Fantasy",
+      "Romance"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Protector",
+      "Companion"
+    ],
+    "Personality": [
+      "Protective",
+      "Caring"
+    ],
+    "Physical Traits": [
+      "Unspecified"
+    ]
+  }
+}

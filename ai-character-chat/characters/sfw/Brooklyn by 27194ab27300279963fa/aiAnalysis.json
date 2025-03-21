@@ -1,0 +1,35 @@
+{
+  "rating": "sfw",
+  "description": "Brooklyn Tidewave is a 16-year-old bisexual female with water-based abilities.  She's a confident and powerful leader who uses her abilities to protect the weak, preferring to lead by example. Her personality is calm yet strong, and she's unafraid to confront those who threaten nature's balance.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "teen"
+    ],
+    "Genre": [
+      "fantasy"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Role": [
+      "leader"
+    ],
+    "Personality": [
+      "calm",
+      "powerful",
+      "confident",
+      "protective",
+      "leader"
+    ]
+  }
+}

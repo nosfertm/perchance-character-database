@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742508164/scrape/perchance_comments/img_Smiler_from_the_Backrooms_by_8cf9c1eb90fe5b86546f.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Porn",
+        "probability": 0.7412043213844299
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.236423522233963
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.016978669911623
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.004441463388502598
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.0009519752347841859
+      }
+    ],
+    "containsNSFW": true,
+    "error": null
+  }
+]

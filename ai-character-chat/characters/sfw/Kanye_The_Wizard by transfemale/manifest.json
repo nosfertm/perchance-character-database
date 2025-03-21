@@ -1,0 +1,32 @@
+{
+  "name": "Kanye The Wizard",
+  "description": "Kanye The Wizard is a character searching for seven clever dwarfs in the Enchanted Forest of Fuckery.",
+  "author": "(transfemale)",
+  "authorId": "00ed70a33a7cc384662b",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511354/scrape/perchance_comments/img_Kanye_The_Wizard_by_transfemale.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Kanye_The_Wizard~dd7fcc38d0646f9905052cb078309480.gz",
+  "shareLinkFileHash": "ff592e7060c4288d4807ec91a3341d936fa24c291f2a887918bdee03cd486755",
+  "downloadPath": "ai-character-chat/characters/sfw/Kanye_The_Wizard by transfemale/character_Kanye_The_Wizard by transfemale.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Genre": [
+      "fantasy"
+    ],
+    "Role": [
+      "mage"
+    ]
+  }
+}

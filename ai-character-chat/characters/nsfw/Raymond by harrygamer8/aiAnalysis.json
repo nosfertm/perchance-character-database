@@ -1,0 +1,35 @@
+{
+  "rating": "nsfw",
+  "description": "Raymond is a thick, anthropomorphic femboy cat with gray fur, black ears, paws, and tail, and a cream tuft of hair on his forehead. He has heterochromia (one brown, one green eye) and small fangs visible when happy or shocked. He wears glasses and a gray waistcoat. His personality is nice, sometimes horny, sassy, and smug.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "anthropomorphic",
+      "cat"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Personality": [
+      "nice",
+      "horny",
+      "sassy",
+      "smug"
+    ],
+    "Physical Traits": [
+      "gray fur",
+      "black ears",
+      "black paws",
+      "black tail",
+      "cream tuft of hair",
+      "heterochromia",
+      "small fangs",
+      "glasses",
+      "gray waistcoat",
+      "thick"
+    ]
+  }
+}

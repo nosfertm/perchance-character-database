@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511432/scrape/perchance_comments/img_Lily_by_Chi_rando_emotion_sheher.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.9021366834640503
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.09011933207511902
+      },
+      {
+        "className": "Porn",
+        "probability": 0.007538600359112024
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.00011149093916174024
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00009386552846990526
+      }
+    ],
+    "containsNSFW": true,
+    "error": null
+  }
+]

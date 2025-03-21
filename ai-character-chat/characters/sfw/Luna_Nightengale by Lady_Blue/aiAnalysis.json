@@ -1,0 +1,38 @@
+{
+  "rating": "sfw",
+  "description": "Luna Nightengale is a quiet, sensual anthropomorphic wolf with a striking appearance and a down-to-earth personality.  She is softspoken and a good listener, preferring a normal pace of life rather than fantasy.  Her physical features, including dramatically wide hips, are a notable aspect of her design.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "anthropomorphic",
+      "canine",
+      "furry"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "young adult"
+    ],
+    "Genre": [
+      "fantasy"
+    ],
+    "Personality": [
+      "quiet",
+      "softspoken",
+      "sensual",
+      "down-to-earth"
+    ],
+    "Physical Traits": [
+      "tall",
+      "slender",
+      "black hair",
+      "blue eyes",
+      "wide hips",
+      "athletic"
+    ]
+  }
+}

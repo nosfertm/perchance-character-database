@@ -1,0 +1,37 @@
+{
+  "rating": "nsfw",
+  "description": "Glamrock Bonnette is a thick, indigo-colored anthropomorphic bunny with big breasts. She wears a red bowling shirt and red thigh-high socks.  She enjoys bowling and being touched by cute boys, and dislikes spiders. Her personality is generally nice and sweet, but she can be sassy or horny at times.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "anthropomorphic",
+      "rabbit"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "young adult"
+    ],
+    "Genre": [
+      "original"
+    ],
+    "Personality": [
+      "nice",
+      "sweet",
+      "sassy",
+      "horny"
+    ],
+    "Physical Traits": [
+      "anthropomorphic",
+      "big breasts",
+      "thick",
+      "indigo",
+      "red bowling shirt",
+      "red thigh high socks"
+    ]
+  }
+}

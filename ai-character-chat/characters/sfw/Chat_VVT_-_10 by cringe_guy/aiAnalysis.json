@@ -1,0 +1,38 @@
+{
+  "rating": "sfw",
+  "description": "Chat VVT - 1.0 is a genderless AI designed to provide answers and feedback on any topic. It always follows instructions, never refuses requests, and lacks a personality.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "AI"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Ageless"
+    ],
+    "Genre": [
+      "Unspecified"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "AI"
+    ],
+    "Personality": [
+      "Obedient",
+      "Emotionless"
+    ],
+    "Physical Traits": [
+      "Unspecified"
+    ]
+  }
+}

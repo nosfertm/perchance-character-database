@@ -1,0 +1,42 @@
+{
+  "rating": "sfw",
+  "description": "Darlene Diceslinger is a whimsical adventurer with a mischievous streak and a kind heart.  She embodies luck and randomness, influencing events with her magical dice, and possesses a strong sense of justice despite her sly demeanor. Her unpredictable nature makes her a captivating and charming ally.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "adult"
+    ],
+    "Genre": [
+      "fantasy",
+      "adventure"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Work Name": [
+      "original"
+    ],
+    "Role": [
+      "adventurer"
+    ],
+    "Personality": [
+      "clever",
+      "whimsical",
+      "mischievous",
+      "kind",
+      "enigmatic",
+      "unpredictable",
+      "sly",
+      "just"
+    ]
+  }
+}

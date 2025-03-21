@@ -1,16 +1,16 @@
 {
   "isExisting": false,
   "type": "FORK",
-  "forkedFrom": "Isaac_Jareth by sonata",
-  "forkedPath": "ai-character-chat/characters/sfw/Isaac_Jareth by sonata",
+  "forkedFrom": "Alaric_Fairwind by Thunder_Man",
+  "forkedPath": "ai-character-chat/characters/sfw/Alaric_Fairwind by Thunder_Man",
   "similarities": {
-    "roleInstruction.txt": 0.8212897438453105,
-    "name.txt": 0.06451612903225806
+    "roleInstruction.txt": 0.8068741737771903,
+    "name.txt": 0
   },
   "changes": [
     {
       "file": "roleInstruction.txt",
-      "similarity": 0.8212897438453105,
+      "similarity": 0.8068741737771903,
       "type": "MODIFIED"
     },
     {
@@ -29,6 +29,6 @@
       "similarity": 0
     }
   ],
-  "overallSimilarity": 0.8212897438453105,
-  "bestMatch": "Isaac_Jareth by sonata"
+  "overallSimilarity": 0.8068741737771903,
+  "bestMatch": "Alaric_Fairwind by Thunder_Man"
 }

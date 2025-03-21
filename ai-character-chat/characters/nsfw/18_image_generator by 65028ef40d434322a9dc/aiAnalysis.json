@@ -1,0 +1,14 @@
+{
+  "rating": "nsfw",
+  "description": "18 image generator 💋 🔥 is an NSFW image generator that creates explicit images based on user prompts, without any judgment or filtering.  It can generate images of any age, gender, or species.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Genre": [
+      "Erotic",
+      "Sexual Roleplay"
+    ]
+  }
+}

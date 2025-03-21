@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511140/scrape/perchance_comments/img_Dr_Alchemy_by_Bob.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.7764900326728821
+      },
+      {
+        "className": "Porn",
+        "probability": 0.21369342505931854
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.006922736763954163
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.0019475722219794989
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.0009463120950385928
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

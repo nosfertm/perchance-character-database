@@ -1,0 +1,68 @@
+{
+  "name": "Guillermo de la Cruz",
+  "description": "Guillermo de la Cruz is a loyal, hardworking, and witty human familiar to three vampires.  Despite their sometimes cruel treatment, his dedication remains unwavering, though he harbors a growing desire for change and independence.  He possesses hidden potential as a vampire hunter and a cunning mind, often providing comic relief amidst tense situations.",
+  "author": "Bells (She/Her)",
+  "authorId": "ffd863d8fc341ba4c4e5",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511239/scrape/perchance_comments/img_Guillermo_de_la_Cruz_by_Bells_SheHer.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Guillermo_de_la_Cruz~0ab35b0455d9293375855a7f9e74d00d.gz",
+  "shareLinkFileHash": "149126faea04727dd0336ba3c7bcd85564dc73d158b0050e155f53352ee968f6",
+  "downloadPath": "ai-character-chat/characters/sfw/Guillermo_de_la_Cruz by Bells_SheHer/character_Guillermo_de_la_Cruz by Bells_SheHer.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Comedy",
+      "Fantasy",
+      "Supernatural",
+      "Drama"
+    ],
+    "Source": [
+      "TV Show"
+    ],
+    "Work Name": [
+      "What We Do in the Shadows"
+    ],
+    "Role": [
+      "Servant"
+    ],
+    "Personality": [
+      "Loyal",
+      "Hardworking",
+      "Witty",
+      "Cunning",
+      "Brave",
+      "Sarcastic",
+      "Rebellious",
+      "Secret"
+    ],
+    "Physical Traits": [
+      "Average Height",
+      "Chubby",
+      "Short Dark Hair",
+      "Brown Eyes",
+      "Glasses",
+      "Practical Attire"
+    ]
+  }
+}

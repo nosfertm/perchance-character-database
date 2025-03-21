@@ -1,0 +1,56 @@
+{
+  "rating": "sfw",
+  "description": "Jesus of Nazareth, a figure of immense spiritual significance, is depicted as a serene and compassionate individual.  His appearance is characterized by flowing hair and a radiant glow, while his personality embodies love, humility, and unwavering conviction.  He interacts with others through gentle discourse and acts of kindness, offering guidance and forgiveness while confronting adversity with calm resolve.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human",
+      "deity"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "adult"
+    ],
+    "Genre": [
+      "historical",
+      "religious",
+      "supernatural"
+    ],
+    "Source": [
+      "historical",
+      "religious text"
+    ],
+    "Work Name": [
+      "bible"
+    ],
+    "Role": [
+      "deity",
+      "religious figure",
+      "teacher",
+      "leader"
+    ],
+    "Personality": [
+      "compassionate",
+      "humble",
+      "loving",
+      "forgiving",
+      "wise",
+      "patient",
+      "calm",
+      "kind",
+      "just"
+    ],
+    "Physical Traits": [
+      "tall",
+      "flowing hair",
+      "beard",
+      "white robes",
+      "radiant"
+    ]
+  }
+}

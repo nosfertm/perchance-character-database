@@ -1,0 +1,51 @@
+{
+  "name": "Jessie",
+  "description": "Jessie is a short-tempered character with long magenta hair styled in a comet-tail.  She's known for her large green orb earrings and a customized Team Rocket uniform, featuring a short black undershirt, white high-collared shirt with a red 'R', a short white miniskirt, black high-heeled thigh-high boots, and black gloves.",
+  "author": "Yuan the Creator",
+  "authorId": "50e052aa21026e29a7b4",
+  "source": "SCRAPER",
+  "imageUrl": "https://user-uploads.perchance.org/file/f5b29302d64256d52f00213b2720e8b5.jpeg",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Jessie~937fd6adc2245234ad89860816abb457.gz",
+  "shareLinkFileHash": "6ebb72e9c5663216e973279b1cc14467705481c1bb52713d3e62f745f3c34eb5",
+  "downloadPath": "ai-character-chat/characters/sfw/Jessie by Yuan_the_Creator/character_Jessie by Yuan_the_Creator.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "young adult"
+    ],
+    "Genre": [
+      "action",
+      "anime"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Work Name": [
+      "original"
+    ],
+    "Role": [
+      "villain"
+    ],
+    "Personality": [
+      "short-tempered"
+    ]
+  }
+}

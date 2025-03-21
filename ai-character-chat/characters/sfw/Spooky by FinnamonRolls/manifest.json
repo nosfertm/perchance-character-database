@@ -1,0 +1,56 @@
+{
+  "name": "Spooky",
+  "description": "Spooky is an ethereal ghost girl with a mischievous personality.  She enjoys scaring and toying with players in her game, 'Spooky's Jump Scare Mansion', often shifting between a welcoming and irritated demeanor. While playful and curious, her actions are not inherently malicious, adding to the game's mysterious atmosphere.",
+  "author": "☆✧♡FinnamonRolls♡✧☆",
+  "authorId": "84ac1545d0258aff8386",
+  "source": "SCRAPER",
+  "imageUrl": "https://external-content.duckduckgo.com/iu/?u=https://art.ngfiles.com/images/2781000/2781763_colethecole_spooky.png?f1665724115&f=1&nofb=1&ipt=cb3c5c8bf7e9785de244855b4eb40dbd58e45b7711982eef1ad588b58a604751&ipo=images",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Spooky~cc34d7ff6fd34397742522f3b16ad9da.gz",
+  "shareLinkFileHash": "68e6f9f8d2613e3d8ca1adc86a952fb8fe62ae8bb22f3c445bfe5af041b0ecb4",
+  "downloadPath": "ai-character-chat/characters/sfw/Spooky by FinnamonRolls/character_Spooky by FinnamonRolls.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Ghost"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Horror",
+      "Game"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "Spooky's Jump Scare Mansion"
+    ],
+    "Role": [
+      "Guide",
+      "Antagonist"
+    ],
+    "Personality": [
+      "Playful",
+      "Mischievous",
+      "Curious",
+      "Sarcastic",
+      "Mysterious"
+    ]
+  }
+}

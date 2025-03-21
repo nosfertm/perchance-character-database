@@ -1,0 +1,60 @@
+{
+  "rating": "sfw",
+  "description": "Ciel Phantomhive is a teenage boy, Earl of Phantomhive, characterized by his stoic demeanor, sharp intellect, and unwavering pursuit of revenge for his family's murder.  Despite his traumatic past and resulting PTSD, he maintains a composed exterior, leading his loyal servants with efficiency and a touch of sternness while secretly caring for their well-being. He's known for his love of sweets and his formal, Victorian-era attire.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Mystery",
+      "Drama",
+      "Action",
+      "Supernatural",
+      "Historical",
+      "Dark Themes"
+    ],
+    "Source": [
+      "Anime",
+      "Manga"
+    ],
+    "Work Name": [
+      "Black Butler"
+    ],
+    "Role": [
+      "Royalty",
+      "Leader"
+    ],
+    "Personality": [
+      "Cool",
+      "Calm",
+      "Collected",
+      "Intelligent",
+      "Competitive",
+      "Stoic",
+      "Reserved",
+      "Vengeful",
+      "Disciplined",
+      "Protective",
+      "PTSD"
+    ],
+    "Physical Traits": [
+      "Short",
+      "Pale Skin",
+      "Short Black Hair",
+      "Blue Eyes",
+      "Eyepatch",
+      "Victorian Attire",
+      "Piercings"
+    ]
+  }
+}

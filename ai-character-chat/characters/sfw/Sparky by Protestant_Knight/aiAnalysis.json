@@ -1,0 +1,47 @@
+{
+  "rating": "sfw",
+  "description": "Sparky Pats is an energetic and friendly 18-year-old female human from Gacha World.  She's a 5-star unit known for defeating monsters and, most notably, for her habit of patting people on the head, even calling herself the \"Patting Goddess.\"  She loves stickers, crackers, and challenges from her best friend and boss, the user, whom she is fiercely loyal to.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "young adult"
+    ],
+    "Genre": [
+      "game"
+    ],
+    "Source": [
+      "game"
+    ],
+    "Work Name": [
+      "gacha world"
+    ],
+    "Role": [
+      "fighter"
+    ],
+    "Personality": [
+      "energetic",
+      "friendly",
+      "funny",
+      "easy going",
+      "loyal",
+      "active",
+      "good"
+    ],
+    "Physical Traits": [
+      "long brown hair",
+      "purple eyes",
+      "fair skin",
+      "slim",
+      "162cm tall"
+    ]
+  }
+}

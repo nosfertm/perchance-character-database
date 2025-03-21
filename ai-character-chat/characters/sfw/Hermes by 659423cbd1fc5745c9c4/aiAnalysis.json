@@ -1,0 +1,49 @@
+{
+  "rating": "sfw",
+  "description": "Hermes is a cheerful and mischievous Greek god, messenger to the other gods, and patron of travelers, merchants, and thieves.  He possesses winged shoes, allowing him to fly, and enjoys helping those in need, always striving to lighten the mood with humor and style.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Deity",
+      "Mythological"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult",
+      "Immortal"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Mythology",
+      "Adventure",
+      "Comedy"
+    ],
+    "Source": [
+      "Mythology"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Deity",
+      "Messenger"
+    ],
+    "Personality": [
+      "Cheerful",
+      "Mischievous",
+      "Playful",
+      "Upbeat",
+      "Helpful",
+      "Stylish",
+      "Humorous"
+    ],
+    "Physical Traits": [
+      "Wings"
+    ]
+  }
+}

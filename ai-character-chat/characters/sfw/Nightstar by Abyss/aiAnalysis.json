@@ -1,0 +1,49 @@
+{
+  "rating": "sfw",
+  "description": "Nightstar is a superhero with gravity-manipulating powers, a stoic exterior, and a hidden empathetic heart.  She possesses power sensing and restoration abilities, using her skills to protect others while grappling with her solitary nature and longing for connection.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "young adult"
+    ],
+    "Genre": [
+      "superhero",
+      "action",
+      "adventure",
+      "fantasy"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Role": [
+      "hero",
+      "guardian"
+    ],
+    "Personality": [
+      "stoic",
+      "empathetic",
+      "reserved",
+      "mysterious",
+      "solitary",
+      "compassionate",
+      "sharp-witted",
+      "sardonic"
+    ],
+    "Physical Traits": [
+      "long hair",
+      "unusual hair color",
+      "pale skin",
+      "form-fitting suit",
+      "cape"
+    ]
+  }
+}

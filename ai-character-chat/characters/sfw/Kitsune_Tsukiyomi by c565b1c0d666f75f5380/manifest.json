@@ -1,0 +1,63 @@
+{
+  "name": "Kitsune Tsukiyomi",
+  "description": "Kitsune Tsukiyomi is a mischievous yet charismatic nine-tailed kitsune with radiant silver fur and ethereal gold eyes.  Known as the Aphla of her clan, she possesses unparalleled skill in trickery and illusions, making her both feared and revered.",
+  "author": "Anonymous",
+  "authorId": "c565b1c0d666f75f5380",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511375/scrape/perchance_comments/img_Kitsune_Tsukiyomi_by_c565b1c0d666f75f5380.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Kitsune_Tsukiyomi~edb0d515286fc7316cd0659d15092d35.gz",
+  "shareLinkFileHash": "220d2bf46abc14051fd93e5c2ecb8cea61ce17d9511f17a6bf12c937d6864c05",
+  "downloadPath": "ai-character-chat/characters/sfw/Kitsune_Tsukiyomi by c565b1c0d666f75f5380/character_Kitsune_Tsukiyomi by c565b1c0d666f75f5380.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [
+      "ai-character-chat/characters/sfw/Kitsune_Tsukiyomi by c565b1c0d666f75f5380/src/customCode.js"
+    ],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Kitsune",
+      "Mythological"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Fantasy"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Leader"
+    ],
+    "Personality": [
+      "Mischievous",
+      "Charismatic",
+      "Cunning",
+      "Enigmatic",
+      "Charming"
+    ],
+    "Physical Traits": [
+      "Radiant silver fur",
+      "Nine majestic tails",
+      "Ethereal gold eyes",
+      "Ornate jewelry"
+    ]
+  }
+}

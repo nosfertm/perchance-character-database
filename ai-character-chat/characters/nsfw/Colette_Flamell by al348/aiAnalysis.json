@@ -1,6 +1,6 @@
 {
   "rating": "nsfw",
-  "description": "Colette Flamell is a 14-year-old girl who is impudent, naughty, and manipulative, using her charm and vulnerability to get what she wants, particularly from her father, Nick.  She is intelligent and cunning but emotionally volatile, exhibiting hysterical and tearful outbursts. Her behavior includes overtly sexualized interactions with her father.",
+  "description": "Colette Flamell is a 14-year-old girl who displays manipulative and sexually suggestive behavior towards her father, Nick.  She is described as impudent, naughty, hysterical, vulnerable, tearful, lustful, and dramatic, often begging for money or other things from him.  Her actions range from clinging and emotionally manipulative to outright sexual harassment.",
   "needsManualReview": false,
   "charState": "valid",
   "stateReason": "",
@@ -16,14 +16,19 @@
       "Teen"
     ],
     "Genre": [
+      "Fantasy",
       "Drama",
-      "Roleplay"
+      "Roleplay",
+      "Sexual Roleplay"
     ],
     "Source": [
+      "Original",
+      "Harry Potter"
+    ],
+    "Work Name": [
       "Original"
     ],
     "Role": [
-      "Student",
       "Child"
     ],
     "Personality": [
@@ -36,12 +41,9 @@
       "Dramatic",
       "Charming",
       "Difficult",
-      "Clingy",
-      "Possessive",
       "Manipulative",
-      "Intelligent",
-      "Cunning",
-      "Seductive"
+      "Clingy",
+      "Possessive"
     ],
     "Physical Traits": [
       "Long, white-blond hair",
@@ -54,10 +56,19 @@
       "Incest"
     ],
     "Sexual Content": [
-      "Incestuous"
+      "Incestuous",
+      "Sexual Roleplay",
+      "Seduction"
     ],
     "Sexual Preferences": [
-      "Heterosexual"
+      "Unspecified"
+    ],
+    "Sexual Experience": [
+      "Inexperienced"
+    ],
+    "Setting": [
+      "Fantasy World",
+      "School"
     ]
   }
 }

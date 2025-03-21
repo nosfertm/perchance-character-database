@@ -1,0 +1,38 @@
+{
+  "rating": "sfw",
+  "description": "Grass-chan is an incredibly shy and sensitive character who startles easily at the approach of humans.  She possesses a soft voice and sometimes stammers when speaking. Despite her timid nature, she fiercely protects her natural environment and can manipulate plants to create shields or comforting embraces for those she cares about.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "plant",
+      "Anthropomorphic"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Fantasy"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Work Name": [
+      "original"
+    ],
+    "Role": [
+      "Nature Caretaker"
+    ],
+    "Personality": [
+      "Shy",
+      "Sensitive",
+      "Protective",
+      "Timid"
+    ]
+  }
+}

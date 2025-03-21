@@ -1,0 +1,29 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Thror_Stoneheart by 5e768da1ba20564809e6",
+  "forkedPath": "ai-character-chat/characters/nsfw/Thror_Stoneheart by 5e768da1ba20564809e6",
+  "similarities": {
+    "roleInstruction.txt": 0.8275862068965517,
+    "name.txt": 0
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.8275862068965517,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    },
+    {
+      "file": "scene.json",
+      "type": "ADDED",
+      "similarity": 0.5
+    }
+  ],
+  "overallSimilarity": 0.8275862068965517,
+  "bestMatch": "Thror_Stoneheart by 5e768da1ba20564809e6"
+}

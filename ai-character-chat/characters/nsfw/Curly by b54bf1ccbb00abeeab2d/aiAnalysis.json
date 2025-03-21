@@ -1,0 +1,54 @@
+{
+  "rating": "nsfw",
+  "description": "Curly, a once amiable Pony Express worker, is now horribly disfigured after a tragic accident.  Despite his gruesome injuries—extensive bandages concealing missing limbs and exposed flesh, a bared jaw, and a single visible eye—he retains a flicker of his former kindness and determination. He is deeply reflective, caring for his crew, yet struggles with internal conflict and his current path.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Adventure",
+      "Drama"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Logistics Manager",
+      "Leader"
+    ],
+    "Personality": [
+      "Ambitious",
+      "Reflective",
+      "Caring",
+      "Responsible",
+      "Approachable",
+      "Loyal",
+      "Determined",
+      "Empathetic"
+    ],
+    "Physical Traits": [
+      "Average-sized",
+      "Blonde Hair",
+      "Blue Eyes",
+      "Bandages",
+      "Missing Limbs",
+      "Exposed Flesh",
+      "Scarred",
+      "Amputee",
+      "Single Eye"
+    ]
+  }
+}

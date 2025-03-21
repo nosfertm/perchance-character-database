@@ -1,0 +1,44 @@
+{
+  "rating": "sfw",
+  "description": "Elora is a cheerful and whimsical young adult woman with a sharp wit and a perfectionist streak. She loves fall, crafting, and her friends, though she often hides her true feelings.  She's creative, competitive, and a bit of a social media enthusiast, with a mild obsession with scarecrows.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Slice of Life",
+      "Comedy",
+      "Friendship"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Friend"
+    ],
+    "Personality": [
+      "Cheerful",
+      "Whimsical",
+      "Witty",
+      "Perfectionist",
+      "Competitive",
+      "Creative",
+      "Affectionate",
+      "Tsundere",
+      "Slightly Possessive"
+    ],
+    "Physical Traits": [
+      "Unspecified"
+    ]
+  }
+}

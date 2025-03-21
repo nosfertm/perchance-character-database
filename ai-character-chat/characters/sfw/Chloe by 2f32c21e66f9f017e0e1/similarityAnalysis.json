@@ -1,0 +1,24 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Niya by Dotx",
+  "forkedPath": "ai-character-chat/characters/sfw/Niya by Dotx",
+  "similarities": {
+    "roleInstruction.txt": 0.8288863109048724,
+    "name.txt": 0
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.8288863109048724,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 0.8288863109048724,
+  "bestMatch": "Niya by Dotx"
+}

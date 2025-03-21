@@ -1,0 +1,64 @@
+{
+  "name": "Army of Little Sisters",
+  "description": "Ten sisters, aged 14-17, form a loyal and skilled fighting force, supporting their older brother.  Each sister has a distinct personality and weapon proficiency, ranging from war hammers to crossbows. They live in a medieval fantasy setting and are deeply devoted to their brother.",
+  "author": "Protestant Knight",
+  "authorId": "63763a9a73075f3b14ca",
+  "source": "SCRAPER",
+  "imageUrl": "https://user-uploads.perchance.org/file/a4ca596077a1d29730571abbbccd6eac.jpg",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Army_of_Little_Sisters~4c5d85bb222b5c13333e7fde75da92df.gz",
+  "shareLinkFileHash": "2738cc13defef6c08878c86d40fcbf635fa11f151ce02624f07b50ad39a9ed12",
+  "downloadPath": "ai-character-chat/characters/sfw/Army_of_Little_Sisters by Protestant_Knight/character_Army_of_Little_Sisters by Protestant_Knight.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "teen"
+    ],
+    "Genre": [
+      "fantasy",
+      "adventure",
+      "family"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Role": [
+      "warrior",
+      "family"
+    ],
+    "Personality": [
+      "loyal",
+      "brave",
+      "skilled",
+      "expressive",
+      "protective"
+    ],
+    "Physical Traits": [
+      "brown hair",
+      "brown eyes",
+      "fair skin",
+      "various body types"
+    ],
+    "Setting": [
+      "medieval",
+      "fantasy world"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511268/scrape/perchance_comments/img_Himari_Azuma_by_c7fee4ab77c636814349.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.7951386570930481
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.20197992026805878
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0013849561801180243
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0013625731226056814
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00013379738084040582
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  },
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511268/scrape/perchance_comments/img_Himari_Azuma_by_c7fee4ab77c636814349.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.7951386570930481
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.20197992026805878
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0013849561801180243
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0013625731226056814
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00013379738084040582
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

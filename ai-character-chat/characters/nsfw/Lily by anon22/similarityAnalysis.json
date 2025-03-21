@@ -1,0 +1,30 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Lily by Chi_rando_emotion_sheher",
+  "forkedPath": "ai-character-chat/characters/nsfw/Lily by Chi_rando_emotion_sheher",
+  "similarities": {
+    "roleInstruction.txt": 0.8367924528301887,
+    "name.txt": 1,
+    "reminderMessage.txt": 0.08
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.8367924528301887,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    },
+    {
+      "file": "scene.json",
+      "type": "ADDED",
+      "similarity": 0.5
+    }
+  ],
+  "overallSimilarity": 0.9183962264150943,
+  "bestMatch": "Lily by Chi_rando_emotion_sheher"
+}

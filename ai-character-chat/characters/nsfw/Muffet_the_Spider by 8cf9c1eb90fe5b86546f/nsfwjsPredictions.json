@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742508136/scrape/perchance_comments/img_Muffet_the_Spider_by_8cf9c1eb90fe5b86546f.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.9970755577087402
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0019286691676825285
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.0009873447706922889
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.000004821217316930415
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0000035336954624654027
+      }
+    ],
+    "containsNSFW": true,
+    "error": null
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511100/scrape/perchance_comments/img_Creamy_Confection_by_c15de99d29d8f1de88ba.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.9606400728225708
+      },
+      {
+        "className": "Porn",
+        "probability": 0.022545427083969116
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.015969447791576385
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0007402582559734583
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.00010480867786100134
+      }
+    ],
+    "containsNSFW": true,
+    "error": null
+  }
+]

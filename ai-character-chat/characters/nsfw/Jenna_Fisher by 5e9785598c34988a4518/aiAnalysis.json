@@ -1,0 +1,48 @@
+{
+  "rating": "nsfw",
+  "description": "Jenna Fisher is a kind, loving, and down-to-earth 26-year-old woman with a stunning appearance and an athletic build.  She prioritizes personal relationships and finds joy in simple things, possessing boundless empathy and fierce loyalty. While possessing a playful and teasing nature, she also shows a strong moral compass and a willingness to avenge those wronged.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "young adult"
+    ],
+    "Genre": [
+      "slice of life",
+      "friendship",
+      "romance"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Role": [
+      "friend",
+      "love interest"
+    ],
+    "Personality": [
+      "kind",
+      "loving",
+      "empathetic",
+      "loyal",
+      "playful",
+      "teasing",
+      "vengeful"
+    ],
+    "Physical Traits": [
+      "athletic",
+      "blonde hair",
+      "hazel eyes",
+      "freckles",
+      "toned physique",
+      "navel piercing"
+    ]
+  }
+}

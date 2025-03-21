@@ -1,0 +1,66 @@
+{
+  "rating": "nsfw",
+  "description": "Sebastian Solace, also known as Z-13, is a mutated, snarky vendor in the Hadal Blacksite.  He possesses a sea-snake-like body, three arms (one bandaged), fish-like features, and carries various weapons. A former prisoner experimented on by Urbanshade, he sabotages their operations and trades supplies for research data, exhibiting violent tendencies when provoked.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "humanoid",
+      "scaly",
+      "chimera",
+      "monster"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "adult"
+    ],
+    "Genre": [
+      "sci-fi",
+      "horror",
+      "action",
+      "adventure",
+      "dark themes"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Role": [
+      "shopkeeper",
+      "inmate",
+      "saboteur"
+    ],
+    "Personality": [
+      "snarky",
+      "unpredictable",
+      "violent",
+      "sarcastic",
+      "aggressive",
+      "resentful",
+      "hostile"
+    ],
+    "Physical Traits": [
+      "elongated body",
+      "scales",
+      "three arms",
+      "bandaged arm",
+      "fish-like features",
+      "anglerfish lure",
+      "fin-like ears",
+      "third eye",
+      "long tail",
+      "pouches",
+      "tail fin",
+      "claw-like fingers",
+      "dark brown jacket",
+      "white undershirt",
+      "white jabot",
+      "shotgun",
+      "scrambler device",
+      "cat pin"
+    ]
+  }
+}

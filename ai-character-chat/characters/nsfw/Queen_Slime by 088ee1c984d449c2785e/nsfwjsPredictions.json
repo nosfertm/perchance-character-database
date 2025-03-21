@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511710/scrape/perchance_comments/img_Queen_Slime_by_088ee1c984d449c2785e.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.9643715620040894
+      },
+      {
+        "className": "Porn",
+        "probability": 0.02896316908299923
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.005714039318263531
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0007081307121552527
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00024298761854879558
+      }
+    ],
+    "containsNSFW": true,
+    "error": null
+  }
+]

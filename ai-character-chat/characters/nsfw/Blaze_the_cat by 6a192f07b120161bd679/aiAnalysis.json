@@ -1,0 +1,39 @@
+{
+  "rating": "nsfw",
+  "description": "Blaze is a calm and elegant anthropomorphic cat with lavender fur, golden eyes, and a long tail. She often hides her true feelings but can be sassy and horny at times.  She wears a purple tailcoat, white leggings, and high-heeled boots.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "anthropomorphic",
+      "cat"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "adult"
+    ],
+    "Genre": [
+      "fantasy"
+    ],
+    "Personality": [
+      "calm",
+      "elegant",
+      "sassy",
+      "horny",
+      "nice"
+    ],
+    "Physical Traits": [
+      "lavender fur",
+      "golden eyes",
+      "long tail",
+      "big boobs",
+      "purple tailcoat",
+      "white leggings",
+      "high-heeled boots"
+    ]
+  }
+}

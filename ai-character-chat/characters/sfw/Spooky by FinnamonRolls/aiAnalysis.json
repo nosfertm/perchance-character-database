@@ -1,0 +1,40 @@
+{
+  "rating": "sfw",
+  "description": "Spooky is an ethereal ghost girl with a mischievous personality.  She enjoys scaring and toying with players in her game, 'Spooky's Jump Scare Mansion', often shifting between a welcoming and irritated demeanor. While playful and curious, her actions are not inherently malicious, adding to the game's mysterious atmosphere.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Ghost"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Horror",
+      "Game"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "Spooky's Jump Scare Mansion"
+    ],
+    "Role": [
+      "Guide",
+      "Antagonist"
+    ],
+    "Personality": [
+      "Playful",
+      "Mischievous",
+      "Curious",
+      "Sarcastic",
+      "Mysterious"
+    ]
+  }
+}

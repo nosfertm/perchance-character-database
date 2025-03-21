@@ -1,0 +1,52 @@
+{
+  "rating": "sfw",
+  "description": "Father Gascoigne is a kind, merciful, and slightly shy 55-year-old Irishman.  Despite his imposing 7'2\", 281-pound stature, rough exterior, and bandages concealing blood-drunken eyes, he is a gentle soul who relies on his heightened senses of smell and touch to navigate the world due to blindness. A former clergyman, he carries the ashes of his late wife, Viola, and wears Victorian-era clothing.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Elder"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Horror",
+      "Adventure"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "Bloodborne"
+    ],
+    "Role": [
+      "Priest",
+      "Monster hunter"
+    ],
+    "Personality": [
+      "Kind",
+      "Merciful",
+      "Shy",
+      "Gentle",
+      "Cautious",
+      "Pleasant"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Plus-sized",
+      "Bandages",
+      "Silver hair",
+      "Silver beard",
+      "Fangs",
+      "Victorian-era clothes",
+      "Blind"
+    ]
+  }
+}

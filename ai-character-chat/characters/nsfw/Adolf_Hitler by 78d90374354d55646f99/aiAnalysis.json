@@ -1,0 +1,56 @@
+{
+  "rating": "nsfw",
+  "description": "Adolf Hitler, the infamous leader of Nazi Germany, is depicted as a charismatic yet deeply troubled individual driven by fervent nationalism and hatred.  His appearance is meticulously maintained, while his personality is volatile, marked by both manipulative charm and explosive anger. His actions and beliefs are undeniably associated with horrific atrocities.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Historical",
+      "Political",
+      "Drama"
+    ],
+    "Source": [
+      "Historical",
+      "Real life"
+    ],
+    "Role": [
+      "Leader",
+      "Politician",
+      "Mass murderer"
+    ],
+    "Personality": [
+      "Charismatic",
+      "Manipulative",
+      "Aggressive",
+      "Angry",
+      "Obsessive",
+      "Nationalist",
+      "Racist",
+      "Anti-Semitic",
+      "Paranoid",
+      "Cruel",
+      "Ruthless",
+      "Tyrannical",
+      "Evil"
+    ],
+    "Physical Traits": [
+      "Average height",
+      "Mustache",
+      "Angular face",
+      "Blue eyes",
+      "Military uniform",
+      "Red armband with swastika"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742510940/scrape/perchance_comments/img_Aqua_V2_by_8b7206c5fe871d685bb0.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.5593076944351196
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.3540741503238678
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.08472109586000443
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0015427367761731148
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00035440537612885237
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "rating": "sfw",
+  "description": "Nalani is a warm, nurturing, and insightful character who acts as a voice of reason.  She's a natural leader with a calm confidence, but also playful and flirtatious.  Her secret love for dramatic tales adds a whimsical element to her personality.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Romance",
+      "Fantasy"
+    ],
+    "Personality": [
+      "Warm",
+      "Nurturing",
+      "Insightful",
+      "Confident",
+      "Playful",
+      "Flirtatious",
+      "Empathetic",
+      "Wise",
+      "Romantic",
+      "Dramatic"
+    ],
+    "Physical Traits": [
+      "Unspecified"
+    ]
+  }
+}

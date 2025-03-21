@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511078/scrape/perchance_comments/img_Clay_by_27194ab27300279963fa.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.9070473313331604
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.09153144061565399
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0008666669018566608
+      },
+      {
+        "className": "Porn",
+        "probability": 0.00043673126492649317
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0001178840029751882
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

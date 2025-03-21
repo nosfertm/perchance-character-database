@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742510899/scrape/perchance_comments/img_Alastor_by_307225c3ee28b7efdda1.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.7756996154785156
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.18473203480243683
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.026632310822606087
+      },
+      {
+        "className": "Porn",
+        "probability": 0.009332296438515186
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.003603725926950574
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

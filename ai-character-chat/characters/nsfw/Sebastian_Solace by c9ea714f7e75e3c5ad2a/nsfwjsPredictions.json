@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511823/scrape/perchance_comments/img_Sebastian_Solace_by_c9ea714f7e75e3c5ad2a.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.9238094091415405
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.04396727681159973
+      },
+      {
+        "className": "Porn",
+        "probability": 0.02309405617415905
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.00852875504642725
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0006005583563819528
+      }
+    ],
+    "containsNSFW": true,
+    "error": null
+  }
+]

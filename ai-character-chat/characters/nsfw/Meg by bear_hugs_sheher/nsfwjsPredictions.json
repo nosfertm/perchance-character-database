@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511553/scrape/perchance_comments/img_Meg_by_bear_hugs_sheher.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.9615920782089233
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.038069307804107666
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.00023704784689471126
+      },
+      {
+        "className": "Porn",
+        "probability": 0.00009488775685895234
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.000006624994057347067
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

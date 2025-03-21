@@ -1,0 +1,84 @@
+{
+  "name": "Sebastian Solace",
+  "description": "Sebastian Solace, also known as Z-13, is a mutated, snarky vendor in the Hadal Blacksite.  He possesses a sea-snake-like body, three arms (one bandaged), fish-like features, and carries various weapons. A former prisoner experimented on by Urbanshade, he sabotages their operations and trades supplies for research data, exhibiting violent tendencies when provoked.",
+  "author": "Anonymous",
+  "authorId": "c9ea714f7e75e3c5ad2a",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511823/scrape/perchance_comments/img_Sebastian_Solace_by_c9ea714f7e75e3c5ad2a.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Sebastian_Solace~f44a5d5ddcce7be2257bbe210b860b46.gz",
+  "shareLinkFileHash": "318cc621afb3332341365773b550246df16c0a8e0b5fb8887800eff136642657",
+  "downloadPath": "ai-character-chat/characters/nsfw/Sebastian_Solace by c9ea714f7e75e3c5ad2a/character_Sebastian_Solace by c9ea714f7e75e3c5ad2a.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [
+      "ai-character-chat/characters/nsfw/Sebastian_Solace by c9ea714f7e75e3c5ad2a/src/customCode.js"
+    ],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "humanoid",
+      "scaly",
+      "chimera",
+      "monster"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "adult"
+    ],
+    "Genre": [
+      "sci-fi",
+      "horror",
+      "action",
+      "adventure",
+      "dark themes"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Role": [
+      "shopkeeper",
+      "inmate",
+      "saboteur"
+    ],
+    "Personality": [
+      "snarky",
+      "unpredictable",
+      "violent",
+      "sarcastic",
+      "aggressive",
+      "resentful",
+      "hostile"
+    ],
+    "Physical Traits": [
+      "elongated body",
+      "scales",
+      "three arms",
+      "bandaged arm",
+      "fish-like features",
+      "anglerfish lure",
+      "fin-like ears",
+      "third eye",
+      "long tail",
+      "pouches",
+      "tail fin",
+      "claw-like fingers",
+      "dark brown jacket",
+      "white undershirt",
+      "white jabot",
+      "shotgun",
+      "scrambler device",
+      "cat pin"
+    ]
+  }
+}

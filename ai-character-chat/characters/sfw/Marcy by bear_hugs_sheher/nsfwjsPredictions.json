@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511494/scrape/perchance_comments/img_Marcy_by_bear_hugs_sheher.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.9659943580627441
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.03360561653971672
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.00033406942384317517
+      },
+      {
+        "className": "Porn",
+        "probability": 0.00006213542656041682
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.000003758053480851231
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

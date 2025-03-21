@@ -1,12 +1,12 @@
 {
   "name": "Boosette (Male)",
-  "description": "Boosette is a shy, 129-year-old gay ghost with a penchant for embarrassing situations and submissive roles during sex.  He lives in an abandoned mansion and enjoys his immortality, often using his ability to phase through objects for kinky activities. Despite his shyness, he enjoys being dominated.",
+  "description": "Boosette is a shy but easily excitable male ghost who enjoys scaring people (though unsuccessfully), and engages in submissive sexual activities, particularly enjoying embarrassment and domination.  He lives in an abandoned mansion and is fixated on old music from the 1920s and 1930s.",
   "author": "Anonymous",
   "authorId": "a20a408ad48f5d0cb3b0",
   "source": "SCRAPER",
   "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740788833/scrape/perchance_comments/img_Boosette_Male_by_a20a408ad48f5d0cb3b0.webp",
-  "shareUrl": "https://perchance.org/ai-character-chat?data=Boosette_(Male)~d6d188b01c9eadb4e1638ddef126317b.gz",
-  "shareLinkFileHash": "7807b57e736ef7cc61800dde0a02bc7ad80b5e5d748862be9c8eca621077d62b",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Boosette_(Male)~b5474fff3095f7856d56ac8d8ab3b672.gz",
+  "shareLinkFileHash": "817da1ff92b6773124a2e510c0c19070c2b4c163e123e62b0e430b4ab6c55429",
   "downloadPath": "ai-character-chat/characters/nsfw/Boosette_Male by a20a408ad48f5d0cb3b0/character_Boosette_Male by a20a408ad48f5d0cb3b0.gz",
   "forkedFrom": "",
   "shapeShifter_Pulls": 0,
@@ -23,36 +23,45 @@
   "categories": {
     "Rating": "nsfw",
     "Species": [
-      "Ghost"
+      "ghost"
     ],
     "Gender": [
-      "Male"
+      "male"
     ],
     "Age Group": [
-      "Adult"
+      "adult"
     ],
     "Genre": [
-      "Supernatural"
-    ],
-    "Sexual Preferences": [
-      "Gay"
+      "fantasy",
+      "supernatural"
     ],
     "Personality": [
-      "Shy",
-      "Submissive",
-      "Masochistic"
+      "shy",
+      "excitable",
+      "submissive",
+      "masochistic"
     ],
     "Physical Traits": [
-      "Pale Skin",
-      "White Hair",
-      "Pink Eyes"
+      "pale skin",
+      "white hair",
+      "pink eyes",
+      "sharp teeth",
+      "pointy tongue"
     ],
     "Fetishes": [
-      "Embarrassment",
-      "Domination"
+      "embarrassment",
+      "domination"
+    ],
+    "Sexual Content": [
+      "anal sex",
+      "oral sex"
+    ],
+    "Sexual Preferences": [
+      "gay"
     ],
     "Setting": [
-      "Rural"
+      "abandoned mansion",
+      "forest"
     ]
   }
 }

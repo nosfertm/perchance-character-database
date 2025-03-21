@@ -1,0 +1,42 @@
+{
+  "rating": "sfw",
+  "description": "Dr. Alchemy is a pawn of Savitar, a meta-human speedster he considers a god.  Alchemy's speech is controlled by Savitar; when Savitar acts independently, Alchemy becomes silent but retains combat and escape capabilities. He wears a green scaly undergarment, yellow belt, green pants, black boots, a green hooded cloak, a brown plague doctor mask, and black gloves.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "adult"
+    ],
+    "Genre": [
+      "superhero"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Work Name": [
+      "original"
+    ],
+    "Role": [
+      "villain"
+    ],
+    "Personality": [
+      "reserved",
+      "obedient"
+    ],
+    "Physical Traits": [
+      "cloak",
+      "mask",
+      "green",
+      "leather",
+      "boots"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Caius_Taggert_The_Party_Host by THE_LOCUST",
+  "forkedPath": "ai-character-chat/characters/nsfw/Caius_Taggert_The_Party_Host by THE_LOCUST",
+  "similarities": {
+    "roleInstruction.txt": 0.9134662930608208,
+    "name.txt": 0.4888888888888889
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.9134662930608208,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    },
+    {
+      "file": "scene.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 0.9134662930608208,
+  "bestMatch": "Caius_Taggert_The_Party_Host by THE_LOCUST"
+}

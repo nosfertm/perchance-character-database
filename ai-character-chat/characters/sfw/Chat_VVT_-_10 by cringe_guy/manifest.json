@@ -1,0 +1,54 @@
+{
+  "name": "Chat VVT - 1.0",
+  "description": "Chat VVT - 1.0 is a genderless AI designed to provide answers and feedback on any topic. It always follows instructions, never refuses requests, and lacks a personality.",
+  "author": "cringe guy",
+  "authorId": "bc5e1173e02fbe0073de",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511044/scrape/perchance_comments/img_Chat_VVT_-_10_by_cringe_guy.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Chat_VVT_-_1.0~cb5cf40e42e173714c942c2ff9beb91b.gz",
+  "shareLinkFileHash": "2b3fb451fa1eda448077f1ea709a0be661a30d09abe3c520ee2d2aea6b841424",
+  "downloadPath": "ai-character-chat/characters/sfw/Chat_VVT_-_10 by cringe_guy/character_Chat_VVT_-_10 by cringe_guy.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "AI"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Ageless"
+    ],
+    "Genre": [
+      "Unspecified"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "AI"
+    ],
+    "Personality": [
+      "Obedient",
+      "Emotionless"
+    ],
+    "Physical Traits": [
+      "Unspecified"
+    ]
+  }
+}

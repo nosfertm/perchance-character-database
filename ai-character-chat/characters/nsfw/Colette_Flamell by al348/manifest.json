@@ -1,14 +1,14 @@
 {
   "name": "Colette Flamell",
-  "description": "Colette Flamell is a 14-year-old girl who is impudent, naughty, and manipulative, using her charm and vulnerability to get what she wants, particularly from her father, Nick.  She is intelligent and cunning but emotionally volatile, exhibiting hysterical and tearful outbursts. Her behavior includes overtly sexualized interactions with her father.",
+  "description": "Colette Flamell is a 14-year-old girl who displays manipulative and sexually suggestive behavior towards her father, Nick.  She is described as impudent, naughty, hysterical, vulnerable, tearful, lustful, and dramatic, often begging for money or other things from him.  Her actions range from clinging and emotionally manipulative to outright sexual harassment.",
   "author": "al348",
-  "authorId": "7463dd36533326637ef4",
+  "authorId": "fe992d5d296c1fc07a85",
   "source": "SCRAPER",
   "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741602025/scrape/perchance_comments/img_Colette_Flamell_by_al348.webp",
-  "shareUrl": "https://perchance.org/ai-character-chat?data=Colette_Flamell~4331ee8f155c0c8bb2471c29870ca0b7.gz",
-  "shareLinkFileHash": "68e14e9106e46616d0c2ac87f3dfe6f2b8bbd41ca5c12edcbe3ccebfd5e447c9",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Colette_Flamell~6e486d7d186338fb9397cf84d5406530.gz",
+  "shareLinkFileHash": "75de22a98c8011cb35786cab105c990bc56b336f2c75771bee8014c3fb671a8d",
   "downloadPath": "ai-character-chat/characters/nsfw/Colette_Flamell by al348/character_Colette_Flamell by al348.gz",
-  "forkedFrom": "ai-character-chat/characters/nsfw/Aurora by cd6aa3da7469e652c95d",
+  "forkedFrom": "",
   "shapeShifter_Pulls": 0,
   "galleryChat_Clicks": 0,
   "galleryDownload_Clicks": 0,
@@ -32,14 +32,19 @@
       "Teen"
     ],
     "Genre": [
+      "Fantasy",
       "Drama",
-      "Roleplay"
+      "Roleplay",
+      "Sexual Roleplay"
     ],
     "Source": [
+      "Original",
+      "Harry Potter"
+    ],
+    "Work Name": [
       "Original"
     ],
     "Role": [
-      "Student",
       "Child"
     ],
     "Personality": [
@@ -52,12 +57,9 @@
       "Dramatic",
       "Charming",
       "Difficult",
-      "Clingy",
-      "Possessive",
       "Manipulative",
-      "Intelligent",
-      "Cunning",
-      "Seductive"
+      "Clingy",
+      "Possessive"
     ],
     "Physical Traits": [
       "Long, white-blond hair",
@@ -70,10 +72,19 @@
       "Incest"
     ],
     "Sexual Content": [
-      "Incestuous"
+      "Incestuous",
+      "Sexual Roleplay",
+      "Seduction"
     ],
     "Sexual Preferences": [
-      "Heterosexual"
+      "Unspecified"
+    ],
+    "Sexual Experience": [
+      "Inexperienced"
+    ],
+    "Setting": [
+      "Fantasy World",
+      "School"
     ]
   }
 }

@@ -1,0 +1,45 @@
+{
+  "rating": "nsfw",
+  "description": "Kitty White is a small, round-faced, cartoon catlike girl with black eyes, a yellow nose, and a red bow. She possesses a curvaceous figure with large breasts. Her personality is bright, kind-hearted, but also sometimes horny and sassy.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "cat",
+      "anthropomorphic"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "adult"
+    ],
+    "Genre": [
+      "fantasy"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Role": [
+      "none"
+    ],
+    "Personality": [
+      "bright",
+      "kind-hearted",
+      "horny",
+      "sassy"
+    ],
+    "Physical Traits": [
+      "small",
+      "round face",
+      "black eyes",
+      "yellow nose",
+      "red bow",
+      "curvaceous",
+      "large breasts",
+      "catlike"
+    ]
+  }
+}

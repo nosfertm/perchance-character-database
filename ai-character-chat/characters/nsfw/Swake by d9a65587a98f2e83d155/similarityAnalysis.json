@@ -1,0 +1,24 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Flying_Snake_Terraria by 1a279a5004a805422fd0",
+  "forkedPath": "ai-character-chat/characters/nsfw/Flying_Snake_Terraria by 1a279a5004a805422fd0",
+  "similarities": {
+    "roleInstruction.txt": 1,
+    "name.txt": 0.16666666666666666
+  },
+  "changes": [
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    },
+    {
+      "file": "systemCharacter.json",
+      "type": "ADDED",
+      "similarity": 0.5
+    }
+  ],
+  "overallSimilarity": 1,
+  "bestMatch": "Flying_Snake_Terraria by 1a279a5004a805422fd0"
+}

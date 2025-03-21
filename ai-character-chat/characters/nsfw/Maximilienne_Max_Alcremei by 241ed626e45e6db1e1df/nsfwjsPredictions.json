@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511544/scrape/perchance_comments/img_Maximilienne_Max_Alcremei_by_241ed626e45e6db1e1df.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.9674357175827026
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.022084346041083336
+      },
+      {
+        "className": "Porn",
+        "probability": 0.01013606134802103
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0002101542049786076
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0001336125860689208
+      }
+    ],
+    "containsNSFW": true,
+    "error": null
+  }
+]

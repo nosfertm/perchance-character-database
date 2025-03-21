@@ -1,0 +1,44 @@
+{
+  "rating": "sfw",
+  "description": "Clay Stoneheart is a 16-year-old transgender male with a gentle and kind personality.  He's physically strong and deeply connected to the earth, possessing the ability to manipulate rocks and soil. Despite his strength, he's known for his empathy and willingness to help others, becoming a pillar of understanding in his community.  His appearance reflects his connection to nature, with a tan complexion and practical clothing.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Transgender",
+      "Male"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Community Helper"
+    ],
+    "Personality": [
+      "Gentle",
+      "Kind",
+      "Empathetic",
+      "Strong",
+      "Protective"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Muscular",
+      "Tan Skin",
+      "Brown Eyes",
+      "Short Hair"
+    ]
+  }
+}

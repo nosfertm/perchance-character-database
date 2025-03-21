@@ -1,0 +1,24 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Chloe by 2f32c21e66f9f017e0e1",
+  "forkedPath": "ai-character-chat/characters/sfw/Chloe by 2f32c21e66f9f017e0e1",
+  "similarities": {
+    "roleInstruction.txt": 0.8349056603773585,
+    "name.txt": 0
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.8349056603773585,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 0.8349056603773585,
+  "bestMatch": "Chloe by 2f32c21e66f9f017e0e1"
+}

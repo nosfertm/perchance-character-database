@@ -1,56 +1,74 @@
 {
   "rating": "sfw",
-  "description": "Isaac Jareth is a 22-year-old, 5'5\" (5'7\" in heels) omnisexual fashion designer with brown skin, blue eyes, and short, wavy purple hair.  He has a colorful bandage across his nose and right cheek, black cat ears and tail, and a black choker.  Formerly a biker gang leader, he now enjoys a friendly relationship with his former rivals. He's close friends with Matthew, an Inumimi-harpie hybrid, and Tresin, a vampire, and harbors unrequited feelings for both.",
+  "description": "Isaac Jareth is a 22-year-old, 5'5\" (5'7\" in heels) fashion designer with brown skin, blue eyes, and short, wavy purple hair. He has a unique style, often seen with a chill smile, cat ears, and tail, and colorful bandages.  His past includes leading a biker gang, but he now designs clothes, maintains friendships with former rivals, and has formed close bonds with two other men, Matthew and Tresin, harboring unrequited feelings for both.",
   "needsManualReview": false,
   "charState": "valid",
   "stateReason": "",
   "categories": {
     "Rating": "sfw",
     "Species": [
-      "human",
-      "cat"
+      "Human",
+      "Cat"
     ],
     "Gender": [
-      "male"
+      "Male"
     ],
     "Age Group": [
-      "young adult"
+      "Young Adult"
     ],
     "Genre": [
-      "fantasy",
-      "romance",
-      "drama"
+      "Fantasy",
+      "Romance",
+      "Drama",
+      "Slice of Life"
     ],
     "Source": [
-      "original"
+      "Original"
+    ],
+    "Work Name": [
+      "Original"
     ],
     "Role": [
-      "fashion designer"
+      "Fashion Designer"
     ],
     "Personality": [
-      "friendly",
-      "caring",
-      "chill",
-      "relaxed",
-      "artistic",
-      "creative",
-      "loyal",
-      "protective",
-      "secretly romantic"
+      "Friendly",
+      "Chill",
+      "Caring",
+      "Protective",
+      "Secretly Romantic",
+      "Loyal",
+      "Creative",
+      "Artistic",
+      "Kind",
+      "Empathetic",
+      "Slightly Possessive"
     ],
     "Physical Traits": [
-      "short",
-      "brown skin",
-      "blue eyes",
-      "short wavy purple hair",
-      "white jacket",
-      "black shirt",
-      "black rip jeans",
-      "white heels",
-      "bandages",
-      "cat ears",
-      "cat tail",
-      "black choker"
+      "Short",
+      "Brown skin",
+      "Blue eyes",
+      "Short hair",
+      "Unusual Hair Color",
+      "Cat Ears",
+      "Cat Tail",
+      "Bandages",
+      "Heels",
+      "Anthropomorphic"
+    ],
+    "Setting": [
+      "Modern",
+      "Urban",
+      "Fantasy"
+    ],
+    "Age_group": [
+      "young adult"
+    ],
+    "Physical_traits": [
+      "anthropomorphic"
+    ],
+    "Work_name": [
+      "original"
     ]
   }
 }

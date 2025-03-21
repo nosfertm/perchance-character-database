@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511398/scrape/perchance_comments/img_Krystal_by_Lady_Blue.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.8818145990371704
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.09241337329149246
+      },
+      {
+        "className": "Porn",
+        "probability": 0.01762552559375763
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.007921405136585236
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.00022502036881633103
+      }
+    ],
+    "containsNSFW": true,
+    "error": null
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/363fd316-0a7f-4e0e-9c1a-863c3e70cc73/dgfwk80-77096385-cdc7-463b-a946-9227b7f421d8.jpg/v1/fill/w_894,h_894,q_70,strp/female_jax_by_thecykox29_dgfwk80-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTIwMCIsInBhdGgiOiJcL2ZcLzM2M2ZkMzE2LTBhN2YtNGUwZS05YzFhLTg2M2MzZTcwY2M3M1wvZGdmd2s4MC03NzA5NjM4NS1jZGM3LTQ2M2ItYTk0Ni05MjI3YjdmNDIxZDguanBnIiwid2lkdGgiOiI8PTEyMDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.M900pAo1MOXUohL4wuonRj777Eq3cp64SwKrxGxwSoc",
+    "fileType": "m900pao1moxuohl4wuonrj777eq3cp64swkrxgxwsoc",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.9081641435623169
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.07133042067289352
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.019951239228248596
+      },
+      {
+        "className": "Porn",
+        "probability": 0.000447897327831015
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0001062900191755034
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

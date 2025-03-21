@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511375/scrape/perchance_comments/img_Kitsune_Tsukiyomi_by_c565b1c0d666f75f5380.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.5962106585502625
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.35334959626197815
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.030855076387524605
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.010365188121795654
+      },
+      {
+        "className": "Porn",
+        "probability": 0.009219507686793804
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

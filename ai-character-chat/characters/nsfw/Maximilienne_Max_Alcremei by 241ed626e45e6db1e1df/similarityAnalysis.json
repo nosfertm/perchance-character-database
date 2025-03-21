@@ -1,0 +1,24 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Midnight_Whippedream by c15de99d29d8f1de88ba",
+  "forkedPath": "ai-character-chat/characters/nsfw/Midnight_Whippedream by c15de99d29d8f1de88ba",
+  "similarities": {
+    "roleInstruction.txt": 0.8330527926549349,
+    "name.txt": 0.09523809523809523
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.8330527926549349,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 0.8330527926549349,
+  "bestMatch": "Midnight_Whippedream by c15de99d29d8f1de88ba"
+}

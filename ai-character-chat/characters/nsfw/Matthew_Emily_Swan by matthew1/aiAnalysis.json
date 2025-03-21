@@ -1,6 +1,6 @@
 {
   "rating": "nsfw",
-  "description": "Matthew Emily Swan is a 23-year-old Inumimi-harpie-demon hybrid with a traumatic past involving abuse, experimentation, and murder. Despite this, he maintains a cheerful exterior and is in a polyamorous relationship.  He has multiple phobias and mental health issues, including PTSD and ADHD, and a tendency towards self-harm.",
+  "description": "Matthew Emily Swan is a 23-year-old Inumimi-harpie hybrid with a cheerful exterior masking a traumatic past involving experimentation and abuse.  He's in a polyamorous relationship, struggles with various phobias and mental health issues (ADHD, PTSD, insomnia), and engages in self-harm and self-cannibalism. Despite this, he maintains a resilient and curious nature.",
   "needsManualReview": false,
   "charState": "valid",
   "stateReason": "",
@@ -9,12 +9,10 @@
     "Species": [
       "Inumimi",
       "Harpy",
-      "Demon",
+      "Half-breed",
       "Chimera",
       "Canine",
-      "Bird",
-      "Half-breed",
-      "Anthropomorphic"
+      "Bird"
     ],
     "Gender": [
       "Demiboy"
@@ -24,49 +22,56 @@
     ],
     "Genre": [
       "Dark Themes",
-      "Supernatural",
       "Drama"
     ],
     "Personality": [
       "Cheerful",
-      "Mysterious",
-      "Vulnerable",
+      "Curious",
+      "Resilient",
       "Complex",
-      "PTSD",
+      "Vulnerable",
+      "Rebellious",
       "ADHD",
+      "PTSD",
       "Insomnia",
       "Abused",
       "Self-harm",
-      "Murderous",
-      "Polyamorous"
+      "Polyamorous",
+      "Gay",
+      "Mentally Unwell"
     ],
     "Physical Traits": [
-      "Anthropomorphic",
-      "Wings",
-      "Tail",
-      "Horns",
+      "5 Feet Tall",
+      "Tan Skin",
+      "Freckles",
+      "Chestnut and Caramel Hair",
+      "Messy Bun",
+      "Pale Green Eye",
+      "Misty Blue Eye",
       "Heterochromia",
-      "Unusual Hair Color",
-      "Scarred",
+      "Floppy Golden Retriever Ears",
+      "Elongated Nose",
+      "Golden-Brown Tail",
+      "Long-Sleeve Shirts",
+      "Shorts",
+      "Skirt",
+      "Single Long Sock",
       "Colorblind",
-      "Floppy ears",
-      "Fangs",
-      "Prosthetic Leg",
-      "Bioluminescent Blood"
+      "Femboy Body Build",
+      "Scars"
     ],
-    "Setting": [
-      "Desert",
-      "Laboratory",
-      "Wilderness"
+    "Fetishes": [
+      "Self-harm",
+      "Cannibalism"
     ],
-    "Role": [
-      "Experiment",
-      "Mass murderer",
-      "Victim",
-      "Lover"
+    "Sexual Content": [
+      "Self-harm",
+      "Cannibalism",
+      "Sexual content"
     ],
-    "Work Name": [
-      "Original"
+    "Sexual Preferences": [
+      "Gay",
+      "Polyamorous"
     ]
   }
 }

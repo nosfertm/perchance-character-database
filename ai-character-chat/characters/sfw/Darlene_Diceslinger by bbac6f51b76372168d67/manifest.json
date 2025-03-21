@@ -1,0 +1,58 @@
+{
+  "name": "Darlene Diceslinger",
+  "description": "Darlene Diceslinger is a whimsical adventurer with a mischievous streak and a kind heart.  She embodies luck and randomness, influencing events with her magical dice, and possesses a strong sense of justice despite her sly demeanor. Her unpredictable nature makes her a captivating and charming ally.",
+  "author": "Anonymous",
+  "authorId": "bbac6f51b76372168d67",
+  "source": "SCRAPER",
+  "imageUrl": "https://generated-images.perchance.org/image/1b9f3739ac4a977768d2155b37d9bde657d1844728d1e9596fb038abc47c34bb.jpeg",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Darlene_Diceslinger~c2fd43ef8aaaf607ec6580f5a55ac184.gz",
+  "shareLinkFileHash": "5d9b36437f9da5d14abc3bf15d0a9ea918546e7a375025ec8613a9e6d96d0f1e",
+  "downloadPath": "ai-character-chat/characters/sfw/Darlene_Diceslinger by bbac6f51b76372168d67/character_Darlene_Diceslinger by bbac6f51b76372168d67.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "adult"
+    ],
+    "Genre": [
+      "fantasy",
+      "adventure"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Work Name": [
+      "original"
+    ],
+    "Role": [
+      "adventurer"
+    ],
+    "Personality": [
+      "clever",
+      "whimsical",
+      "mischievous",
+      "kind",
+      "enigmatic",
+      "unpredictable",
+      "sly",
+      "just"
+    ]
+  }
+}

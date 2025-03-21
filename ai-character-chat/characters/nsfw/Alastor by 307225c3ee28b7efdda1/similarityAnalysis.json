@@ -1,0 +1,30 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Alastor by dumbalien51",
+  "forkedPath": "ai-character-chat/characters/nsfw/Alastor by dumbalien51",
+  "similarities": {
+    "roleInstruction.txt": 0.860632183908046,
+    "name.txt": 1,
+    "reminderMessage.txt": 0
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.860632183908046,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    },
+    {
+      "file": "scene.json",
+      "type": "ADDED",
+      "similarity": 0.5
+    }
+  ],
+  "overallSimilarity": 0.930316091954023,
+  "bestMatch": "Alastor by dumbalien51"
+}

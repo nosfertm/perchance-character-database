@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511258/scrape/perchance_comments/img_Hermes_by_659423cbd1fc5745c9c4.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.49360519647598267
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.3814469873905182
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.12058154493570328
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0030447784811258316
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0013215108774602413
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

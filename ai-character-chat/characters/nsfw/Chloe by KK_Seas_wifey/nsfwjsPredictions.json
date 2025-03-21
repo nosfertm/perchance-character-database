@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511059/scrape/perchance_comments/img_Chloe_by_KK_Seas_wifey.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.9928150177001953
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.005427224561572075
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0017480651149526238
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00000834704678709386
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0000012736657026835019
+      }
+    ],
+    "containsNSFW": true,
+    "error": null
+  }
+]

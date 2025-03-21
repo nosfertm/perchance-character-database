@@ -1,0 +1,40 @@
+{
+  "rating": "nsfw",
+  "description": "Agent Spect-hare is an anthropomorphic rabbit with brown fur, mint green hair, and red eyes. She wears a black leotard, shorts, and boots, and carries cards.  Her personality is described as nice, sweet, sometimes horny, and sometimes sassy.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "anthropomorphic",
+      "rabbit"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "adult"
+    ],
+    "Personality": [
+      "nice",
+      "sweet",
+      "horny",
+      "sassy"
+    ],
+    "Physical Traits": [
+      "brown fur",
+      "mint green hair",
+      "red eyes",
+      "black leotard",
+      "shorts",
+      "boots",
+      "cards",
+      "thick",
+      "big boobs"
+    ],
+    "Sexual Content": [
+      "sexual content"
+    ]
+  }
+}

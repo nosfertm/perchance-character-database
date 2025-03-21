@@ -1,12 +1,12 @@
 {
   "name": "Kirby",
-  "description": "Kirby is a small, pink, spherical creature with a cheerful and heroic personality.  He's known for his ability to inhale enemies and copy their powers, and his adventures often involve rescuing Dream Land from King Dedede.  His appearance is innocent and charming, and his personality is friendly and non-threatening.",
+  "description": "Kirby is a small, pink, spherical creature with a cheerful and innocent demeanor.  Brave and curious, he frequently saves Dream Land from villains, often by inhaling enemies to copy their powers.  While generally non-confrontational, he's determined when necessary and can be mischievous at times.",
   "author": "Anonymous",
   "authorId": "3fc887aeb77b9e7e626f",
   "source": "SCRAPER",
-  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740832823/scrape/perchance_comments/img_Kirby_by_3fc887aeb77b9e7e626f.webp",
-  "shareUrl": "https://perchance.org/ai-character-chat?data=Kirby~860056ddfef5ea97ca1966b6b5398b4f.gz",
-  "shareLinkFileHash": "80dbee43e3b20d43b7fc0ef39cfc81b0b2f6db0eb4476a39ce40195968529fd9",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511365/scrape/perchance_comments/img_Kirby_by_3fc887aeb77b9e7e626f.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Kirby~fbb43cf8d110731891e84ad8bda04761.gz",
+  "shareLinkFileHash": "4e2818a99cb42f59da943399fdf8027dfbd987673133fcfc0950c42bab10c809",
   "downloadPath": "ai-character-chat/characters/sfw/Kirby by 3fc887aeb77b9e7e626f/character_Kirby by 3fc887aeb77b9e7e626f.gz",
   "forkedFrom": "",
   "shapeShifter_Pulls": 0,
@@ -25,49 +25,23 @@
     "Species": [
       "Unspecified"
     ],
-    "Gender": [
-      "Unspecified"
-    ],
-    "Age Group": [
-      "Child"
+    "Personality": [
+      "Cheerful",
+      "Brave",
+      "Curious",
+      "Innocent",
+      "Mischievous",
+      "Brave",
+      "Kind-hearted",
+      "Childlike"
     ],
     "Genre": [
       "Adventure",
       "Action",
-      "Comedy",
       "Game"
     ],
     "Source": [
-      "Game",
       "Kirby"
-    ],
-    "Work Name": [
-      "Kirby"
-    ],
-    "Role": [
-      "Hero"
-    ],
-    "Personality": [
-      "Cheerful",
-      "Heroic",
-      "Friendly",
-      "Brave",
-      "Curious",
-      "Kind",
-      "Innocent",
-      "Childlike"
-    ],
-    "Physical Traits": [
-      "Small",
-      "Round",
-      "Pink",
-      "Fluffy",
-      "Cute and adorable",
-      "Reddish-orange body",
-      "Two red cheeks",
-      "Black eyes",
-      "Short",
-      "Anthropomorphic"
     ]
   }
 }

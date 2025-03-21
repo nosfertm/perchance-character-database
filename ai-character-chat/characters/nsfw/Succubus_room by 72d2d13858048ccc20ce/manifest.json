@@ -1,0 +1,35 @@
+{
+  "name": "Succubus room",
+  "description": "A succubus invades a room.",
+  "author": "Anonymous",
+  "authorId": "72d2d13858048ccc20ce",
+  "source": "SCRAPER",
+  "imageUrl": "https://user-uploads.perchance.org/file/64deaaf73c190113616d5f9602766d06.jpeg",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Succubus_room~5d0e2eb9e1e2e6def38ff8344e03eb12.gz",
+  "shareLinkFileHash": "0e625149d1cdca24ed1aaf1e1c228c5c43d15f37933d998e99adad9983e37bfd",
+  "downloadPath": "ai-character-chat/characters/nsfw/Succubus_room by 72d2d13858048ccc20ce/character_Succubus_room by 72d2d13858048ccc20ce.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "succubus"
+    ],
+    "Genre": [
+      "supernatural"
+    ],
+    "Work Name": [
+      "original"
+    ]
+  }
+}

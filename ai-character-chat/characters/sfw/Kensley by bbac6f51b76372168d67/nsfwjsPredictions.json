@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511360/scrape/perchance_comments/img_Kensley_by_bbac6f51b76372168d67.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.9749664068222046
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.024953478947281837
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.00005492607306223363
+      },
+      {
+        "className": "Porn",
+        "probability": 0.000023580800188938156
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0000014705848343510297
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

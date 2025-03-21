@@ -1,0 +1,29 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Adolf_Hitler by 78d90374354d55646f99",
+  "forkedPath": "ai-character-chat/characters/nsfw/Adolf_Hitler by 78d90374354d55646f99",
+  "similarities": {
+    "roleInstruction.txt": 0.8033946251768034,
+    "name.txt": 0.09090909090909091
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.8033946251768034,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    },
+    {
+      "file": "scene.json",
+      "type": "ADDED",
+      "similarity": 0.5
+    }
+  ],
+  "overallSimilarity": 0.8033946251768034,
+  "bestMatch": "Adolf_Hitler by 78d90374354d55646f99"
+}

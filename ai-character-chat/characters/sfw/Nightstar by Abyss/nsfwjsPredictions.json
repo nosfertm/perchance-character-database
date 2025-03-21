@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511625/scrape/perchance_comments/img_Nightstar_by_Abyss.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.717438817024231
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.27842846512794495
+      },
+      {
+        "className": "Porn",
+        "probability": 0.002011412987485528
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0017887268913909793
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00033261257340200245
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

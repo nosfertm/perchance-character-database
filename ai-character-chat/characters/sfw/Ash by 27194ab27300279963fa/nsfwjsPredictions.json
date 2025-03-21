@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742510946/scrape/perchance_comments/img_Ash_by_27194ab27300279963fa.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.9811232686042786
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.01879296265542507
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.00005989523197058588
+      },
+      {
+        "className": "Porn",
+        "probability": 0.000018263128367834724
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.000005662301191478036
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

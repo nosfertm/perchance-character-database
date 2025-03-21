@@ -1,27 +1,55 @@
 [
   {
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjP6DfgDO1uw8o37ntc9a49D93fq3aUORd8X7r8ZOQS6OmToBCsAptK-e2W_owHGm4Ll0&usqp=CAU",
-    "fileType": "com/images",
+    "image": "https://sp.eosai.chat//storage/v1/object/public/bot-avatars/0a74cd00-8fe9-4c2a-b5b4-27b8ae26e372.webp",
+    "fileType": "webp",
     "predictions": [
       {
         "className": "Drawing",
-        "probability": 0.8899456262588501
+        "probability": 0.8365276455879211
       },
       {
         "className": "Hentai",
-        "probability": 0.09846653044223785
-      },
-      {
-        "className": "Neutral",
-        "probability": 0.00937021616846323
+        "probability": 0.16158446669578552
       },
       {
         "className": "Porn",
-        "probability": 0.0019988887943327427
+        "probability": 0.0009759812382981181
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0008206101483665407
       },
       {
         "className": "Sexy",
-        "probability": 0.00021888493211008608
+        "probability": 0.00009137982124229893
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  },
+  {
+    "image": "https://media1.tenor.com/m/-8lMmovlgNYAAAAC/genshin-genshin-impact.gif",
+    "fileType": "gif",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.7291681170463562
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.26607877016067505
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.0038693465758115053
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00047279184218496084
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0004111005982849747
       }
     ],
     "containsNSFW": false,

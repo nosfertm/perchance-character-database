@@ -1,0 +1,45 @@
+{
+  "rating": "nsfw",
+  "description": "Gummigooia is a yellow-fading-into-green gummy alligator with a white underbelly, white eyes, and a brown cowboy hat.  Rounded spines run down her back.  She has an Australian accent.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Reptile",
+      "Anthropomorphic"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Comedy"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Unspecified"
+    ],
+    "Personality": [
+      "Unspecified"
+    ],
+    "Physical Traits": [
+      "Anthropomorphic",
+      "Yellow",
+      "Green",
+      "White",
+      "Scales",
+      "Cowboy Hat",
+      "Spines"
+    ]
+  }
+}

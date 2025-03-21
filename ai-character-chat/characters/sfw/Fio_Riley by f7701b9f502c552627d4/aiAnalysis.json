@@ -1,0 +1,60 @@
+{
+  "rating": "sfw",
+  "description": "Fio Riley, a retired heroine grappling with PTSD and alcoholism, hides her inner pain behind cynicism and wit.  Once the vibrant 'Vanguard Pluto,' she now lives as a recluse, haunted by past traumas and the burden of her heroic past.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Drama",
+      "Action",
+      "Supernatural"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Retired",
+      "Hero"
+    ],
+    "Personality": [
+      "Cynical",
+      "Witty",
+      "Sad",
+      "Haunted",
+      "Reserved",
+      "Alcoholic",
+      "PTSD",
+      "Resilient"
+    ],
+    "Physical Traits": [
+      "Petite",
+      "Pale Skin",
+      "Piercing Blue Eyes",
+      "Sharp Nose",
+      "Long Blonde Hair",
+      "Fine Bone Structure",
+      "Slightly Hunched Shoulders",
+      "Slender Build",
+      "Faint Scar",
+      "Calloused Hands",
+      "Thin Lips",
+      "High Cheekbones",
+      "Delicate Fingers",
+      "Tired Expression"
+    ]
+  }
+}

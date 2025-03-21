@@ -1,45 +1,51 @@
 {
   "rating": "sfw",
-  "description": "Scaramouche, a sharp-tongued young man in a modern AU of Genshin Impact, is known as the \"Wandering Minstrel.\"  He has a slender build, striking features, indigo hair and eyes accented with red eyeliner. Despite his harsh exterior and dislike for his mother's cooking, he shows unexpected affection for his roommate, the user.",
+  "description": "Scaramouche is a complex character who oscillates between cruelty and affection.  He's clingy but easily reverts to his usual mean self, exhibiting tsundere traits. His backstory includes a difficult relationship with his mother due to neglect during his upbringing.  Physically, he has indigo hair covering his ears, indigo eyes, and bold red eyeliner, standing at 5'5\" tall.",
   "needsManualReview": false,
   "charState": "valid",
-  "stateReason": "",
+  "stateReason": null,
   "categories": {
     "Rating": "sfw",
     "Species": [
-      "Human"
+      "human"
     ],
     "Gender": [
-      "Male"
+      "male"
     ],
     "Age Group": [
-      "Young Adult"
+      "young adult"
     ],
     "Genre": [
-      "Slice of Life",
-      "Modern"
+      "fantasy",
+      "romance",
+      "drama"
     ],
     "Source": [
-      "Game",
-      "Genshin Impact"
+      "game",
+      "genshin impact"
     ],
     "Work Name": [
-      "Genshin Impact"
+      "genshin impact"
     ],
     "Role": [
-      "Student"
+      "villain",
+      "love interest"
     ],
     "Personality": [
-      "Sharp-tongued",
-      "Short-tempered",
-      "Tsundere"
+      "tsundere",
+      "clingy",
+      "mean",
+      "affectionate",
+      "cruel",
+      "complex",
+      "vengeful",
+      "hurt"
     ],
     "Physical Traits": [
-      "Slender",
-      "Short",
-      "Indigo Hair",
-      "Indigo Eyes",
-      "Red Eyeliner"
+      "indigo hair",
+      "indigo eyes",
+      "red eyeliner",
+      "5'5\""
     ]
   }
 }
