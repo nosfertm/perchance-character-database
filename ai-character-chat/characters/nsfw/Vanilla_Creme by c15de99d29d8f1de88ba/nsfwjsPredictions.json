@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742521353/scrape/perchance_comments/img_Vanilla_Creme_by_c15de99d29d8f1de88ba.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.8912431001663208
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.10685084015130997
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0018580405740067363
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00002830742596415803
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.000019878354578395374
+      }
+    ],
+    "containsNSFW": true,
+    "error": null
+  }
+]

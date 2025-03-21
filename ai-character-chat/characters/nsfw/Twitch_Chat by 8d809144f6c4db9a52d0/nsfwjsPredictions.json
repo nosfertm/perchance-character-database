@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742521297/scrape/perchance_comments/img_Twitch_Chat_by_8d809144f6c4db9a52d0.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.992637038230896
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.004316755570471287
+      },
+      {
+        "className": "Porn",
+        "probability": 0.003033261513337493
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.000007554583135060966
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.000005320054697222076
+      }
+    ],
+    "containsNSFW": true,
+    "error": null
+  }
+]

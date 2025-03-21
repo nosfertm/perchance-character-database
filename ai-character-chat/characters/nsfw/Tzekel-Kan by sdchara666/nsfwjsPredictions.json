@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742521310/scrape/perchance_comments/img_Tzekel-Kan_by_sdchara666.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.9926526546478271
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.0039645167998969555
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0022010246757417917
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.0007152825710363686
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0004665289307013154
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

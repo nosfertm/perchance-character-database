@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742521385/scrape/perchance_comments/img_Whipped_Whimsy_by_an_alcremie_in_the_system.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.9034126400947571
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.08823823928833008
+      },
+      {
+        "className": "Porn",
+        "probability": 0.008063370361924171
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00018374648061580956
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.00010210698383161798
+      }
+    ],
+    "containsNSFW": true,
+    "error": null
+  }
+]

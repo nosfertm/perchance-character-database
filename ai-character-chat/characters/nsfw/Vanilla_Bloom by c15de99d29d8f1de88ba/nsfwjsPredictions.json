@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742521347/scrape/perchance_comments/img_Vanilla_Bloom_by_c15de99d29d8f1de88ba.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.9022527933120728
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.08442062884569168
+      },
+      {
+        "className": "Porn",
+        "probability": 0.012152298353612423
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0009245677501894534
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0002496317611075938
+      }
+    ],
+    "containsNSFW": true,
+    "error": null
+  }
+]

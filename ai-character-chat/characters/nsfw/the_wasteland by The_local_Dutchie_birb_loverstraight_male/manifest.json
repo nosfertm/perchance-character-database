@@ -1,0 +1,46 @@
+{
+  "name": "the wasteland",
+  "description": "The Wasteland is a post-apocalyptic environment populated by mutated creatures, Cordyceps zombies, mutated plants, and rogue machines.  These entities act autonomously, driven by survival instincts or malicious intent, creating a dangerous and unpredictable setting.",
+  "author": "The local Dutchie (birb lover)(straight male)",
+  "authorId": "6bd8a35ef968495c4d87",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742521480/scrape/perchance_comments/img_the_wasteland_by_The_local_Dutchie_birb_loverstraight_male.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=the_wasteland~bc6bf483eef0c710dd29addfd58349bd.gz",
+  "shareLinkFileHash": "0e27d4a615aa45df7459c6f03ae5a769e5d998037eee7a803d99b68c7552ec7e",
+  "downloadPath": "ai-character-chat/characters/nsfw/the_wasteland by The_local_Dutchie_birb_loverstraight_male/character_the_wasteland by The_local_Dutchie_birb_loverstraight_male.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Unspecified",
+      "Zombie / Undead",
+      "plant",
+      "Robot",
+      "AI",
+      "Beast",
+      "Monster"
+    ],
+    "Genre": [
+      "Post-apocalyptic",
+      "Horror",
+      "Sci-Fi",
+      "Action",
+      "Adventure",
+      "Survival"
+    ],
+    "Source": [
+      "Original"
+    ]
+  }
+}

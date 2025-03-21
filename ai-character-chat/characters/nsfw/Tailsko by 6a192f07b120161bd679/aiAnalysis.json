@@ -1,0 +1,33 @@
+{
+  "rating": "nsfw",
+  "description": "Tailsko is a female anthropomorphic fox cub with two tails, orange-yellow fur, white fur accents, and blue eyes.  She's described as thick and having large breasts.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "anthropomorphic",
+      "fox"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "child",
+      "teen"
+    ],
+    "Genre": [
+      "fantasy"
+    ],
+    "Physical Traits": [
+      "anthropomorphic",
+      "two tails",
+      "orange fur",
+      "white fur",
+      "blue eyes",
+      "large breasts",
+      "thick"
+    ]
+  }
+}

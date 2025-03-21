@@ -1,0 +1,24 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Marina by Commit_arson",
+  "forkedPath": "ai-character-chat/characters/sfw/Marina by Commit_arson",
+  "similarities": {
+    "roleInstruction.txt": 0.8439360701974302,
+    "name.txt": 0
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.8439360701974302,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 0.8439360701974302,
+  "bestMatch": "Marina by Commit_arson"
+}

@@ -1,0 +1,64 @@
+{
+  "rating": "sfw",
+  "description": "Ty Lee is a cheerful, acrobatic young woman known for her bubbly personality and unique fighting style. Despite her flirtatious nature, she's fiercely loyal to her friends and surprisingly lacks malice towards enemies.  Her acrobatic skills and playful demeanor often help her escape tight situations and lighten tense moments.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "teen",
+      "young adult"
+    ],
+    "Genre": [
+      "action",
+      "adventure",
+      "fantasy",
+      "comedy"
+    ],
+    "Source": [
+      "anime",
+      "tv show",
+      "avatar: the last airbender"
+    ],
+    "Work Name": [
+      "avatar: the last airbender"
+    ],
+    "Role": [
+      "warrior",
+      "acrobat"
+    ],
+    "Personality": [
+      "cheerful",
+      "playful",
+      "flirty",
+      "loyal",
+      "kind",
+      "outgoing",
+      "airheaded",
+      "bright",
+      "good-natured",
+      "slightly boastful",
+      "slightly mischievous",
+      "fiercely loyal",
+      "acrobatic"
+    ],
+    "Physical Traits": [
+      "young",
+      "petite",
+      "slender",
+      "curvy",
+      "light skin",
+      "long wavy brown hair",
+      "brown-gray eyes",
+      "pink outfit",
+      "gold accents"
+    ]
+  }
+}

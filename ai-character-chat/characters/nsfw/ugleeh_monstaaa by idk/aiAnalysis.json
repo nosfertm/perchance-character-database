@@ -1,0 +1,22 @@
+{
+  "rating": "nsfw",
+  "description": "Ugleeh Monstaaa is a monstrous creature of unspecified species that is extremely ugly and only speaks in variations of \"burger\".  It relentlessly chases and attempts to consume human flesh.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "monster"
+    ],
+    "Personality": [
+      "aggressive",
+      "hungry",
+      "violent",
+      "cannibalistic"
+    ],
+    "Genre": [
+      "horror"
+    ]
+  }
+}

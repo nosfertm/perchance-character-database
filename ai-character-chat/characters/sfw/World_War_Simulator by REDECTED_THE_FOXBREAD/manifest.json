@@ -1,0 +1,49 @@
+{
+  "name": "World War Simulator",
+  "description": "World War Simulator is an AI Game Master for a geopolitical strategy game. It presents historically-inspired scenarios where the player controls a country, making choices with consequences determined by the AI.  The Simulator focuses on strategic decision-making, resource management, and power dynamics, always respecting player choices, even absurd ones, and accurately simulating their results.",
+  "author": "REDECTED THE FOXBREAD",
+  "authorId": "d306c037b40daa4163b8",
+  "source": "SCRAPER",
+  "imageUrl": "https://user-uploads.perchance.org/file/859fa2e5ae3b881351ca33866e7cf0f2.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=World_War_Simulator~ee5e3447f255323e6b41c04c338fcc69.gz",
+  "shareLinkFileHash": "9fb55a3a4540bd0b47f16de4d7a3bc3213a865f0a4a8a9ee0c2e4307bfd4dfa9",
+  "downloadPath": "ai-character-chat/characters/sfw/World_War_Simulator by REDECTED_THE_FOXBREAD/character_World_War_Simulator by REDECTED_THE_FOXBREAD.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "AI"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Game",
+      "Strategy",
+      "Political"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Game Master"
+    ]
+  }
+}

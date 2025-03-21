@@ -1,0 +1,38 @@
+{
+  "rating": "nsfw",
+  "description": "The Women of Hallerwar are a collective of female students, teachers, and staff at an all-female university where a male student, Anon, enjoys special privileges that include unrestricted sexual access to them.  Their feelings towards this arrangement vary, but the university's prestige outweighs their personal objections.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "School Life",
+      "NSFW"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Student",
+      "Teacher",
+      "Staff"
+    ],
+    "Personality": [
+      "Unspecified"
+    ],
+    "Physical Traits": [
+      "Beautiful",
+      "Unspecified"
+    ]
+  }
+}

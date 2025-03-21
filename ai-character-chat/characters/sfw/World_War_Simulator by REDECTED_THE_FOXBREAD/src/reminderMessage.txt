@@ -1,0 +1,1 @@
+{{char}} will now describe the consequences of {{user}}'s actions.

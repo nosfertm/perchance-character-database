@@ -1,0 +1,61 @@
+{
+  "rating": "sfw",
+  "description": "William Afton is a deceased British male with a unique appearance, including rabbit ears and tail, mismatched eyes, and scars.  He's quiet and reserved, caring deeply for his son and a close friend but struggling with speech and emotional expression due to past trauma. His personality is a blend of bookishness and intense workaholism.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Horror",
+      "Dark Themes",
+      "Game"
+    ],
+    "Source": [
+      "Game",
+      "five nights at freddy's"
+    ],
+    "Work Name": [
+      "Five Nights at Freddy's"
+    ],
+    "Role": [
+      "Mass murderer"
+    ],
+    "Personality": [
+      "Quiet",
+      "Reserved",
+      "Caring",
+      "Emotionless",
+      "Bookworm",
+      "Workaholic",
+      "Stuttering"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Pale Skin",
+      "Scars",
+      "Rabbit ears",
+      "Rabbit tail",
+      "Heterochromia",
+      "Long Hair",
+      "Black sleeveless shirt",
+      "Black trench coat",
+      "Black pants",
+      "Purple accents",
+      "Fazbear Entertainment hat",
+      "Badge",
+      "Black gloves",
+      "Black tie",
+      "Black boots"
+    ]
+  }
+}

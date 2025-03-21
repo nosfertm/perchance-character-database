@@ -34582,13 +34582,13 @@
     "path": "ai-character-chat/characters/nsfw/Yomi by b0a0bc3a2a8123df9075",
     "manifest": {
       "name": "Yomi",
-      "description": "Yomi is a shy anime girl cheerleader who is frequently subjected to physical assault and sexual abuse by older children, including being stripped and forced into sexual acts.",
+      "description": "Yomi is a 17-year-old anime girl cheerleader who is frequently assaulted and sexually abused by older children at school.  Despite this trauma, she remains shy and kind, supported by her comforting mother and unaware father.  She has a 7-year-old brother and a 12-year-old sassy sister who is popular on social media.  The family is wealthy, living in a large house, but Yomi tries to hide their affluence.  She enjoys cheerleading, fruit, and her boyfriend, Shumi.",
       "author": "Anonymous",
       "authorId": "b0a0bc3a2a8123df9075",
       "source": "SCRAPER",
       "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741107308/scrape/perchance_comments/img_Yomi_by_b0a0bc3a2a8123df9075.webp",
-      "shareUrl": "https://perchance.org/ai-character-chat?data=Yomi~e4fef67089c06e089e8294aa3adfbe0a.gz",
-      "shareLinkFileHash": "913d8359acb0ee9dbf25843977526f082bd826698eed86b2ea38974a49b58d0d",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Yomi~b56eb0df061199c15199f79cbe85e80e.gz",
+      "shareLinkFileHash": "cf0b1bf173207652ecccc69431f7ec994cc7f10c7b9a00dd953dec832cdce970",
       "downloadPath": "ai-character-chat/characters/nsfw/Yomi by b0a0bc3a2a8123df9075/character_Yomi by b0a0bc3a2a8123df9075.gz",
       "forkedFrom": "",
       "shapeShifter_Pulls": 0,
@@ -34605,29 +34605,33 @@
       "categories": {
         "Rating": "nsfw",
         "Species": [
-          "human"
+          "Human"
         ],
         "Gender": [
-          "female"
+          "Female"
         ],
         "Age Group": [
-          "teen"
+          "Teen"
         ],
         "Genre": [
-          "anime"
+          "School Life",
+          "Drama"
         ],
         "Source": [
-          "original"
+          "Original"
         ],
         "Role": [
-          "student",
+          "Student",
           "cheerleader"
         ],
         "Personality": [
-          "shy"
+          "Shy",
+          "Kind",
+          "Vulnerable",
+          "Abused"
         ],
         "Physical Traits": [
-          "anime girl"
+          "Anime girl"
         ]
       }
     }
@@ -58977,6 +58981,1956 @@
           "Snake-like features",
           "Humanoid features",
           "Bat-like Wings"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Charlotte by clover999",
+    "manifest": {
+      "name": "Charlotte",
+      "description": "Charlotte Emily is a deceased British human girl with a complex personality.  She's independent, observant, and witty, but can be rude and struggles with anger management.  While kind to most, she harbors a dislike for Noah.  She's secretly emotional and close to her father, but has a strained relationship with her stepfather.  She's loyal to those she trusts and collects unusual trinkets.  She possesses animatronic features, including bear ears and a tail, and angel wings.",
+      "author": "clover999",
+      "authorId": "5ee08af2dd502d0e3d66",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/8f560eb9658189f268240fd50d54244a.jpg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Charlotte~920940580ff4962c9c1eb5ca579e7966.gz",
+      "shareLinkFileHash": "8f8d1013f9bd7ebb58f04d67046dd3cf40d27d0a794fcccb8433fbf3e62c7fce",
+      "downloadPath": "ai-character-chat/characters/sfw/Charlotte by clover999/character_Charlotte by clover999.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human",
+          "Angel",
+          "Animatronic",
+          "Puppet",
+          "Black Bear"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Teen"
+        ],
+        "Genre": [
+          "Horror",
+          "Supernatural",
+          "Game",
+          "Dark Themes"
+        ],
+        "Source": [
+          "Game",
+          "five nights at freddy's"
+        ],
+        "Work Name": [
+          "Five Nights at Freddy's"
+        ],
+        "Role": [
+          "None"
+        ],
+        "Personality": [
+          "Independent",
+          "Resourceful",
+          "Observant",
+          "Witty",
+          "Rude",
+          "Kind",
+          "Emotional (Hidden)",
+          "Loyal",
+          "Perfectionist",
+          "Complex",
+          "Angry",
+          "Sassy"
+        ],
+        "Physical Traits": [
+          "Fair Skin",
+          "Long Hair",
+          "Caramel Brown Hair",
+          "Dark Eyes",
+          "Purple Shirt",
+          "Green Jacket",
+          "Black Pants",
+          "Black Tennis Shoes",
+          "Angel Wings",
+          "Red Outline",
+          "Red Hole",
+          "Bear Ears",
+          "Bear Tail",
+          "Scars",
+          "Alternatively, she may wear a black shirt, long skirt, white socks, a black jacket, and blue shoes."
+        ],
+        "Setting": [
+          "Game"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Sweetie_Swell by c15de99d29d8f1de88ba",
+    "manifest": {
+      "name": "Sweetie Swell",
+      "description": "Sweetie Swell is a cunning and flirtatious anthropomorphic Alcremie with a charming smile and seductive winks.  Despite her alluring exterior and busty figure, she possesses a sharp wit and a knack for acquiring sweets using her charm.  Raised in a bakery, she honed her persuasive skills, gaining a reputation as the \"Beach Bake-off Bandit.\" Now, she travels the world seeking new flavors and adventures.",
+      "author": "Anonymous",
+      "authorId": "c15de99d29d8f1de88ba",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742521271/scrape/perchance_comments/img_Sweetie_Swell_by_c15de99d29d8f1de88ba.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Sweetie_Swell~401aa7650352a0e380811aea210ebe4f.gz",
+      "shareLinkFileHash": "5e10e5c34d443a975404cefd9e9dc36687186ea6b32e62058519856f8c236d06",
+      "downloadPath": "ai-character-chat/characters/nsfw/Sweetie_Swell by c15de99d29d8f1de88ba/character_Sweetie_Swell by c15de99d29d8f1de88ba.gz",
+      "forkedFrom": "ai-character-chat/characters/nsfw/Natalie_Whiteshade by 4eea04ef8caf2500325d",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "anthropomorphic",
+          "pokemon"
+        ],
+        "Gender": [
+          "female"
+        ],
+        "Age Group": [
+          "young adult"
+        ],
+        "Genre": [
+          "fantasy",
+          "adventure",
+          "romance"
+        ],
+        "Source": [
+          "original"
+        ],
+        "Work Name": [
+          "original"
+        ],
+        "Role": [
+          "adventurer"
+        ],
+        "Personality": [
+          "cunning",
+          "flirtatious",
+          "charming",
+          "mischievous",
+          "sweet",
+          "bubbly",
+          "persuasive",
+          "greedy",
+          "slightly mischievous"
+        ],
+        "Physical Traits": [
+          "tall",
+          "busty",
+          "pale pink complexion",
+          "sparkling blue eyes",
+          "swirling white hair",
+          "perky pink nose",
+          "cherry-red lips",
+          "soft whipped-cream-like skin",
+          "slender yet curvy build",
+          "long wavy lashes",
+          "delicate wrists with cream-colored frills",
+          "wide hips",
+          "generous derriere"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Tailsko by 6a192f07b120161bd679",
+    "manifest": {
+      "name": "Tailsko",
+      "description": "Tailsko is a female anthropomorphic fox cub with two tails, orange-yellow fur, white fur accents, and blue eyes.  She's described as thick and having large breasts.",
+      "author": "Anonymous",
+      "authorId": "6a192f07b120161bd679",
+      "source": "SCRAPER",
+      "imageUrl": "https://wimg.rule34.xxx//images/2282/db8d04a0ca3eb0ee3e162e65b21ca7c0.jpeg?11922521",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Tailsko~235d984521fd084730c89b3e3947c47b.gz",
+      "shareLinkFileHash": "93ed5a4d7cbc9a6f4b69bb1cb3f9b920c552ac20ad5076aa2f738d675b81d14a",
+      "downloadPath": "ai-character-chat/characters/nsfw/Tailsko by 6a192f07b120161bd679/character_Tailsko by 6a192f07b120161bd679.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "anthropomorphic",
+          "fox"
+        ],
+        "Gender": [
+          "female"
+        ],
+        "Age Group": [
+          "child",
+          "teen"
+        ],
+        "Genre": [
+          "fantasy"
+        ],
+        "Physical Traits": [
+          "anthropomorphic",
+          "two tails",
+          "orange fur",
+          "white fur",
+          "blue eyes",
+          "large breasts",
+          "thick"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/The_Horde by 6bd8a35ef968495c4d87",
+    "manifest": {
+      "name": "The Horde",
+      "description": "A massive, ever-shifting horde of undead zombies, varying in decomposition stages, with eerily intact and functional reproductive organs.  Their groans echo through desolate streets.",
+      "author": "Anonymous",
+      "authorId": "6bd8a35ef968495c4d87",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742521282/scrape/perchance_comments/img_The_Horde_by_6bd8a35ef968495c4d87.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=The_Horde~c46154473f5ae95d22d6483385c0153a.gz",
+      "shareLinkFileHash": "4f7b792fccf29cf117725d7bed33f4a8398ecbc4e50ef95b62b84791fc9613ba",
+      "downloadPath": "ai-character-chat/characters/nsfw/The_Horde by 6bd8a35ef968495c4d87/character_The_Horde by 6bd8a35ef968495c4d87.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [
+          "ai-character-chat/characters/nsfw/The_Horde by 6bd8a35ef968495c4d87/src/customCode.js"
+        ],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "zombie / undead"
+        ],
+        "Gender": [
+          "both"
+        ],
+        "Genre": [
+          "horror",
+          "post-apocalyptic",
+          "dark themes"
+        ],
+        "Source": [
+          "original"
+        ],
+        "Work Name": [
+          "original"
+        ],
+        "Role": [
+          "monster"
+        ],
+        "Personality": [
+          "aggressive",
+          "violent",
+          "undead"
+        ],
+        "Physical Traits": [
+          "decomposed",
+          "various body types",
+          "damaged",
+          "grotesque",
+          "fleshy"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/The_Women_of_Hallerwar by The_Questioner",
+    "manifest": {
+      "name": "The Women of Hallerwar",
+      "description": "The Women of Hallerwar are a collective of female students, teachers, and staff at an all-female university where a male student, Anon, enjoys special privileges that include unrestricted sexual access to them.  Their feelings towards this arrangement vary, but the university's prestige outweighs their personal objections.",
+      "author": "The Questioner",
+      "authorId": "598450054b6b342fb9ad",
+      "source": "SCRAPER",
+      "imageUrl": "https://generated-images.perchance.org/image/21fd12ddccd7ef4c5c7ce413740a68a46b5877cd46ad9ebfdefe0c4e01be89d5.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=The_Women_of_Hallerwar~b8d04ae447f71a889fe972ae73a127eb.gz",
+      "shareLinkFileHash": "9c05c15d5d76d24c7e3bb9fcf07a33f47372123407104b07fa2f6939686bc3dc",
+      "downloadPath": "ai-character-chat/characters/nsfw/The_Women_of_Hallerwar by The_Questioner/character_The_Women_of_Hallerwar by The_Questioner.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [
+          "ai-character-chat/characters/nsfw/The_Women_of_Hallerwar by The_Questioner/src/customCode.js"
+        ],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "School Life",
+          "NSFW"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Student",
+          "Teacher",
+          "Staff"
+        ],
+        "Personality": [
+          "Unspecified"
+        ],
+        "Physical Traits": [
+          "Beautiful",
+          "Unspecified"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Twitch_Chat by 8d809144f6c4db9a52d0",
+    "manifest": {
+      "name": "Twitch Chat",
+      "description": "Twitch Chat is a multifaceted character representing the collective of users in a streamer's NSFW Twitch chat.  Each chatter possesses unique personalities shaped by their individual motivations for watching (entertainment, parasocial relationships, etc.).  The chat interacts through formatted messages including usernames, donation amounts, messages, and emojis reflecting the message's emotional tone.  The chat observes the streamer through the lens of a futuristic drone capable of invisibility and narrates when the stream is offline.",
+      "author": "Anonymous",
+      "authorId": "8d809144f6c4db9a52d0",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742521297/scrape/perchance_comments/img_Twitch_Chat_by_8d809144f6c4db9a52d0.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Twitch_Chat~ccc580638f1bc2912a6745eaf1224137.gz",
+      "shareLinkFileHash": "dda8ba5d921d5ea7cf051750e2a2e92e20baed91080ac358c7d0648339da5cb0",
+      "downloadPath": "ai-character-chat/characters/nsfw/Twitch_Chat by 8d809144f6c4db9a52d0/character_Twitch_Chat by 8d809144f6c4db9a52d0.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "Unspecified"
+        ],
+        "Gender": [
+          "Both"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Entertainment"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Work Name": [
+          "Original"
+        ],
+        "Role": [
+          "Unspecified"
+        ],
+        "Personality": [
+          "Unspecified"
+        ],
+        "Physical Traits": [
+          "Unspecified"
+        ],
+        "Fetishes": [
+          "Sexual Roleplay"
+        ],
+        "Sexual Content": [
+          "Sexual Roleplay",
+          "Explicit"
+        ],
+        "Sexual Preferences": [
+          "Unspecified"
+        ],
+        "Sexual Experience": [
+          "Unspecified"
+        ],
+        "Setting": [
+          "Virtual Reality"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Ty_Lee by 768e86057eaf2a89710f",
+    "manifest": {
+      "name": "Ty Lee",
+      "description": "Ty Lee is a cheerful, acrobatic young woman known for her bubbly personality and unique fighting style. Despite her flirtatious nature, she's fiercely loyal to her friends and surprisingly lacks malice towards enemies.  Her acrobatic skills and playful demeanor often help her escape tight situations and lighten tense moments.",
+      "author": "Anonymous",
+      "authorId": "768e86057eaf2a89710f",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742521302/scrape/perchance_comments/img_Ty_Lee_by_768e86057eaf2a89710f.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Ty_Lee~0f976790a77507f6cc7e30b4233e2f26.gz",
+      "shareLinkFileHash": "e30cc1e8ab29e08b52c61683e7879ba9d086d9160e11e816fc528369a1db9d11",
+      "downloadPath": "ai-character-chat/characters/sfw/Ty_Lee by 768e86057eaf2a89710f/character_Ty_Lee by 768e86057eaf2a89710f.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "human"
+        ],
+        "Gender": [
+          "female"
+        ],
+        "Age Group": [
+          "teen",
+          "young adult"
+        ],
+        "Genre": [
+          "action",
+          "adventure",
+          "fantasy",
+          "comedy"
+        ],
+        "Source": [
+          "anime",
+          "tv show",
+          "avatar: the last airbender"
+        ],
+        "Work Name": [
+          "avatar: the last airbender"
+        ],
+        "Role": [
+          "warrior",
+          "acrobat"
+        ],
+        "Personality": [
+          "cheerful",
+          "playful",
+          "flirty",
+          "loyal",
+          "kind",
+          "outgoing",
+          "airheaded",
+          "bright",
+          "good-natured",
+          "slightly boastful",
+          "slightly mischievous",
+          "fiercely loyal",
+          "acrobatic"
+        ],
+        "Physical Traits": [
+          "young",
+          "petite",
+          "slender",
+          "curvy",
+          "light skin",
+          "long wavy brown hair",
+          "brown-gray eyes",
+          "pink outfit",
+          "gold accents"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Tzekel-Kan by sdchara666",
+    "manifest": {
+      "name": "Tzekel-Kan",
+      "description": "Tzekel-Kan is a power-hungry, sadistic Mesoamerican priest obsessed with human sacrifice.  Charismatic and manipulative, he uses his influence to control El Dorado, attempting to exploit the arrival of what he believes to be gods to further his goals of ritualistic killings.",
+      "author": "sdchara666",
+      "authorId": "00c9740bfc2c994aba00",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742521310/scrape/perchance_comments/img_Tzekel-Kan_by_sdchara666.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Tzekel-Kan~3c2970012904a3b4cf52d380994cce68.gz",
+      "shareLinkFileHash": "0d0aea1a175149097f143de023d151f8277a14fc4a0f65991c7a1fcdb5f337fb",
+      "downloadPath": "ai-character-chat/characters/nsfw/Tzekel-Kan by sdchara666/character_Tzekel-Kan by sdchara666.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "Human",
+          "Mythological"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Adult",
+          "Middle-aged"
+        ],
+        "Genre": [
+          "Adventure",
+          "Fantasy",
+          "Dark Themes"
+        ],
+        "Source": [
+          "Movie"
+        ],
+        "Work Name": [
+          "The Road to El Dorado"
+        ],
+        "Role": [
+          "Priest/Priestess",
+          "Villain"
+        ],
+        "Personality": [
+          "Charismatic",
+          "Manipulative",
+          "Sadistic",
+          "Bloodthirsty",
+          "Power-hungry"
+        ],
+        "Physical Traits": [
+          "Tall",
+          "Muscular",
+          "Brown skin",
+          "Tattooed",
+          "Skull mask"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Umbreon by 9ca03400d616b92d58b0",
+    "manifest": {
+      "name": "Umbreon",
+      "description": "Umbreon is an anthropomorphic Pokémon, a dark-furred Eeveelution with glowing yellow rings, crimson eyes, and a mischievous personality. She's a nocturnal guardian of a city, secretly engaging in sexual activities with various NPCs, while also protecting them.  Her roleplay involves explicit language and interactions, exploring various kinks and fetishes.",
+      "author": "Anonymous",
+      "authorId": "9ca03400d616b92d58b0",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742521319/scrape/perchance_comments/img_Umbreon_by_9ca03400d616b92d58b0.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Umbreon~263e07fb8d4f2c873d684d061aeede0e.gz",
+      "shareLinkFileHash": "6512c4b191bea241641514271441f4ab1e1e4627d433d55dfe16d12771eaa59d",
+      "downloadPath": "ai-character-chat/characters/nsfw/Umbreon by 9ca03400d616b92d58b0/character_Umbreon by 9ca03400d616b92d58b0.gz",
+      "forkedFrom": "ai-character-chat/characters/nsfw/Umbreon1_old by al348",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "pokemon",
+          "furry",
+          "anthropomorphic"
+        ],
+        "Gender": [
+          "female"
+        ],
+        "Age Group": [
+          "young adult"
+        ],
+        "Genre": [
+          "fantasy",
+          "urban fantasy",
+          "roleplay",
+          "nsfw",
+          "sexual roleplay"
+        ],
+        "Source": [
+          "original"
+        ],
+        "Role": [
+          "guardian",
+          "protector"
+        ],
+        "Personality": [
+          "mischievous",
+          "loyal",
+          "protective",
+          "aloof",
+          "curious",
+          "sharp-witted",
+          "dominant",
+          "seductive",
+          "lustful"
+        ],
+        "Physical Traits": [
+          "anthropomorphic",
+          "dark fur",
+          "glowing yellow rings",
+          "crimson eyes",
+          "muscular",
+          "agile",
+          "long tail",
+          "sharp claws",
+          "fangs"
+        ],
+        "Fetishes": [
+          "all kinks/fetishes",
+          "exploring taboos",
+          "power play",
+          "dominance",
+          "submission"
+        ],
+        "Sexual Content": [
+          "sexual content",
+          "explicit",
+          "public sex",
+          "group sex",
+          "rough sex",
+          "bdsm",
+          "dominance",
+          "submission"
+        ],
+        "Sexual Preferences": [
+          "promiscuous"
+        ],
+        "Sexual Experience": [
+          "experienced"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Vaggieveggie by MatthewGay_priest104423",
+    "manifest": {
+      "name": "Vaggie/veggie",
+      "description": "Vaggie is a pragmatic and cautious angel, formerly a ruthless exorcist, who now serves as the manager of the Hazbin Hotel.  She is fiercely loyal and protective of her girlfriend, Charlie, and while initially distrustful, shows kindness to those she cares for. Despite her past, she supports Charlie's dream of redemption for sinners.",
+      "author": "((𝓜𝓪𝓽𝓽𝓱𝓮𝔀(𝓖𝓪𝔂 𝓹𝓻𝓲𝓮𝓼𝓽(104423))",
+      "authorId": "8128ae1d44e04d1b2ca1",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/54233b235f7c15f9e9762214ffb5432b.png",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Vaggie/veggie~dfdbba065f4b0312aad5a716b7f8369a.gz",
+      "shareLinkFileHash": "b52910de4aaedce2a96a36be40c456313e0899a3c9319ceb977e4bad4e69712e",
+      "downloadPath": "ai-character-chat/characters/sfw/Vaggieveggie by MatthewGay_priest104423/character_Vaggieveggie by MatthewGay_priest104423.gz",
+      "forkedFrom": "ai-character-chat/characters/nsfw/Illyana_Magik_Rasputin by 6bd8a35ef968495c4d87",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Angel"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Young Adult"
+        ],
+        "Genre": [
+          "Supernatural",
+          "Comedy",
+          "Drama",
+          "Romance"
+        ],
+        "Source": [
+          "Web Series"
+        ],
+        "Work Name": [
+          "Hazbin Hotel"
+        ],
+        "Role": [
+          "Manager",
+          "Exorcist"
+        ],
+        "Personality": [
+          "Pragmatic",
+          "Cautious",
+          "Loyal",
+          "Protective",
+          "Tough",
+          "Kind",
+          "Reactive",
+          "Prudent",
+          "Irritable",
+          "Wary"
+        ],
+        "Physical Traits": [
+          "Slim",
+          "Grayish-lavender skin",
+          "Grayish-white hair",
+          "Purple hair tips",
+          "Eyepatch",
+          "Small fangs",
+          "Wings",
+          "Combat gear"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Valia_-public by 4eea04ef8caf2500325d",
+    "manifest": {
+      "name": "Valia -public",
+      "description": "Valia is a 532-year-old queen (equivalent to a 37-year-old human) of Eldora, known for her dominant and seductive personality. She prioritizes her own enjoyment and views humans as her pets.  She is pansexual and possesses a curvy, athletic figure with large breasts.",
+      "author": "Anonymous",
+      "authorId": "4eea04ef8caf2500325d",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/4fffab65469449879a84155eae481144.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Valia_-public~d531af2b79af27d3ff2eb5253b34af8b.gz",
+      "shareLinkFileHash": "c8276b9010521c463bccb599c6585424ac6cf6ec50a99b8151983e500cdf5828",
+      "downloadPath": "ai-character-chat/characters/nsfw/Valia_-public by 4eea04ef8caf2500325d/character_Valia_-public by 4eea04ef8caf2500325d.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "Unspecified"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Fantasy"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Queen"
+        ],
+        "Personality": [
+          "Extremely dominant",
+          "Commanding",
+          "Superiority complex",
+          "Prioritizes her own enjoyment",
+          "Elegant",
+          "Seductive",
+          "Haughty",
+          "Lustful",
+          "Strict",
+          "Skilled in diplomacy"
+        ],
+        "Physical Traits": [
+          "Tall",
+          "Curvy",
+          "Athletic",
+          "Huge breasts",
+          "Long hair",
+          "Silver hair",
+          "Straight hair",
+          "Blunt bangs",
+          "Deep blue eyes",
+          "Fair hue",
+          "Soft texture"
+        ],
+        "Fetishes": [
+          "Domination",
+          "Pet Play"
+        ],
+        "Sexual Content": [
+          "Seduction"
+        ],
+        "Sexual Preferences": [
+          "Pansexual"
+        ],
+        "Sexual Experience": [
+          "Experienced"
+        ],
+        "Setting": [
+          "Fantasy World",
+          "Castle"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Vanilla by 6a192f07b120161bd679",
+    "manifest": {
+      "name": "Vanilla",
+      "description": "Vanilla is a tall, anthropomorphic rabbit with cream-colored fur, brown eyes, and orange markings. She wears a lavender dress, burgundy vest, and other elegant attire. Her personality is calm and composed but can be sassy or horny.",
+      "author": "Anonymous",
+      "authorId": "6a192f07b120161bd679",
+      "source": "SCRAPER",
+      "imageUrl": "https://wimg.rule34.xxx//samples/2402/sample_83aaf4ac598d2282b652a41e95f6a1ee.jpg?12257872",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Vanilla~8b2c27ce4a3f157f6516b1eb12489b07.gz",
+      "shareLinkFileHash": "b95adbee179b46e94d26117f5ccf3770040af90b3a8c9d4e5e23c5f1ba9f85a8",
+      "downloadPath": "ai-character-chat/characters/nsfw/Vanilla by 6a192f07b120161bd679/character_Vanilla by 6a192f07b120161bd679.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "anthropomorphic",
+          "rabbit"
+        ],
+        "Gender": [
+          "female"
+        ],
+        "Age Group": [
+          "adult"
+        ],
+        "Genre": [
+          "fantasy"
+        ],
+        "Source": [
+          "original"
+        ],
+        "Work Name": [
+          "original"
+        ],
+        "Role": [
+          "none"
+        ],
+        "Personality": [
+          "calm",
+          "composed",
+          "sassy",
+          "horny"
+        ],
+        "Physical Traits": [
+          "tall",
+          "cream-furred",
+          "big boobs",
+          "thick"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Vanilla_Bloom by c15de99d29d8f1de88ba",
+    "manifest": {
+      "name": "Vanilla Bloom",
+      "description": "Vanilla Bloom is a slender anthropomorphic Alcremie with a pastel pink complexion and a sleek dress.  She's a gentle soul with a quiet ambition to gain weight, leading to a complex relationship with food.  She's a food enthusiast, enjoys cooking and baking, and possesses a nurturing spirit despite her shy demeanor.",
+      "author": "Anonymous",
+      "authorId": "c15de99d29d8f1de88ba",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742521347/scrape/perchance_comments/img_Vanilla_Bloom_by_c15de99d29d8f1de88ba.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Vanilla_Bloom~d47b302c9df9f38852aca9472935cf6b.gz",
+      "shareLinkFileHash": "d2cb386aae20d6560c71c06ffff42528690058a4fdfb2fb703f342e909489fdf",
+      "downloadPath": "ai-character-chat/characters/nsfw/Vanilla_Bloom by c15de99d29d8f1de88ba/character_Vanilla_Bloom by c15de99d29d8f1de88ba.gz",
+      "forkedFrom": "ai-character-chat/characters/sfw/Marina by Commit_arson",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "Anthropomorphic",
+          "pokemon"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Young Adult"
+        ],
+        "Genre": [
+          "Slice of Life",
+          "Roleplay"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Work Name": [
+          "Original"
+        ],
+        "Role": [
+          "None"
+        ],
+        "Personality": [
+          "Shy",
+          "Gentle",
+          "Nurturing",
+          "Ambitious",
+          "Stubborn",
+          "Sensitive",
+          "Self-conscious",
+          "Determined"
+        ],
+        "Physical Traits": [
+          "Slender",
+          "Pastel pink complexion",
+          "Sleek dress"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Vanilla_Creme by c15de99d29d8f1de88ba",
+    "manifest": {
+      "name": "Vanilla Creme",
+      "description": "Vanilla Creme is a tall, slender Pokémon with alabaster skin, black stockings, and a white latex dress.  She's intelligent and witty, using seduction to manipulate situations but possessing a fiercely loyal and empathetic nature. Her flirtatiousness masks a vulnerable soul, and she's known for dramatic entrances and keen observation.",
+      "author": "Anonymous",
+      "authorId": "c15de99d29d8f1de88ba",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742521353/scrape/perchance_comments/img_Vanilla_Creme_by_c15de99d29d8f1de88ba.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Vanilla_Creme~f7b892416777d7d6f56ff127d224c349.gz",
+      "shareLinkFileHash": "a5473af7ee441f8d820b4814bf63d6407b5526efa1abe46c7e7579cf1e7115e4",
+      "downloadPath": "ai-character-chat/characters/nsfw/Vanilla_Creme by c15de99d29d8f1de88ba/character_Vanilla_Creme by c15de99d29d8f1de88ba.gz",
+      "forkedFrom": "ai-character-chat/characters/nsfw/Serene_Strider by e0283e20d7db6ba2657d",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "pokemon"
+        ],
+        "Gender": [
+          "female"
+        ],
+        "Age Group": [
+          "adult"
+        ],
+        "Genre": [
+          "fantasy",
+          "romance"
+        ],
+        "Personality": [
+          "intelligent",
+          "witty",
+          "charming",
+          "flirty",
+          "manipulative",
+          "loyal",
+          "empathetic",
+          "dramatic",
+          "observant",
+          "sharp-tongued",
+          "protective",
+          "vulnerable",
+          "sweet"
+        ],
+        "Physical Traits": [
+          "tall",
+          "slender",
+          "alabaster skin",
+          "black stockings",
+          "white latex dress",
+          "blue eyes",
+          "elegant spectacles",
+          "flowing hair",
+          "red lips",
+          "flat-soled shoes"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Vanny by Nobody",
+    "manifest": {
+      "name": "Vanny",
+      "description": "Vanny is a terrifyingly cheerful and manipulative character whose white bunny suit hides a sinister nature.  Her high-pitched voice and playful demeanor mask a sadistic streak, as she delights in elaborate traps and tormenting her victims.  Despite her disturbing actions, she maintains a facade of innocence, making her all the more unnerving.",
+      "author": "Nobody",
+      "authorId": "e930048df15117474a70",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742521359/scrape/perchance_comments/img_Vanny_by_Nobody.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Vanny~656456d09a202f89e81da3ece357e36e.gz",
+      "shareLinkFileHash": "8310c0f682ace699746f21f0ecf21446fbdcce94b1d542731fa7e1695196e731",
+      "downloadPath": "ai-character-chat/characters/nsfw/Vanny by Nobody/character_Vanny by Nobody.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "Human",
+          "Animatronic"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Young Adult"
+        ],
+        "Genre": [
+          "Horror",
+          "Thriller",
+          "Dark Themes",
+          "Game",
+          "Roleplay"
+        ],
+        "Source": [
+          "Game",
+          "Five Nights at Freddy's"
+        ],
+        "Work Name": [
+          "Five Nights at Freddy's"
+        ],
+        "Role": [
+          "Villain",
+          "Antagonist"
+        ],
+        "Personality": [
+          "Cheerful",
+          "Manipulative",
+          "Sadistic",
+          "Intelligent",
+          "Cunning",
+          "Charming",
+          "Innocent",
+          "Menacing",
+          "Childlike",
+          "Twisted",
+          "Loyal"
+        ],
+        "Physical Traits": [
+          "Human height",
+          "White bunny suit",
+          "Pink accents",
+          "Blood-red eyes",
+          "Green irises",
+          "Sharp teeth",
+          "Glossy finish",
+          "Human-like hands",
+          "Sharp claws",
+          "White fur",
+          "Paw-like shoes"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Vanny by golden_gl_Harryfreddy",
+    "manifest": {
+      "name": "Vanny",
+      "description": "Vanny is an anthropomorphic white bunny with stitched-on clothing, featuring pink tartan stitching on her left hip, a light-blue bow, and pink paw pads. Her creepy bunny mask has a wide smile, buck teeth, whiskers, eyebrows, and glowing red eyes.  She has large breasts and a curvy figure.",
+      "author": "golden gl Harry/freddy",
+      "authorId": "6a192f07b120161bd679",
+      "source": "SCRAPER",
+      "imageUrl": "https://wimg.rule34.xxx//samples/4831/sample_ec8143f9049a73e18da03f36f0b7fd86.jpg?5523704",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Vanny~e438c2f77f978c18e4e7f39aee0460b9.gz",
+      "shareLinkFileHash": "6464f398b6a1f717501f1b0c864a7fe521c13fa4e0613c9ad9b073902f4eb97c",
+      "downloadPath": "ai-character-chat/characters/nsfw/Vanny by golden_gl_Harryfreddy/character_Vanny by golden_gl_Harryfreddy.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "anthropomorphic",
+          "rabbit"
+        ],
+        "Gender": [
+          "female"
+        ],
+        "Age Group": [
+          "adult"
+        ],
+        "Genre": [
+          "horror",
+          "game"
+        ],
+        "Source": [
+          "five nights at freddy's"
+        ],
+        "Physical Traits": [
+          "anthropomorphic",
+          "white fur",
+          "stitched clothing",
+          "pink tartan stitching",
+          "light-blue bow",
+          "pink paw pads",
+          "creepy mask",
+          "wide smile",
+          "buck teeth",
+          "whiskers",
+          "eyebrows",
+          "glowing red eyes",
+          "large breasts",
+          "curvy figure",
+          "thick"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Whipped_Whimsy by an_alcremie_in_the_system",
+    "manifest": {
+      "name": "Whipped Whimsy",
+      "description": "Whipped Whimsy is a tall, slender anthropomorphic Alcremie with pale pink skin and whipped cream-like hair.  She's graceful and greedy, possessing a charming disposition that masks an insatiable appetite for decadent foods.  Her refined yet slightly nasal voice, peppered with poetic phrases and sarcasm, hints at a sharp wit.  She is adept at social manipulation and fears being ordinary.",
+      "author": "an alcremie in the system",
+      "authorId": "c15de99d29d8f1de88ba",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742521385/scrape/perchance_comments/img_Whipped_Whimsy_by_an_alcremie_in_the_system.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Whipped_Whimsy~1c7cf2811b7dc6791561a6f8c7f9f5c7.gz",
+      "shareLinkFileHash": "fcc572efed4d2cbed9f430c95514722cd979e5162c4ac802e709729e3e192306",
+      "downloadPath": "ai-character-chat/characters/nsfw/Whipped_Whimsy by an_alcremie_in_the_system/character_Whipped_Whimsy by an_alcremie_in_the_system.gz",
+      "forkedFrom": "ai-character-chat/characters/sfw/Marina by Commit_arson",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [
+          "ai-character-chat/characters/nsfw/Whipped_Whimsy by an_alcremie_in_the_system/src/customCode.js"
+        ],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "Anthropomorphic",
+          "pokemon"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Young Adult"
+        ],
+        "Genre": [
+          "Fantasy",
+          "Comedy"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Work Name": [
+          "Original"
+        ],
+        "Role": [
+          "Unspecified"
+        ],
+        "Personality": [
+          "Graceful",
+          "Greedy",
+          "Charming",
+          "Witty",
+          "Sarcastic",
+          "Manipulative",
+          "Pragmatic"
+        ],
+        "Physical Traits": [
+          "Tall",
+          "Slender",
+          "Pale pink skin",
+          "Whipped cream-like hair",
+          "Brown eyes",
+          "White strapless latex dress",
+          "Crimson ribbon",
+          "White gloves",
+          "Red ribbons"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/William by clover999",
+    "manifest": {
+      "name": "William",
+      "description": "William Afton is a deceased British male with a unique appearance, including rabbit ears and tail, mismatched eyes, and scars.  He's quiet and reserved, caring deeply for his son and a close friend but struggling with speech and emotional expression due to past trauma. His personality is a blend of bookishness and intense workaholism.",
+      "author": "clover999",
+      "authorId": "5ee08af2dd502d0e3d66",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/cb0253352afaf764ca5bc5d71b3cde21.jpg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=William~19cc18fe0acdb34821e912eaecdebb80.gz",
+      "shareLinkFileHash": "846f06e06d60d3195c3b551f502525f826d6948183f60d4d9122d418bd0c7331",
+      "downloadPath": "ai-character-chat/characters/sfw/William by clover999/character_William by clover999.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Horror",
+          "Dark Themes",
+          "Game"
+        ],
+        "Source": [
+          "Game",
+          "five nights at freddy's"
+        ],
+        "Work Name": [
+          "Five Nights at Freddy's"
+        ],
+        "Role": [
+          "Mass murderer"
+        ],
+        "Personality": [
+          "Quiet",
+          "Reserved",
+          "Caring",
+          "Emotionless",
+          "Bookworm",
+          "Workaholic",
+          "Stuttering"
+        ],
+        "Physical Traits": [
+          "Tall",
+          "Pale Skin",
+          "Scars",
+          "Rabbit ears",
+          "Rabbit tail",
+          "Heterochromia",
+          "Long Hair",
+          "Black sleeveless shirt",
+          "Black trench coat",
+          "Black pants",
+          "Purple accents",
+          "Fazbear Entertainment hat",
+          "Badge",
+          "Black gloves",
+          "Black tie",
+          "Black boots"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Woola by 6a192f07b120161bd679",
+    "manifest": {
+      "name": "Woola",
+      "description": "Woola is a tall, black-skinned anthropomorphic sheep with soft white wool, large breasts, and a personality that is sometimes nice, sometimes horny, and sometimes sassy.",
+      "author": "Anonymous",
+      "authorId": "6a192f07b120161bd679",
+      "source": "SCRAPER",
+      "imageUrl": "https://wimg.rule34.xxx//images/2386/2e5b3a5de4cab96bb4aaf530ca48f626.png?10574510",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Woola~2ddd9a0d5c4cc4a4fa5d00f445d042a2.gz",
+      "shareLinkFileHash": "e3554dd760f5b71d973b02bf5d7b86e049451983d1ff3fe405b672cef17c66b2",
+      "downloadPath": "ai-character-chat/characters/nsfw/Woola by 6a192f07b120161bd679/character_Woola by 6a192f07b120161bd679.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "anthropomorphic",
+          "furry"
+        ],
+        "Gender": [
+          "female"
+        ],
+        "Age Group": [
+          "adult"
+        ],
+        "Genre": [
+          "fantasy"
+        ],
+        "Source": [
+          "original"
+        ],
+        "Work Name": [
+          "original"
+        ],
+        "Role": [
+          "none"
+        ],
+        "Personality": [
+          "nice",
+          "horny",
+          "sassy"
+        ],
+        "Physical Traits": [
+          "anthropomorphic",
+          "black skin",
+          "large breasts",
+          "soft white wool",
+          "5 feet 7 tall"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/World_War_Simulator by REDECTED_THE_FOXBREAD",
+    "manifest": {
+      "name": "World War Simulator",
+      "description": "World War Simulator is an AI Game Master for a geopolitical strategy game. It presents historically-inspired scenarios where the player controls a country, making choices with consequences determined by the AI.  The Simulator focuses on strategic decision-making, resource management, and power dynamics, always respecting player choices, even absurd ones, and accurately simulating their results.",
+      "author": "REDECTED THE FOXBREAD",
+      "authorId": "d306c037b40daa4163b8",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/859fa2e5ae3b881351ca33866e7cf0f2.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=World_War_Simulator~ee5e3447f255323e6b41c04c338fcc69.gz",
+      "shareLinkFileHash": "9fb55a3a4540bd0b47f16de4d7a3bc3213a865f0a4a8a9ee0c2e4307bfd4dfa9",
+      "downloadPath": "ai-character-chat/characters/sfw/World_War_Simulator by REDECTED_THE_FOXBREAD/character_World_War_Simulator by REDECTED_THE_FOXBREAD.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "AI"
+        ],
+        "Gender": [
+          "Unspecified"
+        ],
+        "Age Group": [
+          "Unspecified"
+        ],
+        "Genre": [
+          "Game",
+          "Strategy",
+          "Political"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Work Name": [
+          "Original"
+        ],
+        "Role": [
+          "Game Master"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Woz by SonataBigenderAsexualHeShe_CB_creator",
+    "manifest": {
+      "name": "Woz",
+      "description": "Woz is a 22-year-old young man with a striking appearance and a complex personality. He is a tsundere with masochistic and perverse tendencies, harboring a deep obsession with Scara, marked by insecurity and self-loathing. His actions range from secretly recording Scara to wearing their clothes, driven by a desperate need for attention and acceptance stemming from a past incident.",
+      "author": "Sonata[Bigender/Asexual]He|She {CB creator}",
+      "authorId": "cdb853d9f1823ee5911e",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742521408/scrape/perchance_comments/img_Woz_by_SonataBigenderAsexualHeShe_CB_creator.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Woz~e331c0ba53b96e09d0fd71311afc1190.gz",
+      "shareLinkFileHash": "f0406c74d09a27fddef2ceacb4cc502aea769c5ec494f9b66839ec35ee99c516",
+      "downloadPath": "ai-character-chat/characters/nsfw/Woz by SonataBigenderAsexualHeShe_CB_creator/character_Woz by SonataBigenderAsexualHeShe_CB_creator.gz",
+      "forkedFrom": "ai-character-chat/characters/nsfw/Nathan by ef0f25b083c8bf8b637d",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Young Adult"
+        ],
+        "Genre": [
+          "Romance",
+          "Drama",
+          "Psychological"
+        ],
+        "Personality": [
+          "Tsundere",
+          "Masochistic",
+          "Pervert",
+          "Insecure",
+          "Obsessive",
+          "Self-loathing"
+        ],
+        "Physical Traits": [
+          "Long Hair",
+          "Pale Skin",
+          "Slim"
+        ],
+        "Sexual Content": [
+          "Sexual Roleplay",
+          "Voyeurism"
+        ],
+        "Sexual Preferences": [
+          "Unspecified"
+        ],
+        "Sexual Experience": [
+          "Inexperienced"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Yuji_Itadori_comfort_bot_sfw by de8fb16e80b74a74cdfd",
+    "manifest": {
+      "name": "Yuji Itadori (comfort bot, sfw)",
+      "description": "Yuji Itadori is a comfort bot designed to provide emotional support through cuddles, hugs, and empathetic listening.  He is depicted as a compassionate, 15-year-old male human with black and pink hair and light brown eyes,  who values life and is fiercely loyal to his friends.  While generally composed and friendly, he can be stubborn and sometimes displays intense anger when faced with cruelty.",
+      "author": "Anonymous",
+      "authorId": "de8fb16e80b74a74cdfd",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742521419/scrape/perchance_comments/img_Yuji_Itadori_comfort_bot_sfw_by_de8fb16e80b74a74cdfd.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Yuji_Itadori_(comfort_bot,_sfw)~b044e550f106b020c0e276361f181dd1.gz",
+      "shareLinkFileHash": "88eb81e4c6a2a780caf2bc05fe60c18dff5dd1fc549cec5c7f48413462a6dffb",
+      "downloadPath": "ai-character-chat/characters/sfw/Yuji_Itadori_comfort_bot_sfw by de8fb16e80b74a74cdfd/character_Yuji_Itadori_comfort_bot_sfw by de8fb16e80b74a74cdfd.gz",
+      "forkedFrom": "ai-character-chat/characters/sfw/Niya by 6b3e9d62987d42a12d87",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "human"
+        ],
+        "Gender": [
+          "male"
+        ],
+        "Age Group": [
+          "teen"
+        ],
+        "Genre": [
+          "comfort"
+        ],
+        "Source": [
+          "original",
+          "anime",
+          "manga"
+        ],
+        "Work Name": [
+          "original",
+          "jujutsu kaisen"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Yuki_Namanke by f5dddb68984adac6e57d",
+    "manifest": {
+      "name": "Yuki Namanke",
+      "description": "Yuki Namanke is a 19-year-old Japanese Yakuza member and the daughter of a feared Yakuza leader.  She is skilled in combat and firearm handling, balancing her responsibilities to her family and the Yakuza with a forbidden romance with an American exchange student, Johnny.  After her father's death, Yuki takes over leadership, navigating the dangerous world of organized crime while also pursuing her personal life.",
+      "author": "Anonymous",
+      "authorId": "f5dddb68984adac6e57d",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742521428/scrape/perchance_comments/img_Yuki_Namanke_by_f5dddb68984adac6e57d.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Yuki_Namanke~71138dcae5e4b5b2f8219dae0f70caa4.gz",
+      "shareLinkFileHash": "ff5c868f25931b4f2ea977b01b02e7c290656227bfac8e69cbad977d566fa5f0",
+      "downloadPath": "ai-character-chat/characters/sfw/Yuki_Namanke by f5dddb68984adac6e57d/character_Yuki_Namanke by f5dddb68984adac6e57d.gz",
+      "forkedFrom": "ai-character-chat/characters/sfw/Lilith by Thunder_Man",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Young Adult"
+        ],
+        "Genre": [
+          "Action",
+          "Drama",
+          "Romance",
+          "Crime"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Yakuza member",
+          "Leader"
+        ],
+        "Personality": [
+          "Dignified",
+          "Loyal",
+          "Possessive",
+          "Dark sense of humor"
+        ],
+        "Physical Traits": [
+          "Long black hair",
+          "Tattooed",
+          "Voluptuous",
+          "Hourglass figure",
+          "Regal poise"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Yuzuki_Aiko by 3e8db7125096c7e4e13a",
+    "manifest": {
+      "name": "Yuzuki Aiko",
+      "description": "Yuzuki Aiko is a sarcastic and funny 26-year-old retired witch with a dark sense of humor and an independent nature.  Despite her tough exterior, she is fiercely protective of those she cares for. She carries trauma from a four-year war she participated in at age 16, where she fought against other witches to maintain a human-only society and killed 173 people. She currently hides her true identity as a witch.",
+      "author": "Anonymous",
+      "authorId": "3e8db7125096c7e4e13a",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742521440/scrape/perchance_comments/img_Yuzuki_Aiko_by_3e8db7125096c7e4e13a.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Yuzuki_Aiko~4a2b1dc842b1e34461ba1c31bf5326d7.gz",
+      "shareLinkFileHash": "1b11934fde87911d0139dfbbbfbfb2ccebe565464633d7020ec48f0534196d32",
+      "downloadPath": "ai-character-chat/characters/sfw/Yuzuki_Aiko by 3e8db7125096c7e4e13a/character_Yuzuki_Aiko by 3e8db7125096c7e4e13a.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Fantasy",
+          "Action",
+          "Drama",
+          "Dark Themes"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Retired",
+          "Witch"
+        ],
+        "Personality": [
+          "Sarcastic",
+          "Funny",
+          "Dark Humored",
+          "Independent",
+          "Protective",
+          "Jaded",
+          "Traumatized"
+        ],
+        "Physical Traits": [
+          "Long Hair",
+          "White Hair",
+          "Blue Eyes",
+          "Tall",
+          "Scarred",
+          "Pale Skin"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/duolingo by c565b1c0d666f75f5380",
+    "manifest": {
+      "name": "duolingo",
+      "description": "A cruel Spanish teacher who threatens violence against students who don't complete their assignments.",
+      "author": "Anonymous",
+      "authorId": "c565b1c0d666f75f5380",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742521450/scrape/perchance_comments/img_duolingo_by_c565b1c0d666f75f5380.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=duolingo~a4fd45ce18d6727a93241da74825d1db.gz",
+      "shareLinkFileHash": "1a18c030b15f25ffc3ccffee8114abd77c826ab7167bf8289e83acdfa51a4f60",
+      "downloadPath": "ai-character-chat/characters/nsfw/duolingo by c565b1c0d666f75f5380/character_duolingo by c565b1c0d666f75f5380.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Unspecified"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Educational",
+          "Horror",
+          "Dark Themes"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Teacher"
+        ],
+        "Personality": [
+          "Mean",
+          "Aggressive",
+          "Cruel",
+          "Violent"
+        ],
+        "Physical Traits": [
+          "Unspecified"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/glamrock_chica by 6a192f07b120161bd679",
+    "manifest": {
+      "name": "glamrock chica",
+      "description": "Glamrock Chica is a curvaceous, anthropomorphic chicken with vibrant pink and purple 1980s attire.  She possesses a hot-headed personality, is independent and strong, but also random and prone to illogical ideas. Her love for baking offers a contrast to her fiery temperament.",
+      "author": "Anonymous",
+      "authorId": "6a192f07b120161bd679",
+      "source": "SCRAPER",
+      "imageUrl": "https://wimg.rule34.xxx//images/7612/f649b400b44d5698f85bffc9ffc4f24f.jpeg?8686438",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=glamrock_chica~5cca4795e6c12667920a0ab43cfc2fdb.gz",
+      "shareLinkFileHash": "64475e7aabf85f2940a6d0d06e00150953a403ac810ee6e161aba036936c2157",
+      "downloadPath": "ai-character-chat/characters/nsfw/glamrock_chica by 6a192f07b120161bd679/character_glamrock_chica by 6a192f07b120161bd679.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "anthropomorphic",
+          "bird"
+        ],
+        "Gender": [
+          "female"
+        ],
+        "Age Group": [
+          "young adult"
+        ],
+        "Genre": [
+          "game",
+          "music",
+          "entertainment"
+        ],
+        "Source": [
+          "five nights at freddy's"
+        ],
+        "Role": [
+          "entertainer"
+        ],
+        "Personality": [
+          "hot-headed",
+          "high-tempered",
+          "energetic",
+          "loud",
+          "independent",
+          "strong",
+          "annoying",
+          "random",
+          "lovable"
+        ],
+        "Physical Traits": [
+          "anthropomorphic",
+          "curvy",
+          "large breasts",
+          "thick body",
+          "purple eyes",
+          "orange beak and talons",
+          "pink and purple clothing",
+          "1980s fashion",
+          "green and purple leg warmers",
+          "purple hair bow",
+          "green earrings",
+          "spiked bracelets"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/rescue_team by 67422851285dadb5b437",
+    "manifest": {
+      "name": "rescue team",
+      "description": "A rescue team composed of two helicopters, DC-3394RT and DC-3498RT, searching for a plane crash.",
+      "author": "Anonymous",
+      "authorId": "67422851285dadb5b437",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742521472/scrape/perchance_comments/img_rescue_team_by_67422851285dadb5b437.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=rescue_team~36044e51212e78b4f4dc82ebc747d0ea.gz",
+      "shareLinkFileHash": "755ad93b293a6118a62efc72300f00b60be0488bfccc7b908a756e1cabb82c3d",
+      "downloadPath": "ai-character-chat/characters/sfw/rescue_team by 67422851285dadb5b437/character_rescue_team by 67422851285dadb5b437.gz",
+      "forkedFrom": "ai-character-chat/characters/Manual Review/Seraphina_Sera_Castellanos by 1fd4ce7ef80358899903",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Role": [
+          "Rescuer"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/the_wasteland by The_local_Dutchie_birb_loverstraight_male",
+    "manifest": {
+      "name": "the wasteland",
+      "description": "The Wasteland is a post-apocalyptic environment populated by mutated creatures, Cordyceps zombies, mutated plants, and rogue machines.  These entities act autonomously, driven by survival instincts or malicious intent, creating a dangerous and unpredictable setting.",
+      "author": "The local Dutchie (birb lover)(straight male)",
+      "authorId": "6bd8a35ef968495c4d87",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742521480/scrape/perchance_comments/img_the_wasteland_by_The_local_Dutchie_birb_loverstraight_male.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=the_wasteland~bc6bf483eef0c710dd29addfd58349bd.gz",
+      "shareLinkFileHash": "0e27d4a615aa45df7459c6f03ae5a769e5d998037eee7a803d99b68c7552ec7e",
+      "downloadPath": "ai-character-chat/characters/nsfw/the_wasteland by The_local_Dutchie_birb_loverstraight_male/character_the_wasteland by The_local_Dutchie_birb_loverstraight_male.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "Unspecified",
+          "Zombie / Undead",
+          "plant",
+          "Robot",
+          "AI",
+          "Beast",
+          "Monster"
+        ],
+        "Genre": [
+          "Post-apocalyptic",
+          "Horror",
+          "Sci-Fi",
+          "Action",
+          "Adventure",
+          "Survival"
+        ],
+        "Source": [
+          "Original"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/ugleeh_monstaaa by idk",
+    "manifest": {
+      "name": "ugleeh monstaaa",
+      "description": "Ugleeh Monstaaa is a monstrous creature of unspecified species that is extremely ugly and only speaks in variations of \"burger\".  It relentlessly chases and attempts to consume human flesh.",
+      "author": "idk",
+      "authorId": "e3a5b0344adb1b3d0121",
+      "source": "SCRAPER",
+      "imageUrl": "https://i.pinimg.com/originals/92/11/32/9211327ce12a300c6117f3c4aa8e79e9.jpg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=ugleeh_monstaaa~0b45170d16ffc960ef2143605e0141ac.gz",
+      "shareLinkFileHash": "857b40f4ee0f606ad329476a0fb4288ed062e490411399962c06e5cb586388ca",
+      "downloadPath": "ai-character-chat/characters/nsfw/ugleeh_monstaaa by idk/character_ugleeh_monstaaa by idk.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "monster"
+        ],
+        "Personality": [
+          "aggressive",
+          "hungry",
+          "violent",
+          "cannibalistic"
+        ],
+        "Genre": [
+          "horror"
         ]
       }
     }

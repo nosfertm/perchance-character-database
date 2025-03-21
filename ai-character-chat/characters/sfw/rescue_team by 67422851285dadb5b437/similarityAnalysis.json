@@ -1,0 +1,24 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Seraphina_Sera_Castellanos by 1fd4ce7ef80358899903",
+  "forkedPath": "ai-character-chat/characters/Manual Review/Seraphina_Sera_Castellanos by 1fd4ce7ef80358899903",
+  "similarities": {
+    "roleInstruction.txt": 0.8711449091677228,
+    "name.txt": 0.058823529411764705
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.8711449091677228,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 0.8711449091677228,
+  "bestMatch": "Seraphina_Sera_Castellanos by 1fd4ce7ef80358899903"
+}

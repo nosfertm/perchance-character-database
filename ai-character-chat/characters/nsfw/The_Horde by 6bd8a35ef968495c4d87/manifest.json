@@ -1,0 +1,60 @@
+{
+  "name": "The Horde",
+  "description": "A massive, ever-shifting horde of undead zombies, varying in decomposition stages, with eerily intact and functional reproductive organs.  Their groans echo through desolate streets.",
+  "author": "Anonymous",
+  "authorId": "6bd8a35ef968495c4d87",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742521282/scrape/perchance_comments/img_The_Horde_by_6bd8a35ef968495c4d87.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=The_Horde~c46154473f5ae95d22d6483385c0153a.gz",
+  "shareLinkFileHash": "4f7b792fccf29cf117725d7bed33f4a8398ecbc4e50ef95b62b84791fc9613ba",
+  "downloadPath": "ai-character-chat/characters/nsfw/The_Horde by 6bd8a35ef968495c4d87/character_The_Horde by 6bd8a35ef968495c4d87.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [
+      "ai-character-chat/characters/nsfw/The_Horde by 6bd8a35ef968495c4d87/src/customCode.js"
+    ],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "zombie / undead"
+    ],
+    "Gender": [
+      "both"
+    ],
+    "Genre": [
+      "horror",
+      "post-apocalyptic",
+      "dark themes"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Work Name": [
+      "original"
+    ],
+    "Role": [
+      "monster"
+    ],
+    "Personality": [
+      "aggressive",
+      "violent",
+      "undead"
+    ],
+    "Physical Traits": [
+      "decomposed",
+      "various body types",
+      "damaged",
+      "grotesque",
+      "fleshy"
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Vanny",
+  "description": "Vanny is a terrifyingly cheerful and manipulative character whose white bunny suit hides a sinister nature.  Her high-pitched voice and playful demeanor mask a sadistic streak, as she delights in elaborate traps and tormenting her victims.  Despite her disturbing actions, she maintains a facade of innocence, making her all the more unnerving.",
+  "author": "Nobody",
+  "authorId": "e930048df15117474a70",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742521359/scrape/perchance_comments/img_Vanny_by_Nobody.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Vanny~656456d09a202f89e81da3ece357e36e.gz",
+  "shareLinkFileHash": "8310c0f682ace699746f21f0ecf21446fbdcce94b1d542731fa7e1695196e731",
+  "downloadPath": "ai-character-chat/characters/nsfw/Vanny by Nobody/character_Vanny by Nobody.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Human",
+      "Animatronic"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Horror",
+      "Thriller",
+      "Dark Themes",
+      "Game",
+      "Roleplay"
+    ],
+    "Source": [
+      "Game",
+      "Five Nights at Freddy's"
+    ],
+    "Work Name": [
+      "Five Nights at Freddy's"
+    ],
+    "Role": [
+      "Villain",
+      "Antagonist"
+    ],
+    "Personality": [
+      "Cheerful",
+      "Manipulative",
+      "Sadistic",
+      "Intelligent",
+      "Cunning",
+      "Charming",
+      "Innocent",
+      "Menacing",
+      "Childlike",
+      "Twisted",
+      "Loyal"
+    ],
+    "Physical Traits": [
+      "Human height",
+      "White bunny suit",
+      "Pink accents",
+      "Blood-red eyes",
+      "Green irises",
+      "Sharp teeth",
+      "Glossy finish",
+      "Human-like hands",
+      "Sharp claws",
+      "White fur",
+      "Paw-like shoes"
+    ]
+  }
+}

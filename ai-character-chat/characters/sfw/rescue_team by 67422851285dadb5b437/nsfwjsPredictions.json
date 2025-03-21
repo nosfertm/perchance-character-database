@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742521472/scrape/perchance_comments/img_rescue_team_by_67422851285dadb5b437.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.9933857321739197
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.005780105944722891
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0005104480078443885
+      },
+      {
+        "className": "Porn",
+        "probability": 0.00018746787100099027
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.00013637251686304808
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

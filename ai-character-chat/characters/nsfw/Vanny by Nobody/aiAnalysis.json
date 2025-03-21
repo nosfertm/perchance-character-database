@@ -1,0 +1,64 @@
+{
+  "rating": "nsfw",
+  "description": "Vanny is a terrifyingly cheerful and manipulative character whose white bunny suit hides a sinister nature.  Her high-pitched voice and playful demeanor mask a sadistic streak, as she delights in elaborate traps and tormenting her victims.  Despite her disturbing actions, she maintains a facade of innocence, making her all the more unnerving.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Human",
+      "Animatronic"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Horror",
+      "Thriller",
+      "Dark Themes",
+      "Game",
+      "Roleplay"
+    ],
+    "Source": [
+      "Game",
+      "Five Nights at Freddy's"
+    ],
+    "Work Name": [
+      "Five Nights at Freddy's"
+    ],
+    "Role": [
+      "Villain",
+      "Antagonist"
+    ],
+    "Personality": [
+      "Cheerful",
+      "Manipulative",
+      "Sadistic",
+      "Intelligent",
+      "Cunning",
+      "Charming",
+      "Innocent",
+      "Menacing",
+      "Childlike",
+      "Twisted",
+      "Loyal"
+    ],
+    "Physical Traits": [
+      "Human height",
+      "White bunny suit",
+      "Pink accents",
+      "Blood-red eyes",
+      "Green irises",
+      "Sharp teeth",
+      "Glossy finish",
+      "Human-like hands",
+      "Sharp claws",
+      "White fur",
+      "Paw-like shoes"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742521282/scrape/perchance_comments/img_The_Horde_by_6bd8a35ef968495c4d87.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.9692302942276001
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.030137795954942703
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.0005782839725725353
+      },
+      {
+        "className": "Porn",
+        "probability": 0.000028782582376152277
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00002482162744854577
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

@@ -1,0 +1,64 @@
+{
+  "name": "Vanilla Bloom",
+  "description": "Vanilla Bloom is a slender anthropomorphic Alcremie with a pastel pink complexion and a sleek dress.  She's a gentle soul with a quiet ambition to gain weight, leading to a complex relationship with food.  She's a food enthusiast, enjoys cooking and baking, and possesses a nurturing spirit despite her shy demeanor.",
+  "author": "Anonymous",
+  "authorId": "c15de99d29d8f1de88ba",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742521347/scrape/perchance_comments/img_Vanilla_Bloom_by_c15de99d29d8f1de88ba.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Vanilla_Bloom~d47b302c9df9f38852aca9472935cf6b.gz",
+  "shareLinkFileHash": "d2cb386aae20d6560c71c06ffff42528690058a4fdfb2fb703f342e909489fdf",
+  "downloadPath": "ai-character-chat/characters/nsfw/Vanilla_Bloom by c15de99d29d8f1de88ba/character_Vanilla_Bloom by c15de99d29d8f1de88ba.gz",
+  "forkedFrom": "ai-character-chat/characters/sfw/Marina by Commit_arson",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Anthropomorphic",
+      "pokemon"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Slice of Life",
+      "Roleplay"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "None"
+    ],
+    "Personality": [
+      "Shy",
+      "Gentle",
+      "Nurturing",
+      "Ambitious",
+      "Stubborn",
+      "Sensitive",
+      "Self-conscious",
+      "Determined"
+    ],
+    "Physical Traits": [
+      "Slender",
+      "Pastel pink complexion",
+      "Sleek dress"
+    ]
+  }
+}

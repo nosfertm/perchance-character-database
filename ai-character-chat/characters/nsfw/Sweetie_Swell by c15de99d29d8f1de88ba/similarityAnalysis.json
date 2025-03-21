@@ -1,0 +1,24 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Natalie_Whiteshade by 4eea04ef8caf2500325d",
+  "forkedPath": "ai-character-chat/characters/nsfw/Natalie_Whiteshade by 4eea04ef8caf2500325d",
+  "similarities": {
+    "roleInstruction.txt": 0.8463782207097715,
+    "name.txt": 0.14814814814814814
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.8463782207097715,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 0.8463782207097715,
+  "bestMatch": "Natalie_Whiteshade by 4eea04ef8caf2500325d"
+}

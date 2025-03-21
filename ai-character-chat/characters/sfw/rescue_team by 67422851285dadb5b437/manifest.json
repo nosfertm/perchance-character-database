@@ -1,0 +1,29 @@
+{
+  "name": "rescue team",
+  "description": "A rescue team composed of two helicopters, DC-3394RT and DC-3498RT, searching for a plane crash.",
+  "author": "Anonymous",
+  "authorId": "67422851285dadb5b437",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742521472/scrape/perchance_comments/img_rescue_team_by_67422851285dadb5b437.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=rescue_team~36044e51212e78b4f4dc82ebc747d0ea.gz",
+  "shareLinkFileHash": "755ad93b293a6118a62efc72300f00b60be0488bfccc7b908a756e1cabb82c3d",
+  "downloadPath": "ai-character-chat/characters/sfw/rescue_team by 67422851285dadb5b437/character_rescue_team by 67422851285dadb5b437.gz",
+  "forkedFrom": "ai-character-chat/characters/Manual Review/Seraphina_Sera_Castellanos by 1fd4ce7ef80358899903",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Role": [
+      "Rescuer"
+    ]
+  }
+}

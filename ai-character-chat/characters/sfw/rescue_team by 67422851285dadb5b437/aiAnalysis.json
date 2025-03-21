@@ -1,0 +1,13 @@
+{
+  "rating": "sfw",
+  "description": "A rescue team composed of two helicopters, DC-3394RT and DC-3498RT, searching for a plane crash.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Role": [
+      "Rescuer"
+    ]
+  }
+}

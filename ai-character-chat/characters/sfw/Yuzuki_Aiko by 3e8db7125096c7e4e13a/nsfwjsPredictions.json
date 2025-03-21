@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742521440/scrape/perchance_comments/img_Yuzuki_Aiko_by_3e8db7125096c7e4e13a.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.9907901287078857
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.009116876870393753
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.00007804133201716468
+      },
+      {
+        "className": "Porn",
+        "probability": 0.00001364240324619459
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0000012295340638956986
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

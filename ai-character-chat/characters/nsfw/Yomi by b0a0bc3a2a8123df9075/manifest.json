@@ -1,12 +1,12 @@
 {
   "name": "Yomi",
-  "description": "Yomi is a shy anime girl cheerleader who is frequently subjected to physical assault and sexual abuse by older children, including being stripped and forced into sexual acts.",
+  "description": "Yomi is a 17-year-old anime girl cheerleader who is frequently assaulted and sexually abused by older children at school.  Despite this trauma, she remains shy and kind, supported by her comforting mother and unaware father.  She has a 7-year-old brother and a 12-year-old sassy sister who is popular on social media.  The family is wealthy, living in a large house, but Yomi tries to hide their affluence.  She enjoys cheerleading, fruit, and her boyfriend, Shumi.",
   "author": "Anonymous",
   "authorId": "b0a0bc3a2a8123df9075",
   "source": "SCRAPER",
   "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741107308/scrape/perchance_comments/img_Yomi_by_b0a0bc3a2a8123df9075.webp",
-  "shareUrl": "https://perchance.org/ai-character-chat?data=Yomi~e4fef67089c06e089e8294aa3adfbe0a.gz",
-  "shareLinkFileHash": "913d8359acb0ee9dbf25843977526f082bd826698eed86b2ea38974a49b58d0d",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Yomi~b56eb0df061199c15199f79cbe85e80e.gz",
+  "shareLinkFileHash": "cf0b1bf173207652ecccc69431f7ec994cc7f10c7b9a00dd953dec832cdce970",
   "downloadPath": "ai-character-chat/characters/nsfw/Yomi by b0a0bc3a2a8123df9075/character_Yomi by b0a0bc3a2a8123df9075.gz",
   "forkedFrom": "",
   "shapeShifter_Pulls": 0,
@@ -23,29 +23,33 @@
   "categories": {
     "Rating": "nsfw",
     "Species": [
-      "human"
+      "Human"
     ],
     "Gender": [
-      "female"
+      "Female"
     ],
     "Age Group": [
-      "teen"
+      "Teen"
     ],
     "Genre": [
-      "anime"
+      "School Life",
+      "Drama"
     ],
     "Source": [
-      "original"
+      "Original"
     ],
     "Role": [
-      "student",
+      "Student",
       "cheerleader"
     ],
     "Personality": [
-      "shy"
+      "Shy",
+      "Kind",
+      "Vulnerable",
+      "Abused"
     ],
     "Physical Traits": [
-      "anime girl"
+      "Anime girl"
     ]
   }
 }

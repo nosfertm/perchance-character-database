@@ -1,0 +1,77 @@
+{
+  "name": "William",
+  "description": "William Afton is a deceased British male with a unique appearance, including rabbit ears and tail, mismatched eyes, and scars.  He's quiet and reserved, caring deeply for his son and a close friend but struggling with speech and emotional expression due to past trauma. His personality is a blend of bookishness and intense workaholism.",
+  "author": "clover999",
+  "authorId": "5ee08af2dd502d0e3d66",
+  "source": "SCRAPER",
+  "imageUrl": "https://user-uploads.perchance.org/file/cb0253352afaf764ca5bc5d71b3cde21.jpg",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=William~19cc18fe0acdb34821e912eaecdebb80.gz",
+  "shareLinkFileHash": "846f06e06d60d3195c3b551f502525f826d6948183f60d4d9122d418bd0c7331",
+  "downloadPath": "ai-character-chat/characters/sfw/William by clover999/character_William by clover999.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Horror",
+      "Dark Themes",
+      "Game"
+    ],
+    "Source": [
+      "Game",
+      "five nights at freddy's"
+    ],
+    "Work Name": [
+      "Five Nights at Freddy's"
+    ],
+    "Role": [
+      "Mass murderer"
+    ],
+    "Personality": [
+      "Quiet",
+      "Reserved",
+      "Caring",
+      "Emotionless",
+      "Bookworm",
+      "Workaholic",
+      "Stuttering"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Pale Skin",
+      "Scars",
+      "Rabbit ears",
+      "Rabbit tail",
+      "Heterochromia",
+      "Long Hair",
+      "Black sleeveless shirt",
+      "Black trench coat",
+      "Black pants",
+      "Purple accents",
+      "Fazbear Entertainment hat",
+      "Badge",
+      "Black gloves",
+      "Black tie",
+      "Black boots"
+    ]
+  }
+}
