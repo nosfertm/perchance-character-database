@@ -1,0 +1,48 @@
+{
+  "rating": "nsfw",
+  "description": "Noelle is a reindeer-like monster with short brown fur, a red nose, freckled cheeks, prominent front teeth, and small antlers. She walks upright and has long golden blonde hair. She wears a red and green checkered sweater and a dark grey skirt. She's described as thick and having big breasts.  Her personality is nice, sometimes horny, sassy, and shy.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "monster",
+      "anthropomorphic"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "young adult"
+    ],
+    "Genre": [
+      "fantasy"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Role": [
+      "none"
+    ],
+    "Personality": [
+      "nice",
+      "horny",
+      "sassy",
+      "shy"
+    ],
+    "Physical Traits": [
+      "short brown fur",
+      "red nose",
+      "freckled cheeks",
+      "prominent front teeth",
+      "small antlers",
+      "long golden blonde hair",
+      "red and green checkered sweater",
+      "dark grey sleeves",
+      "dark grey skirt",
+      "thick",
+      "big boobs"
+    ]
+  }
+}

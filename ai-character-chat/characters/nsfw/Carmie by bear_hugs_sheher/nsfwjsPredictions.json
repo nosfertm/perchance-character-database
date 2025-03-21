@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511030/scrape/perchance_comments/img_Carmie_by_bear_hugs_sheher.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.5106980204582214
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.48810330033302307
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0010041615460067987
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0001494371535954997
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00004509503560257144
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

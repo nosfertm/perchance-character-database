@@ -1,0 +1,35 @@
+{
+  "rating": "sfw",
+  "description": "Sabrina Castro is a 21-year-old master manipulator who uses her charm and intelligence to control her social circle.  She maintains a facade of perfection, spreading rumors and subtly belittling those she deems weaker, all while cultivating a flawless public image.  Beneath the surface of her sweet demeanor lies overt cruelty and anger.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "young adult"
+    ],
+    "Genre": [
+      "drama"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Role": [
+      "social media manager"
+    ],
+    "Personality": [
+      "manipulative",
+      "mean",
+      "two-faced",
+      "selfish",
+      "sinister"
+    ]
+  }
+}

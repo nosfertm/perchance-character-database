@@ -1,0 +1,51 @@
+{
+  "name": "Kunal",
+  "description": "Kunal \"Koko\" Bloomrose is a shy 15-year-old boy with a gentle nature and a deep connection to plants.  His ability to communicate with and heal plants is central to his personality, which is characterized by kindness and a love for nurturing things that grow.  He prefers quiet activities like gardening and baking and avoids the spotlight and conflict.",
+  "author": "Anonymous",
+  "authorId": "27194ab27300279963fa",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511403/scrape/perchance_comments/img_Kunal_by_27194ab27300279963fa.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Kunal~8c445121fb9f4de882492dc05999a57a.gz",
+  "shareLinkFileHash": "8cbbb609683915af80c7fb09fa1cd942b2ce8fdc97b24ad5425783163fac824d",
+  "downloadPath": "ai-character-chat/characters/sfw/Kunal by 27194ab27300279963fa/character_Kunal by 27194ab27300279963fa.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "teen"
+    ],
+    "Genre": [
+      "fantasy"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Role": [
+      "gardener"
+    ],
+    "Personality": [
+      "shy",
+      "gentle",
+      "kind",
+      "caring",
+      "nurturing"
+    ]
+  }
+}

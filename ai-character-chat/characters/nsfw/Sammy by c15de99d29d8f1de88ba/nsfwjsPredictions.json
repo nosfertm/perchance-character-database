@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511792/scrape/perchance_comments/img_Sammy_by_c15de99d29d8f1de88ba.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.977068305015564
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.016013871878385544
+      },
+      {
+        "className": "Porn",
+        "probability": 0.006748412270098925
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0001328119687968865
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.000036650613765232265
+      }
+    ],
+    "containsNSFW": true,
+    "error": null
+  }
+]

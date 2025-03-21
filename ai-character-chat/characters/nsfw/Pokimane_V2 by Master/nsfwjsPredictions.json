@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511680/scrape/perchance_comments/img_Pokimane_V2_by_Master.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Sexy",
+        "probability": 0.9480915665626526
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.045096222311258316
+      },
+      {
+        "className": "Porn",
+        "probability": 0.006636901758611202
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.00014832646411377937
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.000026964949938701466
+      }
+    ],
+    "containsNSFW": true,
+    "error": null
+  }
+]

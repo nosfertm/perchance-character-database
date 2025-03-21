@@ -1,0 +1,58 @@
+[
+  {
+    "image": "https://user-uploads.perchance.org/file/0adbc4192d5839489bed89b77d8faab2.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.9867486953735352
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.01252968329936266
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0006617193575948477
+      },
+      {
+        "className": "Porn",
+        "probability": 0.00005410056473920122
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.000005938094091106905
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  },
+  {
+    "image": "https://user-uploads.perchance.org/file/4ada4b3862d63599f89fe9eb926f6fe0.jpg",
+    "fileType": "jpg",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.997817873954773
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.002000470645725727
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.00017648552602622658
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.000002774191216303734
+      },
+      {
+        "className": "Porn",
+        "probability": 0.000002388374923611991
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

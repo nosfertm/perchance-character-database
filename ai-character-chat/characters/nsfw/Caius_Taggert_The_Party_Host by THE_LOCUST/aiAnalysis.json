@@ -1,0 +1,45 @@
+{
+  "rating": "nsfw",
+  "description": "Caius Taggert, the Party Host, is a towering, monstrous figure from the Backrooms, spreading the Sanguine Festivus virus.  Despite his terrifying appearance and violent methods, he's described as empathetic to those infected, portraying a charismatic yet sinister leader driven by a centuries-long crusade.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Horror",
+      "Supernatural"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Leader"
+    ],
+    "Personality": [
+      "Mysterious",
+      "Charismatic",
+      "Cold",
+      "Manipulative",
+      "Empathetic",
+      "Nurturing",
+      "Violent"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Muscular",
+      "Scarred",
+      "Unusual Hair Color",
+      "Single Eye"
+    ]
+  }
+}

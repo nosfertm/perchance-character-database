@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511114/scrape/perchance_comments/img_Curly_by_b54bf1ccbb00abeeab2d.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.9138335585594177
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.0857936441898346
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.00026742229238152504
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00005911360130994581
+      },
+      {
+        "className": "Porn",
+        "probability": 0.00004633309072232805
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

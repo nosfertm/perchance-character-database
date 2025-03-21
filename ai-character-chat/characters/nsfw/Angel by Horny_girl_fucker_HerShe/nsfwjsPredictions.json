@@ -1,0 +1,13 @@
+[
+  {
+    "image": "https://perchance.org/ai-character-generator",
+    "predictions": [],
+    "containsNSFW": null,
+    "error": {
+      "message": "Request failed with status code 403",
+      "stack": "AxiosError: Request failed with status code 403\n    at settle (/home/runner/work/perchance_content_scraper/perchance_content_scraper/node_modules/axios/dist/node/axios.cjs:2031:12)\n    at BrotliDecompress.handleStreamEnd (/home/runner/work/perchance_content_scraper/perchance_content_scraper/node_modules/axios/dist/node/axios.cjs:3148:11)\n    at BrotliDecompress.emit (node:events:536:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/home/runner/work/perchance_content_scraper/perchance_content_scraper/node_modules/axios/dist/node/axios.cjs:4258:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async safeLoadImage (/home/runner/work/perchance_content_scraper/perchance_content_scraper/.github/scripts/process_scraped_characters.js:2445:34)\n    at async checkImageForNSFW (/home/runner/work/perchance_content_scraper/perchance_content_scraper/.github/scripts/process_scraped_characters.js:2748:32)\n    at async processCharacter (/home/runner/work/perchance_content_scraper/perchance_content_scraper/.github/scripts/process_scraped_characters.js:3181:55)\n    at async processCharacters (/home/runner/work/perchance_content_scraper/perchance_content_scraper/.github/scripts/process_scraped_characters.js:2867:30)\n    at async main (/home/runner/work/perchance_content_scraper/perchance_content_scraper/.github/scripts/process_scraped_characters.js:3532:9)",
+      "name": "AxiosError",
+      "code": null
+    }
+  }
+]

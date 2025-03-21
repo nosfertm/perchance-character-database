@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511380/scrape/perchance_comments/img_Kitty_by_Lady_Blue.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.7054866552352905
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.29359009861946106
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0008602506713941693
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00004170997635810636
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.000021264480892568827
+      }
+    ],
+    "containsNSFW": true,
+    "error": null
+  }
+]

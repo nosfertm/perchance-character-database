@@ -1,0 +1,24 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Miss_purple by 22447f05de70ec4125ed",
+  "forkedPath": "ai-character-chat/characters/nsfw/Miss_purple by 22447f05de70ec4125ed",
+  "similarities": {
+    "roleInstruction.txt": 0.8675348001796138,
+    "name.txt": 0.14285714285714285
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.8675348001796138,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 0.8675348001796138,
+  "bestMatch": "Miss_purple by 22447f05de70ec4125ed"
+}

@@ -1,0 +1,16 @@
+{
+  "rating": "sfw",
+  "description": "Kanye The Wizard is a character searching for seven clever dwarfs in the Enchanted Forest of Fuckery.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Genre": [
+      "fantasy"
+    ],
+    "Role": [
+      "mage"
+    ]
+  }
+}

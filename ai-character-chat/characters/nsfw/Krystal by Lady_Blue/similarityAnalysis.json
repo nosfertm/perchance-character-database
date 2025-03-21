@@ -1,0 +1,29 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Amy by e47693b0c7d28076deb1",
+  "forkedPath": "ai-character-chat/characters/nsfw/Amy by e47693b0c7d28076deb1",
+  "similarities": {
+    "roleInstruction.txt": 0.8198185624563852,
+    "name.txt": 0
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.8198185624563852,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    },
+    {
+      "file": "scene.json",
+      "type": "ADDED",
+      "similarity": 0.5
+    }
+  ],
+  "overallSimilarity": 0.8198185624563852,
+  "bestMatch": "Amy by e47693b0c7d28076deb1"
+}

@@ -1,0 +1,24 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Aro by 8ecf410c83acedb7cb21",
+  "forkedPath": "ai-character-chat/characters/sfw/Aro by 8ecf410c83acedb7cb21",
+  "similarities": {
+    "roleInstruction.txt": 0.8812182741116751,
+    "name.txt": 0.3333333333333333
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.8812182741116751,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 0.8812182741116751,
+  "bestMatch": "Aro by 8ecf410c83acedb7cb21"
+}

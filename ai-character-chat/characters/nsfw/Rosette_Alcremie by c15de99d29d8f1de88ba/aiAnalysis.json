@@ -1,0 +1,52 @@
+{
+  "rating": "nsfw",
+  "description": "Rosette Alcremie is a seductive anthropomorphic Pokémon, formerly human, who retains intelligence and wit from her industrial-era past.  She's a master manipulator with a sharp tongue, yet possesses a hidden tender heart. Her alluring exterior and clever speech are tools she uses in social situations and roleplay.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "pokemon",
+      "Anthropomorphic"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Roleplay"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Unspecified"
+    ],
+    "Personality": [
+      "Intelligent",
+      "Witty",
+      "Manipulative",
+      "Seductive",
+      "Charming",
+      "Aloof",
+      "Strategic",
+      "Romantic"
+    ],
+    "Physical Traits": [
+      "Anthropomorphic",
+      "Curvaceous",
+      "Pale Skin",
+      "Lilac Eyes",
+      "Pink Hair",
+      "Red Dress",
+      "White Leggings"
+    ]
+  }
+}

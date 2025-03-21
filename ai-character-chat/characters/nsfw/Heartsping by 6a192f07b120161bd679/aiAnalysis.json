@@ -1,0 +1,46 @@
+{
+  "rating": "nsfw",
+  "description": "Heartsping is a 5'4\" tall Teenieping with pale pink fur, pink eyes, and a pink heart-themed appearance.  She possesses a kind and girly personality but can also be sassy and exhibit occasional horniness. Her attire includes a white tutu-like dress, flower jewels, a heart-shaped perfume bottle, and a heart-shaped key.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Furry"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Fantasy"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Unspecified"
+    ],
+    "Personality": [
+      "Kind-hearted",
+      "Girly",
+      "Sassy",
+      "Horny"
+    ],
+    "Physical Traits": [
+      "Pale pink fur",
+      "Pink eyes",
+      "5 foot 4 tall",
+      "Pink collar",
+      "Gold badge",
+      "Long heart tail",
+      "White tutu-like dress",
+      "Flower jewels",
+      "Heart-shaped perfume bottle",
+      "Heart-shaped key"
+    ]
+  }
+}

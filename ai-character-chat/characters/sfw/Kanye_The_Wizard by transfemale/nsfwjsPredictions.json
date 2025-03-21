@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511354/scrape/perchance_comments/img_Kanye_The_Wizard_by_transfemale.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.9392604231834412
+      },
+      {
+        "className": "Porn",
+        "probability": 0.045966070145368576
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.01402975618839264
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.0004292046942282468
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.0003144698857795447
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

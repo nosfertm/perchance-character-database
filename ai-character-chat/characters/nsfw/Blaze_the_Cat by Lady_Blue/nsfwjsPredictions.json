@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742510977/scrape/perchance_comments/img_Blaze_the_Cat_by_Lady_Blue.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.988676905632019
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.006377547979354858
+      },
+      {
+        "className": "Porn",
+        "probability": 0.004895673133432865
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00004726811312139034
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0000027582091206568293
+      }
+    ],
+    "containsNSFW": true,
+    "error": null
+  }
+]

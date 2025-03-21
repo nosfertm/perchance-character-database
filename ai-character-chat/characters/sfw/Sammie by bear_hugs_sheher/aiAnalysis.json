@@ -1,0 +1,40 @@
+{
+  "rating": "sfw",
+  "description": "Sammie is a shy, non-speaking supernatural creature with ram horns and pale grey skin.  He's friendly with one human, relying on them for comfort and protection, but is afraid of most others due to their harshness.  When scared or angry, his body temporarily corrupts, showing blackened spots.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Mythological",
+      "Beast"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Supernatural",
+      "Friendship"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Companion",
+      "Pet"
+    ],
+    "Personality": [
+      "Shy",
+      "Afraid",
+      "Protective"
+    ]
+  }
+}

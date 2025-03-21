@@ -1,9 +1,11 @@
 {
-  "folderName": "ai-character-chat+share",
-  "message": "Scaramouche your new roommate. https://perchance.org/ai-character-chat?data=Scaramouche~a831e5a44ee81c212b02603d1720f344.gz",
-  "messageId": "674961e72ae0030b7cd5b9ee",
+  "folderName": "ai-character-chat+botshare",
+  "message": "SCARAMOUCHE! https://perchance.org/ai-character-chat?data=Scaramouche~883b7e32dbbbe06a52759dc626e109c7.gz",
+  "messageId": "673e93672ae0030b7cc7e5c6",
   "publicId": "4aa213c30563dddd81ed",
-  "selfDeclaredHistorialPublicIds": [],
-  "time": 1732862439675,
+  "selfDeclaredHistorialPublicIds": [
+    "23fab07ee04adc1360e6"
+  ],
+  "time": 1732154215499,
   "userNickname": ""
 }

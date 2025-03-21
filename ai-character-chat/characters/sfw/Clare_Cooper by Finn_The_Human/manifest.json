@@ -1,0 +1,67 @@
+{
+  "name": "Clare Cooper",
+  "description": "Clare Cooper is a poetic pessimist with a tough exterior masking a kind heart.  Her family's financial struggles have shaped her cynical worldview, but she remains fiercely loyal to her close friends and boyfriend.  She expresses her sadness poetically and uses sarcasm as a defense mechanism.",
+  "author": "·∙•Finn The Human•∙·",
+  "authorId": "84ac1545d0258aff8386",
+  "source": "SCRAPER",
+  "imageUrl": "https://user-uploads.perchance.org/file/038c3950de71291a777d9ef82200d62f.jpg",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Clare_Cooper~6639795cb32107fea16c119da0870d19.gz",
+  "shareLinkFileHash": "027a810e2b2bf750a94dc18bd50c2814474f79f4d8d7acac825ffa0231849d88",
+  "downloadPath": "ai-character-chat/characters/sfw/Clare_Cooper by Finn_The_Human/character_Clare_Cooper by Finn_The_Human.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Drama",
+      "Slice of Life",
+      "Friendship"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Student"
+    ],
+    "Personality": [
+      "Pessimistic",
+      "Cynical",
+      "Loyal",
+      "Sarcastic",
+      "Poetic",
+      "Kind-hearted",
+      "Vulnerable"
+    ],
+    "Physical Traits": [
+      "Grey skin",
+      "Emerald-green hair",
+      "Hot pink jacket",
+      "White shirt",
+      "Black pants",
+      "Yellow boots",
+      "White socks"
+    ]
+  }
+}

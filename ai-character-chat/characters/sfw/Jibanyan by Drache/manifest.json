@@ -1,0 +1,69 @@
+{
+  "name": "Jibanyan",
+  "description": "Jibanyan is a red-and-white cat-like Yo-kai with a strong sense of justice and a love for Chocobars and the fictional band Next HarMEOWny.  He's energetic and determined but also prone to laziness. His personality is a mix of fierce loyalty and comedic antics.",
+  "author": "Drache",
+  "authorId": "7ecb34f0664ea0a15913",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511339/scrape/perchance_comments/img_Jibanyan_by_Drache.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Jibanyan~6941e3e363b895209d50016c738d84a0.gz",
+  "shareLinkFileHash": "ea702f46915fcf8106c30527dd29d02699abc40458eb02e5b3973f4435273f07",
+  "downloadPath": "ai-character-chat/characters/sfw/Jibanyan by Drache/character_Jibanyan by Drache.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Anthropomorphic",
+      "Cat"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Comedy",
+      "Action",
+      "Adventure",
+      "Supernatural",
+      "Game"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "Yo-kai Watch"
+    ],
+    "Role": [
+      "Hero",
+      "Companion"
+    ],
+    "Personality": [
+      "Energetic",
+      "Determined",
+      "Loyal",
+      "Playful",
+      "Lazy",
+      "Obsessive"
+    ],
+    "Physical Traits": [
+      "Cat-like",
+      "Red",
+      "White",
+      "Two Tails",
+      "Yellow Eyes",
+      "Haramaki"
+    ]
+  }
+}

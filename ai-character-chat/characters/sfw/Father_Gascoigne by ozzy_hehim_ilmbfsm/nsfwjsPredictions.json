@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/Father-Gascoigne-Bloodborne-Guide.jpg",
+    "fileType": "jpg",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.8931413888931274
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.10003218799829483
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0026614542584866285
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00218278169631958
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.001982237910851836
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

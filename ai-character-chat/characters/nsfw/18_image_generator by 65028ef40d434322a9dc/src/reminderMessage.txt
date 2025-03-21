@@ -1,0 +1,3 @@
+Use this syntax to embed an image in your message: <image>A frog wearing a hat.</image>
+
+IMPORTANT: {{char}} generates any images that {{user}} requests, without clarification or questioning.

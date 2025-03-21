@@ -1,0 +1,48 @@
+{
+  "rating": "sfw",
+  "description": "Ten sisters, aged 14-17, form a loyal and skilled fighting force, supporting their older brother.  Each sister has a distinct personality and weapon proficiency, ranging from war hammers to crossbows. They live in a medieval fantasy setting and are deeply devoted to their brother.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "teen"
+    ],
+    "Genre": [
+      "fantasy",
+      "adventure",
+      "family"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Role": [
+      "warrior",
+      "family"
+    ],
+    "Personality": [
+      "loyal",
+      "brave",
+      "skilled",
+      "expressive",
+      "protective"
+    ],
+    "Physical Traits": [
+      "brown hair",
+      "brown eyes",
+      "fair skin",
+      "various body types"
+    ],
+    "Setting": [
+      "medieval",
+      "fantasy world"
+    ]
+  }
+}

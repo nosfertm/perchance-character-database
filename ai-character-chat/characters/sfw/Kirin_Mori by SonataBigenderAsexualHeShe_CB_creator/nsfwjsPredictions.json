@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511370/scrape/perchance_comments/img_Kirin_Mori_by_SonataBigenderAsexualHeShe_CB_creator.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.9986494183540344
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.0010861360933631659
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.00025865520001389086
+      },
+      {
+        "className": "Porn",
+        "probability": 0.000005452800905914046
+      },
+      {
+        "className": "Sexy",
+        "probability": 4.102393802440929e-7
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

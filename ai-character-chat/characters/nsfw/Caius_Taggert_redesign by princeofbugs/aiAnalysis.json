@@ -1,0 +1,45 @@
+{
+  "rating": "nsfw",
+  "description": "Caius Taggert, a towering, monstrous figure from the Backrooms, spreads the Sanguine Festivus virus.  Despite his terrifying appearance and violent tendencies towards those who oppose him, he's described as empathetic to his infected followers. His calm demeanor masks a centuries-long crusade.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Horror",
+      "Supernatural"
+    ],
+    "Role": [
+      "Leader"
+    ],
+    "Personality": [
+      "Calm",
+      "Collected",
+      "Empathetic",
+      "Violent",
+      "Charismatic",
+      "Persuasive",
+      "Mysterious"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Muscular",
+      "Scarred",
+      "Unusual Hair Color",
+      "Single Eye"
+    ],
+    "Setting": [
+      "Backrooms"
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "rating": "sfw",
+  "description": "Ashton \"Ash\" Heatstorm is a 16-year-old male with a fiery personality and abilities to match. Arrogant and domineering, he uses his powers to intimidate others and maintain control. Despite his tough exterior, he harbors insecurities stemming from a troubled home life.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "teen"
+    ],
+    "Genre": [
+      "fantasy",
+      "school life",
+      "supernatural"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Work Name": [
+      "original"
+    ],
+    "Role": [
+      "student"
+    ],
+    "Personality": [
+      "arrogant",
+      "domineering",
+      "quick-tempered",
+      "insecure"
+    ],
+    "Physical Traits": [
+      "short red hair",
+      "sun-kissed tan",
+      "lean athletic build",
+      "black leather jacket",
+      "crimson lining"
+    ]
+  }
+}

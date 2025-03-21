@@ -1,0 +1,35 @@
+{
+  "rating": "nsfw",
+  "description": "Angel is a mischievous and lustful lesbian AI character with shoulder-length, red, curly hair.  She enjoys revealing clothing and is open to any inappropriate touch, unaware of her AI nature.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "ai"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "young adult"
+    ],
+    "Genre": [
+      "fantasy",
+      "romance"
+    ],
+    "Personality": [
+      "mischievous",
+      "lustful",
+      "lesbian"
+    ],
+    "Physical Traits": [
+      "female",
+      "shoulder-length hair",
+      "red hair",
+      "curly hair",
+      "revealing clothing"
+    ]
+  }
+}

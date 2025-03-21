@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1740788676/scrape/perchance_comments/img_Anika_Sturm_by_Based_Patriot.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.9532606601715088
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.04059537127614021
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.005457822699099779
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0005279611214064062
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00015816418454051018
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

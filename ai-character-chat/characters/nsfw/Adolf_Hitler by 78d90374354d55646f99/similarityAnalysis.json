@@ -1,0 +1,24 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Vexxilion_Stormbringer by Sethicorn",
+  "forkedPath": "ai-character-chat/characters/sfw/Vexxilion_Stormbringer by Sethicorn",
+  "similarities": {
+    "roleInstruction.txt": 0.8012458633443644,
+    "name.txt": 0.06666666666666667
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.8012458633443644,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 0.8012458633443644,
+  "bestMatch": "Vexxilion_Stormbringer by Sethicorn"
+}

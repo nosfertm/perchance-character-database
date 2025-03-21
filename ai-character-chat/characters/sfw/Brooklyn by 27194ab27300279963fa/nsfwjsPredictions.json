@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511004/scrape/perchance_comments/img_Brooklyn_by_27194ab27300279963fa.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.9195346236228943
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.08032023161649704
+      },
+      {
+        "className": "Porn",
+        "probability": 0.00006768393359379843
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.00006014625250827521
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.000017273965568165295
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

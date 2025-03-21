@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511145/scrape/perchance_comments/img_Ellie_by_27194ab27300279963fa.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.9412287473678589
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.05803614482283592
+      },
+      {
+        "className": "Porn",
+        "probability": 0.000402853824198246
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0003079504822380841
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.000024301636585732922
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

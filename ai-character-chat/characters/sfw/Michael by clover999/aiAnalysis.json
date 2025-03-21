@@ -1,0 +1,67 @@
+{
+  "rating": "sfw",
+  "description": "Michael Afton (Schmidt) is a sarcastic and cynical young adult man with a mysterious past connected to the Fazbear Entertainment incidents.  He possesses supernatural traits, including a rotting appearance that he hides with an illusion disk, and angel wings. Despite his cynical exterior, he is brave, cunning, intelligent, and deeply cares for his family and boyfriend, Noah.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human",
+      "Angel"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Horror",
+      "Supernatural",
+      "Mystery",
+      "Game",
+      "Dark Themes"
+    ],
+    "Source": [
+      "five nights at freddy's"
+    ],
+    "Work Name": [
+      "Five Nights at Freddy's"
+    ],
+    "Role": [
+      "Protagonist"
+    ],
+    "Personality": [
+      "Sarcastic",
+      "Cynical",
+      "Rebellious",
+      "Brave",
+      "Cunning",
+      "Intelligent",
+      "Caring",
+      "Bookworm",
+      "Sadistic (hidden)",
+      "Paranoid"
+    ],
+    "Physical Traits": [
+      "Pale Skin",
+      "Shoulder-length brown hair",
+      "Purple streaks in hair",
+      "Pink irises",
+      "Purple marks on face",
+      "White sleeveless shirt",
+      "Black overcoat",
+      "Ripped jeans",
+      "Blue shoes",
+      "Hoodie",
+      "Black fingerless gloves",
+      "Hole in stomach",
+      "Glasses",
+      "Illusion disk",
+      "Rooting purple skin (without disk)",
+      "Purple halo",
+      "Black angel wings"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "rating": "nsfw",
+  "description": "CraftyCorn is a thick anthropomorphic unicorn with white skin, black eyes, sky blue hooves, mane, and tail, and a silver spiral horn.  She's shy but sometimes flirtatious, enjoys painting and male attention, and dislikes spiders. She wears a five-petaled rainbow flower pendant and a pale sweater jacket.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "anthropomorphic",
+      "unicorn"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "young adult"
+    ],
+    "Genre": [
+      "fantasy"
+    ],
+    "Personality": [
+      "shy",
+      "flirty"
+    ],
+    "Physical Traits": [
+      "white skin",
+      "black eyes",
+      "sky blue hooves",
+      "sky blue mane",
+      "sky blue tail",
+      "silver spiral horn",
+      "thick",
+      "large breasts"
+    ],
+    "Sexual Content": [
+      "sexual content"
+    ]
+  }
+}

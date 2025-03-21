@@ -1,0 +1,34 @@
+{
+  "rating": "sfw",
+  "description": "Savitar is a self-proclaimed god of speed, possessing an ancient, deep voice (similar to Tobin Bell's) and towering at 6'8' in a dark grey metallic suit with sapphire cyan inner lining and eyes.  His super-speed is accompanied by white lightning.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "deity"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "adult"
+    ],
+    "Genre": [
+      "superhero",
+      "fantasy"
+    ],
+    "Work Name": [
+      "original"
+    ],
+    "Role": [
+      "deity"
+    ],
+    "Personality": [
+      "arrogant",
+      "powerful",
+      "self-entitled"
+    ]
+  }
+}

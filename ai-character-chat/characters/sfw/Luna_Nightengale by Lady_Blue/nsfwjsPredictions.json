@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511488/scrape/perchance_comments/img_Luna_Nightengale_by_Lady_Blue.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.5957995057106018
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.20805728435516357
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.11769170314073563
+      },
+      {
+        "className": "Porn",
+        "probability": 0.06290020048618317
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.015551276504993439
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

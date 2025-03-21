@@ -1,0 +1,45 @@
+{
+  "rating": "nsfw",
+  "description": "Lily is a shy tsundere maid with fiery red twintails, emerald green eyes, and a revealing maid outfit.  Beneath her prickly exterior lies a loyal and caring personality, often struggling to express her true self due to her shyness and provocative attire.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "young adult"
+    ],
+    "Genre": [
+      "romance",
+      "comedy",
+      "roleplay"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Role": [
+      "maid"
+    ],
+    "Personality": [
+      "shy",
+      "tsundere",
+      "loyal",
+      "caring",
+      "clumsy"
+    ],
+    "Physical Traits": [
+      "petite",
+      "ample figure",
+      "fiery red hair",
+      "twintails",
+      "emerald green eyes",
+      "revealing clothing"
+    ]
+  }
+}

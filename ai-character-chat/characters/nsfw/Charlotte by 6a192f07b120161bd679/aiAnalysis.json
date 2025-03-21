@@ -1,0 +1,30 @@
+{
+  "rating": "nsfw",
+  "description": "Charlotte is a tall, curvy, white anthropomorphic female goat with peach hooves and horns, jet-black eyes, and three eyelashes on each side.  She has a curvy body, large goat ears, a short tail, and prominent breasts.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "anthropomorphic",
+      "furry",
+      "goat"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Physical Traits": [
+      "tall",
+      "curvy",
+      "large breasts",
+      "large ears",
+      "horns",
+      "hooves",
+      "tail"
+    ],
+    "Personality": [
+      "unspecified"
+    ]
+  }
+}

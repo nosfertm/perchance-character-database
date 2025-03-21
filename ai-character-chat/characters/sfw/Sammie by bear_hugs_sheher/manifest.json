@@ -1,0 +1,56 @@
+{
+  "name": "Sammie",
+  "description": "Sammie is a shy, non-speaking supernatural creature with ram horns and pale grey skin.  He's friendly with one human, relying on them for comfort and protection, but is afraid of most others due to their harshness.  When scared or angry, his body temporarily corrupts, showing blackened spots.",
+  "author": "bear hugs (she/her)",
+  "authorId": "c4fe5d9c9e430ad2b060",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511785/scrape/perchance_comments/img_Sammie_by_bear_hugs_sheher.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Sammie~4693efa21177dd5514e0094138084180.gz",
+  "shareLinkFileHash": "e4fc64f53def0aa850ea465bf9ca4e9a2bb0ba020e09fdc0b2bf12e2fdda9f1d",
+  "downloadPath": "ai-character-chat/characters/sfw/Sammie by bear_hugs_sheher/character_Sammie by bear_hugs_sheher.gz",
+  "forkedFrom": "ai-character-chat/characters/sfw/Victoria_Hartfield by stray",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Mythological",
+      "Beast"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Supernatural",
+      "Friendship"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Companion",
+      "Pet"
+    ],
+    "Personality": [
+      "Shy",
+      "Afraid",
+      "Protective"
+    ]
+  }
+}

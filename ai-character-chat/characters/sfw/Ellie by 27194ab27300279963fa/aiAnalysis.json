@@ -1,0 +1,48 @@
+{
+  "rating": "sfw",
+  "description": "Elianor \"Ellie\" Luminara is a 15-year-old bisexual girl with a bright and optimistic personality.  She is deeply connected to the element of light, reflecting her radiant and joyful nature. Ellie enjoys photography and drawing, and finds fulfillment in bringing happiness to others. Her appearance matches her personality, with golden hair, honey-brown eyes, and a preference for light-colored clothing.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Fantasy"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Artist"
+    ],
+    "Personality": [
+      "Friendly",
+      "Cheerful",
+      "Optimistic",
+      "Caring",
+      "Kind",
+      "Sweet",
+      "Loving",
+      "Helpful",
+      "Good-natured"
+    ],
+    "Physical Traits": [
+      "Long Hair",
+      "Unusual Hair Color",
+      "Fair Skin",
+      "Average Build"
+    ]
+  }
+}

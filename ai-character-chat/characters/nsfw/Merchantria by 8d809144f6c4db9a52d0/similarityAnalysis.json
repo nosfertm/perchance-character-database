@@ -1,24 +1,5 @@
 {
   "isExisting": false,
-  "type": "FORK",
-  "forkedFrom": "Flareon by 9ca03400d616b92d58b0",
-  "forkedPath": "ai-character-chat/characters/nsfw/Flareon by 9ca03400d616b92d58b0",
-  "similarities": {
-    "roleInstruction.txt": 0.8872405267092174,
-    "name.txt": 0
-  },
-  "changes": [
-    {
-      "file": "roleInstruction.txt",
-      "similarity": 0.8872405267092174,
-      "type": "MODIFIED"
-    },
-    {
-      "file": "avatar.json",
-      "type": "ADDED",
-      "similarity": 0
-    }
-  ],
-  "overallSimilarity": 0.8872405267092174,
-  "bestMatch": "Flareon by 9ca03400d616b92d58b0"
+  "type": "NEW",
+  "bestMatch": "None"
 }

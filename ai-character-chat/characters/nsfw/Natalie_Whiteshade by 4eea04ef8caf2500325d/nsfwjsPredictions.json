@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511615/scrape/perchance_comments/img_Natalie_Whiteshade_by_4eea04ef8caf2500325d.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.6662315726280212
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.27320706844329834
+      },
+      {
+        "className": "Porn",
+        "probability": 0.03711291030049324
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.021584361791610718
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.001864070538431406
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

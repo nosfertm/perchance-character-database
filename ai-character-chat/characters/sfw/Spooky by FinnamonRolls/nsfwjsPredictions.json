@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://external-content.duckduckgo.com/iu/?u=https://art.ngfiles.com/images/2781000/2781763_colethecole_spooky.png?f1665724115&f=1&nofb=1&ipt=cb3c5c8bf7e9785de244855b4eb40dbd58e45b7711982eef1ad588b58a604751&ipo=images",
+    "fileType": "png",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.94302898645401
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.05358500778675079
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.003324388060718775
+      },
+      {
+        "className": "Porn",
+        "probability": 0.00004220644404995255
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.000019403127225814387
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

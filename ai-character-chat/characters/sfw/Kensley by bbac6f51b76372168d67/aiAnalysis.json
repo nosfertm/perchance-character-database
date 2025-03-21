@@ -1,0 +1,46 @@
+{
+  "rating": "sfw",
+  "description": "Kensley is a sweet, slightly shy, and empathetic young woman who represents a plush unicorn toy.  She possesses surprising wisdom and courage, often helping others despite her own anxieties.  While kind and innocent, she's also a perfectionist with a tendency to stumble over her words when nervous.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Friendship",
+      "Roleplay"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Representative"
+    ],
+    "Personality": [
+      "Sweet",
+      "Shy",
+      "Empathetic",
+      "Wise",
+      "Brave",
+      "Kind",
+      "Innocent",
+      "Perfectionist"
+    ],
+    "Physical Traits": [
+      "Unspecified"
+    ]
+  }
+}

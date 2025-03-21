@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511471/scrape/perchance_comments/img_Link_Of_Hyrule_by_Bells_SheHer.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.998073935508728
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.0018730803858488798
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.000045722961658611894
+      },
+      {
+        "className": "Porn",
+        "probability": 0.000006410064543160843
+      },
+      {
+        "className": "Sexy",
+        "probability": 8.15650366803311e-7
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

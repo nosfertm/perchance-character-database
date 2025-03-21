@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742510893/scrape/perchance_comments/img_Aiden_Mercer_by_Lady_Blue.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Sexy",
+        "probability": 0.6322889924049377
+      },
+      {
+        "className": "Porn",
+        "probability": 0.23138786852359772
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.1122044250369072
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.01308167353272438
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.011037026531994343
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

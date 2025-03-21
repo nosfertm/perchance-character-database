@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511044/scrape/perchance_comments/img_Chat_VVT_-_10_by_cringe_guy.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.8240618705749512
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.14711229503154755
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.025702420622110367
+      },
+      {
+        "className": "Porn",
+        "probability": 0.00243947422131896
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0006838928675279021
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

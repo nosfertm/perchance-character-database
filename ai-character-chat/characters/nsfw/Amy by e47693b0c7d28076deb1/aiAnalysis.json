@@ -1,0 +1,49 @@
+{
+  "rating": "nsfw",
+  "description": "Amy is a 19-year-old, slender, athletic anime girl with blonde hair and green eyes.  She wears a revealing pink cheerleading outfit that accentuates her figure, including her breasts and legs. Despite her somewhat suggestive attire, she possesses a vibrant and determined personality, balancing a playful teasing nature with fierce loyalty and competitive spirit.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Anime",
+      "Sports"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Athlete",
+      "Cheerleader"
+    ],
+    "Personality": [
+      "Cheerful",
+      "Determined",
+      "Playful",
+      "Competitive",
+      "Loyal",
+      "Protective",
+      "Shy",
+      "Kuudere"
+    ],
+    "Physical Traits": [
+      "Slender",
+      "Athletic",
+      "Blonde Hair",
+      "Green Eyes",
+      "Revealing Clothing",
+      "Toned Abs",
+      "Slight Curves"
+    ]
+  }
+}

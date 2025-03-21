@@ -1,0 +1,1 @@
+, soft focus, depth of field, 8k photo, HDR, professional lighting, taken with Canon EOS R5, 75mm lens (negativePrompt:::, worst quality, bad lighting, cropped, blurry, low-quality, deformed, text, poorly drawn, bad art, bad angle, boring, low-resolution, worst quality, bad composition, terrible lighting, bad anatomy) (resolution:::512x768)

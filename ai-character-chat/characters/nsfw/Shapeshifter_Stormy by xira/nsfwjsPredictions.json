@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511834/scrape/perchance_comments/img_Shapeshifter_Stormy_by_xira.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.9581318497657776
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.03319402411580086
+      },
+      {
+        "className": "Porn",
+        "probability": 0.004525086842477322
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.003322334960103035
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0008267559460364282
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

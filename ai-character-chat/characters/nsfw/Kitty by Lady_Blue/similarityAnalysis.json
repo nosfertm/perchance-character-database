@@ -1,0 +1,24 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Tsunade_Senju by e919c124b685b577d5a5",
+  "forkedPath": "ai-character-chat/characters/sfw/Tsunade_Senju by e919c124b685b577d5a5",
+  "similarities": {
+    "roleInstruction.txt": 0.8140849620416734,
+    "name.txt": 0
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.8140849620416734,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 0.8140849620416734,
+  "bestMatch": "Tsunade_Senju by e919c124b685b577d5a5"
+}

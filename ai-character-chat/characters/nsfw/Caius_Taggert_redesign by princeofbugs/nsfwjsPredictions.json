@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511020/scrape/perchance_comments/img_Caius_Taggert_redesign_by_princeofbugs.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.9995589852333069
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.00042934133671224117
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.000008849390724208206
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0000025168069441861007
+      },
+      {
+        "className": "Sexy",
+        "probability": 3.3373021324223373e-7
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742510971/scrape/perchance_comments/img_Bell_by_c548fd2a359ce5f5e293.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.6689885258674622
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.3287343382835388
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0020574277732521296
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.00015698403876740485
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00006266825221246108
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

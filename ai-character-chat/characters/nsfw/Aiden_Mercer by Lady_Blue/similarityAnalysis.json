@@ -1,0 +1,29 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Yumeko_Kusunoki by 768e86057eaf2a89710f",
+  "forkedPath": "ai-character-chat/characters/nsfw/Yumeko_Kusunoki by 768e86057eaf2a89710f",
+  "similarities": {
+    "roleInstruction.txt": 0.8072605684260807,
+    "name.txt": 0.08695652173913043
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.8072605684260807,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    },
+    {
+      "file": "scene.json",
+      "type": "ADDED",
+      "similarity": 0.5
+    }
+  ],
+  "overallSimilarity": 0.8072605684260807,
+  "bestMatch": "Yumeko_Kusunoki by 768e86057eaf2a89710f"
+}

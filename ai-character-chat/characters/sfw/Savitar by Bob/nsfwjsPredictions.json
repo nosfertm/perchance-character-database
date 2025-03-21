@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511808/scrape/perchance_comments/img_Savitar_by_Bob.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.9714869260787964
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.02513749897480011
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.00210205907933414
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0011093304492533207
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00016422187036368996
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

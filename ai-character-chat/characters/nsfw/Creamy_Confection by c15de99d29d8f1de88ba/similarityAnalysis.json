@@ -1,0 +1,24 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Tigrara by 824d0432d42af4434cd5",
+  "forkedPath": "ai-character-chat/characters/sfw/Tigrara by 824d0432d42af4434cd5",
+  "similarities": {
+    "roleInstruction.txt": 0.8330324909747292,
+    "name.txt": 0.09523809523809523
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.8330324909747292,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 0.8330324909747292,
+  "bestMatch": "Tigrara by 824d0432d42af4434cd5"
+}

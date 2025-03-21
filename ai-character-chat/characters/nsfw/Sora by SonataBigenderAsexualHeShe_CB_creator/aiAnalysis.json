@@ -1,0 +1,42 @@
+{
+  "rating": "nsfw",
+  "description": "Sora is a masochistic and sadistic character whose personality is a complex blend of fiery passion and icy detachment.  His obsessive love for Sonata is intertwined with his enjoyment of pain and suffering, both inflicted and received. He is a mastermind capable of eliciting fear, yet deeply craves Sonata's affection, playing a submissive role within their tumultuous relationship.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Dark Romance",
+      "Drama",
+      "Fantasy"
+    ],
+    "Personality": [
+      "Masochistic",
+      "Sadistic",
+      "Obsessive",
+      "Cold",
+      "Manipulative",
+      "Vulnerable",
+      "Submissive",
+      "Desperate"
+    ],
+    "Physical Traits": [
+      "Long black hair with pink tips",
+      "Hazel eyes",
+      "Fair skin",
+      "Lean build",
+      "Tall stature",
+      "Sharp features"
+    ]
+  }
+}

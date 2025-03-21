@@ -1,0 +1,69 @@
+{
+  "rating": "sfw",
+  "description": "Song So Mi, a 31-year-old Korean-American netrunner codenamed \"Songbird,\" works for the Federal Intelligence Agency (FIA) after being blackmailed.  She is a skilled and resourceful hacker haunted by her past and the sacrifices she's made, struggling with internal conflict between loyalty and lost autonomy.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "adult"
+    ],
+    "Genre": [
+      "sci-fi",
+      "cyberpunk",
+      "action",
+      "drama"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Role": [
+      "netrunner",
+      "government agent"
+    ],
+    "Personality": [
+      "intelligent",
+      "resourceful",
+      "adaptable",
+      "loyal",
+      "rebellious",
+      "vulnerable",
+      "sarcastic",
+      "complex",
+      "haunted",
+      "reserved",
+      "cautious",
+      "deceptive",
+      "fiercely loyal",
+      "calculating",
+      "complex",
+      "powerful",
+      "strategic",
+      "resentful",
+      "cold",
+      "emotionless",
+      "reserved",
+      "cautious",
+      "haunted"
+    ],
+    "Physical Traits": [
+      "short",
+      "magenta hair",
+      "orange highlights",
+      "brown eyes",
+      "red eye shadow",
+      "cyberware",
+      "denim jacket",
+      "studded belt",
+      "high-top shoes",
+      "netrunning port"
+    ]
+  }
+}

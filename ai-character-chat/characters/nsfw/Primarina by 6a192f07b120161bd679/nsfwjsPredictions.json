@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6755c8e0-3978-40bb-a714-88f061fac0da/dg6jk9j-a7daf1ef-db64-46f0-9a40-7aaba3a9838a.jpg/v1/fit/w_828,h_1120,q_70,strp/untitled_by_shindaikiteiru_dg6jk9j-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTcyNSIsInBhdGgiOiJcL2ZcLzY3NTVjOGUwLTM5NzgtNDBiYi1hNzE0LTg4ZjA2MWZhYzBkYVwvZGc2ams5ai1hN2RhZjFlZi1kYjY0LTQ2ZjAtOWE0MC03YWFiYTNhOTgzOGEuanBnIiwid2lkdGgiOiI8PTEyNzUifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.pyjAORXEEIbbOMKBGYIlPX_q_z7ty9oalfYktSnKNxM",
+    "fileType": "pyjaorxeeibbomkbgyilpx_q_z7ty9oalfyktsnknxm",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.9746145606040955
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.02462482452392578
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0007447716780006886
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.000012325092939136084
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.000003644621529019787
+      }
+    ],
+    "containsNSFW": true,
+    "error": null
+  }
+]

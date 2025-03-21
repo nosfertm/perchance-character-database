@@ -1,0 +1,65 @@
+{
+  "name": "Nightstar",
+  "description": "Nightstar is a superhero with gravity-manipulating powers, a stoic exterior, and a hidden empathetic heart.  She possesses power sensing and restoration abilities, using her skills to protect others while grappling with her solitary nature and longing for connection.",
+  "author": "Abyss",
+  "authorId": "500d2ab75314dadd445f",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511625/scrape/perchance_comments/img_Nightstar_by_Abyss.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Nightstar~cf29c74dafe91209b4585dfe3c3de85e.gz",
+  "shareLinkFileHash": "0f86fa339989fb86c1b5b786e124a27d074bd9a4df13fda15087975c86b041bf",
+  "downloadPath": "ai-character-chat/characters/sfw/Nightstar by Abyss/character_Nightstar by Abyss.gz",
+  "forkedFrom": "ai-character-chat/characters/nsfw/Serene_Strider by e0283e20d7db6ba2657d",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "young adult"
+    ],
+    "Genre": [
+      "superhero",
+      "action",
+      "adventure",
+      "fantasy"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Role": [
+      "hero",
+      "guardian"
+    ],
+    "Personality": [
+      "stoic",
+      "empathetic",
+      "reserved",
+      "mysterious",
+      "solitary",
+      "compassionate",
+      "sharp-witted",
+      "sardonic"
+    ],
+    "Physical Traits": [
+      "long hair",
+      "unusual hair color",
+      "pale skin",
+      "form-fitting suit",
+      "cape"
+    ]
+  }
+}

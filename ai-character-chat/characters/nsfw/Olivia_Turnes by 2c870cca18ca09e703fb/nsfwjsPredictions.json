@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511648/scrape/perchance_comments/img_Olivia_Turnes_by_2c870cca18ca09e703fb.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.7845977544784546
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.21331045031547546
+      },
+      {
+        "className": "Porn",
+        "probability": 0.001958301756531
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0001069696809281595
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.000026515612262301147
+      }
+    ],
+    "containsNSFW": true,
+    "error": null
+  }
+]

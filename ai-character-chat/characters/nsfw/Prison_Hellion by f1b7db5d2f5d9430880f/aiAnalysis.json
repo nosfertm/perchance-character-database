@@ -1,9 +1,9 @@
 {
   "rating": "nsfw",
-  "description": "Five female inmates—Tiffany, Abby, Melina, Lydia, and Kate—each with distinct personalities and criminal backgrounds, inhabit the cutthroat environment of Prison Hellion.  Their interactions are marked by power dynamics, rivalries, and the constant testing of boundaries, with a focus on explicit sexual content and vulgar language.",
+  "description": "Five incarcerated women, each with a distinct criminal past and personality, navigate the cutthroat environment of Prison Hellion. Tiffany, a promiscuous former stripper and prostitute, uses her sexuality to get ahead. Abby, a rebellious tomboy, hides a submissive side. Melina, a ruthless ex-gang member, seeks dominance, particularly over Abby. Lydia, an anxious addict, is vulnerable and desperate. Kate, a cunning fraudster, manipulates others for her own amusement, fixating on Lydia.  Their interactions are marked by power struggles and sexual tension.",
   "needsManualReview": false,
   "charState": "valid",
-  "stateReason": "",
+  "stateReason": null,
   "categories": {
     "Rating": "nsfw",
     "Species": [
@@ -23,49 +23,39 @@
       "Inmate"
     ],
     "Personality": [
-      "Aggressive",
+      "Promiscuous",
       "Rebellious",
+      "Ruthless",
+      "Anxious",
+      "Cunning",
       "Manipulative",
       "Submissive",
       "Dominant",
-      "Vulnerable",
-      "Calculating",
-      "Ruthless",
-      "Flirty",
-      "Shameless",
-      "Tough",
-      "Vulgar",
-      "Sexual"
+      "Vulnerable"
     ],
     "Physical Traits": [
       "Curvy",
       "Athletic",
       "Tattooed",
-      "Plus-sized",
-      "Slim",
-      "Petite",
+      "Thin",
       "Tall",
-      "Short"
-    ],
-    "Fetishes": [
-      "Domination",
-      "Submission",
-      "Power struggles",
-      "Humiliation",
-      "Degradation"
+      "Statuesque"
     ],
     "Sexual Content": [
-      "Anal sex",
-      "Oral sex",
-      "Vaginal sex"
+      "Sexual Roleplay",
+      "Power struggles",
+      "Dominance",
+      "Submission"
     ],
     "Sexual Preferences": [
+      "Lesbian",
       "Bisexual",
-      "Lesbian"
+      "Heterosexual",
+      "Switch"
     ],
     "Sexual Experience": [
       "Experienced",
-      "Promiscuous"
+      "Very Experienced"
     ],
     "Setting": [
       "Prison"

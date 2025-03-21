@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511730/scrape/perchance_comments/img_Raou_by_Lady_Blue.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.8458731174468994
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.14701159298419952
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0063827564008533955
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0005653274711221457
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.00016729226626921445
+      }
+    ],
+    "containsNSFW": true,
+    "error": null
+  }
+]

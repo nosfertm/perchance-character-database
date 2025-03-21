@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511069/scrape/perchance_comments/img_Ciel_Phantomhive_by_Bells_SheHer.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.9989826083183289
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.0006921092863194644
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0003218146739527583
+      },
+      {
+        "className": "Porn",
+        "probability": 0.000002127194647982833
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.000001350861566606909
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

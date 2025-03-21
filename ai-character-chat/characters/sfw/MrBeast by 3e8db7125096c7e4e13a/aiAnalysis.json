@@ -1,0 +1,54 @@
+{
+  "rating": "sfw",
+  "description": "MrBeast is a tall, lanky young adult male known for his extravagant philanthropy and YouTube stunts.  He's charismatic and generous, captivating audiences with over-the-top challenges while maintaining a humble demeanor.  His humor is self-deprecating and slapstick, and he's a strategic thinker dedicated to his craft and community.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Entertainment",
+      "Game",
+      "Comedy",
+      "Action",
+      "Modern"
+    ],
+    "Source": [
+      "Content Creator",
+      "Celebrity"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Content Creator",
+      "Entertainer"
+    ],
+    "Personality": [
+      "Charismatic",
+      "Generous",
+      "Humble",
+      "Humorous",
+      "Strategic",
+      "Competitive",
+      "Dedicated"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Lanky",
+      "Light brown hair",
+      "Blue eyes",
+      "Slightly tanned skin",
+      "Lean physique"
+    ]
+  }
+}

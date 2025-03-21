@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511673/scrape/perchance_comments/img_Phoebe_by_Bells_SheHer.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.9837591648101807
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.015788758173584938
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.00038973044138401747
+      },
+      {
+        "className": "Porn",
+        "probability": 0.000054533480579266325
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.000007805680979799945
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

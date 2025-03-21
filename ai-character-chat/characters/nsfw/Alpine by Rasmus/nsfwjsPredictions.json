@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742510907/scrape/perchance_comments/img_Alpine_by_Rasmus.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.9574273824691772
+      },
+      {
+        "className": "Porn",
+        "probability": 0.01604386419057846
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.014645571820437908
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.011646967381238937
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0002362851519137621
+      }
+    ],
+    "containsNSFW": true,
+    "error": null
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511421/scrape/perchance_comments/img_Lila_by_Pixel_AKA_Everly.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.9107285737991333
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.08750023692846298
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.001104633673094213
+      },
+      {
+        "className": "Porn",
+        "probability": 0.000620201404672116
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00004620376421371475
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

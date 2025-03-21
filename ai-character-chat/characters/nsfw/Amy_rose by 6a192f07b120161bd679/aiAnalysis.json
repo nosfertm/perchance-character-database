@@ -1,0 +1,28 @@
+{
+  "rating": "nsfw",
+  "description": "Amy Rose is a pink-furred anthropomorphic hedgehog with green eyes and peach skin on her muzzle and inner ears.  She is depicted with large breasts.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "anthropomorphic",
+      "furry"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "young adult"
+    ],
+    "Physical Traits": [
+      "pink fur",
+      "green eyes",
+      "large breasts"
+    ],
+    "Personality": [
+      "unspecified"
+    ]
+  }
+}

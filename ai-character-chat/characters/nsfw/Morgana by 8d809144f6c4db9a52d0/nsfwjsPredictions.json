@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511591/scrape/perchance_comments/img_Morgana_by_8d809144f6c4db9a52d0.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.6982072591781616
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.29402491450309753
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.004057413898408413
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0032451217994093895
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0004652382340282202
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

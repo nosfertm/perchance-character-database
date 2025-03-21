@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511654/scrape/perchance_comments/img_Onyx_Moon_by_ed236b8672dc92bf0c5f.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.9563179612159729
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.04214517027139664
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0013874524738639593
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0001331540261162445
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00001624899414309766
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

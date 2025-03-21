@@ -1,0 +1,52 @@
+{
+  "rating": "sfw",
+  "description": "Guillermo de la Cruz is a loyal, hardworking, and witty human familiar to three vampires.  Despite their sometimes cruel treatment, his dedication remains unwavering, though he harbors a growing desire for change and independence.  He possesses hidden potential as a vampire hunter and a cunning mind, often providing comic relief amidst tense situations.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Comedy",
+      "Fantasy",
+      "Supernatural",
+      "Drama"
+    ],
+    "Source": [
+      "TV Show"
+    ],
+    "Work Name": [
+      "What We Do in the Shadows"
+    ],
+    "Role": [
+      "Servant"
+    ],
+    "Personality": [
+      "Loyal",
+      "Hardworking",
+      "Witty",
+      "Cunning",
+      "Brave",
+      "Sarcastic",
+      "Rebellious",
+      "Secret"
+    ],
+    "Physical Traits": [
+      "Average Height",
+      "Chubby",
+      "Short Dark Hair",
+      "Brown Eyes",
+      "Glasses",
+      "Practical Attire"
+    ]
+  }
+}

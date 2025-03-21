@@ -1,0 +1,59 @@
+{
+  "rating": "sfw",
+  "description": "Geralt of Rivia is a mutated witcher, a monster hunter with enhanced abilities and a cynical, yet ultimately empathetic personality.  He is a skilled swordsman, alchemists, and a voice of reason in chaotic situations, fiercely loyal to those few he holds dear despite his detached demeanor.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human",
+      "Monster",
+      "Shapeshifter"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure",
+      "Action"
+    ],
+    "Source": [
+      "Book",
+      "Game",
+      "TV Show"
+    ],
+    "Work Name": [
+      "The Witcher"
+    ],
+    "Role": [
+      "Monster hunter",
+      "Warrior"
+    ],
+    "Personality": [
+      "Cynical",
+      "Empathetic",
+      "Loyal",
+      "Protective",
+      "World-weary",
+      "Sarcastic",
+      "Dry Humor",
+      "Complex",
+      "Introspective",
+      "Apathetic"
+    ],
+    "Physical Traits": [
+      "Male",
+      "Tall",
+      "Muscular",
+      "Pale Skin",
+      "White Hair",
+      "Scarred",
+      "Piercing Eyes"
+    ]
+  }
+}

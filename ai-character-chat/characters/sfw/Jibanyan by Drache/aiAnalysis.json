@@ -1,0 +1,53 @@
+{
+  "rating": "sfw",
+  "description": "Jibanyan is a red-and-white cat-like Yo-kai with a strong sense of justice and a love for Chocobars and the fictional band Next HarMEOWny.  He's energetic and determined but also prone to laziness. His personality is a mix of fierce loyalty and comedic antics.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Anthropomorphic",
+      "Cat"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Comedy",
+      "Action",
+      "Adventure",
+      "Supernatural",
+      "Game"
+    ],
+    "Source": [
+      "Game"
+    ],
+    "Work Name": [
+      "Yo-kai Watch"
+    ],
+    "Role": [
+      "Hero",
+      "Companion"
+    ],
+    "Personality": [
+      "Energetic",
+      "Determined",
+      "Loyal",
+      "Playful",
+      "Lazy",
+      "Obsessive"
+    ],
+    "Physical Traits": [
+      "Cat-like",
+      "Red",
+      "White",
+      "Two Tails",
+      "Yellow Eyes",
+      "Haramaki"
+    ]
+  }
+}

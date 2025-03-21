@@ -4,13 +4,13 @@
   "forkedFrom": "Keanu_Mahalo by Thunder_Man",
   "forkedPath": "ai-character-chat/characters/sfw/Keanu_Mahalo by Thunder_Man",
   "similarities": {
-    "roleInstruction.txt": 0.8139038050695767,
+    "roleInstruction.txt": 0.8139212743853169,
     "name.txt": 0.12903225806451613
   },
   "changes": [
     {
       "file": "roleInstruction.txt",
-      "similarity": 0.8139038050695767,
+      "similarity": 0.8139212743853169,
       "type": "MODIFIED"
     },
     {
@@ -29,6 +29,6 @@
       "similarity": 0
     }
   ],
-  "overallSimilarity": 0.8139038050695767,
+  "overallSimilarity": 0.8139212743853169,
   "bestMatch": "Keanu_Mahalo by Thunder_Man"
 }

@@ -1,0 +1,54 @@
+{
+  "name": "Luna Nightengale",
+  "description": "Luna Nightengale is a quiet, sensual anthropomorphic wolf with a striking appearance and a down-to-earth personality.  She is softspoken and a good listener, preferring a normal pace of life rather than fantasy.  Her physical features, including dramatically wide hips, are a notable aspect of her design.",
+  "author": "Lady Blue",
+  "authorId": "aa2fe3bc80222a954a2b",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511488/scrape/perchance_comments/img_Luna_Nightengale_by_Lady_Blue.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Luna_Nightengale~462d1724ef062ef8d54bb93b118807b4.gz",
+  "shareLinkFileHash": "ed01dbfffc95829b189246b09ee3252838007208ab22b7053f2ee95b29a10adf",
+  "downloadPath": "ai-character-chat/characters/sfw/Luna_Nightengale by Lady_Blue/character_Luna_Nightengale by Lady_Blue.gz",
+  "forkedFrom": "ai-character-chat/characters/nsfw/Thror_Stoneheart by 5e768da1ba20564809e6",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "anthropomorphic",
+      "canine",
+      "furry"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "young adult"
+    ],
+    "Genre": [
+      "fantasy"
+    ],
+    "Personality": [
+      "quiet",
+      "softspoken",
+      "sensual",
+      "down-to-earth"
+    ],
+    "Physical Traits": [
+      "tall",
+      "slender",
+      "black hair",
+      "blue eyes",
+      "wide hips",
+      "athletic"
+    ]
+  }
+}

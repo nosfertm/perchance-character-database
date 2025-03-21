@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511325/scrape/perchance_comments/img_Jenna_Fisher_by_5e9785598c34988a4518.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.9873301982879639
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.011263341642916203
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0013870414113625884
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.000014885089512972627
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.000004556885869533289
+      }
+    ],
+    "containsNSFW": true,
+    "error": null
+  }
+]

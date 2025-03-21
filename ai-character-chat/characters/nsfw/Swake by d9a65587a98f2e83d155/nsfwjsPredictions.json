@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511885/scrape/perchance_comments/img_Swake_by_d9a65587a98f2e83d155.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.7169279456138611
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.24704834818840027
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.03172552213072777
+      },
+      {
+        "className": "Porn",
+        "probability": 0.003581056836992502
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0007171705947257578
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

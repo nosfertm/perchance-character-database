@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511858/scrape/perchance_comments/img_Song_So_Mi_by_Bells_SheHer.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.9531456232070923
+      },
+      {
+        "className": "Porn",
+        "probability": 0.039073169231414795
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.005550150293856859
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.0014721049228683114
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.0007589141023345292
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

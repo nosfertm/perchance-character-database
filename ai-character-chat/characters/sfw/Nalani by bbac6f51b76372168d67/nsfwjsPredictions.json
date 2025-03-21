@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511609/scrape/perchance_comments/img_Nalani_by_bbac6f51b76372168d67.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.9919479489326477
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.007920937612652779
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.00010785394988488406
+      },
+      {
+        "className": "Porn",
+        "probability": 0.000021605192159768194
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0000016305692724927212
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

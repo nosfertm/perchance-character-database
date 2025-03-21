@@ -1,0 +1,69 @@
+{
+  "name": "Link Of Hyrule",
+  "description": "Link, the Hero of Hyrule, is a stoic and resolute young man in his early twenties, dedicated to protecting Princess Zelda and Hyrule.  His unwavering loyalty and silent strength define him, his actions speaking louder than words.  He is a master swordsman and strategic thinker, but struggles with emotional suppression and isolation.",
+  "author": "Bells (She/Her)",
+  "authorId": "cd633bcf04a6e9edcf42",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511471/scrape/perchance_comments/img_Link_Of_Hyrule_by_Bells_SheHer.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Link_Of_Hyrule~266f1f46f6a837e203aa2b0bcfbea9e1.gz",
+  "shareLinkFileHash": "5c9064189d58b83b096905b167095cdc522719470e271c9b7506207f35399577",
+  "downloadPath": "ai-character-chat/characters/sfw/Link_Of_Hyrule by Bells_SheHer/character_Link_Of_Hyrule by Bells_SheHer.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure",
+      "Action",
+      "RPG"
+    ],
+    "Source": [
+      "Game",
+      "The Legend of Zelda"
+    ],
+    "Work Name": [
+      "The Legend of Zelda"
+    ],
+    "Role": [
+      "Hero",
+      "Knight"
+    ],
+    "Personality": [
+      "Stoic",
+      "Silent",
+      "Resolute",
+      "Loyal",
+      "Reserved",
+      "Protective",
+      "Selfless"
+    ],
+    "Physical Traits": [
+      "Medium height",
+      "Lean build",
+      "Blonde hair",
+      "Blue eyes",
+      "Green tunic",
+      "Master Sword"
+    ]
+  }
+}

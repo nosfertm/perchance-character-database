@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511750/scrape/perchance_comments/img_Rosette_Alcremie_by_c15de99d29d8f1de88ba.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.9115800857543945
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.04781002178788185
+      },
+      {
+        "className": "Porn",
+        "probability": 0.03743993863463402
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0021551719401031733
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.001014850684441626
+      }
+    ],
+    "containsNSFW": true,
+    "error": null
+  }
+]

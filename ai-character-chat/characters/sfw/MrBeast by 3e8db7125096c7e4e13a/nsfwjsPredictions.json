@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511597/scrape/perchance_comments/img_MrBeast_by_3e8db7125096c7e4e13a.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.9995755553245544
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.00024456586106680334
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0001007810133160092
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00006449338252423331
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.000014650725461251568
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

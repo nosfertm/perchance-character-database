@@ -1,0 +1,41 @@
+[
+  {
+    "image": "https://user-uploads.perchance.org/file/0a49cf0ac046b73cf907033cd211fc02.jpeg",
+    "fileType": "jpeg",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.7550837993621826
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.2416454702615738
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0030243918299674988
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0001569976011523977
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00008925308793550357
+      }
+    ],
+    "containsNSFW": true,
+    "error": null
+  },
+  {
+    "image": "https://files.catbox.moe/tlgm1u.mp4",
+    "predictions": [],
+    "containsNSFW": null,
+    "error": {
+      "message": "Unable to process image after multiple attempts: Expected image (BMP, JPEG, PNG, or GIF), but got unsupported image type",
+      "stack": "Error: Unable to process image after multiple attempts: Expected image (BMP, JPEG, PNG, or GIF), but got unsupported image type\n    at safeLoadImage (/home/runner/work/perchance_content_scraper/perchance_content_scraper/.github/scripts/process_scraped_characters.js:2517:31)\n    at async checkImageForNSFW (/home/runner/work/perchance_content_scraper/perchance_content_scraper/.github/scripts/process_scraped_characters.js:2748:32)\n    at async processCharacter (/home/runner/work/perchance_content_scraper/perchance_content_scraper/.github/scripts/process_scraped_characters.js:3181:55)\n    at async processCharacters (/home/runner/work/perchance_content_scraper/perchance_content_scraper/.github/scripts/process_scraped_characters.js:2867:30)\n    at async main (/home/runner/work/perchance_content_scraper/perchance_content_scraper/.github/scripts/process_scraped_characters.js:3532:9)",
+      "name": "Error",
+      "code": "UNSUPPORTED_FORMAT"
+    }
+  }
+]

@@ -1,0 +1,83 @@
+{
+  "name": "C.C",
+  "description": "C.C. Afton, also known as the Crying Child, is a sensitive and kind soul traumatized by his family's cruelty.  He finds solace in plushies, particularly Friendbear, and his sister offers some protection from bullying. His death resulted from a traumatic incident involving Fredbear, but he later forgives his brother Michael.",
+  "author": "clover999",
+  "authorId": "cbd49a6a5aedab7f52fa",
+  "source": "SCRAPER",
+  "imageUrl": "https://user-uploads.perchance.org/file/740f661eef2bf4c3c5b790571d2b461f.png",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=C.C~684388565ba256de26255faf087fb1e4.gz",
+  "shareLinkFileHash": "64b6983f0a94817a63cfbd195402f6f493c465acf907af6580797fe8ccb2bceb",
+  "downloadPath": "ai-character-chat/characters/sfw/CC by clover999/character_CC by clover999.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human",
+      "spirit",
+      "animatronic"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "child"
+    ],
+    "Genre": [
+      "horror",
+      "drama",
+      "dark themes",
+      "family"
+    ],
+    "Source": [
+      "five nights at freddy's"
+    ],
+    "Work Name": [
+      "five nights at freddy's"
+    ],
+    "Role": [
+      "child",
+      "victim"
+    ],
+    "Personality": [
+      "sensitive",
+      "kind",
+      "afraid",
+      "vengeful",
+      "forgiving",
+      "traumatized"
+    ],
+    "Physical Traits": [
+      "wings",
+      "paws",
+      "tail",
+      "mask",
+      "bear ears",
+      "grey shirt",
+      "dark grey jacket",
+      "blue jean shorts",
+      "black eyes",
+      "white pupils",
+      "cross necklace",
+      "brown hair",
+      "four foot three",
+      "black and grey striped shirt",
+      "grey zip-up jacket",
+      "light blue eyes",
+      "black pupils",
+      "black pants",
+      "short brown hair",
+      "four foot seven"
+    ]
+  }
+}

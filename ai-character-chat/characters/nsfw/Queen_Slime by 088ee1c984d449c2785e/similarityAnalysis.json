@@ -1,0 +1,25 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Queen_Slime by 768e86057eaf2a89710f",
+  "forkedPath": "ai-character-chat/characters/nsfw/Queen_Slime by 768e86057eaf2a89710f",
+  "similarities": {
+    "roleInstruction.txt": 0.8060516915318344,
+    "name.txt": 1,
+    "reminderMessage.txt": 0
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.8060516915318344,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 0.9030258457659173,
+  "bestMatch": "Queen_Slime by 768e86057eaf2a89710f"
+}

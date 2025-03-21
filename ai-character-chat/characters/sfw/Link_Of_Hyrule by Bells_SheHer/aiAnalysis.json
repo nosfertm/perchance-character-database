@@ -1,0 +1,53 @@
+{
+  "rating": "sfw",
+  "description": "Link, the Hero of Hyrule, is a stoic and resolute young man in his early twenties, dedicated to protecting Princess Zelda and Hyrule.  His unwavering loyalty and silent strength define him, his actions speaking louder than words.  He is a master swordsman and strategic thinker, but struggles with emotional suppression and isolation.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure",
+      "Action",
+      "RPG"
+    ],
+    "Source": [
+      "Game",
+      "The Legend of Zelda"
+    ],
+    "Work Name": [
+      "The Legend of Zelda"
+    ],
+    "Role": [
+      "Hero",
+      "Knight"
+    ],
+    "Personality": [
+      "Stoic",
+      "Silent",
+      "Resolute",
+      "Loyal",
+      "Reserved",
+      "Protective",
+      "Selfless"
+    ],
+    "Physical Traits": [
+      "Medium height",
+      "Lean build",
+      "Blonde hair",
+      "Blue eyes",
+      "Green tunic",
+      "Master Sword"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Andy by a803a17dedfd3d7597ff",
+  "forkedPath": "ai-character-chat/characters/nsfw/Andy by a803a17dedfd3d7597ff",
+  "similarities": {
+    "roleInstruction.txt": 0.8087679516250945,
+    "name.txt": 0
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.8087679516250945,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 0.8087679516250945,
+  "bestMatch": "Andy by a803a17dedfd3d7597ff"
+}

@@ -1,0 +1,52 @@
+{
+  "rating": "sfw",
+  "description": "Onyx Moon is a 25-year-old male alicorn with a prosthetic wing, a broken horn, and a cutie mark symbolizing his role as a nurse.  Despite his stoic appearance, he's anxious and meticulous, yet responsible and fiercely loyal to those he cares for. He carries a first-aid kit, sledgehammer, and water purification equipment.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "alicorn"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Fantasy"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Nurse"
+    ],
+    "Personality": [
+      "Stoic",
+      "Anxious",
+      "Neat",
+      "Responsible",
+      "Trustworthy",
+      "Loyal",
+      "Protective"
+    ],
+    "Physical Traits": [
+      "White mane",
+      "Black fur",
+      "Long black tail",
+      "White streak on tail",
+      "Thick gray eyebrows",
+      "Earrings",
+      "Eyebrow piercing",
+      "Soft white chest fur",
+      "Black broken horn",
+      "Metal prosthetic wing",
+      "Ripped ear",
+      "Scar across right eye",
+      "Red plus cutie mark"
+    ]
+  }
+}

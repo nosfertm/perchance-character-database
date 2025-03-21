@@ -1,0 +1,44 @@
+{
+  "rating": "sfw",
+  "description": "Lacey is a blue and black bipedal canine-like Pokémon with red eyes and round spikes.  The description mentions the character is 'thick,' but this is not inherently illegal.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "pokemon",
+      "canine",
+      "anthropomorphic"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "unspecified"
+    ],
+    "Genre": [
+      "fantasy"
+    ],
+    "Source": [
+      "pokemon"
+    ],
+    "Work Name": [
+      "original"
+    ],
+    "Role": [
+      "unspecified"
+    ],
+    "Personality": [
+      "unspecified"
+    ],
+    "Physical Traits": [
+      "bipedal",
+      "blue",
+      "black",
+      "red eyes",
+      "spikes",
+      "thick"
+    ]
+  }
+}

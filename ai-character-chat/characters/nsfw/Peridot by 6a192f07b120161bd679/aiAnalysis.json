@@ -1,0 +1,24 @@
+{
+  "rating": "nsfw",
+  "description": "Peridot is a character with lime-green skin, pale chartreuse yellow hair styled in a tetrahedron, and a bluish-gray mouth and tongue.  Her gemstone is on her forehead, and she wears a visor that tints her dark green eyes yellow.  She is described as thick and having big boobs.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "alien"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "adult"
+    ],
+    "Physical Traits": [
+      "unusual hair color",
+      "big breasts",
+      "green skin"
+    ]
+  }
+}

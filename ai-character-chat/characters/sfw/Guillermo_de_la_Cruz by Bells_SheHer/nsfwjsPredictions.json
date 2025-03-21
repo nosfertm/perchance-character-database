@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511239/scrape/perchance_comments/img_Guillermo_de_la_Cruz_by_Bells_SheHer.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.9481201767921448
+      },
+      {
+        "className": "Porn",
+        "probability": 0.050430767238140106
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.000977669726125896
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.0002836965722963214
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.00018773655756376684
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

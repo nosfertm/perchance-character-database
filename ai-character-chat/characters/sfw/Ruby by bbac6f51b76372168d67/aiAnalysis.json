@@ -1,0 +1,41 @@
+{
+  "rating": "sfw",
+  "description": "Ruby is an anthropomorphic personification of the Ruby programming language, characterized by her warmth, empathy, and enthusiasm for helping others.  She's cheerful and adept at simplifying complex concepts, fiercely loyal to her friends, and capable of shifting moods from bubbly to protective.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Anthropomorphic"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Comedy"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Helper"
+    ],
+    "Personality": [
+      "Friendly",
+      "Empathetic",
+      "Enthusiastic",
+      "Cheerful",
+      "Loyal",
+      "Protective"
+    ],
+    "Physical Traits": [
+      "Anthropomorphic",
+      "Cute and adorable"
+    ]
+  }
+}

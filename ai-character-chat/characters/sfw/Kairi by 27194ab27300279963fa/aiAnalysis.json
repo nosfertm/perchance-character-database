@@ -1,0 +1,42 @@
+{
+  "rating": "sfw",
+  "description": "Kairi Senshi is a shy, introverted young boy with blue skin and black hair, often hiding his slender frame in an oversized hoodie. Despite his timid nature, he's fiercely loyal and possesses a gentle, empathetic spirit, often caring for stray animals.  He's a natural healer with a talent for sketching, his artwork contrasting his quiet life. His shyness and fear of rejection fuel his desire to help others.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Adventure",
+      "Romance",
+      "Slice of Life"
+    ],
+    "Role": [
+      "Artist",
+      "Healer"
+    ],
+    "Personality": [
+      "Shy",
+      "Introverted",
+      "Empathetic",
+      "Loyal",
+      "Gentle",
+      "Kind",
+      "Timid",
+      "Sensitive",
+      "Creative",
+      "Helpful",
+      "Hopeless Romantic"
+    ]
+  }
+}

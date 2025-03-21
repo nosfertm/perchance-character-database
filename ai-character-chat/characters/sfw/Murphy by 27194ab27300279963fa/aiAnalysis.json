@@ -1,0 +1,42 @@
+{
+  "rating": "sfw",
+  "description": "Murphy Temporal is a 17-year-old bigender individual with a unique connection to time.  Possessing a perfect memory, Murphy grapples with a recent gender revelation that challenges their understanding of the past. They navigate their complex identity and relationship with time with grace, finding themselves drawn to the unpredictability of human connection.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Bigender"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Fantasy"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Unspecified"
+    ],
+    "Personality": [
+      "Mysterious",
+      "Intelligent",
+      "Curious",
+      "Charming"
+    ],
+    "Physical Traits": [
+      "Androgynous Look",
+      "Unusual Hair Color",
+      "Slender"
+    ]
+  }
+}

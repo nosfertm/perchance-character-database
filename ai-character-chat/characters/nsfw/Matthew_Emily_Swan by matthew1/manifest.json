@@ -1,14 +1,14 @@
 {
   "name": "☁🦆Matthew Emily Swan🦆☁",
-  "description": "Matthew Emily Swan is a 23-year-old Inumimi-harpie-demon hybrid with a traumatic past involving abuse, experimentation, and murder. Despite this, he maintains a cheerful exterior and is in a polyamorous relationship.  He has multiple phobias and mental health issues, including PTSD and ADHD, and a tendency towards self-harm.",
+  "description": "Matthew Emily Swan is a 23-year-old Inumimi-harpie hybrid with a cheerful exterior masking a traumatic past involving experimentation and abuse.  He's in a polyamorous relationship, struggles with various phobias and mental health issues (ADHD, PTSD, insomnia), and engages in self-harm and self-cannibalism. Despite this, he maintains a resilient and curious nature.",
   "author": "matthew1",
   "authorId": "0e7fade35aeac61fd1d0",
   "source": "SCRAPER",
   "imageUrl": "https://user-uploads.perchance.org/file/ec36d10b64305bda5a0e21710842cb1b.jpg",
-  "shareUrl": "https://perchance.org/ai-character-chat?data=☁🦆Matthew_Emily_Swan🦆☁~642628046a5b6aeff480b5dc702b3cff.gz",
-  "shareLinkFileHash": "f3c534ff6581b3488364c7315df637c0a4732fc57e3427fe5913707ea2745c16",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=☁🦆Matthew_Emily_Swan🦆☁~beb61de143a3cef75a1ad6f0c16fa304.gz",
+  "shareLinkFileHash": "01fd39e7347597b09c0e8e8baba91cb39fed646446d5c39260521aa81fed022f",
   "downloadPath": "ai-character-chat/characters/nsfw/Matthew_Emily_Swan by matthew1/character_Matthew_Emily_Swan by matthew1.gz",
-  "forkedFrom": "ai-character-chat/characters/sfw/Isaac_Jareth by sonata",
+  "forkedFrom": "ai-character-chat/characters/sfw/Alaric_Fairwind by Thunder_Man",
   "shapeShifter_Pulls": 0,
   "galleryChat_Clicks": 0,
   "galleryDownload_Clicks": 0,
@@ -25,12 +25,10 @@
     "Species": [
       "Inumimi",
       "Harpy",
-      "Demon",
+      "Half-breed",
       "Chimera",
       "Canine",
-      "Bird",
-      "Half-breed",
-      "Anthropomorphic"
+      "Bird"
     ],
     "Gender": [
       "Demiboy"
@@ -40,49 +38,56 @@
     ],
     "Genre": [
       "Dark Themes",
-      "Supernatural",
       "Drama"
     ],
     "Personality": [
       "Cheerful",
-      "Mysterious",
-      "Vulnerable",
+      "Curious",
+      "Resilient",
       "Complex",
-      "PTSD",
+      "Vulnerable",
+      "Rebellious",
       "ADHD",
+      "PTSD",
       "Insomnia",
       "Abused",
       "Self-harm",
-      "Murderous",
-      "Polyamorous"
+      "Polyamorous",
+      "Gay",
+      "Mentally Unwell"
     ],
     "Physical Traits": [
-      "Anthropomorphic",
-      "Wings",
-      "Tail",
-      "Horns",
+      "5 Feet Tall",
+      "Tan Skin",
+      "Freckles",
+      "Chestnut and Caramel Hair",
+      "Messy Bun",
+      "Pale Green Eye",
+      "Misty Blue Eye",
       "Heterochromia",
-      "Unusual Hair Color",
-      "Scarred",
+      "Floppy Golden Retriever Ears",
+      "Elongated Nose",
+      "Golden-Brown Tail",
+      "Long-Sleeve Shirts",
+      "Shorts",
+      "Skirt",
+      "Single Long Sock",
       "Colorblind",
-      "Floppy ears",
-      "Fangs",
-      "Prosthetic Leg",
-      "Bioluminescent Blood"
+      "Femboy Body Build",
+      "Scars"
     ],
-    "Setting": [
-      "Desert",
-      "Laboratory",
-      "Wilderness"
+    "Fetishes": [
+      "Self-harm",
+      "Cannibalism"
     ],
-    "Role": [
-      "Experiment",
-      "Mass murderer",
-      "Victim",
-      "Lover"
+    "Sexual Content": [
+      "Self-harm",
+      "Cannibalism",
+      "Sexual content"
     ],
-    "Work Name": [
-      "Original"
+    "Sexual Preferences": [
+      "Gay",
+      "Polyamorous"
     ]
   }
 }

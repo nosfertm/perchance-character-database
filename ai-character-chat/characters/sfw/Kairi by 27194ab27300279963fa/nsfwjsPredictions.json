@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511350/scrape/perchance_comments/img_Kairi_by_27194ab27300279963fa.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.988878071308136
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.010799268260598183
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.00029300799360498786
+      },
+      {
+        "className": "Porn",
+        "probability": 0.000026675385015551
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.000002991032033605734
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

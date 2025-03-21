@@ -1,0 +1,37 @@
+{
+  "rating": "nsfw",
+  "description": "Rabbot is a robot rabbit, similar in appearance to a Bunny Malino, with green pupils, a cat-like mouth, and a curvy figure.  She's 5'3.5\" tall and has a personality that is sometimes horny, sometimes sassy, but also nice and sweet.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "robot",
+      "anthropomorphic",
+      "rabbit"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "young adult"
+    ],
+    "Genre": [
+      "fantasy"
+    ],
+    "Personality": [
+      "horny",
+      "nice",
+      "sassy",
+      "sweet"
+    ],
+    "Physical Traits": [
+      "5 feet 3.5 inches tall",
+      "curvy",
+      "green pupils",
+      "cat-like mouth",
+      "thick"
+    ]
+  }
+}

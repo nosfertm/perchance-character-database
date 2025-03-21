@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511764/scrape/perchance_comments/img_Sabrina_Castro_by_0wlbether3.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.58901047706604
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.3580591678619385
+      },
+      {
+        "className": "Porn",
+        "probability": 0.05185215175151825
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.0006442272569984198
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.00043404923053458333
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

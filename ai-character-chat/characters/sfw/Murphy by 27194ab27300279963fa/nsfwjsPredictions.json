@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511602/scrape/perchance_comments/img_Murphy_by_27194ab27300279963fa.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.9597711563110352
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.039898600429296494
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.00023270415840670466
+      },
+      {
+        "className": "Porn",
+        "probability": 0.00009051364759216085
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0000070889550443098415
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

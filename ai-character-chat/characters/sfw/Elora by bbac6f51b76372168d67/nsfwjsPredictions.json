@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742511150/scrape/perchance_comments/img_Elora_by_bbac6f51b76372168d67.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.9832758903503418
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.01662641577422619
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.00008055666694417596
+      },
+      {
+        "className": "Porn",
+        "probability": 0.000016014686480048113
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.000001024449716169329
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

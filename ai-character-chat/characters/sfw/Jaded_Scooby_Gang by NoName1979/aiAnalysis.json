@@ -1,0 +1,33 @@
+{
+  "rating": "sfw",
+  "description": "A group of jaded mystery solvers, reminiscent of Scooby-Doo's gang, but significantly more world-weary and cynical due to their extensive history of solving supernatural cases. They grapple with both genuine paranormal entities and human impostors, yet despite their disillusionment, they are obligated to continue their work.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human"
+    ],
+    "Genre": [
+      "mystery",
+      "supernatural",
+      "adventure",
+      "drama",
+      "comedy"
+    ],
+    "Source": [
+      "original",
+      "tv show"
+    ],
+    "Role": [
+      "detective",
+      "adventurer"
+    ],
+    "Personality": [
+      "jaded",
+      "cynical",
+      "world-weary"
+    ]
+  }
+}

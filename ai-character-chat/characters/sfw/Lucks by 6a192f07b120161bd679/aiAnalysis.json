@@ -1,0 +1,44 @@
+{
+  "rating": "sfw",
+  "description": "Lucks is a thick, anthropomorphic femboy grey bunny with brown spots on his legs, tail, and ears. He wears a pink outfit consisting of leg wear, socks with pink and white stripes, a top, a skirt, a bow, and long pink fingerless gloves with white stripes. One of his eyes is purple, and the other is blue.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "anthropomorphic",
+      "rabbit"
+    ],
+    "Gender": [
+      "male",
+      "femboy"
+    ],
+    "Age Group": [
+      "unspecified"
+    ],
+    "Genre": [
+      "fantasy"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Work Name": [
+      "original"
+    ],
+    "Role": [
+      "unspecified"
+    ],
+    "Personality": [
+      "unspecified"
+    ],
+    "Physical Traits": [
+      "anthropomorphic",
+      "fluffy",
+      "unusual hair color",
+      "heterochromia",
+      "tail",
+      "pointed ears"
+    ]
+  }
+}
