@@ -35,7 +35,8 @@ document.addEventListener('DOMContentLoaded', async () => {
                 isDarkMode: localStorage.getItem('siteTheme') === 'dark',
                 currentTheme: localStorage.getItem('siteTheme') === 'dark',
                 user: '',
-                loading: ''
+                loading: '',
+                profile: ''
             };
         },
         methods: {
@@ -72,9 +73,10 @@ document.addEventListener('DOMContentLoaded', async () => {
     app.component('navbar-component', {
         template: navbarTemplate,
         inject: ['site', 'themeIcon', 'setTheme'],
-        props: ['user', 'isDarkMode', 'loading'],
-        // Spread all properties from the imported component
-        ...LoginModalComponent
+        props: ['user', 'isDarkMode', 'loading', 'profile'],
+        methods: {
+            signOut: LoginModalComponent.methods.signOut
+        }
     });
 
     // Register the footer component

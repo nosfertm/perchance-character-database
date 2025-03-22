@@ -4,14 +4,16 @@
     --text-primary: #000000;
     --bg-secondary: #f4f4f4;
     --accent-color: #007bff;
+    --text-muted: #929292;
 }
 
 /* Dark theme color scheme */
 .dark-theme {
     --bg-primary: #121212;
-    --text-primary: #ffffff;
+    --text-primary: #d3d3d3;
     --bg-secondary: #1e1e1e;
     --accent-color: #3f9fff;
+    --text-muted: #5e5e5e;
 }
 
 /* Global theme styles */

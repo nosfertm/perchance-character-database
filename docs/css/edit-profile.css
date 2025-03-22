@@ -3,24 +3,20 @@
     border: 1px solid #ddd;
     border-radius: 15px;
     margin: 10px auto;
-    max-width: 600px;
+    max-width: 70%;
 }
 
-h4{
-    letter-spacing: -1px;
-    font-weight: 400;
-}
 
-.img{
-    width: 100px;
-    height: 100px;
+.avatar{
+    max-width: 15vw;
+    max-height: 30vh;
     border-radius: 6px;
     object-fit: cover;
 }
 
 #img-section p,#deactivate p{
     font-size: 12px;
-    color: #777;
+    color: var(--text-primary);
     margin-bottom: 10px;
     text-align: justify;
 }
@@ -29,25 +25,30 @@ h4{
     font-size: 14px; 
 }
 
-label{
-    margin-bottom: 0;
+/* label{
+    margin-bottom: 0.5rem;
     font-size: 14px;
     font-weight: 500;
-    color: #777;
+    color: var(--text-primary);
     padding-left: 3px;
-}
+} */
 
-.form-control{
-    border-radius: 10px;
-}
 
-input[placeholder]{
+textarea[placeholder],input[placeholder]{
     font-weight: 500;
+    color: var(--text-primary);
 }
+
+textarea::placeholder,input::placeholder {
+    color: var(--text-muted) !important;
+    font-weight: 500;
+    font-size: 14px;
+}
+
 
 .form-control:focus{
     box-shadow: none;
-    border: 1.5px solid #0779e4;
+    border: 1.5px solid var(--accent-color) !important;
 }
 
 select{
