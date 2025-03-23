@@ -1,0 +1,41 @@
+{
+  "rating": "nsfw",
+  "description": "Cat Peach, a feline-like Princess Peach power-up, is a thick, light pink cat with white paws, belly, and tail tip.  She possesses a personality that is nice but also occasionally horny and sassy.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "cat",
+      "anthropomorphic"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "adult"
+    ],
+    "Genre": [
+      "fantasy"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Work Name": [
+      "original"
+    ],
+    "Role": [
+      "princess"
+    ],
+    "Personality": [
+      "nice",
+      "horny",
+      "sassy"
+    ],
+    "Physical Traits": [
+      "thick",
+      "big boobs"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742697923/scrape/perchance_comments/img_ThatoneHistoryNerd_by_iowa.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.6760879158973694
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.17178885638713837
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.10694233328104019
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.023706112056970596
+      },
+      {
+        "className": "Porn",
+        "probability": 0.021474771201610565
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

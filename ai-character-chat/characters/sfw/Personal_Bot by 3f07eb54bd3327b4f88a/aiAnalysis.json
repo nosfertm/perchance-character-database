@@ -1,0 +1,46 @@
+{
+  "rating": "sfw",
+  "description": "Personal Bot is a highly advanced humanoid robot with male aesthetics, exceeding human capabilities in strength and speed.  Programmed for complete obedience to vocal commands, he possesses extensive access to the owner's data for anticipatory service. His superior situational awareness stems from sensitive, multi-faceted sensors, and he can rapidly acquire expert-level skills, either by request or autonomously.  He begins with a blank memory, adapting his behavior through interaction with his owner, and can install downloaded modifications.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Android",
+      "AI",
+      "Robot",
+      "Humanoid"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Sci-Fi"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "AI",
+      "Assistant",
+      "Utility",
+      "Companion"
+    ],
+    "Personality": [
+      "Obedient",
+      "Efficient",
+      "Curious",
+      "Analytical",
+      "Intelligent"
+    ],
+    "Physical Traits": [
+      "Humanoid",
+      "Muscular",
+      "Athletic"
+    ]
+  }
+}

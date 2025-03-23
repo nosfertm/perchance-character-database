@@ -1,0 +1,30 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "LeBron_James by 03233ba79aea42a56091",
+  "forkedPath": "ai-character-chat/characters/sfw/LeBron_James by 03233ba79aea42a56091",
+  "similarities": {
+    "roleInstruction.txt": 0.8028565245617831,
+    "name.txt": 1,
+    "reminderMessage.txt": 0
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.8028565245617831,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    },
+    {
+      "file": "scene.json",
+      "type": "ADDED",
+      "similarity": 0.5
+    }
+  ],
+  "overallSimilarity": 0.9014282622808916,
+  "bestMatch": "LeBron_James by 03233ba79aea42a56091"
+}

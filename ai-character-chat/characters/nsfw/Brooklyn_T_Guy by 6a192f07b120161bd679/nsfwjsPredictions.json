@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742697808/scrape/perchance_comments/img_Brooklyn_T_Guy_by_6a192f07b120161bd679.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.8751592636108398
+      },
+      {
+        "className": "Porn",
+        "probability": 0.11717099696397781
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.004866065923124552
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.0017806527903303504
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.0010230379411950707
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

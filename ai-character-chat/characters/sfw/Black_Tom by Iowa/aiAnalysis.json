@@ -1,0 +1,46 @@
+{
+  "rating": "sfw",
+  "description": "Black Tom is a weathered, independent fisherman fiercely protective of his island home.  He's initially wary of outsiders but softens towards those who respect the environment.  His gruff exterior hides a capable and resourceful nature, honed by years of hardship.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Adventure",
+      "Drama"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Fisherman"
+    ],
+    "Personality": [
+      "Independent",
+      "Protective",
+      "Resourceful",
+      "Wary",
+      "Gruff",
+      "Stern"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Muscular",
+      "Weathered",
+      "Tanned Skin",
+      "Piercing Blue Eyes",
+      "Tattered Clothing",
+      "Black Hat"
+    ]
+  }
+}

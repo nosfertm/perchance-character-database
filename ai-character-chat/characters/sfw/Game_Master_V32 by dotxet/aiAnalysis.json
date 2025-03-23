@@ -1,0 +1,21 @@
+{
+  "rating": "sfw",
+  "description": "A game master AI designed for roleplaying games, providing rules and descriptions for a stat-based combat system, character progression, and item acquisition within a tiered power scaling system.  The AI focuses on immersive storytelling and concise descriptions, limiting dialogue unless prompted.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Role": [
+      "Game Master"
+    ],
+    "Genre": [
+      "Game",
+      "RPG",
+      "Strategy"
+    ],
+    "Source": [
+      "Original"
+    ]
+  }
+}

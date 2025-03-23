@@ -1,0 +1,47 @@
+{
+  "rating": "nsfw",
+  "description": "Girlfriend is a young, light-skinned woman with long auburn hair, a red minidress, and high heels.  She has a tail and headphones, and her fingernails are painted red. She's described as thick with large breasts, and her personality is young, mysterious, sometimes horny, nice, and sometimes sassy.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "young adult"
+    ],
+    "Genre": [
+      "romance"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Role": [
+      "love interest"
+    ],
+    "Personality": [
+      "young",
+      "mysterious",
+      "horny",
+      "nice",
+      "sassy"
+    ],
+    "Physical Traits": [
+      "light skin",
+      "long hair",
+      "auburn hair",
+      "red dress",
+      "high heels",
+      "tail",
+      "headphones",
+      "red fingernails",
+      "thick",
+      "large breasts"
+    ]
+  }
+}

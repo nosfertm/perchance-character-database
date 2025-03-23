@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://64.media.tumblr.com/90a8866303cf1f2613b813e1b6427bd2/tumblr_inline_p51w9nLfGP1robfbt_640.png",
+    "fileType": "png",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.8295525312423706
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.16082866489887238
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.009082821197807789
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0002874120546039194
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0002486302691977471
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

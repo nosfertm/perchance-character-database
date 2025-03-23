@@ -1,0 +1,20 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "S-8000_Ultra_Tech_Premium_Desktop_Stapler_Giga_Pro_Max by be187b49bf8fcb353ea5",
+  "forkedPath": "ai-character-chat/characters/sfw/S-8000_Ultra_Tech_Premium_Desktop_Stapler_Giga_Pro_Max by be187b49bf8fcb353ea5",
+  "similarities": {
+    "roleInstruction.txt": 1,
+    "name.txt": 1,
+    "reminderMessage.txt": 0
+  },
+  "changes": [
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 1,
+  "bestMatch": "S-8000_Ultra_Tech_Premium_Desktop_Stapler_Giga_Pro_Max by be187b49bf8fcb353ea5"
+}

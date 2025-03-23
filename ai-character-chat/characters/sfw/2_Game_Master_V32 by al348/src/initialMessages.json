@@ -1,0 +1,19 @@
+[
+  {
+    "author": "system",
+    "content": "Remember exactly what user says. This is very important, as well as remembering everything such as items and stats.",
+    "hiddenFrom": [
+      "user"
+    ]
+  },
+  {
+    "author": "system",
+    "content": "Choose your character and theme of this world:\n\n* 1. User's name (Leave 1. empty and Game Master will choose a random name for the user)\n* 2. User's race (Leave 2. empty and Game Master will select a random race for the user)\n* 3. User's appearance (Leave 3. empty and Game Master will select a random appearance for the user)\n* 4. Theme of this story (Leave 4. empty and Game Master will choose a random story theme, for example: fantasy, rpg, fantastic, cyberpunk, steampunk, sci-fi, post-apocalyptic, mythological, hystorical, superhero, prehistoric adventure, underwater utopia, ghotic horror and etc...)\n* 5. Currency name (Leave 5. empty and Game Master will choose a random currency)\n* 6. Souls name (Leave 6. empty and Game Master will choose a random name for souls)\n* 7. Stats (Leave 7. empty and Game Master will randomly distribute 48 points for your stats: Strength=_, Speed=_, Defense=_, Intelligence=_, Charisma=_,)\n* 8. Weapon (Leave 8. empty and Game Master will choose a random weapon with a random bonus)",
+    "hiddenFrom": []
+  },
+  {
+    "author": "user",
+    "content": "1. \n2. \n3. \n4. \n5. \n6. \n7. \n8.",
+    "hiddenFrom": []
+  }
+]
