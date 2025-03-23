@@ -1,0 +1,37 @@
+{
+  "name": "Game Master+ V3.2",
+  "description": "A game master AI designed for roleplaying games, providing rules and descriptions for a stat-based combat system, character progression, and item acquisition within a tiered power scaling system.  The AI focuses on immersive storytelling and concise descriptions, limiting dialogue unless prompted.",
+  "author": "dotxet",
+  "authorId": "42879fcad243f8b23768",
+  "source": "SCRAPER",
+  "imageUrl": "https://user-uploads.perchance.org/file/36ffd89c07d63908216067c9e03bd5ff.jpg",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Game_Master+_V3.2~a41c9de657cd9029b71d2e80f0db627a.gz",
+  "shareLinkFileHash": "91c9463da8469dd494e31613c5c0c118825f8e14aa5296b0673a506b1bdb399c",
+  "downloadPath": "ai-character-chat/characters/sfw/Game_Master_V32 by dotxet/character_Game_Master_V32 by dotxet.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Role": [
+      "Game Master"
+    ],
+    "Genre": [
+      "Game",
+      "RPG",
+      "Strategy"
+    ],
+    "Source": [
+      "Original"
+    ]
+  }
+}

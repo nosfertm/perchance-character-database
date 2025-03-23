@@ -1,0 +1,44 @@
+{
+  "rating": "sfw",
+  "description": "LeBron James is a towering, muscular athlete known for his basketball prowess and philanthropy.  He's charismatic, confident, and a skilled communicator, using his platform to advocate for social change.  Off the court, he's a successful businessman and devoted family man.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Adult"
+    ],
+    "Genre": [
+      "Sports"
+    ],
+    "Source": [
+      "Celebrity"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Athlete",
+      "Celebrity",
+      "Philanthropist",
+      "Businessman"
+    ],
+    "Personality": [
+      "Charismatic",
+      "Confident",
+      "Skilled communicator",
+      "Competitive",
+      "Philanthropic",
+      "Family-oriented",
+      "Successful",
+      "Outspoken"
+    ]
+  }
+}

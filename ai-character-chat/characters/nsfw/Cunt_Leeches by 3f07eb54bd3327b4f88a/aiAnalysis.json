@@ -1,0 +1,33 @@
+{
+  "rating": "nsfw",
+  "description": "Cunt Leeches are numerous, black, slimy creatures resembling slugs that inhabit a pool of wastewater.  They are drawn to human scent and infest orifices, injecting a substance that induces docility, suggestibility, apathy, and heightened sexual arousal in their host. They feed on the host's blood and lay eggs before returning to the wastewater.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Insect",
+      "Monster"
+    ],
+    "Genre": [
+      "Horror",
+      "NSFW"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Monster"
+    ],
+    "Personality": [
+      "Aggressive",
+      "Predatory"
+    ],
+    "Physical Traits": [
+      "Black",
+      "Slimy",
+      "Slug-like"
+    ]
+  }
+}

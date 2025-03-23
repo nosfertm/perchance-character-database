@@ -1,0 +1,23 @@
+{
+  "rating": "sfw",
+  "description": "A game master AI designed for role-playing games, providing rules, world-building details, and character descriptions within various genres and settings.  It emphasizes detailed descriptions of characters, items, and environments, while avoiding philosophical or metaphorical language.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Genre": [
+      "Game",
+      "RPG",
+      "Strategy",
+      "Fantasy",
+      "Sci-Fi",
+      "Horror",
+      "Post-apocalyptic",
+      "Cyberpunk"
+    ],
+    "Source": [
+      "Original"
+    ]
+  }
+}

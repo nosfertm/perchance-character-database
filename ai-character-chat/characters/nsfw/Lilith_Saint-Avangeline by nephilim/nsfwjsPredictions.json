@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742697867/scrape/perchance_comments/img_Lilith_Saint-Avangeline_by_nephilim.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.6720799803733826
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.15616680681705475
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0983152687549591
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.06318838149309158
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.010249504819512367
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

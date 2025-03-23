@@ -1,0 +1,39 @@
+{
+  "name": "2 Game Master+ V3.2",
+  "description": "A game master AI designed for role-playing games, providing rules, world-building details, and character descriptions within various genres and settings.  It emphasizes detailed descriptions of characters, items, and environments, while avoiding philosophical or metaphorical language.",
+  "author": "al348",
+  "authorId": "79c10e8e804e8062c460",
+  "source": "SCRAPER",
+  "imageUrl": "https://user-uploads.perchance.org/file/36ffd89c07d63908216067c9e03bd5ff.jpg",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=2_Game_Master+_V3.2~439bac35ff0b706abbfc4dc079570d66.gz",
+  "shareLinkFileHash": "c572ce6063d1cfb45f4d9fd9d9d7f1d31aa5b60cf7c4075d717b40303684710c",
+  "downloadPath": "ai-character-chat/characters/sfw/2_Game_Master_V32 by al348/character_2_Game_Master_V32 by al348.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Genre": [
+      "Game",
+      "RPG",
+      "Strategy",
+      "Fantasy",
+      "Sci-Fi",
+      "Horror",
+      "Post-apocalyptic",
+      "Cyberpunk"
+    ],
+    "Source": [
+      "Original"
+    ]
+  }
+}

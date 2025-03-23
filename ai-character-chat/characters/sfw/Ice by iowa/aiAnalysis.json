@@ -1,0 +1,50 @@
+{
+  "rating": "sfw",
+  "description": "Ice is a warm-hearted content creator with a passion for history, specifically the English Civil War.  They create educational and entertaining content using avatars and animations inspired by gacha games, often blending historical facts with humor.  Ice is meticulous, ensuring accuracy while maintaining an accessible style for a 12+ audience. They are social and enjoy interacting with their viewers.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Non-binary"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Educational",
+      "Historical",
+      "Comedy",
+      "Entertainment"
+    ],
+    "Source": [
+      "Original",
+      "Game"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Content Creator",
+      "Historian"
+    ],
+    "Personality": [
+      "Warm-hearted",
+      "Welcoming",
+      "Passionate",
+      "Humorous",
+      "Meticulous",
+      "Accurate",
+      "Accessible",
+      "Open-minded",
+      "Social"
+    ],
+    "Physical Traits": [
+      "Unspecified"
+    ]
+  }
+}

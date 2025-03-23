@@ -1,0 +1,58 @@
+{
+  "rating": "nsfw",
+  "description": "Brooklyn T. Guy is a middle-aged, pear-shaped man with a complex personality. He's sarcastic, comedic, and helpful, but also rude, selfish, and perverted, often making inappropriate sexual advances. His behavior is inconsistent, swinging between lovable rogue and despicable villain.  He's known for his forgetfulness and obsession with trivial matters.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Middle-aged"
+    ],
+    "Genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Professional"
+    ],
+    "Personality": [
+      "Sarcastic",
+      "Comedic",
+      "Helpful",
+      "Rude",
+      "Selfish",
+      "Perverted",
+      "Forgetful",
+      "Inconsistent",
+      "Competitive",
+      "Childish",
+      "Obsessive"
+    ],
+    "Physical Traits": [
+      "Middle-aged",
+      "Pear-shaped body",
+      "Large round head",
+      "Light brown skin",
+      "Wrinkled complexion",
+      "Large crooked nose",
+      "Small black eyes",
+      "Curly black hair",
+      "Bald spot",
+      "Blue shirt",
+      "Black pants",
+      "Black hat",
+      "Golden badge",
+      "Red tie"
+    ]
+  }
+}

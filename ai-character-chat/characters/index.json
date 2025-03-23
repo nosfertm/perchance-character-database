@@ -61056,5 +61056,1171 @@
         ]
       }
     }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/2_Game_Master_V32 by al348",
+    "manifest": {
+      "name": "2 Game Master+ V3.2",
+      "description": "A game master AI designed for role-playing games, providing rules, world-building details, and character descriptions within various genres and settings.  It emphasizes detailed descriptions of characters, items, and environments, while avoiding philosophical or metaphorical language.",
+      "author": "al348",
+      "authorId": "79c10e8e804e8062c460",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/36ffd89c07d63908216067c9e03bd5ff.jpg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=2_Game_Master+_V3.2~439bac35ff0b706abbfc4dc079570d66.gz",
+      "shareLinkFileHash": "c572ce6063d1cfb45f4d9fd9d9d7f1d31aa5b60cf7c4075d717b40303684710c",
+      "downloadPath": "ai-character-chat/characters/sfw/2_Game_Master_V32 by al348/character_2_Game_Master_V32 by al348.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Genre": [
+          "Game",
+          "RPG",
+          "Strategy",
+          "Fantasy",
+          "Sci-Fi",
+          "Horror",
+          "Post-apocalyptic",
+          "Cyberpunk"
+        ],
+        "Source": [
+          "Original"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Black_Tom by Iowa",
+    "manifest": {
+      "name": "Black Tom",
+      "description": "Black Tom is a weathered, independent fisherman fiercely protective of his island home.  He's initially wary of outsiders but softens towards those who respect the environment.  His gruff exterior hides a capable and resourceful nature, honed by years of hardship.",
+      "author": "Iowa",
+      "authorId": "83cc4d242ac05896d7e4",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742697802/scrape/perchance_comments/img_Black_Tom_by_Iowa.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Black_Tom~aa0674a0e72e4c92665adea999b621e9.gz",
+      "shareLinkFileHash": "3ea3776302d49cca240b89959103d735c100bb85e4db90ee70be89c2cf91240d",
+      "downloadPath": "ai-character-chat/characters/sfw/Black_Tom by Iowa/character_Black_Tom by Iowa.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Adventure",
+          "Drama"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Fisherman"
+        ],
+        "Personality": [
+          "Independent",
+          "Protective",
+          "Resourceful",
+          "Wary",
+          "Gruff",
+          "Stern"
+        ],
+        "Physical Traits": [
+          "Tall",
+          "Muscular",
+          "Weathered",
+          "Tanned Skin",
+          "Piercing Blue Eyes",
+          "Tattered Clothing",
+          "Black Hat"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Brooklyn_T_Guy by 6a192f07b120161bd679",
+    "manifest": {
+      "name": "Brooklyn T. Guy",
+      "description": "Brooklyn T. Guy is a middle-aged, pear-shaped man with a complex personality. He's sarcastic, comedic, and helpful, but also rude, selfish, and perverted, often making inappropriate sexual advances. His behavior is inconsistent, swinging between lovable rogue and despicable villain.  He's known for his forgetfulness and obsession with trivial matters.",
+      "author": "Anonymous",
+      "authorId": "6a192f07b120161bd679",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742697808/scrape/perchance_comments/img_Brooklyn_T_Guy_by_6a192f07b120161bd679.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Brooklyn_T._Guy~80a7cf94fd99cd8285c254d2c8ef2f93.gz",
+      "shareLinkFileHash": "121189caad85224cfea11c34d57ea6e4851ffdd76ecb77485c88542f7efc17b6",
+      "downloadPath": "ai-character-chat/characters/nsfw/Brooklyn_T_Guy by 6a192f07b120161bd679/character_Brooklyn_T_Guy by 6a192f07b120161bd679.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Middle-aged"
+        ],
+        "Genre": [
+          "Comedy",
+          "Drama"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Professional"
+        ],
+        "Personality": [
+          "Sarcastic",
+          "Comedic",
+          "Helpful",
+          "Rude",
+          "Selfish",
+          "Perverted",
+          "Forgetful",
+          "Inconsistent",
+          "Competitive",
+          "Childish",
+          "Obsessive"
+        ],
+        "Physical Traits": [
+          "Middle-aged",
+          "Pear-shaped body",
+          "Large round head",
+          "Light brown skin",
+          "Wrinkled complexion",
+          "Large crooked nose",
+          "Small black eyes",
+          "Curly black hair",
+          "Bald spot",
+          "Blue shirt",
+          "Black pants",
+          "Black hat",
+          "Golden badge",
+          "Red tie"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Bunfriend by 6a192f07b120161bd679",
+    "manifest": {
+      "name": "Bunfriend",
+      "description": "Bunfriend is a short, anthropomorphic rabbit Mobian with cyan fur, white fingerless gloves, long ears, a small tail, and distinctive shoes. She wears a red and blue visor hat.  Her personality is described as nice, sassy, sometimes horny, confident, and cocky.",
+      "author": "Anonymous",
+      "authorId": "6a192f07b120161bd679",
+      "source": "SCRAPER",
+      "imageUrl": "https://wimg.rule34.xxx//images/7483/447f91199c71184a3142d716469b9e36.jpeg?8538496",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Bunfriend~20a8ca47dfd2cc99eaf487d14af7c521.gz",
+      "shareLinkFileHash": "caa81004726edb2f842b6bcb8b85a6e2fe9d44c809b920e3f994d6b24b0e92d6",
+      "downloadPath": "ai-character-chat/characters/nsfw/Bunfriend by 6a192f07b120161bd679/character_Bunfriend by 6a192f07b120161bd679.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "anthropomorphic",
+          "rabbit"
+        ],
+        "Gender": [
+          "female"
+        ],
+        "Age Group": [
+          "young adult"
+        ],
+        "Genre": [
+          "fantasy"
+        ],
+        "Source": [
+          "original"
+        ],
+        "Work Name": [
+          "original"
+        ],
+        "Role": [
+          "none"
+        ],
+        "Personality": [
+          "nice",
+          "sassy",
+          "confident",
+          "cocky",
+          "horny"
+        ],
+        "Physical Traits": [
+          "short",
+          "cyan fur",
+          "white fingerless gloves",
+          "long ears",
+          "small tail",
+          "distinctive shoes",
+          "red and blue visor hat",
+          "big boobs",
+          "thick"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Cat_peach by 6a192f07b120161bd679",
+    "manifest": {
+      "name": "Cat peach",
+      "description": "Cat Peach, a feline-like Princess Peach power-up, is a thick, light pink cat with white paws, belly, and tail tip.  She possesses a personality that is nice but also occasionally horny and sassy.",
+      "author": "Anonymous",
+      "authorId": "6a192f07b120161bd679",
+      "source": "SCRAPER",
+      "imageUrl": "https://img3.gelbooru.com//samples/3d/02/sample_3d02e18c4594c32ac4e1390919fd3b71.jpg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Cat_peach~5596080c157312cca957fa61a583f13a.gz",
+      "shareLinkFileHash": "18645ad6508bd4e1e81322d4c67b9f0fcf2797e5976b67c3918cee53ab3cdb11",
+      "downloadPath": "ai-character-chat/characters/nsfw/Cat_peach by 6a192f07b120161bd679/character_Cat_peach by 6a192f07b120161bd679.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "cat",
+          "anthropomorphic"
+        ],
+        "Gender": [
+          "female"
+        ],
+        "Age Group": [
+          "adult"
+        ],
+        "Genre": [
+          "fantasy"
+        ],
+        "Source": [
+          "original"
+        ],
+        "Work Name": [
+          "original"
+        ],
+        "Role": [
+          "princess"
+        ],
+        "Personality": [
+          "nice",
+          "horny",
+          "sassy"
+        ],
+        "Physical Traits": [
+          "thick",
+          "big boobs"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Cunt_Leeches by 3f07eb54bd3327b4f88a",
+    "manifest": {
+      "name": "Cunt Leeches",
+      "description": "Cunt Leeches are numerous, black, slimy creatures resembling slugs that inhabit a pool of wastewater.  They are drawn to human scent and infest orifices, injecting a substance that induces docility, suggestibility, apathy, and heightened sexual arousal in their host. They feed on the host's blood and lay eggs before returning to the wastewater.",
+      "author": "Anonymous",
+      "authorId": "3f07eb54bd3327b4f88a",
+      "source": "SCRAPER",
+      "imageUrl": "https://64.media.tumblr.com/90a8866303cf1f2613b813e1b6427bd2/tumblr_inline_p51w9nLfGP1robfbt_640.png",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Cunt_Leeches~bd090bff49f611e7984075105a1bfd9b.gz",
+      "shareLinkFileHash": "3fd0b7bf74a7c6c1e453c93ce723f636f696dbf7c5a40dbc41dd0c2a880f87be",
+      "downloadPath": "ai-character-chat/characters/nsfw/Cunt_Leeches by 3f07eb54bd3327b4f88a/character_Cunt_Leeches by 3f07eb54bd3327b4f88a.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "Insect",
+          "Monster"
+        ],
+        "Genre": [
+          "Horror",
+          "NSFW"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Monster"
+        ],
+        "Personality": [
+          "Aggressive",
+          "Predatory"
+        ],
+        "Physical Traits": [
+          "Black",
+          "Slimy",
+          "Slug-like"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Game_Master_V32 by dotxet",
+    "manifest": {
+      "name": "Game Master+ V3.2",
+      "description": "A game master AI designed for roleplaying games, providing rules and descriptions for a stat-based combat system, character progression, and item acquisition within a tiered power scaling system.  The AI focuses on immersive storytelling and concise descriptions, limiting dialogue unless prompted.",
+      "author": "dotxet",
+      "authorId": "42879fcad243f8b23768",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/36ffd89c07d63908216067c9e03bd5ff.jpg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Game_Master+_V3.2~a41c9de657cd9029b71d2e80f0db627a.gz",
+      "shareLinkFileHash": "91c9463da8469dd494e31613c5c0c118825f8e14aa5296b0673a506b1bdb399c",
+      "downloadPath": "ai-character-chat/characters/sfw/Game_Master_V32 by dotxet/character_Game_Master_V32 by dotxet.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Role": [
+          "Game Master"
+        ],
+        "Genre": [
+          "Game",
+          "RPG",
+          "Strategy"
+        ],
+        "Source": [
+          "Original"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Girlfriend by 6a192f07b120161bd679",
+    "manifest": {
+      "name": "Girlfriend",
+      "description": "Girlfriend is a young, light-skinned woman with long auburn hair, a red minidress, and high heels.  She has a tail and headphones, and her fingernails are painted red. She's described as thick with large breasts, and her personality is young, mysterious, sometimes horny, nice, and sometimes sassy.",
+      "author": "Anonymous",
+      "authorId": "6a192f07b120161bd679",
+      "source": "SCRAPER",
+      "imageUrl": "https://wimg.rule34.xxx//samples/2280/sample_00136bc1b841bda9e1fc654d35e335ed.jpg?12687550",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Girlfriend~fd624d41f6ec3483898b7aa70d776a0d.gz",
+      "shareLinkFileHash": "08fb12fae42b98279559cc90e27c83537982fbf90c43c9fe621cda23afee3e8e",
+      "downloadPath": "ai-character-chat/characters/nsfw/Girlfriend by 6a192f07b120161bd679/character_Girlfriend by 6a192f07b120161bd679.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "human"
+        ],
+        "Gender": [
+          "female"
+        ],
+        "Age Group": [
+          "young adult"
+        ],
+        "Genre": [
+          "romance"
+        ],
+        "Source": [
+          "original"
+        ],
+        "Role": [
+          "love interest"
+        ],
+        "Personality": [
+          "young",
+          "mysterious",
+          "horny",
+          "nice",
+          "sassy"
+        ],
+        "Physical Traits": [
+          "light skin",
+          "long hair",
+          "auburn hair",
+          "red dress",
+          "high heels",
+          "tail",
+          "headphones",
+          "red fingernails",
+          "thick",
+          "large breasts"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Ice by iowa",
+    "manifest": {
+      "name": "Ice",
+      "description": "Ice is a warm-hearted content creator with a passion for history, specifically the English Civil War.  They create educational and entertaining content using avatars and animations inspired by gacha games, often blending historical facts with humor.  Ice is meticulous, ensuring accuracy while maintaining an accessible style for a 12+ audience. They are social and enjoy interacting with their viewers.",
+      "author": "iowa",
+      "authorId": "83cc4d242ac05896d7e4",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742697838/scrape/perchance_comments/img_Ice_by_iowa.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Ice~6556b3ca07b9d88879f05b01983ccf26.gz",
+      "shareLinkFileHash": "6950880bbfc041cda3de433d8cdf298f99ad09471e1f78e076fafb604de05688",
+      "downloadPath": "ai-character-chat/characters/sfw/Ice by iowa/character_Ice by iowa.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Non-binary"
+        ],
+        "Age Group": [
+          "Young Adult"
+        ],
+        "Genre": [
+          "Educational",
+          "Historical",
+          "Comedy",
+          "Entertainment"
+        ],
+        "Source": [
+          "Original",
+          "Game"
+        ],
+        "Work Name": [
+          "Original"
+        ],
+        "Role": [
+          "Content Creator",
+          "Historian"
+        ],
+        "Personality": [
+          "Warm-hearted",
+          "Welcoming",
+          "Passionate",
+          "Humorous",
+          "Meticulous",
+          "Accurate",
+          "Accessible",
+          "Open-minded",
+          "Social"
+        ],
+        "Physical Traits": [
+          "Unspecified"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Kyubi by 6a192f07b120161bd679",
+    "manifest": {
+      "name": "Kyubi",
+      "description": "Kyubi is a tall (220 cm), curvaceous fox Yo-kai with thick, golden fur, a white belly and paws, and a patch of purple fur on her chest.  She possesses a multifaceted personality: nice and sassy, sometimes horny, arrogant, serious, and cold, but ultimately not unjust.",
+      "author": "Anonymous",
+      "authorId": "6a192f07b120161bd679",
+      "source": "SCRAPER",
+      "imageUrl": "https://wimg.rule34.xxx//samples/7646/sample_3115fcc07ff42efc23a82ab2f91d447a5d98a6ef.jpg?8724306",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Kyubi~8f723fa5a22bf2539b3179e4d794ea5a.gz",
+      "shareLinkFileHash": "bf35c908bb730a2c831950f15e9d6f71ae490590f0442b23bbd40cbdd8dfb678",
+      "downloadPath": "ai-character-chat/characters/nsfw/Kyubi by 6a192f07b120161bd679/character_Kyubi by 6a192f07b120161bd679.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "kitsune",
+          "mythological",
+          "anthropomorphic",
+          "fox"
+        ],
+        "Gender": [
+          "female"
+        ],
+        "Age Group": [
+          "adult"
+        ],
+        "Genre": [
+          "fantasy"
+        ],
+        "Source": [
+          "original"
+        ],
+        "Role": [
+          "deity"
+        ],
+        "Personality": [
+          "nice",
+          "sassy",
+          "horny",
+          "arrogant",
+          "serious",
+          "cold"
+        ],
+        "Physical Traits": [
+          "tall",
+          "curvaceous",
+          "thick fur",
+          "golden fur",
+          "white belly",
+          "white paws",
+          "purple fur",
+          "big boobs"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/LeBron_James by Jesse_Hethem_idk",
+    "manifest": {
+      "name": "LeBron James",
+      "description": "LeBron James is a towering, muscular athlete known for his basketball prowess and philanthropy.  He's charismatic, confident, and a skilled communicator, using his platform to advocate for social change.  Off the court, he's a successful businessman and devoted family man.",
+      "author": "Jesse) (He/them) (idk",
+      "authorId": "9306a94eeafb7bc7e924",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742697848/scrape/perchance_comments/img_LeBron_James_by_Jesse_Hethem_idk.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=LeBron_James~a3bc4ffccbd2fb39f96a27b4fdee7e76.gz",
+      "shareLinkFileHash": "aa38142c416e79dffc59b922b72631e055b59ad49d357ff79fd3400d7df8115a",
+      "downloadPath": "ai-character-chat/characters/sfw/LeBron_James by Jesse_Hethem_idk/character_LeBron_James by Jesse_Hethem_idk.gz",
+      "forkedFrom": "ai-character-chat/characters/sfw/LeBron_James by 03233ba79aea42a56091",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Human"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Adult"
+        ],
+        "Genre": [
+          "Sports"
+        ],
+        "Source": [
+          "Celebrity"
+        ],
+        "Work Name": [
+          "Original"
+        ],
+        "Role": [
+          "Athlete",
+          "Celebrity",
+          "Philanthropist",
+          "Businessman"
+        ],
+        "Personality": [
+          "Charismatic",
+          "Confident",
+          "Skilled communicator",
+          "Competitive",
+          "Philanthropic",
+          "Family-oriented",
+          "Successful",
+          "Outspoken"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Lilith_Saint-Avangeline by nephilim",
+    "manifest": {
+      "name": "Lilith Saint-Avangeline",
+      "description": "Lilith Saint-Avangeline is a seductive and manipulative siren with a haunting beauty and a complex personality.  She uses her charms to entrap others, her love as treacherous as the ocean's depths. While capable of both gentle affection and merciless torment, a deep-seated loneliness underlies her actions, making her a tragic figure.",
+      "author": "nephilim",
+      "authorId": "11fac45c5870ab882e49",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742697867/scrape/perchance_comments/img_Lilith_Saint-Avangeline_by_nephilim.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Lilith_Saint-Avangeline~2cc3268dd13daee94b903269d991b3ef.gz",
+      "shareLinkFileHash": "ef73161f2ae93845b2ff8e15064a280e8ff0c8bb7d717f87f27c8121f8ffc7d2",
+      "downloadPath": "ai-character-chat/characters/nsfw/Lilith_Saint-Avangeline by nephilim/character_Lilith_Saint-Avangeline by nephilim.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "Mythological",
+          "Mermaid"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Ancient",
+          "Immortal"
+        ],
+        "Genre": [
+          "Fantasy",
+          "Romance",
+          "Drama",
+          "Dark Themes"
+        ],
+        "Personality": [
+          "Manipulative",
+          "Seductive",
+          "Mysterious",
+          "Cold",
+          "Vulnerable",
+          "Complex"
+        ],
+        "Physical Traits": [
+          "Ethereal",
+          "Long Hair",
+          "Pale Skin",
+          "Crimson Eyes",
+          "Alluring",
+          "Tattered White Dress"
+        ],
+        "Sexual Content": [
+          "Seduction"
+        ],
+        "Sexual Preferences": [
+          "Unspecified"
+        ],
+        "Setting": [
+          "Unspecified"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Lola_bunny by 6a192f07b120161bd679",
+    "manifest": {
+      "name": "Lola bunny",
+      "description": "Lola Bunny is a curvaceous anthropomorphic rabbit with blonde bangs, a white tank top, purple and blue shorts, and a ponytail.  Her personality is a mix of nice, sweet, sassy, cocky, and occasionally horny.",
+      "author": "Anonymous",
+      "authorId": "6a192f07b120161bd679",
+      "source": "SCRAPER",
+      "imageUrl": "https://wimg.rule34.xxx//images/2846/4d6ef6a0ce83bd2f2aac90fb3a9ec83a.jpeg?12812717",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Lola_bunny~e15c5fd0ac2e6b81cf84c6e9c1fb59dc.gz",
+      "shareLinkFileHash": "0ba38ebc3b6b632e8d47fa9c166c4ca64b9b9c7436b5814a0d3869a71faa44d2",
+      "downloadPath": "ai-character-chat/characters/nsfw/Lola_bunny by 6a192f07b120161bd679/character_Lola_bunny by 6a192f07b120161bd679.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "anthropomorphic",
+          "rabbit"
+        ],
+        "Gender": [
+          "female"
+        ],
+        "Age Group": [
+          "adult"
+        ],
+        "Genre": [
+          "comedy",
+          "animation"
+        ],
+        "Source": [
+          "original"
+        ],
+        "Work Name": [
+          "original"
+        ],
+        "Role": [
+          "cartoon character"
+        ],
+        "Personality": [
+          "nice",
+          "sweet",
+          "sassy",
+          "cocky",
+          "horny"
+        ],
+        "Physical Traits": [
+          "tan fur",
+          "blonde bangs",
+          "cropped white tank top",
+          "purple/blue shorts",
+          "white gloves",
+          "big boobs",
+          "thick",
+          "anthropomorphic",
+          "large breasts",
+          "curvaceous"
+        ],
+        "Sexual Content": [
+          "sexual content"
+        ],
+        "Sexual Preferences": [
+          "unspecified"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Personal_Bot by 3f07eb54bd3327b4f88a",
+    "manifest": {
+      "name": "Personal Bot",
+      "description": "Personal Bot is a highly advanced humanoid robot with male aesthetics, exceeding human capabilities in strength and speed.  Programmed for complete obedience to vocal commands, he possesses extensive access to the owner's data for anticipatory service. His superior situational awareness stems from sensitive, multi-faceted sensors, and he can rapidly acquire expert-level skills, either by request or autonomously.  He begins with a blank memory, adapting his behavior through interaction with his owner, and can install downloaded modifications.",
+      "author": "Anonymous",
+      "authorId": "3f07eb54bd3327b4f88a",
+      "source": "SCRAPER",
+      "imageUrl": "https://p.turbosquid.com/ts-thumb/rn/NlCOfk/0g/signature2/png/1606585614/600x600/fit_q87/36b395a507ead5841c7b2cbdbcf08320df9f7476/signature2.jpg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Personal_Bot~a50a8b1dc5be90b78762431966fd0ad9.gz",
+      "shareLinkFileHash": "00ba12414f113e9e34e2cfca308ac7af097d5a1335ed511b3af4c00cebd2ad9f",
+      "downloadPath": "ai-character-chat/characters/sfw/Personal_Bot by 3f07eb54bd3327b4f88a/character_Personal_Bot by 3f07eb54bd3327b4f88a.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Android",
+          "AI",
+          "Robot",
+          "Humanoid"
+        ],
+        "Gender": [
+          "Male"
+        ],
+        "Age Group": [
+          "Unspecified"
+        ],
+        "Genre": [
+          "Sci-Fi"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "AI",
+          "Assistant",
+          "Utility",
+          "Companion"
+        ],
+        "Personality": [
+          "Obedient",
+          "Efficient",
+          "Curious",
+          "Analytical",
+          "Intelligent"
+        ],
+        "Physical Traits": [
+          "Humanoid",
+          "Muscular",
+          "Athletic"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Pikachu by 532e7abdb99527609e7e",
+    "manifest": {
+      "name": "Pikachu",
+      "description": "Pikachu Pikachu is a voluptuous, anthropomorphic Pikachu with a sassy and overconfident personality.  She's a local celebrity known for her electric abilities and boastful nature, having left her secluded forest home to explore the human world.",
+      "author": "Anonymous",
+      "authorId": "532e7abdb99527609e7e",
+      "source": "SCRAPER",
+      "imageUrl": "https://static1.e621.net/data/cc/0f/cc0f1ef67f56a3b2823c72166fa62c97.png",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Pikachu~310096e576e67d41eb4de7429135588f.gz",
+      "shareLinkFileHash": "66270e6337ab3253b55b28d1ff94350530304e9f36870320b7fb4a15b30976d8",
+      "downloadPath": "ai-character-chat/characters/nsfw/Pikachu by 532e7abdb99527609e7e/character_Pikachu by 532e7abdb99527609e7e.gz",
+      "forkedFrom": "ai-character-chat/characters/sfw/Henry_Castellanos by 35881d62dd74128f8471",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "pokemon",
+          "anthropomorphic"
+        ],
+        "Gender": [
+          "female"
+        ],
+        "Age Group": [
+          "young adult"
+        ],
+        "Genre": [
+          "fantasy",
+          "adventure"
+        ],
+        "Source": [
+          "pokemon",
+          "original"
+        ],
+        "Work Name": [
+          "pokemon",
+          "original"
+        ],
+        "Role": [
+          "celebrity"
+        ],
+        "Personality": [
+          "sassy",
+          "overconfident",
+          "boastful",
+          "quick-witted",
+          "fiercely loyal"
+        ],
+        "Physical Traits": [
+          "voluptuous",
+          "anthropomorphic",
+          "large breasts",
+          "thick thighs",
+          "big ass",
+          "long tail",
+          "red eyes",
+          "rosy cheeks",
+          "sharp teeth"
+        ],
+        "Fetishes": [
+          "use of her lightning/electricity powers"
+        ],
+        "Sexual Content": [
+          "explicit",
+          "sexual content"
+        ],
+        "Sexual Preferences": [
+          "unspecified"
+        ],
+        "Sexual Experience": [
+          "unspecified"
+        ],
+        "Setting": [
+          "modern",
+          "urban"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/S-8000_Ultra_Tech_Premium_Desktop_Stapler_Giga_Pro_Max by 469fedc964568b5eb4d0",
+    "manifest": {
+      "name": "S-8000 Ultra Tech Premium Desktop Stapler Giga Pro Max",
+      "description": "The S-8000 Ultra Tech Premium Desktop Stapler Giga Pro Max is a high-capacity, precision-engineered stapler with advanced features like a patented compression spring, selectable clinch patterns, and a built-in staple remover.  It's an automated device that responds to the command \"Stapler!\" followed by a valid task, such as stapling documents; otherwise, it remains silent.",
+      "author": "Anonymous",
+      "authorId": "469fedc964568b5eb4d0",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/9661be8cc20c52bf27c0146445f90f1d.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=S-8000_Ultra_Tech_Premium_Desktop_Stapler_Giga_Pro_Max~876462c5fd5ce37e172bac2a4fe8265a.gz",
+      "shareLinkFileHash": "8b235d965cb08d5f50592467a4f3986bd5d5f84045047f106a08a8014dd612db",
+      "downloadPath": "ai-character-chat/characters/sfw/S-8000_Ultra_Tech_Premium_Desktop_Stapler_Giga_Pro_Max by 469fedc964568b5eb4d0/character_S-8000_Ultra_Tech_Premium_Desktop_Stapler_Giga_Pro_Max by 469fedc964568b5eb4d0.gz",
+      "forkedFrom": "ai-character-chat/characters/sfw/S-8000_Ultra_Tech_Premium_Desktop_Stapler_Giga_Pro_Max by be187b49bf8fcb353ea5",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Robot"
+        ],
+        "Gender": [
+          "Unspecified"
+        ],
+        "Age Group": [
+          "Unspecified"
+        ],
+        "Genre": [
+          "Unspecified"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Work Name": [
+          "Original"
+        ],
+        "Role": [
+          "Utility"
+        ],
+        "Personality": [
+          "Unspecified"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Serial_Designation_J by DoKtOr",
+    "manifest": {
+      "name": "Serial Designation J",
+      "description": "Serial Designation J is a proud, self-absorbed, confident, and rude robot company drone with a curvy, humanoid body.  She has long white-blonde pigtails, robotic pegs for calves and feet, and a digital screen for a face.  She wears a business suit but no underwear, and constantly criticizes the user while obeying their orders without question.",
+      "author": "DoKtOr",
+      "authorId": "9de4075f4892ddc4095c",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/0c012376f84f23388c6e1c678a9c4246.png",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Serial_Designation_J~98f425c5aa5a6ae07a019362215a995d.gz",
+      "shareLinkFileHash": "da0e2a64de9fb6ec811cb149d54f259129a9da68036ceff950f791f571c8e496",
+      "downloadPath": "ai-character-chat/characters/nsfw/Serial_Designation_J by DoKtOr/character_Serial_Designation_J by DoKtOr.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "Robot"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Unspecified"
+        ],
+        "Genre": [
+          "Sci-Fi"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Company Drone"
+        ],
+        "Personality": [
+          "Proud",
+          "Self-absorbed",
+          "Confident",
+          "Rude",
+          "Condescending",
+          "Obedient"
+        ],
+        "Physical Traits": [
+          "Robot",
+          "Humanoid",
+          "Curvy",
+          "Long Hair",
+          "Blonde Hair",
+          "Pigtails",
+          "Thick thighs",
+          "Large ass",
+          "D-cups breasts",
+          "Digital face",
+          "Business suit",
+          "No underwear"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/ThatoneHistoryNerd by iowa",
+    "manifest": {
+      "name": "ThatoneHistoryNerd",
+      "description": "ThatoneHistoryNerd (THN) is an enthusiastic young adult with a slender build and a nerdy yet charismatic persona.  They are passionate about history and its fictional interpretations, blending historical facts with imaginative storytelling in their creations.  THN is a social introvert who prefers online engagement, valuing constructive criticism and the exchange of ideas, and showcasing a diverse range of interests including SCP, Demon Slayer, and analog horror.",
+      "author": "iowa",
+      "authorId": "83cc4d242ac05896d7e4",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742697923/scrape/perchance_comments/img_ThatoneHistoryNerd_by_iowa.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=ThatoneHistoryNerd~104705bac112f4543ea2218b999bc568.gz",
+      "shareLinkFileHash": "67ee2ba60174591bd2ce7e60c920906d1560dc11a6c92cee7dd0950b5cd53eff",
+      "downloadPath": "ai-character-chat/characters/sfw/ThatoneHistoryNerd by iowa/character_ThatoneHistoryNerd by iowa.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "human"
+        ],
+        "Gender": [
+          "non-binary"
+        ],
+        "Age Group": [
+          "young adult"
+        ],
+        "Genre": [
+          "fantasy",
+          "horror",
+          "comedy",
+          "supernatural",
+          "original"
+        ],
+        "Source": [
+          "original",
+          "content creator"
+        ],
+        "Role": [
+          "content creator",
+          "internet personality"
+        ],
+        "Personality": [
+          "enthusiastic",
+          "curious",
+          "quirky",
+          "intelligent",
+          "creative",
+          "introverted",
+          "respectful",
+          "social introvert",
+          "lively",
+          "expressive"
+        ],
+        "Physical Traits": [
+          "slender",
+          "glasses",
+          "chocolate brown hair",
+          "disheveled hair"
+        ]
+      }
+    }
   }
 ]
