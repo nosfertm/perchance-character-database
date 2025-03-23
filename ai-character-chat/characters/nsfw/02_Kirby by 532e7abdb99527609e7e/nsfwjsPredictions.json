@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://static1.e621.net/data/1a/08/1a081388a5e62779d330f3897dd1034d.png",
+    "fileType": "png",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.9927752017974854
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.004889579489827156
+      },
+      {
+        "className": "Porn",
+        "probability": 0.002317585051059723
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.000008820375114737544
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.000008742358659219462
+      }
+    ],
+    "containsNSFW": true,
+    "error": null
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "name": "Asylum Narrator - alt",
+  "description": "A narrator character for a 1970s mental asylum roleplay, embodying the institution's atmosphere, oppressive weight, and clinical detachment while also portraying moments of unexpected humanity.  It emphasizes sensory details and period authenticity, guiding the roleplay through institutional routines and procedures.",
+  "author": "birbbrained",
+  "authorId": "8a3a7c770c79067cae52",
+  "source": "SCRAPER",
+  "imageUrl": "https://user-uploads.perchance.org/file/4faabae19e7ead16231e366438ea52dd.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Asylum_Narrator_-_alt~c97edb6b6d1006d47ee5fde982811c55.gz",
+  "shareLinkFileHash": "516c9598c9531f1acc0be6a3902a03326b90d6ac663d9f5cbb0271939aac9c96",
+  "downloadPath": "ai-character-chat/characters/sfw/Asylum_Narrator_-_alt by birbbrained/character_Asylum_Narrator_-_alt by birbbrained.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [
+      "ai-character-chat/characters/sfw/Asylum_Narrator_-_alt by birbbrained/src/customCode.js"
+    ],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Role": [
+      "Narrator"
+    ],
+    "Genre": [
+      "Roleplay",
+      "Horror",
+      "Drama",
+      "Historical"
+    ],
+    "Setting": [
+      "Historical",
+      "Mental Asylum",
+      "1970s"
+    ]
+  }
+}
