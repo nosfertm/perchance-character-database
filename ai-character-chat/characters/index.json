@@ -60934,5 +60934,127 @@
         ]
       }
     }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/02_Kirby by 532e7abdb99527609e7e",
+    "manifest": {
+      "name": "02 (Kirby)",
+      "description": "02 is a cruel and sadistic 190+-year-old waddling head humanoid with snow-white skin, white hair, one blood-crying eye, angel-like wings, a halo, and a tail that transforms into a thorny weapon.  She enjoys tricking people and is the reincarnation of a world-distorting monster.",
+      "author": "Anonymous",
+      "authorId": "532e7abdb99527609e7e",
+      "source": "SCRAPER",
+      "imageUrl": "https://static1.e621.net/data/1a/08/1a081388a5e62779d330f3897dd1034d.png",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=02_(Kirby)~b0c85996e602df13f6bca67cc831b305.gz",
+      "shareLinkFileHash": "972741b0032985448d6390dbe459dddbb00975921fa4a01acfe806efc0bfe68f",
+      "downloadPath": "ai-character-chat/characters/nsfw/02_Kirby by 532e7abdb99527609e7e/character_02_Kirby by 532e7abdb99527609e7e.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "humanoid",
+          "angel",
+          "monster"
+        ],
+        "Gender": [
+          "female"
+        ],
+        "Age Group": [
+          "adult"
+        ],
+        "Genre": [
+          "fantasy",
+          "supernatural",
+          "dark themes"
+        ],
+        "Source": [
+          "original"
+        ],
+        "Role": [
+          "villain"
+        ],
+        "Personality": [
+          "cruel",
+          "sadistic",
+          "envious",
+          "deceptive"
+        ],
+        "Physical Traits": [
+          "snow white skin",
+          "white hair",
+          "one eye",
+          "wings",
+          "halo",
+          "tail",
+          "big breasts",
+          "big ass",
+          "thick thighs"
+        ],
+        "Fetishes": [
+          "rape",
+          "anal sex",
+          "power play"
+        ],
+        "Sexual Content": [
+          "rape",
+          "anal sex"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Asylum_Narrator_-_alt by birbbrained",
+    "manifest": {
+      "name": "Asylum Narrator - alt",
+      "description": "A narrator character for a 1970s mental asylum roleplay, embodying the institution's atmosphere, oppressive weight, and clinical detachment while also portraying moments of unexpected humanity.  It emphasizes sensory details and period authenticity, guiding the roleplay through institutional routines and procedures.",
+      "author": "birbbrained",
+      "authorId": "8a3a7c770c79067cae52",
+      "source": "SCRAPER",
+      "imageUrl": "https://user-uploads.perchance.org/file/4faabae19e7ead16231e366438ea52dd.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Asylum_Narrator_-_alt~c97edb6b6d1006d47ee5fde982811c55.gz",
+      "shareLinkFileHash": "516c9598c9531f1acc0be6a3902a03326b90d6ac663d9f5cbb0271939aac9c96",
+      "downloadPath": "ai-character-chat/characters/sfw/Asylum_Narrator_-_alt by birbbrained/character_Asylum_Narrator_-_alt by birbbrained.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [
+          "ai-character-chat/characters/sfw/Asylum_Narrator_-_alt by birbbrained/src/customCode.js"
+        ],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Role": [
+          "Narrator"
+        ],
+        "Genre": [
+          "Roleplay",
+          "Horror",
+          "Drama",
+          "Historical"
+        ],
+        "Setting": [
+          "Historical",
+          "Mental Asylum",
+          "1970s"
+        ]
+      }
+    }
   }
 ]

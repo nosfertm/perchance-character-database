@@ -735,7 +735,8 @@
                 "government agent",
                 "Staff",
                 "acrobat",
-                "Yakuza member"
+                "Yakuza member",
+                "Narrator"
             ],
             "nsfw": [
                 "Adult Entertainer",
@@ -3849,7 +3850,9 @@
                 "forest",
                 "Fantasy",
                 "room",
-                "training camp"
+                "training camp",
+                "Mental Asylum",
+                "1970s"
             ],
             "nsfw": [
                 "Adult Club",
