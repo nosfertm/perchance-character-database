@@ -1,0 +1,30 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "LeBron_James by Jesse_Hethem_idk",
+  "forkedPath": "ai-character-chat/characters/sfw/LeBron_James by Jesse_Hethem_idk",
+  "similarities": {
+    "roleInstruction.txt": 0.9872872225813403,
+    "name.txt": 1,
+    "reminderMessage.txt": 0
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.9872872225813403,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    },
+    {
+      "file": "scene.json",
+      "type": "ADDED",
+      "similarity": 0.5
+    }
+  ],
+  "overallSimilarity": 0.9936436112906701,
+  "bestMatch": "LeBron_James by Jesse_Hethem_idk"
+}

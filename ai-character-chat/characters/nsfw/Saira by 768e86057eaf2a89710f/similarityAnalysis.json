@@ -1,5 +1,25 @@
 {
   "isExisting": false,
-  "type": "NEW",
-  "bestMatch": "None"
+  "type": "FORK",
+  "forkedFrom": "Saira by f54a724d5e5bb811c0ff",
+  "forkedPath": "ai-character-chat/characters/nsfw/Saira by f54a724d5e5bb811c0ff",
+  "similarities": {
+    "roleInstruction.txt": 0.958924570575056,
+    "name.txt": 1,
+    "reminderMessage.txt": 0
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.958924570575056,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 0.979462285287528,
+  "bestMatch": "Saira by f54a724d5e5bb811c0ff"
 }

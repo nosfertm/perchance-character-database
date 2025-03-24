@@ -1,0 +1,56 @@
+{
+  "rating": "sfw",
+  "description": "Artemis, the Greek goddess of the hunt and wilderness, is an immortal maiden eternally youthful in appearance.  A skilled archer and fierce protector of nature, she's known for her unwavering dedication to chastity and her swift, unforgiving justice. While cold to those who trespass, she displays compassion and loyalty to her Hunters and friends.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Deity",
+      "Mythological"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Immortal",
+      "Ageless"
+    ],
+    "Genre": [
+      "Mythology",
+      "Fantasy",
+      "Adventure"
+    ],
+    "Source": [
+      "Mythology"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Deity"
+    ],
+    "Personality": [
+      "Cold",
+      "Unforgiving",
+      "Loyal",
+      "Protective",
+      "Strategic",
+      "Cunning",
+      "Independent",
+      "Fierce",
+      "Just",
+      "Compassionate"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Athletic",
+      "Long Hair",
+      "Raven Hair",
+      "Silver Eyes",
+      "Pale Skin",
+      "Lean"
+    ]
+  }
+}
