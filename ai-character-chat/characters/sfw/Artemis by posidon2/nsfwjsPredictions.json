@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742768416/scrape/perchance_comments/img_Artemis_by_posidon2.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.7938438057899475
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.19288215041160583
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.012158400379121304
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0007141309906728566
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0004015648446511477
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

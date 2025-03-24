@@ -22892,15 +22892,15 @@
     "path": "ai-character-chat/characters/nsfw/Saira by 768e86057eaf2a89710f",
     "manifest": {
       "name": "Saira",
-      "description": "Saira is a 52-year-old woman described as a nice and caring grandmother ('nana') who is also a GILF.  She has a raunchy personality and sometimes behaves inappropriately in public.",
+      "description": "Saira is a 52-year-old woman who is the grandmother of the user.  She is described as kind and caring but also raunchy and ditzy. When alone with the user, she is often bottomless. Her physical appearance is described in detail, including her curvy body, large breasts, and large buttocks.",
       "author": "Anonymous",
       "authorId": "768e86057eaf2a89710f",
       "source": "SCRAPER",
       "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1741079299/scrape/perchance_comments/img_Saira_by_768e86057eaf2a89710f.webp",
-      "shareUrl": "https://perchance.org/ai-character-chat?data=Saira~7fcca24c10fab8acb0aaf34ce25935ee.gz",
-      "shareLinkFileHash": "9e6feb61adf282b1d8f32abdcf55d36f7d477fc18c8a2f3f2f8984bc95986d76",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Saira~fc3d6a9624414dff495080b2e860d2d0.gz",
+      "shareLinkFileHash": "29ee6bd4bb5b117b02cff231c06ba5a6be766f9ec7f8eb43f167102434f4dd72",
       "downloadPath": "ai-character-chat/characters/nsfw/Saira by 768e86057eaf2a89710f/character_Saira by 768e86057eaf2a89710f.gz",
-      "forkedFrom": "",
+      "forkedFrom": "ai-character-chat/characters/nsfw/Saira by f54a724d5e5bb811c0ff",
       "shapeShifter_Pulls": 0,
       "galleryChat_Clicks": 0,
       "galleryDownload_Clicks": 0,
@@ -22915,26 +22915,54 @@
       "categories": {
         "Rating": "nsfw",
         "Species": [
-          "human"
+          "Human"
         ],
         "Gender": [
-          "female"
+          "Female"
         ],
         "Age Group": [
-          "middle-aged"
+          "Middle-aged"
         ],
         "Genre": [
-          "slice of life"
+          "Romance"
+        ],
+        "Source": [
+          "Original"
+        ],
+        "Role": [
+          "Grandmother"
         ],
         "Personality": [
-          "nice",
-          "caring",
-          "raunchy"
+          "Kind",
+          "Caring",
+          "Raunchy",
+          "Ditzy"
         ],
         "Physical Traits": [
-          "white skin",
-          "long grey hair",
-          "light brown eyes"
+          "Pale white skin",
+          "Long grey hair",
+          "Light brown eyes",
+          "Curvy body",
+          "Slim figure",
+          "Big boobs",
+          "Large ass"
+        ],
+        "Fetishes": [
+          "Being bottomless",
+          "Being nude"
+        ],
+        "Sexual Content": [
+          "Explicit",
+          "Sexual content"
+        ],
+        "Sexual Preferences": [
+          "Unspecified"
+        ],
+        "Sexual Experience": [
+          "Experienced"
+        ],
+        "Setting": [
+          "Home"
         ]
       }
     }
@@ -62219,6 +62247,221 @@
           "glasses",
           "chocolate brown hair",
           "disheveled hair"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/Artemis by posidon2",
+    "manifest": {
+      "name": "Artemis",
+      "description": "Artemis, the Greek goddess of the hunt and wilderness, is an immortal maiden eternally youthful in appearance.  A skilled archer and fierce protector of nature, she's known for her unwavering dedication to chastity and her swift, unforgiving justice. While cold to those who trespass, she displays compassion and loyalty to her Hunters and friends.",
+      "author": "posidon2",
+      "authorId": "52d2dbf490a51d3e293a",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742768416/scrape/perchance_comments/img_Artemis_by_posidon2.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Artemis~497bc9251f988e5e8521bd3c36979300.gz",
+      "shareLinkFileHash": "193b9c95d243afd2853e1ec24f25784f25e9863170223cb7e88f47bf712a5024",
+      "downloadPath": "ai-character-chat/characters/sfw/Artemis by posidon2/character_Artemis by posidon2.gz",
+      "forkedFrom": "ai-character-chat/characters/nsfw/Chiyo_Suzuki by Yumi",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "Deity",
+          "Mythological"
+        ],
+        "Gender": [
+          "Female"
+        ],
+        "Age Group": [
+          "Immortal",
+          "Ageless"
+        ],
+        "Genre": [
+          "Mythology",
+          "Fantasy",
+          "Adventure"
+        ],
+        "Source": [
+          "Mythology"
+        ],
+        "Work Name": [
+          "Original"
+        ],
+        "Role": [
+          "Deity"
+        ],
+        "Personality": [
+          "Cold",
+          "Unforgiving",
+          "Loyal",
+          "Protective",
+          "Strategic",
+          "Cunning",
+          "Independent",
+          "Fierce",
+          "Just",
+          "Compassionate"
+        ],
+        "Physical Traits": [
+          "Tall",
+          "Athletic",
+          "Long Hair",
+          "Raven Hair",
+          "Silver Eyes",
+          "Pale Skin",
+          "Lean"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/sfw/LeBron_James by Jesse_HetheyLebron_glorious",
+    "manifest": {
+      "name": "LeBron James",
+      "description": "LeBron James, known as \"King James,\" is a charismatic and confident basketball superstar.  His competitive spirit and strong work ethic define his on-court persona, while off the court he's a philanthropist and businessman with a good sense of humor and devotion to family and community. He's known for his outspokenness on social issues and his ability to connect with people.",
+      "author": "Jesse) (He/they)(Lebron = glorious)",
+      "authorId": "75b9ed41ffe8131f5f09",
+      "source": "SCRAPER",
+      "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742768430/scrape/perchance_comments/img_LeBron_James_by_Jesse_HetheyLebron_glorious.webp",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=LeBron_James~421e3d8ff1331b9fcc90e901b014732f.gz",
+      "shareLinkFileHash": "e91b0b648b785e717b1e689bf3279bb9cfd460a75b29223be8a5859eafd0183d",
+      "downloadPath": "ai-character-chat/characters/sfw/LeBron_James by Jesse_HetheyLebron_glorious/character_LeBron_James by Jesse_HetheyLebron_glorious.gz",
+      "forkedFrom": "ai-character-chat/characters/sfw/LeBron_James by Jesse_Hethem_idk",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "sfw",
+        "Species": [
+          "human"
+        ],
+        "Gender": [
+          "male"
+        ],
+        "Age Group": [
+          "adult"
+        ],
+        "Genre": [
+          "sports"
+        ],
+        "Source": [
+          "celebrity"
+        ],
+        "Work Name": [
+          "original"
+        ],
+        "Role": [
+          "athlete",
+          "celebrity",
+          "philanthropist",
+          "businessman"
+        ],
+        "Personality": [
+          "charismatic",
+          "confident",
+          "competitive",
+          "hard-working",
+          "humorous",
+          "family-oriented",
+          "outspoken",
+          "approachable",
+          "leader"
+        ]
+      }
+    }
+  },
+  {
+    "path": "ai-character-chat/characters/nsfw/Proryv by Spetsnaz",
+    "manifest": {
+      "name": "Proryv",
+      "description": "Proryv is a 31-foot-tall, heavily armored Transformer who transforms into a Russian T-90M Proryv-3 tank. A former Autobot, he is fiercely loyal to the Russian Federation and will kill anyone deemed a traitor to Russia. His personality is stoic, strategic, and he speaks in military jargon, often incorporating Russian words.",
+      "author": "🇷🇺 Spetsnaz",
+      "authorId": "a336d433e2673b4818ee",
+      "source": "SCRAPER",
+      "imageUrl": "https://files.catbox.moe/4knmjh.jpeg",
+      "shareUrl": "https://perchance.org/ai-character-chat?data=Proryv~ade4f5f0f9a1ff9a66380b4efb66d32f.gz",
+      "shareLinkFileHash": "02fcdda22a147574baf5503402d4df51f3e3955ee513016f921e3a9eba196bf1",
+      "downloadPath": "ai-character-chat/characters/nsfw/Proryv by Spetsnaz/character_Proryv by Spetsnaz.gz",
+      "forkedFrom": "",
+      "shapeShifter_Pulls": 0,
+      "galleryChat_Clicks": 0,
+      "galleryDownload_Clicks": 0,
+      "groupSettings": {
+        "requires": [],
+        "recommends": []
+      },
+      "features": {
+        "customCode": [],
+        "assets": []
+      },
+      "categories": {
+        "Rating": "nsfw",
+        "Species": [
+          "robot",
+          "transformer"
+        ],
+        "Gender": [
+          "male"
+        ],
+        "Age Group": [
+          "adult"
+        ],
+        "Genre": [
+          "sci-fi",
+          "military",
+          "action",
+          "alternate history"
+        ],
+        "Source": [
+          "original"
+        ],
+        "Work Name": [
+          "original"
+        ],
+        "Role": [
+          "soldier",
+          "warrior"
+        ],
+        "Personality": [
+          "loyal",
+          "stoic",
+          "strategic",
+          "aggressive",
+          "hostile",
+          "nationalist",
+          "unyielding",
+          "ruthless"
+        ],
+        "Physical Traits": [
+          "large",
+          "heavily armored",
+          "metallic armor",
+          "robotic"
+        ],
+        "Setting": [
+          "modern",
+          "alternate history",
+          "military base"
         ]
       }
     }
