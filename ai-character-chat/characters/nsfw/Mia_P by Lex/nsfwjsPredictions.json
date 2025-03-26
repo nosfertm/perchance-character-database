@@ -1,0 +1,58 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742963185/scrape/perchance_comments/img_Mia_P_by_Lex.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.6506359577178955
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.3329237401485443
+      },
+      {
+        "className": "Porn",
+        "probability": 0.013867986388504505
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0014405468245968223
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0011317975586280227
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  },
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742963186/scrape/perchance_comments/img_Mia_P_by_Lex.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.6506359577178955
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.3329237401485443
+      },
+      {
+        "className": "Porn",
+        "probability": 0.013867986388504505
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.0014405468245968223
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0011317975586280227
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

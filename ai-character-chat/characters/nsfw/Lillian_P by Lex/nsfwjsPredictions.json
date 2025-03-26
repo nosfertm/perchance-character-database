@@ -1,0 +1,58 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742963169/scrape/perchance_comments/img_Lillian_P_by_Lex.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.7691654562950134
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.2286365032196045
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0011672780383378267
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0009071876993402839
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00012359872926026583
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  },
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742963170/scrape/perchance_comments/img_Lillian_P_by_Lex.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.7691654562950134
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.2286365032196045
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0011672780383378267
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0009071876993402839
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00012359872926026583
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]
