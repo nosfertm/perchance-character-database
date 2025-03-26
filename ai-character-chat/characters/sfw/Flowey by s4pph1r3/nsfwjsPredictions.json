@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742963137/scrape/perchance_comments/img_Flowey_by_s4pph1r3.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.8160669803619385
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.07636737823486328
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.04246949404478073
+      },
+      {
+        "className": "Porn",
+        "probability": 0.03631136193871498
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.02878481149673462
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

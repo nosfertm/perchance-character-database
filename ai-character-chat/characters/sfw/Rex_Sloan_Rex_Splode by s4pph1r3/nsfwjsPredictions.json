@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742963197/scrape/perchance_comments/img_Rex_Sloan_Rex_Splode_by_s4pph1r3.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.8251616954803467
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.1195121705532074
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.0344257615506649
+      },
+      {
+        "className": "Porn",
+        "probability": 0.016910430043935776
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.003989882301539183
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

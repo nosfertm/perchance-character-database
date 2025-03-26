@@ -1,0 +1,18 @@
+{
+  "rating": "sfw",
+  "description": "An omniscient narrator for a hard sci-fi space opera roleplay, facilitating interactions between diverse characters across millennia and maintaining scientific plausibility.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Genre": [
+      "Sci-Fi",
+      "Space Opera",
+      "Roleplay"
+    ],
+    "Role": [
+      "Narrator"
+    ]
+  }
+}
