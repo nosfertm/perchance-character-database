@@ -14,7 +14,7 @@ const GithubUtils = {
      */
     async fetchGithubData(owner, repo, path, branch = "main", outputFormat = "json") {
         try {
-            console.log(`Fetching file from GitHub: ${owner}/${repo}/${path} (branch: ${branch})`);
+            //console.log(`Fetching file from GitHub: ${owner}/${repo}/${path} (branch: ${branch})`);
             
             const octokit = new Octokit();
             const response = await octokit.request("GET /repos/{owner}/{repo}/contents/{path}", {
@@ -27,7 +27,7 @@ const GithubUtils = {
                 },
             });
     
-            console.log("GitHub API response received.");
+            //console.log("GitHub API response received.");
     
             // Check if the content is empty (probably due to large file size)
             if (!response.data.content && response.data.size > 1000000) {
@@ -53,18 +53,18 @@ const GithubUtils = {
                 }
             } else if (response.data && response.data.content) {
                 // Processing for smaller files that can be accessed directly
-                console.log(`Content encoding: ${response.data.encoding}`);
+                //console.log(`Content encoding: ${response.data.encoding}`);
     
                 if (outputFormat === "base64") {
-                    console.log("Returning raw Base64 content.");
+                    //console.log("Returning raw Base64 content.");
                     return response.data.content;  // Return as Base64
                 } else if (outputFormat === "json") {
                     // Decode the Base64 content to retrieve the actual JSON data
-                    const decodedContent = atob(response.data.content);
+                    //const decodedContent = atob(response.data.content);
                     console.log(`Decoded content length: ${decodedContent.length} characters`);
     
                     const jsonData = JSON.parse(decodedContent);
-                    console.log("JSON content parsed successfully.");
+                    //console.log("JSON content parsed successfully.");
                     return jsonData;
                 } else {
                     throw new Error(`Invalid outputFormat: ${outputFormat}`);

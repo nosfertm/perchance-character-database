@@ -1,10 +1,13 @@
-import { ThemeManager } from './theme.js';
+import { piniaUser, piniaTheme, piniaSiteConfig } from './store.js';
 import { GithubUtils, Misc, ToastUtils } from './utils.js';
 import LoginModalComponent from '../components/modal-login.js';
 
 // ACC Characters Vue.js Application
 document.addEventListener('DOMContentLoaded', async () => {
     const { createApp } = Vue;
+
+    // Pinia initialization
+    const pinia = Pinia.createPinia();
 
     // Function to load external templates
     async function loadTemplate(url) {
@@ -18,21 +21,40 @@ document.addEventListener('DOMContentLoaded', async () => {
     const modalLoginTemplate = await loadTemplate('components/modal-login.html');
 
     const app = createApp({
-        // Data and functions to inject to the page
-        provide() {
+        setup() {
             return {
-                site: this.site,
-                themeIcon: this.themeIcon,
-                isDarkMode: this.isDarkMode,
-                setTheme: this.setTheme
-            };
+                stTheme: piniaTheme(),
+                stSite: piniaSiteConfig(),
+                stUser: piniaUser()
+            }
         },
+        async beforeMount() {
+            // Initiate the theme
+            piniaTheme().initTheme();
+
+            // Define piniaUser and call the getter
+            const piniaUSer = piniaUser();
+            piniaUSer.getUserData;
+
+            // We get the user again
+            await piniaUSer.getUser();
+
+        },
+        // Data and functions to inject to the page
+        // provide() {
+        //     return {
+        //         site: this.site,
+        //         themeIcon: this.themeIcon,
+        //         isDarkMode: this.isDarkMode,
+        //         setTheme: this.setTheme
+        //     };
+        // },
         data() {
             return {
-                // Site configuration from global CONFIG
-                site: window.CONFIG.site,       // Gerenal configuration
-                isDarkMode: localStorage.getItem('siteTheme') === 'dark',
-                currentTheme: localStorage.getItem('siteTheme'),
+                // // Site configuration from global CONFIG
+                // site: piniaSiteConfig().site,       // Gerenal configuration
+                // isDarkMode: localStorage.getItem('siteTheme') === 'dark',
+                // currentTheme: localStorage.getItem('siteTheme'),
 
                 // User variables
                 user: '',
@@ -67,14 +89,14 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         methods: {
             // Theme toggle method
-            toggleTheme() {
-                this.isDarkMode = ThemeManager.toggleTheme();
-            },
+            // toggleTheme() {
+            //     this.isDarkMode = ThemeManager.toggleTheme();
+            // },
 
-            setTheme(theme) {
-                this.currentTheme = theme;
-                this.isDarkMode = ThemeManager.toggleTheme(theme);
-            },
+            // setTheme(theme) {
+            //     this.currentTheme = theme;
+            //     this.isDarkMode = ThemeManager.toggleTheme(theme);
+            // },
 
             showCharacterModal(character) {
                 this.selectedCharacter = character;
@@ -89,13 +111,13 @@ document.addEventListener('DOMContentLoaded', async () => {
                 this.stateLoading = true;
 
                 // Debug key for logging purposes
-                const debugKey = window.CONFIG.debug?.aacCharacters?.characters ?? false;
+                const debugKey = piniaSiteConfig().debug?.aacCharacters?.characters ?? false;
                 const debugPrefix = '[CHARACTERS] ';
 
                 try {
                     Misc.debug(debugKey, debugPrefix + "Loading character data...");
 
-                    const cacheConfig = window.CONFIG.cache.accCharacters.characters;
+                    const cacheConfig = piniaSiteConfig().cache.accCharacters.characters;
                     const cacheKey = cacheConfig.key;
                     const cacheDuration = cacheConfig.duration * 60 * 1000 || 3600;
 
@@ -109,12 +131,12 @@ document.addEventListener('DOMContentLoaded', async () => {
                         charData = JSON.parse(cachedData);
                         Misc.debug(debugKey, debugPrefix + "Using cached data for characters");
                     } else {
-                        Misc.debug(debugKey, debugPrefix + "Loading characters file:", window.CONFIG.paths.accCharacters.index);
+                        Misc.debug(debugKey, debugPrefix + "Loading characters file:", piniaSiteConfig().paths.accCharacters.index);
                         const indexData = await GithubUtils.fetchGithubData(
-                            window.CONFIG.repo.owner,
-                            window.CONFIG.repo.name,
-                            window.CONFIG.paths.accCharacters.index,
-                            window.CONFIG.repo.branch,
+                            piniaSiteConfig().repo.owner,
+                            piniaSiteConfig().repo.name,
+                            piniaSiteConfig().paths.accCharacters.index,
+                            piniaSiteConfig().repo.branch,
                             "json"
                         );
 
@@ -164,13 +186,13 @@ document.addEventListener('DOMContentLoaded', async () => {
                 this.stateLoading = true;
 
                 // Debug key for logging purposes
-                const debugKey = window.CONFIG.debug?.aacCharacters?.categories ?? false;
+                const debugKey = piniaSiteConfig().debug?.aacCharacters?.categories ?? false;
                 const debugPrefix = '[CATEGORIES] ';
 
                 try {
                     Misc.debug(debugKey, debugPrefix + "Loading categories data...");
 
-                    const cacheConfig = window.CONFIG.cache.accCharacters.filters;
+                    const cacheConfig = piniaSiteConfig().cache.accCharacters.filters;
                     const cacheKey = cacheConfig.key;
                     const cacheDuration = cacheConfig.duration * 60 * 1000 || 3600; // Convert minutes to milliseconds, default 1 hour.
 
@@ -186,10 +208,10 @@ document.addEventListener('DOMContentLoaded', async () => {
                         Misc.debug(debugKey, debugPrefix + "Fetching new data for categories...\n\nReasons for not using cache:\n1. Force refresh:", forceRefresh, "\n2. Cache validity:", isCacheValid, "\n3. Cached data:", cachedData);
 
                         const categories = await GithubUtils.fetchGithubData(
-                            window.CONFIG.repo.owner,
-                            window.CONFIG.repo.name,
-                            window.CONFIG.paths.categories,
-                            window.CONFIG.repo.branch,
+                            piniaSiteConfig().repo.owner,
+                            piniaSiteConfig().repo.name,
+                            piniaSiteConfig().paths.categories,
+                            piniaSiteConfig().repo.branch,
                             "json"    // The output format is JSON
                         );
 
@@ -480,9 +502,9 @@ document.addEventListener('DOMContentLoaded', async () => {
             downloadCharacterFile(filePath) {
                 // Get repository config
                 const repo = {
-                    owner: window.CONFIG.repo.owner,
-                    name: window.CONFIG.repo.name,
-                    branch: window.CONFIG.repo.branch
+                    owner: piniaSiteConfig().repo.owner,
+                    name: piniaSiteConfig().repo.name,
+                    branch: piniaSiteConfig().repo.branch
                 };
 
                 // Construct the raw GitHub content URL
@@ -710,8 +732,16 @@ document.addEventListener('DOMContentLoaded', async () => {
     // Register the navbar component
     app.component('navbar-component', {
         template: navbarTemplate,
-        inject: ['site', 'themeIcon', 'isDarkMode', 'setTheme'],
-        props: ['user']
+        // methods: {
+        //     signOut: LoginModalComponent.methods.signOut
+        // },
+        setup() {
+            return {
+                stTheme: piniaTheme(),
+                stSite: piniaSiteConfig(),
+                stUser: piniaUser()
+            }
+        }
     });
 
     // Register the footer component
@@ -723,12 +753,19 @@ document.addEventListener('DOMContentLoaded', async () => {
     app.component('login-modal-component', {
         // Use the HTML template
         template: modalLoginTemplate,
-        props: ['isDarkMode'],
+        setup() {
+            return {
+                stTheme: piniaTheme(),
+                stSite: piniaSiteConfig(),
+                stUser: piniaUser()
+            }
+        },
         // Spread all properties from the imported component
         ...LoginModalComponent
     });
 
     /* -------------------------------- Mount APP ------------------------------- */
+    app.use(pinia);
 
     // Mount app at #app
     app.mount('#app');

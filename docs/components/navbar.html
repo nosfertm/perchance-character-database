@@ -6,7 +6,7 @@
         <!-- Logo placeholder -->
         <a class="navbar-brand d-flex align-items-center" href="index.html">
             <img src="assets/logo.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
-            <span class="d-none d-lg-block"> {{ site.pageTitle }}</span>
+            <span class="d-none d-lg-block"> {{ stSite.site.pageTitle }}</span>
         </a>
 
         <!-- Navbar items that will collapse -->
@@ -18,7 +18,7 @@
                 </li>
 
                 <!-- Dynamic menu links -->
-                <li v-for="section in site.featuredSections" :key="section.title" class="nav-item">
+                <li v-for="section in stSite.site.featuredSections" :key="section.title" class="nav-item">
                     <a class="nav-link" :class="section.link ? '': 'disabled'" :href="section.link">
                         {{section.title }}
                     </a>
@@ -29,16 +29,16 @@
             <div class="dropdown d-lg-none mb-2">
                 <button class="btn dropdown-toggle btn-outline-light" type="button" data-bs-toggle="dropdown"
                     aria-expanded="false">
-                    <i :class="themeIcon"></i> Theme
+                    <i :class="stTheme.themeIcon"></i> Theme
                 </button>
-                <ul class="dropdown-menu dropdown-menu-end" :class="{ 'dropdown-menu-dark': isDarkMode }">
+                <ul class="dropdown-menu dropdown-menu-end" :class="{ 'dropdown-menu-dark': stTheme.isDarkMode }">
                     <li>
-                        <a class="dropdown-item" href="#" @click.prevent="setTheme('light')">
+                        <a class="dropdown-item" href="#" @click.prevent="stTheme.toggleTheme('light')">
                             <i class="fas fa-sun"></i> Light
                         </a>
                     </li>
                     <li>
-                        <a class="dropdown-item" href="#" @click.prevent="setTheme('dark')">
+                        <a class="dropdown-item" href="#" @click.prevent="stTheme.toggleTheme('dark')">
                             <i class="fas fa-moon"></i> Dark
                         </a>
                     </li>
@@ -61,7 +61,7 @@
                 <slot></slot>
 
                 <!-- Login button -->
-                <button v-if="!user" class="btn btn-primary me-2 gap-2" type="button" data-bs-toggle="modal"
+                <button v-if="!stUser.userIsLoggedIn && !stSite.hideLoginButton" class="btn btn-primary me-2 gap-2" type="button" data-bs-toggle="modal"
                     data-bs-target="#loginModal" aria-controls="loginModal"
                     @click="isLoginModalOpen = !isLoginModalOpen">
                     <i class="fas fa-sign-in-alt"></i>
@@ -69,29 +69,28 @@
                 </button>
 
                 <!-- Profile button (when user is authenticated) -->
-                <div v-else class="dropdown">
+                <div v-if="stUser.userIsLoggedIn && !stSite.hideLoginButton" class="dropdown">
                     <!-- Profile Button -->
                     <button class="btn dropdown-toggle btn-outline-light"
                             type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <img :src="profile.avatar_url" alt="Avatar" onerror="this.src='assets/empty_avatar.png'"
+                        <img :src="stUser.userData?.avatar_url" alt="Avatar" onerror="this.src='assets/empty_avatar.png'"
                         class="rounded-circle me-2"  style="width: 25px; height: 25px; object-fit: cover;">
-                        <span>{{ profile.nickname }}</span>
+                        <span>{{ stUser.userData?.nickname }}</span>
                     </button>
-            
                     <!-- Dropdown menu items -->
-                    <ul class="dropdown-menu dropdown-menu-end" :class="{ 'dropdown-menu-dark': isDarkMode }">
+                    <ul class="dropdown-menu dropdown-menu-end" :class="{ 'dropdown-menu-dark': stTheme.isDarkMode }">
                         <li class="px-3 py-2 text-center">
-                            <img :src="profile.avatar_url" alt="Avatar" onerror="this.src='assets/empty_avatar.png'"
+                            <img :src="stUser.userData?.avatar_url" alt="Avatar" onerror="this.src='assets/empty_avatar.png'"
                             class="rounded-circle mb-2" style="width: 80px; height: 80px; object-fit: cover;">
-                            <div><strong>{{ profile.nickname }}</strong></div>
-                            <small :class="isDarkMode ? 'text-light' : 'text-muted'" style="font-style: italic;">{{ profile.email }}</small>
+                            <div><strong>{{ stUser.userData?.nickname }}</strong></div>
+                            <small :class="stTheme.isDarkMode ? 'text-light' : 'text-muted'" style="font-style: italic;">{{ stUser.userData?.email }}</small>
                         </li>
-                        
-                        <li><hr :class="isDarkMode ? 'border-light' : 'border-dark'"></li>
+                    
+                        <li><hr :class="stTheme.isDarkMode ? 'border-light' : 'border-dark'"></li>
                         <li><a class="dropdown-item" href="edit-profile.html"><i class="fa-solid fa-user me-2"></i> My Profile</a></li>
                         <li><a class="dropdown-item" href="#"><i class="fa-solid fa-cog me-2"></i> Settings</a></li>
                         <li><a class="dropdown-item" href="#"><i class="fa-solid fa-question-circle me-2"></i> Help</a></li>
-                        <li><hr :class="isDarkMode ? 'border-light' : 'border-dark'"></li>
+                        <li><hr :class="stTheme.isDarkMode ? 'border-light' : 'border-dark'"></li>
                         <li>
                             <a 
                               class="dropdown-item text-danger" 
@@ -117,17 +116,17 @@
             <div class="dropdown d-none d-lg-block ms-2">
                 <button class="btn dropdown-toggle btn-outline-light" type="button" id="themeToggleDropdown"
                     data-bs-toggle="dropdown" aria-expanded="false">
-                    <i :class="themeIcon"></i>
+                    <i :class="stTheme.themeIcon"></i>
                 </button>
-                <ul class="dropdown-menu dropdown-menu-end" :class="{ 'dropdown-menu-dark': isDarkMode }"
+                <ul class="dropdown-menu dropdown-menu-end" :class="{ 'dropdown-menu-dark': stTheme.isDarkMode }"
                     aria-labelledby="themeToggleDropdown">
                     <li>
-                        <a class="dropdown-item" href="#" @click.prevent="setTheme('light')">
+                        <a class="dropdown-item" href="#" @click.prevent="stTheme.toggleTheme">
                             <i class="fas fa-sun"></i> Light
                         </a>
                     </li>
                     <li>
-                        <a class="dropdown-item" href="#" @click.prevent="setTheme('dark')">
+                        <a class="dropdown-item" href="#" @click.prevent="stTheme.toggleTheme">
                             <i class="fas fa-moon"></i> Dark
                         </a>
                     </li>

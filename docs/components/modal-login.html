@@ -1,7 +1,8 @@
 <!-- Login Modal -->
-<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+<div :class="stSite.hideLoginButton ? 'wrapper' : 'modal fade'" id="loginModal" tabindex="-1"
+    aria-labelledby="loginModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content" :class="{'bg-dark': isDarkMode}">
+        <div class="modal-content" :class="{'bg-dark': stTheme.isDarkMode}">
 
             <!-- Modal Body containing the login form -->
             <div class="modal-body">
@@ -15,14 +16,15 @@
                     <button type="button" class="btn-close" @click="error = ''"></button>
                 </div>
 
-                <button type="button" class="btn-close" :class="{'btn-close-white': isDarkMode}" data-bs-dismiss="modal"
-                    aria-label="Close" style="position: absolute; top: 20px; right: 20px;">
+                <button v-if="!stSite.hideLoginButton" type="button" class="btn-close"
+                    :class="{'btn-close-white': stTheme.isDarkMode}" data-bs-dismiss="modal" aria-label="Close"
+                    style="position: absolute; top: 20px; right: 20px;">
                 </button>
 
 
                 <!-- User is logged in -->
                 <div v-if="user" class="card border border-light-subtle rounded-4"
-                    :class="{'bg-dark text-light border-dark-subtle': isDarkMode}">
+                    :class="{'bg-dark text-light border-dark-subtle': stTheme.isDarkMode}">
                     <div class="card-body p-3 p-md-4">
                         <div class="text-center mb-4">
                             <h4 class="mb-3">Welcome back!</h4>
@@ -38,7 +40,7 @@
                 </div>
 
                 <!-- User is not logged in -->
-                <div v-else :class="{'bg-dark text-light border-dark-subtle': isDarkMode}">
+                <div v-else :class="{'bg-dark text-light border-dark-subtle': stTheme.isDarkMode}">
                     <div class="card-body p-1 p-md-2 p-xl-3">
                         <div class="row">
                             <div class="col-12">
@@ -65,186 +67,29 @@
                             </div>
                         </div>
 
-                        <!-- Form Container with Transitions -->
+                        <!-- ----------------------------------------------------------------------- -->
+                        <!--                     Form Container with Transitions                     -->
+                        <!-- ----------------------------------------------------------------------- -->
                         <transition name="slide-fade" mode="out-in">
-                            <!-- Magic Link Sent - Confirmation Screen -->
-                            <div v-if="showMagicLinkSent" key="magic-link-sent">
-                                <p class="text-center">We've sent a magic link to <strong>{{ magicLinkEmail
-                                        }}</strong></p>
-                                <p class="text-center">Click the link in the email to sign in automatically.</p>
-                                <div class="d-grid mt-4">
-                                    <button
-                                        @click="showMagicLinkSent = false; showMagicLinkForm = false; magicLinkEmail = ''"
-                                        class="btn bsb-btn-xl btn-secondary" :class="{'btn-outline-light': isDarkMode}">
-                                        Back to Login
-                                    </button>
-                                </div>
-                            </div>
 
-                            <!-- Magic Link Form -->
-                            <div v-else-if="showMagicLinkForm" key="magic-link-form">
-                                <form @submit.prevent="sendMagicLink">
-                                    <div class="row gy-3 overflow-hidden">
-                                        <div class="col-12">
-                                            <div class="form-floating mb-3">
-                                                <input type="email" class="form-control"
-                                                    :class="{'bg-dark text-light border-white': isDarkMode, 'border-dark': !isDarkMode}"
-                                                    id="magicLinkEmail" v-model="magicLinkEmail"
-                                                    placeholder="name@example.com" required>
-                                                <label for="magicLinkEmail" class="form-label">Your
-                                                    Email</label>
-                                            </div>
-                                            <div class="d-grid">
-                                                <button type="submit" class="btn bsb-btn-xl btn-primary"
-                                                    :disabled="loading || !magicLinkEmail">
-                                                    <span v-if="loading"
-                                                        class="spinner-border spinner-border-sm me-2"></span>
-                                                    Send Magic Link
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row text-center">
-                                        <div class="col-12">
-                                            <hr class="mt-3 mb-2 border-secondary-subtle">
-                                            <a href="#!" @click.prevent="showMagicLinkForm = false"
-                                                class="link-secondary text-decoration-none"
-                                                :class="{'link-light': isDarkMode}">
-                                                Back to login
-                                            </a>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-
-                            <!-- Login Form -->
-                            <div v-else-if="!showSignUp && !showForgotPassword && !showMagicLinkForm && !showMagicLinkSent"
-                                key="login-form">
-                                <form @submit.prevent="signIn">
-                                    <div class="row gy-3 overflow-hidden">
-                                        <div class="col-12">
-                                            <div class="form-floating mb-2" :class="{'dark-mode': isDarkMode}">
-                                                <input type="email" class="form-control"
-                                                    :class="{'bg-dark text-light border-white': isDarkMode, 'border-dark': !isDarkMode}"
-                                                    id="email" v-model="email" placeholder="name@example.com" required>
-                                                <label for="email" class="form-label">Email</label>
-                                            </div>
-
-                                        </div>
-                                        <div class="col-12">
-                                            <div class="form-floating mb-2">
-                                                <input type="password" class="form-control"
-                                                    :class="{'bg-dark text-light border-white': isDarkMode, 'border-dark': !isDarkMode}"
-                                                    id="password" v-model="password" placeholder="Password" required>
-                                                <label for="password" class="form-label">Password</label>
-                                            </div>
-                                        </div>
-                                        <div class="col-12">
-                                            <div class="form-check">
-                                                <input class="form-check-input"
-                                                    :class="{'bg-dark border-secondary': isDarkMode}" type="checkbox"
-                                                    v-model="rememberMe" id="remember_me">
-                                                <label class="form-check-label text-secondary"
-                                                    :class="{'text-light': isDarkMode}" for="remember_me">
-                                                    Keep me logged in
-                                                </label>
-                                            </div>
-                                        </div>
-                                        <div class="col-12">
-                                            <div class="d-grid">
-                                                <button class="btn bsb-btn-xl btn-primary" type="submit"
-                                                    :disabled="loading">
-                                                    <span v-if="loading"
-                                                        class="spinner-border spinner-border-sm me-2"></span>
-                                                    Log in now
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </form>
-
-                                <div class="d-flex flex-column align-items-center text-center py-2 mt-1">
-                                    <div class="d-flex flex-column flex-md-row gap-2 justify-content-center">
-                                        <a href="#!" @click.prevent="toggleSignUp"
-                                            class="link-secondary text-decoration-none small-links"
-                                            :class="{'link-light': isDarkMode}">
-                                            Create account
-                                        </a>
-                                        <span class="text-secondary d-none d-md-block"
-                                            :class="{'text-light': isDarkMode}">|</span>
-                                        <a href="#!" @click.prevent="toggleForgotPassword"
-                                            class="link-secondary text-decoration-none small-links"
-                                            :class="{'link-light': isDarkMode}">
-                                            Forgot password
-                                        </a>
-                                        <span class="text-secondary d-none d-md-block"
-                                            :class="{'text-light': isDarkMode}">|</span>
-                                        <a href="#!" @click.prevent="toggleMagicLink"
-                                            class="link-secondary text-decoration-none small-links"
-                                            :class="{'link-light': isDarkMode}">
-                                            Magic link login
-                                        </a>
-                                    </div>
-                                    <hr class="w-100 border-secondary-subtle mt-2">
-                                </div>
-
-
-                                <!-- Social Login Section -->
-                                <div class="row">
-                                    <div class="col-12">
-                                        <!-- <hr class="mt-3 mb-2 border-secondary-subtle"> -->
-                                        <p class="mb-2 text-center" :class="{'text-light': isDarkMode}">
-                                            Or continue with:</p>
-                                        <div class="d-flex gap-2 gap-sm-3 justify-content-center">
-                                            <button @click="signInWithGoogle"
-                                                class="btn btn-lg btn-outline-danger p-3 lh-1">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
-                                                    fill="currentColor" class="bi bi-google" viewBox="0 0 16 16">
-                                                    <path
-                                                        d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z" />
-                                                </svg>
-                                            </button>
-                                            <button @click="signInWithDiscord"
-                                                class="btn btn-lg btn-outline-primary p-3 lh-1">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
-                                                    fill="currentColor" class="bi bi-discord" viewBox="0 0 16 16">
-                                                    <path
-                                                        d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.418-.833.051.051 0 0 0-.052-.025c-1.125.2-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032a.052.052 0 0 0 .019.033c1.37 1.01 2.69 1.625 4.059 2.032a.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.326a.05.05 0 0 0-.01-.059.051.051 0 0 0-.029-.013 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.017c.083-.063.166-.129.248-.195a.05.05 0 0 1 .05-.007c2.619 1.196 5.454 1.196 8.041 0a.05.05 0 0 1 .051.006c.082.066.165.132.248.195a.051.051 0 0 1-.004.083 8.808 8.808 0 0 1-1.249.594.05.05 0 0 0-.03.014.05.05 0 0 0-.01.059c.24.463.514.906.818 1.326a.05.05 0 0 0 .056.019c1.37-.407 2.69-1.021 4.059-2.032a.052.052 0 0 0 .019-.033c.334-3.438-.559-6.44-2.366-9.107a.034.034 0 0 0-.02-.019ZM5.856 10.54c-.788 0-1.438-.724-1.438-1.612 0-.889.635-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.635 1.612-1.438 1.612Zm4.288 0c-.788 0-1.438-.724-1.438-1.612 0-.889.635-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.635 1.612-1.438 1.612Z" />
-                                                </svg>
-                                            </button>
-                                            <button @click="signInWithGitHub" class="btn btn-lg p-3 lh-1"
-                                                :class="isDarkMode ? 'btn-outline-light' : 'btn-outline-dark'">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
-                                                    fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                                                    <path
-                                                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52 -.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2 -3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64 -.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.03 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.28.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.19 0 .21.15.46.55.38C13.71 14.53 16 11.54 16 8c0-4.42-3.58-8-8-8z" />
-                                                </svg>
-                                            </button>
-
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                            </div>
-
-                            <!-- Sign Up Form -->
-                            <form v-else-if="showSignUp" @submit.prevent="signUp" key="signup-form">
+                            <!-- ---------------------------- Sign Up Form ----------------------------- -->
+                            <form v-if="showSignUp" @submit.prevent="signUp" key="signup-form">
                                 <div class="row gy-3 overflow-hidden">
                                     <div class="col-12">
                                         <div class="form-floating mb-2">
                                             <input type="email" class="form-control"
-                                                :class="{'bg-dark text-light border-white': isDarkMode, 'border-dark': !isDarkMode}"
-                                                id="signUpEmail" v-model="email" placeholder="name@example.com"
-                                                required>
+                                                :class="{'bg-dark text-light border-white': stTheme.isDarkMode, 'border-dark': !stTheme.isDarkMode}"
+                                                id="signUpEmail" v-model="email" required>
+                                            <!-- placeholder="name@example.com" required> -->
                                             <label for="signUpEmail" class="form-label">Email</label>
                                         </div>
                                     </div>
                                     <div class="col-12">
                                         <div class="form-floating mb-2">
                                             <input type="password" class="form-control"
-                                                :class="{'bg-dark text-light border-white': isDarkMode, 'border-dark': !isDarkMode}"
-                                                id="signUpPassword" v-model="password" placeholder="Password" required>
+                                                :class="{'bg-dark text-light border-white': stTheme.isDarkMode, 'border-dark': !stTheme.isDarkMode}"
+                                                id="signUpPassword" v-model="password" required>
+                                            <!-- placeholder="Password" required> -->
                                             <label for="signUpPassword" class="form-label">Password</label>
                                         </div>
                                     </div>
@@ -259,26 +104,26 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row text-center">
+                                <div class="row text-center mt-3">
                                     <div class="col-12">
-                                        <hr class="mt-3 mb-2 border-secondary-subtle">
+                                        <hr class="mb-2 border-secondary-subtle">
                                         <a href="#!" @click.prevent="toggleSignUp"
                                             class="link-secondary text-decoration-none"
-                                            :class="{'link-light': isDarkMode}">
+                                            :class="{'link-light': stTheme.isDarkMode}">
                                             Already have an account? Log in
                                         </a>
                                     </div>
                                 </div>
                             </form>
 
-                            <!-- Password Reset Form -->
+                            <!-- ------------------------- Password Reset Form ------------------------- -->
                             <form v-else-if="showForgotPassword" @submit.prevent="resetPassword" key="forgot-form">
                                 <div class="row gy-3 overflow-hidden">
                                     <div class="col-12">
                                         <div class="form-floating mb-2">
                                             <input type="email" class="form-control"
-                                                :class="{'bg-dark text-light border-white': isDarkMode, 'border-dark': !isDarkMode}"
-                                                id="resetEmail" v-model="email" placeholder="name@example.com" required>
+                                                :class="{'bg-dark text-light border-white': stTheme.isDarkMode, 'border-dark': !stTheme.isDarkMode}"
+                                                id="resetEmail" v-model="email" required>
                                             <label for="resetEmail" class="form-label">Email</label>
                                         </div>
                                     </div>
@@ -298,12 +143,177 @@
                                         <hr class="mt-3 mb-2 border-secondary-subtle">
                                         <a href="#!" @click.prevent="toggleForgotPassword"
                                             class="link-secondary text-decoration-none"
-                                            :class="{'link-light': isDarkMode}">
+                                            :class="{'link-light': stTheme.isDarkMode}">
                                             Back to login
                                         </a>
                                     </div>
                                 </div>
                             </form>
+
+                            <!-- --------------------------- Magic Link Form --------------------------- -->
+                            <div v-else-if="showMagicLinkForm" key="magic-link-form">
+                                <form @submit.prevent="sendMagicLink">
+                                    <div class="row gy-3 overflow-hidden">
+                                        <div class="col-12">
+                                            <div class="form-floating mb-3">
+                                                <input type="email" class="form-control"
+                                                    :class="{'bg-dark text-light border-white': stTheme.isDarkMode, 'border-dark': !stTheme.isDarkMode}"
+                                                    id="magicLinkEmail" v-model="magicLinkEmail">
+                                                <!-- placeholder="name@example.com" required> -->
+                                                <label for="magicLinkEmail" class="form-label">Your
+                                                    Email</label>
+                                            </div>
+                                            <div class="d-grid">
+                                                <button type="submit" class="btn bsb-btn-xl btn-primary"
+                                                    :disabled="loading || !magicLinkEmail">
+                                                    <span v-if="loading"
+                                                        class="spinner-border spinner-border-sm me-2"></span>
+                                                    Send Magic Link
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row text-center">
+                                        <div class="col-12">
+                                            <hr class="mt-3 mb-2 border-secondary-subtle">
+                                            <a href="#!" @click.prevent="showMagicLinkForm = false"
+                                                class="link-secondary text-decoration-none"
+                                                :class="{'link-light': stTheme.isDarkMode}">
+                                                Back to login
+                                            </a>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+
+                            <!-- ---------------- Magic Link Sent - Confirmation Screen ---------------- -->
+                            <div v-if="showMagicLinkSent" key="magic-link-sent">
+                                <p class="text-center">We've sent a magic link to <strong>{{ magicLinkEmail
+                                        }}</strong></p>
+                                <p class="text-center">Click the link in the email to sign in automatically.</p>
+                                <div class="d-grid mt-4">
+                                    <button
+                                        @click="showMagicLinkSent = false; showMagicLinkForm = false; magicLinkEmail = ''"
+                                        class="btn bsb-btn-xl btn-secondary"
+                                        :class="{'btn-outline-light': stTheme.isDarkMode}">
+                                        Back to Login
+                                    </button>
+                                </div>
+                            </div>
+
+                            <!-- ----------------------------- Login Form ------------------------------ -->
+                            <div v-else key="login-form">
+                                <form @submit.prevent="signIn">
+                                    <div class="row gy-3 overflow-hidden">
+                                        <div class="col-12">
+                                            <div class="form-floating mb-2" :class="{'dark-mode': stTheme.isDarkMode}">
+                                                <input type="email" class="form-control"
+                                                    :class="{'bg-dark text-light border-white': stTheme.isDarkMode, 'border-dark': !stTheme.isDarkMode}"
+                                                    id="email" v-model="email" required>
+                                                <!-- placeholder="name@example.com" required> -->
+                                                <label for="email" class="form-label">Email</label>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="form-floating mb-2">
+                                                <input type="password" class="form-control"
+                                                    :class="{'bg-dark text-light border-white': stTheme.isDarkMode, 'border-dark': !stTheme.isDarkMode}"
+                                                    id="password" v-model="password" required>
+                                                <!-- placeholder="Password" required> -->
+                                                <label for="password" class="form-label">Password</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="form-check">
+                                                <input class="form-check-input"
+                                                    :class="{'bg-dark border-secondary': stTheme.isDarkMode}"
+                                                    type="checkbox" v-model="rememberMe" id="remember_me">
+                                                <label class="form-check-label text-secondary"
+                                                    :class="{'text-light': stTheme.isDarkMode}" for="remember_me">
+                                                    Keep me logged in
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="d-grid">
+                                                <button class="btn bsb-btn-xl btn-primary" type="submit"
+                                                    :disabled="loading">
+                                                    <span v-if="loading"
+                                                        class="spinner-border spinner-border-sm me-2"></span>
+                                                    Log in now
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+
+                                <!-- Interaction Links -->
+                                <div class="d-flex flex-column align-items-center text-center py-2 mt-1">
+                                    <div class="d-flex flex-column flex-md-row gap-2 justify-content-center">
+                                        <a href="#!" @click.prevent="toggleSignUp"
+                                            class="link-secondary text-decoration-none small-links"
+                                            :class="{'link-light': stTheme.isDarkMode}">
+                                            Create account
+                                        </a>
+                                        <span class="text-secondary d-none d-md-block"
+                                            :class="{'text-light': stTheme.isDarkMode}">|</span>
+                                        <a href="#!" @click.prevent="toggleForgotPassword"
+                                            class="link-secondary text-decoration-none small-links"
+                                            :class="{'link-light': stTheme.isDarkMode}">
+                                            Forgot password
+                                        </a>
+                                        <span class="text-secondary d-none d-md-block"
+                                            :class="{'text-light': stTheme.isDarkMode}">|</span>
+                                        <a href="#!" @click.prevent="toggleMagicLink"
+                                            class="link-secondary text-decoration-none small-links"
+                                            :class="{'link-light': stTheme.isDarkMode}">
+                                            Magic link login
+                                        </a>
+                                    </div>
+                                    <hr class="w-100 border-secondary-subtle mt-2">
+                                </div>
+
+
+                                <!-- Social Login Section -->
+                                <div class="row">
+                                    <div class="col-12">
+                                        <!-- <hr class="mt-3 mb-2 border-secondary-subtle"> -->
+                                        <p class="mb-2 text-center" :class="{'text-light': stTheme.isDarkMode}">
+                                            Or continue with:</p>
+                                        <div class="d-flex gap-2 gap-sm-3 justify-content-center">
+                                            <button @click="signInWithGoogle"
+                                                class="btn btn-lg btn-outline-danger p-3 lh-1">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                                    fill="currentColor" class="bi bi-google" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z" />
+                                                </svg>
+                                            </button>
+                                            <button @click="signInWithDiscord"
+                                                class="btn btn-lg btn-outline-primary p-3 lh-1">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                                    fill="currentColor" class="bi bi-discord" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.418-.833.051.051 0 0 0-.052-.025c-1.125.2-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032a.052.052 0 0 0 .019.033c1.37 1.01 2.69 1.625 4.059 2.032a.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.326a.05.05 0 0 0-.01-.059.051.051 0 0 0-.029-.013 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.017c.083-.063.166-.129.248-.195a.05.05 0 0 1 .05-.007c2.619 1.196 5.454 1.196 8.041 0a.05.05 0 0 1 .051.006c.082.066.165.132.248.195a.051.051 0 0 1-.004.083 8.808 8.808 0 0 1-1.249.594.05.05 0 0 0-.03.014.05.05 0 0 0-.01.059c.24.463.514.906.818 1.326a.05.05 0 0 0 .056.019c1.37-.407 2.69-1.021 4.059-2.032a.052.052 0 0 0 .019-.033c.334-3.438-.559-6.44-2.366-9.107a.034.034 0 0 0-.02-.019ZM5.856 10.54c-.788 0-1.438-.724-1.438-1.612 0-.889.635-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.635 1.612-1.438 1.612Zm4.288 0c-.788 0-1.438-.724-1.438-1.612 0-.889.635-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.635 1.612-1.438 1.612Z" />
+                                                </svg>
+                                            </button>
+                                            <button @click="signInWithGitHub" class="btn btn-lg p-3 lh-1"
+                                                :class="stTheme.isDarkMode ? 'btn-outline-light' : 'btn-outline-dark'">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                                                    fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52 -.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2 -3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64 -.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.03 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.28.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.19 0 .21.15.46.55.38C13.71 14.53 16 11.54 16 8c0-4.42-3.58-8-8-8z" />
+                                                </svg>
+                                            </button>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
                         </transition>
                     </div>
                 </div>

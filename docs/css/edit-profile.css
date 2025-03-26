@@ -3,9 +3,8 @@
     border: 1px solid #ddd;
     border-radius: 15px;
     margin: 10px auto;
-    max-width: 70%;
+    width: 600px;
 }
-
 
 .avatar{
     max-width: 15vw;

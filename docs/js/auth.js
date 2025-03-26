@@ -1,7 +1,19 @@
 import { supabase } from './supabase.js'
+// Import the pinia store
+import { piniaUser, piniaTheme, piniaSiteConfig } from './store.js';
 
+    // Pinia initialization
+    const pinia = Pinia.createPinia();
+    
 // Create Vue application
 const app = Vue.createApp({
+    setup() {
+        return {
+            stTheme: piniaTheme(),
+            stSite: piniaSiteConfig(),
+            stUser: piniaUser()
+        }
+    },
     // Data properties for the application
     data() {
         return {
@@ -357,6 +369,8 @@ const app = Vue.createApp({
         });
     }
 });
+
+app.use(pinia);
 
 // Mount the Vue app
 app.mount('#auth-app');

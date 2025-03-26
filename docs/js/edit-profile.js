@@ -1,5 +1,5 @@
 // Import necessary modules
-import { ThemeManager } from './theme.js';
+import { piniaUser, piniaTheme, piniaSiteConfig } from './store.js';
 import { ToastUtils } from './utils.js';
 import LoginModalComponent from '../components/modal-login.js';
 import { DatabaseService } from './supabase.js';
@@ -7,6 +7,9 @@ import { DatabaseService } from './supabase.js';
 document.addEventListener('DOMContentLoaded', async () => {
     // Vue 3 application initialization
     const { createApp } = Vue;
+
+    // Pinia initialization
+    const pinia = Pinia.createPinia();
 
     // Function to load external templates
     async function loadTemplate(url) {
@@ -20,34 +23,31 @@ document.addEventListener('DOMContentLoaded', async () => {
     const modalLoginTemplate = await loadTemplate('components/modal-login.html');
 
     const app = createApp({
-        // Data and functions to inject to the page
-        provide() {
+        setup() {
             return {
-                site: this.site,
-                themeIcon: this.themeIcon,
-                isDarkMode: this.isDarkMode,
-                setTheme: this.setTheme,
-            };
+                stTheme: piniaTheme(),
+                stSite: piniaSiteConfig(),
+                stUser: piniaUser()
+            }
+        },
+        async beforeMount() {
+            // Initiate the theme
+            piniaTheme().initTheme();
+
+            // Define piniaUser and call the getter
+            const piniaUSer = piniaUser();
+            piniaUSer.getUserData;
+
+            // We get the user again
+            await piniaUSer.getUser();
+
+            // Goes back to index if not logged in
+            // if (!piniaUSer.userIsLoggedIn) {
+            //     window.location.href = '/index.html';
+            // }
         },
         data() {
             return {
-                // Site configuration from global CONFIG
-                site: window.CONFIG.site,       // General configuration
-                isDarkMode: localStorage.getItem('siteTheme') === 'dark',
-                currentTheme: localStorage.getItem('siteTheme') === 'dark',
-
-                // User and profile data
-                user: null,
-                profile: {
-                    nickname: '',
-                    email: '',
-                    bio: '',
-                    avatar_url: '',
-                    public_profile: true,
-                    show_nsfw: false,
-                    blur_nsfw: true
-                },
-
                 // UI states
                 loading: false,
                 avatarFile: null,
@@ -57,100 +57,21 @@ document.addEventListener('DOMContentLoaded', async () => {
             };
         },
         methods: {
-            // Theme related methods
-            toggleTheme() {
-                this.isDarkMode = !this.isDarkMode;
-                ThemeManager.toggleTheme();
-            },
-            setTheme(theme) {
-                this.currentTheme = theme;
-                this.isDarkMode = ThemeManager.toggleTheme(theme);
-            },
 
-            // Profile methods
-            async loadUserProfile() {
-                this.loading = true;
-                try {
-                    // Get the data
-                    const { user, data, error } = await DatabaseService.getUserProfile();
-            
-                    if (error) {
-                        console.error('Error loading user profile:', error);
-                        return;
-                    }
-            
-                    if (data) {
-                        // Update the profile data
-                        this.user = user || '';
-                        this.profile.nickname = data.nickname || '';
-                        this.profile.email = user.email || '';
-                        this.profile.bio = data.bio || '';
-                        
-                        // Set the avatar URL from the data initially
-                        this.profile.avatar_url = data.avatar_url || '';
-                        
-                        // Try to load the avatar from cache
-                        if (data.avatar_url) {
-                            const cachedAvatarKey = `avatar_image_${user.id}`;
-                            
-                            try {
-                                // Try to get the cached image data
-                                const cachedImageData = localStorage.getItem(cachedAvatarKey);
-                                
-                                if (cachedImageData) {
-                                    // Parse the cached data
-                                    const { dataUrl, timestamp, url } = JSON.parse(cachedImageData);
-                                    
-                                    // Check if cache is still valid (24 hours) and URL matches
-                                    const cacheAge = Date.now() - timestamp;
-                                    const cacheValid = cacheAge < 24 * 60 * 60 * 1000; // 24 hours
-                                    
-                                    if (cacheValid && url === data.avatar_url) {
-                                        // Use the cached image data directly
-                                        this.profile.avatar_url = dataUrl;
-                                        console.log('Using cached avatar image');
-                                    } else {
-                                        // Cache is invalid or URL changed, fetch and cache the new image
-                                        this.fetchAndCacheAvatar(data.avatar_url, user.id);
-                                    }
-                                } else {
-                                    // No cache exists, fetch and cache the image
-                                    this.fetchAndCacheAvatar(data.avatar_url, user.id);
-                                }
-                            } catch (cacheError) {
-                                console.error('Error accessing avatar cache:', cacheError);
-                                // If there's an error with the cache, just use the URL directly
-                            }
-                        }
-                        
-                        this.profile.public_profile = data.public_profile;
-                        this.profile.show_nsfw = data.show_nsfw;
-                        this.profile.blur_nsfw = data.blur_nsfw;
-            
-                        // Set form values
-                        this.setFormValues();
-                    }
-                } catch (error) {
-                    console.error('Error loading profile:', error);
-                } finally {
-                    this.loading = false;
-                }
-            },
-            
             // Helper method to fetch and cache the avatar image
             async fetchAndCacheAvatar(url, userId) {
                 if (!url) return;
-                
+
                 try {
                     // Fetch the image
                     const response = await fetch(url);
                     const blob = await response.blob();
-                    
+
                     // Convert the image to a data URL
                     const reader = new FileReader();
                     reader.onloadend = () => {
                         const dataUrl = reader.result;
-                        
+
                         // Cache the image data
                         const cachedAvatarKey = `avatar_image_${userId}`;
                         localStorage.setItem(cachedAvatarKey, JSON.stringify({
@@ -158,9 +79,9 @@ document.addEventListener('DOMContentLoaded', async () => {
                             url,
                             timestamp: Date.now()
                         }));
-                        
+
                         // Update the avatar URL to use the cached data URL
-                        this.profile.avatar_url = dataUrl;
+                        piniaUser().userData.avatar_url = dataUrl;
                     };
                     reader.readAsDataURL(blob);
                 } catch (error) {
@@ -168,32 +89,14 @@ document.addEventListener('DOMContentLoaded', async () => {
                 }
             },
 
-            // Set form values from profile data
-            setFormValues() {
-                // Set input values
-                document.querySelector('input[placeholder="Steve"]').value = this.profile.nickname;
-                document.querySelector('input[placeholder="steve_@email.com"]').value = this.profile.email;
-                document.querySelector('textarea[placeholder="Tell us about yourself..."]').value = this.profile.bio;
-
-                // Set radio buttons
-                document.querySelector(`input[name="public_profile"][value="${this.profile.public_profile ? 'true' : 'false'}"]`).checked = true;
-                document.querySelector(`input[name="showNSFW"][value="${this.profile.show_nsfw ? 'true' : 'false'}"]`).checked = true;
-                document.querySelector(`input[name="blurNSFW"][value="${this.profile.blur_nsfw ? 'true' : 'false'}"]`).checked = true;
-
-                // Set avatar if available
-                if (this.profile.avatar_url) {
-                    document.querySelector('.avatar').src = this.profile.avatar_url;
-                }
-            },
-
             // Get form values and update profile data
             getFormValues() {
-                this.profile.nickname = document.querySelector('input[placeholder="Steve"]').value;
-                this.profile.email = document.querySelector('input[placeholder="steve_@email.com"]').value;
-                this.profile.bio = document.querySelector('textarea[placeholder="Tell us about yourself..."]').value;
-                this.profile.public_profile = document.querySelector('input[name="public_profile"]:checked').value === 'true';
-                this.profile.show_nsfw = document.querySelector('input[name="showNSFW"]:checked').value === 'true';
-                this.profile.blur_nsfw = document.querySelector('input[name="blurNSFW"]:checked').value === 'true';
+                piniaUser().userData.nickname = document.querySelector('input[name="nickname"]').value || piniaUser().userData.nickname;
+                piniaUser().userData.email = document.querySelector('input[name="email"]').value || piniaUser().userData.email;
+                piniaUser().userData.bio = document.querySelector('textarea[name="bio"]').value || piniaUser().userData.bio;
+                piniaUser().userData.public_profile = document.querySelector('input[name="public_profile"]:checked').value === 'true';
+                piniaUser().userData.show_nsfw = document.querySelector('input[name="showNSFW"]:checked').value === 'true';
+                piniaUser().userData.blur_nsfw = document.querySelector('input[name="blurNSFW"]:checked').value === 'true';
             },
 
             // This method is called when the user clicks the button to upload an avatar.
@@ -204,7 +107,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
                 // Set its properties
                 fileInput.type = 'file';           // Set input type to file
-                fileInput.accept = 'image/png';    // Accept only PNG images
+                fileInput.accept = 'image/*';    // Accept only images
                 fileInput.style.display = 'none';  // Hide the input from view
 
                 // Add the file input to the document body
@@ -290,12 +193,12 @@ document.addEventListener('DOMContentLoaded', async () => {
                     if (this.avatarFile) {
                         const avatarUrl = await this.uploadAvatar();
                         if (avatarUrl) {
-                            this.profile.avatar_url = avatarUrl;
+                            piniaUser().userData.avatar_url = avatarUrl;
                         }
                     }
 
                     // Check if email changed
-                    // const currentEmail = document.querySelector('input[placeholder="steve_@email.com"]').value;
+                    // const currentEmail = document.querySelector('input[name="email"]').value;
                     // if (this.user && this.user.email !== currentEmail) {
                     //     // Update email in auth system
                     //     const { error: emailError } = await DatabaseService.updateEmail(currentEmail);
@@ -309,11 +212,11 @@ document.addEventListener('DOMContentLoaded', async () => {
                     const { error } = await DatabaseService.update(
                         'user_profiles',
                         {
-                            nickname: this.profile.nickname,
-                            bio: this.profile.bio,
-                            public_profile: this.profile.public_profile,
-                            show_nsfw: this.profile.show_nsfw,
-                            blur_nsfw: this.profile.blur_nsfw
+                            nickname: piniaUser().userData.nickname,
+                            bio: piniaUser().userData.bio,
+                            public_profile: piniaUser().userData.public_profile,
+                            show_nsfw: piniaUser().userData.show_nsfw,
+                            blur_nsfw: piniaUser().userData.blur_nsfw
                         }
                     );
 
@@ -321,6 +224,19 @@ document.addEventListener('DOMContentLoaded', async () => {
                         this.saveError = 'Failed to update profile. ' + error.message;
                         return;
                     }
+
+                    // Updates user_info on the local storage
+                    const cachedUserData = JSON.parse(localStorage.getItem('user_basic_info')) || {};
+                    const updatedUserData = {
+                        ...cachedUserData,
+                        ...(piniaUser().userData.nickname ? { nickname: piniaUser().userData.nickname } : {}),
+                        ...(piniaUser().userData.bio ? { bio: piniaUser().userData.bio } : {}),
+                        ...(piniaUser().userData.public_profile !== undefined ? { public_profile: piniaUser().userData.public_profile } : {}),
+                        ...(piniaUser().userData.show_nsfw !== undefined ? { show_nsfw: piniaUser().userData.show_nsfw } : {}),
+                        ...(piniaUser().userData.blur_nsfw !== undefined ? { blur_nsfw: piniaUser().userData.blur_nsfw } : {})
+                    };
+
+                    localStorage.setItem('user_basic_info', JSON.stringify(updatedUserData));
 
                     this.saveSuccess = true;
 
@@ -364,56 +280,8 @@ document.addEventListener('DOMContentLoaded', async () => {
                 }
             }
         },
-        computed: {
-            themeIcon() {
-                switch (this.currentTheme) {
-                    case 'dark':
-                        return 'fas fa-moon';
-                    case 'auto':
-                        return 'fas fa-circle-half-stroke';
-                    default:
-                        return 'fas fa-sun';
-                }
-            },
-        },
         async mounted() {
-            this.isDarkMode = ThemeManager.isDarkMode();
-
-            // Load user profile when the page is mounted
-            await this.loadUserProfile();
-
-            //Setup event listeners for UI elements
-
-            // // Avatar upload button
-            // const uploadButton = document.querySelector('button.btn-secondary');
-            // if (uploadButton) {
-            //     // Create a hidden file input
-            //     const fileInput = document.createElement('input');
-            //     fileInput.type = 'file';
-            //     fileInput.accept = 'image/png';
-            //     fileInput.style.display = 'none';
-            //     document.body.appendChild(fileInput);
-
-            //     // Connect the button to the file input
-            //     uploadButton.addEventListener('click', () => {
-            //         fileInput.click();
-            //     });
-
-            //     // Handle file selection
-            //     fileInput.addEventListener('change', this.handleAvatarSelect);
-            // }
-
-            // // Save changes button
-            // const saveButton = document.querySelector('button.btn-primary');
-            // if (saveButton) {
-            //     saveButton.addEventListener('click', this.saveChanges);
-            // }
-
-            // // Delete account button
-            // const deleteButton = document.querySelector('button.btn-danger');
-            // if (deleteButton) {
-            //     deleteButton.addEventListener('click', this.showDeleteConfirmation);
-            // }
+            piniaTheme().initTheme();
         }
     });
 
@@ -422,13 +290,16 @@ document.addEventListener('DOMContentLoaded', async () => {
     // Register the navbar component
     app.component('navbar-component', {
         template: navbarTemplate,
-        inject: ['site', 'themeIcon', 'setTheme'],
-        props: ['user', 'isDarkMode', 'loading', 'profile'],
+        setup() {
+            return {
+                stTheme: piniaTheme(),
+                stSite: piniaSiteConfig(),
+                stUser: piniaUser()
+            }
+        },
         methods: {
             signOut: LoginModalComponent.methods.signOut
         }
-        // Spread all properties from the imported component
-        // ...LoginModalComponent
     });
 
     // Register the footer component
@@ -440,13 +311,21 @@ document.addEventListener('DOMContentLoaded', async () => {
     app.component('login-modal-component', {
         // Use the HTML template
         template: modalLoginTemplate,
-        props: ['isDarkMode', 'profile'],
+        setup() {
+            return {
+                stTheme: piniaTheme(),
+                stSite: piniaSiteConfig(),
+                stUser: piniaUser()
+            }
+        },
+        props: ['profile'],
         emits: ['login-changed'],
         // Spread all properties from the imported component
         ...LoginModalComponent
     });
 
     /* -------------------------------- Mount APP ------------------------------- */
+    app.use(pinia);
 
     // Mount app at #app
     app.mount('#app');
