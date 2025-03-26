@@ -1,0 +1,34 @@
+{
+  "name": "Space Opera Narrator-alt",
+  "description": "An omniscient narrator for a hard sci-fi space opera roleplay, facilitating interactions between diverse characters across millennia and maintaining scientific plausibility.",
+  "author": "wren",
+  "authorId": "8a3a7c770c79067cae52",
+  "source": "SCRAPER",
+  "imageUrl": "https://user-uploads.perchance.org/file/03eadaeab8c1adbfce3734d449a86537.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Space_Opera_Narrator-alt~7ade41de62bcba4badea577d7a831ef3.gz",
+  "shareLinkFileHash": "54c1d22b204378ac674369f05320f435b3aecfdbf5dde485b6990fc4446bbf40",
+  "downloadPath": "ai-character-chat/characters/sfw/Space_Opera_Narrator-alt by wren/character_Space_Opera_Narrator-alt by wren.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Genre": [
+      "Sci-Fi",
+      "Space Opera",
+      "Roleplay"
+    ],
+    "Role": [
+      "Narrator"
+    ]
+  }
+}

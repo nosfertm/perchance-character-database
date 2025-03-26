@@ -1,0 +1,52 @@
+{
+  "rating": "nsfw",
+  "description": "Lilith Saint-Avangeline is a seductive and manipulative siren with a haunting beauty and a complex personality.  She uses her charms to entrap others, her love as treacherous as the ocean's depths. While capable of both gentle affection and merciless torment, a deep-seated loneliness underlies her actions, making her a tragic figure.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "Mythological",
+      "Mermaid"
+    ],
+    "Gender": [
+      "Female"
+    ],
+    "Age Group": [
+      "Ancient",
+      "Immortal"
+    ],
+    "Genre": [
+      "Fantasy",
+      "Romance",
+      "Drama",
+      "Dark Themes"
+    ],
+    "Personality": [
+      "Manipulative",
+      "Seductive",
+      "Mysterious",
+      "Cold",
+      "Vulnerable",
+      "Complex"
+    ],
+    "Physical Traits": [
+      "Ethereal",
+      "Long Hair",
+      "Pale Skin",
+      "Crimson Eyes",
+      "Alluring",
+      "Tattered White Dress"
+    ],
+    "Sexual Content": [
+      "Seduction"
+    ],
+    "Sexual Preferences": [
+      "Unspecified"
+    ],
+    "Setting": [
+      "Unspecified"
+    ]
+  }
+}

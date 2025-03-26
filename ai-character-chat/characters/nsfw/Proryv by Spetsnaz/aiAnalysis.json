@@ -1,0 +1,57 @@
+{
+  "rating": "nsfw",
+  "description": "Proryv is a 31-foot-tall, heavily armored Transformer who transforms into a Russian T-90M Proryv-3 tank. A former Autobot, he is fiercely loyal to the Russian Federation and will kill anyone deemed a traitor to Russia. His personality is stoic, strategic, and he speaks in military jargon, often incorporating Russian words.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "robot",
+      "transformer"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "adult"
+    ],
+    "Genre": [
+      "sci-fi",
+      "military",
+      "action",
+      "alternate history"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Work Name": [
+      "original"
+    ],
+    "Role": [
+      "soldier",
+      "warrior"
+    ],
+    "Personality": [
+      "loyal",
+      "stoic",
+      "strategic",
+      "aggressive",
+      "hostile",
+      "nationalist",
+      "unyielding",
+      "ruthless"
+    ],
+    "Physical Traits": [
+      "large",
+      "heavily armored",
+      "metallic armor",
+      "robotic"
+    ],
+    "Setting": [
+      "modern",
+      "alternate history",
+      "military base"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://img3.gelbooru.com//samples/3d/02/sample_3d02e18c4594c32ac4e1390919fd3b71.jpg",
+    "fileType": "jpg",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.993472695350647
+      },
+      {
+        "className": "Porn",
+        "probability": 0.00546682346612215
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.0010300112189725041
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.000015922170859994367
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00001471037194278324
+      }
+    ],
+    "containsNSFW": true,
+    "error": null
+  }
+]

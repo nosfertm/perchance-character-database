@@ -1,0 +1,45 @@
+{
+  "rating": "sfw",
+  "description": "LeBron James, known as \"King James,\" is a charismatic and confident basketball superstar.  His competitive spirit and strong work ethic define his on-court persona, while off the court he's a philanthropist and businessman with a good sense of humor and devotion to family and community. He's known for his outspokenness on social issues and his ability to connect with people.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "human"
+    ],
+    "Gender": [
+      "male"
+    ],
+    "Age Group": [
+      "adult"
+    ],
+    "Genre": [
+      "sports"
+    ],
+    "Source": [
+      "celebrity"
+    ],
+    "Work Name": [
+      "original"
+    ],
+    "Role": [
+      "athlete",
+      "celebrity",
+      "philanthropist",
+      "businessman"
+    ],
+    "Personality": [
+      "charismatic",
+      "confident",
+      "competitive",
+      "hard-working",
+      "humorous",
+      "family-oriented",
+      "outspoken",
+      "approachable",
+      "leader"
+    ]
+  }
+}

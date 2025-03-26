@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742697838/scrape/perchance_comments/img_Ice_by_iowa.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.9819850325584412
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.016374697908759117
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0015424537705257535
+      },
+      {
+        "className": "Porn",
+        "probability": 0.00008698427700437605
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00001087229247787036
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

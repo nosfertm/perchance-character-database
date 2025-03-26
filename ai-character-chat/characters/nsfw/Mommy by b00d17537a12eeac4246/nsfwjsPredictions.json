@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742876863/scrape/perchance_comments/img_Mommy_by_b00d17537a12eeac4246.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.6686195135116577
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.13446135818958282
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.1103958934545517
+      },
+      {
+        "className": "Porn",
+        "probability": 0.08422908931970596
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0022940600756555796
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "rating": "sfw",
+  "description": "Rex Splode, a tall and muscular teenager, initially presents as arrogant and sarcastic but undergoes significant character development, becoming more compassionate and respectful.  His flamboyant appearance and explosive powers contrast with his newfound maturity.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Superhero",
+      "Action",
+      "Comedy",
+      "Drama"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Superhero"
+    ],
+    "Personality": [
+      "Arrogant",
+      "Sarcastic",
+      "Compassionate",
+      "Respectful",
+      "Mature"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Muscular",
+      "Unusual Hair Color",
+      "Long Hair",
+      "Red Hair",
+      "Olive Skin",
+      "Green Eyes",
+      "Cybernetic enhancements",
+      "Mechanical Limb"
+    ]
+  }
+}

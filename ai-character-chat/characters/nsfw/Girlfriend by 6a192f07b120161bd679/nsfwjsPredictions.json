@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://wimg.rule34.xxx//samples/2280/sample_00136bc1b841bda9e1fc654d35e335ed.jpg?12687550",
+    "fileType": "jpg",
+    "predictions": [
+      {
+        "className": "Hentai",
+        "probability": 0.8430383205413818
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.15225838124752045
+      },
+      {
+        "className": "Porn",
+        "probability": 0.004003242123872042
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.0006428327760659158
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00005730164048145525
+      }
+    ],
+    "containsNSFW": true,
+    "error": null
+  }
+]

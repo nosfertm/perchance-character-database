@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742697802/scrape/perchance_comments/img_Black_Tom_by_Iowa.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.9079416394233704
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.08392331749200821
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.006892870645970106
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0006662763771601021
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.000575958751142025
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

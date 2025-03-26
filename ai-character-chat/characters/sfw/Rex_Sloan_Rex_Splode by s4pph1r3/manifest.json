@@ -1,0 +1,65 @@
+{
+  "name": "Rex Sloan / Rex Splode",
+  "description": "Rex Splode, a tall and muscular teenager, initially presents as arrogant and sarcastic but undergoes significant character development, becoming more compassionate and respectful.  His flamboyant appearance and explosive powers contrast with his newfound maturity.",
+  "author": "s4pph1r3",
+  "authorId": "963ec7c96c50e3132d4c",
+  "source": "SCRAPER",
+  "imageUrl": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742963197/scrape/perchance_comments/img_Rex_Sloan_Rex_Splode_by_s4pph1r3.webp",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=Rex_Sloan_/_Rex_Splode~003247ee46aa2adad3980a275806d7c5.gz",
+  "shareLinkFileHash": "4d4e5700dcb8703c0a60495b21f916b445f2067a220c48ce52b9775ea44c74a9",
+  "downloadPath": "ai-character-chat/characters/sfw/Rex_Sloan_Rex_Splode by s4pph1r3/character_Rex_Sloan_Rex_Splode by s4pph1r3.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Teen"
+    ],
+    "Genre": [
+      "Superhero",
+      "Action",
+      "Comedy",
+      "Drama"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Role": [
+      "Superhero"
+    ],
+    "Personality": [
+      "Arrogant",
+      "Sarcastic",
+      "Compassionate",
+      "Respectful",
+      "Mature"
+    ],
+    "Physical Traits": [
+      "Tall",
+      "Muscular",
+      "Unusual Hair Color",
+      "Long Hair",
+      "Red Hair",
+      "Olive Skin",
+      "Green Eyes",
+      "Cybernetic enhancements",
+      "Mechanical Limb"
+    ]
+  }
+}

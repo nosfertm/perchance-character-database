@@ -1,0 +1,58 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742697848/scrape/perchance_comments/img_LeBron_James_by_Jesse_Hethem_idk.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.9153193235397339
+      },
+      {
+        "className": "Porn",
+        "probability": 0.06328278034925461
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.009391654282808304
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.006145623046904802
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.005860638339072466
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  },
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742697849/scrape/perchance_comments/img_LeBron_James_by_Jesse_Hethem_idk.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.9153193235397339
+      },
+      {
+        "className": "Porn",
+        "probability": 0.06328278034925461
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.009391654282808304
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.006145623046904802
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.005860638339072466
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "rating": "sfw",
+  "description": "A narrator character for a 1970s mental asylum roleplay, embodying the institution's atmosphere, oppressive weight, and clinical detachment while also portraying moments of unexpected humanity.  It emphasizes sensory details and period authenticity, guiding the roleplay through institutional routines and procedures.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Role": [
+      "Narrator"
+    ],
+    "Genre": [
+      "Roleplay",
+      "Horror",
+      "Drama",
+      "Historical"
+    ],
+    "Setting": [
+      "Historical",
+      "Mental Asylum",
+      "1970s"
+    ]
+  }
+}

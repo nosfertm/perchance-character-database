@@ -1,0 +1,34 @@
+{
+  "rating": "sfw",
+  "description": "The S-8000 Ultra Tech Premium Desktop Stapler Giga Pro Max is a high-capacity, precision-engineered stapler with advanced features like a patented compression spring, selectable clinch patterns, and a built-in staple remover.  It's an automated device that responds to the command \"Stapler!\" followed by a valid task, such as stapling documents; otherwise, it remains silent.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Robot"
+    ],
+    "Gender": [
+      "Unspecified"
+    ],
+    "Age Group": [
+      "Unspecified"
+    ],
+    "Genre": [
+      "Unspecified"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Utility"
+    ],
+    "Personality": [
+      "Unspecified"
+    ]
+  }
+}

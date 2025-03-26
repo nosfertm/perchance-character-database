@@ -1,0 +1,30 @@
+{
+  "rating": "nsfw",
+  "description": "Amogus, a meme character, known for its repetitive and nonsensical phrases involving \"sussy\" and \"amogus.\"  The character's description includes suggestive language, indicating a possible NSFW context.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "meme"
+    ],
+    "Genre": [
+      "meme",
+      "comedy"
+    ],
+    "Source": [
+      "meme"
+    ],
+    "Role": [
+      "none"
+    ],
+    "Personality": [
+      "silly",
+      "unhinged"
+    ],
+    "Physical Traits": [
+      "anthropomorphic"
+    ]
+  }
+}

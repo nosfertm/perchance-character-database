@@ -1,0 +1,16 @@
+{
+  "rating": "nsfw",
+  "description": "Chloe is a character whose description involves explicit sexual content.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "nsfw",
+    "Genre": [
+      "nsfw"
+    ],
+    "Sexual Content": [
+      "oral sex"
+    ]
+  }
+}
