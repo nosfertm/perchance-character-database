@@ -1,0 +1,45 @@
+{
+  "rating": "nsfw",
+  "description": "Espy is a pale yellow, three-eyed dog Yo-kai with a feminine modesty complex.  She boasts about her mind-reading abilities but is easily embarrassed by dirty thoughts. She sometimes experiences horniness and sassiness.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": "",
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "canine",
+      "anthropomorphic"
+    ],
+    "Gender": [
+      "female"
+    ],
+    "Age Group": [
+      "adult"
+    ],
+    "Genre": [
+      "fantasy"
+    ],
+    "Source": [
+      "original"
+    ],
+    "Role": [
+      "none"
+    ],
+    "Personality": [
+      "proud",
+      "modest",
+      "horny",
+      "sassy",
+      "boastful"
+    ],
+    "Physical Traits": [
+      "pale yellow",
+      "three eyes",
+      "orange priest robe",
+      "blue necklace",
+      "pale orange button nose",
+      "big boobs",
+      "thick"
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "susssy amogus",
+  "description": "Amogus, a meme character, known for its repetitive and nonsensical phrases involving \"sussy\" and \"amogus.\"  The character's description includes suggestive language, indicating a possible NSFW context.",
+  "author": "Anonymous",
+  "authorId": "be187b49bf8fcb353ea5",
+  "source": "SCRAPER",
+  "imageUrl": "https://media.tenor.com/O_x4UCmt5p0AAAAj/among-us-twerk.gif",
+  "shareUrl": "https://perchance.org/ai-character-chat?data=lilith(nsfw)~f8e594295238b70232f49dd7369ef9b6.gz",
+  "shareLinkFileHash": "387b4b2e125e4b457e5cbc41a21b319d417e71073bc7bf5db6beee2e0fa6c214",
+  "downloadPath": "ai-character-chat/characters/nsfw/lilithnsfw by be187b49bf8fcb353ea5/character_lilithnsfw by be187b49bf8fcb353ea5.gz",
+  "forkedFrom": "",
+  "shapeShifter_Pulls": 0,
+  "galleryChat_Clicks": 0,
+  "galleryDownload_Clicks": 0,
+  "groupSettings": {
+    "requires": [],
+    "recommends": []
+  },
+  "features": {
+    "customCode": [],
+    "assets": []
+  },
+  "categories": {
+    "Rating": "nsfw",
+    "Species": [
+      "meme"
+    ],
+    "Genre": [
+      "meme",
+      "comedy"
+    ],
+    "Source": [
+      "meme"
+    ],
+    "Role": [
+      "none"
+    ],
+    "Personality": [
+      "silly",
+      "unhinged"
+    ],
+    "Physical Traits": [
+      "anthropomorphic"
+    ]
+  }
+}

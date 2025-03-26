@@ -1,0 +1,30 @@
+[
+  {
+    "image": "https://res.cloudinary.com/dh9pnsajm/image/upload/v1742804922/scrape/perchance_comments/img_Kieran_by_ri0eldiabl0.webp",
+    "fileType": "webp",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.8441755771636963
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.15101078152656555
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.00413432065397501
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0006306518916971982
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.000048741432692622766
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

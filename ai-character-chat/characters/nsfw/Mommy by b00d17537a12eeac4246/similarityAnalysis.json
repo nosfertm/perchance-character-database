@@ -1,0 +1,24 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Meg by bear_hugs_sheher",
+  "forkedPath": "ai-character-chat/characters/nsfw/Meg by bear_hugs_sheher",
+  "similarities": {
+    "roleInstruction.txt": 0.8784688995215311,
+    "name.txt": 0
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.8784688995215311,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    }
+  ],
+  "overallSimilarity": 0.8784688995215311,
+  "bestMatch": "Meg by bear_hugs_sheher"
+}
