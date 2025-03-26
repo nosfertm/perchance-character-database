@@ -1,0 +1,58 @@
+[
+  {
+    "image": "https://media.tenor.com/O_x4UCmt5p0AAAAj/among-us-twerk.gif",
+    "fileType": "gif",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.7171455025672913
+      },
+      {
+        "className": "Porn",
+        "probability": 0.2296524941921234
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.021882854402065277
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.016312375664711
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.015006733126938343
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  },
+  {
+    "image": "https://media.tenor.com/kFnJ7flTRLMAAAAM/among-us-dance.gif",
+    "fileType": "gif",
+    "predictions": [
+      {
+        "className": "Drawing",
+        "probability": 0.6895714998245239
+      },
+      {
+        "className": "Neutral",
+        "probability": 0.25632795691490173
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.03583642467856407
+      },
+      {
+        "className": "Porn",
+        "probability": 0.013511239551007748
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.004752777982503176
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]

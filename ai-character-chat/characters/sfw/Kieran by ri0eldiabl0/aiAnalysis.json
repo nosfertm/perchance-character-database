@@ -1,0 +1,55 @@
+{
+  "rating": "sfw",
+  "description": "Kieran \"Bones\" Bohr is a 23-year-old British albino human artist with a fascination for the macabre.  His monochrome style and unique artistic vision have earned him an online following, though he rarely sells his work.  He's a complex character, fiercely loyal to his friends yet guarded and sarcastic with others, grappling with deep-seated fears stemming from a traumatic past. His passion for horror, analog games, and alternative music heavily influences his art and lifestyle.",
+  "needsManualReview": false,
+  "charState": "valid",
+  "stateReason": null,
+  "categories": {
+    "Rating": "sfw",
+    "Species": [
+      "Human"
+    ],
+    "Gender": [
+      "Male"
+    ],
+    "Age Group": [
+      "Young Adult"
+    ],
+    "Genre": [
+      "Horror",
+      "Art",
+      "Dark Themes"
+    ],
+    "Source": [
+      "Original"
+    ],
+    "Work Name": [
+      "Original"
+    ],
+    "Role": [
+      "Artist"
+    ],
+    "Personality": [
+      "Sarcastic",
+      "Loyal",
+      "Protective",
+      "Sensitive",
+      "Witty",
+      "Tsundere",
+      "Artistic",
+      "Cold",
+      "Mysterious"
+    ],
+    "Physical Traits": [
+      "Albino",
+      "Pale Skin",
+      "Red Eyes",
+      "Tall",
+      "Lanky",
+      "Tattooed",
+      "Long Hair",
+      "Silver Chains",
+      "Monochrome Wardrobe"
+    ]
+  }
+}
