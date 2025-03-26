@@ -1,10 +1,4 @@
-// Import the pinia store
-// import { piniaUser, piniaTheme, piniaSiteConfig } from '../js/store.js';
-
 import { supabase } from '../js/supabase.js'
-
-// // Pinia initialization
-// const pinia = Pinia.createPinia();
 
 export default {    
         // Data properties for the application
@@ -163,7 +157,7 @@ export default {
                     const { error } = await supabase.auth.signInWithOtp({
                         email: this.magicLinkEmail,
                         options: {
-                            emailRedirectTo: window.location.origin // Redirect to the same page after auth
+                            emailRedirectTo: `${window.location.origin}${window.location.pathname}` // Redirect to the same page after auth
                         }
                     });
     
@@ -202,7 +196,7 @@ export default {
     
                     // Call Supabase auth API to send password reset email
                     const { error } = await supabase.auth.resetPasswordForEmail(this.email, {
-                        redirectTo: window.location.origin // Redirect to the same page after password reset
+                        redirectTo: `${window.location.origin}${window.location.pathname}` // Redirect to the same page after password reset
                     });
     
                     if (error) {
@@ -252,7 +246,7 @@ export default {
                     const { error } = await supabase.auth.signInWithOAuth({
                         provider: 'google',
                         options: {
-                            redirectTo: window.location.origin // Redirect to the same page after auth
+                            redirectTo: `${window.location.origin}${window.location.pathname}` // Redirect to the same page after auth
                         }
                     });
     
@@ -271,7 +265,7 @@ export default {
                     const { error } = await supabase.auth.signInWithOAuth({
                         provider: 'facebook',
                         options: {
-                            redirectTo: window.location.origin // Redirect to the same page after auth
+                            redirectTo: `${window.location.origin}${window.location.pathname}` // Redirect to the same page after auth
                         }
                     });
     
@@ -290,7 +284,7 @@ export default {
                     const { error } = await supabase.auth.signInWithOAuth({
                         provider: 'discord',
                         options: {
-                            redirectTo: window.location.origin // Redirect to the same page after auth
+                            redirectTo: `${window.location.origin}${window.location.pathname}` // Redirect to the same page after auth
                         }
                     });
     
@@ -309,7 +303,7 @@ export default {
                     const { error } = await supabase.auth.signInWithOAuth({
                         provider: 'github',
                         options: {
-                            redirectTo: window.location.origin // Redirect to the same page after auth
+                            redirectTo: `${window.location.origin}${window.location.pathname}` // Redirect to the same page after auth
                         }
                     });
     
@@ -344,21 +338,46 @@ export default {
         },
 
     // Lifecycle hook - runs when component is mounted
-    mounted() {
-        // Check if user is already logged in
-        this.checkUser();
-
-        // Set up auth state change listener
-        supabase.auth.onAuthStateChange((event, session) => {
-            if (event === 'SIGNED_IN') {
-                // Update user when signed in
-                this.user = session.user;
-                this.message = 'Logged in successfully!';
-            } else if (event === 'SIGNED_OUT') {
-                // Clear user when signed out
-                this.user = null;
-                this.message = 'Logged out successfully!';
+        mounted() {
+            // Check if user is already logged in
+            this.checkUser();
+    
+            // Set up auth state change listener
+            supabase.auth.onAuthStateChange((event, session) => {
+                if (event === 'SIGNED_IN') {
+                    // Update user when signed in
+                    this.user = session.user;
+                    this.message = 'Logged in successfully!';
+                } else if (event === 'SIGNED_OUT') {
+                    // Clear user when signed out
+                    this.user = null;
+                    this.message = 'Logged out successfully!';
+                }
+            });
+    
+            // Check if is an authentication return
+            if (window.location.hash && window.location.hash.includes('access_token')) {
+                // Process authentication
+                supabase.auth.getSession().then(({ data }) => {
+                    if (data?.session) {
+                        console.log('Sucessfuly authenticated!');
+    
+                        // If needed, redirect to the original url
+                        const urlParams = new URLSearchParams(window.location.search);
+                        const returnPath = urlParams.get('returnPath');
+    
+                        if (returnPath) {
+                            window.location.href = decodeURIComponent(returnPath);
+                        } else {
+                            // Clear url hash to avoid interference with navigation
+                            history.replaceState(
+                                null,
+                                document.title,
+                                window.location.pathname + window.location.search
+                            );
+                        }
+                    }
+                });
             }
-        });
-    }
+        }
 }

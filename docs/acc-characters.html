@@ -36,15 +36,15 @@
         <div class="modal fade" id="characterModal" tabindex="-1" aria-labelledby="characterModalLabel"
             data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel">
             <div class="modal-dialog modal-dialog-centered modal-xl">
-                <div v-if="selectedCharacter" class="modal-content" :class="{ 'bg-dark': isDarkMode }">
+                <div v-if="selectedCharacter" class="modal-content" :class="{ 'bg-dark': stTheme.isDarkMode }">
                     <!-- Title -->
-                    <div class="modal-header" :class="{ 'bg-dark text-white border-secondary': isDarkMode }">
+                    <div class="modal-header" :class="{ 'bg-dark text-white border-secondary': stTheme.isDarkMode }">
                         <div class="d-flex flex-column" style="max-width: 65%; padding-right: 5px;">
-                            <h5 class="modal-title mb-0" id="characterModalLabel" :class="{ 'text-white': isDarkMode }">
+                            <h5 class="modal-title mb-0" id="characterModalLabel" :class="{ 'text-white': stTheme.isDarkMode }">
                                 {{decodeText(this.selectedCharacter.manifest.name)}}
                             </h5>
                             <small class="text-truncate"
-                                :class="{ 'text-secondary': isDarkMode, 'text-muted': !isDarkMode }">
+                                :class="{ 'text-secondary': stTheme.isDarkMode, 'text-muted': !stTheme.isDarkMode }">
                                 by {{decodeText(selectedCharacter.manifest.author) || 'Anonymous'}}
                             </small>
                         </div>
@@ -56,13 +56,13 @@
                             <a :href="selectedCharacter.manifest?.shareUrl" class="btn btn-primary" target="_blank">
                                 <i class="bi bi-chat"></i> <span class="button-text">Chat</span>
                             </a>
-                            <button type="button" class="btn-close" :class="{ 'btn-close-white': isDarkMode }"
+                            <button type="button" class="btn-close" :class="{ 'btn-close-white': stTheme.isDarkMode }"
                                 data-bs-dismiss="modal" aria-label="Close" @click="handleModalClose"></button>
                         </div>
                     </div>
 
                     <!-- Modal Body -->
-                    <div class="modal-body p-0" :class="{ 'bg-dark': isDarkMode }">
+                    <div class="modal-body p-0" :class="{ 'bg-dark': stTheme.isDarkMode }">
                         <div class="container-fluid">
                             <div class="row g-0">
                                 <!-- Image Column -->
@@ -80,10 +80,10 @@
                                 </div>
 
                                 <!-- Content Column -->
-                                <div class="col-7 modal-content-col" :class="{ 'bg-dark text-white': isDarkMode }">
+                                <div class="col-7 modal-content-col" :class="{ 'bg-dark text-white': stTheme.isDarkMode }">
                                     <!-- Description -->
                                     <div class="content-section">
-                                        <h5 class="border-bottom pb-2" :class="{ 'border-secondary': isDarkMode }">
+                                        <h5 class="border-bottom pb-2" :class="{ 'border-secondary': stTheme.isDarkMode }">
                                             Description</h5>
                                         <p>{{decodeText(this.selectedCharacter.manifest.description)}}</p>
                                     </div>
@@ -99,15 +99,15 @@
                                             @click="!hasCategoryItems && $event.preventDefault()">
                                             <!-- Section header with chevron icon -->
                                             <h5 class="border-bottom pb-2 d-flex justify-content-between align-items-center"
-                                                :class="{ 'border-secondary': isDarkMode }">
+                                                :class="{ 'border-secondary': stTheme.isDarkMode }">
                                                 <div class="d-flex align-items-center">
                                                     <!-- Chevron icon that rotates based on collapse state -->
                                                     <i class="bi bi-chevron-right me-2 collapse-icon"></i>
                                                     <span
-                                                        :class="{ 'text-white': isDarkMode, 'text-dark': !isDarkMode }">Categories</span>
+                                                        :class="{ 'text-white': stTheme.isDarkMode, 'text-dark': !stTheme.isDarkMode }">Categories</span>
                                                 </div>
                                                 <span class="badge bg-secondary"
-                                                    :class="{ 'text-white': isDarkMode, 'text-dark': !isDarkMode }"
+                                                    :class="{ 'text-white': stTheme.isDarkMode, 'text-dark': !stTheme.isDarkMode }"
                                                     v-if="categoryCount > 0">({{categoryCount}})</span>
                                             </h5>
                                         </a>
@@ -117,7 +117,7 @@
                                                 class="mb-3 d-flex flex-wrap gap-2">
                                                 <template
                                                     v-if="Array.isArray(category) ? category.length > 0 : category">
-                                                    <h6 :class="{ 'text-white': isDarkMode }">
+                                                    <h6 :class="{ 'text-white': stTheme.isDarkMode }">
                                                         {{categoryName.split(' ').map(word =>
                                                         word.charAt(0).toUpperCase() +
                                                         word.slice(1)).join(' ')}}:
@@ -143,16 +143,16 @@
                                             @click="!hasRequiredCharacters && $event.preventDefault()">
                                             <!-- Section header with chevron icon -->
                                             <h5 class="border-bottom pb-2 d-flex justify-content-between align-items-center"
-                                                :class="{ 'border-secondary': isDarkMode }">
+                                                :class="{ 'border-secondary': stTheme.isDarkMode }">
                                                 <div class="d-flex align-items-center">
                                                     <!-- Chevron icon that rotates based on collapse state -->
                                                     <i class="bi bi-chevron-right me-2 collapse-icon"></i>
                                                     <span
-                                                        :class="{ 'text-white': isDarkMode, 'text-dark': !isDarkMode }">Required
+                                                        :class="{ 'text-white': stTheme.isDarkMode, 'text-dark': !stTheme.isDarkMode }">Required
                                                         Characters</span>
                                                 </div>
                                                 <span class="badge bg-secondary"
-                                                    :class="{ 'text-white': isDarkMode, 'text-dark': !isDarkMode }"
+                                                    :class="{ 'text-white': stTheme.isDarkMode, 'text-dark': !stTheme.isDarkMode }"
                                                     v-if="requiredCharCount > 0">({{requiredCharCount}})</span>
                                             </h5>
                                         </a>
@@ -163,7 +163,7 @@
                                                 <ul v-for="char in selectedCharacter.manifest.groupSettings.requires"
                                                     class="list-unstyled">
                                                     <li class="list-group-item d-flex justify-content-between align-items-start"
-                                                        :class="{ 'bg-dark text-white border-secondary': isDarkMode }">
+                                                        :class="{ 'bg-dark text-white border-secondary': stTheme.isDarkMode }">
                                                         <div class="ms-2 me-auto">
                                                             <div class="fw-bold">{{char.name}}</div>
                                                             Reason: {{char.reason}}
@@ -192,7 +192,7 @@
                     </div>
 
                     <!-- Modal Footer -->
-                    <div class="modal-footer" :class="{ 'bg-dark text-white border-secondary': isDarkMode }">
+                    <div class="modal-footer" :class="{ 'bg-dark text-white border-secondary': stTheme.isDarkMode }">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"
                             @click="handleModalClose">
                             Close
@@ -206,11 +206,11 @@
         <div class="modal fade" id="nsfwConfirmModal" tabindex="-1" role="dialog" aria-modal="true"
             aria-labelledby="nsfwConfirmModalLabel">
             <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content" :class="{ 'bg-dark text-white border-secondary': isDarkMode }">
+                <div class="modal-content" :class="{ 'bg-dark text-white border-secondary': stTheme.isDarkMode }">
                     <div class="modal-header">
                         <h5 class="modal-title" id="nsfwConfirmModalLabel">NSFW Content Warning</h5>
                         <button type="button" data-bs-dismiss="modal" class="btn-close"
-                            :class="{ 'btn-close-white': isDarkMode }" aria-label="Close"></button>
+                            :class="{ 'btn-close-white': stTheme.isDarkMode }" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
                         <p>This image contains NSFW content. Would you like to view it?</p>
@@ -264,40 +264,40 @@
 
         <!-- Filter panel -->
         <div class="offcanvas offcanvas-end offcanvas-push custom-scrollbar" data-bs-scroll="true"
-            data-bs-backdrop="false" tabindex="-1" :class="{ 'bg-dark text-white': isDarkMode }" id="filterPanel"
+            data-bs-backdrop="false" tabindex="-1" :class="{ 'bg-dark text-white': stTheme.isDarkMode }" id="filterPanel"
             aria-labelledby="filterPanelLabel">
             <!-- Fixed part -->
-            <div class="offcanvas-header" :class="{ 'bg-dark text-white': isDarkMode }">
+            <div class="offcanvas-header" :class="{ 'bg-dark text-white': stTheme.isDarkMode }">
                 <h5 class="offcanvas-title" id="filterPanelLabel">Filter Panel</h5>
                 <div class="filter-panel-controls">
                     <button v-show="hasActiveFilters" class="btn btn-sm btn-secondary ms-2"
                         @click="clearFilters(); searchInput = ''">Clear filters</button>
-                    <button type="button" class="btn-close" :class="{ 'btn-close-white': isDarkMode }"
+                    <button type="button" class="btn-close" :class="{ 'btn-close-white': stTheme.isDarkMode }"
                         data-bs-dismiss="offcanvas" aria-label="Close"
                         @click="isFilterPanelOpen = !isFilterPanelOpen"></button>
                 </div>
             </div>
 
-            <div class="offcanvas-body custom-scrollbar" :class="{ 'bg-dark text-white': isDarkMode }">
+            <div class="offcanvas-body custom-scrollbar" :class="{ 'bg-dark text-white': stTheme.isDarkMode }">
 
                 <!-- Fixed top section -->
                 <div class="filter-panel-fixed">
 
                     <!-- Search bar -->
-                    <div class="input-group" :class="{ 'bg-dark text-white': isDarkMode }">
-                        <input type="text" class="form-control" :class="{ 'bg-dark text-white': isDarkMode }"
+                    <div class="input-group" :class="{ 'bg-dark text-white': stTheme.isDarkMode }">
+                        <input type="text" class="form-control" :class="{ 'bg-dark text-white': stTheme.isDarkMode }"
                             v-model="searchInput" @keyup.enter="selectedFilters.searchText = searchInput"
                             aria-label="Text input with segmented dropdown button">
-                        <button type="button" class="btn btn-outline-secondary" :class="{ 'btn-dark': isDarkMode }"
+                        <button type="button" class="btn btn-outline-secondary" :class="{ 'btn-dark': stTheme.isDarkMode }"
                             data-bs-toggle="tooltip" title="For a full search, click the dropdown on the right."
                             @click="selectedFilters.searchText = searchInput">
                             <i class="fas fa-search"></i>
                         </button>
                         <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split"
-                            :class="{ 'btn-dark': isDarkMode }" data-bs-toggle="dropdown" aria-expanded="false">
+                            :class="{ 'btn-dark': stTheme.isDarkMode }" data-bs-toggle="dropdown" aria-expanded="false">
                             <span class="visually-hidden">Toggle Dropdown</span>
                         </button>
-                        <ul class="dropdown-menu" :class="{ 'dropdown-menu-dark': isDarkMode }">
+                        <ul class="dropdown-menu" :class="{ 'dropdown-menu-dark': stTheme.isDarkMode }">
                             <li><a class="dropdown-item" href="#">Normal Search</a></li>
                             <li>
                                 <hr class="dropdown-divider">
@@ -325,13 +325,13 @@
                     <div class="accordion" id="categoryHeader">
 
                         <!-- Iterate through categories, showing NSFW ones only if showNsfwTags is true -->
-                        <div class="accordion-item" :class="{ 'bg-dark text-white': isDarkMode }"
+                        <div class="accordion-item" :class="{ 'bg-dark text-white': stTheme.isDarkMode }"
                             v-for="(category, index) in this.availableCategories" :key="index"
                             v-show="!category?.nsfw_only || (category?.nsfw_only && showNsfwTags)">
 
                             <!-- Accordion Header -->
                             <h2 class="accordion-header" :id="'heading' + index">
-                                <button class="accordion-button" :class="{ 'bg-dark text-white': isDarkMode }"
+                                <button class="accordion-button" :class="{ 'bg-dark text-white': stTheme.isDarkMode }"
                                     type="button" data-bs-toggle="collapse" :data-bs-target="'#collapse' + index"
                                     aria-expanded="true" :aria-controls="'collapse' + index">
                                     {{ category.name }}

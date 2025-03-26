@@ -96,12 +96,12 @@
                               class="dropdown-item text-danger" 
                               href="#" 
                               @click.prevent="stUser.signOut" 
-                              :disabled="loading" 
-                              :class="{'disabled': loading}"
+                              :disabled="stUser.loading" 
+                              :class="{'disabled': stUser.loading}"
                             >
-                              <span v-if="loading" class="spinner-border spinner-border-sm me-2"></span>
+                              <span v-if="stUser.loading" class="spinner-border spinner-border-sm me-2"></span>
                               <span v-else><i class="fa-solid fa-sign-out-alt me-2"></i></span>
-                              <span v-if="loading">Signing out...</span>
+                              <span v-if="stUser.loading">Signing out...</span>
                               <span v-else>Logout</span>
                             </a>
                           </li>
