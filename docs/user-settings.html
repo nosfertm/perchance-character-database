@@ -16,7 +16,7 @@
     <!-- Custom CSS -->
     <link href="css/main.css" rel="stylesheet">
     <link href="css/theme.css" rel="stylesheet">
-    <link href="css/edit-profile.css" rel="stylesheet">
+    <link href="css/user-settings.css" rel="stylesheet">
     
     <!-- Vue 3 and Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/vue@3.3.4/dist/vue.global.js"></script>
@@ -34,11 +34,9 @@
 
         <!-- Navigation bar component -->
         <navbar-component></navbar-component>
-
+        
         <!-- Login modal component -->
         <login-modal-component></login-modal-component>
-<!-- 
-        <pre>{{stUser.userData}}</pre> -->
 
         <!-- Main Content -->
         <div v-if="stUser.userIsLoggedIn" class="wrapper" :class="{ 'bg-dark text-white border-secondary': stTheme.isDarkMode }">
@@ -59,22 +57,25 @@
                 <div class="row py-2">
                     <div class="col-md-5">
                         <small for="username">Nickname:</small>
-                        <input type="text" name="nickname" class="bg-light form-control" :placeholder="stUser.userData?.nickname"
-                            :class="{ 'bg-dark text-white border-secondary': stTheme.isDarkMode }">
+                        <input type="text" name="nickname" class="bg-light form-control" 
+                            :placeholder="stUser.userData?.nickname ? '' : 'MyNickName'"
+                            :class="{ 'bg-dark text-white border-secondary': stTheme.isDarkMode }"
+                            v-model="stUser.userData.nickname">
                     </div>
 
                     <div class="col-md-7">
                         <small for="email">Email Address:</small>
-                        <input type="text" name="email" class="bg-light form-control" :placeholder="stUser.userData?.email"
-                        style="color: var(--text-muted);" disabled
+                        <input type="text" name="email" class="bg-light form-control" style="color: var(--text-muted);" disabled
+                        :placeholder="stUser.userData?.email"
                             :class="{ 'bg-dark text-white border-secondary': stTheme.isDarkMode }">
                     </div>
                 </div>
                 <div class="row py-2">
                     <div class="col-md-12 pt-md-0 pt-3">
                         <small for="aboutme">About me:</small>
-                        <textarea name="bio" class="bg-light form-control" :placeholder="stUser.userData?.bio" rows="4"
-                                  :class="{ 'bg-dark text-white border-secondary': stTheme.isDarkMode }"></textarea>
+                        <textarea name="bio" class="bg-light form-control" placeholder="A little about you..." rows="4"
+                                  :class="{ 'bg-dark text-white border-secondary': stTheme.isDarkMode }"
+                                  v-model="stUser.userData.bio"></textarea>
                     </div>
                 </div>                
                 <div class="row py-2">
@@ -145,16 +146,14 @@
             </div>
         </div>
 
+
         <!-- Footer component -->
         <footer-component></footer-component>
 
     </div>
 
     <!-- Custom JavaScript -->
-    <!-- <script src="js/config.js"></script>
-    <script src="js/main.js"></script> -->
-    <!-- <script type="module" src="js/theme.js"></script> -->
-    <script type="module" src="js/edit-profile.js"></script>
+    <script type="module" src="js/user-settings.js"></script>
 </body>
 
 </html>

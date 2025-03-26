@@ -96,9 +96,9 @@ export const piniaSiteConfig = Pinia.defineStore('configManager', {
 
     getters: {
         getCurrentPage: (state) => state.currentPath,
-        
+
         hideLoginButton() {
-            return this.currentPath.includes('edit-profile');
+            return this.currentPath.includes('user-settings');
         }
     }
 
@@ -161,7 +161,8 @@ export const piniaUser = Pinia.defineStore('userManager', {
 
     state: () => ({
         userData: JSON.parse(localStorage.getItem('user_basic_info')) || {},
-        isLoggedIn: localStorage.getItem('user_logged_in') || false
+        isLoggedIn: localStorage.getItem('user_logged_in') || false,
+        loading: false
     }),
 
     actions: {
@@ -169,13 +170,13 @@ export const piniaUser = Pinia.defineStore('userManager', {
             try {
                 // Get the data
                 const { user, data, error } = await DatabaseService.getUserProfile();
-            
+
                 if (error) {
-                    this.logout();
+                    this.signOut();
                     if (error != 'Not authenticated') console.error('Error loading user profile:', error);
                     return;
                 }
-                
+
                 const email = user.email
 
                 if (data) {
@@ -192,23 +193,23 @@ export const piniaUser = Pinia.defineStore('userManager', {
                         email,
                         ...data
                     }));
-                    
+
                     // Try to load the avatar from cache
                     if (data.avatar_url) {
                         const cachedAvatarKey = `avatar_image_${user.id}`;
-                        
+
                         try {
                             // Try to get the cached image data
                             const cachedImageData = localStorage.getItem(cachedAvatarKey);
-                            
+
                             if (cachedImageData) {
                                 // Parse the cached data
                                 const { dataUrl, timestamp, url } = JSON.parse(cachedImageData);
-                                
+
                                 // Check if cache is still valid (24 hours) and URL matches
                                 const cacheAge = Date.now() - timestamp;
                                 const cacheValid = cacheAge < 24 * 60 * 60 * 1000; // 24 hours
-                                
+
                                 if (cacheValid && url === data.avatar_url) {
                                     // Use the cached image data directly
                                     this.userData.avatar_url = dataUrl;
@@ -238,21 +239,21 @@ export const piniaUser = Pinia.defineStore('userManager', {
                 localStorage.setItem('user_logged_in', 'false');
             }
         },
-        
+
         // Helper method to fetch and cache the avatar image
         async fetchAndCacheAvatar(url, userId) {
             if (!url) return;
-            
+
             try {
                 // Fetch the image
                 const response = await fetch(url);
                 const blob = await response.blob();
-                
+
                 // Convert the image to a data URL
                 const reader = new FileReader();
                 reader.onloadend = () => {
                     const dataUrl = reader.result;
-                    
+
                     // Cache the image data
                     const cachedAvatarKey = `avatar_image_${userId}`;
                     localStorage.setItem(cachedAvatarKey, JSON.stringify({
@@ -260,7 +261,7 @@ export const piniaUser = Pinia.defineStore('userManager', {
                         url,
                         timestamp: Date.now()
                     }));
-                    
+
                     // Update the avatar URL to use the cached data URL
                     this.userData.avatar_url = dataUrl;
                 };
@@ -274,12 +275,27 @@ export const piniaUser = Pinia.defineStore('userManager', {
 
         },
 
-        logout() {
-            // Remove data
-            this.userData = {};
-            this.isLoggedIn = false;
-            localStorage.setItem('user_logged_in', 'false');
-            localStorage.removeItem('user_basic_info');
+        async signOut() {
+            this.loading = true;
+
+            try {
+                const result = await DatabaseService.signOut();
+
+                if (result === true) {
+                    // Successful logout: Clear user-related data
+                    this.userData = {};
+                    this.isLoggedIn = false;
+                    localStorage.setItem('user_logged_in', 'false');
+                    localStorage.removeItem('user_basic_info');
+                } else if (result?.error) {
+                    // Handle logout failure
+                    console.error('Sign out failed:', result.error);
+                }
+            } catch (error) {
+                console.error('Unexpected error during logout:', error);
+            } finally {
+                this.loading = false;
+            }
         }
     },
 

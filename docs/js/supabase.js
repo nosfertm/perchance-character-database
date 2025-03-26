@@ -156,5 +156,104 @@ export const DatabaseService = {
             console.error('Error in uploadAvatar:', error);
             return { error };
         }
+    },
+
+    /**
+     * Sign out the current user
+     * @returns {Promise} Promise containing success message or error
+     */
+    async signOut() {
+        try {
+            // Call Supabase auth API to sign out
+            const { error } = await supabase.auth.signOut();
+
+            if (error) {
+                console.error('Error signing out:', error);
+                return { error };
+            }
+
+            return true;
+        } catch (error) {
+            console.error('Unexpected error during logout:', error);
+            return { error: 'An unexpected error occurred during logout.' };
+        } finally {
+            this.loading = false;
+        }
+    },
+
+
+    /**
+     * Update user email address
+     * @param {String} newEmail - The new email address
+     * @returns {Promise} Promise containing result of the email update operation
+     */
+    async updateEmail(newEmail) {
+        try {
+            // Update email in auth system
+            const { data, error } = await supabase.auth.updateUser({
+                email: newEmail
+            });
+
+            if (error) {
+                console.error('Error updating email:', error);
+                return { error };
+            }
+
+            return { data };
+        } catch (error) {
+            console.error('Error in updateEmail:', error);
+            return { error };
+        }
+    },
+
+
+
+
+    /**
+     * Delete user account and related data
+     * @returns {Promise} Promise containing result of account deletion
+     */
+    async deleteAccount() {
+        try {
+            // Get the current authenticated user
+            const { data: { user } } = await supabase.auth.getUser();
+
+            if (!user) {
+                return { error: 'Not authenticated' };
+            }
+
+            // First, delete the user's profile
+            const { error: profileError } = await supabase
+                .from('profiles')
+                .delete()
+                .eq('id', user.id);
+
+            if (profileError) {
+                console.error('Error deleting profile:', profileError);
+                return { error: profileError };
+            }
+
+            // Delete any avatars from storage
+            // Note: In a real application, you might want to list files first
+            const { error: storageError } = await supabase
+                .storage
+                .from('avatars')
+                .remove([`avatars/${user.id}`]);
+
+            // Finally delete the user account from auth
+            // Note: In Supabase, this typically requires admin rights or a server-side function
+            // Here we're signing out instead as a client-side alternative
+            const { error: signOutError } = await supabase.auth.signOut();
+
+            if (signOutError) {
+                console.error('Error signing out after deletion:', signOutError);
+                return { error: signOutError };
+            }
+
+            return { success: true };
+        } catch (error) {
+            console.error('Error in deleteAccount:', error);
+            return { error };
+        }
     }
 }

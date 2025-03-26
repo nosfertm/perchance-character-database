@@ -40,15 +40,6 @@ document.addEventListener('DOMContentLoaded', async () => {
             await piniaUSer.getUser();
 
         },
-        // Data and functions to inject to the page
-        // provide() {
-        //     return {
-        //         site: this.site,
-        //         themeIcon: this.themeIcon,
-        //         isDarkMode: this.isDarkMode,
-        //         setTheme: this.setTheme
-        //     };
-        // },
         data() {
             return {
                 // // Site configuration from global CONFIG
@@ -88,15 +79,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         },
 
         methods: {
-            // Theme toggle method
-            // toggleTheme() {
-            //     this.isDarkMode = ThemeManager.toggleTheme();
-            // },
-
-            // setTheme(theme) {
-            //     this.currentTheme = theme;
-            //     this.isDarkMode = ThemeManager.toggleTheme(theme);
-            // },
 
             showCharacterModal(character) {
                 this.selectedCharacter = character;
@@ -516,16 +498,6 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         },
         computed: {
-            themeIcon() {
-                switch (this.currentTheme) {
-                    case 'dark':
-                        return 'fas fa-moon';
-                    case 'auto':
-                        return 'fas fa-circle-half-stroke';
-                    default:
-                        return 'fas fa-sun';
-                }
-            },
 
             // Computed property to handle character filtering with NSFW visibility
             filteredCharacters() {
@@ -732,9 +704,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     // Register the navbar component
     app.component('navbar-component', {
         template: navbarTemplate,
-        // methods: {
-        //     signOut: LoginModalComponent.methods.signOut
-        // },
         setup() {
             return {
                 stTheme: piniaTheme(),

@@ -87,15 +87,15 @@
                         </li>
                     
                         <li><hr :class="stTheme.isDarkMode ? 'border-light' : 'border-dark'"></li>
-                        <li><a class="dropdown-item" href="edit-profile.html"><i class="fa-solid fa-user me-2"></i> My Profile</a></li>
-                        <li><a class="dropdown-item" href="#"><i class="fa-solid fa-cog me-2"></i> Settings</a></li>
-                        <li><a class="dropdown-item" href="#"><i class="fa-solid fa-question-circle me-2"></i> Help</a></li>
+                        <li><a class="dropdown-item disabled" href="#"><i class="fa-solid fa-user me-2" aria-disabled="true"></i> My Profile</a></li>
+                        <li><a class="dropdown-item disabled" href="#"><i class="fa-solid fa-heart me-2"></i> My favorites</a></li>
+                        <li><a class="dropdown-item" href="user-settings.html"><i class="fa-solid fa-cog me-2"></i> Settings</a></li>
                         <li><hr :class="stTheme.isDarkMode ? 'border-light' : 'border-dark'"></li>
                         <li>
                             <a 
                               class="dropdown-item text-danger" 
                               href="#" 
-                              @click.prevent="signOut" 
+                              @click.prevent="stUser.signOut" 
                               :disabled="loading" 
                               :class="{'disabled': loading}"
                             >

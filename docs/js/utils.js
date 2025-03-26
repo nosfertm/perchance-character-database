@@ -60,8 +60,8 @@ const GithubUtils = {
                     return response.data.content;  // Return as Base64
                 } else if (outputFormat === "json") {
                     // Decode the Base64 content to retrieve the actual JSON data
-                    //const decodedContent = atob(response.data.content);
-                    console.log(`Decoded content length: ${decodedContent.length} characters`);
+                    const decodedContent = atob(response.data.content);
+                    // console.log(`Decoded content length: ${decodedContent.length} characters`);
     
                     const jsonData = JSON.parse(decodedContent);
                     //console.log("JSON content parsed successfully.");

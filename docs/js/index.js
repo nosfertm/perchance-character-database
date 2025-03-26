@@ -51,9 +51,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     // Register the navbar component
     app.component('navbar-component', {
         template: navbarTemplate,
-        // methods: {
-        //     signOut: LoginModalComponent.methods.signOut
-        // },
         setup() {
             return {
                 stTheme: piniaTheme(),

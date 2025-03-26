@@ -40,11 +40,6 @@ document.addEventListener('DOMContentLoaded', async () => {
 
             // We get the user again
             await piniaUSer.getUser();
-
-            // Goes back to index if not logged in
-            // if (!piniaUSer.userIsLoggedIn) {
-            //     window.location.href = '/index.html';
-            // }
         },
         data() {
             return {
@@ -279,9 +274,6 @@ document.addEventListener('DOMContentLoaded', async () => {
                     this.loading = false;
                 }
             }
-        },
-        async mounted() {
-            piniaTheme().initTheme();
         }
     });
 
@@ -296,9 +288,6 @@ document.addEventListener('DOMContentLoaded', async () => {
                 stSite: piniaSiteConfig(),
                 stUser: piniaUser()
             }
-        },
-        methods: {
-            signOut: LoginModalComponent.methods.signOut
         }
     });
 
@@ -318,8 +307,6 @@ document.addEventListener('DOMContentLoaded', async () => {
                 stUser: piniaUser()
             }
         },
-        props: ['profile'],
-        emits: ['login-changed'],
         // Spread all properties from the imported component
         ...LoginModalComponent
     });

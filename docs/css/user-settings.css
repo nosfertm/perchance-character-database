@@ -1,9 +1,10 @@
 .wrapper{
-    padding: 30px 50px;
+    padding: 30px 30px;
     border: 1px solid #ddd;
     border-radius: 15px;
-    margin: 10px auto;
+    margin: 30px auto;
     width: 600px;
+    background-color: var(--bs-dark);
 }
 
 .avatar{
