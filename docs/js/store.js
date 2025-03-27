@@ -178,10 +178,12 @@ export const piniaUser = Pinia.defineStore('userManager', {
                 }
 
                 const email = user.email
+                const id = user.id
 
                 if (data) {
                     // Update data
                     this.userData = {
+                        id,
                         email,
                         ...data
                     };
@@ -190,6 +192,7 @@ export const piniaUser = Pinia.defineStore('userManager', {
                     // Save to local storage
                     localStorage.setItem('user_logged_in', 'true');
                     localStorage.setItem('user_basic_info', JSON.stringify({
+                        id,
                         email,
                         ...data
                     }));
@@ -208,7 +211,7 @@ export const piniaUser = Pinia.defineStore('userManager', {
 
                                 // Check if cache is still valid (24 hours) and URL matches
                                 const cacheAge = Date.now() - timestamp;
-                                const cacheValid = cacheAge < 24 * 60 * 60 * 1000; // 24 hours
+                                const cacheValid = cacheAge < 1 * 60 * 60 * 1000; // 1 hour
 
                                 if (cacheValid && url === data.avatar_url) {
                                     // Use the cached image data directly
@@ -242,32 +245,77 @@ export const piniaUser = Pinia.defineStore('userManager', {
 
         // Helper method to fetch and cache the avatar image
         async fetchAndCacheAvatar(url, userId) {
-            if (!url) return;
-
+        
+            // Validate URL
+            if (!url) {
+                console.warn('No URL provided for avatar');
+                return;
+            }
+        
+            // Determine user ID
+            if (!userId && this.userData.id) {
+                userId = this.userData.id;
+            } else if (!userId && !this.userData.id) {
+                console.warn('No user ID found');
+                return;
+            }
+        
             try {
-                // Fetch the image
-                const response = await fetch(url);
+                // Create a new URL object to add cache-busting query parameter
+                const fetchUrl = new URL(url);
+                
+                // Add a timestamp to force a new request
+                fetchUrl.searchParams.set('t', Date.now());
+        
+                // Fetch the image with cache-busting
+                const response = await fetch(fetchUrl.toString(), {
+                    // Explicitly disable browser cache
+                    cache: 'no-store'
+                });
+                
+                // Ensure the response is successful
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                // Convert response to blob
                 const blob = await response.blob();
-
-                // Convert the image to a data URL
-                const reader = new FileReader();
-                reader.onloadend = () => {
-                    const dataUrl = reader.result;
-
-                    // Cache the image data
-                    const cachedAvatarKey = `avatar_image_${userId}`;
-                    localStorage.setItem(cachedAvatarKey, JSON.stringify({
-                        dataUrl,
-                        url,
-                        timestamp: Date.now()
-                    }));
-
-                    // Update the avatar URL to use the cached data URL
-                    this.userData.avatar_url = dataUrl;
-                };
-                reader.readAsDataURL(blob);
+        
+                // Return a promise that resolves with the data URL
+                return new Promise((resolve, reject) => {
+                    const reader = new FileReader();
+        
+                    // Handle successful file reading
+                    reader.onloadend = () => {
+                        const dataUrl = reader.result;
+        
+                        // Cache the new image data
+                        const cachedAvatarKey = `avatar_image_${userId}`;
+                        localStorage.setItem(cachedAvatarKey, JSON.stringify({
+                            dataUrl,
+                            url,  // Store the original URL
+                            timestamp: Date.now()
+                        }));
+        
+                        // Update the avatar URL
+                        this.userData.avatar_url = dataUrl;
+                        
+                        resolve(dataUrl);
+                    };
+        
+                    // Handle reading errors
+                    reader.onerror = (error) => {
+                        console.error('Error reading image:', error);
+                        reject(error);
+                    };
+        
+                    // Start reading the blob as a data URL
+                    reader.readAsDataURL(blob);
+                });
+        
             } catch (error) {
                 console.error('Error caching avatar:', error);
+                throw error;  // Re-throw to allow caller to handle
             }
         },
 

@@ -150,7 +150,7 @@ export const DatabaseService = {
                 return { error: updateError };
             }
 
-            console.log("Avatar URL:", publicUrl);
+            //console.log("Avatar URL:", publicUrl);
             return { data: publicUrl };
         } catch (error) {
             console.error('Error in uploadAvatar:', error);

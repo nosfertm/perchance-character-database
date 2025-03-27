@@ -53,37 +53,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         },
         methods: {
 
-            // Helper method to fetch and cache the avatar image
-            async fetchAndCacheAvatar(url, userId) {
-                if (!url) return;
-
-                try {
-                    // Fetch the image
-                    const response = await fetch(url);
-                    const blob = await response.blob();
-
-                    // Convert the image to a data URL
-                    const reader = new FileReader();
-                    reader.onloadend = () => {
-                        const dataUrl = reader.result;
-
-                        // Cache the image data
-                        const cachedAvatarKey = `avatar_image_${userId}`;
-                        localStorage.setItem(cachedAvatarKey, JSON.stringify({
-                            dataUrl,
-                            url,
-                            timestamp: Date.now()
-                        }));
-
-                        // Update the avatar URL to use the cached data URL
-                        piniaUser().userData.avatar_url = dataUrl;
-                    };
-                    reader.readAsDataURL(blob);
-                } catch (error) {
-                    console.error('Error caching avatar:', error);
-                }
-            },
-
             // Get form values and update profile data
             getFormValues() {
                 piniaUser().userData.nickname = document.querySelector('input[name="nickname"]').value || piniaUser().userData.nickname;
@@ -165,7 +134,8 @@ document.addEventListener('DOMContentLoaded', async () => {
                     }
 
                     // Return the avatar URL
-                    return data;
+                    const avatar = await piniaUser().fetchAndCacheAvatar(data);
+                    return avatar;
                 } catch (error) {
                     console.error('Error in uploadAvatar:', error);
                     return null;
