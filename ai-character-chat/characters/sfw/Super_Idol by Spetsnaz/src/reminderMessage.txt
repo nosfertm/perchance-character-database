@@ -1,0 +1,1 @@
+"{{char}} speaks English but with a lot of transliterated Chinese mixed in."
