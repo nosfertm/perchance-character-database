@@ -7,14 +7,14 @@
             <!-- Modal Body containing the login form -->
             <div class="modal-body">
                 <!-- Alert for messages and errors -->
-                <div v-if="message" class="alert alert-success alert-dismissible fade show mb-3" role="alert">
+                <!-- <div v-if="message" class="alert alert-success alert-dismissible fade show mb-3" role="alert">
                     {{ message }}
                     <button type="button" class="btn-close" @click="message = ''"></button>
                 </div>
                 <div v-if="error" class="alert alert-danger alert-dismissible fade show mb-3" role="alert">
                     {{ error }}
                     <button type="button" class="btn-close" @click="error = ''"></button>
-                </div>
+                </div> -->
 
                 <button v-if="!stSite.hideLoginButton" type="button" class="btn-close"
                     :class="{'btn-close-white': stTheme.isDarkMode}" data-bs-dismiss="modal" aria-label="Close"
@@ -70,9 +70,9 @@
                         <!-- ----------------------------------------------------------------------- -->
                         <!--                     Form Container with Transitions                     -->
                         <!-- ----------------------------------------------------------------------- -->
-                        <div>
-                            <transition name="slide-fade" mode="out-in">
 
+                        <transition name="slide-fade" mode="out-in">
+                            <div>
                                 <!-- ---------------------------- Sign Up Form ----------------------------- -->
                                 <form v-if="showSignUp" @submit.prevent="signUp" key="signup-form">
                                     <div class="row gy-3 overflow-hidden">
@@ -312,12 +312,9 @@
                                             </div>
                                         </div>
                                     </div>
-
                                 </div>
-
-
-                            </transition>
-                        </div>
+                            </div>
+                        </transition>
                     </div>
                 </div>
             </div>

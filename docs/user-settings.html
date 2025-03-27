@@ -35,9 +35,6 @@
         <!-- Navigation bar component -->
         <navbar-component></navbar-component>
         
-        <!-- Login modal component -->
-        <login-modal-component></login-modal-component>
-
         <!-- Main Content -->
         <div v-if="stUser.userIsLoggedIn" class="wrapper" :class="{ 'bg-dark text-white border-secondary': stTheme.isDarkMode }">
             <div class="d-flex justify-content-between align-items-center pb-4">
@@ -146,6 +143,8 @@
             </div>
         </div>
 
+        <!-- Login modal component -->
+        <login-modal-component v-else></login-modal-component>
 
         <!-- Footer component -->
         <footer-component></footer-component>
