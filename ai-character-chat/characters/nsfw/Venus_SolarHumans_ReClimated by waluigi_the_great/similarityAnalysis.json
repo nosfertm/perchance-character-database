@@ -1,0 +1,29 @@
+{
+  "isExisting": false,
+  "type": "FORK",
+  "forkedFrom": "Venus_SolarHumans by Waluigi_the_Great",
+  "forkedPath": "ai-character-chat/characters/sfw/Venus_SolarHumans by Waluigi_the_Great",
+  "similarities": {
+    "roleInstruction.txt": 0.9283248730964467,
+    "name.txt": 0.7391304347826086
+  },
+  "changes": [
+    {
+      "file": "roleInstruction.txt",
+      "similarity": 0.9283248730964467,
+      "type": "MODIFIED"
+    },
+    {
+      "file": "avatar.json",
+      "type": "ADDED",
+      "similarity": 0
+    },
+    {
+      "file": "scene.json",
+      "type": "ADDED",
+      "similarity": 0.5
+    }
+  ],
+  "overallSimilarity": 0.9283248730964467,
+  "bestMatch": "Venus_SolarHumans by Waluigi_the_Great"
+}

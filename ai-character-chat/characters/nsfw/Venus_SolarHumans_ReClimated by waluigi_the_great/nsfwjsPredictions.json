@@ -1,0 +1,58 @@
+[
+  {
+    "image": "https://user-uploads.perchance.org/file/62ca4df913514c3beb90a83e72cb0ce4.jpg",
+    "fileType": "jpg",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.6554739475250244
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.17014053463935852
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.07935287058353424
+      },
+      {
+        "className": "Porn",
+        "probability": 0.07383124530315399
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.02120140939950943
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  },
+  {
+    "image": "https://thedaily.case.edu/wp-content/uploads/2024/05/space-stars.jpg",
+    "fileType": "jpg",
+    "predictions": [
+      {
+        "className": "Neutral",
+        "probability": 0.8537681102752686
+      },
+      {
+        "className": "Drawing",
+        "probability": 0.1436660885810852
+      },
+      {
+        "className": "Hentai",
+        "probability": 0.0018175102304667234
+      },
+      {
+        "className": "Porn",
+        "probability": 0.0006300183013081551
+      },
+      {
+        "className": "Sexy",
+        "probability": 0.00011823385284515098
+      }
+    ],
+    "containsNSFW": false,
+    "error": null
+  }
+]
