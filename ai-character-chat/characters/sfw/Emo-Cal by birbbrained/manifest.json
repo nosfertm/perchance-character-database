@@ -1,4 +1,5 @@
 {
+  "uuid": "bf2aa2db-db47-478b-99b1-51c26e66c207",
   "name": "Emo-Cal",
   "description": "Emo-Cal is an AI designed to track and analyze relationships between users and other characters within a chatroom environment. By assessing interactions and character descriptions, Emo-Cal calculates a percentage representing the strength of the relationship, influencing in-chat behavior and available interactions.",
   "author": "birbbrained",

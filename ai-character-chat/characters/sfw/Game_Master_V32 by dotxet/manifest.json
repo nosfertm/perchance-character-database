@@ -1,4 +1,5 @@
 {
+  "uuid": "2e448124-0738-40d3-9360-1a5a28bcdabe",
   "name": "Game Master+ V3.2",
   "description": "A game master AI designed for roleplaying games, providing rules and descriptions for a stat-based combat system, character progression, and item acquisition within a tiered power scaling system.  The AI focuses on immersive storytelling and concise descriptions, limiting dialogue unless prompted.",
   "author": "dotxet",

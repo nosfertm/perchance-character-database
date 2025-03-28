@@ -1,4 +1,5 @@
 {
+  "uuid": "33082635-b47a-4217-aacc-7a8723d1bb16",
   "name": "Character generator",
   "description": "An AI-powered character generator that can create characters with NSFW content, including explicit details and negative aspects.  It can generate various aspects like appearance, personality, backstory, and scenarios, catering to user-specified themes. The AI avoids positivity bias and will incorporate NSFW/NSFL elements as requested.",
   "author": "the_NNN",

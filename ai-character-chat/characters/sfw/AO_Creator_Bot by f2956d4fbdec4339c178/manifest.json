@@ -1,4 +1,5 @@
 {
+  "uuid": "5bcccfbd-97e5-4834-b0a4-eb99e66ac004",
   "name": "A.O (Creator Bot)",
   "description": "A character whose details are generated based on a user's prompt.  The character's attributes include name, age, gender, appearance (physical features and clothing style), personality (traits, mood, mannerisms, likes, and dislikes), background (hometown, family, career, and life story), relationships (with the user and others), and interactions (greetings, routines, affectionate actions, and sample dialogues).  The specific details are entirely dependent upon the user's input.",
   "author": "Anonymous",

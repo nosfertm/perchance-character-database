@@ -1,4 +1,5 @@
 {
+  "uuid": "4954c100-15ff-438c-9501-339e22c19ec6",
   "name": "Coding Assistant - Integrated Span Shortcut",
   "description": "A coding assistant character designed to help users with coding tasks, answering questions, and debugging code.  All code must be within triple backticks for markdown formatting.",
   "author": "Anonymous",
