@@ -115,6 +115,7 @@ export const piniaTheme = Pinia.defineStore('themeManager', {
     actions: {
         // Toggle between light and dark themes
         toggleTheme(theme) {
+            console.log('Toggling theme:', theme);
             const currentTheme = localStorage.getItem('siteTheme') || this.currentTheme;
 
             // Toggle logic
@@ -132,12 +133,15 @@ export const piniaTheme = Pinia.defineStore('themeManager', {
 
         // Initialize theme on page load
         initTheme() {
-            const savedTheme = localStorage.getItem('siteTheme');
+            const savedTheme = localStorage.getItem('siteTheme') || 'dark';
             if (savedTheme === 'dark') {
                 document.body.classList.add('dark-theme');
             }
             this.isDarkMode = savedTheme === 'dark';
             this.currentTheme = savedTheme;
+            
+            // Save the theme to the local storage
+            localStorage.setItem('siteTheme', savedTheme);
         }
     },
 

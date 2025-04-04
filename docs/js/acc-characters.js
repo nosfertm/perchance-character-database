@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
                 // Flags to control NSFW content visibility
                 showNsfwTags: false,        // Flag to show NSFW tags in filters
-                showNsfwImages: !piniaUser().userData.blur_nsfw || false,      // Flag to show NSFW characters images
+                showNsfwImages: false,      // Flag to show NSFW characters images
                 showNsfwCharacters: true,   // Flag to show NSFW characters in gallery
                 lastClickedImage: null,    // Object to store last clicked image for modal
 
@@ -605,6 +605,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             },
 
             showAllNsfw() {
+                console.log('showAllNsfw')
                 this.showNsfwImages = true;
                 bootstrap.Modal.getInstance(document.getElementById('nsfwConfirmModal')).hide();
             },
@@ -1193,6 +1194,10 @@ document.addEventListener('DOMContentLoaded', async () => {
 
                 // Clear timeout if loading completed before 2s
                 clearTimeout(loadingTimeout);
+
+                // Check if user is logged in and set NSFW visibility
+                !piniaUser().userData.blur_nsfw || false
+
             } catch (error) {
                 console.error('Failed to load data:', error);
                 ToastUtils.showToast('Failed to load data!', 'Error', 'error');

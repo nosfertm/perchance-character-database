@@ -293,8 +293,10 @@ document.addEventListener('DOMContentLoaded', async () => {
             },
 
             isProfileOwner() {
-                return this.author_data?.id === piniaUser().userData.id
+                console.log('isProfileOwner', this.author_data?.id, piniaUser().userData.id);
+                return !!this.author_data?.id && this.author_data?.id === piniaUser().userData.id;
             }
+            
         }
     });
 
