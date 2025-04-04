@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perchance DB</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Font Awesome via CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/theme.css" rel="stylesheet">
+    <link href="css/character-details.css" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+</head>
+
+<body>
+    <!-- Vue 3 App Container -->
+    <div id="app" v-cloak class="d-flex flex-column min-vh-100">
+
+        <!-- Login modal component -->
+        <login-modal-component :is-dark-mode="isDarkMode" @login-changed="user = $event"></login-modal-component>
+
+        <!-- Navigation bar component -->
+        <navbar-component></navbar-component>
+
+        <!-- Main Content -->
+
+        <!-- content -->
+        <section class="mt-4">
+            <div class="container">
+                <div class="row gx-5">
+
+                    <aside class="col-lg-6">
+                        <div class="img-container border rounded-4 mb-3 d-flex justify-content-center">
+                            <img :src="characterData?.image_url" alt="Character Image"
+                                class="img-fluid w-100 h-100 object-fit-cover"
+                                :class="{'nsfw-blur': characterData?.is_nsfw && characterData?.blur_nsfw}"
+                                @click.stop="toggleNsfw">
+
+                            <!-- NSFW overlay with flame icon -->
+                            <div v-if="characterData?.is_nsfw && characterData?.blur_nsfw" class="nsfw-overlay"
+                                @click.stop="toggleNsfw">
+                                <i class="fa-solid fa-fire-flame-curved fa-2x"></i>
+                            </div>
+                        </div>
+                    </aside>
+
+                    <main class="col-lg-6">
+                        <div class="ps-lg-3">
+                            <h4 class="h4 mb-0">
+                                {{characterData?.name}}
+                            </h4>
+                            <div class="mb-3 align-items-center">
+                                <!-- <div class="text-warning mb-1 me-2">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <span class="ms-1">
+                                        4.5
+                                    </span>
+                                </div> -->
+                                <small class="me-1" style="color: var(--text-muted-strong);">by</small>
+                                <a class="mb-2" style="color: var(--text-muted-strong)"
+                                    :href="'author.html?id=' + characterData?.author_id" class="author-link">
+                                    {{characterData?.author}}</a>
+                            </div>
+
+                            <div class="mb-4">
+                                <span class="h5 mb-1">Description:</span>
+                                <p>
+                                    {{characterData?.description}}
+                                </p>
+                            </div>
+
+                            <!-- Statistics section with responsive display -->
+                            <div class="character-stats d-flex justify-content-around align-items-center rounded-3 p-2 mb-4 mt-auto"
+                                :class="stTheme.isDarkMode ? 'bg-dark' : 'bg-body-tertiary'">
+
+                                <!-- Chat statistics -->
+                                <div class="text-center">
+                                    <p class="stats-label small mb-1">Chats</p>
+                                    <i class="fas fa-comments stats-icon"></i>
+                                    <p class="stats-value mb-0">{{ characterData?.global_chat_clicks }}</p>
+                                </div>
+
+                                <!-- Download statistics -->
+                                <div class="text-center">
+                                    <p class="stats-label small mb-1">Downloads</p>
+                                    <i class="fas fa-download stats-icon"></i>
+                                    <p class="stats-value mb-0">{{ characterData?.global_download_clicks }}
+                                    </p>
+                                </div>
+
+                                <!-- Favorites statistics -->
+                                <div class="text-center">
+                                    <p class="stats-label small mb-1">Favorites</p>
+                                    <i class="fas fa-heart stats-icon"></i>
+                                    <p class="stats-value mb-0">{{ characterData?.global_favorites_count }}
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <!-- Main action buttons -->
+                                <div>
+                                    <button class="btn btn-primary shadow-0 me-2 btn-icon"
+                                        @click="openChat(characterData?.share_url)">
+                                        <i class="fa fa-comments"></i> <span class="d-none d-sm-inline">Chat</span>
+                                    </button>
+                                    <button class="btn btn-success shadow-0 me-2 btn-icon"
+                                        @click="downloadCharacterFile(characterData?.download_path)">
+                                        <i class="fa fa-download"></i> <span class="d-none d-sm-inline">Download</span>
+                                    </button>
+                                    <button :class="characterData?.is_favorited ? 'favorite-btn favorited' : 'favorite-btn not-favorited'" class="btn border border-secondary shadow-0 btn-icon"
+                                        @click="toggleFavorite(characterData?.id)">
+                                        <i :class="characterData?.is_favorited ? 'fa-solid fa-heart' : 'fa-regular fa-heart'"></i>
+                                        <span class="d-none d-sm-inline">
+                                            {{ characterData?.is_favorited ? ' Remove' : ' Add' }}
+                                        </span>
+                                    </button>
+                                </div>
+
+                                <!-- Report dropdown -->
+                                <div class="dropdown">
+                                    <button class="btn btn-danger shadow-0 btn-icon" data-bs-toggle="dropdown">
+                                        <i class="fa fa-exclamation-triangle"></i> <span
+                                            class="d-none d-sm-inline">Report</span>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item disabled" href="#">Implementing soon...</a></li>
+                                        <li><a class="dropdown-item disabled" href="#">Wrong Rating (Disabled)</a></li>
+                                        <li><a class="dropdown-item disabled" href="#">Missing Avatar (Disabled)</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </main>
+                </div>
+            </div>
+        </section>
+        <!-- content -->
+
+        <section class="py-4">
+            <div class="container">
+                <div class="row gx-4">
+                    <div class="col-lg-8 mb-4">
+                        <div class="border rounded-2 px-3 py-2" :class="stTheme.isDarkMode ? 'bg-secondary' : ''">
+
+                            <!-- Pills navs -->
+                            <div class="container mt-4">
+                                <!-- Pills dinâmicos baseados nas configurações disponíveis -->
+                                <ul class="nav nav-pills nav-justified mb-3">
+                                    <li v-for="(tab, index) in availableTabs" :key="index" class="nav-item d-flex"
+                                        role="presentation">
+                                        <button v-if="tab.show"
+                                            class="nav-link d-flex align-items-center justify-content-center w-100"
+                                            :class="{ active: activeTab === tab.key }" @click="getCharData(tab.key)">
+                                            {{ tab.label }}
+                                        </button>
+                                    </li>
+                                </ul>
+
+                                <div class="tab-content">
+                                    <!-- Conteúdo para features (mantido como estava) -->
+                                    <div v-show="activeTab === 'features'" class="tab-pane fade"
+                                        :class="activeTab === 'features' ? 'show active' : ''">
+                                        <table class="table border mt-3 mb-2"
+                                            :class="stTheme.isDarkMode ? 'table-dark' : ''">
+                                            <tbody>
+                                                <tr v-show="characterData?.features_custom_code">
+                                                    <th>
+                                                        Custom Code
+                                                        <span class="ms-1" data-bs-toggle="tooltip"
+                                                            data-bs-custom-class="custom-tooltip"
+                                                            title="Any custom code snippets.">
+                                                            <i class="bi bi-question-circle small-icon"></i>
+                                                        </span>
+                                                    </th>
+                                                    <td>
+                                                        <div class="progress">
+                                                            <div class="progress-bar" role="progressbar"
+                                                                style="width: 100%;" aria-valuenow="100"
+                                                                aria-valuemin="0" aria-valuemax="100">
+                                                                {{ characterData?.features_custom_code }}
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr v-show="characterData?.features_customcode">
+                                                    <th>
+                                                        Custom Code (Alt)
+                                                        <span class="ms-1" data-bs-toggle="tooltip"
+                                                            data-bs-custom-class="custom-tooltip"
+                                                            title="Alternative custom code.">
+                                                            <i class="bi bi-question-circle small-icon"></i>
+                                                        </span>
+                                                    </th>
+                                                    <td>
+                                                        <div class="progress">
+                                                            <div class="progress-bar" role="progressbar"
+                                                                style="width: 100%;" aria-valuenow="100"
+                                                                aria-valuemin="0" aria-valuemax="100">
+                                                                {{ characterData?.features_customcode }}
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr v-show="characterData?.features_imageprompttriggers">
+                                                    <th>
+                                                        Image Prompt Triggers
+                                                        <span class="ms-1" data-bs-toggle="tooltip"
+                                                            data-bs-custom-class="custom-tooltip"
+                                                            title="Triggers for image prompts.">
+                                                            <i class="bi bi-question-circle small-icon"></i>
+                                                        </span>
+                                                    </th>
+                                                    <td>
+                                                        <div class="progress">
+                                                            <div class="progress-bar" role="progressbar"
+                                                                style="width: 100%;" aria-valuenow="100"
+                                                                aria-valuemin="0" aria-valuemax="100">
+                                                                {{ characterData?.features_imageprompttriggers }}
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr v-show="characterData?.features_imagepromptsuffix">
+                                                    <th>
+                                                        Image Prompt Suffix
+                                                        <span class="ms-1" data-bs-toggle="tooltip"
+                                                            data-bs-custom-class="custom-tooltip"
+                                                            title="Suffix for image prompts.">
+                                                            <i class="bi bi-question-circle small-icon"></i>
+                                                        </span>
+                                                    </th>
+                                                    <td>
+                                                        <div class="progress">
+                                                            <div class="progress-bar" role="progressbar"
+                                                                style="width: 100%;" aria-valuenow="100"
+                                                                aria-valuemin="0" aria-valuemax="100">
+                                                                {{ characterData?.features_imagepromptsuffix }}
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr v-show="characterData?.features_imagepromptprefix">
+                                                    <th>
+                                                        Image Prompt Prefix
+                                                        <span class="ms-1" data-bs-toggle="tooltip"
+                                                            data-bs-custom-class="custom-tooltip"
+                                                            title="Prefix for image prompts.">
+                                                            <i class="bi bi-question-circle small-icon"></i>
+                                                        </span>
+                                                    </th>
+                                                    <td>
+                                                        <div class="progress">
+                                                            <div class="progress-bar" role="progressbar"
+                                                                style="width: 100%;" aria-valuenow="100"
+                                                                aria-valuemin="0" aria-valuemax="100">
+                                                                {{ characterData?.features_imagepromptprefix }}
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr v-show="characterData?.features_initialmessages">
+                                                    <th>
+                                                        Initial Messages
+                                                        <span class="ms-1" data-bs-toggle="tooltip"
+                                                            data-bs-custom-class="custom-tooltip"
+                                                            title="Size of initial messages.">
+                                                            <i class="bi bi-question-circle small-icon"></i>
+                                                        </span>
+                                                    </th>
+                                                    <td>
+                                                        <div class="progress">
+                                                            <div class="progress-bar"
+                                                                :class="getMessageProgressBarClass(characterData?.features_initialmessages)"
+                                                                role="progressbar"
+                                                                :style="{ width: getMessageProgressBarWidth(characterData?.features_initialmessages) }"
+                                                                aria-valuenow="100" aria-valuemin="0"
+                                                                aria-valuemax="100">
+                                                                {{ characterData?.features_initialmessages }}
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr v-show="characterData?.features_lorebooks">
+                                                    <th>
+                                                        Lore Books
+                                                        <span class="ms-1" data-bs-toggle="tooltip"
+                                                            data-bs-custom-class="custom-tooltip"
+                                                            title="Number of lore books.">
+                                                            <i class="bi bi-question-circle small-icon"></i>
+                                                        </span>
+                                                    </th>
+                                                    <td>{{ characterData?.features_lorebooks }}</td>
+                                                </tr>
+                                                <tr v-show="characterData?.features_remindermessage">
+                                                    <th>
+                                                        Reminder Message
+                                                        <span class="ms-1" data-bs-toggle="tooltip"
+                                                            data-bs-custom-class="custom-tooltip"
+                                                            title="Message for reminders.">
+                                                            <i class="bi bi-question-circle small-icon"></i>
+                                                        </span>
+                                                    </th>
+                                                    <td>
+                                                        <div class="progress">
+                                                            <div class="progress-bar" role="progressbar"
+                                                                style="width: 100%;" aria-valuenow="100"
+                                                                aria-valuemin="0" aria-valuemax="100">
+                                                                {{ characterData?.features_remindermessage }}
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr v-show="characterData?.features_roleinstruction">
+                                                    <th>
+                                                        Role Instructions
+                                                        <span class="ms-1" data-bs-toggle="tooltip"
+                                                            data-bs-custom-class="custom-tooltip"
+                                                            title="Size of role instructions.">
+                                                            <i class="bi bi-question-circle small-icon"></i>
+                                                        </span>
+                                                    </th>
+                                                    <td>
+                                                        <div class="progress">
+                                                            <div class="progress-bar"
+                                                                :class="getMessageProgressBarClass(characterData?.features_roleinstruction)"
+                                                                role="progressbar"
+                                                                :style="{ width: getMessageProgressBarWidth(characterData?.features_roleinstruction) }"
+                                                                aria-valuenow="100" aria-valuemin="0"
+                                                                aria-valuemax="100">
+                                                                {{ characterData?.features_roleinstruction }}
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr v-show="characterData?.features_scene">
+                                                    <th>
+                                                        Scene
+                                                        <span class="ms-1" data-bs-toggle="tooltip"
+                                                            data-bs-custom-class="custom-tooltip"
+                                                            title="Scene description.">
+                                                            <i class="bi bi-question-circle small-icon"></i>
+                                                        </span>
+                                                    </th>
+                                                    <td>
+                                                        <div class="progress">
+                                                            <div class="progress-bar" role="progressbar"
+                                                                style="width: 100%;" aria-valuenow="100"
+                                                                aria-valuemin="0" aria-valuemax="100">
+                                                                {{ characterData?.features_scene }}
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th>
+                                                        Customized User Character
+                                                        <span class="ms-1" data-bs-toggle="tooltip"
+                                                            data-bs-custom-class="custom-tooltip"
+                                                            title="Is a customized user character.">
+                                                            <i class="bi bi-question-circle small-icon"></i>
+                                                        </span>
+                                                    </th>
+                                                    <td>
+                                                        <span
+                                                            :class="characterData?.features_usercharacter ? 'badge bg-success' : 'badge bg-danger'">
+                                                            {{ characterData?.features_usercharacter ? 'Yes' : 'No' }}
+                                                        </span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th>
+                                                        Customized System Character
+                                                        <span class="ms-1" data-bs-toggle="tooltip"
+                                                            data-bs-custom-class="custom-tooltip"
+                                                            title="Is a customized system character.">
+                                                            <i class="bi bi-question-circle small-icon"></i>
+                                                        </span>
+                                                    </th>
+                                                    <td>
+                                                        <span
+                                                            :class="characterData?.features_systemcharacter ? 'badge bg-success' : 'badge bg-danger'">
+                                                            {{ characterData?.features_systemcharacter ? 'Yes' : 'No' }}
+                                                        </span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th>
+                                                        Avatar
+                                                        <span class="ms-1" data-bs-toggle="tooltip"
+                                                            data-bs-custom-class="custom-tooltip"
+                                                            title="Has an avatar.">
+                                                            <i class="bi bi-question-circle small-icon"></i>
+                                                        </span>
+                                                    </th>
+                                                    <td>
+                                                        <span
+                                                            :class="characterData?.features_avatar ? 'badge bg-success' : 'badge bg-danger'">
+                                                            {{ characterData?.features_avatar ? 'Yes' : 'No' }}
+                                                        </span>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+
+                                    <!-- Dynamic content for other tabs -->
+                                    <div v-for="(tab, index) in availableTabs.filter(t => t.key !== 'features')"
+                                        :key="index" v-show="activeTab === tab.key" class="tab-pane fade"
+                                        :class="activeTab === tab.key ? 'show active' : ''">
+
+                                        <!-- Show loading spinner while charConfig is null -->
+                                        <div v-if="loadingConfig" class="d-flex justify-content-center py-4">
+                                            <div class="spinner-border" role="status">
+                                                <span class="visually-hidden">Loading...</span>
+                                            </div>
+                                        </div>
+
+                                        <!-- Format content based on type -->
+                                        <div v-if="tab.key === 'initialMessages'" class="chat-container">
+                                            <div v-for="(message, idx) in parsedJsonContent" :key="idx"
+                                                class="message-bubble" :class="[
+                                                    message.author === 'user' ? 'user-message' : 
+                                                    message.author === 'ai' ? 'ai-message' : 'system-message'
+                                                ]">
+                                                <div class="message-author">{{ message.author }}</div>
+                                                <!-- Modificado para preservar quebras de linha e formatação especial -->
+                                                <div class="message-content formatted-content"
+                                                    v-html="formatMessageContent(message.content)"></div>
+                                            </div>
+                                        </div>
+
+
+                                        <!-- Plain text output -->
+                                        <pre v-else class="formatted-text">{{ charConfig }}</pre>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <!-- Pills content -->
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="px-0 border rounded-2 shadow-0">
+                            <div class="card">
+                                <div class="card-body"
+                                    :class="stTheme.isDarkMode ? 'bg-dark text-white' : 'bg-body-tertiary'">
+                                    <h5 class="card-title mb-3">More by this author:</h5>
+
+                                    <div v-for="character in otherCharacters" class="d-flex mb-0">
+                                        <a :href="'character-details.html?uuid=' + character.id" class="me-3 mb-4">
+                                            <div style="overflow: hidden; position: relative;">
+                                                <img :src="character?.imageurl" alt="Character Image"
+                                                    style="min-width: 100px; max-height: 120px;"
+                                                    :style="character?.is_nsfw && character?.blur_nsfw ? 'filter: blur(5px);' : ''"
+                                                    class="img-md img-thumbnail" @click.stop="toggleNsfw">
+
+                                                <!-- NSFW overlay with flame icon -->
+                                                <div v-if="character?.is_nsfw && character?.blur_nsfw"
+                                                    class="nsfw-overlay" @click.stop="toggleNsfw">
+                                                    <i class="fa-solid fa-fire-flame-curved fa-2x"></i>
+                                                </div>
+                                            </div>
+                                        </a>
+
+                                        <div class="info">
+                                            <a :href="'character-details.html?uuid=' + character.id"
+                                                class="nav-link mb-1">
+                                                {{character?.name}}
+                                            </a>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer component -->
+        <footer-component></footer-component>
+
+    </div>
+
+    <!-- Vue 3 and Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@3.3.4/dist/vue.global.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Pinia and VueDemi -->
+    <script src="https://cdn.jsdelivr.net/npm/vue-demi@0.14.6/lib/index.iife.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pinia@2.1.7/dist/pinia.iife.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script type="module" src="js/character-details.js"></script>
+</body>
+
+</html>

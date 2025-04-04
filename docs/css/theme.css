@@ -5,6 +5,7 @@
     --bg-secondary: #f4f4f4;
     --accent-color: #007bff;
     --text-muted: #929292;
+    --text-muted-strong: #737373;
 }
 
 /* Dark theme color scheme */
@@ -14,6 +15,7 @@
     --bg-secondary: #1e1e1e;
     --accent-color: #3f9fff;
     --text-muted: #5e5e5e;
+    --text-muted-strong: rgb(165, 165, 165);
 }
 
 /* Global theme styles */

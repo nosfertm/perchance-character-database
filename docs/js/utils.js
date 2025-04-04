@@ -15,7 +15,7 @@ const GithubUtils = {
     async fetchGithubData(owner, repo, path, branch = "main", outputFormat = "json") {
         try {
             //console.log(`Fetching file from GitHub: ${owner}/${repo}/${path} (branch: ${branch})`);
-            
+
             const octokit = new Octokit();
             const response = await octokit.request("GET /repos/{owner}/{repo}/contents/{path}", {
                 owner,
@@ -26,20 +26,20 @@ const GithubUtils = {
                     "x-github-api-version": "2022-11-28",
                 },
             });
-    
+
             //console.log("GitHub API response received.");
-    
+
             // Check if the content is empty (probably due to large file size)
             if (!response.data.content && response.data.size > 1000000) {
                 console.log("File is too large for direct content. Using download_url instead.");
-                
+
                 // Use the download_url to fetch the content directly
                 const downloadResponse = await fetch(response.data.download_url);
-                
+
                 if (!downloadResponse.ok) {
                     throw new Error(`Failed to download file: ${downloadResponse.status}`);
                 }
-                
+
                 if (outputFormat === "base64") {
                     // If Base64 format is requested, encode the content
                     const text = await downloadResponse.text();
@@ -50,11 +50,21 @@ const GithubUtils = {
                     const jsonData = await downloadResponse.json();
                     console.log("JSON content parsed successfully.");
                     return jsonData;
+                } else if (outputFormat === "decodeBase64") {
+                    // If Base64 decoding is requested, decode and return as text
+                    const encodedText = await downloadResponse.text();
+                    try {
+                        const decodedText = atob(encodedText);
+                        return decodedText;
+                    } catch (error) {
+                        console.error("Invalid Base64 content");
+                        return null;
+                    }
                 }
             } else if (response.data && response.data.content) {
                 // Processing for smaller files that can be accessed directly
                 //console.log(`Content encoding: ${response.data.encoding}`);
-    
+
                 if (outputFormat === "base64") {
                     //console.log("Returning raw Base64 content.");
                     return response.data.content;  // Return as Base64
@@ -62,10 +72,20 @@ const GithubUtils = {
                     // Decode the Base64 content to retrieve the actual JSON data
                     const decodedContent = atob(response.data.content);
                     // console.log(`Decoded content length: ${decodedContent.length} characters`);
-    
+
                     const jsonData = JSON.parse(decodedContent);
                     //console.log("JSON content parsed successfully.");
                     return jsonData;
+                } else if (outputFormat === "decodeBase64") {
+                    // If Base64 decoding is requested, decode and return as text
+                    const encodedText = response.data.content;
+                    try {
+                        const decodedText = atob(encodedText);
+                        return decodedText;
+                    } catch (error) {
+                        console.error("Invalid Base64 content");
+                        return null;
+                    }
                 } else {
                     throw new Error(`Invalid outputFormat: ${outputFormat}`);
                 }
@@ -78,7 +98,7 @@ const GithubUtils = {
             console.error("Error fetching or processing GitHub data:", error.message);
             throw error;
         }
-    }    
+    }
 };
 
 const Misc = {
@@ -136,7 +156,7 @@ const ToastUtils = {
         const toastId = 'toast_' + Date.now();
         const darkMode = this.isDarkMode();
         const icon = this.getIconForType(type);
-        
+
         const toastHTML = `
             <div id="${toastId}" class="toast ${darkMode ? 'bg-dark' : ''}" role="alert" aria-live="assertive" aria-atomic="true">
                 <div class="toast-header ${darkMode ? 'bg-dark text-white border-secondary' : ''}">

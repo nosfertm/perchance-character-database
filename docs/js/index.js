@@ -4,7 +4,6 @@ import { piniaUser, piniaTheme, piniaSiteConfig } from './store.js';
 // Landing page specific JavaScript
 import LoginModalComponent from '../components/modal-login.js';
 
-
 document.addEventListener('DOMContentLoaded', async () => {
 
     // Vue 3 application initialization for the landing page

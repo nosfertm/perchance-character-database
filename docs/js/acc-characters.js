@@ -1,6 +1,15 @@
 import { piniaUser, piniaTheme, piniaSiteConfig } from './store.js';
 import { GithubUtils, Misc, ToastUtils } from './utils.js';
 import LoginModalComponent from '../components/modal-login.js';
+import { DatabaseService } from './supabase.js';
+
+
+
+// Global event listener to store scroll before leaving
+window.addEventListener('beforeunload', () => {
+    sessionStorage.setItem('scrollY', window.scrollY);
+});
+
 
 // ACC Characters Vue.js Application
 document.addEventListener('DOMContentLoaded', async () => {
@@ -56,7 +65,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
                 // Flags to control NSFW content visibility
                 showNsfwTags: false,        // Flag to show NSFW tags in filters
-                showNsfwImages: false,      // Flag to show NSFW characters images
+                showNsfwImages: !piniaUser().userData.blur_nsfw || false,      // Flag to show NSFW characters images
                 showNsfwCharacters: true,   // Flag to show NSFW characters in gallery
                 lastClickedImage: null,    // Object to store last clicked image for modal
 
@@ -71,17 +80,100 @@ document.addEventListener('DOMContentLoaded', async () => {
                     categories: {
                         rating: ['SFW'], // Initialize with SFW selected by default
                     }
-                }
+                },
+
+                minCardWidth: null,
+                maxCardWidth: null,
+                debouncedCheckCardSizes: null,
+                lastLayoutChange: undefined, // Adicione esta linha
+
+                isNavigatingBack: false, // Flag to check if navigating back from other page
+                currentPage: 1,
+                charactersPerPage: 24,
+                totalPages: 1,
             };
         },
 
         created() {
+            this.debouncedCheckCardSizes = this.debounce(this.checkCardSizes, 200);
+            this.ensurePageParam();
         },
 
         methods: {
 
+            saveScrollPosition() {
+                sessionStorage.setItem('scrollY', window.scrollY);
+            },
+            restoreScrollPosition() {
+                if (this.isNavigatingBack) {
+                    const scrollY = sessionStorage.getItem('scrollY');
+                    if (scrollY !== null) {
+                        setTimeout(() => {
+                            window.scrollTo(0, parseInt(scrollY));
+                        }, 100); // Small delay to ensure the page is fully loaded
+                    }
+                }
+            },
+            detectBackNavigation() {
+                const entries = performance.getEntriesByType("navigation");
+                if (entries.length > 0) {
+                    const navType = entries[0].type;
+                    this.isNavigatingBack = (navType === "back_forward");
+                    // console.log("Navigation Type:", navType);
+                    this.restoreScrollPosition();
+                }
+            },
+
+
+
+            getPageParam() {
+                const params = new URLSearchParams(window.location.search);
+                return parseInt(params.get('page')) || 1;
+            },
+            setPageParam(page) {
+                const params = new URLSearchParams(window.location.search);
+                params.set('page', page);
+                window.history.replaceState({}, '', `${window.location.pathname}?${params.toString()}`);
+            },
+            ensurePageParam() {
+                this.currentPage = this.getPageParam();
+                this.setPageParam(this.currentPage);
+            },
+            goToPage(page) {
+                if (page < 1 || page > this.totalPages) return;
+                this.currentPage = page;
+                this.setPageParam(page);
+            },
+            goToPreviousPage() {
+                this.goToPage(this.currentPage - 1);
+                this.setPageParam(this.currentPage - 1);
+            },
+            goToNextPage() {
+                this.goToPage(this.currentPage + 1);
+                this.setPageParam(this.currentPage + 1);
+            },
+
+
+            debounce(func, wait) {
+                let timeout;
+                return function (...args) {
+                    clearTimeout(timeout);
+                    timeout = setTimeout(() => func.apply(this, args), wait);
+                };
+            },
+
             showCharacterModal(character) {
                 this.selectedCharacter = character;
+                console.log('selectedCharacter', this.selectedCharacter)
+            },
+
+            /* -------------------------------------------------------------------------- */
+            /*                               LOAD CHARACTERS                              */
+            /* -------------------------------------------------------------------------- */
+
+            async loadCharacters(forceRefresh = false) {
+                await this.loadCharactersFromSupabase(forceRefresh)
+                this.totalPages = Math.ceil(this.characters.length / this.charactersPerPage);
             },
 
             /**
@@ -89,7 +181,7 @@ document.addEventListener('DOMContentLoaded', async () => {
              * @param {boolean} forceRefresh - If true, forces data fetch regardless of cache expiration.
              * @returns {Promise<void>}
              */
-            async loadCharacters(forceRefresh = false) {
+            async loadCharactersFromGitHub(forceRefresh = false) {
                 this.stateLoading = true;
 
                 // Debug key for logging purposes
@@ -160,11 +252,93 @@ document.addEventListener('DOMContentLoaded', async () => {
             },
 
             /**
+             * Loads character data from the Supabase database using the get_characters function
+             * @param {boolean} forceRefresh - Whether to force a refresh from the database instead of using cache
+             */
+            async loadCharactersFromSupabase(forceRefresh = false) {
+                this.stateLoading = true;
+
+                // Debug key for logging purposes
+                const debugKey = piniaSiteConfig().debug?.aacCharacters?.characters ?? false;
+                const debugPrefix = '[CHARACTERS] ';
+
+                try {
+                    Misc.debug(debugKey, debugPrefix + "Loading character data...");
+
+                    const cacheConfig = piniaSiteConfig().cache.accCharacters.characters;
+                    const cacheKey = cacheConfig.key;
+                    const cacheDuration = cacheConfig.duration * 60 * 1000 || 3600;
+
+                    const cachedData = localStorage.getItem(cacheKey);
+                    const lastFetchTime = localStorage.getItem(`${cacheKey}_timestamp`);
+                    const isCacheValid = lastFetchTime && (Date.now() - lastFetchTime < cacheDuration);
+
+                    let charData;
+
+                    if (!forceRefresh && cachedData && isCacheValid) {
+                        charData = JSON.parse(cachedData);
+                        Misc.debug(debugKey, debugPrefix + "Using cached data for characters");
+                    } else {
+                        Misc.debug(debugKey, debugPrefix + "Fetching characters from database");
+
+                        // Setup parameters for the get_characters function
+                        const args = {
+                            page_number: 1,
+                            page_size: 9999, // Adjust as needed for your application
+                            sort_by: 'alphabetical',
+                            search_term: '', // Empty string to get all characters
+                            current_user_id: piniaUser().userData.id
+                        };
+
+                        // Call the get_characters function
+                        const result = await DatabaseService.callFunction('get_characters', args);
+
+                        if (result.error) {
+                            throw new Error(`Failed to fetch characters: ${result.error}`);
+                        }
+
+                        // Extract characters from the result
+                        charData = result.data.map(item => ({
+                            path: item.id,
+                            manifest: { ...item }
+                        }));
+
+                        // Process the data to convert categories to lowercase (if still needed)
+                        // code snippet deleted
+
+                        // Store processed data in cache
+                        localStorage.setItem(cacheKey, JSON.stringify(charData));
+                        localStorage.setItem(`${cacheKey}_timestamp`, Date.now().toString());
+
+                        Misc.debug(debugKey, debugPrefix + "Fetched and stored characters data successfully");
+                    }
+
+                    this.characters = charData;
+                } catch (error) {
+                    ToastUtils.showToast('Failed to load characters.', 'Error', 'error');
+                    console.error("Failed to load characters:", error.message);
+                } finally {
+                    this.stateLoading = false;
+                }
+            },
+
+
+
+
+            /* -------------------------------------------------------------------------- */
+            /*                               LOAD CATEGORIES                              */
+            /* -------------------------------------------------------------------------- */
+
+            async loadCategories(forceRefresh = false) {
+                await this.loadCategoriesFromGitHub(forceRefresh);
+            },
+
+            /**
              * Initialize the filter system
              * @returns {Promise<void>}
              * @param {boolean} forceRefresh - If true, forces data fetch regardless of cache expiration.
              */
-            async loadCategories(forceRefresh = false) {
+            async loadCategoriesFromGitHub(forceRefresh = false) {
                 this.stateLoading = true;
 
                 // Debug key for logging purposes
@@ -325,7 +499,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 return this.characters.filter(character => {
                     // 1. Safety check: Ensure character has valid categories object
                     // This prevents errors from malformed character data
-                    if (!character.manifest?.categories) return false;
+                    //if (!character.manifest?.categories) return false;
 
                     // 2. Search text filtering
                     // Checks if character matches the current search input across multiple fields
@@ -335,9 +509,9 @@ document.addEventListener('DOMContentLoaded', async () => {
 
                     // 3. NSFW content handling
                     // Filters out NSFW content based on user preferences and selected filters
-                    if (this.isNsfwCharacter(character.manifest.categories.rating) &&
+                    if (this.isNsfwCharacter(character.manifest.categories?.rating, character.manifest.is_nsfw) &&
                         !this.showNsfwCharacters &&
-                        !this.selectedFilters.categories.rating?.includes('nsfw')) {
+                        (!this.selectedFilters.categories.rating?.includes('nsfw') || !this.selectedFilters.is_nsfw)) {
                         return false;
                     }
 
@@ -345,7 +519,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                     // Filter out SFW content if SFW is not selected in rating filters
                     const ratingFilters = this.selectedFilters.categories.rating || [];
                     const cleanRatingFilters = ratingFilters.map(tag => tag.replace(/\s*\(\d+\)$/, '').toLowerCase());
-                    if (!this.isNsfwCharacter(character.manifest.categories.rating) &&
+                    if (!this.isNsfwCharacter(character.manifest.categories?.rating, character.manifest.is_nsfw) &&
                         !cleanRatingFilters.includes('sfw')) {
                         return false;
                     }
@@ -363,7 +537,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                         if (!selectedTags || !Array.isArray(selectedTags) || selectedTags.length === 0) return true;
 
                         // Get character's value for current category
-                        const charCategoryValue = character.manifest.categories[category];
+                        const charCategoryValue = character.manifest.categories?.[category] || [];
 
                         // Special case: Skip rating check if NSFW is globally enabled
                         if (category === 'rating' && this.showNsfwCharacters) return true;
@@ -450,12 +624,14 @@ document.addEventListener('DOMContentLoaded', async () => {
             },
 
             // Check if the selected character is NSFW
-            isNsfwCharacter(rating) {
-                if (!rating) return false;
+            isNsfwCharacter(...ratings) {
+                if (!ratings.length) return false;
 
-                return Array.isArray(rating)
-                    ? rating.includes('nsfw')  // If array, checks if contaisn 'nsfw'
-                    : typeof rating === 'string' && rating.toLowerCase() === 'nsfw';  // If string, compares directly
+                return ratings.some(rating =>
+                    rating === true ||
+                    (Array.isArray(rating) ? rating.includes('nsfw') :
+                        typeof rating === 'string' && rating.toLowerCase() === 'nsfw')
+                );
             },
 
             // Method to capitalize words in a string
@@ -476,6 +652,40 @@ document.addEventListener('DOMContentLoaded', async () => {
                 }
             },
 
+            openChat(link) {
+                // Check if the current window is inside an iframe
+                const isInIframe = window.self !== window.top;
+                
+                if (isInIframe) {
+                    try {
+                        // Try to access parent window origin - this may fail due to cross-origin restrictions
+                        const parentOrigin = window.parent.location.origin;
+                        const specificOrigin = "https://perchance.org/tps-ai-character-chat-groupchat"; // Replace with your specific iframe parent URL
+                        console.log("Parent origin:", parentOrigin);
+                        
+                        if (parentOrigin === specificOrigin) {
+                            // If inside the specific iframe, send message to parent
+                            console.log("Inside specific iframe, sending message to parent");
+                            window.parent.postMessage({ link: link }, "*");
+                            return; // Exit function early
+                        }
+                    } catch (e) {
+                        // Cannot access parent origin due to cross-origin restrictions
+                        // We'll use a more generic approach below
+                        console.log("Cannot access parent origin:", e);
+                        
+                        // Alternative: You can still send the message and let the parent decide
+                        // if it wants to handle it based on its own logic
+                        window.parent.postMessage({ link: link }, "*");
+                        return; // Exit function early
+                    }
+                }
+                
+                // If not in an iframe or not in the specific iframe, open URL in new tab
+                console.log("Opening link in new tab");
+                window.open(link, '_blank');
+            },
+
             /**
              * Constructs and opens a GitHub raw content URL for downloading character files
              * @param {string} filePath - Path to the character file within the repository
@@ -494,15 +704,313 @@ document.addEventListener('DOMContentLoaded', async () => {
 
                 // Open URL in new tab
                 window.open(downloadUrl, '_blank');
+            },
+
+            /**
+             * Toggle a character as favorite for the current user
+             * @param {string} id - The character ID to toggle as favorite
+             * @returns {Promise<void>}
+             */
+            async toggleFavorite(id) {
+                try {
+                    const userId = piniaUser().userData.id;
+                    const characterId = id;
+
+                    // Check if user is logged in
+                    if (!userId) {
+                        ToastUtils.showToast('To favorite a character, you must be logged in.', 'Please sign in!', 'info');
+                        return;
+                    }
+
+                    // Call the toggle_favorite function
+                    const result = await DatabaseService.callFunction('toggle_favorite', {
+                        user_id: userId,
+                        character_id: characterId
+                    });
+
+                    // Handle the response
+                    if (result.error || result.data.error) {
+                        console.error('Error toggling favorite:', result.error || result.data.error);
+                        ToastUtils.showToast('Failed to update favorites.', 'Error', 'error');
+                        return;
+                    }
+
+                    // Show success message based on the action performed
+                    if (result.data.action === 'added') {
+                        ToastUtils.showToast(result.data.message, 'Success', 'success');
+                    } else if (result.data.action === 'removed') {
+                        ToastUtils.showToast(result.data.message, 'Success', 'success');
+                    }
+
+                    // Update local state if needed
+                    const character = this.characters.find(item => item.path === characterId);
+
+                    if (character) {
+                        character.manifest.is_favorited = !character.manifest.is_favorited;
+                        character.manifest.favorites_count += character.manifest.is_favorited ? 1 : -1;
+
+                        // Update this.character with the modified item
+                        this.character = { ...character };
+
+                        // Update the cache version
+                        const cacheKey = piniaSiteConfig().cache.accCharacters.characters.key;
+                        localStorage.setItem(cacheKey, JSON.stringify(this.characters));
+
+                    }
+
+                } catch (error) {
+                    console.error('Error in toggleFavorite:', error);
+                    ToastUtils.showToast('An unexpected error occurred.', 'Error', 'error');
+                }
+            },
+            handleCharacterClick(character) {
+                if (this.isNsfwCharacter(character.manifest?.categories?.rating, character.manifest?.is_nsfw) && !this.showNsfwImages) {
+                    this.toggleNsfw();
+                } else {
+                    this.openCharacterPage(character);
+                }
+            },
+
+            /**
+             * Opens the character's page when clicking on the card
+             * This function handles the main card click without interfering with other click events
+             * @param {Object} character - The character object to open
+             */
+            openCharacterPage(character) {
+                //Construct the URL
+                const url = `character-details.html?uuid=${character.path}`;
+
+                // Navigate to the character page
+                window.location.href = url;
+            },
+
+            toggleNsfw() {
+                console.log('toggleNsfw')
+            },
+
+            /**
+ * Checks the size of all cards on the page and applies appropriate styling classes
+ * based on their dimensions to create a consistent and responsive layout.
+ */
+            checkCardSizes() {
+                // Obter todos os elementos de cards e containers de imagens
+                const cards = document.querySelectorAll(".card");
+                const img_containers = document.querySelectorAll(".card-img-container");
+                const buttons = document.querySelectorAll(".character-actions .btn");
+                const buttonTexts = document.querySelectorAll(".button-text");
+
+                // Retornar se não houver cards
+                if (cards.length === 0) return;
+
+                // Obter a largura do container pai
+                const containerWidth = document.querySelector(".character-gallery")?.offsetWidth || 0;
+
+                // Verificar layout atual
+                const currentLayout = this.getCurrentLayout();
+                const idealColumnCount = this.getIdealColumnCount(containerWidth);
+
+                // Somente ajustar o layout se for realmente necessário e houver uma mudança significativa
+                // Isso evita o ciclo de ajustes constantes
+                if (currentLayout !== idealColumnCount &&
+                    (this.lastLayoutChange === undefined ||
+                        Date.now() - this.lastLayoutChange > 1000)) {
+
+                    this.adjustColumnCount(idealColumnCount);
+                    this.lastLayoutChange = Date.now();
+
+                    // Permite que o DOM seja atualizado antes de medir novamente
+                    setTimeout(() => {
+                        this.processCardStyles();
+                    }, 100);
+                } else {
+                    this.processCardStyles();
+                }
+            },
+
+            /**
+             * Determina o layout atual com base nas classes das colunas
+             * @returns {number} Número atual de colunas
+             */
+            getCurrentLayout() {
+                const firstColumn = document.querySelector(".character-gallery .row > [class*='col-']");
+                if (!firstColumn) return 2; // Valor padrão
+
+                if (firstColumn.classList.contains("col-xl-3")) return 4;
+                if (firstColumn.classList.contains("col-lg-4")) return 3;
+                return 2;
+            },
+
+            /**
+             * Determina o número ideal de colunas com base na largura do container
+             * @param {number} containerWidth - Largura do container em pixels
+             * @returns {number} Número ideal de colunas
+             */
+            getIdealColumnCount(containerWidth) {
+                // Usar breakpoints fixos para maior estabilidade
+                if (containerWidth >= 1200) return 4;      // Extra large
+                if (containerWidth >= 992) return 3;       // Large
+                if (containerWidth >= 768) return 2;       // Medium
+                return 1;                                  // Small
+            },
+
+            /**
+             * Processa os estilos dos cards sem alterar o layout
+             */
+            processCardStyles() {
+                const cards = document.querySelectorAll(".card");
+                const img_containers = document.querySelectorAll(".card-img-container");
+                const card_content = document.querySelectorAll(".card-content");
+                const buttons = document.querySelectorAll(".character-actions .btn");
+                const buttonTexts = document.querySelectorAll(".button-text");
+
+                // Calcular larguras de cards depois que o DOM foi atualizado
+                const widths = Array.from(cards).map(card => card.offsetWidth);
+                this.minCardWidth = Math.min(...widths);
+                this.maxCardWidth = Math.max(...widths);
+
+                // Processar cada card individualmente
+                cards.forEach((card, index) => {
+                    const width = card.offsetWidth;
+                    const img_container = img_containers[index];
+                    const content = card_content[index];
+
+                    // Limpar classes de estado anteriores
+                    //card.classList.remove("border-danger", "border-warning", "border-primary", "border-dashed", "border-solid");
+                    img_container?.classList.remove("collapsed");
+                    content?.classList.remove("wrap");
+
+                    // Gerenciar container de imagem com base na largura do card
+                    if (width < 430) {
+                        // Card estreito: Layout empilhado (imagem no topo)
+                        img_container?.classList.add("collapsed");
+                        content?.classList.add("wrap");
+
+                        // Adicionar margem inferior quando empilhado
+                        // if (img_container) {
+                        //     img_container.style.marginRight = "0";
+                        //     img_container.style.marginBottom = "1.5rem";
+                        // }
+                    } else {
+                        // Card largo: Layout lado a lado
+                        // if (img_container) {
+                        //     img_container.style.marginRight = "1.5rem";
+                        //     img_container.style.marginBottom = "0";
+                        // }
+                    }
+
+                    // Aplicar classes de borda com base na largura
+                    // if (width < 300) {
+                    //     card.classList.add("border-danger", "border-solid"); // Muito pequeno
+                    // } else if (width >= 300 && width < 500) {
+                    //     card.classList.add("border-warning", "border-solid"); // Médio
+                    // } else {
+                    //     card.classList.add("border-primary", "border-solid"); // Grande
+                    // }
+                });
+
+                // Verificar o tamanho de cada botão para determinar se devemos ocultar o texto
+                buttons.forEach((button, index) => {
+                    // Obter a altura atual do botão
+                    const height = button.offsetHeight;
+                    const standardHeight = 38; // Altura típica de botão Bootstrap - ajuste se necessário
+
+                    // Ocultar texto se o botão estiver sendo comprimido e ficando mais alto
+                    if (height > standardHeight + 5) { // Adicionando 5px de buffer para pequenas variações
+                        buttonTexts[index]?.classList.add("d-none");
+                    } else {
+                        buttonTexts[index]?.classList.remove("d-none");
+                    }
+                });
+            },
+
+            /**
+             * Ajusta o número de colunas na grade de cards
+             * @param {number} columnCount - O número desejado de colunas
+             */
+            adjustColumnCount(columnCount) {
+                // Obter o elemento de linha que contém as colunas de cards
+                const rowElement = document.querySelector(".character-gallery .row");
+                if (!rowElement) return;
+
+                // Obter todos os elementos de coluna
+                const columns = rowElement.querySelectorAll("[class*='col-']");
+                if (columns.length === 0) return;
+
+                // Remover classes de coluna existentes
+                columns.forEach(column => {
+                    const classes = Array.from(column.classList);
+                    classes.forEach(cls => {
+                        if (cls.startsWith("col-")) {
+                            column.classList.remove(cls);
+                        }
+                    });
+
+                    // Aplicar novas classes de coluna com base no número desejado
+                    switch (columnCount) {
+                        case 1:
+                            column.classList.add("col-12");
+                            break;
+                        case 2:
+                            column.classList.add("col-12", "col-md-6");
+                            break;
+                        case 3:
+                            column.classList.add("col-12", "col-md-6", "col-lg-4");
+                            break;
+                        case 4:
+                            column.classList.add("col-12", "col-md-6", "col-lg-4", "col-xl-3");
+                            break;
+                        default:
+                            column.classList.add("col-12", "col-md-6", "col-lg-4", "col-xl-3");
+                    }
+                });
             }
+
 
         },
         computed: {
+            displayedPages() {
+                // Se houver menos de 8 páginas, mostra todas
+                if (this.totalPages <= 7) {
+                    return Array.from({ length: this.totalPages }, (_, i) => i + 1);
+                }
+
+                // Para muitas páginas, mostra um intervalo de páginas ao redor da página atual
+                let startPage = Math.max(2, this.currentPage - 2);
+                let endPage = Math.min(this.totalPages - 1, this.currentPage + 2);
+
+                if (startPage <= 2) {
+                    endPage = Math.min(6, this.totalPages - 1);
+                }
+
+                if (endPage >= this.totalPages - 1) {
+                    startPage = Math.max(2, this.totalPages - 5);
+                }
+
+                return Array.from({ length: endPage - startPage + 1 }, (_, i) => startPage + i);
+            },
+            showFirstPageButton() {
+                return this.totalPages > 7;
+            },
+            showLastPageButton() {
+                return this.totalPages > 7;
+            },
+            showLeftEllipsis() {
+                return this.totalPages > 7 && this.displayedPages[0] > 2;
+            },
+            showRightEllipsis() {
+                return this.totalPages > 7 && this.displayedPages[this.displayedPages.length - 1] < this.totalPages - 1;
+            },
+
 
             // Computed property to handle character filtering with NSFW visibility
             filteredCharacters() {
                 if (this.stateLoading) return [];
-                return this.filterCharacters();
+
+                return this.filterCharacters()
+                    .slice(
+                        this.currentPage * this.charactersPerPage - this.charactersPerPage, // Get the first index to show
+                        this.currentPage * this.charactersPerPage    // Get the last index to show
+                    );
             },
 
             // Computed property to get available categories inside characters
@@ -679,6 +1187,10 @@ document.addEventListener('DOMContentLoaded', async () => {
                 await this.loadCategories();
                 await this.loadCharacters();
 
+                // Responsive adjustment
+                this.checkCardSizes();
+                window.addEventListener('resize', this.debouncedCheckCardSizes);
+
                 // Clear timeout if loading completed before 2s
                 clearTimeout(loadingTimeout);
             } catch (error) {
@@ -695,8 +1207,17 @@ document.addEventListener('DOMContentLoaded', async () => {
                 filterPanel.addEventListener('hide.bs.offcanvas', () => {
                     document.body.classList.remove('offcanvas-open');
                 });
+
+                // Restore scroll position if available
+                // Detect when user presses "Back" and restore scroll position
+                this.detectBackNavigation();
             }
-        }
+        },
+        beforeUnmount() {
+            window.removeEventListener('resize', this.debouncedCheckCardSizes);
+            window.removeEventListener('popstate', this.restoreScrollPosition);
+        },
+
     });
 
     /* --------------------------- Register components -------------------------- */

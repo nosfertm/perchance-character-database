@@ -255,5 +255,35 @@ export const DatabaseService = {
             console.error('Error in deleteAccount:', error);
             return { error };
         }
-    }
+    },
+
+    /**
+     * Function to call stored procedures (functions) in Supabase with arguments
+     * 
+     * @param {string} functionName - Name of the function to be called in the database (e.g. 'get_characters')
+     * @param {Object} args - Object containing the arguments for the function
+     * @param {string} errorMsg - Custom error message (optional)
+     * @returns {Object} Object containing the response data or error
+     */
+        async callFunction(functionName, args, errorMsg) {
+            try {
+
+                // Call the function directly with the args as the second parameter to rpc()
+                const { data, error } = await supabase.rpc(functionName, args);
+
+                // Check if there was an error in the call
+                if (error) {
+                    console.error(`Error calling function ${functionName}:`, error);
+                    return { data: null, error };
+                }
+
+                // Return the obtained data
+                return { data, error: null };
+            } catch (error) {
+                // Capture and handle unexpected exceptions
+                console.error(`Error calling ${errorMsg || functionName}:`, error);
+                return { data: null, error };
+            }
+        }
+
 }

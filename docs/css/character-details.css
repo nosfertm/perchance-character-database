@@ -1,0 +1,216 @@
+/* Image container styling */
+.img-container {
+  height: 50vh;
+  max-width: 100%;
+  overflow: hidden;
+  border-radius: 15px;
+  position: relative;
+  cursor: pointer;
+}
+
+/* NSFW image blur effect */
+.nsfw-blur {
+  filter: blur(15px);
+  transition: filter 0.3s ease;
+}
+
+/* NSFW overlay styling */
+.nsfw-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+/* Ensures buttons are wider when text is hidden */
+.btn-icon {
+  min-width: 50px; /* Define um tamanho mínimo */;
+  max-width: 150px; /* Define um tamanho máximo */
+  flex-grow: 0; /* Impede que os botões cresçam além do necessário */
+  white-space: nowrap; /* Evita que o texto quebre */
+}
+
+.favorite-btn {
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.not-favorited {
+  background-color: rgba(249, 66, 66, 0.709); /* Vermelho fraco */
+}
+
+.favorited {
+  background-color: rgba(255, 0, 0, 0.8); /* Vermelho mais forte */
+}
+
+
+/* --------------------------- Statistics styling --------------------------- */
+.stats-icon {
+    display: none;
+}
+
+.stats-label {
+    display: inline-block;
+    color: var(--text-muted-strong);
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                   TOOLTIP                                  */
+/* -------------------------------------------------------------------------- */
+.small-icon {
+    font-size: 0.7rem;
+}
+
+.custom-tooltip {
+  --bs-tooltip-bg: var(--bs-primary);
+  --bs-tooltip-delay: 0s;
+  --bs-tooltip-duration: 0.2s;
+  --bs-tooltip-padding-x: 1rem;
+  --bs-tooltip-padding-y: 0.5rem;
+  --bs-tooltip-font-size: 0.875rem;
+  --bs-tooltip-color: white;
+  --bs-tooltip-border-radius: 0.5rem;
+  --bs-tooltip-opacity: 1;
+  --bs-tooltip-arrow-width: 0.8rem;
+}
+
+/* Badges */
+.custom-bar-tiny {
+    background-color: #929c49; /* Cor cinza claro */
+    color: white;
+  }
+  
+  .custom-bar-small {
+    background-color: #4c819a; /* Cor azul claro */
+    color: white;
+  }
+  
+  .custom-bar-medium {
+    background-color: #428a45; /* Cor verde claro */
+    color: white;
+  }
+  
+  .custom-bar-large {
+    background-color: #917e45; /* Cor amarelo claro */
+    color: white;
+  }
+  
+  .custom-bar-huge {
+    background-color: #834167; /* Cor vermelho claro */
+    color: white;
+  }
+  
+  .custom-bar-default {
+    background-color: #408278; /* Cor cinza muito claro */
+    color: white;
+  }
+
+/* -------------------------------------------------------------------------- */
+/*                                CHAR CONTENT                                */
+/* -------------------------------------------------------------------------- */
+.formatted-text {
+  white-space: pre-wrap; /* Mantém as quebras de linha e permite quebra automática */
+  word-wrap: break-word;  /* Quebra palavras longas se necessário */
+}
+
+
+/* ------------------------------ PILLS FORMAT ------------------------------ */
+.formatted-text {
+  white-space: pre-wrap;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.05);
+  font-family: monospace;
+}
+
+.json-formatted {
+  white-space: pre-wrap;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 50, 0.05);
+  font-family: monospace;
+  color: #0066cc;
+}
+
+/* Estilos para chat de mensagens iniciais */
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 15px;
+}
+
+.message-bubble {
+  padding: 12px;
+  border-radius: 12px;
+  max-width: 80%;
+  position: relative;
+}
+
+.message-author {
+  font-weight: bold;
+  margin-bottom: 4px;
+  font-size: 0.9em;
+  text-transform: capitalize;
+}
+
+.user-message {
+  background-color: #e1f5fe;
+  color: #01579b;
+  align-self: flex-end;
+  margin-left: auto;
+}
+
+.ai-message {
+  background-color: #e8f5e9;
+  color: #1b5e20;
+  align-self: flex-start;
+  margin-right: auto;
+}
+
+.system-message {
+  background-color: #f5f5f5;
+  color: #616161;
+  align-self: center;
+  width: 100%;
+  font-style: italic;
+}
+
+/* Ajuste para tema escuro */
+.dark-mode .user-message {
+  background-color: #01579b;
+  color: #e1f5fe;
+}
+
+.dark-mode .ai-message {
+  background-color: #1b5e20;
+  color: #e8f5e9;
+}
+
+.dark-mode .system-message {
+  background-color: #424242;
+  color: #f5f5f5;
+}
+
+/* Adicionar estes estilos aos existentes */
+.formatted-content {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  line-height: 1.5;
+}
+
+.message-content {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Garantir que emojis sejam exibidos corretamente */
+.message-content img.emoji {
+  height: 1.2em;
+  width: 1.2em;
+  margin: 0 .05em 0 .1em;
+  vertical-align: -0.1em;
+}

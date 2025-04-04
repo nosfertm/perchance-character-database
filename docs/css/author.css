@@ -1,0 +1,111 @@
+.bsb-author-2 .card {
+  cursor: default !important;
+}
+
+.author-avatar {
+  max-width: 100%;
+}
+
+.formatted-text {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.05);
+  font-family: monospace;
+}
+
+
+.bio-toggle-btn {
+  color: var(--text-muted-strong);
+  transition: color 0.2s ease-in-out;
+}
+
+.bio-toggle-btn:hover {
+  color: var(--text-primary);
+}
+
+
+.callout {
+  border-left-width: 4px;
+  background-color: rgba(250, 205, 114, 0.729);
+  color: var(--text-primary);
+  margin: 0.8rem;
+}
+
+.dark-theme .callout {
+  background-color: rgba(244, 185, 66, 0.671); /* Tom mais escuro para o modo dark */
+}
+
+
+
+
+ .bsb-hover-pull {
+  transform: scaleX(1);
+  transform-style: preserve-3d;
+  transition: all .5s
+}
+
+.bsb-hover-pull:hover {
+  transform: scale3d(1.02, 1.02, 1.02)
+}
+
+.bsb-hover-push {
+  transform: scaleX(1);
+  transform-style: preserve-3d;
+  transition: all .5s
+}
+
+.bsb-hover-push:hover {
+  transform: scale3d(.98, .98, .98)
+}
+
+.bsb-hover-image .bsb-scale {
+  --bsb-scale: 1
+}
+
+.bsb-hover-image .bsb-scale,
+.bsb-hover-image .bsb-scale-up {
+  transform: scale3d(var(--bsb-scale), var(--bsb-scale), var(--bsb-scale));
+  transform-style: preserve-3d;
+  transition: transform .5s
+}
+
+.bsb-hover-image .bsb-scale-up {
+  --bsb-scale: 1.2
+}
+
+.bsb-hover-image:hover .bsb-hover-scale {
+  --bsb-scale-hover: 1
+}
+
+.bsb-hover-image:hover .bsb-hover-scale,
+.bsb-hover-image:hover .bsb-hover-scale-up {
+  transform: scale3d(var(--bsb-scale-hover), var(--bsb-scale-hover), var(--bsb-scale-hover))
+}
+
+.bsb-hover-image:hover .bsb-hover-scale-up {
+  --bsb-scale-hover: 1.2
+}
+.bsb-author-2 .bsb-social-media .nav-btn{
+  align-items: center;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  transition: background-color .3s ease-in-out;
+  height: 40px;
+}
+ .bsb-author-2 .bsb-social-media .nav-item {
+  margin-right: .8rem
+  
+}
+
+.bsb-author-2 .bsb-social-media .nav-link {
+  width: 40px
+}
+
+.bsb-author-2 .bsb-social-media .nav-link:hover {
+  background-color: transparent
+} 

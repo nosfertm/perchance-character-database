@@ -8,6 +8,7 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Font Awesome via CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -16,7 +17,7 @@
     <link href="css/main.css" rel="stylesheet">
     <link href="css/theme.css" rel="stylesheet">
     <link href="css/acc-characters.css" rel="stylesheet">
-    
+
     <!-- Vue 3 and Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/vue@3.3.4/dist/vue.global.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
@@ -24,7 +25,7 @@
     <!-- Pinia and VueDemi -->
     <script src="https://cdn.jsdelivr.net/npm/vue-demi@0.14.6/lib/index.iife.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/pinia@2.1.7/dist/pinia.iife.js"></script>
-</head> 
+</head>
 
 <body>
     <div id="app" v-cloak class="d-flex flex-column min-vh-100">
@@ -36,11 +37,13 @@
         <div class="modal fade" id="characterModal" tabindex="-1" aria-labelledby="characterModalLabel"
             data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel">
             <div class="modal-dialog modal-dialog-centered modal-xl">
-                <div v-if="selectedCharacter" class="modal-content" :class="{ 'bg-dark': stTheme.isDarkMode }">
+                <div v-if="selectedCharacter" class="modal-content"
+                    :class="{ 'bg-dark text-light': stTheme.isDarkMode }">
                     <!-- Title -->
                     <div class="modal-header" :class="{ 'bg-dark text-white border-secondary': stTheme.isDarkMode }">
                         <div class="d-flex flex-column" style="max-width: 65%; padding-right: 5px;">
-                            <h5 class="modal-title mb-0" id="characterModalLabel" :class="{ 'text-white': stTheme.isDarkMode }">
+                            <h5 class="modal-title mb-0" id="characterModalLabel"
+                                :class="{ 'text-white': stTheme.isDarkMode }">
                                 {{decodeText(this.selectedCharacter.manifest.name)}}
                             </h5>
                             <small class="text-truncate"
@@ -53,7 +56,8 @@
                                 class="btn btn-success" target="_blank">
                                 <i class="bi bi-download"></i> <span class="button-text">Download</span>
                             </a>
-                            <a :href="selectedCharacter.manifest?.shareUrl" class="btn btn-primary" target="_blank">
+                            <a href="#" @click.prevent="openChat(selectedCharacter.manifest?.shareUrl)"
+                                class="btn btn-primary" target="_blank">
                                 <i class="bi bi-chat"></i> <span class="button-text">Chat</span>
                             </a>
                             <button type="button" class="btn-close" :class="{ 'btn-close-white': stTheme.isDarkMode }"
@@ -62,7 +66,7 @@
                     </div>
 
                     <!-- Modal Body -->
-                    <div class="modal-body p-0" :class="{ 'bg-dark': stTheme.isDarkMode }">
+                    <div class="modal-body p-0" :class="{ 'bg-dark text-light': stTheme.isDarkMode }">
                         <div class="container-fluid">
                             <div class="row g-0">
                                 <!-- Image Column -->
@@ -80,10 +84,12 @@
                                 </div>
 
                                 <!-- Content Column -->
-                                <div class="col-7 modal-content-col" :class="{ 'bg-dark text-white': stTheme.isDarkMode }">
+                                <div class="col-7 modal-content-col"
+                                    :class="{ 'bg-dark text-white': stTheme.isDarkMode }">
                                     <!-- Description -->
                                     <div class="content-section">
-                                        <h5 class="border-bottom pb-2" :class="{ 'border-secondary': stTheme.isDarkMode }">
+                                        <h5 class="border-bottom pb-2"
+                                            :class="{ 'border-secondary': stTheme.isDarkMode }">
                                             Description</h5>
                                         <p>{{decodeText(this.selectedCharacter.manifest.description)}}</p>
                                     </div>
@@ -246,13 +252,13 @@
             <!-- Gallery Controls - Outside collapse -->
             <div class="d-flex align-items-center order-lg-last ms-2">
                 <div class="d-flex gap-2 me-2">
-                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                    <!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
                         data-bs-target="#filterPanel" aria-controls="filterPanel"
                         @click="isFilterPanelOpen = !isFilterPanelOpen">
                         <i class="fas fa-filter"></i> <span class="d-none d-xl-inline">Filter</span>
-                    </button>
+                    </button> -->
 
-                    <button class="btn btn-primary" type="button" @click="loadCategories(true)">
+                    <button class="btn btn-primary" type="button" @click="loadCategories(true), loadCharacters(true)">
                         <i class="fas fa-sync"></i> <span class="d-none d-xl-inline">Reload</span>
                     </button>
                 </div>
@@ -264,8 +270,8 @@
 
         <!-- Filter panel -->
         <div class="offcanvas offcanvas-end offcanvas-push custom-scrollbar" data-bs-scroll="true"
-            data-bs-backdrop="false" tabindex="-1" :class="{ 'bg-dark text-white': stTheme.isDarkMode }" id="filterPanel"
-            aria-labelledby="filterPanelLabel">
+            data-bs-backdrop="false" tabindex="-1" :class="{ 'bg-dark text-white': stTheme.isDarkMode }"
+            id="filterPanel" aria-labelledby="filterPanelLabel">
             <!-- Fixed part -->
             <div class="offcanvas-header" :class="{ 'bg-dark text-white': stTheme.isDarkMode }">
                 <h5 class="offcanvas-title" id="filterPanelLabel">Filter Panel</h5>
@@ -288,8 +294,9 @@
                         <input type="text" class="form-control" :class="{ 'bg-dark text-white': stTheme.isDarkMode }"
                             v-model="searchInput" @keyup.enter="selectedFilters.searchText = searchInput"
                             aria-label="Text input with segmented dropdown button">
-                        <button type="button" class="btn btn-outline-secondary" :class="{ 'btn-dark': stTheme.isDarkMode }"
-                            data-bs-toggle="tooltip" title="For a full search, click the dropdown on the right."
+                        <button type="button" class="btn btn-outline-secondary"
+                            :class="{ 'btn-dark': stTheme.isDarkMode }" data-bs-toggle="tooltip"
+                            title="For a full search, click the dropdown on the right."
                             @click="selectedFilters.searchText = searchInput">
                             <i class="fas fa-search"></i>
                         </button>
@@ -429,55 +436,170 @@
                 </div>
             </div>
 
-            <!-- Gallery content -->
-            <div v-else class="row g-3 mb-3 character-cards-container">
+            <!-- Gallery container with cards -->
+            <div v-else class="character-gallery">
+                <!-- Character cards grid with responsive layout -->
+                <section class="container-fluid py-2" style="flex: 1 !important;">
+                    <div class="row g-3">
+                        <!-- Loop through filtered characters -->
+                        <div v-for="character in filteredCharacters" :key="character.path"
+                            class="col-12 col-md-6 col-xl-4">
 
-                <!-- Loop through filtered characters -->
-                <div v-for="character in filteredCharacters" :key="character.path"
-                    class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2.4 col-xxl-2">
+                            <!-- Character card with dynamic border style based on NSFW status -->
+                            <div class="card h-100" :class="{'border border-danger': character.manifest?.is_nsfw, 
+                                         'border border-success': !character.manifest?.is_nsfw,
+                                         'dark-theme': stTheme.isDarkMode}" @click="openCharacterPage(character)">
+                                <div class="card-body d-flex flex-column">
+                                    <div class="card-content d-flex justify-content-center">
 
-                    <!-- ------- Character Card with dynamic background based on rating -------- -->
+                                        <!-- Image container with NSFW blur handling -->
+                                        <div class="card-img-container flex-shrink-0 py-1">
+                                            <img :src="character.manifest?.imageUrl || character.manifest?.imageurl"
+                                                alt="Character Image" class="img-fluid w-100 h-100 object-fit-cover"
+                                                :class="{'nsfw-blur': isNsfwCharacter(character.manifest?.categories?.rating, character.manifest?.is_nsfw) && !showNsfwImages}"
+                                                @click.stop="handleCharacterClick(character)">
 
-                    <!-- Evoke modal on click -->
-                    <div
-                        :class="['card character-card', isNsfwCharacter(character.manifest?.categories?.rating) ? 'bg-danger' : 'bg-primary']">
+                                            <!-- NSFW overlay with flame icon -->
+                                            <div v-if="isNsfwCharacter(character.manifest?.categories?.rating, character.manifest?.is_nsfw) && !showNsfwImages"
+                                                class="nsfw-overlay" @click.stop="toggleNsfw()">
+                                                <i class="fa-solid fa-fire-flame-curved fa-2x"></i>
+                                            </div>
+                                        </div>
 
-                        <!-- Image Container with fixed dimensions -->
-                        <div class="card-img-container position-relative">
-                            <img :src="character.manifest?.imageUrl" loading="lazy" :class="{
-                                    'card-img-top': true, 
-                                    'nsfw-blur': isNsfwCharacter(character.manifest?.categories?.rating) && !showNsfwImages
-                                 }" :alt="character.manifest?.name || 'Character Image'"
-                                @click="showCharacterModal(character)" data-bs-toggle="modal"
-                                data-bs-target="#characterModal">
 
-                            <!-- Put an icon overlay for NSFW images -->
-                            <div v-if="isNsfwCharacter(character.manifest?.categories?.rating) && !showNsfwImages"
-                                class="position-absolute top-50 start-50 translate-middle text-white">
-                                <i class="fa-solid fa-fire-flame-curved fa-2x"></i>
-                            </div>
-                        </div>
+                                        <!-- Character information section -->
+                                        <div class="character-info flex-grow-1">
+                                            <!-- Title and favorite button row -->
+                                            <div class="d-flex align-items-center justify-content-between mb-1">
+                                                <h5 class="card-title text-truncate mb-0">
+                                                    {{ decodeText(character.manifest?.name) || 'Unnamed Character' }}
+                                                </h5>
+                                                <i class="favorite-icon favorite ms-2 fa-lg fa-heart"
+                                                    :class="{'fa-solid active': character.manifest?.is_favorited, 'fa-regular': !character.manifest?.is_favorited}"
+                                                    @click.stop="toggleFavorite(character.path)">
+                                                </i>
+                                            </div>
 
-                        <!-- Card Footer with Title and Action Buttons -->
-                        <div class="card-footer">
-                            <div class="card-title text-truncate">
-                                {{ decodeText(character.manifest?.name) || 'Unnamed Character' }}
-                            </div>
-                            <div class="card-actions">
-                                <!-- Card action buttons -->
-                                <a :href="character.manifest?.shareUrl" target="_blank" class="action-btn"
-                                    :class="!character.manifest?.shareUrl ? 'disabled' : ''">
-                                    <i class="fas fa-comment"></i>
-                                </a>
-                                <a href="#" @click.prevent="downloadCharacterFile(character.manifest.downloadPath)"
-                                    class="action-btn" :class="!character.manifest?.downloadPath ? 'disabled' : ''">
-                                    <i class="fas fa-download"></i>
-                                </a>
+                                            <!-- Author information -->
+                                            <div class="author-info text-muted mb-1 text-truncate">
+                                                <small class="me-1">by</small>
+                                                <a :href="'author.html?id=' + character.manifest?.author_id" class="author-link" @click.stop>
+                                                    {{ decodeText(character.manifest?.author) || 'Anonymous' }}
+                                                </a>
+                                            </div>
+
+                                            <!-- Statistics section with responsive display -->
+                                            <div class="character-stats d-flex justify-content-around align-items-center rounded-3 p-2 mb-2 mt-auto"
+                                                :class="stTheme.isDarkMode ? 'bg-dark' : 'bg-body-tertiary'">
+
+                                                <!-- Chat statistics -->
+                                                <div class="text-center">
+                                                    <p class="stats-label small text-muted mb-1">Chats</p>
+                                                    <i class="fas fa-comments stats-icon"></i>
+                                                    <p class="stats-value mb-0">{{ character.manifest.chat_clicks }}</p>
+                                                </div>
+
+                                                <!-- Download statistics -->
+                                                <div class="text-center">
+                                                    <p class="stats-label small text-muted mb-1">Downloads</p>
+                                                    <i class="fas fa-download stats-icon"></i>
+                                                    <p class="stats-value mb-0">{{ character.manifest.download_clicks }}
+                                                    </p>
+                                                </div>
+
+                                                <!-- Favorites statistics -->
+                                                <div class="text-center">
+                                                    <p class="stats-label small text-muted mb-1">Favorites</p>
+                                                    <i class="fas fa-heart stats-icon"></i>
+                                                    <p class="stats-value mb-0">{{ character.manifest.favorites_count }}
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                            <!-- Action buttons -->
+                                            <div class="character-actions d-flex gap-2">
+                                                <!-- Chat button -->
+                                                <a type="button" class="btn btn-primary flex-grow-1"
+                                                    target="_blank"
+                                                    :class="!character.manifest?.shareUrl && !character.manifest?.share_url ? 'disabled' : ''"
+                                                    @click.stop="openChat(character.manifest?.shareUrl || character.manifest?.share_url)">
+                                                    <span class="button-text">Chat </span>
+                                                    <i class="fas fa-comment"></i>
+                                                </a>
+
+                                                <!-- Download button -->
+                                                <button type="button" class="btn btn-success flex-grow-1"
+                                                    :class="!character.manifest?.downloadPath && !character.manifest?.download_path ? 'disabled' : ''"
+                                                    @click.stop="downloadCharacterFile(character.manifest.downloadPath || character.manifest?.download_path)">
+                                                    <span class="button-text">Download </span>
+                                                    <i class="fas fa-download"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </section>
             </div>
+
+
+
+        </div>
+
+
+
+        <!-- Pagination -->
+        <div class="pagination-container" :class="{ 'dark-theme': stTheme.isDarkTheme }">
+            <nav aria-label="Navegação de páginas">
+                <ul class="pagination justify-content-center">
+                    <!-- Botão de página anterior - desabilitado quando estiver na primeira página -->
+                    <li class="page-item" :class="{ disabled: currentPage === 1 }">
+                        <a class="page-link" href="#" aria-label="Anterior" @click.prevent="goToPreviousPage"
+                            :class="{ 'bg-dark text-light': stTheme.isDarkMode }">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+
+                    <!-- Botão para ir para a primeira página (exibido quando há muitas páginas) -->
+                    <li v-if="showFirstPageButton" class="page-item" :class="{ active: currentPage === 1 }">
+                        <a class="page-link" href="#" @click.prevent="goToPage(1)"
+                            :class="{ 'bg-dark text-light': stTheme.isDarkMode }">1</a>
+                    </li>
+
+                    <!-- Indicador de páginas omitidas no início -->
+                    <li v-if="showLeftEllipsis" class="page-item disabled">
+                        <a class="page-link" href="#" :class="{ 'bg-dark text-light': stTheme.isDarkMode }">...</a>
+                    </li>
+
+                    <!-- Páginas do meio (geradas dinamicamente) -->
+                    <li v-for="page in displayedPages" :key="page" class="page-item"
+                        :class="{ active: currentPage === page }">
+                        <a class="page-link" href="#" @click.prevent="goToPage(page)"
+                            :class="{ 'bg-dark text-light': stTheme.isDarkMode }">{{ page }}</a>
+                    </li>
+
+                    <!-- Indicador de páginas omitidas no final -->
+                    <li v-if="showRightEllipsis" class="page-item disabled">
+                        <a class="page-link" href="#" :class="{ 'bg-dark text-light': stTheme.isDarkMode }">...</a>
+                    </li>
+
+                    <!-- Botão para ir para a última página (exibido quando há muitas páginas) -->
+                    <li v-if="showLastPageButton" class="page-item" :class="{ active: currentPage === totalPages }">
+                        <a class="page-link" href="#" @click.prevent="goToPage(totalPages)"
+                            :class="{ 'bg-dark text-light': stTheme.isDarkMode }">{{ totalPages }}</a>
+                    </li>
+
+                    <!-- Botão de próxima página - desabilitado quando estiver na última página -->
+                    <li class="page-item" :class="{ disabled: currentPage === totalPages }">
+                        <a class="page-link" href="#" aria-label="Próximo" @click.prevent="goToNextPage"
+                            :class="{ 'bg-dark text-light': stTheme.isDarkMode }">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
         </div>
 
         <!-- Footer component -->

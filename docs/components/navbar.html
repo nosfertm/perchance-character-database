@@ -87,9 +87,10 @@
                         </li>
                     
                         <li><hr :class="stTheme.isDarkMode ? 'border-light' : 'border-dark'"></li>
-                        <li><a class="dropdown-item disabled" href="#"><i class="fa-solid fa-user me-2" aria-disabled="true"></i> My Profile</a></li>
+                        <li><a class="dropdown-item" :href="'author.html?id=' + stUser.userData?.id"><i class="fa-solid fa-user me-2"></i> My Profile</a></li>
                         <li><a class="dropdown-item disabled" href="#"><i class="fa-solid fa-heart me-2"></i> My favorites</a></li>
                         <li><a class="dropdown-item" href="user-settings.html"><i class="fa-solid fa-cog me-2"></i> Settings</a></li>
+
                         <li><hr :class="stTheme.isDarkMode ? 'border-light' : 'border-dark'"></li>
                         <li>
                             <a 
@@ -121,12 +122,12 @@
                 <ul class="dropdown-menu dropdown-menu-end" :class="{ 'dropdown-menu-dark': stTheme.isDarkMode }"
                     aria-labelledby="themeToggleDropdown">
                     <li>
-                        <a class="dropdown-item" href="#" @click.prevent="stTheme.toggleTheme">
+                        <a class="dropdown-item" href="#" @click.prevent="stTheme.toggleTheme('light')">
                             <i class="fas fa-sun"></i> Light
                         </a>
                     </li>
                     <li>
-                        <a class="dropdown-item" href="#" @click.prevent="stTheme.toggleTheme">
+                        <a class="dropdown-item" href="#" @click.prevent="stTheme.toggleTheme('dark')">
                             <i class="fas fa-moon"></i> Dark
                         </a>
                     </li>

@@ -1,11 +1,16 @@
+// Import the pinia store
+import { piniaUser, piniaTheme, piniaSiteConfig } from './store.js';
+
 // Landing page specific JavaScript
-import { ThemeManager } from './theme.js';
 import LoginModalComponent from '../components/modal-login.js';
 
 document.addEventListener('DOMContentLoaded', async () => {
 
     // Vue 3 application initialization for the landing page
     const { createApp } = Vue;
+
+    // Pinia initialization
+    const pinia = Pinia.createPinia();
 
     // Function to load external templates
     async function loadTemplate(url) {
@@ -19,80 +24,64 @@ document.addEventListener('DOMContentLoaded', async () => {
     const modalLoginTemplate = await loadTemplate('components/modal-login.html');
 
     const app = createApp({
-        // Data and functions to inject to the page
-        provide() {
+        setup() {
             return {
-                site: this.site,
-                themeIcon: this.themeIcon,
-                isDarkMode: this.isDarkMode,
-                setTheme: this.setTheme,
-            };
-        },
-        data() {
-            return {
-                // Site configuration from global CONFIG
-                site: window.CONFIG.site,       // General configuration
-                isDarkMode: localStorage.getItem('siteTheme') === 'dark',
-                currentTheme: localStorage.getItem('siteTheme') === 'dark',
-                user: '',
-                loading: ''
-            };
-        },
-        methods: {
-            // Optional: Add any page-specific methods here
-            toggleTheme() {
-                this.isDarkMode = !this.isDarkMode;
-                ThemeManager.toggleTheme();
-            },
-            setTheme(theme) {
-                this.currentTheme = theme;
-                this.isDarkMode = ThemeManager.toggleTheme(theme);
+                stTheme: piniaTheme(),
+                stSite: piniaSiteConfig(),
+                stUser: piniaUser()
             }
         },
-        computed: {
-            themeIcon() {
-                switch (this.currentTheme) {
-                    case 'dark':
-                        return 'fas fa-moon';
-                    case 'auto':
-                        return 'fas fa-circle-half-stroke';
-                    default:
-                        return 'fas fa-sun';
-                }
-            },
-        },
-        mounted() {
-            this.isDarkMode = ThemeManager.isDarkMode();
+        async beforeMount() {
+            // Initiate the theme
+            piniaTheme().initTheme();
+
+            // Define piniaUser and call the getter
+            const piniaUSer = piniaUser();
+            piniaUSer.getUserData;
+
+            // We get the user again
+            await piniaUSer.getUser();
+            
         }
     });
 
     /* --------------------------- Register components -------------------------- */
-
-    // Register the navbar component
-    app.component('navbar-component', {
-        template: navbarTemplate,
-        inject: ['site', 'themeIcon', 'setTheme'],
-        props: ['user', 'isDarkMode', 'loading'],
-        // Spread all properties from the imported component
-        ...LoginModalComponent
-    });
-
-    // Register the footer component
-    app.component('footer-component', {
-        template: footerTemplate
-    });
-
-    // Register the login modal component
-    app.component('login-modal-component', {
-        // Use the HTML template
-        template: modalLoginTemplate,
-        props: ['isDarkMode'],
-        // Spread all properties from the imported component
-        ...LoginModalComponent
-    });
-
-    /* -------------------------------- Mount APP ------------------------------- */
-
-    // Mount app at #app
-    app.mount('#app');
+    
+        // Register the navbar component
+        app.component('navbar-component', {
+            template: navbarTemplate,
+            setup() {
+                return {
+                    stTheme: piniaTheme(),
+                    stSite: piniaSiteConfig(),
+                    stUser: piniaUser()
+                }
+            }
+        });
+    
+        // Register the footer component
+        app.component('footer-component', {
+            template: footerTemplate
+        });
+    
+        // Register the login modal component
+        app.component('login-modal-component', {
+            // Use the HTML template
+            template: modalLoginTemplate,
+            setup() {
+                return {
+                    stTheme: piniaTheme(),
+                    stSite: piniaSiteConfig(),
+                    stUser: piniaUser()
+                }
+            },
+            // Spread all properties from the imported component
+            ...LoginModalComponent
+        });
+    
+        /* -------------------------------- Mount APP ------------------------------- */
+        app.use(pinia);
+    
+        // Mount app at #app
+        app.mount('#app');
 });
