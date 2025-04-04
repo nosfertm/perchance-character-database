@@ -88,6 +88,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 lastLayoutChange: undefined, // Adicione esta linha
 
                 isNavigatingBack: false, // Flag to check if navigating back from other page
+                onlyFavorites: false, // Flag to show only favorites
                 currentPage: 1,
                 charactersPerPage: 24,
                 totalPages: 1,
@@ -126,9 +127,20 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 
 
-            getPageParam() {
+            getPageParam(param, alt) {
                 const params = new URLSearchParams(window.location.search);
-                return parseInt(params.get('page')) || 1;
+                let value = params.get(param);
+            
+                if (value === null) return alt; // Return default if param is missing
+            
+                // Handle boolean values
+                if (value.toLowerCase() === 'true') return true;
+                if (value.toLowerCase() === 'false') return false;
+            
+                // Handle integers
+                if (!isNaN(value) && Number.isInteger(+value)) return parseInt(value, 10);
+            
+                return value; // Return as string if nothing else matches
             },
             setPageParam(page) {
                 const params = new URLSearchParams(window.location.search);
@@ -136,7 +148,8 @@ document.addEventListener('DOMContentLoaded', async () => {
                 window.history.replaceState({}, '', `${window.location.pathname}?${params.toString()}`);
             },
             ensurePageParam() {
-                this.currentPage = this.getPageParam();
+                this.currentPage = this.getPageParam('page',1);
+                this.onlyFavorites = this.getPageParam('favorites',false);
                 this.setPageParam(this.currentPage);
             },
             goToPage(page) {
@@ -1001,13 +1014,18 @@ document.addEventListener('DOMContentLoaded', async () => {
             showRightEllipsis() {
                 return this.totalPages > 7 && this.displayedPages[this.displayedPages.length - 1] < this.totalPages - 1;
             },
+            showPagination(){
+                return this.totalPages > 1 && !this.onlyFavorites;
+            },
 
 
-            // Computed property to handle character filtering with NSFW visibility
+            // Computed property to handle character filtering with paginagation and favorites
+            // This will be used to show the characters in the current page
             filteredCharacters() {
                 if (this.stateLoading) return [];
-
+            
                 return this.filterCharacters()
+                    .filter(character => !this.onlyFavorites || character.manifest?.is_favorited) // Apply filter only if needed
                     .slice(
                         this.currentPage * this.charactersPerPage - this.charactersPerPage, // Get the first index to show
                         this.currentPage * this.charactersPerPage    // Get the last index to show
@@ -1196,8 +1214,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 clearTimeout(loadingTimeout);
 
                 // Check if user is logged in and set NSFW visibility
-                !piniaUser().userData.blur_nsfw || false
-
+                this.showNsfwImages = piniaUser().userData.blur_nsfw === false || false;
             } catch (error) {
                 console.error('Failed to load data:', error);
                 ToastUtils.showToast('Failed to load data!', 'Error', 'error');

@@ -400,11 +400,10 @@
         <!-- ----------------------------------------------------------------------- -->
         <!--                                 CONTENT                                 -->
         <!-- ----------------------------------------------------------------------- -->
-
         <!-- Characters Grid Section -->
         <!-- Displays a responsive grid of character cards -->
         <!-- Each card shows character image, name, and action buttons -->
-        <div class="container-fluid" :class="{'filter-panel-open': isFilterPanelOpen}">
+        <div class="container-fluid mb-2" :class="{'filter-panel-open': isFilterPanelOpen}">
 
 
             <!-- Loading placeholders -->
@@ -550,7 +549,7 @@
 
 
         <!-- Pagination -->
-        <div class="pagination-container" :class="{ 'dark-theme': stTheme.isDarkTheme }">
+        <div v-if="showPagination" class="pagination-container py-2" :class="{ 'dark-theme': stTheme.isDarkTheme }">
             <nav aria-label="Navegação de páginas">
                 <ul class="pagination justify-content-center">
                     <!-- Botão de página anterior - desabilitado quando estiver na primeira página -->
