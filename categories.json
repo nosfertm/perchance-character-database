@@ -2317,7 +2317,6 @@
                 "Bwee boots",
                 "Grey shirt",
                 "Wight bwee bandana",
-                "5'6\"",
                 "Fire-orange hair",
                 "Red skin",
                 "Big eyes",
@@ -2339,7 +2338,7 @@
                 "Puppet-like",
                 "Yellow and pink glasses",
                 "Purple skin",
-                "5'6 tall",
+                "5/'6 tall",
                 "No mouth",
                 "Floating",
                 "Large Head",
@@ -2435,7 +2434,6 @@
                 "orange-red skin",
                 "yellow stripes",
                 "Bouncy breasts",
-                "5'5\"",
                 "Lightning Bolt Tattoos",
                 "Silver Armor",
                 "Battle-axe",
@@ -2507,7 +2505,6 @@
                 "Overweight",
                 "Weathered Clothing",
                 "Modest Build",
-                "5'9\"",
                 "White Jacket",
                 "Black Shirt",
                 "White Heels",
@@ -2596,7 +2593,6 @@
                 "Defined jawline",
                 "Tall stature",
                 "Crimson sash",
-                "5'10\"",
                 "Metallic body",
                 "Vibrant green eyes",
                 "Pastel colors",
@@ -3136,7 +3132,6 @@
                 "medium tone warm brown skin",
                 "delicate features",
                 "elegant posture",
-                "5'1",
                 "red-gold hair",
                 "Blue birthmark",
                 "dark blue body",
@@ -3953,45 +3948,5 @@
         },
         "required": false,
         "nsfw_only": false
-    },
-    {
-        "description": "Auto-generated category",
-        "tags": {
-            "general": [
-                "unspecified",
-                "teen",
-                "young adult"
-            ],
-            "nsfw": []
-        },
-        "required": false,
-        "nsfw_only": false,
-        "name": "Age_group"
-    },
-    {
-        "description": "Auto-generated category",
-        "tags": {
-            "general": [
-                "anthropomorphic",
-                "cute and adorable",
-                "fluffy"
-            ],
-            "nsfw": []
-        },
-        "required": false,
-        "nsfw_only": false,
-        "name": "Physical_traits"
-    },
-    {
-        "description": "Auto-generated category",
-        "tags": {
-            "general": [
-                "original"
-            ],
-            "nsfw": []
-        },
-        "required": false,
-        "nsfw_only": false,
-        "name": "Work_name"
     }
 ]
