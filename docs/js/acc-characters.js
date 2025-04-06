@@ -473,7 +473,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 // Handle NSFW visibility toggle
                 if (categoryLower === 'rating' && cleanTag.toLowerCase() === 'nsfw') {
                     this.showNsfwTags = e.target.checked;
-                    this.showNsfwImages = e.target.checked;
+                    // this.showNsfwImages = e.target.checked;
                 }
 
                 // Update selected filters
@@ -639,8 +639,8 @@ document.addEventListener('DOMContentLoaded', async () => {
 
             showAllNsfw() {
                 console.log('showAllNsfw')
-                this.showNsfwImages = true;
-                bootstrap.Modal.getInstance(document.getElementById('nsfwConfirmModal')).hide();
+                // this.showNsfwImages = true;
+                // bootstrap.Modal.getInstance(document.getElementById('nsfwConfirmModal')).hide();
             },
 
             handleModalClose() {
