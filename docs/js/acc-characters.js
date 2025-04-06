@@ -442,6 +442,29 @@ document.addEventListener('DOMContentLoaded', async () => {
                 return data;
             },
 
+            /**
+             * Sorts the tags within a category alphabetically.
+             * 
+             * @param {Object} category - The category object containing tags.
+             * @returns {Object} - A new category object with sorted tags.
+             */
+            sortCategoryTags(categories) {
+                // Iterate over each category in the categories array
+                    return categories.forEach(category => {
+                        // Check if the category has a 'tags' object
+                        if (category.tags) {
+                            // If the 'general' tags array exists, sort it alphabetically
+                            if (category.tags.general) {
+                                category.tags.general.sort();
+                            }
+                            // If the 'nsfw' tags array exists, sort it alphabetically
+                            if (category.tags.nsfw) {
+                                category.tags.nsfw.sort();
+                            }
+                        }
+                    });
+            },
+
             isTagSelected(categoryName, tag, cat) {
                 // Exit early if data is loading or characters are not available
                 if (this.stateLoading || !this.categories) return false;
@@ -822,6 +845,10 @@ document.addEventListener('DOMContentLoaded', async () => {
                 alert('To see the image, disable the nsfw blur on your account settings.');
             },
 
+            /* -------------------------------------------------------------------------- */
+            /*                         APPEARANCE AND RESPONSIVITY                        */
+            /* -------------------------------------------------------------------------- */
+
             /**
  * Checks the size of all cards on the page and applies appropriate styling classes
  * based on their dimensions to create a consistent and responsive layout.
@@ -1092,7 +1119,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
                 // Get filtered characters first
                 const filteredChars = this.filteredCharacters;
-                if (!filteredChars.length) return this.categories;
+                if (!filteredChars.length) return this.sortCategoryTags(this.categories);
 
                 // Process each category from the original categories array
                 return this.categories.map(category => {

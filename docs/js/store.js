@@ -27,7 +27,7 @@ export const piniaSiteConfig = Pinia.defineStore('configManager', {
         cache: {
             accCharacters: {
                 characters: {
-                    duration: 60,  // Cache duration in minutes
+                    duration: 99999,  // Cache duration in minutes
                     key: 'accCharacters_cache'
                 },
                 filters: {
