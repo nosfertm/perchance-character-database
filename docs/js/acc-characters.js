@@ -186,7 +186,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
             async loadCharacters(forceRefresh = false) {
                 await this.loadCharactersFromSupabase(forceRefresh)
-                this.totalPages = Math.ceil(this.characters.length / this.charactersPerPage);
+                // this.totalPages = Math.ceil(this.characters.length / this.charactersPerPage);
             },
 
             /**
@@ -311,13 +311,27 @@ document.addEventListener('DOMContentLoaded', async () => {
                         }
 
                         // Extract characters from the result
-                        charData = result.data.map(item => ({
+                        const indexData = result.data.map(item => ({
                             path: item.id,
                             manifest: { ...item }
                         }));
 
                         // Process the data to convert categories to lowercase (if still needed)
-                        // code snippet deleted
+                        // Process the data to convert categories to lowercase
+                        charData = indexData.map(char => {
+                            if (char.manifest?.categories) {
+                                const lowerCaseCategories = {};
+                                Object.entries(char.manifest.categories).forEach(([key, value]) => {
+                                    const lowerKey = key.toLowerCase();
+                                    const lowerValue = Array.isArray(value)
+                                        ? value.map(v => typeof v === 'string' ? v.toLowerCase() : v)
+                                        : typeof value === 'string' ? value.toLowerCase() : value;
+                                    lowerCaseCategories[lowerKey] = lowerValue;
+                                });
+                                char.manifest.categories = lowerCaseCategories;
+                            }
+                            return char;
+                        });
 
                         // Store processed data in cache
                         localStorage.setItem(cacheKey, JSON.stringify(charData));
@@ -495,7 +509,11 @@ document.addEventListener('DOMContentLoaded', async () => {
                     character.manifest?.description,
                     character.manifest?.username,
                     character.manifest?.description,
-                    character.manifest?.title
+                    character.manifest?.title,
+
+                    // new fields from supabase
+                    character.manifest?.author,
+                    character.manifest?.author_id,
                 ];
 
                 return searchFields.some(field =>
@@ -512,7 +530,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 return this.characters.filter(character => {
                     // 1. Safety check: Ensure character has valid categories object
                     // This prevents errors from malformed character data
-                    //if (!character.manifest?.categories) return false;
+                    // if (!character.manifest?.categories) return false;
 
                     // 2. Search text filtering
                     // Checks if character matches the current search input across multiple fields
@@ -568,6 +586,8 @@ document.addEventListener('DOMContentLoaded', async () => {
                             return charTags.includes(cleanTag);
                         });
                     });
+
+                    //return true; // Alternative code to force all characters to be shown. Take a look back on this when implementing filtering
                 });
             },
 
@@ -799,7 +819,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             },
 
             toggleNsfw() {
-                console.log('toggleNsfw')
+                alert('To see the image, disable the nsfw blur on your account settings.');
             },
 
             /**
@@ -1023,13 +1043,46 @@ document.addEventListener('DOMContentLoaded', async () => {
             // This will be used to show the characters in the current page
             filteredCharacters() {
                 if (this.stateLoading) return [];
-            
                 return this.filterCharacters()
-                    .filter(character => !this.onlyFavorites || character.manifest?.is_favorited) // Apply filter only if needed
+            },
+
+            charactersToDisplay() {
+                if (this.stateLoading) return [];
+
+                const characters = this.filteredCharacters || [];
+
+                // Check if characters are available
+                if (!characters.length) return [];
+
+                // Calculate the total number of pages based on the filtered characters
+                this.totalPages = Math.ceil(characters.length / this.charactersPerPage);
+
+                // Ensure the current page is within valid range
+                if (this.currentPage < 1) this.currentPage = 1;
+                if (this.currentPage > this.totalPages) this.currentPage = this.totalPages;
+            
+                // Return the characters for the current page
+                return characters
+                    // .filter(character => 
+                    //     (!this.onlyFavorites || character.manifest?.is_favorited) // Show only favorites
+                    //     //&& (this.showNsfwCharacters || !character.manifest?.is_nsfw) // Remove NSFW if showNsfwCharacters is false
+                    // )
                     .slice(
-                        this.currentPage * this.charactersPerPage - this.charactersPerPage, // Get the first index to show
-                        this.currentPage * this.charactersPerPage    // Get the last index to show
+                        this.currentPage * this.charactersPerPage - this.charactersPerPage, // First index to show
+                        this.currentPage * this.charactersPerPage  // Last index to show
                     );
+            },
+            
+            removedNsfwCount() {
+                if (this.stateLoading) return 0;
+            
+                // If NSFW content is allowed, nothing is removed
+                if (this.showNsfwCharacters) return 0;
+            
+                // Count NSFW characters that would be displayed after applying all other filters except NSFW
+                return this.filterCharacters()
+                    .filter(character => !this.onlyFavorites || character.manifest?.is_favorited)
+                    .filter(character => character.manifest?.is_nsfw).length;
             },
 
             // Computed property to get available categories inside characters

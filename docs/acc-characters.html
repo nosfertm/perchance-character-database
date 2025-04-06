@@ -252,11 +252,11 @@
             <!-- Gallery Controls - Outside collapse -->
             <div class="d-flex align-items-center order-lg-last ms-2">
                 <div class="d-flex gap-2 me-2">
-                    <!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
                         data-bs-target="#filterPanel" aria-controls="filterPanel"
                         @click="isFilterPanelOpen = !isFilterPanelOpen">
                         <i class="fas fa-filter"></i> <span class="d-none d-xl-inline">Filter</span>
-                    </button> -->
+                    </button>
 
                     <button class="btn btn-primary" type="button" @click="loadCategories(true), loadCharacters(true)">
                         <i class="fas fa-sync"></i> <span class="d-none d-xl-inline">Reload</span>
@@ -434,14 +434,18 @@
                     </div>
                 </div>
             </div>
-
+            
+         <pre>
+            <!-- charactersToDisplay {{charactersToDisplay.length}} -->
+            filteredCharacters {{filteredCharacters.length}}
+         </pre>
             <!-- Gallery container with cards -->
             <div v-else class="character-gallery">
                 <!-- Character cards grid with responsive layout -->
                 <section class="container-fluid py-2" style="flex: 1 !important;">
                     <div class="row g-3">
                         <!-- Loop through filtered characters -->
-                        <div v-for="character in filteredCharacters" :key="character.path"
+                        <div v-for="character in charactersToDisplay" :key="character.path"
                             class="col-12 col-md-6 col-xl-4">
 
                             <!-- Character card with dynamic border style based on NSFW status -->
