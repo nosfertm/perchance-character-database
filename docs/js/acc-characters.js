@@ -5,7 +5,7 @@ import { DatabaseService } from './supabase.js';
 
 
 
-// Global event listener to store scroll before leaving
+// Global event listener to store scroll position before leaving
 window.addEventListener('beforeunload', () => {
     sessionStorage.setItem('scrollY', window.scrollY);
 });
@@ -49,15 +49,13 @@ document.addEventListener('DOMContentLoaded', async () => {
             await piniaUSer.getUser();
 
         },
+        created() {
+            this.debouncedCheckCardSizes = this.debounce(this.checkCardSizes, 200);
+            this.ensurePageParam();
+        },
         data() {
             return {
-                // // Site configuration from global CONFIG
-                // site: piniaSiteConfig().site,       // Gerenal configuration
-                // isDarkMode: localStorage.getItem('siteTheme') === 'dark',
-                // currentTheme: localStorage.getItem('siteTheme'),
-
-                // User variables
-                user: '',
+                //user: '',
 
                 // Variables for user interaction
                 isFilterPanelOpen: false,       // Flag to control filter panel visibility and page responsiveness
@@ -82,11 +80,13 @@ document.addEventListener('DOMContentLoaded', async () => {
                     }
                 },
 
+                // Appearance variables to control card sizes
                 minCardWidth: null,
                 maxCardWidth: null,
                 debouncedCheckCardSizes: null,
-                lastLayoutChange: undefined, // Adicione esta linha
+                lastLayoutChange: undefined, 
 
+                // Pagination variables
                 isNavigatingBack: false, // Flag to check if navigating back from other page
                 onlyFavorites: false, // Flag to show only favorites
                 currentPage: 1,
@@ -94,14 +94,13 @@ document.addEventListener('DOMContentLoaded', async () => {
                 totalPages: 1,
             };
         },
-
-        created() {
-            this.debouncedCheckCardSizes = this.debounce(this.checkCardSizes, 200);
-            this.ensurePageParam();
-        },
-
         methods: {
 
+            /* -------------------------------------------------------------------------- */
+            /*                                 NAVIGATION                                 */
+            /* -------------------------------------------------------------------------- */
+
+            /* ----------------------------- Scroll position ---------------------------- */
             saveScrollPosition() {
                 sessionStorage.setItem('scrollY', window.scrollY);
             },
@@ -125,8 +124,15 @@ document.addEventListener('DOMContentLoaded', async () => {
                 }
             },
 
-
-
+            /* ------------------------------- PAGINATION ------------------------------- */
+            
+            // Check if the page param is set and set it to default if not
+            // This is called when the page loads to ensure the page param is set correctly
+            ensurePageParam() {
+                this.currentPage = this.getPageParam('page',1);
+                this.onlyFavorites = this.getPageParam('favorites',false);
+                this.setPageParam(this.currentPage);
+            },
             getPageParam(param, alt) {
                 const params = new URLSearchParams(window.location.search);
                 let value = params.get(param);
@@ -147,37 +153,30 @@ document.addEventListener('DOMContentLoaded', async () => {
                 params.set('page', page);
                 window.history.replaceState({}, '', `${window.location.pathname}?${params.toString()}`);
             },
-            ensurePageParam() {
-                this.currentPage = this.getPageParam('page',1);
-                this.onlyFavorites = this.getPageParam('favorites',false);
-                this.setPageParam(this.currentPage);
-            },
-            goToPage(page) {
+            async goToPage(page) {
                 if (page < 1 || page > this.totalPages) return;
-                this.currentPage = page;
-                this.setPageParam(page);
+
+                // Try to load characters, if it fails, show an error message
+                try {
+                    await this.loadCharacters(true); // Load characters for the new page
+                    this.currentPage = page;
+                    this.setPageParam(page);
+                } catch (error) {
+                    console.error("Failed to load characters:", error.message);
+                    ToastUtils.showToast('Failed to load characters.', 'Error', 'error');
+                } 
             },
             goToPreviousPage() {
+                // Check if the previous page is within bounds
+                if (this.currentPage <= 1) return;
+
                 this.goToPage(this.currentPage - 1);
-                this.setPageParam(this.currentPage - 1);
             },
             goToNextPage() {
+                // Check if the next page is within bounds
+                if (this.currentPage >= this.totalPages) return;
+
                 this.goToPage(this.currentPage + 1);
-                this.setPageParam(this.currentPage + 1);
-            },
-
-
-            debounce(func, wait) {
-                let timeout;
-                return function (...args) {
-                    clearTimeout(timeout);
-                    timeout = setTimeout(() => func.apply(this, args), wait);
-                };
-            },
-
-            showCharacterModal(character) {
-                this.selectedCharacter = character;
-                console.log('selectedCharacter', this.selectedCharacter)
             },
 
             /* -------------------------------------------------------------------------- */
@@ -287,17 +286,21 @@ document.addEventListener('DOMContentLoaded', async () => {
                     const isCacheValid = lastFetchTime && (Date.now() - lastFetchTime < cacheDuration);
 
                     let charData;
+                    let pagination;
 
                     if (!forceRefresh && cachedData && isCacheValid) {
+                        //Retrieve character cached data
                         charData = JSON.parse(cachedData);
+                        //Retrieve pagination data
+                        pagination = JSON.parse(localStorage.getItem(cacheKey + '_pagination'));
                         Misc.debug(debugKey, debugPrefix + "Using cached data for characters");
                     } else {
                         Misc.debug(debugKey, debugPrefix + "Fetching characters from database");
 
                         // Setup parameters for the get_characters function
                         const args = {
-                            page_number: 1,
-                            page_size: 9999, // Adjust as needed for your application
+                            page_number: this.currentPage,
+                            page_size: 24, // Adjust as needed for your application
                             sort_by: 'alphabetical',
                             search_term: '', // Empty string to get all characters
                             current_user_id: piniaUser().userData.id
@@ -310,8 +313,12 @@ document.addEventListener('DOMContentLoaded', async () => {
                             throw new Error(`Failed to fetch characters: ${result.error}`);
                         }
 
+                        // Extract characters and pagination data from the result
+                        charData = result.data.characters;
+                        pagination = result.data.pagination;
+
                         // Extract characters from the result
-                        const indexData = result.data.map(item => ({
+                        const indexData = charData.map(item => ({
                             path: item.id,
                             manifest: { ...item }
                         }));
@@ -335,12 +342,14 @@ document.addEventListener('DOMContentLoaded', async () => {
 
                         // Store processed data in cache
                         localStorage.setItem(cacheKey, JSON.stringify(charData));
+                        localStorage.setItem(cacheKey + '_pagination', JSON.stringify(pagination));
                         localStorage.setItem(`${cacheKey}_timestamp`, Date.now().toString());
 
                         Misc.debug(debugKey, debugPrefix + "Fetched and stored characters data successfully");
                     }
 
                     this.characters = charData;
+                    this.totalPages = pagination.total_pages || 1; // Set total pages from pagination data
                 } catch (error) {
                     ToastUtils.showToast('Failed to load characters.', 'Error', 'error');
                     console.error("Failed to load characters:", error.message);
@@ -348,9 +357,6 @@ document.addEventListener('DOMContentLoaded', async () => {
                     this.stateLoading = false;
                 }
             },
-
-
-
 
             /* -------------------------------------------------------------------------- */
             /*                               LOAD CATEGORIES                              */
@@ -424,22 +430,6 @@ document.addEventListener('DOMContentLoaded', async () => {
                 } finally {
                     this.stateLoading = false;
                 }
-            },
-
-            // Add this helper method to the methods section
-            convertToLowerCase(data) {
-                if (Array.isArray(data)) {
-                    return data.map(item => this.convertToLowerCase(item));
-                } else if (typeof data === 'object' && data !== null) {
-                    const newObj = {};
-                    for (const [key, value] of Object.entries(data)) {
-                        newObj[key.toLowerCase()] = this.convertToLowerCase(value);
-                    }
-                    return newObj;
-                } else if (typeof data === 'string') {
-                    return data.toLowerCase();
-                }
-                return data;
             },
 
             /**
@@ -544,6 +534,9 @@ document.addEventListener('DOMContentLoaded', async () => {
                 );
             },
 
+            /* -------------------------------------------------------------------------- */
+            /*                                  FILTERING                                 */
+            /* -------------------------------------------------------------------------- */
             // Robust filtering method
             filterCharacters() {
                 // Exit early if data is loading or characters are not available
@@ -708,7 +701,40 @@ document.addEventListener('DOMContentLoaded', async () => {
                     return text;
                 }
             },
+            
+            // Add this helper method to the methods section
+            convertToLowerCase(data) {
+                if (Array.isArray(data)) {
+                    return data.map(item => this.convertToLowerCase(item));
+                } else if (typeof data === 'object' && data !== null) {
+                    const newObj = {};
+                    for (const [key, value] of Object.entries(data)) {
+                        newObj[key.toLowerCase()] = this.convertToLowerCase(value);
+                    }
+                    return newObj;
+                } else if (typeof data === 'string') {
+                    return data.toLowerCase();
+                }
+                return data;
+            },
 
+            debounce(func, wait) {
+                let timeout;
+                return function (...args) {
+                    clearTimeout(timeout);
+                    timeout = setTimeout(() => func.apply(this, args), wait);
+                };
+            },
+
+            showCharacterModal(character) {
+                this.selectedCharacter = character;
+                console.log('selectedCharacter', this.selectedCharacter)
+            },
+
+
+            /* -------------------------------------------------------------------------- */
+            /*                               CARD FUNCTIONS                               */
+            /* -------------------------------------------------------------------------- */
             openChat(link) {
                 // Check if the current window is inside an iframe
                 const isInIframe = window.self !== window.top;
@@ -850,9 +876,9 @@ document.addEventListener('DOMContentLoaded', async () => {
             /* -------------------------------------------------------------------------- */
 
             /**
- * Checks the size of all cards on the page and applies appropriate styling classes
- * based on their dimensions to create a consistent and responsive layout.
- */
+             * Checks the size of all cards on the page and applies appropriate styling classes
+             * based on their dimensions to create a consistent and responsive layout.
+             */
             checkCardSizes() {
                 // Obter todos os elementos de cards e containers de imagens
                 const cards = document.querySelectorAll(".card");
@@ -1082,7 +1108,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 if (!characters.length) return [];
 
                 // Calculate the total number of pages based on the filtered characters
-                this.totalPages = Math.ceil(characters.length / this.charactersPerPage);
+                // this.totalPages = Math.ceil(characters.length / this.charactersPerPage);
 
                 // Ensure the current page is within valid range
                 if (this.currentPage < 1) this.currentPage = 1;
@@ -1094,10 +1120,10 @@ document.addEventListener('DOMContentLoaded', async () => {
                     //     (!this.onlyFavorites || character.manifest?.is_favorited) // Show only favorites
                     //     //&& (this.showNsfwCharacters || !character.manifest?.is_nsfw) // Remove NSFW if showNsfwCharacters is false
                     // )
-                    .slice(
-                        this.currentPage * this.charactersPerPage - this.charactersPerPage, // First index to show
-                        this.currentPage * this.charactersPerPage  // Last index to show
-                    );
+                    // .slice(
+                    //     this.currentPage * this.charactersPerPage - this.charactersPerPage, // First index to show
+                    //     this.currentPage * this.charactersPerPage  // Last index to show
+                    // );
             },
             
             removedNsfwCount() {
