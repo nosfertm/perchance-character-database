@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 activeTab: 'features',
 
                 // Definição dinâmica dos tabs disponíveis
-                availableTabs: []
+                featureTabs: []
             };
         },
         methods: {
@@ -97,8 +97,9 @@ document.addEventListener('DOMContentLoaded', async () => {
                 // Extract characters from the result
                 this.characterData = result.data[0]
 
-                this.availableTabs = [
+                this.featureTabs = [
                     { key: 'features', label: 'Features', fetch: false, show: true  },
+                    { key: 'categories', label: 'Categories', fetch: false, show: !!this.characterData?.categories },
                     { key: 'prompt', label: 'Prompt', fetch: true, show: !!this.characterData?.features_roleinstruction, file: "src/roleInstruction.txt", outputFormat: "plaintext" },
                     { key: 'reminder', label: 'Reminder', fetch: true, show: !!this.characterData?.features_remindermessage, file: "src/reminderMessage.txt", outputFormat: "plaintext" },
                     { key: 'initialMessages', label: 'Initial Messages', fetch: true, show: !!this.characterData?.features_initialmessages, file: "src/initialMessages.json", outputFormat: "json" },
@@ -129,7 +130,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 }
 
                 // Extract characters from the result
-                this.otherCharacters = result.data.filter(item => item.id !== this.characterID);
+                this.otherCharacters = result.data.characters.filter(item => item.id !== this.characterID);
             },
 
             
@@ -256,7 +257,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 }
 
                 // Find the current tab's information
-                const tabInfo = this.availableTabs.find(t => t.key === this.activeTab);
+                const tabInfo = this.featureTabs.find(t => t.key === this.activeTab);
 
                 // If the tab does not require fetching or is not found, return early
                 if (!tabInfo || !tabInfo.fetch) {
@@ -416,10 +417,10 @@ document.addEventListener('DOMContentLoaded', async () => {
         },
         computed: {
             /**
-    * Checks if current content is in JSON format
-    * 
-    * @returns {boolean} - True if content is JSON
-    */
+            * Checks if current content is in JSON format
+            * 
+            * @returns {boolean} - True if content is JSON
+            */
             isJsonContent() {
                 return this.isValidJson(this.charConfig);
             },
@@ -461,8 +462,28 @@ document.addEventListener('DOMContentLoaded', async () => {
              * @returns {Object} - Active tab configuration
              */
             activeTabConfig() {
-                return this.availableTabs.find(tab => tab.key === this.activeTab) || {};
+                return this.featureTabs.find(tab => tab.key === this.activeTab) || {};
+            },
+
+            /**
+             * Gets available tabs based on the current character data
+             * 
+             * @returns {Object} - Available tabs configuration
+             */
+            availableTabs() {
+                return this.featureTabs.filter(tab => tab.show) || [];
+            },
+
+            filteredCategories() {
+                return Object.fromEntries(
+                    Object.entries(this.characterData.categories)
+                        .filter(([key]) => !key.startsWith("features_"))
+                );
             }
+            
+            
+            
+            
         },
         async mounted() {
             const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')

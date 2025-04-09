@@ -121,9 +121,12 @@
                                         @click="downloadCharacterFile(characterData?.download_path)">
                                         <i class="fa fa-download"></i> <span class="d-none d-sm-inline">Download</span>
                                     </button>
-                                    <button :class="characterData?.is_favorited ? 'favorite-btn favorited' : 'favorite-btn not-favorited'" class="btn border border-secondary shadow-0 btn-icon"
+                                    <button
+                                        :class="characterData?.is_favorited ? 'favorite-btn favorited' : 'favorite-btn not-favorited'"
+                                        class="btn border border-secondary shadow-0 btn-icon"
                                         @click="toggleFavorite(characterData?.id)">
-                                        <i :class="characterData?.is_favorited ? 'fa-solid fa-heart' : 'fa-regular fa-heart'"></i>
+                                        <i
+                                            :class="characterData?.is_favorited ? 'fa-solid fa-heart' : 'fa-regular fa-heart'"></i>
                                         <span class="d-none d-sm-inline">
                                             {{ characterData?.is_favorited ? ' Remove' : ' Add' }}
                                         </span>
@@ -447,6 +450,29 @@
                                             </div>
                                         </div>
 
+                                        <!-- Format content based on type -->
+                                        <div v-if="tab.key === 'categories'" class="content-section">
+                                            <!-- Categories -->
+                                                <div v-for="(category, categoryName, index) in filteredCategories"
+                                                    class="mb-3 d-flex flex-wrap gap-2 align-items-center">
+                                                    <template
+                                                        v-if="Array.isArray(category) ? category.length > 0 : category">
+                                                        <h6 :class="{ 'text-white': stTheme.isDarkMode }" class="mb-0 me-2">
+                                                            {{categoryName.split(' ').map(word =>
+                                                            word.charAt(0).toUpperCase() +
+                                                            word.slice(1)).join(' ')}}:
+                                                        </h6>
+                                                        <span
+                                                            v-if="categoryName !== 'rating' || Array.isArray(category)"
+                                                            v-for="tag in category" class="badge"
+                                                            :class="characterData?.is_nsfw ? 'bg-danger' : 'bg-primary'">{{tag}}
+                                                        </span>
+                                                        <span v-else class="badge"
+                                                            :class="characterData?.is_nsfw ? 'bg-danger' : 'bg-primary'">{{category}}</span>
+                                                    </template>
+                                                </div>
+                                        </div>
+
 
                                         <!-- Plain text output -->
                                         <pre v-else class="formatted-text">{{ charConfig }}</pre>
@@ -459,6 +485,8 @@
 
                         </div>
                     </div>
+
+                    <!-- Sidebar for other characters by the same author -->
                     <div class="col-lg-4">
                         <div class="px-0 border rounded-2 shadow-0">
                             <div class="card">
@@ -469,7 +497,7 @@
                                     <div v-for="character in otherCharacters" class="d-flex mb-0">
                                         <a :href="'character-details.html?uuid=' + character.id" class="me-3 mb-4">
                                             <div style="overflow: hidden; position: relative;">
-                                                <img :src="character?.imageurl" alt="Character Image"
+                                                <img :src="character?.imageUrl" alt="Character Image"
                                                     style="min-width: 100px; max-height: 120px;"
                                                     :style="character?.is_nsfw && character?.blur_nsfw ? 'filter: blur(5px);' : ''"
                                                     class="img-md img-thumbnail" @click.stop="toggleNsfw">

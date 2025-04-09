@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 minCardWidth: null,
                 maxCardWidth: null,
                 debouncedCheckCardSizes: null,
-                lastLayoutChange: undefined, 
+                lastLayoutChange: undefined,
 
                 // Pagination variables
                 isNavigatingBack: false, // Flag to check if navigating back from other page
@@ -125,27 +125,27 @@ document.addEventListener('DOMContentLoaded', async () => {
             },
 
             /* ------------------------------- PAGINATION ------------------------------- */
-            
+
             // Check if the page param is set and set it to default if not
             // This is called when the page loads to ensure the page param is set correctly
             ensurePageParam() {
-                this.currentPage = this.getPageParam('page',1);
-                this.onlyFavorites = this.getPageParam('favorites',false);
+                this.currentPage = this.getPageParam('page', 1);
+                this.onlyFavorites = this.getPageParam('favorites', false);
                 this.setPageParam(this.currentPage);
             },
             getPageParam(param, alt) {
                 const params = new URLSearchParams(window.location.search);
                 let value = params.get(param);
-            
+
                 if (value === null) return alt; // Return default if param is missing
-            
+
                 // Handle boolean values
                 if (value.toLowerCase() === 'true') return true;
                 if (value.toLowerCase() === 'false') return false;
-            
+
                 // Handle integers
                 if (!isNaN(value) && Number.isInteger(+value)) return parseInt(value, 10);
-            
+
                 return value; // Return as string if nothing else matches
             },
             setPageParam(page) {
@@ -156,15 +156,36 @@ document.addEventListener('DOMContentLoaded', async () => {
             async goToPage(page) {
                 if (page < 1 || page > this.totalPages) return;
 
+                // Store current page for fallback
+                const previousPage = this.currentPage;
+                this.currentPage = page;
+                this.setPageParam(page);
+
                 // Try to load characters, if it fails, show an error message
                 try {
                     await this.loadCharacters(true); // Load characters for the new page
-                    this.currentPage = page;
-                    this.setPageParam(page);
+
+                    // Updates the current page in localStorage
+                    const cacheConfig = piniaSiteConfig().cache.accCharacters.characters;
+                    const cacheKey = `${cacheConfig.key}_pagination`;
+
+                    // Retrieve existing pagination data or initialize an empty object
+                    const pagination = JSON.parse(localStorage.getItem(cacheKey)) || {};
+
+                    // Update the current page
+                    pagination.currentPage = this.currentPage;
+
+                    // Save the updated pagination state back to localStorage
+                    localStorage.setItem(cacheKey, JSON.stringify(pagination));
+
+
                 } catch (error) {
+                    // If loading fails, revert to the previous page and show an error message
+                    this.currentPage = previousPage;
+                    this.setPageParam(previousPage);
                     console.error("Failed to load characters:", error.message);
                     ToastUtils.showToast('Failed to load characters.', 'Error', 'error');
-                } 
+                }
             },
             goToPreviousPage() {
                 // Check if the previous page is within bounds
@@ -282,8 +303,9 @@ document.addEventListener('DOMContentLoaded', async () => {
                     const cacheDuration = cacheConfig.duration * 60 * 1000 || 3600;
 
                     const cachedData = localStorage.getItem(cacheKey);
+                    const cachedPagination = localStorage.getItem(cacheKey + '_pagination');
                     const lastFetchTime = localStorage.getItem(`${cacheKey}_timestamp`);
-                    const isCacheValid = lastFetchTime && (Date.now() - lastFetchTime < cacheDuration);
+                    const isCacheValid = lastFetchTime && (Date.now() - lastFetchTime < cacheDuration) && (cachedPagination.currentPage === this.currentPage);
 
                     let charData;
                     let pagination;
@@ -292,7 +314,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                         //Retrieve character cached data
                         charData = JSON.parse(cachedData);
                         //Retrieve pagination data
-                        pagination = JSON.parse(localStorage.getItem(cacheKey + '_pagination'));
+                        pagination = JSON.parse(cachedPagination);
                         Misc.debug(debugKey, debugPrefix + "Using cached data for characters");
                     } else {
                         Misc.debug(debugKey, debugPrefix + "Fetching characters from database");
@@ -316,6 +338,9 @@ document.addEventListener('DOMContentLoaded', async () => {
                         // Extract characters and pagination data from the result
                         charData = result.data.characters;
                         pagination = result.data.pagination;
+
+                        // Add the current page to the pagination object
+                        pagination.currentPage = this.currentPage;
 
                         // Extract characters from the result
                         const indexData = charData.map(item => ({
@@ -440,19 +465,19 @@ document.addEventListener('DOMContentLoaded', async () => {
              */
             sortCategoryTags(categories) {
                 // Iterate over each category in the categories array
-                    return categories.forEach(category => {
-                        // Check if the category has a 'tags' object
-                        if (category.tags) {
-                            // If the 'general' tags array exists, sort it alphabetically
-                            if (category.tags.general) {
-                                category.tags.general.sort();
-                            }
-                            // If the 'nsfw' tags array exists, sort it alphabetically
-                            if (category.tags.nsfw) {
-                                category.tags.nsfw.sort();
-                            }
+                return categories.forEach(category => {
+                    // Check if the category has a 'tags' object
+                    if (category.tags) {
+                        // If the 'general' tags array exists, sort it alphabetically
+                        if (category.tags.general) {
+                            category.tags.general.sort();
                         }
-                    });
+                        // If the 'nsfw' tags array exists, sort it alphabetically
+                        if (category.tags.nsfw) {
+                            category.tags.nsfw.sort();
+                        }
+                    }
+                });
             },
 
             isTagSelected(categoryName, tag, cat) {
@@ -701,7 +726,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                     return text;
                 }
             },
-            
+
             // Add this helper method to the methods section
             convertToLowerCase(data) {
                 if (Array.isArray(data)) {
@@ -738,14 +763,14 @@ document.addEventListener('DOMContentLoaded', async () => {
             openChat(link) {
                 // Check if the current window is inside an iframe
                 const isInIframe = window.self !== window.top;
-                
+
                 if (isInIframe) {
                     try {
                         // Try to access parent window origin - this may fail due to cross-origin restrictions
                         const parentOrigin = window.parent.location.origin;
                         const specificOrigin = "https://perchance.org/tps-ai-character-chat-groupchat"; // Replace with your specific iframe parent URL
                         console.log("Parent origin:", parentOrigin);
-                        
+
                         if (parentOrigin === specificOrigin) {
                             // If inside the specific iframe, send message to parent
                             console.log("Inside specific iframe, sending message to parent");
@@ -756,14 +781,14 @@ document.addEventListener('DOMContentLoaded', async () => {
                         // Cannot access parent origin due to cross-origin restrictions
                         // We'll use a more generic approach below
                         console.log("Cannot access parent origin:", e);
-                        
+
                         // Alternative: You can still send the message and let the parent decide
                         // if it wants to handle it based on its own logic
                         window.parent.postMessage({ link: link }, "*");
                         return; // Exit function early
                     }
                 }
-                
+
                 // If not in an iframe or not in the specific iframe, open URL in new tab
                 console.log("Opening link in new tab");
                 window.open(link, '_blank');
@@ -1087,7 +1112,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             showRightEllipsis() {
                 return this.totalPages > 7 && this.displayedPages[this.displayedPages.length - 1] < this.totalPages - 1;
             },
-            showPagination(){
+            showPagination() {
                 return this.totalPages > 1 && !this.onlyFavorites;
             },
 
@@ -1113,25 +1138,25 @@ document.addEventListener('DOMContentLoaded', async () => {
                 // Ensure the current page is within valid range
                 if (this.currentPage < 1) this.currentPage = 1;
                 if (this.currentPage > this.totalPages) this.currentPage = this.totalPages;
-            
+
                 // Return the characters for the current page
                 return characters
-                    // .filter(character => 
-                    //     (!this.onlyFavorites || character.manifest?.is_favorited) // Show only favorites
-                    //     //&& (this.showNsfwCharacters || !character.manifest?.is_nsfw) // Remove NSFW if showNsfwCharacters is false
-                    // )
-                    // .slice(
-                    //     this.currentPage * this.charactersPerPage - this.charactersPerPage, // First index to show
-                    //     this.currentPage * this.charactersPerPage  // Last index to show
-                    // );
+                // .filter(character => 
+                //     (!this.onlyFavorites || character.manifest?.is_favorited) // Show only favorites
+                //     //&& (this.showNsfwCharacters || !character.manifest?.is_nsfw) // Remove NSFW if showNsfwCharacters is false
+                // )
+                // .slice(
+                //     this.currentPage * this.charactersPerPage - this.charactersPerPage, // First index to show
+                //     this.currentPage * this.charactersPerPage  // Last index to show
+                // );
             },
-            
+
             removedNsfwCount() {
                 if (this.stateLoading) return 0;
-            
+
                 // If NSFW content is allowed, nothing is removed
                 if (this.showNsfwCharacters) return 0;
-            
+
                 // Count NSFW characters that would be displayed after applying all other filters except NSFW
                 return this.filterCharacters()
                     .filter(character => !this.onlyFavorites || character.manifest?.is_favorited)

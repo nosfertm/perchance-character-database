@@ -196,6 +196,8 @@
   color: #f5f5f5;
 }
 
+/* ------------------------------ PILL CONTENT ------------------------------ */
+
 /* Adicionar estes estilos aos existentes */
 .formatted-content {
   white-space: pre-wrap;
@@ -213,4 +215,18 @@
   width: 1.2em;
   margin: 0 .05em 0 .1em;
   vertical-align: -0.1em;
+}
+
+/* categories style */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  padding: 0 8px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 12px;
+  line-height: 1;
+  white-space: nowrap;
 }
