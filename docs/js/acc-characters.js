@@ -1,4 +1,4 @@
-import { piniaUser, piniaTheme, piniaSiteConfig } from './store.js';
+import { piniaUser, piniaTheme, piniaSiteConfig, piniaIndexedDb } from './store.js';
 import { GithubUtils, Misc, ToastUtils } from './utils.js';
 import LoginModalComponent from '../components/modal-login.js';
 import { DatabaseService } from './supabase.js';
@@ -205,7 +205,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             /* -------------------------------------------------------------------------- */
 
             async loadCharacters(forceRefresh = false) {
-                await this.loadCharactersFromSupabase(forceRefresh)
+                await this.loadCharacters(forceRefresh)
                 // this.totalPages = Math.ceil(this.characters.length / this.charactersPerPage);
             },
 
@@ -254,16 +254,16 @@ document.addEventListener('DOMContentLoaded', async () => {
 
                         // Process the data to convert categories to lowercase
                         charData = indexData.map(char => {
-                            if (char.manifest?.categories) {
+                            if (char.categories) {
                                 const lowerCaseCategories = {};
-                                Object.entries(char.manifest.categories).forEach(([key, value]) => {
+                                Object.entries(char.categories).forEach(([key, value]) => {
                                     const lowerKey = key.toLowerCase();
                                     const lowerValue = Array.isArray(value)
                                         ? value.map(v => typeof v === 'string' ? v.toLowerCase() : v)
                                         : typeof value === 'string' ? value.toLowerCase() : value;
                                     lowerCaseCategories[lowerKey] = lowerValue;
                                 });
-                                char.manifest.categories = lowerCaseCategories;
+                                char.categories = lowerCaseCategories;
                             }
                             return char;
                         });
@@ -288,90 +288,135 @@ document.addEventListener('DOMContentLoaded', async () => {
              * Loads character data from the Supabase database using the get_characters function
              * @param {boolean} forceRefresh - Whether to force a refresh from the database instead of using cache
              */
-            async loadCharactersFromSupabase(forceRefresh = false) {
+            async loadCharacters(forceRefresh = false) {
                 this.stateLoading = true;
 
                 // Debug key for logging purposes
                 const debugKey = piniaSiteConfig().debug?.aacCharacters?.characters ?? false;
-                const debugPrefix = '[CHARACTERS] ';
+                const debugPrefix = '[loadCharacters] ';
 
                 try {
                     Misc.debug(debugKey, debugPrefix + "Loading character data...");
 
+                    // Access data store
+                    const dataStore = await piniaIndexedDb().getDataStore();
+
+                    // Load character data from IndexedDB
+                    const cachedData = await dataStore.getByPage('characters', this.currentPage);
+
+                    // Load pagination data from localStorage
                     const cacheConfig = piniaSiteConfig().cache.accCharacters.characters;
                     const cacheKey = cacheConfig.key;
-                    const cacheDuration = cacheConfig.duration * 60 * 1000 || 3600;
-
-                    const cachedData = localStorage.getItem(cacheKey);
                     const cachedPagination = localStorage.getItem(cacheKey + '_pagination');
-                    const lastFetchTime = localStorage.getItem(`${cacheKey}_timestamp`);
-                    const isCacheValid = lastFetchTime && (Date.now() - lastFetchTime < cacheDuration) && (cachedPagination.currentPage === this.currentPage);
 
-                    let charData;
-                    let pagination;
+                    // Determine if cache is valid
+                    const isCacheValid = piniaIndexedDb().isCacheValid(cachedData) && !!cachedPagination && !forceRefresh;
+                    Misc.debug(debugKey, debugPrefix + "Cache valid:", isCacheValid);
 
-                    if (!forceRefresh && cachedData && isCacheValid) {
-                        //Retrieve character cached data
-                        charData = JSON.parse(cachedData);
-                        //Retrieve pagination data
-                        pagination = JSON.parse(cachedPagination);
-                        Misc.debug(debugKey, debugPrefix + "Using cached data for characters");
+                    if (isCacheValid) {
+                        // Use cached character data from IndexedDB
+                        Misc.debug(debugKey, debugPrefix + "Using cached data from IndexedDB for characters");
+                        this.characters = cachedData.map(item => item.data);
+                        this.totalPages = JSON.parse(cachedPagination).total_pages || 1; // Set total pages from pagination data
                     } else {
-                        Misc.debug(debugKey, debugPrefix + "Fetching characters from database");
-
-                        // Setup parameters for the get_characters function
-                        const args = {
-                            page_number: this.currentPage,
-                            page_size: 24, // Adjust as needed for your application
-                            sort_by: 'alphabetical',
-                            search_term: '', // Empty string to get all characters
-                            current_user_id: piniaUser().userData.id
-                        };
-
-                        // Call the get_characters function
-                        const result = await DatabaseService.callFunction('get_characters', args);
-
-                        if (result.error) {
-                            throw new Error(`Failed to fetch characters: ${result.error}`);
-                        }
-
-                        // Extract characters and pagination data from the result
-                        charData = result.data.characters;
-                        pagination = result.data.pagination;
-
-                        // Add the current page to the pagination object
-                        pagination.currentPage = this.currentPage;
-
-                        // Extract characters from the result
-                        const indexData = charData.map(item => ({
-                            path: item.id,
-                            manifest: { ...item }
-                        }));
-
-                        // Process the data to convert categories to lowercase (if still needed)
-                        // Process the data to convert categories to lowercase
-                        charData = indexData.map(char => {
-                            if (char.manifest?.categories) {
-                                const lowerCaseCategories = {};
-                                Object.entries(char.manifest.categories).forEach(([key, value]) => {
-                                    const lowerKey = key.toLowerCase();
-                                    const lowerValue = Array.isArray(value)
-                                        ? value.map(v => typeof v === 'string' ? v.toLowerCase() : v)
-                                        : typeof value === 'string' ? value.toLowerCase() : value;
-                                    lowerCaseCategories[lowerKey] = lowerValue;
-                                });
-                                char.manifest.categories = lowerCaseCategories;
-                            }
-                            return char;
-                        });
-
-                        // Store processed data in cache
-                        localStorage.setItem(cacheKey, JSON.stringify(charData));
-                        localStorage.setItem(cacheKey + '_pagination', JSON.stringify(pagination));
-                        localStorage.setItem(`${cacheKey}_timestamp`, Date.now().toString());
-
-                        Misc.debug(debugKey, debugPrefix + "Fetched and stored characters data successfully");
+                        await this.fetchDirecltlyFromSupabase();
                     }
+
+                } catch (error) {
+                    ToastUtils.showToast('Failed to load characters.', 'Error', 'error');
+                    console.error("Failed to load characters:", error.message);
+                    // await this.fetchDirecltlyFromSupabase();
+                } finally {
+                    this.stateLoading = false;
+                }
+            },
+
+            async fetchDirecltlyFromSupabase() {
+
+                // Debug key for logging purposes
+                const debugKey = piniaSiteConfig().debug?.aacCharacters?.characters ?? false;
+                const debugPrefix = '[fetchDirecltlyFromSupabase] ';
+
+                // Cache not valid or doesn't exist, fetch from database
+                Misc.debug(debugKey, debugPrefix + "Fetching character from database");
+
+                try {
+                    // Access data store
+                    const dataStore = await piniaIndexedDb().getDataStore();
+
+                    const cacheConfig = piniaSiteConfig().cache.accCharacters.characters;
+                    const cacheDuration = piniaIndexedDb().createTTL(cacheConfig.duration);
+                    const cacheKey = cacheConfig.key;
+
+                    // Setup parameters for the get_characters function
+                    const args = {
+                        page_number: this.currentPage,
+                        page_size: 24, // Adjust as needed for your application
+                        sort_by: 'alphabetical',
+                        search_term: '', // Empty string to get all characters
+                        current_user_id: piniaUser().userData.id
+                    };
+
+                    // Call the get_characters function
+                    const result = await DatabaseService.callFunction('get_characters', args);
+
+                    if (result.error) {
+                        throw new Error(`Failed to fetch characters: ${result.error}`);
+                    }
+
+                    // Extract characters and pagination data from the result
+                    let charData;
+                    let pagination = result.data.pagination;
+
+                    // Add the current page to the pagination object
+                    pagination.currentPage = this.currentPage;
+
+                    // Extract characters from the result
+                    // const indexData = charData.map(item => ({
+                    //     path: item.id,
+                    //     manifest: { ...item }
+                    // }));
+
+                    // Process the data to convert categories to lowercase
+                    charData = result.data.characters.map(char => {
+                        if (char.categories) {
+                            const lowerCaseCategories = {};
+                            Object.entries(char.categories).forEach(([key, value]) => {
+                                const lowerKey = key.toLowerCase();
+                                const lowerValue = Array.isArray(value)
+                                    ? value.map(v => typeof v === 'string' ? v.toLowerCase() : v)
+                                    : typeof value === 'string' ? value.toLowerCase() : value;
+                                lowerCaseCategories[lowerKey] = lowerValue;
+                            });
+                            char.categories = lowerCaseCategories;
+                        }
+                        return char;
+                    });
+
+                    // Store processed data
+                    this.characters = charData;
+                    this.totalPages = pagination.total_pages || 1; // Set total pages from pagination data
+
+                    // Calculate TTL for cache
+                    const ttl = Date.now() + cacheDuration;
+
+                    // Save each character individually to IndexedDB
+                    for (const character of this.characters) {
+                        await dataStore.put('characters', {
+                            id: character.id,
+                            page: this.currentPage,
+                            data: character,
+                            ttl: ttl,
+                            updatedAt: Date.now()
+                        });
+                    }
+
+                    // Store processed data in cache
+                    localStorage.setItem(cacheKey + '_pagination', JSON.stringify(pagination));
+                    localStorage.setItem(`${cacheKey}_timestamp`, Date.now().toString());
+
+                    Misc.debug(debugKey, debugPrefix + "Fetched and stored characters data successfully");
+
 
                     this.characters = charData;
                     this.totalPages = pagination.total_pages || 1; // Set total pages from pagination data
@@ -382,6 +427,101 @@ document.addEventListener('DOMContentLoaded', async () => {
                     this.stateLoading = false;
                 }
             },
+
+            // async loadCharacters(forceRefresh = false) {
+            //     this.stateLoading = true;
+
+            //     // Debug key for logging purposes
+            //     const debugKey = piniaSiteConfig().debug?.aacCharacters?.characters ?? false;
+            //     const debugPrefix = '[CHARACTERS] ';
+
+            //     try {
+            //         Misc.debug(debugKey, debugPrefix + "Loading character data...");
+
+            //         const cacheConfig = piniaSiteConfig().cache.accCharacters.characters;
+            //         const cacheKey = cacheConfig.key;
+            //         const cacheDuration = cacheConfig.duration * 60 * 1000 || 3600;
+
+            //         const cachedData = localStorage.getItem(cacheKey);
+            //         const cachedPagination = localStorage.getItem(cacheKey + '_pagination');
+            //         const lastFetchTime = localStorage.getItem(`${cacheKey}_timestamp`);
+            //         const isCacheValid = lastFetchTime && (Date.now() - lastFetchTime < cacheDuration) && (cachedPagination.currentPage === this.currentPage);
+
+            //         let charData;
+            //         let pagination;
+
+            //         if (!forceRefresh && cachedData && isCacheValid) {
+            //             //Retrieve character cached data
+            //             charData = JSON.parse(cachedData);
+            //             //Retrieve pagination data
+            //             pagination = JSON.parse(cachedPagination);
+            //             Misc.debug(debugKey, debugPrefix + "Using cached data for characters");
+            //         } else {
+            //             Misc.debug(debugKey, debugPrefix + "Fetching characters from database");
+
+            //             // Setup parameters for the get_characters function
+            //             const args = {
+            //                 page_number: this.currentPage,
+            //                 page_size: 24, // Adjust as needed for your application
+            //                 sort_by: 'alphabetical',
+            //                 search_term: '', // Empty string to get all characters
+            //                 current_user_id: piniaUser().userData.id
+            //             };
+
+            //             // Call the get_characters function
+            //             const result = await DatabaseService.callFunction('get_characters', args);
+
+            //             if (result.error) {
+            //                 throw new Error(`Failed to fetch characters: ${result.error}`);
+            //             }
+
+            //             // Extract characters and pagination data from the result
+            //             charData = result.data.characters;
+            //             pagination = result.data.pagination;
+
+            //             // Add the current page to the pagination object
+            //             pagination.currentPage = this.currentPage;
+
+            //             // Extract characters from the result
+            //             const indexData = charData.map(item => ({
+            //                 path: item.id,
+            //                 manifest: { ...item }
+            //             }));
+
+            //             // Process the data to convert categories to lowercase (if still needed)
+            //             // Process the data to convert categories to lowercase
+            //             charData = indexData.map(char => {
+            //                 if (char.categories) {
+            //                     const lowerCaseCategories = {};
+            //                     Object.entries(char.categories).forEach(([key, value]) => {
+            //                         const lowerKey = key.toLowerCase();
+            //                         const lowerValue = Array.isArray(value)
+            //                             ? value.map(v => typeof v === 'string' ? v.toLowerCase() : v)
+            //                             : typeof value === 'string' ? value.toLowerCase() : value;
+            //                         lowerCaseCategories[lowerKey] = lowerValue;
+            //                     });
+            //                     char.categories = lowerCaseCategories;
+            //                 }
+            //                 return char;
+            //             });
+
+            //             // Store processed data in cache
+            //             localStorage.setItem(cacheKey, JSON.stringify(charData));
+            //             localStorage.setItem(cacheKey + '_pagination', JSON.stringify(pagination));
+            //             localStorage.setItem(`${cacheKey}_timestamp`, Date.now().toString());
+
+            //             Misc.debug(debugKey, debugPrefix + "Fetched and stored characters data successfully");
+            //         }
+
+            //         this.characters = charData;
+            //         this.totalPages = pagination.total_pages || 1; // Set total pages from pagination data
+            //     } catch (error) {
+            //         ToastUtils.showToast('Failed to load characters.', 'Error', 'error');
+            //         console.error("Failed to load characters:", error.message);
+            //     } finally {
+            //         this.stateLoading = false;
+            //     }
+            // },
 
             /* -------------------------------------------------------------------------- */
             /*                               LOAD CATEGORIES                              */
@@ -543,15 +683,15 @@ document.addEventListener('DOMContentLoaded', async () => {
 
                 const searchLower = searchText.toLowerCase();
                 const searchFields = [
-                    character.manifest?.name,
-                    character.manifest?.description,
-                    character.manifest?.username,
-                    character.manifest?.description,
-                    character.manifest?.title,
+                    character.name,
+                    character.description,
+                    character.username,
+                    character.description,
+                    character.title,
 
                     // new fields from supabase
-                    character.manifest?.author,
-                    character.manifest?.author_id,
+                    character.author,
+                    character.author_id,
                 ];
 
                 return searchFields.some(field =>
@@ -571,7 +711,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 return this.characters.filter(character => {
                     // 1. Safety check: Ensure character has valid categories object
                     // This prevents errors from malformed character data
-                    // if (!character.manifest?.categories) return false;
+                    // if (!character.categories) return false;
 
                     // 2. Search text filtering
                     // Checks if character matches the current search input across multiple fields
@@ -581,7 +721,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
                     // 3. NSFW content handling
                     // Filters out NSFW content based on user preferences and selected filters
-                    if (this.isNsfwCharacter(character.manifest.categories?.rating, character.manifest.is_nsfw) &&
+                    if (this.isNsfwCharacter(character.categories?.rating, character.is_nsfw) &&
                         !this.showNsfwCharacters &&
                         (!this.selectedFilters.categories.rating?.includes('nsfw') || !this.selectedFilters.is_nsfw)) {
                         return false;
@@ -591,7 +731,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                     // Filter out SFW content if SFW is not selected in rating filters
                     const ratingFilters = this.selectedFilters.categories.rating || [];
                     const cleanRatingFilters = ratingFilters.map(tag => tag.replace(/\s*\(\d+\)$/, '').toLowerCase());
-                    if (!this.isNsfwCharacter(character.manifest.categories?.rating, character.manifest.is_nsfw) &&
+                    if (!this.isNsfwCharacter(character.categories?.rating, character.is_nsfw) &&
                         !cleanRatingFilters.includes('sfw')) {
                         return false;
                     }
@@ -609,7 +749,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                         if (!selectedTags || !Array.isArray(selectedTags) || selectedTags.length === 0) return true;
 
                         // Get character's value for current category
-                        const charCategoryValue = character.manifest.categories?.[category] || [];
+                        const charCategoryValue = character.categories?.[category] || [];
 
                         // Special case: Skip rating check if NSFW is globally enabled
                         if (category === 'rating' && this.showNsfwCharacters) return true;
@@ -851,18 +991,32 @@ document.addEventListener('DOMContentLoaded', async () => {
                     }
 
                     // Update local state if needed
-                    const character = this.characters.find(item => item.path === characterId);
+                    const character = this.characters.find(item => item.id === characterId);
 
                     if (character) {
-                        character.manifest.is_favorited = !character.manifest.is_favorited;
-                        character.manifest.favorites_count += character.manifest.is_favorited ? 1 : -1;
+                        character.is_favorited = !character.is_favorited;
+                        character.favorites_count += character.is_favorited ? 1 : -1;
 
                         // Update this.character with the modified item
                         this.character = { ...character };
 
-                        // Update the cache version
-                        const cacheKey = piniaSiteConfig().cache.accCharacters.characters.key;
-                        localStorage.setItem(cacheKey, JSON.stringify(this.characters));
+                        
+                        // Check if character exists in dataStore with a valid TTL
+                        const dataStore = await piniaIndexedDb().getDataStore();
+                        let characterData = await dataStore.get('characters', characterId);
+                        
+                        // Update the favorite status in the character data
+                        characterData.data.is_favorited = character.is_favorited;
+                        characterData.data.favorites_count = character.favorites_count;
+                        
+                        // Update the indexedDb
+                        await dataStore.put('characters', {
+                            id: characterData.id,
+                            page: characterData.page,
+                            data: characterData.data,
+                            ttl: characterData.ttl,
+                            updatedAt: Date.now()
+                        });
 
                     }
 
@@ -872,7 +1026,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 }
             },
             handleCharacterClick(character) {
-                if (this.isNsfwCharacter(character.manifest?.categories?.rating, character.manifest?.is_nsfw) && !this.showNsfwImages) {
+                if (this.isNsfwCharacter(character.categories?.rating, character.is_nsfw) && !this.showNsfwImages) {
                     this.toggleNsfw();
                 } else {
                     this.openCharacterPage(character);
@@ -886,7 +1040,7 @@ document.addEventListener('DOMContentLoaded', async () => {
              */
             openCharacterPage(character) {
                 //Construct the URL
-                const url = `character-details.html?uuid=${character.path}`;
+                const url = `character-details.html?uuid=${character.id}`;
 
                 // Navigate to the character page
                 window.location.href = url;
@@ -1138,13 +1292,12 @@ document.addEventListener('DOMContentLoaded', async () => {
                 // Ensure the current page is within valid range
                 if (this.currentPage < 1) this.currentPage = 1;
                 if (this.currentPage > this.totalPages) this.currentPage = this.totalPages;
-
                 // Return the characters for the current page
                 return characters
-                // .filter(character => 
-                //     (!this.onlyFavorites || character.manifest?.is_favorited) // Show only favorites
-                //     //&& (this.showNsfwCharacters || !character.manifest?.is_nsfw) // Remove NSFW if showNsfwCharacters is false
-                // )
+                .filter(character => 
+                    (!this.onlyFavorites || character.is_favorited) // Show only favorites
+                    //&& (this.showNsfwCharacters || !character.is_nsfw) // Remove NSFW if showNsfwCharacters is false
+                )
                 // .slice(
                 //     this.currentPage * this.charactersPerPage - this.charactersPerPage, // First index to show
                 //     this.currentPage * this.charactersPerPage  // Last index to show
@@ -1159,8 +1312,8 @@ document.addEventListener('DOMContentLoaded', async () => {
 
                 // Count NSFW characters that would be displayed after applying all other filters except NSFW
                 return this.filterCharacters()
-                    .filter(character => !this.onlyFavorites || character.manifest?.is_favorited)
-                    .filter(character => character.manifest?.is_nsfw).length;
+                    .filter(character => !this.onlyFavorites || character.is_favorited)
+                    .filter(character => character.is_nsfw).length;
             },
 
             // Computed property to get available categories inside characters
@@ -1182,7 +1335,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
                     // Count occurrences of each tag in filtered characters
                     filteredChars.forEach(char => {
-                        const charCategory = char.manifest?.categories?.[categoryName];
+                        const charCategory = char.categories?.[categoryName];
                         if (!charCategory) return;
 
                         const tags = Array.isArray(charCategory) ? charCategory : [charCategory];
@@ -1197,7 +1350,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                         // First count from filtered characters
                         const totalCounts = new Map();
                         filteredChars.forEach(char => {
-                            const rating = char.manifest?.categories?.rating;
+                            const rating = char.categories?.rating;
                             if (Array.isArray(rating)) {
                                 rating.forEach(r => {
                                     const normalizedRating = r.toLowerCase();
@@ -1223,14 +1376,14 @@ document.addEventListener('DOMContentLoaded', async () => {
 
                                 // Filter characters with the temporary filters
                                 const simulatedCount = this.characters.filter(character => {
-                                    if (!character.manifest?.categories) return false;
+                                    if (!character.categories) return false;
 
                                     // Apply all other active filters except rating
                                     const otherFiltersPass = Object.entries(this.selectedFilters.categories)
                                         .filter(([cat]) => cat !== 'rating')
                                         .every(([category, selectedTags]) => {
                                             if (!selectedTags || selectedTags.length === 0) return true;
-                                            const charCategoryValue = character.manifest.categories[category];
+                                            const charCategoryValue = character.categories[category];
                                             const charTags = Array.isArray(charCategoryValue)
                                                 ? charCategoryValue.map(v => v?.toLowerCase() || '')
                                                 : [String(charCategoryValue || '').toLowerCase()];
@@ -1243,7 +1396,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                                     if (!otherFiltersPass) return false;
 
                                     // Check if character matches the rating we're simulating
-                                    const rating = character.manifest.categories.rating;
+                                    const rating = character.categories.rating;
                                     const isMatchingRating = Array.isArray(rating)
                                         ? rating.some(r => r.toLowerCase() === ratingType)
                                         : rating?.toLowerCase() === ratingType;
@@ -1311,10 +1464,10 @@ document.addEventListener('DOMContentLoaded', async () => {
 
             // MODAL FUNCTIONS
             categoryCount() {
-                return Object.keys(this.selectedCharacter?.manifest?.categories || {}).length;
+                return Object.keys(this.selectedCharacter?.categories || {}).length;
             },
             requiredCharCount() {
-                return this.selectedCharacter?.manifest?.groupSettings?.requires?.length || 0;
+                return this.selectedCharacter?.groupSettings?.requires?.length || 0;
             },
             hasCategoryItems() {
                 return this.categoryCount > 0;

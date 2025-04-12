@@ -44,20 +44,20 @@
                         <div class="d-flex flex-column" style="max-width: 65%; padding-right: 5px;">
                             <h5 class="modal-title mb-0" id="characterModalLabel"
                                 :class="{ 'text-white': stTheme.isDarkMode }">
-                                {{decodeText(this.selectedCharacter.manifest.name)}}
+                                {{decodeText(this.selectedCharacter.name)}}
                             </h5>
                             <small class="text-truncate"
                                 :class="{ 'text-secondary': stTheme.isDarkMode, 'text-muted': !stTheme.isDarkMode }">
-                                by {{decodeText(selectedCharacter.manifest.author) || 'Anonymous'}}
+                                by {{decodeText(selectedCharacter.author) || 'Anonymous'}}
                             </small>
                         </div>
                         <div class="d-flex gap-2 align-items-center">
-                            <a href="#" @click.prevent="downloadCharacterFile(selectedCharacter.manifest.downloadPath)"
+                            <a href="#" @click.prevent="downloadCharacterFile(selectedCharacter.downloadPath)"
                                 class="btn btn-success" target="_blank">
                                 <i class="bi bi-download"></i> <span class="button-text">Download</span>
                             </a>
-                            <a href="#" @click.prevent="openChat(selectedCharacter.manifest?.shareUrl)"
-                                class="btn btn-primary" target="_blank">
+                            <a href="#" @click.prevent="openChat(selectedCharacter.shareUrl)" class="btn btn-primary"
+                                target="_blank">
                                 <i class="bi bi-chat"></i> <span class="button-text">Chat</span>
                             </a>
                             <button type="button" class="btn-close" :class="{ 'btn-close-white': stTheme.isDarkMode }"
@@ -72,11 +72,11 @@
                                 <!-- Image Column -->
                                 <div class="col-5 modal-image-col">
                                     <div class="character-image-wrapper">
-                                        <img :src="selectedCharacter.manifest.imageUrl" class="character-modal-image"
-                                            :class="{'nsfw-blur': isNsfwCharacter(selectedCharacter.manifest?.categories?.rating) && !showNsfwImages}"
-                                            :alt="selectedCharacter.manifest.name || 'Character Image'"
+                                        <img :src="selectedCharacter.imageUrl" class="character-modal-image"
+                                            :class="{'nsfw-blur': isNsfwCharacter(selectedCharacter.categories?.rating) && !showNsfwImages}"
+                                            :alt="selectedCharacter.name || 'Character Image'"
                                             @click="handleNsfwImageClick($event)">
-                                        <div v-if="isNsfwCharacter(selectedCharacter.manifest?.categories?.rating) && !showNsfwImages"
+                                        <div v-if="isNsfwCharacter(selectedCharacter.categories?.rating) && !showNsfwImages"
                                             class="nsfw-overlay">
                                             <i class="fa-solid fa-fire-flame-curved fa-2x"></i>
                                         </div>
@@ -91,7 +91,7 @@
                                         <h5 class="border-bottom pb-2"
                                             :class="{ 'border-secondary': stTheme.isDarkMode }">
                                             Description</h5>
-                                        <p>{{decodeText(this.selectedCharacter.manifest.description)}}</p>
+                                        <p>{{decodeText(this.selectedCharacter.description)}}</p>
                                     </div>
 
                                     <!-- Categories -->
@@ -119,7 +119,7 @@
                                         </a>
                                         <!-- Collapsible content -->
                                         <div class="collapse" id="categoriesCollapse">
-                                            <div v-for="(category, categoryName, index) in selectedCharacter.manifest.categories"
+                                            <div v-for="(category, categoryName, index) in selectedCharacter.categories"
                                                 class="mb-3 d-flex flex-wrap gap-2">
                                                 <template
                                                     v-if="Array.isArray(category) ? category.length > 0 : category">
@@ -139,8 +139,7 @@
                                     </div>
 
                                     <!-- Required Characters Section -->
-                                    <div class="content-section"
-                                        v-if="selectedCharacter.manifest.groupSettings.requires">
+                                    <div class="content-section" v-if="selectedCharacter.groupSettings.requires">
                                         <!-- Collapse trigger with no link styling -->
                                         <a class="d-block text-decoration-none collapse-trigger"
                                             :class="{ 'collapsed': true, 'disabled': !hasRequiredCharacters }"
@@ -166,7 +165,7 @@
                                         <!-- Collapsible content -->
                                         <div class="collapse" id="requiredCollapse">
                                             <ol class="list-group list-group-numbered">
-                                                <ul v-for="char in selectedCharacter.manifest.groupSettings.requires"
+                                                <ul v-for="char in selectedCharacter.groupSettings.requires"
                                                     class="list-unstyled">
                                                     <li class="list-group-item d-flex justify-content-between align-items-start"
                                                         :class="{ 'bg-dark text-white border-secondary': stTheme.isDarkMode }">
@@ -407,63 +406,84 @@
 
 
             <!-- Loading placeholders -->
-            <div v-if="stateLoading" class="row g-3 mb-3">
-                <!-- Generate X placeholder cards -->
-                <div v-for="n in 8" :key="n" class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2.4 col-xxl-2">
-                    <div class="card character-card" :class="Math.random() < 0.2 ? 'bg-danger' : 'bg-primary'"
-                        aria-hidden="true">
-                        <!-- Placeholder image -->
-                        <div class="card-img-container position-relative placeholder-glow">
-                            <span class="placeholder w-100" style="height: 200px;"></span>
-                        </div>
+            <div v-if="stateLoading" class="character-gallery">
+                <section class="container-fluid py-2" style="flex: 1 !important;">
+                    <div class="row g-3">
+                        <!-- Generate placeholder cards -->
+                        <div v-for="n in 6" :key="n" class="col-12 col-md-6 col-xl-4">
+                            <!-- Character card placeholder with dynamic theme styling -->
+                            <div class="card h-100" :class="{'dark-theme': stTheme.isDarkMode}" aria-hidden="true">
+                                <div class="card-body d-flex flex-column">
+                                    <div class="card-content d-flex justify-content-center">
 
-                        <!-- Card Footer with placeholder content -->
-                        <div class="card-footer">
-                            <div class="card-title placeholder-glow">
-                                <span class="placeholder col-8"></span>
-                            </div>
-                            <div class="card-actions placeholder-glow">
-                                <a class="action-btn disabled placeholder col-4 me-2" tabindex="-1">
-                                    <i class="fas fa-comment"></i>
-                                </a>
-                                <a class="action-btn disabled placeholder col-4" tabindex="-1">
-                                    <i class="fas fa-download"></i>
-                                </a>
+                                        <!-- Image container placeholder -->
+                                        <div class="card-img-container flex-shrink-0 py-1 placeholder-glow">
+                                            <span class="placeholder w-100" style="height: 200px;"></span>
+                                        </div>
+
+                                        <!-- Character info placeholder -->
+                                        <div class="character-info flex-grow-1">
+                                            <!-- Title and favorite icon placeholder -->
+                                            <div
+                                                class="d-flex align-items-center justify-content-between mb-1 placeholder-glow">
+                                                <span class="placeholder col-8"></span>
+                                                <span class="placeholder col-1"></span>
+                                            </div>
+
+                                            <!-- Author info placeholder -->
+                                            <div class="author-info text-muted mb-1 text-truncate placeholder-glow">
+                                                <span class="placeholder col-6"></span>
+                                            </div>
+
+                                            <!-- Simplified stats box placeholder -->
+                                            <div class="character-stats rounded-3 p-2 mb-2 mt-auto placeholder-glow"
+                                                :class="stTheme.isDarkMode ? 'bg-dark' : 'bg-body-tertiary'">
+                                                <span class="placeholder col-12" style="height: 50px;"></span>
+                                            </div>
+
+                                            <!-- Action buttons placeholder -->
+                                            <div class="character-actions d-flex gap-2 placeholder-glow">
+                                                <span class="placeholder col-6 btn"></span>
+                                                <span class="placeholder col-6 btn"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </section>
             </div>
-            
-         <!-- <pre>
+
+            <!-- <pre>
             charactersToDisplay {{charactersToDisplay.length}}
             filteredCharacters {{filteredCharacters.length}}
          </pre> -->
             <!-- Gallery container with cards -->
-            <div v-else class="character-gallery">
+            <div v-else-if="charactersToDisplay.length > 0 && !stateLoading" class="character-gallery">
                 <!-- Character cards grid with responsive layout -->
                 <section class="container-fluid py-2" style="flex: 1 !important;">
                     <div class="row g-3">
                         <!-- Loop through filtered characters -->
-                        <div v-for="character in charactersToDisplay" :key="character.path"
+                        <div v-for="character in charactersToDisplay" :key="character.id"
                             class="col-12 col-md-6 col-xl-4">
 
                             <!-- Character card with dynamic border style based on NSFW status -->
-                            <div class="card h-100" :class="{'border border-danger': character.manifest?.is_nsfw, 
-                                         'border border-success': !character.manifest?.is_nsfw,
+                            <div class="card h-100" :class="{'border border-danger': character.is_nsfw, 
+                                         'border border-success': !character.is_nsfw,
                                          'dark-theme': stTheme.isDarkMode}" @click="openCharacterPage(character)">
                                 <div class="card-body d-flex flex-column">
                                     <div class="card-content d-flex justify-content-center">
 
                                         <!-- Image container with NSFW blur handling -->
                                         <div class="card-img-container flex-shrink-0 py-1">
-                                            <img :src="character.manifest?.imageUrl || character.manifest?.imageurl"
-                                                alt="Character Image" class="img-fluid w-100 h-100 object-fit-cover"
-                                                :class="{'nsfw-blur': isNsfwCharacter(character.manifest?.categories?.rating, character.manifest?.is_nsfw) && !showNsfwImages}"
+                                            <img :src="character.imageUrl || character.imageurl" alt="Character Image"
+                                                class="img-fluid w-100 h-100 object-fit-cover"
+                                                :class="{'nsfw-blur': isNsfwCharacter(character.categories?.rating, character.is_nsfw) && !showNsfwImages}"
                                                 @click.stop="handleCharacterClick(character)">
 
                                             <!-- NSFW overlay with flame icon -->
-                                            <div v-if="isNsfwCharacter(character.manifest?.categories?.rating, character.manifest?.is_nsfw) && !showNsfwImages"
+                                            <div v-if="isNsfwCharacter(character.categories?.rating, character.is_nsfw) && !showNsfwImages"
                                                 class="nsfw-overlay" @click.stop="toggleNsfw()">
                                                 <i class="fa-solid fa-fire-flame-curved fa-2x"></i>
                                             </div>
@@ -474,19 +494,20 @@
                                             <!-- Title and favorite button row -->
                                             <div class="d-flex align-items-center justify-content-between mb-1">
                                                 <h5 class="card-title text-truncate mb-0">
-                                                    {{ decodeText(character.manifest?.name) || 'Unnamed Character' }}
+                                                    {{ decodeText(character.name) || 'Unnamed Character' }}
                                                 </h5>
                                                 <i class="favorite-icon favorite ms-2 fa-lg fa-heart"
-                                                    :class="{'fa-solid active': character.manifest?.is_favorited, 'fa-regular': !character.manifest?.is_favorited}"
-                                                    @click.stop="toggleFavorite(character.path)">
+                                                    :class="{'fa-solid active': character.is_favorited, 'fa-regular': !character.is_favorited}"
+                                                    @click.stop="toggleFavorite(character.id)">
                                                 </i>
                                             </div>
 
                                             <!-- Author information -->
                                             <div class="author-info text-muted mb-1 text-truncate">
                                                 <small class="me-1">by</small>
-                                                <a :href="'author.html?id=' + character.manifest?.author_id" class="author-link" @click.stop>
-                                                    {{ decodeText(character.manifest?.author) || 'Anonymous' }}
+                                                <a :href="'author.html?id=' + character.author_id" class="author-link"
+                                                    @click.stop>
+                                                    {{ decodeText(character.author) || 'Anonymous' }}
                                                 </a>
                                             </div>
 
@@ -498,14 +519,14 @@
                                                 <div class="text-center">
                                                     <p class="stats-label small text-muted mb-1">Chats</p>
                                                     <i class="fas fa-comments stats-icon"></i>
-                                                    <p class="stats-value mb-0">{{ character.manifest.chat_clicks }}</p>
+                                                    <p class="stats-value mb-0">{{ character.chat_clicks }}</p>
                                                 </div>
 
                                                 <!-- Download statistics -->
                                                 <div class="text-center">
                                                     <p class="stats-label small text-muted mb-1">Downloads</p>
                                                     <i class="fas fa-download stats-icon"></i>
-                                                    <p class="stats-value mb-0">{{ character.manifest.download_clicks }}
+                                                    <p class="stats-value mb-0">{{ character.download_clicks }}
                                                     </p>
                                                 </div>
 
@@ -513,7 +534,7 @@
                                                 <div class="text-center">
                                                     <p class="stats-label small text-muted mb-1">Favorites</p>
                                                     <i class="fas fa-heart stats-icon"></i>
-                                                    <p class="stats-value mb-0">{{ character.manifest.favorites_count }}
+                                                    <p class="stats-value mb-0">{{ character.favorites_count }}
                                                     </p>
                                                 </div>
                                             </div>
@@ -521,18 +542,17 @@
                                             <!-- Action buttons -->
                                             <div class="character-actions d-flex gap-2">
                                                 <!-- Chat button -->
-                                                <a type="button" class="btn btn-primary flex-grow-1"
-                                                    target="_blank"
-                                                    :class="!character.manifest?.shareUrl && !character.manifest?.share_url ? 'disabled' : ''"
-                                                    @click.stop="openChat(character.manifest?.shareUrl || character.manifest?.share_url)">
+                                                <a type="button" class="btn btn-primary flex-grow-1" target="_blank"
+                                                    :class="!character.shareUrl && !character.share_url ? 'disabled' : ''"
+                                                    @click.stop="openChat(character.shareUrl || character.share_url)">
                                                     <span class="button-text">Chat </span>
                                                     <i class="fas fa-comment"></i>
                                                 </a>
 
                                                 <!-- Download button -->
                                                 <button type="button" class="btn btn-success flex-grow-1"
-                                                    :class="!character.manifest?.downloadPath && !character.manifest?.download_path ? 'disabled' : ''"
-                                                    @click.stop="downloadCharacterFile(character.manifest.downloadPath || character.manifest?.download_path)">
+                                                    :class="!character.downloadPath && !character.download_path ? 'disabled' : ''"
+                                                    @click.stop="downloadCharacterFile(character.downloadPath || character.download_path)">
                                                     <span class="button-text">Download </span>
                                                     <i class="fas fa-download"></i>
                                                 </button>
@@ -546,6 +566,63 @@
                 </section>
             </div>
 
+            <!-- No favorites found message -->
+            <div v-if="charactersToDisplay.length === 0 && !stateLoading && onlyFavorites" class="text-center py-5"
+                :class="{ 'dark-theme': stTheme.isDarkMode }">
+                <div class="empty-state-container">
+                    <!-- Playful animated icon -->
+                    <i class="fas fa-heart-broken fa-4x mb-4 text-muted animated-pulse"></i>
+
+                    <!-- Catchy heading -->
+                    <h4 class="mb-3">Your Favorites Collection Is Feeling Lonely!</h4>
+
+                    <!-- Playful message with guidance -->
+                    <p class="text-muted mb-4">
+                        Looks like you haven't fallen in love with any characters yet.
+                        <br>
+                        Time to play matchmaker! Find characters that spark joy and click their
+                        <i class="fas fa-heart text-danger animated-beat"></i> to add them here.
+                    </p>
+
+                    <!-- Action button with personality -->
+                    <a href="acc-characters.html" class="btn btn-primary">
+                        <i class="fas fa-compass me-2"></i>Embark on a Character Quest
+                    </a>
+                </div>
+            </div>
+
+            <!-- No characters found message -->
+            <div v-else-if="charactersToDisplay.length === 0 && !stateLoading && !onlyFavorites" class="text-center py-5"
+                :class="{ 'dark-theme': stTheme.isDarkMode }">
+                <div class="empty-state-container">
+                    <!-- Personality-filled icon -->
+                    <i class="fas fa-ghost fa-4x mb-4 text-muted animated-bounce"></i>
+
+                    <!-- Catchy heading -->
+                    <h4 class="mb-3">Whoops! The Characters Have Vanished!</h4>
+
+                    <!-- Message with personality -->
+                    <p class="text-muted mb-4">
+                        It seems our characters have gone on an unexpected adventure!
+                        <br>
+                        This could be a glitch in the matrix or just a temporary hiccup.
+                        <br>
+                        Let's try to bring them back, shall we?
+                    </p>
+
+                    <!-- Action buttons with better icons and text -->
+                    <div class="d-flex justify-content-center gap-3">
+                        <a href="acc-characters.html" class="btn btn-primary">
+                            <i class="fas fa-sync-alt me-2"></i>Summon Characters Back
+                        </a>
+                        <a href="https://github.com/your-repo/issues/new" target="_blank"
+                            class="btn btn-outline-secondary">
+                            <i class="fas fa-bug me-2"></i>Report This Mystery
+                        </a>
+                    </div>
+                </div>
+            </div>
+
 
 
         </div>
@@ -553,7 +630,7 @@
 
 
         <!-- Pagination -->
-        <div v-if="showPagination" class="pagination-container py-2" :class="{ 'dark-theme': stTheme.isDarkTheme }">
+        <div v-if="showPagination && charactersToDisplay.length > 0" class="pagination-container py-2" :class="{ 'dark-theme': stTheme.isDarkTheme }">
             <nav aria-label="Navegação de páginas">
                 <ul class="pagination justify-content-center">
                     <!-- Botão de página anterior - desabilitado quando estiver na primeira página -->

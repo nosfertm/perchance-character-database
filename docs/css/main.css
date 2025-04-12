@@ -44,3 +44,75 @@ footer a {
 footer a:hover {
     color: #6c757d !important;
 }
+
+/* -------------------------------------------------------------------------- */
+/*                               GLOBAL SPINNER                               */
+/* -------------------------------------------------------------------------- */
+
+/* Full page loading container - properly centered */
+.loading-container-fullpage {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1050; /* Higher than most content, like a modal */
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+}
+
+/* Dark theme support */
+.dark-theme.loading-container-fullpage {
+    background-color: rgba(33, 37, 41, 0.8); /* Dark semi-transparent background */
+}
+
+.loading-content {
+    padding: 2rem;
+    border-radius: 0.5rem;
+    max-width: 400px;
+}
+
+.spinner-container {
+    position: relative;
+}
+
+.spinner-container::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    border: 2px solid rgba(var(--bs-primary-rgb), 0.1);
+    border-top-color: var(--bs-primary);
+    transform: translate(-50%, -50%);
+    animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: translate(-50%, -50%) scale(0.8);
+        opacity: 0.5;
+    }
+    50% {
+        transform: translate(-50%, -50%) scale(1.2);
+        opacity: 0.3;
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(0.8);
+        opacity: 0.5;
+    }
+}
+
+.loading-message {
+    animation: fadeInOut 3s ease-in-out infinite;
+}
+
+@keyframes fadeInOut {
+    0% { opacity: 0.5; }
+    50% { opacity: 1; }
+    100% { opacity: 0.5; }
+}

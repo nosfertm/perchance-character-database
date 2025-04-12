@@ -75,6 +75,30 @@ export const DatabaseService = {
         }
     },
 
+    
+    async advancedSelect(table, filters = {}, columns = '*', errorMsg) {
+        try {
+            let query = supabase.from(table).select(columns);
+    
+            // Apply filters if provided
+            Object.entries(filters).forEach(([column, value]) => {
+                query = query.eq(column, value);
+            });
+    
+            const { data, error } = await query.single();
+    
+            if (error) {
+                console.error(`Error fetching ${errorMsg || table}:`, error);
+                return { data: null, error };
+            }
+    
+            return { data, error: null };
+        } catch (error) {
+            console.error('Error in simpleSelect:', error);
+            return { data: null, error };
+        }
+    },
+
     async update(table, updatedData, errorMsg) {
         try {
             // Get the current authenticated user

@@ -1,5 +1,5 @@
 // Import the pinia store
-import { piniaUser, piniaTheme, piniaSiteConfig } from './store.js';
+import { piniaUser, piniaTheme, piniaSiteConfig, piniaIndexedDb } from './store.js';
 
 // Import supabase helper
 import { DatabaseService, supabase } from './supabase.js';
@@ -67,33 +67,26 @@ document.addEventListener('DOMContentLoaded', async () => {
                 // Get ID from URL parameters
                 const params = new URLSearchParams(window.location.search);
                 this.author_id = params.get('id'); // Capture URL ID
-            
+
                 const authorID = this.author_id;
-            
+
                 if (!authorID) return;
-            
+
                 // Validate if authorID is a UUID (basic check)
                 const isUUID = /^[0-9a-fA-F-]{36}$/.test(authorID);
-            
+
                 try {
                     // Always fetch author characters
                     const promises = [this.getAuthorCharacters(authorID)];
-            
+
                     // Fetch author data only if the ID is a valid UUID
                     if (isUUID) {
                         promises.push(this.getAuthorData(authorID));
                     }
-            
+
                     // Execute all requests in parallel
-                    const [authorCharacters, authorData] = await Promise.all(promises);
-            
-                    // Assign character data
-                    this.characters = authorCharacters;
-            
-                    // Assign author data only if the UUID check passed
-                    if (isUUID) {
-                        this.author_data = authorData;
-                    }
+                    await Promise.all(promises);
+
                 } catch (error) {
                     console.error('Error fetching data:', error);
                 }
@@ -112,7 +105,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                     console.error('Error fetching profile:', error);
                     throw error;
                 }
-                return data;
+                this.author_data = data;
             },
 
             // Function to get author's characters
@@ -133,8 +126,8 @@ document.addEventListener('DOMContentLoaded', async () => {
                     throw new Error(`Failed to fetch author's characters: ${result.error}`);
                 }
 
-                // Extract characters from the result
-                return result.data;
+                // Assign character data
+                this.characters = result.data.characters;
             },
 
             // Add a method to decode special characters and emojis
@@ -176,14 +169,14 @@ document.addEventListener('DOMContentLoaded', async () => {
             openChat(link) {
                 // Check if the current window is inside an iframe
                 const isInIframe = window.self !== window.top;
-                
+
                 if (isInIframe) {
                     try {
                         // Try to access parent window origin - this may fail due to cross-origin restrictions
                         const parentOrigin = window.parent.location.origin;
                         const specificOrigin = "https://perchance.org/tps-ai-character-chat-groupchat"; // Replace with your specific iframe parent URL
                         console.log("Parent origin:", parentOrigin);
-                        
+
                         if (parentOrigin === specificOrigin) {
                             // If inside the specific iframe, send message to parent
                             console.log("Inside specific iframe, sending message to parent");
@@ -194,14 +187,14 @@ document.addEventListener('DOMContentLoaded', async () => {
                         // Cannot access parent origin due to cross-origin restrictions
                         // We'll use a more generic approach below
                         console.log("Cannot access parent origin:", e);
-                        
+
                         // Alternative: You can still send the message and let the parent decide
                         // if it wants to handle it based on its own logic
                         window.parent.postMessage({ link: link }, "*");
                         return; // Exit function early
                     }
                 }
-                
+
                 // If not in an iframe or not in the specific iframe, open URL in new tab
                 console.log("Opening link in new tab");
                 window.open(link, '_blank');
@@ -228,10 +221,10 @@ document.addEventListener('DOMContentLoaded', async () => {
             },
 
             /**
-             * Toggle a character as favorite for the current user
-             * @param {string} id - The character ID to toggle as favorite
-             * @returns {Promise<void>}
-             */
+                         * Toggle a character as favorite for the current user
+                         * @param {string} id - The character ID to toggle as favorite
+                         * @returns {Promise<void>}
+                         */
             async toggleFavorite(id) {
                 try {
                     const userId = piniaUser().userData.id;
@@ -273,6 +266,24 @@ document.addEventListener('DOMContentLoaded', async () => {
                         // Update this.character with the modified item
                         this.character = { ...character };
 
+
+                        // Check if character exists in dataStore with a valid TTL
+                        const dataStore = await piniaIndexedDb().getDataStore();
+                        let characterData = await dataStore.get('characters', characterId);
+
+                        // Update the favorite status in the character data
+                        characterData.data.is_favorited = character.is_favorited;
+                        characterData.data.favorites_count = character.favorites_count;
+
+                        // Update the indexedDb
+                        await dataStore.put('characters', {
+                            id: characterData.id,
+                            page: characterData.page,
+                            data: characterData.data,
+                            ttl: characterData.ttl,
+                            updatedAt: Date.now()
+                        });
+
                     }
 
                 } catch (error) {
@@ -283,20 +294,20 @@ document.addEventListener('DOMContentLoaded', async () => {
         },
         computed: {
             truncatedBio() {
-                return this.author_data?.bio.length > this.maxLength 
-                    ? this.author_data?.bio.substring(0, this.maxLength) + "..." 
+                return this.author_data?.bio.length > this.maxLength
+                    ? this.author_data?.bio.substring(0, this.maxLength) + "..."
                     : this.author_data?.bio;
             },
 
-            needsTruncation () {
-                return this.author_data?.bio.length > this.maxLength 
+            needsTruncation() {
+                return this.author_data?.bio.length > this.maxLength
             },
 
             isProfileOwner() {
                 console.log('isProfileOwner', this.author_data?.id, piniaUser().userData.id);
                 return !!this.author_data?.id && this.author_data?.id === piniaUser().userData.id;
             }
-            
+
         }
     });
 

@@ -230,3 +230,120 @@
   line-height: 1;
   white-space: nowrap;
 }
+
+/* ----------------------------- USER CHARACTER ----------------------------- */
+/* Character Avatar Styling */
+.character-avatar {
+  border-radius: 8px;
+  border: 2px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.character-avatar.shape-portrait {
+  aspect-ratio: 3/4;
+  object-fit: cover;
+}
+
+.character-avatar.shape-circle {
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.character-avatar.size-1 {
+  width: 25%;
+}
+
+.character-avatar.size-2 {
+  width: 50%;
+}
+
+.character-avatar.size-3 {
+  width: 75%;
+}
+
+.character-avatar.size-4 {
+  width: 100%;
+}
+
+/* Character Profile Card */
+.character-profile {
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.character-name {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.character-bio {
+  line-height: 1.6;
+}
+
+/* Scene Styling */
+.scene-background {
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.scene-background:hover {
+  opacity: 0.9;
+  transform: scale(1.01);
+}
+
+.no-background-placeholder {
+  background-color: #f0f0f0;
+  color: #666;
+  padding: 50px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+/* Dark Mode Adjustments */
+[data-bs-theme="dark"] .character-profile {
+  background-color: #2a2a2a;
+  border-color: #444;
+}
+
+[data-bs-theme="dark"] .no-background-placeholder {
+  background-color: #333;
+  color: #aaa;
+}
+
+
+/* ------------------------------ MODAL STYLING ----------------------------- */
+.image-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.modal-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-modal img {
+  max-width: 95vw;
+  max-height: 95vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 10px; /* Ensures rounded corners */
+  overflow: hidden; /* Prevents overflow issues */
+}
+
+
