@@ -48,8 +48,8 @@
                                     @click.stop="openImageModal">
 
                                 <!-- NSFW overlay with flame icon -->
-                                <div v-if="characterData?.is_nsfw && characterData?.blur_nsfw && !show_nsfw" class="nsfw-overlay"
-                                    @click.stop="toggleNsfw">
+                                <div v-if="characterData?.is_nsfw && characterData?.blur_nsfw && !show_nsfw"
+                                    class="nsfw-overlay" @click.stop="toggleNsfw">
                                     <i class="fa-solid fa-fire-flame-curved fa-2x"></i>
                                 </div>
                             </div>
@@ -100,16 +100,14 @@
                                     <div class="text-center">
                                         <p class="stats-label small mb-1">Chats</p>
                                         <i class="fas fa-comments stats-icon"></i>
-                                        <p class="stats-value mb-0">{{ characterData?.global_chat_clicks ||
-                                            characterData?.chat_clicks }}</p>
+                                        <p class="stats-value mb-0">{{ characterData?.global_chat_clicks || characterData?.chat_clicks }}</p>
                                     </div>
 
                                     <!-- Download statistics -->
                                     <div class="text-center">
                                         <p class="stats-label small mb-1">Downloads</p>
                                         <i class="fas fa-download stats-icon"></i>
-                                        <p class="stats-value mb-0">{{ characterData?.global_download_clicks ||
-                                            characterData?.download_clicks }}
+                                        <p class="stats-value mb-0">{{ characterData?.global_download_clicks || characterData?.download_clicks }}
                                         </p>
                                     </div>
 
@@ -117,8 +115,7 @@
                                     <div class="text-center">
                                         <p class="stats-label small mb-1">Favorites</p>
                                         <i class="fas fa-heart stats-icon"></i>
-                                        <p class="stats-value mb-0">{{ characterData?.global_favorites_count ||
-                                            characterData?.favorites_count }}
+                                        <p class="stats-value mb-0">{{ characterData?.global_favorites_count || characterData?.favorites_count }}
                                         </p>
                                     </div>
                                 </div>
@@ -132,7 +129,8 @@
                                         </button>
                                         <button class="btn btn-success shadow-0 me-2 btn-icon"
                                             @click="downloadCharacterFile(characterData?.download_path)">
-                                            <i class="fa fa-download"></i> <span class="d-none d-sm-inline">Download</span>
+                                            <i class="fa fa-download"></i> <span
+                                                class="d-none d-sm-inline">Download</span>
                                         </button>
                                         <button
                                             :class="characterData?.is_favorited ? 'favorite-btn favorited' : 'favorite-btn not-favorited'"
@@ -154,7 +152,8 @@
                                         </button>
                                         <ul class="dropdown-menu">
                                             <li><a class="dropdown-item disabled" href="#">Implementing soon...</a></li>
-                                            <li><a class="dropdown-item disabled" href="#">Wrong Rating (Disabled)</a></li>
+                                            <li><a class="dropdown-item disabled" href="#">Wrong Rating (Disabled)</a>
+                                            </li>
                                             <li><a class="dropdown-item disabled" href="#">Missing Avatar (Disabled)</a>
                                             </li>
                                         </ul>
@@ -173,8 +172,7 @@
             <section class="py-4">
                 <div class="container">
                     <div class="row gx-4">
-                        <div class="mb-4"
-                        :class="otherCharacters?.length > 0 ? 'col-lg-8' : 'col-12'">
+                        <div class="mb-4" :class="otherCharacters?.length > 0 ? 'col-lg-8' : 'col-12'">
                             <div class="border rounded-2 px-3 py-2" :class="stTheme.isDarkMode ? 'bg-secondary' : ''">
 
                                 <!-- Pills navs -->
@@ -185,7 +183,8 @@
                                             role="presentation">
                                             <button v-if="tab.show"
                                                 class="nav-link d-flex align-items-center justify-content-center w-100"
-                                                :class="{ active: activeTab === tab.key }" @click="getCharData(tab.key)">
+                                                :class="{ active: activeTab === tab.key }"
+                                                @click="getCharData(tab.key)">
                                                 {{ tab.label }}
                                             </button>
                                         </li>
@@ -212,9 +211,7 @@
                                                                 <div class="progress-bar" role="progressbar"
                                                                     style="width: 100%;" aria-valuenow="100"
                                                                     aria-valuemin="0" aria-valuemax="100">
-                                                                    {{
-                                                                    extractFromArray(characterData?.categories?.features_custom_code)
-                                                                    }}
+                                                                    {{extractFromArray(characterData?.categories?.features_custom_code)}}
                                                                 </div>
                                                             </div>
                                                         </td>
@@ -233,14 +230,13 @@
                                                                 <div class="progress-bar" role="progressbar"
                                                                     style="width: 100%;" aria-valuenow="100"
                                                                     aria-valuemin="0" aria-valuemax="100">
-                                                                    {{
-                                                                    extractFromArray(characterData?.categories?.features_customcode)
-                                                                    }}
+                                                                    {{extractFromArray(characterData?.categories?.features_customcode)}}
                                                                 </div>
                                                             </div>
                                                         </td>
                                                     </tr>
-                                                    <tr v-show="characterData?.categories?.features_imageprompttriggers">
+                                                    <tr
+                                                        v-show="characterData?.categories?.features_imageprompttriggers">
                                                         <th>
                                                             Image Prompt Triggers
                                                             <span class="ms-1" data-bs-toggle="tooltip"
@@ -254,9 +250,7 @@
                                                                 <div class="progress-bar" role="progressbar"
                                                                     style="width: 100%;" aria-valuenow="100"
                                                                     aria-valuemin="0" aria-valuemax="100">
-                                                                    {{
-                                                                    extractFromArray(characterData?.categories?.features_imageprompttriggers)
-                                                                    }}
+                                                                    {{extractFromArray(characterData?.categories?.features_imageprompttriggers)}}
                                                                 </div>
                                                             </div>
                                                         </td>
@@ -275,9 +269,7 @@
                                                                 <div class="progress-bar" role="progressbar"
                                                                     style="width: 100%;" aria-valuenow="100"
                                                                     aria-valuemin="0" aria-valuemax="100">
-                                                                    {{
-                                                                    extractFromArray(characterData?.categories?.features_imagepromptsuffix)
-                                                                    }}
+                                                                    {{extractFromArray(characterData?.categories?.features_imagepromptsuffix)}}
                                                                 </div>
                                                             </div>
                                                         </td>
@@ -296,9 +288,7 @@
                                                                 <div class="progress-bar" role="progressbar"
                                                                     style="width: 100%;" aria-valuenow="100"
                                                                     aria-valuemin="0" aria-valuemax="100">
-                                                                    {{
-                                                                    extractFromArray(characterData?.categories?.features_imagepromptprefix)
-                                                                    }}
+                                                                    {{extractFromArray(characterData?.categories?.features_imagepromptprefix)}}
                                                                 </div>
                                                             </div>
                                                         </td>
@@ -320,9 +310,7 @@
                                                                     :style="{ width: getMessageProgressBarWidth(characterData?.categories?.features_initialmessages) }"
                                                                     aria-valuenow="100" aria-valuemin="0"
                                                                     aria-valuemax="100">
-                                                                    {{
-                                                                    extractFromArray(characterData?.categories?.features_initialmessages)
-                                                                    }}
+                                                                    {{extractFromArray(characterData?.categories?.features_initialmessages)}}
                                                                 </div>
                                                             </div>
                                                         </td>
@@ -336,9 +324,7 @@
                                                                 <i class="bi bi-question-circle small-icon"></i>
                                                             </span>
                                                         </th>
-                                                        <td>{{
-                                                            extractFromArray(characterData?.categories?.features_lorebooks)
-                                                            }}</td>
+                                                        <td>{{extractFromArray(characterData?.categories?.features_lorebooks)}}</td>
                                                     </tr>
                                                     <tr v-show="characterData?.categories?.features_remindermessage">
                                                         <th>
@@ -354,9 +340,7 @@
                                                                 <div class="progress-bar" role="progressbar"
                                                                     style="width: 100%;" aria-valuenow="100"
                                                                     aria-valuemin="0" aria-valuemax="100">
-                                                                    {{
-                                                                    extractFromArray(characterData?.categories?.features_remindermessage)
-                                                                    }}
+                                                                    {{extractFromArray(characterData?.categories?.features_remindermessage)}}
                                                                 </div>
                                                             </div>
                                                         </td>
@@ -378,9 +362,7 @@
                                                                     :style="{ width: getMessageProgressBarWidth(characterData?.categories?.features_roleinstruction) }"
                                                                     aria-valuenow="100" aria-valuemin="0"
                                                                     aria-valuemax="100">
-                                                                    {{
-                                                                    extractFromArray(characterData?.categories?.features_roleinstruction)
-                                                                    }}
+                                                                    {{extractFromArray(characterData?.categories?.features_roleinstruction)}}
                                                                 </div>
                                                             </div>
                                                         </td>
@@ -399,9 +381,7 @@
                                                                 <div class="progress-bar" role="progressbar"
                                                                     style="width: 100%;" aria-valuenow="100"
                                                                     aria-valuemin="0" aria-valuemax="100">
-                                                                    {{
-                                                                    extractFromArray(characterData?.categories?.features_scene)
-                                                                    }}
+                                                                    {{extractFromArray(characterData?.categories?.features_scene)}}
                                                                 </div>
                                                             </div>
                                                         </td>
@@ -418,9 +398,7 @@
                                                         <td>
                                                             <span
                                                                 :class="characterData?.categories?.features_usercharacter ? 'badge bg-success' : 'badge bg-danger'">
-                                                                {{
-                                                                extractFromArray(characterData?.categories?.features_usercharacter)
-                                                                ? 'Yes' : 'No' }}
+                                                                {{extractFromArray(characterData?.categories?.features_usercharacter) ? 'Yes' : 'No' }}
                                                             </span>
                                                         </td>
                                                     </tr>
@@ -436,9 +414,7 @@
                                                         <td>
                                                             <span
                                                                 :class="characterData?.categories?.features_systemcharacter ? 'badge bg-success' : 'badge bg-danger'">
-                                                                {{
-                                                                extractFromArray(characterData?.categories?.features_systemcharacter)
-                                                                ? 'Yes' : 'No' }}
+                                                                {{extractFromArray(characterData?.categories?.features_systemcharacter) ? 'Yes' : 'No' }}
                                                             </span>
                                                         </td>
                                                     </tr>
@@ -454,9 +430,7 @@
                                                         <td>
                                                             <span
                                                                 :class="characterData?.categories?.features_avatar ? 'badge bg-success' : 'badge bg-danger'">
-                                                                {{
-                                                                extractFromArray(characterData?.categories?.features_avatar)
-                                                                ? 'Yes' : 'No' }}
+                                                                {{extractFromArray(characterData?.categories?.features_avatar) ? 'Yes' : 'No' }}
                                                             </span>
                                                         </td>
                                                     </tr>
@@ -497,12 +471,14 @@
                                                     class="mb-3 d-flex flex-wrap gap-2 align-items-center">
                                                     <template
                                                         v-if="Array.isArray(category) ? category.length > 0 : category">
-                                                        <h6 :class="{ 'text-white': stTheme.isDarkMode }" class="mb-0 me-2">
+                                                        <h6 :class="{ 'text-white': stTheme.isDarkMode }"
+                                                            class="mb-0 me-2">
                                                             {{categoryName.split(' ').map(word =>
                                                             word.charAt(0).toUpperCase() +
                                                             word.slice(1)).join(' ')}}:
                                                         </h6>
-                                                        <span v-if="categoryName !== 'rating' || Array.isArray(category)"
+                                                        <span
+                                                            v-if="categoryName !== 'rating' || Array.isArray(category)"
                                                             v-for="tag in category" class="badge"
                                                             :class="characterData?.is_nsfw ? 'bg-danger' : 'bg-primary'">{{tag}}
                                                         </span>
@@ -534,7 +510,7 @@
                                                             v-html="formatMessageContent(parsedJsonContent.roleInstruction || '')">
                                                         </div>
                                                     </div>
-                                                    
+
                                                 </div>
 
                                             </div>
@@ -560,12 +536,13 @@
                                                     <div v-if="parsedJsonContent.music?.url" class="music-player">
                                                         <h5 class="mb-3">Background Music:</h5>
                                                         <audio controls class="w-100">
-                                                            <source :src="parsedJsonContent.music.url" type="audio/mpeg">
+                                                            <source :src="parsedJsonContent.music.url"
+                                                                type="audio/mpeg">
                                                             Your browser does not support the audio element.
                                                         </audio>
                                                     </div>
                                                 </div>
-                                                
+
                                             </div>
 
 
@@ -594,7 +571,8 @@
                                             <a :href="'character-details.html?uuid=' + character.id" class="me-3 mb-4">
                                                 <div style="overflow: hidden; position: relative;">
                                                     <img :src="character?.imageUrl || character?.imageurl || character?.image_url"
-                                                        alt="Character Image" style="min-width: 100px; max-height: 120px;"
+                                                        alt="Character Image"
+                                                        style="min-width: 100px; max-height: 120px;"
                                                         :style="character?.is_nsfw && character?.blur_nsfw ? 'filter: blur(5px);' : ''"
                                                         class="img-md img-thumbnail" @click.stop="toggleNsfw">
 
@@ -623,35 +601,58 @@
                 </div>
             </section>
 
+            
+            <section v-if="characterID" class="container col-12">
+                <hr>
+                <giscus-widget
+                    id="comments"
+                    :repo="(stSite.giscus.pages?.characterDetail?.repo ?? (stSite.repo.owner + '/' + stSite.repo.name))"
+                    :repoid="stSite.giscus.pages?.characterDetail?.repoId ?? stSite.giscus.repoId"
+                    :category="stSite.giscus.pages?.characterDetail?.category"
+                    :categoryid="stSite.giscus.pages?.characterDetail?.categoryid"
+
+                    :strict="(stSite.giscus.pages?.characterDetail?.strict ?? stSite.giscus.strict) ? '1' : '0'"
+                    :reactionsenabled="(stSite.giscus.pages?.characterDetail?.reactionsenabled ?? stSite.giscus.reactionsenabled) ? '1' : '0'"
+                    :emitmetadata="stSite.giscus.pages?.characterDetail?.emitmetadata ?? stSite.giscus.emitmetadata"
+                    :inputposition="stSite.giscus.pages?.characterDetail?.inputposition ?? stSite.giscus.inputposition"
+                    :lang="stSite.giscus.pages?.characterDetail?.lang ?? stSite.giscus.lang"
+                    :loading="stSite.giscus.pages?.characterDetail?.loading ?? stSite.giscus.loading"
+                    :crossorigin="stSite.giscus.pages?.characterDetail?.crossorigin ?? stSite.giscus.crossorigin"
+                    
+                    mapping="specific"
+                    :term="characterID"
+                    :theme="stTheme.currentTheme"
+                ></giscus-widget>
+            </section>
+            
+
         </div>
 
-    <!-- Dynamic Loading Component (Vertically Centered) -->
-<div v-else class="loading-container-fullpage" :class="{ 'dark-theme': stTheme.isDarkMode }">
-    <div class="loading-content text-center">
-        <!-- Animated loading spinner -->
-        <div class="spinner-container mb-4">
-            <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;">
-                <span class="visually-hidden">Loading...</span>
+        <!-- Dynamic Loading Component (Vertically Centered) -->
+        <div v-else class="loading-container-fullpage" :class="{ 'dark-theme': stTheme.isDarkMode }">
+            <div class="loading-content text-center">
+                <!-- Animated loading spinner -->
+                <div class="spinner-container mb-4">
+                    <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                </div>
+
+                <!-- Random loading message -->
+                <h5 class="loading-message mb-3">{{ stSite.getMessage() }}</h5>
+
+                <!-- Optional progress indicator -->
+                <div v-if="showProgress" class="progress mb-4 mx-auto" style="max-width: 300px;">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                        :style="{ width: loadingProgress + '%' }" :aria-valuenow="loadingProgress" aria-valuemin="0"
+                        aria-valuemax="100">
+                        {{ loadingProgress }}%
+                    </div>
+                </div>
             </div>
         </div>
-        
-        <!-- Random loading message -->
-        <h5 class="loading-message mb-3">{{ stSite.getMessage() }}</h5>
-        
-        <!-- Optional progress indicator -->
-        <div v-if="showProgress" class="progress mb-4 mx-auto" style="max-width: 300px;">
-            <div class="progress-bar progress-bar-striped progress-bar-animated" 
-                role="progressbar" 
-                :style="{ width: loadingProgress + '%' }" 
-                :aria-valuenow="loadingProgress" 
-                aria-valuemin="0" 
-                aria-valuemax="100">
-                {{ loadingProgress }}%
-            </div>
-        </div>
-    </div>
-</div>
-          
+
+
 
         <!-- Footer component -->
         <footer-component></footer-component>
@@ -665,6 +666,9 @@
     <!-- Pinia and VueDemi -->
     <script src="https://cdn.jsdelivr.net/npm/vue-demi@0.14.6/lib/index.iife.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/pinia@2.1.7/dist/pinia.iife.js"></script>
+
+    <!-- Giscus comments -->
+    <script type="module" src="https://esm.sh/giscus"></script>
 
     <!-- Custom JavaScript -->
     <script type="module" src="js/character-details.js"></script>

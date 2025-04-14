@@ -8,8 +8,30 @@ export const piniaSiteConfig = Pinia.defineStore('configManager', {
         repo: {
             owner: 'nosfertm',
             name: 'perchance-character-database',
-            branch: 'main'
+            branch: 'main',
         },
+
+        giscus: {
+            repoId: "R_kgDONtIfmw",
+            strict: true,
+            reactionsenabled: true,
+            emitmetadata: false,
+            inputposition: "top",
+            lang: "en",
+            loading: "lazy",
+            crossorigin: "anonymous",
+            pages: {
+                characterDetail: {
+                    category: "Characters",
+                    categoryid: "DIC_kwDONtIfm84CpEJh",
+                },
+                author: {
+                    category: "Authors",
+                    categoryid: "DIC_kwDONtIfm84CpEJi",
+                },
+            },
+        }
+        ,
 
         // File paths for different content types
         paths: {
@@ -68,7 +90,7 @@ export const piniaSiteConfig = Pinia.defineStore('configManager', {
         site: {
             title: 'Perchance Character Database',
             description: 'Community-driven platform for Perchance.org characters and resources',
-            version: '1.0.0',
+            version: '3.4.2',
             pageTitle: 'Perchance DBA',
             featuredSections: [
                 {
@@ -138,22 +160,22 @@ export const piniaSiteConfig = Pinia.defineStore('configManager', {
             // Initialize with a random message
             this.site.loading.randomSeed = Math.floor(Math.random() * this.site.loading.loadingMessages.length);
             this.site.loading.currentMessageIndex = this.site.loading.randomSeed;
-            
+
             // Set up message rotation every 3 seconds
             this.site.loading.loadingMessageInterval = setInterval(() => {
                 this.site.loading.currentMessageIndex = (this.site.loading.currentMessageIndex + 1) % this.site.loading.loadingMessages.length;
             }, 3000);
-            
+
             // Optional progress simulation
             this.site.loading.showProgress = withProgress;
             if (withProgress) {
                 this.site.loading.loadingProgress = 0;
                 this.site.loading.progressInterval = setInterval(() => {
                     // Progress more quickly at first, then slow down
-                    const increment = this.site.loading.loadingProgress < 70 
-                        ? Math.random() * 10 
+                    const increment = this.site.loading.loadingProgress < 70
+                        ? Math.random() * 10
                         : Math.random() * 3;
-                        
+
                     this.site.loading.loadingProgress = Math.min(
                         99, // Never reach 100% automatically
                         this.site.loading.loadingProgress + increment
@@ -165,12 +187,12 @@ export const piniaSiteConfig = Pinia.defineStore('configManager', {
         // Clean up and complete loading
         stopLoading() {
             clearInterval(this.site.loading.loadingMessageInterval);
-            
+
             if (this.site.loading.showProgress) {
                 clearInterval(this.site.loading.progressInterval);
                 this.site.loading.loadingProgress = 100; // Complete the progress bar
             }
-            
+
             // You could emit an event here to signal loading completion
             this.site.loading.$emit('loading-complete');
         }
@@ -495,7 +517,7 @@ export const piniaIndexedDb = Pinia.defineStore('indexedDbManager', {
         dataStore: null,
         dbName: 'CharactersDatabase',
         dbVersion: 1,
-        
+
         // Array of all object store names we expect to use
         requiredStores: ['characters', 'simpleCharacters', 'authorCharacters', 'authorData'],
     }),
@@ -592,7 +614,7 @@ export const piniaIndexedDb = Pinia.defineStore('indexedDbManager', {
                             const store = transaction.objectStore(storeName);
                             const index = store.index("page"); // Use the index created in the store
                             const request = index.getAll(page); // Fetch all records for the given page
-                
+
                             request.onsuccess = () => resolve(request.result);
                             request.onerror = () => reject(request.error);
                         });
@@ -603,12 +625,12 @@ export const piniaIndexedDb = Pinia.defineStore('indexedDbManager', {
                             const transaction = db.transaction(storeName, 'readonly');
                             const store = transaction.objectStore(storeName);
                             const request = store.getAll();
-                
+
                             request.onsuccess = () => resolve(request.result);
                             request.onerror = () => reject(request.error);
                         });
                     },
-                
+
                     put: (storeName, object) => {
                         return new Promise((resolve, reject) => {
                             try {
@@ -673,7 +695,7 @@ export const piniaIndexedDb = Pinia.defineStore('indexedDbManager', {
 
             return item && item.ttl && Date.now() < item.ttl;
         },
-        
+
 
         // Create a new TTL based on minutes
         createTTL(minutes) {

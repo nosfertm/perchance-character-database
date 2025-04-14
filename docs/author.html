@@ -265,6 +265,30 @@
             </section>
         </div>
 
+        <!-- Comments section -->
+        <section v-if="author_id && !!author_data?.enable_giscus" class="container col-12">
+            <hr>
+            <giscus-widget
+                id="comments"
+                :repo="(stSite.giscus.pages?.author?.repo ?? (stSite.repo.owner + '/' + stSite.repo.name))"
+                :repoid="stSite.giscus.pages?.author?.repoId ?? stSite.giscus.repoId"
+                :category="stSite.giscus.pages?.author?.category"
+                :categoryid="stSite.giscus.pages?.author?.categoryid"
+                
+                :strict="(stSite.giscus.pages?.author?.strict ?? stSite.giscus.strict) ? '1' : '0'"
+                :reactionsenabled="(stSite.giscus.pages?.author?.reactionsenabled ?? stSite.giscus.reactionsenabled) ? '1' : '0'"
+                :emitmetadata="stSite.giscus.pages?.author?.emitmetadata ?? stSite.giscus.emitmetadata"
+                :inputposition="stSite.giscus.pages?.author?.inputposition ?? stSite.giscus.inputposition"
+                :lang="stSite.giscus.pages?.author?.lang ?? stSite.giscus.lang"
+                :loading="stSite.giscus.pages?.author?.loading ?? stSite.giscus.loading"
+                :crossorigin="stSite.giscus.pages?.author?.crossorigin ?? stSite.giscus.crossorigin"
+                
+                mapping="specific"
+                :term="author_id"
+                :theme="stTheme.currentTheme"
+            ></giscus-widget>
+        </section>
+
         <!-- Footer component -->
         <footer-component></footer-component>
 
@@ -277,6 +301,9 @@
     <!-- Pinia and VueDemi -->
     <script src="https://cdn.jsdelivr.net/npm/vue-demi@0.14.6/lib/index.iife.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/pinia@2.1.7/dist/pinia.iife.js"></script>
+
+    <!-- Giscus comments -->
+    <script type="module" src="https://esm.sh/giscus"></script>
 
     <!-- Custom JavaScript -->
     <script type="module" src="js/author.js"></script>
