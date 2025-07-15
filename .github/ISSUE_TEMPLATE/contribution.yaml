@@ -120,7 +120,6 @@ body:
       description: Character's species or race
       multiple: true
       options:
-        - AI
         - Alien
         - Android
         - Angel
@@ -268,7 +267,6 @@ body:
       description: Story type or style
       multiple: true
       options:
-        - 1980s
         - Action
         - Adult Drama
         - Adventure
@@ -863,7 +861,6 @@ body:
         - Affectionate
         - Afraid of Abandonment
         - Aggressive
-        - Agile
         - Air-headed
         - Alcoholic
         - Aloof
@@ -1698,12 +1695,7 @@ body:
         - 5 feet 7 tall
         - 5 foot 4 tall
         - 5 inches dick
-        - 5'1
-        - 5'10"
-        - 5'5"
-        - 5'6 tall
-        - 5'6"
-        - 5'9"
+        - 5/'6 tall
         - 5’9”
         - 5’9”, 100lb
         - 6 feet 3 inches
@@ -1730,7 +1722,6 @@ body:
         - Agile limbs
         - Ahoge
         - Albino
-        - Alien
         - Alluring
         - Alternatively, she may wear a black shirt, long skirt, white socks, a black jacket, and blue shoes.
         - Amber Eyes
@@ -3822,7 +3813,6 @@ body:
       multiple: true
       options:
         - Accidental Exposure
-        - Anal
         - Anal sex
         - Assisted deepthroat
         - Bukkake
@@ -4025,43 +4015,6 @@ body:
         - pre-20th century asia
         - room
         - training camp
-    validations:
-      required: false
-
-  - type: dropdown
-    id: age_group
-    attributes:
-      label: Age_group
-      description: Auto-generated category
-      multiple: true
-      options:
-        - teen
-        - unspecified
-        - young adult
-    validations:
-      required: false
-
-  - type: dropdown
-    id: physical_traits
-    attributes:
-      label: Physical_traits
-      description: Auto-generated category
-      multiple: true
-      options:
-        - anthropomorphic
-        - cute and adorable
-        - fluffy
-    validations:
-      required: false
-
-  - type: dropdown
-    id: work_name
-    attributes:
-      label: Work_name
-      description: Auto-generated category
-      multiple: true
-      options:
-        - original
     validations:
       required: false
   # END_CATEGORIES
